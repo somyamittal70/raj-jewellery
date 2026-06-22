@@ -51,9 +51,9 @@ const processSteps = [
 ]
 
 const contactDetails = [
-  { icon: MapPin, label: 'Visit Us', lines: ['12, Jewellers Row, Connaught Place', 'New Delhi – 110001, India'] },
-  { icon: Phone, label: 'Call Us', lines: ['+91 98765 43210', '+91 11 2345 6789'] },
-  { icon: Mail, label: 'Email Us', lines: ['hello@rajjewellers.co.in', 'bespoke@rajjewellers.co.in'] },
+  { icon: MapPin, label: 'Visit Us', lines: ['main market, nearby kisan medical store, Unchagaon Dist- Bulandshahr Pincode- 203398 State- Uttar Pradesh'] },
+  { icon: Phone, label: 'Call Us', lines: ['+91 9761560132', '+91 9927667814' , '+91 6397113855', '+91 8273193330', '+91 7060587403'], },
+  { icon: Mail, label: 'Email Us', lines: ['Rajjewellers9927@gmail.com'] },
   { icon: Clock, label: 'Hours', lines: ['Mon – Sat: 10am – 7pm', 'Sunday: By Appointment'] },
 ]
 
@@ -247,7 +247,7 @@ export default function CraftsmanshipAndContactSection() {
             <motion.div {...fadeUp(0.3)} className="relative lg:sticky lg:top-28">
               <div className="relative overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1618220179428-22790b461013?w=900&q=90"
+                  src="https://i.pinimg.com/736x/8f/45/d4/8f45d440ea2cfe1228b1779f2a8267c9.jpg"
                   alt="Jewellery artisan at work"
                   className="w-full h-64 sm:h-80 lg:h-[600px] object-cover"
                 />
@@ -296,7 +296,7 @@ export default function CraftsmanshipAndContactSection() {
               </p>
               <div className="relative hidden lg:block">
                 <img
-                  src="https://images.unsplash.com/photo-1607703703520-bb638e84caf2?w=600&q=85"
+                  src="https://i.pinimg.com/1200x/a4/6f/b9/a46fb9a37346cbc5497ce7803a88a52a.jpg"
                   alt="Luxury jewellery detail"
                   className="w-full h-52 object-cover"
                 />
@@ -325,7 +325,7 @@ export default function CraftsmanshipAndContactSection() {
             <div className="lg:col-span-2 relative h-72 sm:h-96 lg:h-full lg:min-h-[480px]">
               <iframe
                 title="Raj Jewellers Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.9032540577403!2d77.21987917550376!3d28.632734675670604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37b741d057%3A0xd24d5659e0c71d7b!2sConnaught%20Place%2C%20New%20Delhi%2C%20Delhi%20110001!5e0!3m2!1sen!2sin!4v1718000000000!5m2!1sen!2sin"
+                src="https://maps.app.goo.gl/42nxXteK8wyoFeN7A"
                 width="100%" height="100%"
                 style={{ border: 0, filter: 'grayscale(40%) contrast(1.1) brightness(0.85)' }}
                 allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"

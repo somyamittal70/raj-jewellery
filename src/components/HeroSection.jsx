@@ -14,7 +14,7 @@ export default function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-left px-5 sm:px-10 md:px-14 max-w-xs sm:max-w-lg md:max-w-2xl lg:max-w-4xl xl:max-w-5xl">
+      <div className="relative z-10 text-left px-5 sm:px-10 md:px-14 max-w-xs sm:max-w-lg md:max-w-2xl lg:max-w-4xl xl:max-w-5xl mt-8">
 
         {/* Main heading */}
         <motion.h1

@@ -9,6 +9,7 @@ import Gallery from './pages/Gallery'
 import Contact from './pages/Contact'
 import Shop from './pages/Shop'
 import Collections from './pages/Collections'
+import ProductDetail from './pages/ProductDetail'
 
 function AnimatedRoutes() {
   const location = useLocation()
@@ -19,8 +20,9 @@ function AnimatedRoutes() {
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/shop" element={<Shop/>}/>
-        <Route path="/collection" element={<Collections/>}/>
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/shop/:slug" element={<ProductDetail />} />
+        <Route path="/collection" element={<Collections />} />
       </Routes>
     </AnimatePresence>
   )

@@ -7,17 +7,17 @@ const contactInfo = [
   {
     icon: MapPin,
     label: 'Visit Us',
-    lines: ['12, Jewellers Row, Connaught Place', 'New Delhi – 110001, India'],
+    lines: ['main market, nearby kisan medical store, Unchagaon Dist- Bulandshahr Pincode- 203398 State- Uttar Pradesh'],
   },
   {
     icon: Phone,
     label: 'Call Us',
-    lines: ['+91 98765 43210', '+91 11 2345 6789'],
+    lines: ['+91 9761560132', '+91 9927667814' , '+91 6397113855', '+91 8273193330', '+91 7060587403'],
   },
   {
     icon: Mail,
     label: 'Email Us',
-    lines: ['hello@rajjewellers.co.in', 'bespoke@raj.co.in'],
+    lines: ['Rajjewellers9927@gmail.com'],
   },
   {
     icon: Clock,

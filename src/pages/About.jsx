@@ -148,35 +148,93 @@ export default function About() {
       <CTASection />
 
       {/* ── Craftsmanship collage ── */}
-      <section className="py-16 sm:py-20 lg:py-28 bg-espresso px-4 sm:px-6">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-10 sm:mb-16">
-            <span className="section-label text-gold/80">Behind Each Piece</span>
-            <h2 className="font-display text-ivory text-3xl sm:text-4xl lg:text-5xl mt-4 mb-5">
-              The Art of Craftsmanship
-            </h2>
-            <div className="gold-divider" />
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-3">
-            {craftsmanshipImages.map((src, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: i * 0.1 }}
-                className={`overflow-hidden ${i === 0 || i === 3 ? 'aspect-[3/4]' : 'aspect-square'}`}
-              >
-                <img
-                  src={src}
-                  alt={`Craftsmanship ${i + 1}`}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                />
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
+<section className="py-16 sm:py-20 lg:py-28 bg-espresso px-4 sm:px-6">
+  <div className="max-w-7xl mx-auto">
+    <div className="text-center mb-10 sm:mb-16">
+      <span className="section-label text-gold/80">Behind Each Piece</span>
+      <h2 className="font-display text-ivory text-3xl sm:text-4xl lg:text-5xl mt-4 mb-5">
+        The Art of Craftsmanship
+      </h2>
+      <div className="gold-divider" />
+    </div>
+
+    {/* Mobile: stacked single col
+        sm: 2 col uniform
+        md+: original 4 col with tall first & last */}
+    <div className="hidden md:grid md:grid-cols-4 gap-3">
+      {craftsmanshipImages.map((src, i) => (
+        <motion.div
+          key={i}
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: i * 0.1 }}
+          className={`overflow-hidden ${i === 0 || i === 3 ? 'aspect-[3/4]' : 'aspect-square'}`}
+        >
+          <img
+            src={src}
+            alt={`Craftsmanship ${i + 1}`}
+            className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+          />
+        </motion.div>
+      ))}
+    </div>
+
+    {/* Mobile & tablet layout */}
+    <div className="md:hidden space-y-2">
+      {/* First image — full width hero */}
+      <motion.div
+        initial={{ opacity: 0, scale: 0.9 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, delay: 0 }}
+        className="overflow-hidden aspect-[16/9] sm:aspect-[21/9]"
+      >
+        <img
+          src={craftsmanshipImages[0]}
+          alt="Craftsmanship 1"
+          className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+        />
+      </motion.div>
+
+      {/* Middle two — side by side */}
+      <div className="grid grid-cols-2 gap-2">
+        {[1, 2].map(i => (
+          <motion.div
+            key={i}
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: i * 0.1 }}
+            className="overflow-hidden aspect-[16/9] sm:aspect-[21/9]"
+          >
+            <img
+              src={craftsmanshipImages[i]}
+              alt={`Craftsmanship ${i + 1}`}
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+            />
+          </motion.div>
+        ))}
+      </div>
+
+      {/* Last image — full width */}
+      <motion.div
+        initial={{ opacity: 0, scale: 0.9 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, delay: 0.3 }}
+        className="overflow-hidden aspect-[16/9] sm:aspect-[21/9]"
+      >
+        <img
+          src={craftsmanshipImages[3]}
+          alt="Craftsmanship 4"
+          className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+        />
+      </motion.div>
+    </div>
+
+  </div>
+</section>
 
       {/* ── Founder Section ── */}
       <section className="py-12 sm:py-16 lg:py-20 px-5 sm:px-8 lg:px-12 bg-cream">

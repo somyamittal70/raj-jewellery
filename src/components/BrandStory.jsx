@@ -2,15 +2,15 @@ import { motion } from 'framer-motion'
 
 const stats = [
   { value: '27+', label: 'Years of Mastery' },
-  { value: '5000+', label: 'Happy Clients' },
+  { value: '5K+', label: 'Happy Clients' },
   { value: '250+', label: 'Exclusive Designs' },
 ]
 
 export default function BrandStory() {
   return (
-    <section className="py-28 bg-ivory overflow-hidden">
-      <div className="max-w-7xl mx-auto px-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+    <section className="py-28 sm:py-16 xs:py-10 bg-ivory overflow-hidden">
+      <div className="max-w-7xl mx-auto px-10 sm:px-6 xs:px-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 sm:gap-10 items-center">
           {/* Image side */}
           <motion.div
             initial={{ opacity: 0, x: -60 }}
@@ -23,17 +23,17 @@ export default function BrandStory() {
             <div className="relative">
               
               {/* Inner inset border */}
-<div className="absolute inset-[14px] border border-espresso/20 pointer-events-none" />
+              <div className="absolute inset-[14px] border border-espresso/20 pointer-events-none" />
               <img
                 src="https://i.pinimg.com/736x/09/f4/50/09f4507d8b02c1dc09f5df68c92602ee.jpg"
                 alt="Jewellery craftsmanship"
-                className="w-full h-[500px] object-cover"
+                className="w-full h-[500px] sm:h-[380px] xs:h-[260px] object-cover"
               />
-                          <div className="absolute -left-10 top-1/2 -translate-y-1/2 -rotate-90 text-espresso text-[9px] tracking-[0.2em] uppercase whitespace-nowrap">
-  Est. 1999 · Raj Jewellers
-</div>
+              <div className="absolute -left-10 top-1/2 -translate-y-1/2 -rotate-90 text-espresso text-[9px] tracking-[0.2em] uppercase whitespace-nowrap hidden lg:block">
+                Est. 1999 · Raj Jewellers
+              </div>
          
-       {/* Floating accent card */}
+              {/* Floating accent card */}
               {/* <motion.div
                 initial={{ opacity: 0, y: 15 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -59,7 +59,7 @@ export default function BrandStory() {
             transition={{ duration: 0.9, ease: [0.25, 0.46, 0.45, 0.94] }}
           >
             <span className="section-label">Our Heritage</span>
-            <h2 className="font-display text-espresso text-4xl sm:text-5xl mt-4 mb-6 leading-tight">
+            <h2 className="font-display text-espresso text-4xl sm:text-3xl xs:text-2xl mt-4 mb-6 leading-tight">
               Where Every Gem
               <br />
               <span className="text-gold">Tells a Story</span>
@@ -78,11 +78,18 @@ export default function BrandStory() {
             </p>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 border-t border-espresso/10 pt-8">
-              {stats.map(({ value, label }) => (
-                <div key={label}>
-                  <div className="font-display text-3xl text-gold">{value}</div>
-                  <div className="text-espresso/50 text-xs tracking-wide mt-1">{label}</div>
+            <div className="grid grid-cols-3 xs:grid-cols-2 gap-7 xs:gap-x-5 xs:gap-y-6 border-t border-espresso/10 pt-8">
+              {stats.map(({ value, label }, i) => (
+                <div
+                  key={label}
+                  className={
+                    i === stats.length - 1
+                      ? 'xs:col-span-2 xs:border-t xs:border-espresso/10 xs:pt-4'
+                      : ''
+                  }
+                >
+                  <div className="font-display text-[clamp(1.5rem,5vw,2rem)] text-gold">{value}</div>
+                  <div className="text-espresso/50 text-[clamp(10px,2.5vw,12px)] tracking-wide mt-1 leading-snug">{label}</div>
                 </div>
               ))}
             </div>

@@ -132,7 +132,7 @@ export default function Gallery() {
               <img
                 src={lightbox.src}
                 alt={lightbox.title}
-                className="w-full max-h-[75vh] sm:max-h-[80vh] object-contain"
+                className="w-full max-h-[80vh] sm:max-h-[85vh] object-contain"
               />
               <div className="mt-3 sm:mt-4 text-center">
                 <div className="font-display text-ivory text-lg sm:text-xl tracking-wide">{lightbox.title}</div>
