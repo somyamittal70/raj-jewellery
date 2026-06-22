@@ -3,17 +3,17 @@ import PageBanner from '../components/PageBanner'
 import CTASection from '../components/CTASection'
 
 const timelineEvents = [
-  { year: '2010', title: 'Brand Founded', desc: 'Raj Jewellers was born from a passion to blend traditional goldsmithing with contemporary design sensibilities.' },
-  { year: '2015', title: 'International Expansion', desc: 'We opened our first international studio in Dubai, bringing our handcrafted legacy to a global clientele.' },
+  { year: '1999', title: 'Brand Founded', desc: 'Raj Jewellers was born from a passion to blend traditional goldsmithing with contemporary design sensibilities.' },
+  { year: '2015', title: 'Other Expansion', desc: 'We opened our first  studio in Noida, bringing our handcrafted legacy to a global clientele.' },
   { year: '2020', title: 'Luxury Collection Launch', desc: 'Our most ambitious collection yet — 50 one-of-a-kind pieces that redefined what bespoke jewellery could be.' },
   { year: '2025', title: 'Modern Design Evolution', desc: 'A new era of Raj Jewellers begins, merging heritage craftsmanship with bold, contemporary aesthetics.' },
 ]
 
 const craftsmanshipImages = [
-  'https://images.unsplash.com/photo-1618220179428-22790b461013?w=500&q=85',
-  'https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=500&q=85',
-  'https://images.unsplash.com/photo-1607703703520-bb638e84caf2?w=500&q=85',
-  'https://i.pinimg.com/736x/a6/11/59/a61159ea9c64e6c67ed379afc27d5af1.jpg',
+  'https://i.pinimg.com/736x/26/9a/22/269a22394fffb2cba3eedd2520bf4970.jpg',
+  'https://i.pinimg.com/736x/7f/b1/6d/7fb16d88f8fb1ba027513ff6d49f1ec4.jpg',
+  'https://i.pinimg.com/1200x/90/b9/c3/90b9c3d7cbb00380c70624fc3f14bc6e.jpg',
+  'https://i.pinimg.com/736x/8c/ad/73/8cad7328de1c9f3ea1f3ec1db6e82501.jpg',
 ]
 
 function fadeUp(delay = 0) {
@@ -36,7 +36,7 @@ export default function About() {
       <PageBanner
         title="Our Story"
         subtitle="Heritage & Craft"
-        image="https://i.pinimg.com/1200x/2f/23/cf/2f23cfd59b00d2635a9bcf9a3a856639.jpg"
+        image="https://i.pinimg.com/736x/22/14/1e/22141ed6d68c74bd8fe84734d26fc9bf.jpg"
       />
 
       {/* Story Section */}
@@ -63,7 +63,7 @@ export default function About() {
             </motion.div>
             <motion.div {...fadeUp(0.2)}>
               <img
-                src="https://images.unsplash.com/photo-1618220179428-22790b461013?w=800&q=90"
+                src="https://i.pinimg.com/736x/22/14/1e/22141ed6d68c74bd8fe84734d26fc9bf.jpg"
                 alt="Jewellery artisan"
                 className="w-full h-[480px] object-cover"
               />

@@ -170,7 +170,7 @@ export default function FeaturedCollection() {
           className="text-center mt-14"
         >
           <Link
-            to="/gallery"
+            to="/collection"
             className="btn-outline-gold relative inline-flex items-center gap-2 overflow-hidden
                         transition-[transform,box-shadow] duration-500 ease-[cubic-bezier(0.25,0.46,0.45,0.94)]
                         hover:-translate-y-[2px] hover:shadow-[0_6px_24px_-4px_rgba(180,148,92,0.28)]

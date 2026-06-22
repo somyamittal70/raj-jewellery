@@ -84,8 +84,8 @@ function SeasonCard({ season, index, isActive, onClick }) {
         />
 
         {/* Corner accents */}
-        <div className="absolute top-3 left-3 w-6 h-6 border-t border-l border-gold/0 group-hover:border-gold/70 transition-all duration-500 pointer-events-none" />
-        <div className="absolute bottom-3 right-3 w-6 h-6 border-b border-r border-gold/0 group-hover:border-gold/70 transition-all duration-500 pointer-events-none" />
+        {/* <div className="absolute top-3 left-3 w-6 h-6 border-t border-l border-gold/0 group-hover:border-gold/70 transition-all duration-500 pointer-events-none" />
+        <div className="absolute bottom-3 right-3 w-6 h-6 border-b border-r border-gold/0 group-hover:border-gold/70 transition-all duration-500 pointer-events-none" /> */}
 
         {/* Year badge */}
         <div className="absolute top-4 right-4 bg-espresso/80 backdrop-blur-sm px-3 py-1">
@@ -238,7 +238,7 @@ export default function SeasonalCollectionsSection() {
                 className="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-0 overflow-hidden"
               >
                 {/* Image panel */}
-                <div className="relative h-72 lg:h-auto overflow-hidden">
+                <div className="relative h-100  overflow-hidden">
                   <img
                     src={active.image}
                     alt={active.label}
