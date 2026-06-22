@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom'
 
 export default function CTASection() {
   return (
-    <section className="relative py-32 overflow-hidden">
+    <section className="relative py-22 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1583937443604-f42c0f2c6bef?w=2000&q=85"
+          src="https://i.pinimg.com/736x/cc/e3/3a/cce33a23dba23c633033b981b3927a44.jpg"
           alt="Jewellery craftsmanship"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-charcoal/80" />
-        <div className="absolute inset-0 bg-gradient-to-r from-charcoal/60 via-charcoal/40 to-charcoal/60" />
+        {/* <div className="absolute inset-0 bg-gradient-to-r from-charcoal/60 via-charcoal/40 to-charcoal/60" /> */}
       </div>
 
       {/* Content */}

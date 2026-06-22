@@ -1,19 +1,84 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
+import { ArrowRight } from 'lucide-react'
 
 const galleryImages = [
-  { src: 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=600&q=85', alt: 'Diamond ring', tall: true },
-  { src: 'https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=600&q=85', alt: 'Gold necklace' },
-  { src: 'https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?w=600&q=85', alt: 'Bracelet' },
-  { src: 'https://images.unsplash.com/photo-1573408301185-9519f94e1083?w=600&q=85', alt: 'Earrings', tall: true },
-  { src: 'https://images.unsplash.com/photo-1601121141418-36b7e19e2b1a?w=600&q=85', alt: 'Luxury ring' },
-  { src: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&q=85', alt: 'Pearl necklace' },
+  {
+    src: 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=900&q=85',
+    alt: 'Diamond Ring',
+    gridClass: 'lg:[grid-column:1/6] lg:[grid-row:1/4]',
+  },
+ 
+  {
+    src: 'https://images.pexels.com/photos/16055232/pexels-photo-16055232.jpeg',
+    alt: 'Earrings',
+    gridClass: 'lg:[grid-column:6/10] lg:[grid-row:1/3]',
+  },
+   {
+    src: 'https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=700&q=85',
+    alt: 'Gold Necklace',
+    gridClass: 'lg:[grid-column:6/10] lg:[grid-row:3/4]',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?w=700&q=85',
+    alt: 'Bracelet',
+    gridClass: 'lg:[grid-column:10/13] lg:[grid-row:2/3]',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=700&q=85',
+    alt: 'Ring Collection',
+    gridClass: 'lg:[grid-column:10/13] lg:[grid-row:1/2]',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=700&q=85',
+    alt: 'Pendant',
+    gridClass: 'lg:[grid-column:10/13] lg:[grid-row:3/4]',
+  },
 ]
+
+function GalleryTile({ img, index }) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: '-40px' }}
+      transition={{ duration: 0.8, delay: index * 0.1, ease: [0.25, 0.46, 0.45, 0.94] }}
+      className={`group relative overflow-hidden ${img.gridClass}`}
+    >
+      <img
+        src={img.src}
+        alt={img.alt}
+        className="w-full h-full object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-[1.06]"
+        loading="lazy"
+      />
+
+      {/* Gradient overlay */}
+      <div className="absolute inset-0 bg-gradient-to-t from-espresso/60 via-transparent to-transparent opacity-75 group-hover:opacity-100 transition-opacity duration-500" />
+
+      {/* Hover gold frame */}
+      <div className="absolute inset-[10px] border border-gold/0 group-hover:border-gold/50 transition-all duration-700 pointer-events-none" />
+
+      {/* Label */}
+      <div className="absolute bottom-0 left-0 right-0 p-4 lg:p-6">
+        <div className="flex items-center gap-2 mb-1">
+          <span className="text-gold text-[0.6rem] tracking-[0.25em] uppercase font-display">
+            0{index + 1}
+          </span>
+          <div className="h-px w-6 bg-gold/60" />
+        </div>
+        <h3 className="text-ivory font-display text-lg sm:text-xl tracking-wide">
+          {img.alt}
+        </h3>
+      </div>
+    </motion.div>
+  )
+}
 
 export default function GalleryGrid() {
   return (
     <section className="py-28 px-6 bg-cream">
       <div className="max-w-7xl mx-auto">
+
         {/* Header */}
         <div className="text-center mb-16">
           <motion.span
@@ -36,34 +101,10 @@ export default function GalleryGrid() {
           <div className="gold-divider" />
         </div>
 
-        {/* Masonry-style grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
+        {/* Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 lg:grid-rows-[repeat(3,180px)] gap-3 lg:gap-4">
           {galleryImages.map((img, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, scale: 0.95 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true, margin: '-30px' }}
-              transition={{ duration: 0.6, delay: i * 0.1 }}
-              className={`group relative overflow-hidden ${img.tall ? 'row-span-2' : ''}`}
-              style={{ aspectRatio: img.tall ? '3/4' : '4/3' }}
-            >
-              <img
-                src={img.src}
-                alt={img.alt}
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                loading="lazy"
-              />
-              {/* Hover overlay */}
-              <div className="absolute inset-0 bg-espresso/50 opacity-0 group-hover:opacity-100 transition-opacity duration-400 flex items-center justify-center">
-                <div className="border border-gold/60 px-6 py-3 text-ivory text-xs tracking-[0.2em] uppercase font-display">
-                  {img.alt}
-                </div>
-              </div>
-              {/* Gold corner accent */}
-              <div className="absolute top-3 right-3 w-6 h-6 border-t border-r border-gold/0 group-hover:border-gold/80 transition-all duration-500" />
-              <div className="absolute bottom-3 left-3 w-6 h-6 border-b border-l border-gold/0 group-hover:border-gold/80 transition-all duration-500" />
-            </motion.div>
+            <GalleryTile key={i} img={img} index={i} />
           ))}
         </div>
 
@@ -72,12 +113,15 @@ export default function GalleryGrid() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="text-center mt-14"
+          className="text-center mt-16"
         >
-          <Link to="/gallery" className="btn-gold">
+          <Link to="/gallery" className="btn-gold group  items-center gap-2">
+          <div>
             View Full Gallery
+            </div>
           </Link>
         </motion.div>
+
       </div>
     </section>
   )

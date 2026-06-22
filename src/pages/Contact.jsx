@@ -17,7 +17,7 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email Us',
-    lines: ['hello@aurum.co.in', 'bespoke@aurum.co.in'],
+    lines: ['hello@rajjewellers.co.in', 'bespoke@raj.co.in'],
   },
   {
     icon: Clock,

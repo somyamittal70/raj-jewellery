@@ -3,17 +3,17 @@ import PageBanner from '../components/PageBanner'
 import CTASection from '../components/CTASection'
 
 const timelineEvents = [
-  { year: '2010', title: 'Brand Founded', desc: 'Aurum was born from a passion to blend traditional goldsmithing with contemporary design sensibilities.' },
+  { year: '2010', title: 'Brand Founded', desc: 'Raj Jewellers was born from a passion to blend traditional goldsmithing with contemporary design sensibilities.' },
   { year: '2015', title: 'International Expansion', desc: 'We opened our first international studio in Dubai, bringing our handcrafted legacy to a global clientele.' },
   { year: '2020', title: 'Luxury Collection Launch', desc: 'Our most ambitious collection yet — 50 one-of-a-kind pieces that redefined what bespoke jewellery could be.' },
-  { year: '2025', title: 'Modern Design Evolution', desc: 'A new era of Aurum begins, merging heritage craftsmanship with bold, contemporary aesthetics.' },
+  { year: '2025', title: 'Modern Design Evolution', desc: 'A new era of Raj Jewellers begins, merging heritage craftsmanship with bold, contemporary aesthetics.' },
 ]
 
 const craftsmanshipImages = [
   'https://images.unsplash.com/photo-1618220179428-22790b461013?w=500&q=85',
   'https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=500&q=85',
   'https://images.unsplash.com/photo-1607703703520-bb638e84caf2?w=500&q=85',
-  'https://images.unsplash.com/photo-1573408301185-9519f94e1083?w=500&q=85',
+  'https://i.pinimg.com/736x/a6/11/59/a61159ea9c64e6c67ed379afc27d5af1.jpg',
 ]
 
 function fadeUp(delay = 0) {
@@ -36,12 +36,12 @@ export default function About() {
       <PageBanner
         title="Our Story"
         subtitle="Heritage & Craft"
-        image="https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=1800&q=90"
+        image="https://i.pinimg.com/1200x/2f/23/cf/2f23cfd59b00d2635a9bcf9a3a856639.jpg"
       />
 
       {/* Story Section */}
       <section className="py-28 px-6 bg-cream">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-7xl mx-auto px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <motion.div {...fadeUp()}>
               <span className="section-label">Who We Are</span>
@@ -51,7 +51,7 @@ export default function About() {
               </h2>
               <div className="gold-divider-left mb-7" />
               <p className="text-espresso/65 text-sm leading-relaxed mb-5">
-                Aurum Fine Jewellery was founded on a single principle: that true luxury lies not in excess,
+                Raj Jewellery was founded on a single principle: that true luxury lies not in excess,
                 but in restraint, intention, and mastery. Each piece we create is the result of hundreds of
                 hours of design, selection, and hand-finishing.
               </p>
@@ -74,7 +74,7 @@ export default function About() {
 
       {/* Mission & Vision */}
       <section className="py-20 bg-ivory">
-        <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-1">
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-1">
           {[
             {
               label: 'Our Mission',
@@ -146,6 +146,7 @@ export default function About() {
           </div>
         </div>
       </section>
+      <CTASection />
 
       {/* Craftsmanship collage */}
       <section className="py-28 bg-espresso px-6">
@@ -178,7 +179,67 @@ export default function About() {
         </div>
       </section>
 
-      <CTASection />
+
+
+      <section className='py-12 px-12 bg-cream'>
+        <div className='max-w-7xl mx-auto'>
+
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-16 items-center'>
+
+            <motion.div {...fadeUp()}>
+              {/* <span className='text-gold text-[12px] mb-8 px-2'>
+              Our leader
+            </span> */}
+              <h1 className='text-gold text-[12px] mb-3 uppercase tracking-wide'>Our Founder</h1>
+              <div>
+                <h2 className='text-espresso text-[55px] mb-5'>
+                  Meet the Visionary
+                  Behind Raj Jewellery
+                </h2>
+                <div className='space-y-6'>
+                  <p className=' text-md text-espresso/60 '>
+                    Raj Jewellery was founded on a single principle: that true luxury lies not in excess, but in restraint, intention, and mastery. Each piece we create is the result of hundreds of hours of design, selection, and hand-finishing.
+                  </p>
+                  <p className=' text-md text-espresso/60'>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam iste corporis voluptatum, molestiae ea tenetur dicta, consequatur fuga ducimus officiis dolores odio sapiente cupiditate fugit eveniet libero est ipsam placeat.
+                  </p>
+                  <p className='text-md text-espresso/60'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus cumque reiciendis adipisci vel dolore odio voluptatum asperiores molestiae deleniti unde velit est soluta mollitia accusamus saepe, numquam sapiente consequuntur quia!
+                  </p>
+                </div>
+
+                <div className='mt-10 rounded-2xl bg-cream border border-espresso/60 p-8 shadow-lg relative'>
+                  <span className='absolute top-4 leading-none left-6 text-5xl text-gold'>
+                    ❝
+                  </span>
+                  <p className="pt-8 text-lg italic leading-8 text-espresso">
+                    Every piece of jewellery carries a story, an emotion, and a legacy that
+                    lasts for generations.
+                  </p>
+
+                  <p className="mt-6 text-right text-sm uppercase tracking-[0.2em] text-gold">
+                    — Raj Sharma
+                  </p>
+
+                </div>
+              </div>
+
+              <div>
+
+              </div>
+            </motion.div>
+
+
+
+            <motion.div {...fadeUp(0.2)} >
+              <img src="https://i.pinimg.com/736x/a0/18/3e/a0183e01ba50404f0796597c57e7f320.jpg" alt="raj jewellery founder" className='object-cover w-full aspect-[4/5]' />
+
+            </motion.div>
+          </div>
+
+        </div>
+      </section>
+
     </motion.div>
   )
 }

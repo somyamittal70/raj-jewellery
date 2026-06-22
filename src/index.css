@@ -56,7 +56,7 @@ body {
 }
 
 .text-gold {
-  color: #B08D57;
+  color: #9d7842;
 }
 
 .bg-gold {
@@ -154,7 +154,7 @@ body {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   font-size: 0.85rem;
-  color: #2B2118/20;
+  /* color: #2B2118; */
   transition: color 0.3s ease;
 }
 
@@ -178,7 +178,7 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-  color: #b58236;
+  color: #63400c;
 }
 
 /* Gold divider */

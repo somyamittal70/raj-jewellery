@@ -7,7 +7,7 @@ export default function HeroSection() {
 <section className="relative min-h-screen flex items-center justify-start overflow-hidden">      {/* Background image */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.img
-          src="https://i.pinimg.com/736x/35/b1/fb/35b1fb9136d010e5cc9f90844d56c2db.jpg"
+          src="/banner.png"
           alt="Luxury jewellery"
           className="w-full h-full object-cover"
   //           animate={{
@@ -27,7 +27,7 @@ export default function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-left px-12 max-w-5xl ">
+      <div className="relative z-10 text-left px-14 max-w-5xl ">
         {/* Pre-heading */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -35,9 +35,9 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="flex items-center justify-start gap-2 mb-4"
         >
-          <div className="h-px w-5 bg-[#1A1410]/30" />
+          {/* <div className="h-px w-5 bg-[#1A1410]/30" />
           <div className=" text-[#1A1410]/30 tracking-[0.3em] text-xs">Est. 1999</div>
-          <div className="h-px w-5 bg-[#1A1410]/30" />
+          <div className="h-px w-5 bg-[#1A1410]/30" /> */}
         </motion.div>
 
         {/* Main heading */}
@@ -59,7 +59,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className="text-[#1A1410]/80 text-base sm:text-lg tracking-wide max-w-xl mb-12 font-light"
+          className="text-[#1A1410]/80 text-[9px] sm:text-[15px] tracking-wide max-w-md mb-8 font-light"
         >
           Discover handcrafted jewellery where artistry meets luxury.
           Each piece is a testament to generations of mastery.

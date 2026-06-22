@@ -22,10 +22,14 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="md:col-span-1">
-            <div className="mb-6">
-              <div className="font-display text-3xl tracking-[0.15em] text-ivory leading-none">AURUM</div>
-              <div className="section-label text-[0.55rem] tracking-[0.35em] mt-1 text-gold">Fine Jewellery</div>
-            </div>
+              <Link to="/" className="flex items-center gap-2 group shrink-0 ">
+          <img
+            src="/logo.png"
+            alt="Raj Jewellwer logo"
+            className={`w-auto object-contain transition-all duration-500 h-30`}
+            // style={{ maxHeight: scrolled ? '80px' : '89px' }}
+          />
+        </Link>
             <p className="text-sm leading-relaxed text-ivory/50 max-w-xs">
               Handcrafted luxury jewellery where timeless artistry meets modern elegance. 
               Each piece tells a story of devotion.
@@ -116,7 +120,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col md:flex-row items-center justify-between gap-3">
         <p className="text-xs text-ivory/30 tracking-widest">
-          © 2025 AURUM FINE JEWELLERY. ALL RIGHTS RESERVED.
+          © 2025 RAJ JEWELLERS & SONS . ALL RIGHTS RESERVED.
         </p>
         <p className="text-xs text-ivory/20 tracking-wider">
           CRAFTED WITH DEVOTION

@@ -7,6 +7,8 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Gallery from './pages/Gallery'
 import Contact from './pages/Contact'
+import Shop from './pages/Shop'
+import Collections from './pages/Collections'
 
 function AnimatedRoutes() {
   const location = useLocation()
@@ -17,6 +19,8 @@ function AnimatedRoutes() {
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/shop" element={<Shop/>}/>
+        <Route path="/collection" element={<Collections/>}/>
       </Routes>
     </AnimatePresence>
   )

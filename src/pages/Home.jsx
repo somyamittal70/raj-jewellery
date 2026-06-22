@@ -4,7 +4,9 @@ import FeaturedCollection from '../components/FeaturedCollection'
 import BrandStory from '../components/BrandStory'
 import GalleryGrid from '../components/GalleryGrid'
 import Testimonials from '../components/Testimonials'
-import CTASection from '../components/CTASection'
+// import CTASection from '../components/CTASection'
+import CraftsmanshipAndContactSection from '../components/Making'
+import SeasonalCollectionsSection from '../components/SeasionalCollectionSection'
 
 export default function Home() {
   return (
@@ -18,8 +20,10 @@ export default function Home() {
       <FeaturedCollection />
       <BrandStory />
       <GalleryGrid />
+
+      <SeasonalCollectionsSection/>
       <Testimonials />
-      <CTASection />
+      <CraftsmanshipAndContactSection/>
     </motion.div>
   )
 }
