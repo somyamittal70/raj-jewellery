@@ -173,7 +173,7 @@ export default function Collections() {
       <PageBanner
         title="Collections"
         subtitle="Curated for You"
-        image="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=1800&q=90"
+        image="/banner2.png"
       />
 
       {/* Sticky nav strip — pill tabs instead of plain text links */}

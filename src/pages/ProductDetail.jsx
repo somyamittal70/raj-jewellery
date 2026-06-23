@@ -216,19 +216,23 @@ export default function ProductDetail() {
                 </div>
               )}
 
-              {/* CTA */}
-              <div className="flex flex-col sm:flex-row gap-3 mb-8">
-                <a
-                  href={waUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-gold flex items-center justify-center gap-2 py-4 text-sm"
+          {/* ✅ FIXED BUTTONS */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
+  
+                  <a  href={waUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-gold flex flex-row  justify-center gap-2 py-4 text-sm"
+                  >
+                    <WhatsAppIcon size={16} className="relative top-2"/>
+                    <span className=' block -mt-2 ml-6'>Enquire on WhatsApp</span>
+                  </a>
+
+                <Link
+                  to="/contact"
+                  className="btn-outline-gold flex flex-row items-center justify-center gap-2 py-4 text-sm"
                 >
-                  <WhatsAppIcon   className="shrink-0" size={16} />
-                  Enquire on WhatsApp
-                </a>
-                <Link to="/contact" className="btn-outline-gold flex items-center justify-center py-4 text-sm">
-                  <span clasName="-mt-4">Book Consultation</span>
+                  <span className=' block mt-2'>Book Consultation</span>
                 </Link>
               </div>
 
@@ -290,8 +294,9 @@ export default function ProductDetail() {
             rel="noopener noreferrer"
             className="btn-gold flex items-center gap-2.5 flex-shrink-0"
           >
-            <WhatsAppIcon size={16} />
-            Enquire on WhatsApp
+            <WhatsAppIcon size={16} className='relative top-2' />
+            <span className=' block -mt-2 ml-6'>Enquire on WhatsApp</span>
+
           </a>
         </div>
       </section>

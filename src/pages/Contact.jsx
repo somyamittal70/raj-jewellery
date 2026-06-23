@@ -37,7 +37,7 @@ export default function Contact() {
       <PageBanner
         title="Contact Us"
         subtitle="Let's Connect"
-        image="https://images.unsplash.com/photo-1583937443604-f42c0f2c6bef?w=1800&q=90"
+        image="/banner4.png"
       />
 
       <section className="py-16 sm:py-20 lg:py-28 px-4 sm:px-6 bg-cream">
@@ -110,7 +110,7 @@ export default function Contact() {
         <div className="absolute inset-0 flex items-center justify-center px-4">
           <div className="text-center">
             <MapPin className="text-gold mx-auto mb-3" size={36} strokeWidth={1.5} />
-            <div className="font-display text-espresso text-lg sm:text-xl">12, Jewellers Row, New Delhi</div>
+            <div className="font-display text-espresso text-lg sm:text-xl">main market, nearby kisan medical store, Unchagaon Dist- Bulandshahr Pincode- 203398 State- Uttar Pradesh</div>
           </div>
         </div>
       </section>

@@ -307,7 +307,7 @@ export default function Navbar() {
 
           {/* ── Hamburger — visible below lg ── */}
           <button
-            className="lg:hidden flex items-center justify-center w-10 h-10 rounded-full transition-colors text-ivory hover:text-gold"
+            className="lg:hidden flex items-center justify-center w-10 h-10 rounded-full transition-colors text-espresso hover:text-gold"
             onClick={() => setMenuOpen(v => !v)}
             aria-label="Toggle menu"
           >
@@ -431,7 +431,7 @@ export default function Navbar() {
                   Book Consultation
                 </Link>
                 <p className="text-ivory/25 text-[0.6rem] text-center mt-3 tracking-wide">
-                  Raj Jewellers · Est. 1985
+                  Raj Jewellers · Est. 1999
                 </p>
               </div>
             </motion.div>

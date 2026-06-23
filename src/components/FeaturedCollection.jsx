@@ -40,7 +40,7 @@ function CollectionCard({ item, index }) {
       transition={{ duration: 0.75, delay: index * 0.18, ease: silk }}
       className="group flex flex-col items-center cursor-pointer"
     >
-      <Link to="/gallery" className="flex flex-col items-center w-full">
+      <Link to="/shop" className="flex flex-col items-center w-full">
 
         {/* Circle + dotted ring wrapper */}
         {/* FIX: p-[6px] mobile, p-[10px] sm+ */}

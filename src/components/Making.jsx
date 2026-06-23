@@ -247,7 +247,7 @@ export default function CraftsmanshipAndContactSection() {
             <motion.div {...fadeUp(0.3)} className="relative lg:sticky lg:top-28">
               <div className="relative overflow-hidden">
                 <img
-                  src="https://i.pinimg.com/736x/8f/45/d4/8f45d440ea2cfe1228b1779f2a8267c9.jpg"
+                  src="/shop.png"
                   alt="Jewellery artisan at work"
                   className="w-full h-64 sm:h-80 lg:h-[600px] object-cover"
                 />

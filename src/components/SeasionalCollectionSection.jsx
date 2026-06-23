@@ -79,7 +79,7 @@ function SeasonCard({ season, index, isActive, onClick }) {
 
         {/* Year badge */}
         <div className="absolute top-2.5 right-2.5 sm:top-4 sm:right-4 bg-espresso/80 backdrop-blur-sm px-2 py-0.5 sm:px-3 sm:py-1">
-          <span className="section-label text-gold/90 text-[0.5rem] sm:text-[0.6rem] tracking-[0.2em]">
+          <span className=" text-gold/90 text-[0.5rem] sm:text-[0.6rem] tracking-[0.2em]">
             {season.year}
           </span>
         </div>
@@ -282,7 +282,7 @@ export default function SeasonalCollectionsSection() {
                 {/* CTA row — stacked on small, inline on sm+ */}
                 <div className="flex flex-col xs:flex-row items-stretch xs:items-center gap-3 sm:gap-5">
                   <Link
-                    to="/gallery"
+                    to="/collection"
                     className="btn-gold text-center text-xs sm:text-sm px-5 sm:px-6 py-2.5 sm:py-3"
                   >
                     View Collection
@@ -304,8 +304,8 @@ export default function SeasonalCollectionsSection() {
           transition={{ duration: 0.6, delay: 0.35 }}
           className="text-center mt-8 sm:mt-14"
         >
-          <Link to="/gallery" className="btn-outline-gold text-xs sm:text-sm">
-            View All Collections
+          <Link to="/shop" className="btn-outline-gold text-xs sm:text-sm">
+            Shop now with us
           </Link>
         </motion.div>
 
