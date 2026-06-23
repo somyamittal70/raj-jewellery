@@ -229,7 +229,7 @@ export default function About() {
     className="bg-espresso flex flex-col justify-center px-8 sm:px-12 lg:px-16 py-12 lg:py-20"
   >
     <span className="text-gold/80 text-[11px] uppercase tracking-[0.2em] mb-4">
-      The People Behind the Craft
+      Team Management
     </span>
     <h2 className="font-display text-ivory text-2xl sm:text-4xl lg:text-5xl leading-tight mb-5">
       Built on <span className="text-gold">Passion</span>,
@@ -251,7 +251,7 @@ export default function About() {
         We don't just make jewellery — we create legacies that last for generations.
       </p>
       <span className="block mt-3 text-[10px] uppercase tracking-[0.18em] text-gold">
-        — Raj Sharma, Founder
+        — Raj Soni, Founder
       </span>
     </div>
   </motion.div>
@@ -273,11 +273,10 @@ export default function About() {
                   Raj Jewellery was founded on a single principle: that true luxury lies not in excess, but in restraint, intention, and mastery. Each piece we create is the result of hundreds of hours of design, selection, and hand-finishing.
                 </p>
                 <p className="text-sm text-espresso/60 leading-relaxed">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam iste corporis voluptatum, molestiae ea tenetur dicta, consequatur fuga ducimus officiis dolores odio sapiente cupiditate fugit eveniet libero est ipsam placeat.
-                </p>
+He founded Raj Jewellery with a singular vision: to create pieces that embody timeless elegance, exceptional craftsmanship, and lasting value. Believing that true luxury is found in precision, intention, and artistry, he has dedicated himself to preserving the finest traditions of jewellery making while embracing contemporary design. Under his leadership, every creation reflects an unwavering commitment to quality, where meticulous attention to detail and the world's most exquisite materials come together to form heirlooms that endure across generations                </p>
                 <p className="text-sm text-espresso/60 leading-relaxed">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus cumque reiciendis adipisci vel dolore odio voluptatum asperiores molestiae deleniti unde velit est soluta mollitia accusamus saepe, numquam sapiente consequuntur quia!
-                </p>
+Under his leadership, every creation reflects an unwavering commitment to quality, where meticulous attention to detail and the world's most exquisite materials come together to form heirlooms that endure across generations         </p>       
+                <p className="text-sm text-espresso/60 leading-relaxed">                </p>
               </div>
 
               {/* Quote card */}
@@ -288,7 +287,7 @@ export default function About() {
                   lasts for generations.
                 </p>
                 <p className="mt-4 sm:mt-6 text-right text-[0.65rem] sm:text-xs uppercase tracking-[0.2em] text-gold">
-                  — Raj Sharma
+                  — Raj Soni
                 </p>
               </div>
             </motion.div>
@@ -296,9 +295,9 @@ export default function About() {
             {/* Founder image — placed after text on mobile (natural order), beside on lg */}
             <motion.div {...fadeUp(0.2)} className="order-first lg:order-none">
               <img
-                src="https://i.pinimg.com/736x/a0/18/3e/a0183e01ba50404f0796597c57e7f320.jpg"
+                src="/owner.jpeg"
                 alt="Raj Jewellery founder"
-                className="object-cover w-full aspect-[3/4] sm:aspect-[4/5]"
+                className="object-contain w-full "
               />
             </motion.div>
 

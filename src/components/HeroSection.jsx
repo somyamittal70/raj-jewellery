@@ -14,7 +14,17 @@ export default function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-left px-5 sm:px-10 md:px-14 max-w-xs sm:max-w-lg md:max-w-2xl lg:max-w-4xl xl:max-w-5xl mt-8">
+      <div className="relative z-10 text-left px-4 sm:px-8 md:px-14 w-full max-w-xs sm:max-w-lg md:max-w-2xl lg:max-w-4xl xl:max-w-5xl mt-8">
+
+        {/* Section label */}
+        <motion.span
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="section-label block text-[10px] sm:text-xs md:text-sm tracking-widest truncate max-w-full mb-3 sm:mb-4 px-2"
+        >
+          Raj Jewellers &amp; Sons &nbsp;·&nbsp; Established 1999
+        </motion.span>
 
         {/* Main heading */}
         <motion.h1
@@ -35,7 +45,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className="text-[#1A1410]/70 text-xs sm:text-sm md:text-base tracking-wide max-w-xs sm:max-w-sm md:max-w-md mb-6 sm:mb-8 font-light leading-relaxed"
+          className="text-[#1A1410]/70 text-xs sm:text-sm md:text-base tracking-wide max-w-[260px] sm:max-w-sm md:max-w-md mb-6 sm:mb-8 font-light leading-relaxed"
         >
           Discover handcrafted jewellery where artistry meets luxury.
           Each piece is a testament to generations of mastery.
