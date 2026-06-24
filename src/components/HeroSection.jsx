@@ -34,7 +34,7 @@ export default function HeroSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="block text-[9px] tracking-[0.25em] uppercase text-[#8B6914]/80 mb-4"
           >
-            Raj Jewellers &amp; Sons &nbsp;·&nbsp; Est. 1999
+            Raj Jewellers and Sons &nbsp;·&nbsp; Est. 1999
           </motion.span>
 
           <motion.h1
