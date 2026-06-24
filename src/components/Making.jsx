@@ -352,15 +352,15 @@ export default function CraftsmanshipAndContactSection() {
 
               {/* FIX: 2-col grid on sm so 4 items fit nicely on tablet */}
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-5 sm:gap-6 lg:gap-7">
-                {contactDetails.map(({ icon: Icon, label, lines }) => (
-                  <div key={label} className="flex gap-3 sm:gap-4">
-                    <div className="w-8 h-8 sm:w-9 sm:h-9 border border-gold/30 flex items-center justify-center flex-shrink-0 mt-0.5">
+                {contactDetails.map(({  label, lines }) => (
+                  <div key={label} className="flex gap-2 sm:gap-3">
+                    {/* <div className="w-8 h-8 sm:w-9 sm:h-9 border border-gold/30 flex items-center justify-center flex-shrink-0 mt-0.5">
                       <Icon size={14} className="text-gold" strokeWidth={1.5} />
-                    </div>
+                    </div> */}
                     <div>
                       <div className="section-label text-[0.6rem] text-gold/60 mb-1">{label}</div>
                       {lines.map((line, i) => (
-                        <div key={i} className="text-ivory/60 text-xs sm:text-sm leading-relaxed">{line}</div>
+                        <div key={i} className="text-ivory/60 text-md sm:text-md leading-relaxed">{line}</div>
                       ))}
                     </div>
                   </div>
