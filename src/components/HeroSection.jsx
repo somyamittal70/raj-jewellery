@@ -24,7 +24,7 @@ export default function HeroSection() {
       </div>
 
       {/* ── Content ── */}
-      <div className="relative z-10 text-left px-7 sm:px-8 md:px-14 w-full max-w-lg sm:max-w-lg md:max-w-2xl lg:max-w-4xl xl:max-w-5xl pt-26 md:pt-0 md:mt-8">
+      <div className="relative z-10 text-left px-7 sm:px-8 md:px-14 w-full max-w-lg sm:max-w-lg md:max-w-2xl lg:max-w-4xl xl:max-w-5xl pt-24 md:pt-0 md:mt-8">
 
         {/* ── MOBILE heading & copy ── */}
         <div className="block md:hidden text-center">
@@ -41,7 +41,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="font-display text-[#1A1410]/92 text-[2.8rem] leading-[1.15] tracking-wide mb-3 gold-glow"
+            className="font-display text-[#1A1410]/92 text-[2.5rem] leading-[1.15] tracking-wide mb-3 gold-glow"
           >
             <span className="text-gold">Piece</span> Tells Every
             <br />
