@@ -7,8 +7,9 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Gallery from './pages/Gallery'
 import Contact from './pages/Contact'
-import Shop from './pages/Shop'
-import Collections from './pages/Collections'
+import { ShopLanding } from './pages/Shop'
+import CategoryListingPage from './pages/Shop'
+import CollectionPage, { CollectionsLanding } from './pages/Collections'
 import ProductDetail from './pages/ProductDetail'
 
 function AnimatedRoutes() {
@@ -20,18 +21,27 @@ function AnimatedRoutes() {
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/shop" element={<Shop />} />
-        <Route path="/shop/:slug" element={<ProductDetail />} />
-        <Route path="/collection" element={<Collections />} />
-      </Routes>
+<Route path="/shop/:metal/:gender/:catSlug/:productSlug" element={<ProductDetail />} />
+<Route path="/shop/:metal/:catSlug/:productSlug" element={<ProductDetail />} />
+<Route path="/shop/:metal/:gender/:catSlug" element={<CategoryListingPage />} />
+<Route path="/shop/:metal/:catSlug" element={<CategoryListingPage />} />
+<Route path="/shop" element={<ShopLanding />} />
+<Route path="/collections/:gender/:colSlug" element={<CollectionPage />} />
+<Route path="/collections/:colSlug" element={<CollectionPage />} />  {/* bridal, kids */}
+<Route path="/collections" element={<CollectionsLanding />} />     
+ </Routes>
     </AnimatePresence>
   )
 }
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <ScrollToTop />
+<BrowserRouter
+  future={{
+    v7_startTransition: true,
+    v7_relativeSplatPath: true,
+  }}
+>      <ScrollToTop />
       <Navbar />
       <main>
         <AnimatedRoutes />
