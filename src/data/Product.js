@@ -938,7 +938,7 @@ const PRODUCT_TEMPLATES = {
     // { name:'Twisted Band',           desc:'Two strands of 18K gold twisted into one — modern, minimal, endlessly elegant.',          imgs:[I.r3,I.r4,I.r1], features:['18K Gold','Twisted Design','High-polish','Stackable'] },
   ],
   'gold/mens/chains': [
-    { name:'Curb Chain — Heavy',     desc:'Hand-assembled curb chain in 22K gold, available in 18", 20" and 22".',                   imgs:[I.mchain1,I.mchain,I.mchain4], features:['22K Gold','Mirror Polish','3 Length Options','BIS Certified'] },
+    { name:'Curb Chain — Heavy',     desc:'Hand-assembled curb chain in 22K gold, available in 18", 20" and 22".',                   imgs:[I.mchain5,I.mchain,I.mchain4], features:['22K Gold','Mirror Polish','3 Length Options','BIS Certified'] },
     { name:'Figaro Chain',           desc:'Classic Figaro pattern in 22K gold — alternating oval and round links.',                  imgs:[I.mchain3,I.mchain2,I.mchain6], features:['22K Gold','Figaro Pattern','Secure Lobster Clasp','Hallmarked'] },
     // { name:'Rope Chain',             desc:'A tightly coiled rope chain in 22K gold that gleams from every angle.',                   imgs:[I.n4,I.ch1,I.n3], features:['22K Gold','Rope Weave','3mm Width','BIS Certified'] },
   ],
