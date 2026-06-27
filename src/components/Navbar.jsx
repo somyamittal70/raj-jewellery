@@ -19,24 +19,24 @@ const goldMensCategories = [
 ]
 
 const goldWomensCategories = [
-  { label: 'Rings',           sub: 'Solitaire & Cocktail', path: '/shop/gold/womens/rings' },
-  { label: 'Neck Chains',     sub: 'Box, Herringbone',     path: '/shop/gold/womens/chains' },
-  { label: 'Earrings',        sub: 'Drops & Studs',        path: '/shop/gold/womens/earrings' },
-  { label: 'Necklaces',       sub: 'Pearl & Layered',      path: '/shop/gold/womens/necklaces' },
-  { label: 'Chokers',         sub: 'Statement Pieces',     path: '/shop/gold/womens/chokers' },
-  { label: 'Rani Haar',       sub: 'Bridal Style',         path: '/shop/gold/womens/rani-haar' },
-  { label: 'Bali',            sub: 'Floral & Diamond',     path: '/shop/gold/womens/bali' },
-  { label: 'Bracelets',       sub: 'Tennis & Charm',       path: '/shop/gold/womens/bracelets' },
-  { label: 'Chudi',           sub: 'Traditional Sets',     path: '/shop/gold/womens/chudi' },
-  { label: 'Kada',            sub: 'Floral & Diamond',     path: '/shop/gold/womens/kada' },
-  { label: 'Mangalsutra',     sub: 'Bridal Wear',          path: '/shop/gold/womens/mangalsutra' },
-  { label: 'Nath',            sub: 'Bridal Nose Ring',     path: '/shop/gold/womens/nath' },
-  { label: 'Nose Rings',      sub: 'Classic Designs',      path: '/shop/gold/womens/nose-rings' },
-  { label: 'Nose Pins',       sub: 'Elegant Styles',       path: '/shop/gold/womens/nose-pins' },
-  { label: 'Kundal',          sub: 'Traditional',          path: '/shop/gold/womens/kundal' },
-  { label: 'Jhumki',          sub: 'Traditional Drops',    path: '/shop/gold/womens/jhumki' },
-  { label: 'Tops',            sub: 'Modern Studs',         path: '/shop/gold/womens/tops' },
-  { label: 'Temple Jewellery',sub: 'Sacred Art',           path: '/shop/gold/womens/temple' },
+  { label: 'Rings',            sub: 'Solitaire & Cocktail', path: '/shop/gold/womens/rings' },
+  { label: 'Neck Chains',      sub: 'Box, Herringbone',     path: '/shop/gold/womens/chains' },
+  { label: 'Earrings',         sub: 'Drops & Studs',        path: '/shop/gold/womens/earrings' },
+  { label: 'Necklaces',        sub: 'Pearl & Layered',      path: '/shop/gold/womens/necklaces' },
+  { label: 'Chokers',          sub: 'Statement Pieces',     path: '/shop/gold/womens/chokers' },
+  { label: 'Rani Haar',        sub: 'Bridal Style',         path: '/shop/gold/womens/rani-haar' },
+  { label: 'Bali',             sub: 'Floral & Diamond',     path: '/shop/gold/womens/bali' },
+  { label: 'Bracelets',        sub: 'Tennis & Charm',       path: '/shop/gold/womens/bracelets' },
+  { label: 'Chudi',            sub: 'Traditional Sets',     path: '/shop/gold/womens/chudi' },
+  { label: 'Kada',             sub: 'Floral & Diamond',     path: '/shop/gold/womens/kada' },
+  { label: 'Mangalsutra',      sub: 'Bridal Wear',          path: '/shop/gold/womens/mangalsutra' },
+  { label: 'Nath',             sub: 'Bridal Nose Ring',     path: '/shop/gold/womens/nath' },
+  { label: 'Nose Rings',       sub: 'Classic Designs',      path: '/shop/gold/womens/nose-rings' },
+  { label: 'Nose Pins',        sub: 'Elegant Styles',       path: '/shop/gold/womens/nose-pins' },
+  { label: 'Kundal',           sub: 'Traditional',          path: '/shop/gold/womens/kundal' },
+  { label: 'Jhumki',           sub: 'Traditional Drops',    path: '/shop/gold/womens/jhumki' },
+  { label: 'Tops',             sub: 'Modern Studs',         path: '/shop/gold/womens/tops' },
+  { label: 'Temple Jewellery', sub: 'Sacred Art',           path: '/shop/gold/womens/temple' },
 ]
 
 const goldSpecialCategories = [
@@ -46,50 +46,50 @@ const goldSpecialCategories = [
 ]
 
 const silverMensCategories = [
-  { label: 'Rings',     sub: 'Oxidised & Plain',  path: '/shop/silver/mens/rings' },
-  { label: 'Chains',    sub: 'Curb & Rope',       path: '/shop/silver/mens/chains' },
-  { label: 'Kada',      sub: 'Bold Cuffs',        path: '/shop/silver/mens/kada' },
-  { label: 'Bracelets', sub: 'Curb & ID',         path: '/shop/silver/mens/bracelets' },
+  { label: 'Rings',     sub: 'Oxidised & Plain', path: '/shop/silver/mens/rings' },
+  { label: 'Chains',    sub: 'Curb & Rope',      path: '/shop/silver/mens/chains' },
+  { label: 'Kada',      sub: 'Bold Cuffs',       path: '/shop/silver/mens/kada' },
+  { label: 'Bracelets', sub: 'Curb & ID',        path: '/shop/silver/mens/bracelets' },
 ]
 
 const silverWomensCategories = [
-  { label: 'Rings',     sub: 'Filigree & Stone',    path: '/shop/silver/womens/rings' },
-  { label: 'Chains',    sub: 'Box & Ball',           path: '/shop/silver/womens/chains' },
-  { label: 'Earrings',  sub: 'Drops & Studs',        path: '/shop/silver/womens/earrings' },
-  { label: 'Jhumke',    sub: 'Traditional Drops',    path: '/shop/silver/womens/jhumke' },
-  { label: 'Payal',     sub: 'Ankle Bracelets',      path: '/shop/silver/womens/payal' },
-  { label: 'Toe Rings', sub: 'Classic Styles',       path: '/shop/silver/womens/toe-rings' },
-  { label: 'Bracelets', sub: 'Filigree & Charm',     path: '/shop/silver/womens/bracelets' },
-  { label: 'Kada',      sub: 'Floral & Filigree',    path: '/shop/silver/womens/kada' },
-  { label: 'Pendants',  sub: 'Om & Hamsa',           path: '/shop/silver/womens/pendants' },
+  { label: 'Rings',     sub: 'Filigree & Stone',  path: '/shop/silver/womens/rings' },
+  { label: 'Chains',    sub: 'Box & Ball',         path: '/shop/silver/womens/chains' },
+  { label: 'Earrings',  sub: 'Drops & Studs',      path: '/shop/silver/womens/earrings' },
+  { label: 'Jhumke',    sub: 'Traditional Drops',  path: '/shop/silver/womens/jhumke' },
+  { label: 'Payal',     sub: 'Ankle Bracelets',    path: '/shop/silver/womens/payal' },
+  { label: 'Toe Rings', sub: 'Classic Styles',     path: '/shop/silver/womens/toe-rings' },
+  { label: 'Bracelets', sub: 'Filigree & Charm',   path: '/shop/silver/womens/bracelets' },
+  { label: 'Kada',      sub: 'Floral & Filigree',  path: '/shop/silver/womens/kada' },
+  { label: 'Pendants',  sub: 'Om & Hamsa',         path: '/shop/silver/womens/pendants' },
 ]
 
 const silverSpecialCategories = [
-  { label: 'Kids Silver',    sub: 'Safe & Delicate',  path: '/shop/silver/kids' },
-  { label: 'Silver Coins',   sub: 'Pure Silver',      path: '/shop/silver/coins' },
-  { label: 'Gift Items',     sub: 'Premium Gifting',  path: '/shop/silver/gifts' },
+  { label: 'Kids Silver',  sub: 'Safe & Delicate', path: '/shop/silver/kids' },
+  { label: 'Silver Coins', sub: 'Pure Silver',     path: '/shop/silver/coins' },
+  { label: 'Gift Items',   sub: 'Premium Gifting', path: '/shop/silver/gifts' },
 ]
 
 const collectionLinks = [
-  { label: "Men's Lightweight",    path: '/collections/mens/lightweight' },
-  { label: "Men's Daily Wear",     path: '/collections/mens/daily-wear' },
-  { label: "Men's Party Wear",     path: '/collections/mens/party-wear' },
-  { label: "Men's Traditional",    path: '/collections/mens/traditional' },
-  { label: "Women's Lightweight",  path: '/collections/womens/lightweight' },
-  { label: "Women's Daily Wear",   path: '/collections/womens/daily-wear' },
-  { label: "Women's Party Wear",   path: '/collections/womens/party-wear' },
-  { label: "Women's Traditional",  path: '/collections/womens/traditional' },
-  { label: 'Bridal Collection',    path: '/collections/bridal' },
-  { label: 'Kids Collection',      path: '/collections/kids' },
+  { label: "Men's Lightweight",   path: '/collections/mens/lightweight' },
+  { label: "Men's Daily Wear",    path: '/collections/mens/daily-wear' },
+  { label: "Men's Party Wear",    path: '/collections/mens/party-wear' },
+  { label: "Men's Traditional",   path: '/collections/mens/traditional' },
+  { label: "Women's Lightweight", path: '/collections/womens/lightweight' },
+  { label: "Women's Daily Wear",  path: '/collections/womens/daily-wear' },
+  { label: "Women's Party Wear",  path: '/collections/womens/party-wear' },
+  { label: "Women's Traditional", path: '/collections/womens/traditional' },
+  { label: 'Bridal Collection',   path: '/collections/bridal' },
+  { label: 'Kids Collection',     path: '/collections/kids' },
 ]
 
 const navLinks = [
-  { to: '/', label: 'Home' },
-  { to: '/about', label: 'About' },
-  { to: '/gallery', label: 'Gallery' },
-  { to: '/collections', label: 'Collections' },
-  { to: '/contact', label: 'Contact' },
-  { to: '/shop', label: 'Shop', hasMega: true },
+  { to: '/',           label: 'Home' },
+  { to: '/about',      label: 'About' },
+  { to: '/gallery',    label: 'Gallery' },
+  { to: '/collections',label: 'Collections' },
+  { to: '/contact',    label: 'Contact' },
+  { to: '/shop',       label: 'Shop', hasMega: true },
 ]
 
 /* ── Mobile accordion section ───────────────────────── */
@@ -158,11 +158,13 @@ function CategoryColumn({ title, items, onClose }) {
 }
 
 /* ── Desktop Mega Menu ───────────────────────────────── */
-function MegaMenu({ onClose }) {
+function MegaMenu({ onClose, onMouseEnter, onMouseLeave }) {
   const [activeTab, setActiveTab] = useState('gold')
 
   return (
     <motion.div
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
       initial={{ opacity: 0, y: -8 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -8 }}
@@ -193,9 +195,7 @@ function MegaMenu({ onClose }) {
         {activeTab === 'gold' && (
           <div>
             <div className="grid grid-cols-3 gap-8">
-              {/* Men */}
               <CategoryColumn title="Men's Gold" items={goldMensCategories} onClose={onClose} />
-              {/* Women */}
               <div className="col-span-2">
                 <p className="text-[0.6rem] tracking-[0.2em] uppercase text-espresso/40 mb-3 pb-2 border-b border-espresso/8">Women's Gold</p>
                 <div className="grid grid-cols-2 gap-x-6 gap-y-0.5">
@@ -217,7 +217,6 @@ function MegaMenu({ onClose }) {
               </div>
             </div>
 
-            {/* Special */}
             <div className="mt-5 pt-4 border-t border-espresso/8">
               <p className="text-[0.6rem] tracking-[0.2em] uppercase text-espresso/40 mb-3">Special Collections</p>
               <div className="flex flex-wrap gap-2">
@@ -239,7 +238,6 @@ function MegaMenu({ onClose }) {
               <CategoryColumn title="Women's Silver" items={silverWomensCategories} onClose={onClose} />
             </div>
 
-            {/* Special */}
             <div className="mt-5 pt-4 border-t border-espresso/8">
               <p className="text-[0.6rem] tracking-[0.2em] uppercase text-espresso/40 mb-3">Special Collections</p>
               <div className="flex flex-wrap gap-2">
@@ -260,10 +258,10 @@ function MegaMenu({ onClose }) {
 
 /* ── Main Navbar ─────────────────────────────────────── */
 export default function Navbar() {
-  const [scrolled, setScrolled] = useState(false)
-  const [menuOpen, setMenuOpen] = useState(false)
-  const [megaOpen, setMegaOpen] = useState(false)
-  const headerRef = useRef(null)
+  const [scrolled, setScrolled]   = useState(false)
+  const [menuOpen, setMenuOpen]   = useState(false)
+  const [megaOpen, setMegaOpen]   = useState(false)
+  const headerRef                 = useRef(null)
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 60)
@@ -271,14 +269,11 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
+  // ── Escape key to close mega menu ──
   useEffect(() => {
-    function handleClick(e) {
-      if (headerRef.current && !headerRef.current.contains(e.target)) {
-        setMegaOpen(false)
-      }
-    }
-    document.addEventListener('mousedown', handleClick)
-    return () => document.removeEventListener('mousedown', handleClick)
+    const handleKeyDown = (e) => { if (e.key === 'Escape') setMegaOpen(false) }
+    document.addEventListener('keydown', handleKeyDown)
+    return () => document.removeEventListener('keydown', handleKeyDown)
   }, [])
 
   useEffect(() => {
@@ -301,31 +296,54 @@ export default function Navbar() {
 
           {/* Logo */}
           <Link to="/" className="flex-shrink-0">
-            <img src="/logo3.png" alt="Raj Jewellers logo" className="w-auto object-contain transition-all duration-500"
-              style={{ height: scrolled ? '70px' : '75px' }} />
+            <img
+              src="/logo3.png"
+              alt="Raj Jewellers logo"
+              className="w-auto object-contain transition-all duration-500"
+              style={{ height: scrolled ? '70px' : '75px' }}
+            />
           </Link>
 
           {/* Desktop nav */}
           <nav className="hidden lg:flex items-center gap-5 xl:gap-8 mx-6 xl:mx-10 space-x-2">
             {navLinks.map(({ to, label, hasMega }) =>
               hasMega ? (
-                <div key={to} className="relative">
+                // ── onMouseEnter/Leave on the wrapper div ──
+                <div
+                  key={to}
+                  className="relative"
+                  onMouseEnter={() => setMegaOpen(true)}
+                  onMouseLeave={() => setMegaOpen(false)}
+                >
                   <button
-                    onMouseEnter={() => setMegaOpen(true)}
                     onClick={() => setMegaOpen(v => !v)}
-                    className={`nav-link flex items-center gap-1 text-xs tracking-[0.12em] uppercase font-body whitespace-nowrap ${megaOpen ? 'text-gold' : 'text-espresso'}`}
+                    className={`nav-link flex items-center gap-1 text-xs tracking-[0.12em] uppercase font-body whitespace-nowrap ${
+                      megaOpen ? 'text-gold' : 'text-espresso'
+                    }`}
                   >
                     {label}
                     <ChevronDown size={12} className={`transition-transform duration-300 ${megaOpen ? 'rotate-180 text-gold' : ''}`} />
                   </button>
+
                   <AnimatePresence>
-                    {megaOpen && <MegaMenu onClose={() => setMegaOpen(false)} />}
+                    {megaOpen && (
+                      <MegaMenu
+                        onClose={() => setMegaOpen(false)}
+                        onMouseEnter={() => setMegaOpen(true)}
+                        onMouseLeave={() => setMegaOpen(false)}
+                      />
+                    )}
                   </AnimatePresence>
                 </div>
               ) : (
-                <NavLink key={to} to={to} end={to === '/'}
+                <NavLink
+                  key={to}
+                  to={to}
+                  end={to === '/'}
                   className={({ isActive }) =>
-                    `nav-link text-xs tracking-[0.12em] uppercase font-body whitespace-nowrap ${isActive ? 'active text-gold' : 'text-espresso'}`
+                    `nav-link text-xs tracking-[0.12em] uppercase font-body whitespace-nowrap ${
+                      isActive ? 'active text-gold' : 'text-espresso'
+                    }`
                   }
                 >
                   {label}
@@ -336,12 +354,17 @@ export default function Navbar() {
 
           {/* Desktop CTA */}
           <div className="hidden lg:block flex-shrink-0">
-            <Link to="/contact" className="btn-gold text-xs whitespace-nowrap px-4 xl:px-5">Book Consultation</Link>
+            <Link to="/contact" className="btn-gold text-xs whitespace-nowrap px-4 xl:px-5">
+              Book Consultation
+            </Link>
           </div>
 
           {/* Hamburger */}
-          <button className="lg:hidden flex items-center justify-center w-10 h-10 rounded-full transition-colors text-espresso hover:text-gold"
-            onClick={() => setMenuOpen(v => !v)} aria-label="Toggle menu">
+          <button
+            className="lg:hidden flex items-center justify-center w-10 h-10 rounded-full transition-colors text-espresso hover:text-gold"
+            onClick={() => setMenuOpen(v => !v)}
+            aria-label="Toggle menu"
+          >
             <AnimatePresence mode="wait" initial={false}>
               {menuOpen ? (
                 <motion.span key="close" initial={{ rotate: -90, opacity: 0 }} animate={{ rotate: 0, opacity: 1 }} exit={{ rotate: 90, opacity: 0 }} transition={{ duration: 0.18 }}>
@@ -361,10 +384,17 @@ export default function Navbar() {
       <AnimatePresence>
         {menuOpen && (
           <>
-            <motion.div key="backdrop" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.3 }}
-              className="fixed inset-0 z-40 bg-black/60 backdrop-blur-sm lg:hidden" onClick={() => setMenuOpen(false)} />
+            <motion.div
+              key="backdrop"
+              initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
+              transition={{ duration: 0.3 }}
+              className="fixed inset-0 z-40 bg-black/60 backdrop-blur-sm lg:hidden"
+              onClick={() => setMenuOpen(false)}
+            />
 
-            <motion.div key="drawer" initial={{ x: '100%' }} animate={{ x: 0 }} exit={{ x: '100%' }}
+            <motion.div
+              key="drawer"
+              initial={{ x: '100%' }} animate={{ x: 0 }} exit={{ x: '100%' }}
               transition={{ duration: 0.38, ease: [0.25, 0.46, 0.45, 0.94] }}
               className="fixed top-0 right-0 bottom-0 z-50 w-[min(320px,85vw)] bg-espresso flex flex-col lg:hidden overflow-hidden"
             >
@@ -382,9 +412,13 @@ export default function Navbar() {
               <div className="flex-1 overflow-y-auto px-6 py-4">
                 <nav className="flex flex-col mb-2">
                   {navLinks.filter(link => !link.hasMega).map(({ to, label }) => (
-                    <NavLink key={to} to={to} end={to === '/'} onClick={() => setMenuOpen(false)}
+                    <NavLink
+                      key={to} to={to} end={to === '/'}
+                      onClick={() => setMenuOpen(false)}
                       className={({ isActive }) =>
-                        `py-3.5 text-sm tracking-[0.12em] uppercase font-body border-b border-white/8 transition-colors duration-200 ${isActive ? 'text-gold' : 'text-ivory/80 hover:text-gold'}`
+                        `py-3.5 text-sm tracking-[0.12em] uppercase font-body border-b border-white/8 transition-colors duration-200 ${
+                          isActive ? 'text-gold' : 'text-ivory/80 hover:text-gold'
+                        }`
                       }
                     >
                       {label}
@@ -394,13 +428,13 @@ export default function Navbar() {
 
                 <div className="mt-2">
                   <p className="text-gold/60 text-[0.6rem] tracking-[0.2em] uppercase mb-3 mt-2">Gold</p>
-                  <MobileSection title="Men's Gold" items={goldMensCategories} onClose={() => setMenuOpen(false)} />
-                  <MobileSection title="Women's Gold" items={goldWomensCategories} onClose={() => setMenuOpen(false)} />
-                  <MobileSection title="Gold Special" items={goldSpecialCategories} onClose={() => setMenuOpen(false)} />
+                  <MobileSection title="Men's Gold"   items={goldMensCategories}     onClose={() => setMenuOpen(false)} />
+                  <MobileSection title="Women's Gold" items={goldWomensCategories}   onClose={() => setMenuOpen(false)} />
+                  <MobileSection title="Gold Special" items={goldSpecialCategories}  onClose={() => setMenuOpen(false)} />
 
                   <p className="text-gold/60 text-[0.6rem] tracking-[0.2em] uppercase mb-3 mt-4">Silver</p>
-                  <MobileSection title="Men's Silver" items={silverMensCategories} onClose={() => setMenuOpen(false)} />
-                  <MobileSection title="Women's Silver" items={silverWomensCategories} onClose={() => setMenuOpen(false)} />
+                  <MobileSection title="Men's Silver"   items={silverMensCategories}    onClose={() => setMenuOpen(false)} />
+                  <MobileSection title="Women's Silver" items={silverWomensCategories}  onClose={() => setMenuOpen(false)} />
                   <MobileSection title="Silver Special" items={silverSpecialCategories} onClose={() => setMenuOpen(false)} />
 
                   <p className="text-gold/60 text-[0.6rem] tracking-[0.2em] uppercase mb-3 mt-4">Collections</p>

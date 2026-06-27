@@ -328,7 +328,7 @@ export function CollectionsLanding() {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <section className="relative h-[46vh] sm:h-[50vh] min-h-[360px] sm:min-h-[420px] flex items-end pb-12 sm:pb-16 overflow-hidden">
+      <section className="relative h-[50vh] sm:h-[50vh] min-h-[380px] sm:min-h-[480px] flex items-end pb-12 sm:pb-16 overflow-hidden">
         <div className="absolute inset-0">
           <img
             src="/banner2.png"
