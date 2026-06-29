@@ -18,43 +18,43 @@ const COLLECTION_CONTENT = {
     tagline: 'Crafted to Move With You',
     desc: 'Engineered for the man who demands excellence without effort. Our Men\'s Lightweight Collection pairs the authority of gold and silver with featherweight designs — pieces you can wear from dawn to midnight without a second thought.',
     accent: 'Under 5 grams · All-day comfort',
-    heroBg: 'https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=1800&q=90',
+    heroBg: 'https://i.pinimg.com/1200x/58/d2/98/58d298992c9e331fe275288c8a9853e0.jpg',
   },
   'mens/daily-wear': {
     tagline: 'For the Man Who Moves the World',
     desc: 'Refined pieces built for the relentless pace of modern life. Durable settings, enduring finishes, and understated elegance that holds its polish through every meeting, every mile.',
     accent: 'Durable · Scratch-resistant · Boardroom-ready',
-    heroBg: 'https://images.unsplash.com/photo-1630019852942-f89202989a59?w=1800&q=90',
+    heroBg: 'https://i.pinimg.com/736x/01/61/06/0161062e88b963800b0ba3f05c51dd75.jpg',
   },
   'mens/party-wear': {
     tagline: 'Make Your Presence Known',
     desc: 'Statement pieces for men who understand that the right jewellery changes every room. Bold chains, commanding signet rings, and layered pieces designed to be noticed.',
     accent: 'Bold · Statement · Commanding',
-    heroBg: 'https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=1800&q=90',
+    heroBg: 'https://i.pinimg.com/1200x/e4/fb/ed/e4fbed2f9d2a9c9f99327a9ba0851c62.jpg',
   },
   'mens/traditional': {
     tagline: 'Heritage, Worn With Pride',
     desc: 'Rooted in generations of Indian goldsmithing tradition. Om lockets, kanthi necklaces, and kada that carry the weight of culture and the beauty of mastercraft.',
     accent: 'Traditional · Sacred · Heritage',
-    heroBg: 'https://images.unsplash.com/photo-1583937443604-f42c0f2c6bef?w=1800&q=90',
+    heroBg: 'https://i.pinimg.com/1200x/e5/34/8c/e5348c61f7047993f1ed13abd4bb6141.jpg',
   },
   'womens/lightweight': {
     tagline: 'Luxury That Feels Like Nothing',
     desc: 'Gossamer-thin designs, delicate chains, and airy filigree — jewellery so light you forget you\'re wearing it. Until someone stops to ask.',
     accent: 'Under 3 grams · Effortless',
-    heroBg: 'https://images.unsplash.com/photo-1573408301185-9519f94e1083?w=1800&q=90',
+    heroBg: 'https://i.pinimg.com/1200x/1b/0d/e1/1b0de13ac5e76759ac7fd05e6cb1372d.jpg',
   },
   'womens/daily-wear': {
     tagline: 'From Morning Coffee to Midnight',
     desc: 'Crafted for the woman who does everything. These pieces move from desk to dinner without missing a beat — enduring, thoughtful, and quietly magnificent.',
     accent: 'All-day · Tarnish-resistant',
-    heroBg: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=1800&q=90',
+    heroBg: 'https://i.pinimg.com/1200x/b4/5e/7f/b45e7f0c8a385d7a88019c1cece34213.jpg',
   },
   'womens/party-wear': {
     tagline: 'Every Room Is Your Stage',
     desc: 'Chandelier earrings, layered necklaces, and bold statement pieces. This collection was designed to be seen — and to make you unforgettable.',
     accent: 'Bold · Showstopping · Festive',
-    heroBg: 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=1800&q=90',
+    heroBg: 'https://i.pinimg.com/1200x/b8/a3/1b/b8a31b8017f1dbcc3fd989e1b0e5f0c1.jpg',
   },
   'womens/traditional': {
     tagline: 'India\'s Finest Traditions, Reimagined',
@@ -66,13 +66,13 @@ const COLLECTION_CONTENT = {
     tagline: 'For Your Most Precious Chapter',
     desc: 'Every bride deserves jewellery as singular as her love story. Our Bridal Collection spans the full spectrum of India\'s bridal tradition — from intimate mehndi pieces to grand nuptial sets.',
     accent: 'Complete sets · Bespoke service · Customisable',
-    heroBg: 'https://images.unsplash.com/photo-1498671546682-94a232c26d17?w=1800&q=90',
+    heroBg: 'https://i.pinimg.com/1200x/96/a3/4d/96a34d8023a5b200acfe363a03dbbac2.jpg',
   },
   'kids': {
     tagline: 'Tiny Pieces, Lifelong Memories',
     desc: 'Delicate, safe, and beautifully crafted — our Kids Collection creates the first jewellery memories that last a lifetime. Each piece is designed with child safety as the first priority.',
     accent: 'Safe · Hypoallergenic · BIS Certified',
-    heroBg: 'https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=1800&q=90',
+    heroBg: 'https://i.pinimg.com/1200x/30/96/75/3096757dd278bf67181c5cfd50fc9bcf.jpg',
   },
 }
 
@@ -163,8 +163,7 @@ export default function CollectionPage() {
             alt={collection.label}
             className="w-full h-full object-cover scale-105"
           />
-          <div className="absolute inset-0 bg-charcoal/65" />
-          <div className="absolute inset-0 bg-gradient-to-t from-charcoal/80 via-charcoal/20 to-transparent" />
+
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-6 w-full">
           <motion.div
@@ -180,7 +179,7 @@ export default function CollectionPage() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.15 }}
-            className="font-display text-ivory text-4xl sm:text-6xl lg:text-7xl leading-[1.05]"
+            className="font-display text-espresso text-4xl sm:text-6xl lg:text-7xl leading-[1.05]"
           >
             {collection.label}
           </motion.h1>
