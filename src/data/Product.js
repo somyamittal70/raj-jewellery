@@ -999,11 +999,11 @@ const PRODUCT_TEMPLATES = {
   ],
   'gold/mens/om-collection': [
     { name:'Om Pendant',             desc:'A minimal Om pendant in 22K gold — sacred simplicity.',                                  imgs:[I.Om,I.Om3,I.Om2], features:['22K Gold','Om Design','Lightweight','BIS Certified'] },
-    { name:'Om Signet Ring',         desc:'The Om symbol inlaid in a classic 22K gold signet ring.',                                imgs:[I.Om4,I.Om5,I.om6], features:['22K Gold','Om Inlay','Signet Style','Hallmarked'] },
+    { name:'Om Signet Ring',         desc:'The Om symbol inlaid in a classic 22K gold signet ring.',                                imgs:[I.Om4,I.Om5,I.Om6], features:['22K Gold','Om Inlay','Signet Style','Hallmarked'] },
   ],
   'gold/womens/necklaces': [
-    { name:'Pearl Strand Necklace',  desc:'South Sea pearls strung on 18K gold silk — a classic that transcends generations.',      imgs:[I.necklace2,I.necklace,I.necklace3], features:['18K Gold Clasp','South Sea Pearls','Hand-knotted','Luxury Box'] },
-    { name:'Layered Gold Necklace',  desc:'Three layers of 22K gold chains at varying lengths — effortlessly editorial.',           imgs:[I.necklace4,I.necklace5,I.necklace6], features:['22K Gold','Triple Layer','Adjustable','BIS Certified'] },
+    { name:'Pearl Strand Necklace',  desc:'South Sea pearls strung on 18K gold silk — a classic that transcends generations.',      imgs:[I.necklaces2,I.necklaces,I.necklaces3], features:['18K Gold Clasp','South Sea Pearls','Hand-knotted','Luxury Box'] },
+    { name:'Layered Gold Necklace',  desc:'Three layers of 22K gold chains at varying lengths — effortlessly editorial.',           imgs:[I.necklaces4,I.necklaces5,I.necklaces6], features:['22K Gold','Triple Layer','Adjustable','BIS Certified'] },
   ],
   'gold/womens/chokers': [
     { name:'Diamond Gold Choker',    desc:'Channel-set diamonds in a close-fitting 22K gold choker — drama at its finest.',        imgs:[I.choker,I.choker4,I.choker1], features:['22K Gold','Channel Diamonds','Adjustable','Bridal Favourite'] },
