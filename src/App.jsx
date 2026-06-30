@@ -7,8 +7,8 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Gallery from './pages/Gallery'
 import Contact from './pages/Contact'
-import { ShopLanding } from './pages/Shop'
-import CategoryListingPage from './pages/Shop'
+import { ShopLanding , ShopRouter} from './pages/Shop'
+// import CategoryListingPage from './pages/Shop'
 import CollectionPage, { CollectionsLanding } from './pages/Collections'
 import ProductDetail from './pages/ProductDetail'
 
@@ -23,8 +23,8 @@ function AnimatedRoutes() {
         <Route path="/contact" element={<Contact />} />
 <Route path="/shop" element={<ShopLanding />} />
 <Route path="/shop/:p1/:p2/:p3/:p4" element={<ProductDetail />} />
-<Route path="/shop/:p1/:p2/:p3" element={<CategoryListingPage />} />
-<Route path="/shop/:p1/:p2" element={<CategoryListingPage />} />
+<Route path="/shop/:p1/:p2/:p3" element={<ShopRouter />} />   {/* ← ShopRouter */}
+<Route path="/shop/:p1/:p2" element={<ShopRouter />} />  
 <Route path="/collections/:gender/:colSlug" element={<CollectionPage />} />
 <Route path="/collections/:colSlug" element={<CollectionPage />} />  {/* bridal, kids */}
 <Route path="/collections" element={<CollectionsLanding />} />     

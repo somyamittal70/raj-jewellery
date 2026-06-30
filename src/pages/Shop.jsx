@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { Link, useParams, Navigate } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
 import PageBanner from '../components/PageBanner'
@@ -9,6 +9,7 @@ import {
   getProductsByCategory,
   getWhatsAppUrl,
 } from '../data/Product'
+import ProductDetail from './ProductDetail'
 
 /* ── WhatsApp icon ────────────────────────────────── */
 function WAIcon({ size = 14 }) {
@@ -189,12 +190,31 @@ const BANNER_IMAGES = {
   silver: 'https://i.pinimg.com/1200x/30/96/75/3096757dd278bf67181c5cfd50fc9bcf.jpg',
 }
 
+/* ── Shop Router — permanent fix for all /shop/* URLs ── */
+export function ShopRouter() {
+  const { p1, p2, p3 } = useParams()
+
+  if (p1 && p2 && p3) {
+    // Case 1: gold/mens/rings → valid 3-part category
+    if (getCategoryBySlug(`${p1}/${p2}/${p3}`)) return <CategoryListingPage />
+    // Case 2: silver/gifts/some-product OR gold/bridal/some-product → 2-part cat + product
+    if (getCategoryBySlug(`${p1}/${p2}`)) return <ProductDetail />
+    return <Navigate to="/shop" replace />
+  }
+
+  if (p1 && p2) {
+    // Case 3: gold/bridal, silver/gifts, silver/coins → valid 2-part category
+    if (getCategoryBySlug(`${p1}/${p2}`)) return <CategoryListingPage />
+    return <Navigate to="/shop" replace />
+  }
+
+  return <Navigate to="/shop" replace />
+}
+
 /* ── Category Listing Page (default export) ───────── */
 export default function CategoryListingPage() {
   const { p1, p2, p3 } = useParams()
 
-  // p1=gold, p2=mens, p3=rings  → slug = gold/mens/rings
-  // p1=gold, p2=bridal           → slug = gold/bridal
   const categorySlug = [p1, p2, p3].filter(Boolean).join('/')
   const category = getCategoryBySlug(categorySlug)
   const categoryProducts = useMemo(() => getProductsByCategory(categorySlug), [categorySlug])
@@ -261,11 +281,11 @@ export default function CategoryListingPage() {
             <p className="text-ivory/50 text-sm tracking-wide">Chat with our jewellery experts for custom requests & availability.</p>
           </div>
           <div className="btn-gold flex items-center w-full sm:w-auto justify-center">
-          <a href={`https://wa.me/919876543210?text=${encodeURIComponent(`Hello, I am interested in ${pageTitle}. Please share your available designs and details.`)}`}
-            target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-            <WAIcon size={16} />
-            Chat on WhatsApp
-          </a>
+            <a href={`https://wa.me/919876543210?text=${encodeURIComponent(`Hello, I am interested in ${pageTitle}. Please share your available designs and details.`)}`}
+              target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+              <WAIcon size={16} />
+              Chat on WhatsApp
+            </a>
           </div>
         </div>
       </section>
