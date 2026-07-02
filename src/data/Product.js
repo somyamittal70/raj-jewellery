@@ -559,6 +559,48 @@ const I = {
     "https://i.pinimg.com/736x/74/41/ea/7441ea17b04c7fc5f88c547172351929.jpg",
   silverwpe6:
     "https://i.pinimg.com/1200x/86/19/fb/8619fb8046ca84c9997b04e41f90f965.jpg",
+
+     silverwpe7:
+    "https://i.pinimg.com/1200x/8f/a7/a2/8fa7a288c6749c15cc5caf886e3b4f45.jpg",
+    silverwpe8:
+    "https://i.pinimg.com/736x/2e/5f/62/2e5f62a66fcc2a13c8d88c0c3a0fe4e6.jpg",    silverwpe9:
+    "https://i.pinimg.com/1200x/b3/f8/c9/b3f8c9ad49b02e817ed63c965d231653.jpg",
+        silverwpe10:
+    "https://i.pinimg.com/1200x/94/75/ab/9475ab33db5c9c37a4f8cb46dc7bba06.jpg",
+        silverwpe11:
+    "https://i.pinimg.com/1200x/d4/70/e9/d470e964ebd0ca848eada7bf32cd1813.jpg",
+        silverwpe12:
+    "https://i.pinimg.com/736x/22/2b/7b/222b7b62efa0de9bbfae3968faae3e4d.jpg",
+        silverwpe13:
+    "https://i.pinimg.com/1200x/70/a3/4a/70a34ab174cb3e42f07570f9f96689af.jpg",
+        silverwpe14:
+    "https://i.pinimg.com/736x/bc/d7/dc/bcd7dcca7b8b241d598c8729e8ff0251.jpg",
+        silverwpe15:
+    "https://i.pinimg.com/736x/9b/7f/bd/9b7fbd138f56fe7c94841c4e13d3df74.jpg",
+        silverwpe16:
+    "https://i.pinimg.com/736x/bc/26/2b/bc262b2e544c17a37c3b58110d70009d.jpg",
+
+            silverwpe17:
+    "https://i.pinimg.com/1200x/d2/a7/b4/d2a7b4314341f1bbfadd16f838945269.jpg",
+               silverwpe18:
+    "https://i.pinimg.com/1200x/41/16/21/411621176c2fe577d470523b9a140993.jpg",
+               silverwpe19:
+    "https://i.pinimg.com/736x/4c/38/a1/4c38a11f5506cb6bc3bbbe0cc755972d.jpg",
+               silverwpe20:
+    "https://i.pinimg.com/1200x/0d/1a/ab/0d1aab1efd37c44930af0c4fe91cb4d6.jpg",
+               silverwpe21:
+    "https://i.pinimg.com/736x/cf/89/1d/cf891d09e2817db90000e6eaee0890fc.jpg",
+               silverwpe22:
+    "https://i.pinimg.com/1200x/c3/82/3c/c3823ce113cfeadf8fea865cbb55afd2.jpg",
+               silverwpe23:
+    "https://i.pinimg.com/736x/59/39/b3/5939b31b7e527bf17d61caaedbd3839d.jpg",
+               silverwpe24:
+    "https://i.pinimg.com/736x/79/47/0b/79470bcb5ca3648e75d36bf559f439d9.jpg",
+
+
+  
+
+
   silverwka:
     "https://i.pinimg.com/736x/45/6b/04/456b04ce93dfd3f092b41f1c83f25f11.jpg",
   silverwka2:
@@ -631,6 +673,70 @@ const I = {
     "https://i.pinimg.com/1200x/d8/af/91/d8af91a6f88e1f21494e9bffed8e8f21.jpg",
   silverwerr6:
     "https://i.pinimg.com/1200x/44/f3/bd/44f3bd12d2bbe1c69363adee6128ddb5.jpg",
+      silverwerr7:
+    "https://i.pinimg.com/1200x/20/e4/ed/20e4ed04433e3441deeb507c01a28109.jpg",
+        silverwerr8:
+    "https://i.pinimg.com/736x/8e/03/ec/8e03ec54b360843615faad2adcef1ec0.jpg",
+        silverwerr9:
+    "https://i.pinimg.com/1200x/8c/18/29/8c18296c41e1dad43a2f128a4d361ebe.jpg",
+        silverwerr10:
+    "https://i.pinimg.com/736x/ed/71/a4/ed71a40976dec68bebf5033bd18d62c3.jpg",
+        silverwerr11:
+    "https://i.pinimg.com/736x/3a/f3/00/3af300b646a29f6099d367c85dc4045a.jpg",
+        silverwerr12:
+    "https://i.pinimg.com/736x/e4/c1/15/e4c11509950412bd47159dc1b15d578f.jpg",
+        silverwerr13:
+    "https://i.pinimg.com/1200x/11/01/a8/1101a8fcc0de5f0de84962799b8544ec.jpg",
+        silverwerr14:
+    "https://i.pinimg.com/1200x/f3/31/23/f33123902df64f7f6eacdbe73eafa541.jpg",
+        silverwerr15:
+    "https://i.pinimg.com/1200x/a8/f4/f1/a8f4f147a2f0aed4dd139c2852d5c1cd.jpg",
+        silverwerr16:
+    "https://i.pinimg.com/736x/59/4c/7a/594c7a1fe044478a76376ceb843f8287.jpg",
+        silverwerr17:
+    "https://i.pinimg.com/736x/96/18/b6/9618b6b918cf40d7e1e6742d8f5c81f6.jpg",
+        silverwerr18:
+    "https://i.pinimg.com/1200x/84/6c/9a/846c9aed15c1cbfb26f6313c7414f7d8.jpg",
+        silverwerr19:
+    "https://i.pinimg.com/736x/92/c1/5e/92c15eaefcb28c0262de83a8b69892e0.jpg",
+        silverwerr20:
+    "https://i.pinimg.com/736x/71/b9/4e/71b94e007d4136991587a26cc1520cbb.jpg",
+        silverwerr21:
+    "https://i.pinimg.com/736x/6b/a9/03/6ba903de53fbba9de207def4fad74a59.jpg",
+        silverwerr22:
+    "https://i.pinimg.com/1200x/65/d7/59/65d7593c780d936bb77f4fa27b86119e.jpg",
+        silverwerr23:
+    "https://i.pinimg.com/1200x/c0/fe/db/c0fedb94918e8391831c2107f7ff65fe.jpg",
+        silverwerr24:
+    "https://i.pinimg.com/1200x/53/53/36/535336e75cb67088d5eef53729c27933.jpg",
+        silverwerr25:
+    "https://i.pinimg.com/1200x/24/1a/2f/241a2f5f31089d63a550d4abe82e7bf2.jpg",
+        silverwerr26:
+    "https://i.pinimg.com/1200x/fe/ef/60/feef603b4ffafc878f1d83ccdc8453da.jpg",
+        silverwerr27:
+    "https://i.pinimg.com/1200x/98/61/9a/98619aa67054213154cbbb1a815eb706.jpg",
+        silverwerr28:
+    "https://i.pinimg.com/1200x/4b/38/2d/4b382de9b3b512d99b412e594b539073.jpg",
+        silverwerr29:
+    "https://i.pinimg.com/1200x/1c/b4/d3/1cb4d377909d64210a490fd668942fee.jpg",
+        silverwerr30:
+    "https://i.pinimg.com/1200x/33/de/d8/33ded8479ab5b109e6fa61025f39588e.jpg",
+        silverwerr31:
+    "https://i.pinimg.com/1200x/8f/8c/82/8f8c82ed4ae9db2c77048d606599a3ad.jpg",
+        silverwerr32:
+    "https://i.pinimg.com/1200x/b2/0e/33/b20e3337ffb77e8150540ef7bb6e98e0.jpg",
+        silverwerr33:
+    "https://i.pinimg.com/1200x/2a/34/73/2a347330470a542dfb50ea67ef566105.jpg",
+        silverwerr34:
+    "https://i.pinimg.com/736x/85/c3/4e/85c34e897ab82c4f0988d51b3036a954.jpg",
+        silverwerr35:
+    "https://i.pinimg.com/736x/9f/80/47/9f804712f035d77f821fd352574b6945.jpg",
+        silverwerr36:
+    "https://i.pinimg.com/1200x/a4/e2/ea/a4e2ea10f4de20071dbe299645db9d59.jpg",
+    
+
+
+
   silverwch:
     "https://i.pinimg.com/736x/0d/49/c7/0d49c7f8592125020b58693fce85893d.jpg",
   silverwch2:
@@ -643,6 +749,96 @@ const I = {
     "https://i.pinimg.com/1200x/7a/f5/83/7af5839bb082f59822a35896fc24e3aa.jpg",
   silverwch6:
     "https://i.pinimg.com/736x/5e/0f/38/5e0f3839e1a2e2c0a1f6747fa33bacbc.jpg",
+
+     silverwch7:
+    "https://i.pinimg.com/1200x/6a/e0/8e/6ae08e4e7a2a37f396967bd3fe148ebd.jpg",
+       silverwch8:
+    "https://i.pinimg.com/736x/9a/0d/bf/9a0dbfdf7f61e2cdfe7eaf103b56ec5e.jpg",
+       silverwch9:
+    "https://i.pinimg.com/1200x/c5/82/5e/c5825eaffe10697db787f9a052c1e180.jpg",
+       silverwch10:
+    "https://i.pinimg.com/736x/18/ec/a1/18eca1a45ad9caed0e6bbeeb05f2ac2b.jpg",
+         silverwch11:
+    "https://i.pinimg.com/736x/16/22/25/162225beee72f63a36800db1d00f3917.jpg",
+         silverwch12:
+    "https://i.pinimg.com/736x/f8/c2/e3/f8c2e30e2867c331b23d5949871db7eb.jpg",
+         silverwch13:
+    "https://i.pinimg.com/736x/9e/20/b0/9e20b00ca3e41a432588ee877e65a276.jpg",
+         silverwch14:
+    "https://i.pinimg.com/736x/07/37/c8/0737c85c63cfe308d38e64a0bc84ec0b.jpg",
+         silverwch15:
+    "https://i.pinimg.com/736x/04/c2/78/04c27862525bb0d7bb5eca398316787b.jpg",
+         silverwch16:
+    "https://i.pinimg.com/1200x/2f/0c/d3/2f0cd33fc84afd8d48af4c74396320df.jpg",
+         silverwch17:
+    "https://i.pinimg.com/1200x/c8/cb/1e/c8cb1e8a339bcddf2aead37bf5573c42.jpg",
+         silverwch18:
+    "https://i.pinimg.com/736x/f2/93/2d/f2932d38e3999941941dfabe51654c4f.jpg",
+         silverwch19:
+    "https://i.pinimg.com/736x/5f/9c/9e/5f9c9e87ade3969662fe8faa6824477c.jpg",
+         silverwch20:
+    "https://i.pinimg.com/736x/a0/21/52/a02152d32b8ab083b28e84328ebf657e.jpg",
+         silverwch21:
+    "https://i.pinimg.com/736x/67/c2/25/67c22519fa705d4b6983dc71a1c6c4fc.jpg",
+         silverwch22:
+    "https://i.pinimg.com/736x/c9/4b/e5/c94be54bc37950156e3125913063bc82.jpg",
+         silverwch23:
+    "https://i.pinimg.com/736x/47/dd/3b/47dd3b87ac1146cc84aa7a1c95f721fb.jpg",
+         silverwch24:
+    "https://i.pinimg.com/1200x/da/99/68/da99682f58a5d0e70965b504576ff4ac.jpg",
+   
+         silverwch25:
+    "https://i.pinimg.com/736x/56/69/bf/5669bf3c632d2ce106170883ebea3933.jpg",
+         silverwch26:
+    "https://i.pinimg.com/736x/dc/e4/ad/dce4ad277e1f2f98916552e01ccda5ca.jpg",
+         silverwch27:
+    "https://i.pinimg.com/1200x/48/39/01/483901b15251e988cced18f512de3c27.jpg",
+         silverwch28:
+    "https://i.pinimg.com/736x/3f/f7/d1/3ff7d18b7e6e0c1ed7b7566554887b7f.jpg",
+         silverwch29:
+    "https://i.pinimg.com/736x/c6/06/1f/c6061fa77b623228e1cf4d095a69c587.jpg",
+         silverwch30:
+    "https://i.pinimg.com/1200x/ad/c2/7f/adc27f6728b8c5d0041f1630eaf1782f.jpg",
+         silverwch31:
+    "https://i.pinimg.com/736x/7f/77/a2/7f77a2f521c0ca31a89e4291736b46ed.jpg",
+         silverwch32:
+    "https://i.pinimg.com/736x/22/91/74/229174762fd60b16a69faf5578280d14.jpg",
+         silverwch33:
+    "https://i.pinimg.com/1200x/87/59/34/8759340338d8547511ffce0b62180546.jpg",
+         silverwch34:
+    "https://i.pinimg.com/1200x/54/de/88/54de887b3cd53e04645c229ae9fdc282.jpg",
+         silverwch35:
+    "https://i.pinimg.com/736x/00/fe/69/00fe696ad4880fb45728cc16c4e82ba5.jpg",
+         silverwch36:
+    "https://i.pinimg.com/1200x/bb/1b/b3/bb1bb33e3dc469a5cd97c3a2c4ef195a.jpg",
+         silverwch37:
+    "https://i.pinimg.com/1200x/29/66/1d/29661d43d4c00e7c40d467728bec9f81.jpg",
+         silverwch38:
+    "https://i.pinimg.com/1200x/09/8c/a1/098ca16850b11eb238ea34976b919ebe.jpg",
+         silverwch39:
+    "https://i.pinimg.com/1200x/20/f1/78/20f1789f435f7a80e1114f2d10a7ae74.jpg",
+         silverwch40:
+    "https://i.pinimg.com/1200x/31/ed/eb/31edebc2dcabbd4bfba2503870415236.jpg",
+         silverwch41:
+    "https://i.pinimg.com/1200x/a1/e4/85/a1e485231d6abe46baa50f62a603c941.jpg",
+         silverwch42:
+    "https://i.pinimg.com/736x/0b/29/ba/0b29babb7987a50434b10d34cabb3c79.jpg",
+         silverwch43:
+    "https://i.pinimg.com/1200x/23/72/99/237299da0812c2849af88b80e71c3fae.jpg",
+         silverwch44:
+    "https://i.pinimg.com/1200x/b9/e5/4f/b9e54f9ee27d719c6bee575d3e5dd3e9.jpg",
+           silverwch45:
+    "https://i.pinimg.com/1200x/47/31/93/473193f006bae3f3ac4cda8c44abc034.jpg",
+           silverwch46:
+    "https://i.pinimg.com/736x/0b/1c/3f/0b1c3faf1622a76c2cc9d8a81903a563.jpg",
+           silverwch47:
+    "https://i.pinimg.com/736x/2b/88/15/2b8815714c01b6e8ac920bb0819af4b8.jpg",
+           silverwch48:
+    "https://i.pinimg.com/736x/62/f8/06/62f80603e575ff94d47db4307d1571fb.jpg",
+
+
+
+
   silverwri:
     "https://i.pinimg.com/1200x/ab/98/54/ab985443b8ab2d6f288a5d4cdf554903.jpg",
   silverwri2:
@@ -655,6 +851,95 @@ const I = {
     "https://i.pinimg.com/1200x/0b/05/27/0b0527600af58b7c721c7dd9095fcc94.jpg",
   silverwri6:
     "https://i.pinimg.com/1200x/91/59/37/9159375914b1caa05c2651e9e1676ec3.jpg",
+
+  silverwri7:
+"https://i.pinimg.com/1200x/e3/40/9d/e3409d04b1272e843584db3238c52189.jpg",
+  silverwri8:
+"https://i.pinimg.com/1200x/b5/16/c5/b516c59c1088b1368ed0acd3670a2a7e.jpg",
+  silverwri9:
+"https://i.pinimg.com/1200x/ef/94/65/ef9465757fad4b03b2b84af48b8f80f7.jpg",
+  silverwri10:
+"https://i.pinimg.com/1200x/0d/8c/d9/0d8cd9643712e3d90da111dcbf8f812c.jpg",
+  silverwri11:
+"https://i.pinimg.com/1200x/c0/a7/3d/c0a73d2ba196c48edd149f1bacbdb84a.jpg",
+  silverwri12:
+"https://i.pinimg.com/736x/f7/82/d6/f782d63f1310248491cb6af536262607.jpg",
+  silverwri13:
+"https://i.pinimg.com/736x/13/77/4f/13774fd91c43fcc04714fb47ee7485ed.jpg",
+  silverwri14:
+"https://i.pinimg.com/1200x/2a/67/bc/2a67bc3fd991dabfcabc49b8cf040c4b.jpg",
+  silverwri15:
+"https://i.pinimg.com/1200x/53/de/08/53de08b37deaba27b4a12188ab5b0dc9.jpg",
+  silverwri16:
+"https://i.pinimg.com/736x/d5/a3/86/d5a386068576f34bd28b2eb4c8bad76a.jpg",
+  silverwri17:
+"https://i.pinimg.com/1200x/f9/8c/0c/f98c0c07f24a7a38719fe0cb545ca00d.jpg",
+  silverwri18:
+"https://i.pinimg.com/736x/1b/3a/d7/1b3ad7facdb033d987f896c89bcf085b.jpg",
+  silverwri19:
+"https://i.pinimg.com/736x/61/83/6c/61836cc15ba699d74139726b547fe397.jpg",
+  silverwri20:
+"https://i.pinimg.com/1200x/2c/83/96/2c839639d90f00fcec2fc3e4f4aecc20.jpg",
+  silverwri21:
+"https://i.pinimg.com/736x/ad/42/0e/ad420e0348ed83abb5ad925331a11283.jpg",
+  silverwri22:
+"https://i.pinimg.com/1200x/7e/43/59/7e43591bb0ea3d22261d4bd8f7888496.jpg",
+  silverwri23:
+"https://i.pinimg.com/736x/3f/d1/f8/3fd1f8f8bd13f60412cdfd5900501d05.jpg",
+  silverwri24:
+"https://i.pinimg.com/736x/af/5f/a7/af5fa73af802170f49c2733944c68078.jpg",
+  silverwri25:
+"https://i.pinimg.com/1200x/a3/99/9c/a3999cdce88e29bc11a2ed58f6d19abe.jpg",
+  silverwri26:
+"https://i.pinimg.com/1200x/09/01/b9/0901b99471edc4840e4983177f85958a.jpg",
+  silverwri27:
+"https://i.pinimg.com/736x/de/80/92/de8092cbe39e433b8d43c3f01fe96774.jpg",
+  silverwri28:
+"https://i.pinimg.com/1200x/bd/0e/a2/bd0ea21120726b5d5ae273c4490bb5b4.jpg",
+  silverwri29:
+"https://i.pinimg.com/1200x/e9/af/29/e9af29d0e4c0cfce33ff98616ec0a4b0.jpg",
+  silverwri30:
+  "https://i.pinimg.com/1200x/e9/af/29/e9af29d0e4c0cfce33ff98616ec0a4b0.jpg",
+  silverwri31:
+"https://i.pinimg.com/736x/a2/f2/77/a2f277b6ccabc303b67b90fd92fe1c9c.jpg",
+  silverwri32:
+"https://i.pinimg.com/1200x/ff/d2/da/ffd2da62747ae7dc38c502ed46310dad.jpg",
+  silverwri33:
+"https://i.pinimg.com/736x/81/6f/8e/816f8e548d2c702b262cf997d0f54ebb.jpg",
+  silverwri34:
+"https://i.pinimg.com/736x/ba/11/3c/ba113c9da3ed81e74b05ac294b5a66f2.jpg",
+  silverwri35:
+"https://i.pinimg.com/1200x/ab/21/21/ab2121436c11009eed39703436554098.jpg",
+  silverwri36:
+"https://i.pinimg.com/1200x/94/f3/63/94f3631888277f454f4d4c73f87b28f3.jpg",
+  silverwri37:
+"https://i.pinimg.com/1200x/0c/33/1c/0c331ca1d3cdedaa9c95066084b33e64.jpg",
+  silverwri38:
+"https://i.pinimg.com/736x/10/c6/6e/10c66e15632f64049b76302b142efcde.jpg",
+  silverwri39:
+"https://i.pinimg.com/1200x/45/b1/43/45b143b1225a3e501e5e84e524319955.jpg",
+  silverwri40:
+"https://i.pinimg.com/1200x/7a/f6/cc/7af6cc0adc82f6dad58929b42dfe8b57.jpg",
+  silverwri41:
+"https://i.pinimg.com/1200x/4a/c9/e3/4ac9e36dcb7cd1d5b75bf98c1d91af75.jpg",
+  silverwri42:
+"https://i.pinimg.com/736x/3d/44/ec/3d44ec49eef6f63606388d9373a98644.jpg",
+  silverwri43:
+"https://i.pinimg.com/736x/5a/49/e1/5a49e15303d0061aba31ce08cca59cf4.jpg",
+  silverwri44:
+"https://i.pinimg.com/736x/df/98/7a/df987ab527936d5cc1cfcf6fdb3cbe53.jpg",
+  silverwri45:
+"https://i.pinimg.com/1200x/2b/4c/ec/2b4cec578d1e7af28a9fac846031f0d6.jpg",
+  silverwri46:
+"https://i.pinimg.com/1200x/99/9c/a2/999ca2916e53404467c360d1799bc098.jpg", 
+
+  silverwri47:
+"https://i.pinimg.com/736x/6c/bc/b9/6cbcb96c50a4d479f2ab92ddec616df2.jpg",
+  silverwri48:
+"https://i.pinimg.com/736x/64/e0/2b/64e02b6bb7c0efced0c0529c0393e6db.jpg",
+
+    //bracelet
+
   silvermbra:
     "https://i.pinimg.com/736x/31/9b/a8/319ba8e9d3db2b06d53d4ce5028345d0.jpg",
   silvermbra2:
@@ -691,6 +976,82 @@ const I = {
     "https://i.pinimg.com/1200x/0d/42/16/0d4216b8f1f0e3a1e84baa7e6ed0889d.jpg",
   silvermch6:
     "https://i.pinimg.com/736x/9a/29/39/9a2939a32577e5e4902485b6ac8985b2.jpg",
+ 
+     
+     silvermch15:
+    "",
+     silvermch16:
+    "",
+     silvermch17:
+    "",
+     silvermch18:
+    "",
+     silvermch19:
+    "",
+     silvermch20:
+    "",
+     silvermch21:
+    "",
+     silvermch22:
+    "",
+     silvermch23:
+    "",
+     silvermch24:
+    "",
+     silvermch25:
+    "",
+        silvermch26:
+    "",
+        silvermch27:
+    "",
+        silvermch28:
+    "",
+        silvermch29:
+    "",
+        silvermch30:
+    "",
+        silvermch31:
+    "",
+        silvermch32:
+    "",
+        silvermch33:
+    "",
+        silvermch34:
+    "",
+        silvermch35:
+    "",
+        silvermch36:
+    "",
+        silvermch37:
+    "",
+          silvermch38:
+    "",
+          silvermch39:
+    "",
+          silvermch40:
+    "",
+          silvermch41:
+    "",
+          silvermch42:
+    "",
+          silvermch43:
+    "",
+          silvermch44:
+    "",
+          silvermch45:
+    "",
+             silvermch46:
+    "",
+         silvermch47:
+    "",
+         silvermch48:
+    "",
+
+
+
+
+
+
   silvermrings:
     "https://i.pinimg.com/736x/e4/79/cd/e479cd126938b702357c4bc066ab155d.jpg",
   silvermrings2:
@@ -7020,40 +7381,10 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silverwerr34, I.silverwerr35, I.silverwerr36],
       features: ["92.5 Silver", "Geometric Design", "Hook Back", "Hallmarked"],
     },
-    {
-      name: "Silver Pearl Earrings",
-      desc: "Elegant silver earrings adorned with freshwater pearls — classic and timeless.",
-      imgs: [I.silverwerr37, I.silverwerr38, I.silverwerr39],
-      features: [
-        "92.5 Silver",
-        "Freshwater Pearls",
-        "Hook Back",
-        "BIS Certified",
-      ],
-    },
-    {
-      name: "Silver Filigree Studs",
-      desc: "Intricate Cuttack filigree silver studs — lightweight and versatile for daily wear.",
-      imgs: [I.silverwerr40, I.silverwerr41, I.silverwerr42],
-      features: ["92.5 Silver", "Cuttack Filigree", "Push-back", "Hallmarked"],
-    },
-    {
-      name: "Silver Hoop Drops",
-      desc: "Sterling silver hoops with dangling drops — a fusion of classic and contemporary.",
-      imgs: [I.silverwerr43, I.silverwerr44, I.silverwerr45],
-      features: [
-        "92.5 Silver",
-        "Hoop with Drops",
-        "Hook Back",
-        "BIS Certified",
-      ],
-    },
-    {
-      name: "Silver Leaf Earrings",
-      desc: "Delicate silver earrings shaped like leaves — nature-inspired elegance.",
-      imgs: [I.silverwerr46, I.silverwerr47, I.silverwerr48],
-      features: ["92.5 Silver", "Leaf Design", "Hook Back", "Hallmarked"],
-    },
+
+
+
+ 
   ],
   "silver/womens/jhumke": [
     {
@@ -7849,74 +8180,8 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silverwpe22, I.silverwpe23, I.silverwpe24],
       features: ["92.5 Silver", "Heart Shape", "High-polish", "Hypoallergenic"],
     },
-    {
-      name: "Silver Star Pendant",
-      desc: "A star-shaped pendant in sterling silver — guidance, hope, and brilliance.",
-      imgs: [I.silverwpe25, I.silverwpe26, I.silverwpe27],
-      features: ["92.5 Silver", "Star Shape", "High-polish", "Hypoallergenic"],
-    },
-    {
-      name: "Silver Moon Pendant",
-      desc: "A crescent moon pendant in 92.5 silver — mystery, intuition, and serenity.",
-      imgs: [I.silverwpe28, I.silverwpe29, I.silverwpe30],
-      features: [
-        "92.5 Silver",
-        "Crescent Moon",
-        "High-polish",
-        "Hypoallergenic",
-      ],
-    },
-    {
-      name: "Silver Sun Pendant",
-      desc: "A sunburst pendant in sterling silver — energy, vitality, and radiance.",
-      imgs: [I.silverwpe31, I.silverwpe32, I.silverwpe33],
-      features: [
-        "92.5 Silver",
-        "Sunburst Design",
-        "High-polish",
-        "Hypoallergenic",
-      ],
-    },
-    {
-      name: "Silver Key Pendant",
-      desc: "A key-shaped pendant in polished silver — unlocking possibilities and dreams.",
-      imgs: [I.silverwpe34, I.silverwpe35, I.silverwpe36],
-      features: ["92.5 Silver", "Key Shape", "High-polish", "Hypoallergenic"],
-    },
-    {
-      name: "Silver Lock Pendant",
-      desc: "A lock-shaped pendant in sterling silver — security, love, and protection.",
-      imgs: [I.silverwpe37, I.silverwpe38, I.silverwpe39],
-      features: ["92.5 Silver", "Lock Shape", "High-polish", "Hypoallergenic"],
-    },
-    {
-      name: "Silver Anchor Pendant",
-      desc: "An anchor-shaped pendant in 92.5 silver — stability, hope, and strength.",
-      imgs: [I.silverwpe40, I.silverwpe41, I.silverwpe42],
-      features: [
-        "92.5 Silver",
-        "Anchor Shape",
-        "High-polish",
-        "Hypoallergenic",
-      ],
-    },
-    {
-      name: "Silver Arrow Pendant",
-      desc: "An arrow-shaped pendant in sterling silver — direction, focus, and ambition.",
-      imgs: [I.silverwpe43, I.silverwpe44, I.silverwpe45],
-      features: ["92.5 Silver", "Arrow Shape", "High-polish", "Hypoallergenic"],
-    },
-    {
-      name: "Silver Compass Pendant",
-      desc: "A compass-inspired pendant in polished silver — guidance, exploration, and adventure.",
-      imgs: [I.silverwpe46, I.silverwpe47, I.silverwpe48],
-      features: [
-        "92.5 Silver",
-        "Compass Design",
-        "High-polish",
-        "Hypoallergenic",
-      ],
-    },
+   
+
   ],
   "silver/kids": [
     {
