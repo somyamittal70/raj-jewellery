@@ -1186,97 +1186,6 @@ const I = {
   silverwri6:
     "https://i.pinimg.com/1200x/91/59/37/9159375914b1caa05c2651e9e1676ec3.jpg",
 
-<<<<<<< HEAD
-  silverwri7:
-"https://i.pinimg.com/1200x/e3/40/9d/e3409d04b1272e843584db3238c52189.jpg",
-  silverwri8:
-"https://i.pinimg.com/1200x/b5/16/c5/b516c59c1088b1368ed0acd3670a2a7e.jpg",
-  silverwri9:
-"https://i.pinimg.com/1200x/ef/94/65/ef9465757fad4b03b2b84af48b8f80f7.jpg",
-  silverwri10:
-"https://i.pinimg.com/1200x/0d/8c/d9/0d8cd9643712e3d90da111dcbf8f812c.jpg",
-  silverwri11:
-"https://i.pinimg.com/1200x/c0/a7/3d/c0a73d2ba196c48edd149f1bacbdb84a.jpg",
-  silverwri12:
-"https://i.pinimg.com/736x/f7/82/d6/f782d63f1310248491cb6af536262607.jpg",
-  silverwri13:
-"https://i.pinimg.com/736x/13/77/4f/13774fd91c43fcc04714fb47ee7485ed.jpg",
-  silverwri14:
-"https://i.pinimg.com/1200x/2a/67/bc/2a67bc3fd991dabfcabc49b8cf040c4b.jpg",
-  silverwri15:
-"https://i.pinimg.com/1200x/53/de/08/53de08b37deaba27b4a12188ab5b0dc9.jpg",
-  silverwri16:
-"https://i.pinimg.com/736x/d5/a3/86/d5a386068576f34bd28b2eb4c8bad76a.jpg",
-  silverwri17:
-"https://i.pinimg.com/1200x/f9/8c/0c/f98c0c07f24a7a38719fe0cb545ca00d.jpg",
-  silverwri18:
-"https://i.pinimg.com/736x/1b/3a/d7/1b3ad7facdb033d987f896c89bcf085b.jpg",
-  silverwri19:
-"https://i.pinimg.com/736x/61/83/6c/61836cc15ba699d74139726b547fe397.jpg",
-  silverwri20:
-"https://i.pinimg.com/1200x/2c/83/96/2c839639d90f00fcec2fc3e4f4aecc20.jpg",
-  silverwri21:
-"https://i.pinimg.com/736x/ad/42/0e/ad420e0348ed83abb5ad925331a11283.jpg",
-  silverwri22:
-"https://i.pinimg.com/1200x/7e/43/59/7e43591bb0ea3d22261d4bd8f7888496.jpg",
-  silverwri23:
-"https://i.pinimg.com/736x/3f/d1/f8/3fd1f8f8bd13f60412cdfd5900501d05.jpg",
-  silverwri24:
-"https://i.pinimg.com/736x/af/5f/a7/af5fa73af802170f49c2733944c68078.jpg",
-  silverwri25:
-"https://i.pinimg.com/1200x/a3/99/9c/a3999cdce88e29bc11a2ed58f6d19abe.jpg",
-  silverwri26:
-"https://i.pinimg.com/1200x/09/01/b9/0901b99471edc4840e4983177f85958a.jpg",
-  silverwri27:
-"https://i.pinimg.com/736x/de/80/92/de8092cbe39e433b8d43c3f01fe96774.jpg",
-  silverwri28:
-"https://i.pinimg.com/1200x/bd/0e/a2/bd0ea21120726b5d5ae273c4490bb5b4.jpg",
-  silverwri29:
-"https://i.pinimg.com/1200x/e9/af/29/e9af29d0e4c0cfce33ff98616ec0a4b0.jpg",
-  silverwri30:
-  "https://i.pinimg.com/1200x/e9/af/29/e9af29d0e4c0cfce33ff98616ec0a4b0.jpg",
-  silverwri31:
-"https://i.pinimg.com/736x/a2/f2/77/a2f277b6ccabc303b67b90fd92fe1c9c.jpg",
-  silverwri32:
-"https://i.pinimg.com/1200x/ff/d2/da/ffd2da62747ae7dc38c502ed46310dad.jpg",
-  silverwri33:
-"https://i.pinimg.com/736x/81/6f/8e/816f8e548d2c702b262cf997d0f54ebb.jpg",
-  silverwri34:
-"https://i.pinimg.com/736x/ba/11/3c/ba113c9da3ed81e74b05ac294b5a66f2.jpg",
-  silverwri35:
-"https://i.pinimg.com/1200x/ab/21/21/ab2121436c11009eed39703436554098.jpg",
-  silverwri36:
-"https://i.pinimg.com/1200x/94/f3/63/94f3631888277f454f4d4c73f87b28f3.jpg",
-  silverwri37:
-"https://i.pinimg.com/1200x/0c/33/1c/0c331ca1d3cdedaa9c95066084b33e64.jpg",
-  silverwri38:
-"https://i.pinimg.com/736x/10/c6/6e/10c66e15632f64049b76302b142efcde.jpg",
-  silverwri39:
-"https://i.pinimg.com/1200x/45/b1/43/45b143b1225a3e501e5e84e524319955.jpg",
-  silverwri40:
-"https://i.pinimg.com/1200x/7a/f6/cc/7af6cc0adc82f6dad58929b42dfe8b57.jpg",
-  silverwri41:
-"https://i.pinimg.com/1200x/4a/c9/e3/4ac9e36dcb7cd1d5b75bf98c1d91af75.jpg",
-  silverwri42:
-"https://i.pinimg.com/736x/3d/44/ec/3d44ec49eef6f63606388d9373a98644.jpg",
-  silverwri43:
-"https://i.pinimg.com/736x/5a/49/e1/5a49e15303d0061aba31ce08cca59cf4.jpg",
-  silverwri44:
-"https://i.pinimg.com/736x/df/98/7a/df987ab527936d5cc1cfcf6fdb3cbe53.jpg",
-  silverwri45:
-"https://i.pinimg.com/1200x/2b/4c/ec/2b4cec578d1e7af28a9fac846031f0d6.jpg",
-  silverwri46:
-"https://i.pinimg.com/1200x/99/9c/a2/999ca2916e53404467c360d1799bc098.jpg", 
-
-  silverwri47:
-"https://i.pinimg.com/736x/6c/bc/b9/6cbcb96c50a4d479f2ab92ddec616df2.jpg",
-  silverwri48:
-"https://i.pinimg.com/736x/64/e0/2b/64e02b6bb7c0efced0c0529c0393e6db.jpg",
-
-    //bracelet
-
-=======
->>>>>>> 6b6efba319c6c179d169391fe18876d1f49bc8cd
   silvermbra:
     "https://i.pinimg.com/1200x/c7/8c/6f/c78c6f88c3d45cf6ccf713203cb1508d.jpg",
   silvermbra2:
@@ -1429,83 +1338,6 @@ const I = {
     "https://i.pinimg.com/1200x/0d/42/16/0d4216b8f1f0e3a1e84baa7e6ed0889d.jpg",
   silvermch6:
     "https://i.pinimg.com/736x/9a/29/39/9a2939a32577e5e4902485b6ac8985b2.jpg",
-<<<<<<< HEAD
- 
-     
-     silvermch15:
-    "",
-     silvermch16:
-    "",
-     silvermch17:
-    "",
-     silvermch18:
-    "",
-     silvermch19:
-    "",
-     silvermch20:
-    "",
-     silvermch21:
-    "",
-     silvermch22:
-    "",
-     silvermch23:
-    "",
-     silvermch24:
-    "",
-     silvermch25:
-    "",
-        silvermch26:
-    "",
-        silvermch27:
-    "",
-        silvermch28:
-    "",
-        silvermch29:
-    "",
-        silvermch30:
-    "",
-        silvermch31:
-    "",
-        silvermch32:
-    "",
-        silvermch33:
-    "",
-        silvermch34:
-    "",
-        silvermch35:
-    "",
-        silvermch36:
-    "",
-        silvermch37:
-    "",
-          silvermch38:
-    "",
-          silvermch39:
-    "",
-          silvermch40:
-    "",
-          silvermch41:
-    "",
-          silvermch42:
-    "",
-          silvermch43:
-    "",
-          silvermch44:
-    "",
-          silvermch45:
-    "",
-             silvermch46:
-    "",
-         silvermch47:
-    "",
-         silvermch48:
-    "",
-
-
-
-
-
-=======
   silvermch7:
     "https://i.pinimg.com/1200x/18/76/d6/1876d67a0cceef05e4535f97ff2c391c.jpg",
   silvermch8:
@@ -1590,7 +1422,6 @@ const I = {
     "https://i.pinimg.com/1200x/65/97/43/659743dd9451daaad2f4b19a466f33c3.jpg",
   silvermch48:
     "https://i.pinimg.com/1200x/e4/41/e2/e441e2d16d2fb9fa31ea9f1a4f4bbbe6.jpg",
->>>>>>> 6b6efba319c6c179d169391fe18876d1f49bc8cd
 
   silvermrings:
     "https://i.pinimg.com/736x/e4/79/cd/e479cd126938b702357c4bc066ab155d.jpg",
@@ -10258,10 +10089,6 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silverwpe22, I.silverwpe23, I.silverwpe24],
       features: ["92.5 Silver", "Heart Shape", "High-polish", "Hypoallergenic"],
     },
-<<<<<<< HEAD
-   
-
-=======
     {
       name: "Silver Star Pendant",
       desc: "A star-shaped pendant in sterling silver — guidance, hope, and brilliance.",
@@ -10296,7 +10123,6 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silverwpe34, I.silverwpe35, I.silverwpe36],
       features: ["92.5 Silver", "Key Shape", "High-polish", "Hypoallergenic"],
     },
->>>>>>> 6b6efba319c6c179d169391fe18876d1f49bc8cd
   ],
 
   "silver/kids": [
