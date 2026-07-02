@@ -722,6 +722,7 @@ const I = {
     "https://i.pinimg.com/1200x/1b/c7/2a/1bc72a524426bd4780c739c45d2a566f.jpg",
   goldCoins9:
     "https://i.pinimg.com/736x/ea/84/b2/ea84b2f962f7ffb52768ddb1551871ad.jpg",
+<<<<<<< HEAD
   goldCoins10:
     "https://i.pinimg.com/474x/5a/b2/6e/5ab26e32b94a8d6dc73ec30cf322f4d8.jpg",
   goldCoins11:
@@ -1185,6 +1186,508 @@ const I = {
     "https://i.pinimg.com/736x/5a/36/2f/5a362fa4ddabaef07de87b6a925aa242.jpg",
   wring6:
     "https://i.pinimg.com/1200x/c2/e0/95/c2e09556480b3a7d475fd4bb1ac03a09.jpg",
+=======
+  goldKi:
+    "https://i.pinimg.com/1200x/1b/69/f7/1b69f77da4ae99ddad44ece690df142f.jpg",
+  goldKi2:
+    "https://i.pinimg.com/1200x/73/77/94/7377947a6e3aa8759bebb4093afa1603.jpg",
+  goldKi3:
+    "https://i.pinimg.com/1200x/28/2b/0f/282b0fd8aad7bb98e8d745c0cb87b756.jpg",
+  goldkbr:
+    "https://i.pinimg.com/1200x/03/e4/9d/03e49d2366ef1a4b4db62aeace98b7c2.jpg",
+  goldkbr2:
+    "https://i.pinimg.com/1200x/ff/5b/e7/ff5be7a82fbc7f7816d9d75bad9a42d9.jpg",
+  goldkbr3:
+    "https://i.pinimg.com/1200x/83/53/60/835360fae83e6ec43ff882869414430f.jpg",
+  goldkch:
+    "https://i.pinimg.com/1200x/a9/04/0a/a9040a1ac95dd9173c3254f7f136247f.jpg",
+  goldkch2:
+    "https://i.pinimg.com/1200x/01/ba/bb/01babbd4c9b69dbc15365ee6907a0fc0.jpg",
+  goldkch3:
+    "https://i.pinimg.com/736x/6b/e4/05/6be40596d29754fec52b1188f9ebad6a.jpg",
+  goldker:
+    "https://i.pinimg.com/736x/b7/e9/1e/b7e91e951196696fd56546b24fb425b9.jpg",
+  goldker2:
+    "https://i.pinimg.com/736x/c0/a5/3d/c0a53d9e71184eb0efd3331e2800a5a8.jpg",
+  goldker3:
+    "https://i.pinimg.com/736x/6a/c0/4c/6ac04c52e8780acb45fa46c02ea5cbbf.jpg",
+  goldwtn:
+    "https://i.pinimg.com/736x/bf/99/12/bf99123de342a2af42066b3436585939.jpg",
+  goldwtn2:
+    "https://i.pinimg.com/736x/fc/09/6d/fc096d1313dae8ee8d6bc74f7eaf23ef.jpg",
+  goldwtn3:
+    "https://i.pinimg.com/736x/9d/4e/df/9d4edfaeca89ade0c53e5c16d584af31.jpg",
+  goldwtn4:
+    "https://i.pinimg.com/736x/54/d1/0a/54d10a445be2990048c5556417a42fa7.jpg",
+  goldwtn5:
+    "https://i.pinimg.com/736x/11/6f/36/116f360a9fbcf1e2067219f6db0d7fe0.jpg",
+  goldwtn6:
+    "https://i.pinimg.com/736x/e0/78/83/e078838e98c27f334a466d457a5bac83.jpg",
+
+  goldbride:
+    "https://i.pinimg.com/1200x/9f/a7/c3/9fa7c36bb7614508661f294f9912f064.jpg",
+  goldbride2:
+    "https://i.pinimg.com/1200x/08/e6/3b/08e63b415eefa5bec5bfeb335eb5a999.jpg",
+  goldbride3:
+    "https://i.pinimg.com/1200x/ff/59/77/ff5977c01abf6a62dffda6d2159f214d.jpg",
+  goldchoker:
+    "https://i.pinimg.com/736x/79/2e/f6/792ef645e1894c2cb98676e5aed731ad.jpg",
+  goldchoker2:
+    "https://i.pinimg.com/736x/50/d9/bc/50d9bc289d17279e6bb6f65f73213f15.jpg",
+  goldchoker3:
+    "https://i.pinimg.com/736x/26/87/cf/2687cf5915d10f0e96a9ba07b47bc1f7.jpg",
+  goldHaar:
+    "https://i.pinimg.com/1200x/02/3c/42/023c425c0301126a2bf91da1844a8685.jpg",
+  goldHaar2:
+    "https://i.pinimg.com/736x/6c/bf/91/6cbf91b3b6afaabff80566ebf2ba913c.jpg",
+  goldHaar3:
+    "https://i.pinimg.com/1200x/d7/6d/75/d76d754c2642c0482dcfed859a208e20.jpg",
+  goldNath:
+    "https://i.pinimg.com/1200x/cd/12/d1/cd12d1fb51000116dbf1265412eab5bf.jpg",
+  goldNath2:
+    "https://i.pinimg.com/1200x/29/01/3a/29013a6452079627eccb69452cb87297.jpg",
+  goldNath3:
+    "https://i.pinimg.com/736x/d3/67/a8/d367a87c184af4198f6ffb476fb6b892.jpg",
+  goldbangle:
+    "https://i.pinimg.com/736x/d8/99/3a/d8993ab67fe9ccb514b88bfc59c5f587.jpg",
+  goldbangle2:
+    "https://i.pinimg.com/736x/8c/a5/62/8ca562e4a6deca52f289ce36d61002b0.jpg",
+  goldbangle3:
+    "https://i.pinimg.com/736x/47/1a/b0/471ab005d55c098b881c6d6d17934734.jpg",
+
+  goldtops:
+    "https://i.pinimg.com/1200x/2e/c9/77/2ec977371f54ff31a21379a853b5e67b.jpg",
+  goldtops2:
+    "https://i.pinimg.com/1200x/4c/8e/3f/4c8e3f58a69aff9a2de43cc7451bb6dc.jpg",
+  goldtops3:
+    "https://i.pinimg.com/736x/5b/3b/5b/5b3b5b06e234e4422602ea936e311975.jpg",
+  goldtops4:
+    "https://i.pinimg.com/736x/42/5f/b6/425fb69a6f17f8321351f062ab21a8e2.jpg",
+  goldtops5:
+    "https://i.pinimg.com/736x/8e/97/ac/8e97acf09973a37b239755f612a9794e.jpg",
+  goldtops6:
+    "https://i.pinimg.com/1200x/c9/89/52/c98952e57802ed72e9f86e51191e67d8.jpg",
+
+  goldJhumki:
+    "https://i.pinimg.com/736x/29/c7/c6/29c7c67c484cc6a33ff8222a79bde655.jpg",
+  goldJhumki2:
+    "https://i.pinimg.com/736x/12/5b/7d/125b7d79f3fee48576a72826058f476d.jpg",
+  goldJhumki3:
+    "https://i.pinimg.com/1200x/0b/4c/8f/0b4c8fcb06076954c4cd2b68fce8a45f.jpg",
+  goldJhumki4:
+    "https://i.pinimg.com/736x/c9/93/5f/c9935fa4411b6d84be38e3369f7f4a2a.jpg",
+  goldJhumki5:
+    "https://i.pinimg.com/736x/63/c9/72/63c9724074726825a6c630013480f684.jpg",
+  goldJhumki6:
+    "https://i.pinimg.com/736x/53/3b/21/533b21eb74c35d8db157ef7da8cca3e8.jpg",
+
+  goldkundal:
+    "https://i.pinimg.com/1200x/f1/dc/f9/f1dcf9f99b3332eda9cdd31f83c9c59d.jpg",
+  goldkundal2:
+    "https://i.pinimg.com/736x/ce/9d/68/ce9d685059c5f12676a1f7393cc6fb03.jpg",
+  goldkundal3:
+    "https://i.pinimg.com/736x/03/02/82/0302823a3ded67c9d44f24635d677839.jpg",
+  goldkundal4:
+    "https://i.pinimg.com/736x/08/5c/2c/085c2c1917cd04ed4efe4598e4376617.jpg",
+  goldkundal5:
+    "https://i.pinimg.com/736x/7e/17/c9/7e17c9e9fd46e13d8466cd8e04a722c7.jpg",
+  goldkundal6:
+    "https://i.pinimg.com/736x/3b/b5/77/3bb577406a9bd3a8d6124b527cd2ea2f.jpg",
+
+  goldnosepin:
+    "https://i.pinimg.com/1200x/7b/ab/ac/7babac888d3438e134ef3a893b34e2ef.jpg",
+  goldnosepin2:
+    "https://i.pinimg.com/1200x/8e/aa/a1/8eaaa1395bf85dca665953fde67a76ef.jpg",
+  goldnosepin3:
+    "https://i.pinimg.com/1200x/16/0d/57/160d57678a509bca8a4de9cc2a32cd05.jpg",
+  goldnosepin4:
+    "https://i.pinimg.com/736x/34/dc/e9/34dce9730e0de6e46ee1dde4c9a87a23.jpg",
+  goldnosepin5:
+    "https://i.pinimg.com/736x/88/a9/3d/88a93d4c9c66bdf4d1abf782e4ca73a5.jpg",
+  goldnosepin6:
+    "https://i.pinimg.com/736x/70/13/df/7013df530736256c0a80472aebafeab1.jpg",
+
+  nosering:
+    "https://i.pinimg.com/1200x/f8/b9/4a/f8b94a88240f4255ea7604d87a1c0224.jpg",
+  nosering2:
+    "https://i.pinimg.com/1200x/16/e8/06/16e80656e9864dfb50b481396c01540a.jpg",
+  nosering3:
+    "https://i.pinimg.com/1200x/f7/09/61/f7096105707f966fccf288db593afccc.jpg",
+  nosering4:
+    "https://i.pinimg.com/1200x/76/78/d8/7678d8ca5a4d5ad407592205c8bd1709.jpg",
+  nosering5:
+    "https://i.pinimg.com/736x/73/58/fc/7358fced0489f8b1b9bfc800dd211178.jpg",
+  nosering6:
+    "https://i.pinimg.com/1200x/0a/e6/c7/0ae6c7efd223329f3ec82b52362e3671.jpg",
+
+  nath: "https://i.pinimg.com/1200x/2a/42/5a/2a425a07db0e58c073560a78bef9c210.jpg",
+  nath2:
+    "https://i.pinimg.com/736x/b0/5c/6b/b05c6bfcbdb07a1268a2f82ef7da925c.jpg",
+  nath3:
+    "https://i.pinimg.com/1200x/48/62/24/48622485003408094486a73d5a64fdc8.jpg",
+  nath4:
+    "https://i.pinimg.com/1200x/12/c3/af/12c3af0be516661cddc72aa5627e80c9.jpg",
+  nath5:
+    "https://i.pinimg.com/736x/4d/87/91/4d8791eb9c4046bb1361bebc4fb9a0c1.jpg",
+  nath6:
+    "https://i.pinimg.com/736x/d6/64/69/d664692a4d056e30f0e389b77d90191e.jpg",
+
+  mangalsutra:
+    "https://i.pinimg.com/736x/ba/ac/78/baac78f282ea55cc1aa7f3c2c7773c19.jpg",
+  mangalsutra2:
+    "https://i.pinimg.com/736x/b4/49/6b/b4496ba180731fa62f97b11e4da56fec.jpg",
+  mangalsutra3:
+    "https://i.pinimg.com/736x/e1/5a/b0/e15ab0f52f97f7a4cbcbbe9ae3d5f5c6.jpg",
+  mangalsutra4:
+    "https://i.pinimg.com/1200x/44/fe/a5/44fea5e0b37b4e1158440d804683596e.jpg",
+  mangalsutra5:
+    "https://i.pinimg.com/736x/a1/c4/95/a1c49514ad7334ff5441a73ab7fad0dc.jpg",
+  mangalsutra6:
+    "https://i.pinimg.com/1200x/53/05/e7/5305e79d5a9b954e360a225cde4969a6.jpg",
+
+  chudi:
+    "https://i.pinimg.com/736x/6f/99/26/6f9926cb90c266955ff0f60110184685.jpg",
+  chudi2:
+    "https://i.pinimg.com/736x/74/23/c5/7423c5ba164505b60a5909cce5640e18.jpg",
+  chudi3:
+    "https://i.pinimg.com/736x/2f/01/03/2f0103b9cf9de55f9cfa67f523308e2e.jpg",
+  chudi4:
+    "https://i.pinimg.com/1200x/0b/bc/99/0bbc996724aafab3763f4961cae7f55f.jpg",
+  chudi5:
+    "https://i.pinimg.com/736x/0f/47/14/0f47145287847fbf791697b3554e6314.jpg",
+  chudi6:
+    "https://i.pinimg.com/736x/6c/a4/bb/6ca4bbf2515fead83d8d142db4a3e3c2.jpg",
+
+  raanihar:
+    "https://i.pinimg.com/1200x/5a/45/49/5a4549376e8aea423054b42e1ecdcbc4.jpg",
+  raanihar2:
+    "https://i.pinimg.com/736x/72/60/84/726084e6d4c9897272e361cdaf38f97e.jpg",
+  raanihar3:
+    "https://i.pinimg.com/736x/ec/88/e3/ec88e3e1d32dddf7925f8dd021b7dd45.jpg",
+  raanihar4:
+    "https://i.pinimg.com/736x/bf/f4/6a/bff46a4eddecd2054f103270f9a3a35d.jpg",
+  raanihar5:
+    "https://i.pinimg.com/736x/78/73/58/7873589944730beeff4cd977b607288a.jpg",
+  raanihar6:
+    "https://i.pinimg.com/736x/ee/53/be/ee53beac48d316c27e429ac492df281c.jpg",
+
+  choker:
+    "https://i.pinimg.com/736x/3e/76/07/3e7607254f0c2c104bac149c70e9dd06.jpg",
+  choker2:
+    "https://i.pinimg.com/736x/6e/7b/ca/6e7bcaeba41d68ac66278a727e531335.jpg",
+  choker3:
+    "https://i.pinimg.com/736x/6e/f1/8b/6ef18b1c67cbe0da6c575b9d7dc633bc.jpg",
+  choker4:
+    "https://i.pinimg.com/736x/e6/10/57/e61057e83476f9a68341e626ef802808.jpg",
+  choker5:
+    "https://i.pinimg.com/1200x/87/86/5a/87865ae25705562b8703c0c06af691d6.jpg",
+  choker6:
+    "https://i.pinimg.com/1200x/6a/c0/2f/6ac02f8cb09fae5fb90bf05e2bff09fd.jpg",
+
+  necklaces:
+    "https://i.pinimg.com/736x/b5/1d/54/b51d54377881806e0bb72019260fb5f4.jpg",
+  necklaces2:
+    "https://i.pinimg.com/736x/38/f3/92/38f392ede873533d9eb2751ee1b13150.jpg",
+  necklaces3:
+    "https://i.pinimg.com/736x/53/c2/d4/53c2d401545c3041af70e7625d748edc.jpg",
+  necklaces4:
+    "https://i.pinimg.com/736x/32/ba/25/32ba2551a794df808e20d84d8c0fbfbf.jpg",
+  necklaces5:
+    "https://i.pinimg.com/1200x/92/c6/34/92c634423561a232da095c9456df1df2.jpg",
+  necklaces6:
+    "https://i.pinimg.com/1200x/cb/d1/bc/cbd1bcc02f50903d26d443bf21adf818.jpg",
+
+  Om: "https://i.pinimg.com/1200x/1f/9e/2b/1f9e2b14f4caf757767f8e9f1bc75446.jpg",
+  Om2: "https://i.pinimg.com/1200x/8f/de/99/8fde99bd56c5cad14357b23b6fb49570.jpg",
+  Om3: "https://i.pinimg.com/1200x/c9/54/54/c95454ce07121322e2945c0d427a60ec.jpg",
+  Om4: "https://i.pinimg.com/1200x/75/d6/2a/75d62aea637d806b787bf755ef67e75a.jpg",
+  Om5: "https://i.pinimg.com/1200x/7f/4e/d6/7f4ed6c9464242993d107858b4bf2eaf.jpg",
+  Om6: "https://i.pinimg.com/1200x/2c/f3/52/2cf35261687eae0c693de69ca7afbe98.jpg",
+
+  kanthi:
+    "https://i.pinimg.com/1200x/75/6e/a2/756ea2299ba84dff8669bcfcd4ab955a.jpg",
+  kanthi2:
+    "https://i.pinimg.com/1200x/1b/29/63/1b2963881dc523a82b9eb57a8f881cba.jpg",
+  kanthi3:
+    "https://i.pinimg.com/1200x/a7/7f/6f/a77f6f0faf810a3b65aa0195c8cb87db.jpg",
+  kanthi4:
+    "https://i.pinimg.com/1200x/67/c6/cf/67c6cffc31f1d7bb6d623f265b47d1ea.jpg",
+  kanthi5:
+    "https://i.pinimg.com/1200x/54/a5/ac/54a5acf1536ec21ff40b5423a525293a.jpg",
+  kanthi6:
+    "https://i.pinimg.com/1200x/ae/c4/d4/aec4d4b37009b6c8b741fc8b4c865828.jpg",
+
+  kada: "https://i.pinimg.com/736x/1f/9f/1d/1f9f1dee5397c6b8e2f32257d0c1abe0.jpg",
+  kada4:
+    "https://i.pinimg.com/736x/90/92/0f/90920f058226de9a656df64d76754df5.jpg",
+  kada2:
+    "https://i.pinimg.com/736x/84/94/20/8494201888befe7485cb21e007ed7c1d.jpg",
+  kada3:
+    "https://i.pinimg.com/736x/b3/53/08/b353083f773b97dce5869ed8e34cc376.jpg",
+  kada5:
+    "https://i.pinimg.com/736x/50/d4/c9/50d4c99de6a267276b50dc39957e9174.jpg",
+  kada6:
+    "https://i.pinimg.com/736x/91/04/a1/9104a15e160422e183cdfd6d9eee9079.jpg",
+
+  omlocket:
+    "https://i.pinimg.com/736x/ba/43/62/ba4362fed9794ef43f85e8a9c9aff372.jpg",
+  omlocket2:
+    "https://i.pinimg.com/736x/da/4e/01/da4e0143c7816b21ea0188b513b1bb7e.jpg",
+  omlocket3:
+    "https://i.pinimg.com/736x/19/31/2d/19312d3d0f42bfb21c8fa8c3a24491aa.jpg",
+  omlocket4:
+    "https://i.pinimg.com/1200x/ac/85/19/ac8519c4c4f302f3ac7452bdf2d1b268.jpg",
+  omlocket5:
+    "https://i.pinimg.com/1200x/88/d9/b5/88d9b53db32d6b005a538239eed320bf.jpg",
+  omlocket6:
+    "https://i.pinimg.com/736x/9f/3f/97/9f3f9781c22403bcc2aa8e97f9647cec.jpg",
+
+  maalocket:
+    "https://i.pinimg.com/1200x/7c/6c/f3/7c6cf35d6489ff8d4734897018ea3330.jpg",
+  maalocket1:
+    "https://i.pinimg.com/736x/8a/ab/d1/8aabd116d11d4377b1a7fd7f99eeae2d.jpg",
+  maalocket2:
+    "https://i.pinimg.com/736x/c5/f7/64/c5f764660fdff1ef7db826791486fd09.jpg",
+  maalocket3:
+    "https://i.pinimg.com/1200x/31/cd/6a/31cd6aab02e225af007a1e20140f3376.jpg",
+  maalocket4:
+    "https://i.pinimg.com/1200x/bf/e6/7f/bfe67fc59a26607d7221612ab3ac3fcd.jpg",
+  maalocket5:
+    "https://i.pinimg.com/1200x/83/e8/f7/83e8f70fd2919c4e596faeaae192b416.jpg",
+  maalocket6:
+    "https://i.pinimg.com/1200x/e0/c0/80/e0c0802eb90dfa651acafc4bc2fed093.jpg",
+
+  gurjarlocket:
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnU9nkyBr25baPSrVubFTfnrXM2b3IfBL-_w&s",
+  gurjarlocket2:
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQBstJDE_V_zqcYgcsv1p8IGsX7TwhVY24Cg&s",
+  gurjarlocket3:
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG3XdR8oKOeqVYL75rm_Z99qyWsO50P4BBHA&s",
+  gurjarlocket4:
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI5vwBuiQ8K6PBAibYTuEjG-HjEKHhgiZA6g&s",
+  gurjarlocket5:
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Nq_C3qXIGQ2yDZ0CuFM8KXX-J_A9mIJ_TA&s",
+  gurjarlocket6:
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9MPTB0q75Mzxgls0yDD7C2ucmpYBiBzYq0A&s",
+
+  mkada:
+    "https://i.pinimg.com/1200x/54/f3/12/54f3124fff0941b91099c3bce829ef86.jpg",
+  mkada2:
+    "https://i.pinimg.com/736x/e1/ae/6d/e1ae6d1b6f3296d4f4ac4633d4044ab3.jpg",
+  mkada3:
+    "https://i.pinimg.com/1200x/08/37/d4/0837d433df3d1ac805d6f8948b69d5cd.jpg",
+  mkada4:
+    "https://i.pinimg.com/736x/b3/b2/cc/b3b2cc032c96297975974cea80fc3fd8.jpg",
+  mkada5:
+    "https://i.pinimg.com/736x/f8/75/8a/f8758a72ba65d1f03a1d20639d679914.jpg",
+  mkada6:
+    "https://i.pinimg.com/736x/68/f7/27/68f7278fbdffef4b95fdf439c3485d7a.jpg",
+
+  wbracelets:
+    "https://i.pinimg.com/736x/eb/fe/0f/ebfe0fca41870abcb4c804c444766d6c.jpg",
+  wbracelets2:
+    "https://i.pinimg.com/736x/ce/8f/76/ce8f763e35ec925e6b161ca9e48b2ede.jpg",
+  wbracelets3:
+    "https://i.pinimg.com/736x/d8/2b/27/d82b277f6fc177d7120c2cd44345320d.jpg",
+  wbracelets4:
+    "https://i.pinimg.com/736x/3b/ae/83/3bae83c73e2ecee62d14cbe47e9344aa.jpg",
+  wbracelets5:
+    "https://i.pinimg.com/736x/b2/ad/c1/b2adc19a23c423362cd5b772b907bc20.jpg",
+  wbracelets6:
+    "https://i.pinimg.com/736x/1c/a2/06/1ca206019f694e14d711577dd9693f68.jpg",
+
+  mbracelets:
+    "https://i.pinimg.com/1200x/6c/63/ea/6c63eaaa4169da7d9a471e97f8da7b98.jpg",
+  mbracelets2:
+    "https://i.pinimg.com/1200x/40/55/c3/4055c355b4c2706152b4b8a3193b54ab.jpg",
+  mbracelets3:
+    "https://i.pinimg.com/1200x/9e/ea/d7/9eead7dfe47e422969b0e4a74d769ef1.jpg",
+  mbracelets4:
+    "https://i.pinimg.com/1200x/74/01/f7/7401f73014b222ee40932a00fdebfdbf.jpg",
+  mbracelets5:
+    "https://i.pinimg.com/736x/c1/cd/38/c1cd38c8a46d693e4136692626358279.jpg",
+  mbracelets6:
+    "https://i.pinimg.com/1200x/74/b5/c2/74b5c23c99b9373776e79a841bcaa683.jpg",
+
+  mbali:
+    "https://i.pinimg.com/1200x/d5/72/db/d572db50fdf5bc456242f14d1d9c764c.jpg",
+  mbali2:
+    "https://i.pinimg.com/736x/8f/bf/8e/8fbf8e49ca44ff3f9af5a0baf1a0a345.jpg",
+  mbali3:
+    "https://i.pinimg.com/1200x/15/17/cc/1517cc4843bb00f6e4d47443614081fb.jpg",
+  mbali4:
+    "https://i.pinimg.com/736x/ab/2d/1d/ab2d1d9cf40a51ba7341d9105d094a44.jpg",
+  mbali5:
+    "https://i.pinimg.com/1200x/82/a8/d0/82a8d09453a9787093efbc925188db25.jpg",
+  mbali6:
+    "https://i.pinimg.com/1200x/89/40/aa/8940aa2b5ae4a8c48466f233a48712fc.jpg",
+
+  wmali:
+    "https://i.pinimg.com/736x/6d/0e/a6/6d0ea6ff563158d87166a3302ff84749.jpg",
+  wmali2:
+    "https://i.pinimg.com/1200x/43/59/09/4359093c545004cfe777ea037351d152.jpg",
+  wmali3:
+    "https://i.pinimg.com/736x/12/1f/66/121f6650752aeb46dc695de9be6558f9.jpg",
+  wmali4:
+    "https://i.pinimg.com/1200x/f2/af/83/f2af836c6650a6ab771803ae3a7b4d03.jpg",
+  wmali5:
+    "https://i.pinimg.com/736x/cc/1f/9b/cc1f9b5dcfb94281237a93f50bc9f313.jpg",
+  wmali6:
+    "https://i.pinimg.com/736x/b2/d0/69/b2d0694015b4c194bc056ed109aa3500.jpg",
+
+  wearrings:
+    "https://i.pinimg.com/736x/1f/ef/e2/1fefe2356eaceb08cf515728b239fbfa.jpg",
+  wearrings2:
+    "https://i.pinimg.com/736x/8b/4b/36/8b4b36abd0d7abd3dc5f45d4b5bc4c3b.jpg",
+  wearrings3:
+    "https://i.pinimg.com/736x/f5/db/6c/f5db6c5f37abae6be28f514a8363e548.jpg",
+  wearrings4:
+    "https://i.pinimg.com/736x/5c/a9/68/5ca96805fa1043dded20cd8b6c09aa47.jpg",
+  wearrings5:
+    "https://i.pinimg.com/736x/58/37/9d/58379d888a246e9950dbaac1ba88361d.jpg",
+  wearrings6:
+    "https://i.pinimg.com/736x/a9/14/dc/a914dca94e3913f846832d17c59478df.jpg",
+
+  mearring:
+    "https://i.pinimg.com/1200x/e1/4f/f9/e14ff9816198d72e37f9914bc22548d5.jpg",
+  mearring2:
+    "https://i.pinimg.com/1200x/50/48/78/504878137b7760f53c33f016df9a9cf4.jpg",
+  mearring3:
+    "https://i.pinimg.com/1200x/58/c3/d7/58c3d73a10e23576765ec237e313f356.jpg",
+  mearring4:
+    "https://i.pinimg.com/1200x/e1/ab/c0/e1abc004aed7f8784c8a5388130540dc.jpg",
+  mearring5:
+    "https://i.pinimg.com/1200x/10/b1/77/10b177c92183f08fb50112585e2ea42c.jpg",
+  mearring6:
+    "https://i.pinimg.com/1200x/35/78/61/3578614822ed4fab692959fcee62aa45.jpg",
+  mearring7:
+    "https://i.pinimg.com/1200x/17/97/97/179797a7046959cdcfd766af1e85c0ea.jpg",
+  mearring8: "https://i.pinimg.com/1200x/61/3a/bc/613abcecb1b06eded0cb9c1abcb89598.jpg",
+  mearring9: "https://i.pinimg.com/1200x/03/19/58/031958821e49cbe2edd0de59c28bbe4f.jpg",
+  mearring10:
+    "https://i.pinimg.com/1200x/8d/1e/9c/8d1e9cda0d7eeb11a97361eaa60931ca.jpg",
+  mearring11: "https://i.pinimg.com/736x/dc/f2/18/dcf21847f4532e7d3c3204e060d3ba7b.jpg",
+  mearring12: "https://i.pinimg.com/1200x/41/0f/76/410f765bec1fa99a39df8cc68ffaa108.jpg",
+  mearring13:
+    "https://i.pinimg.com/1200x/53/95/a2/5395a20c654e1a097e36580410e7b901.jpg",
+  mearring14: "https://i.pinimg.com/1200x/2c/bb/a4/2cbba4eacd703e8942cd993013f01d6c.jpg",
+  mearring15: "https://i.pinimg.com/1200x/25/76/65/2576653e8ce6b91989e983557e764d68.jpg",
+  mearring16:
+    "https://i.pinimg.com/1200x/87/3e/ea/873eea0896dba59482b1bc8ab1514ec6.jpg",
+  mearring17: "https://i.pinimg.com/736x/09/c0/d9/09c0d9a9d71180b9d006b8a0b2fbe55a.jpg",
+  mearring18: "https://i.pinimg.com/1200x/20/b0/32/20b032b3106b41b4af5a7cbe7e0b5863.jpg",
+  mearring19:
+    "https://i.pinimg.com/1200x/a2/8c/f9/a28cf97ce6b0e506bfbae8f620c3a69d.jpg",
+  mearring20:
+    "https://i.pinimg.com/1200x/4d/22/31/4d2231db1dd03ae099b82a1ed05ed82c.jpg",
+  mearring21: "",
+  mearring22:
+    "https://i.pinimg.com/1200x/15/17/cc/1517cc4843bb00f6e4d47443614081fb.jpg",
+  mearring23: "",
+  mearring24: "",
+  mearring25:
+    "https://i.pinimg.com/736x/dc/f2/18/dcf21847f4532e7d3c3204e060d3ba7b.jpg",
+  mearring26: "",
+  mearring27: "",
+  mearring28:
+    "https://i.pinimg.com/1200x/d0/c5/c1/d0c5c1b16e47d54525a03acc07925b49.jpg",
+  mearring29: "",
+  mearring30:
+    "https://i.pinimg.com/1200x/70/98/e1/7098e18bf69c35c813bc10ae27f262d0.jpg",
+  mearring31:
+    "https://i.pinimg.com/1200x/9a/f4/b4/9af4b4b79afefcffe70b9cf1834b33f6.jpg",
+  mearring32:
+    "https://i.pinimg.com/1200x/14/6e/44/146e44e27ee1ea690ab0662a03187b52.jpg",
+  mearring33:
+    "https://i.pinimg.com/1200x/15/38/cf/1538cf11d5514e4d3ae267b740495c8c.jpg",
+  mearring34:
+    "https://i.pinimg.com/1200x/5d/27/61/5d27616a13680b57c41b95f644b91de5.jpg",
+  mearring35:
+    "https://i.pinimg.com/1200x/4d/bd/bf/4dbdbf03d3d7bdff958a9ff3c66235cc.jpg",
+  mearring36:
+    "https://i.pinimg.com/1200x/f8/dd/18/f8dd1835b30dc46e78434473533f4250.jpg",
+  mearring37:
+    "https://i.pinimg.com/736x/dc/f2/18/dcf21847f4532e7d3c3204e060d3ba7b.jpg",
+  mearring38:
+    "https://i.pinimg.com/1200x/8d/1e/9c/8d1e9cda0d7eeb11a97361eaa60931ca.jpg",
+  mearring39:
+    "https://i.pinimg.com/1200x/41/0f/76/410f765bec1fa99a39df8cc68ffaa108.jpg",
+  mearring40:
+    "https://i.pinimg.com/1200x/cd/b2/e8/cdb2e85c317120e0c64e6e3bff44006f.jpg",
+  mearring41:
+    "https://i.pinimg.com/736x/a8/d2/6f/a8d26f7855bcf41ced290e7a2226db92.jpg",
+  mearring42:
+    "https://i.pinimg.com/1200x/18/74/e2/1874e2cd11fb5152bf65f1f9ec2f540f.jpg",
+  mearring43:
+    "https://i.pinimg.com/1200x/f3/35/49/f33549e081632864dd11a2a1a0b01842.jpg",
+  mearring44:
+    "https://i.pinimg.com/736x/ef/d7/b7/efd7b724e007e9cac23a531f86438ee9.jpg",
+  mearring45:
+    "https://i.pinimg.com/1200x/ca/47/9e/ca479e18c882af0a6fc0ce06ec3cf52d.jpg",
+
+  mchain:
+    "https://i.pinimg.com/736x/43/58/29/435829de25b6f081c1a5d44b25b04143.jpg",
+  mchain2:
+    "https://i.pinimg.com/736x/c9/8d/30/c98d3081f725142baca34dc5c0209418.jpg",
+  mchain3:
+    "https://i.pinimg.com/1200x/c5/5a/c4/c55ac4c14d217005b21510b780c296b4.jpg",
+  mchain4:
+    "https://i.pinimg.com/736x/cb/02/55/cb0255af79ca2e3d5096cd09eb29e617.jpg",
+  mchain5:
+    "https://i.pinimg.com/1200x/42/6d/34/426d34e1b5722d3e71b4417150fdc74e.jpg",
+  mchain6:
+    "https://i.pinimg.com/736x/a5/8f/85/a58f85773efc10abac97cc3360e6f340.jpg",
+
+  wchain:
+    "https://i.pinimg.com/1200x/15/8b/51/158b5131a648a6b42e2d36262be4a755.jpg",
+  wchain2:
+    "https://i.pinimg.com/736x/46/b5/02/46b502687f7111de1e945383c342aa9a.jpg",
+  wchain3:
+    "https://i.pinimg.com/736x/2f/20/d3/2f20d3dcad119123882bd6ad94232e21.jpg",
+  wchain4:
+    "https://i.pinimg.com/736x/b5/76/71/b57671d03b3b9f6d9e72596d88355ca0.jpg",
+  wchain5:
+    "https://i.pinimg.com/736x/1b/98/91/1b9891a7c9dfa99c19e64d70ee49e665.jpg",
+  wchain6:
+    "https://i.pinimg.com/736x/a1/01/1f/a1011f47b3098d91985fe085e0dea86c.jpg",
+
+  wring:
+    "https://i.pinimg.com/736x/32/c7/45/32c745d5a8e1d8ac440b81bedee9c73f.jpg",
+
+  wring4:
+    "https://i.pinimg.com/736x/5a/df/fc/5adffcbd6f1568c4021f70c8cc829cb4.jpg",
+  wring7:
+    "https://i.pinimg.com/1200x/60/24/86/60248641866ca378f1078ff18bfcbd99.jpg",
+  wring10:
+    "https://i.pinimg.com/1200x/95/27/86/952786e913cd0fd8ab74498788c045a6.jpg",
+  wring13:
+    "https://i.pinimg.com/736x/9e/e4/82/9ee4829ef31a542fb7a75e676e67e408.jpg",
+  wring16:
+    "https://i.pinimg.com/736x/a9/d4/73/a9d473cf4360c66e7da92791afe7195c.jpg",
+  wring19:
+    "https://i.pinimg.com/736x/3b/5d/f1/3b5df10a3d0b61f6db27ffabc71d25fb.jpg",
+
+  wring22:
+    "https://i.pinimg.com/1200x/60/24/86/60248641866ca378f1078ff18bfcbd99.jpg",
+  wring25:
+    "https://i.pinimg.com/736x/0e/6d/ea/0e6dea8f55fe19b83dc94d0b747f18c0.jpg",
+  wring28:
+    "https://i.pinimg.com/1200x/90/02/ad/9002ad0ac34c41050762813c10728e1b.jpg",
+  wring31:
+    "https://i.pinimg.com/1200x/95/27/86/952786e913cd0fd8ab74498788c045a6.jpg",
+  wring11:
+    "https://i.pinimg.com/1200x/40/2a/48/402a485d3bfd936288ca29485655f1e2.jpg",
+  wring34:
+    "https://i.pinimg.com/736x/c1/14/66/c1146652acdec9193473d86fa2376aaa.jpg",
+  wring37:
+    "https://i.pinimg.com/736x/9e/e4/82/9ee4829ef31a542fb7a75e676e67e408.jpg",
+  wring40:
+    "https://i.pinimg.com/736x/4b/f6/1e/4bf61e39ba6a0539fd8b4fc01b84d4af.jpg",
+  wring43:
+    "https://i.pinimg.com/736x/49/39/d4/4939d4aa44609c75a64f49be6dd98646.jpg",
+  wring46:
+    "https://i.pinimg.com/1200x/59/a0/65/59a0652308ebce6e6a24aa62bffbf639.jpg",
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
 };
 
 /* ── Category registry — drives ALL routes & nav ─── */
@@ -3596,6 +4099,7 @@ const PRODUCT_TEMPLATES = {
         "Hallmarked",
       ],
     },
+<<<<<<< HEAD
     {
       name: "Sapphire-set Kanthi",
       desc: "A 22K gold kanthi set with a deep blue sapphire — a regal statement piece.",
@@ -3651,6 +4155,8 @@ const PRODUCT_TEMPLATES = {
         "GIA Certified",
       ],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "gold/mens/om-lockets": [
     {
@@ -3665,6 +4171,7 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.omlocket4, I.omlocket5, I.omlocket6],
       features: ["22K Gold", "3D Relief", "Polished Finish", "BIS Certified"],
     },
+<<<<<<< HEAD
     {
       name: "Om Locket — Diamond Accent",
       desc: "A 22K gold Om locket with a single channel-set diamond for understated sparkle.",
@@ -3759,6 +4266,8 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.omlocket46, I.omlocket47, I.omlocket48],
       features: ["22K Gold", "Geometric Engraving", "Wide Bail", "Hallmarked"],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "gold/mens/maa-lockets": [
     {
@@ -3778,6 +4287,7 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+<<<<<<< HEAD
     {
       name: "Maa Locket — Diamond Accent",
       desc: "A 22K gold Maa locket with a single channel-set diamond for understated sparkle.",
@@ -3872,6 +4382,8 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.maalocket46, I.maalocket47, I.maalocket48],
       features: ["22K Gold", "Geometric Engraving", "Wide Bail", "Hallmarked"],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "gold/mens/gurjar-lockets": [
     {
@@ -3891,6 +4403,7 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.gurjarlocket4, I.gurjarlocket5, I.gurjarlocket6],
       features: ["22K Gold", "Heritage Design", "Deep Engraving", "Hallmarked"],
     },
+<<<<<<< HEAD
     {
       name: "Gurjar Community Locket",
       desc: "A 22K gold locket with intricate Gurjar community symbols and patterns.",
@@ -3995,6 +4508,8 @@ const PRODUCT_TEMPLATES = {
         "Hallmarked",
       ],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "gold/mens/om-collection": [
     {
@@ -4009,6 +4524,7 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.Om4, I.Om5, I.Om6],
       features: ["22K Gold", "Om Inlay", "Signet Style", "Hallmarked"],
     },
+<<<<<<< HEAD
     {
       name: "Om Bracelet",
       desc: "A 22K gold bracelet with a central Om charm — devotion on the wrist.",
@@ -4103,6 +4619,8 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.Om46, I.Om47, I.Om48],
       features: ["22K Gold", "Ruby Accent", "Pendant Style", "GIA Certified"],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "gold/womens/necklaces": [
     {
@@ -4122,6 +4640,7 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.necklaces4, I.necklaces5, I.necklaces6],
       features: ["22K Gold", "Triple Layer", "Adjustable", "BIS Certified"],
     },
+<<<<<<< HEAD
     {
       name: "Diamond Pendant Necklace",
       desc: "A solitaire diamond pendant on a delicate 18K gold chain — understated elegance.",
@@ -4231,6 +4750,8 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.necklaces46, I.necklaces47, I.necklaces48],
       features: ["22K Gold", "Geometric Engraving", "Adjustable", "Hallmarked"],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "gold/womens/chokers": [
     {
@@ -4250,6 +4771,7 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.choker2, I.choker5, I.choker6],
       features: ["22K Gold", "Floral Links", "Box Clasp", "Handcrafted"],
     },
+<<<<<<< HEAD
     {
       name: "Meenakari Choker",
       desc: "A 22K gold choker with vibrant meenakari enamel in traditional motifs.",
@@ -4349,6 +4871,8 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.choker45, I.choker46, I.choker47],
       features: ["22K Gold", "Hammered Texture", "Adjustable", "BIS Certified"],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "gold/womens/rani-haar": [
     {
@@ -4373,6 +4897,7 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+<<<<<<< HEAD
     {
       name: "Rani Haar — Diamond-set",
       desc: "A rani haar in 18K gold with channel-set diamonds and a statement pendant.",
@@ -4512,6 +5037,8 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "gold/womens/chudi": [
     {
@@ -4526,6 +5053,7 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.chudi4, I.chudi5, I.chudi6],
       features: ["22K Gold", "Lightweight", "Set of 12", "Daily Wear"],
     },
+<<<<<<< HEAD
     {
       name: "Diamond Chudi Set",
       desc: "A set of 6 18K gold chudi with channel-set diamonds for understated sparkle.",
@@ -4660,6 +5188,8 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "gold/womens/mangalsutra": [
     {
@@ -4679,6 +5209,7 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.mangalsutra4, I.mangalsutra5, I.mangalsutra6],
       features: ["18K Gold", "Modern Design", "Lightweight", "BIS Certified"],
     },
+<<<<<<< HEAD
     {
       name: "Diamond Mangalsutra",
       desc: "A 22K gold mangalsutra with channel-set diamonds and a statement pendant.",
@@ -4833,6 +5364,8 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "gold/womens/nath": [
     {
@@ -4852,6 +5385,7 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.nath4, I.nath5, I.nath6],
       features: ["22K Gold", "Lightweight", "Easy Clasp", "BIS Certified"],
     },
+<<<<<<< HEAD
     {
       name: "Diamond Nath",
       desc: "A 22K gold nath with channel-set diamonds and a delicate chain support.",
@@ -5006,6 +5540,8 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "gold/womens/nose-rings": [
     {
@@ -5030,6 +5566,7 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+<<<<<<< HEAD
     {
       name: "Meenakari Nose Ring",
       desc: "A 22K gold nose ring with vibrant meenakari enamel in traditional motifs.",
@@ -5179,6 +5716,8 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "gold/womens/nose-pins": [
     {
@@ -5198,6 +5737,7 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.goldnosepin5, I.goldnosepin6, I.goldnosepin7],
       features: ["22K Gold", "Burmese Ruby", "Push-pin Back", "BIS Certified"],
     },
+<<<<<<< HEAD
     {
       name: "Meenakari Nose Pin",
       desc: "A 22K gold nose pin with vibrant meenakari enamel in traditional motifs.",
@@ -5352,6 +5892,8 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "gold/womens/kundal": [
     {
@@ -5376,6 +5918,7 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+<<<<<<< HEAD
     {
       name: "Diamond-set Kundal",
       desc: "A pair of 18K gold kundal with channel-set diamonds for understated sparkle.",
@@ -5530,6 +6073,8 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "gold/womens/jhumki": [
     {
@@ -5544,6 +6089,7 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.goldJhumki4, I.goldJhumki5, I.goldJhumki6],
       features: ["22K Gold", "Lightweight", "Hook Back", "Daily Wear"],
     },
+<<<<<<< HEAD
     {
       name: "Diamond Jhumki",
       desc: "A pair of 18K gold jhumkis with channel-set diamonds — understated sparkle.",
@@ -5643,6 +6189,8 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "gold/womens/tops": [
     {
@@ -5662,6 +6210,7 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.goldtops4, I.goldtops5, I.goldtops6],
       features: ["22K Gold", "Akoya Pearl", "Push-back", "Luxury Box"],
     },
+<<<<<<< HEAD
     {
       name: "Ruby Tops",
       desc: "A single Burmese ruby in a 22K gold bezel setting — a pop of color.",
@@ -5756,6 +6305,8 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.goldtops46, I.goldtops47, I.goldtops48],
       features: ["18K Gold", "Diamond Channel", "Push-back", "GIA Certified"],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "gold/womens/temple": [
     {
@@ -5780,6 +6331,7 @@ const PRODUCT_TEMPLATES = {
         "Festive Wear",
       ],
     },
+<<<<<<< HEAD
     {
       name: "Temple Pendant",
       desc: "A 22K gold pendant featuring a goddess motif, perfect for auspicious gifting.",
@@ -5909,6 +6461,8 @@ const PRODUCT_TEMPLATES = {
         "Festive Wear",
       ],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "gold/bridal": [
     {
@@ -5941,6 +6495,7 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.goldbangle, I.goldbangle2, I.goldbangle3],
       features: ["22K Gold", "Diamond Accents", "Set of 12", "BIS Certified"],
     },
+<<<<<<< HEAD
     {
       name: "Bridal Payal",
       desc: "A pair of 22K gold anklets with intricate temple motifs and tiny bells.",
@@ -6047,6 +6602,8 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "gold/kids": [
     {
@@ -6073,6 +6630,7 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.goldker, I.goldker1, I.goldker2],
       features: ["18K Gold", "Butterfly Design", "Push-back", "Hypoallergenic"],
     },
+<<<<<<< HEAD
     {
       name: "Kids Anklet",
       desc: "A small 18K gold anklet with bell charms — jingling joy for little feet.",
@@ -6180,6 +6738,8 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "gold/coins": [
     {
@@ -6215,6 +6775,7 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+<<<<<<< HEAD
     {
       name: "20 Gram Gold Coin",
       desc: "A 24K gold coin with intricate engraving — a valuable addition to your portfolio.",
@@ -6358,6 +6919,8 @@ const PRODUCT_TEMPLATES = {
         "Certificate Included",
       ],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "silver/mens/rings": [
     {
@@ -6382,6 +6945,7 @@ const PRODUCT_TEMPLATES = {
         "Comfortable Fit",
       ],
     },
+<<<<<<< HEAD
     {
       name: "Silver Signet Ring",
       desc: "A classic signet ring in sterling silver — ready for engraving your personal crest.",
@@ -6536,6 +7100,8 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "silver/mens/chains": [
     {
@@ -6550,6 +7116,7 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silvermch4, I.silvermch5, I.silvermch6],
       features: ["92.5 Silver", "Rope Weave", "2 Lengths", "Hallmarked"],
     },
+<<<<<<< HEAD
     {
       name: "Silver Box Chain",
       desc: "A sleek box-link silver chain — versatile and durable for daily wear.",
@@ -6674,6 +7241,8 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silvermch46, I.silvermch47, I.silvermch48],
       features: ["92.5 Silver", "Rolo Design", "Lobster Clasp", "Hallmarked"],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "silver/mens/kada": [
     {
@@ -6688,6 +7257,7 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silvermka4, I.silvermka5, I.silvermka6],
       features: ["92.5 Silver", "Plain Finish", "Heavy Gauge", "BIS Certified"],
     },
+<<<<<<< HEAD
     {
       name: "Oxidised Silver Kada",
       desc: "A bold oxidised silver kada with tribal etching — statement piece for the modern man.",
@@ -6827,6 +7397,8 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "silver/mens/bracelets": [
     {
@@ -6846,6 +7418,7 @@ const PRODUCT_TEMPLATES = {
         "Hallmarked",
       ],
     },
+<<<<<<< HEAD
     {
       name: "Silver Rope Bracelet",
       desc: "Twisted rope silver bracelet with a secure clasp — classic and versatile.",
@@ -6965,6 +7538,8 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silvermbra46, I.silvermbra47, I.silvermbra48],
       features: ["92.5 Silver", "Cable Style", "Lobster Clasp", "Hallmarked"],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "silver/womens/rings": [
     {
@@ -6989,6 +7564,7 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+<<<<<<< HEAD
     {
       name: "Oxidised Silver Ring",
       desc: "A bold oxidised silver ring with tribal etching — statement piece for the modern woman.",
@@ -7128,6 +7704,8 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "silver/womens/chains": [
     {
@@ -7142,6 +7720,7 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silverwch4, I.silverwch5, I.silverwch6],
       features: ["92.5 Silver", "Ball Link", "Lightweight", "Hallmarked"],
     },
+<<<<<<< HEAD
     {
       name: "Silver Rope Chain",
       desc: 'Twisted rope weave in sterling silver, available in 18" and 22".',
@@ -7231,6 +7810,8 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silverwch46, I.silverwch47, I.silverwch48],
       features: ["92.5 Silver", "Wheat Pattern", '16" Length', "Hallmarked"],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "silver/womens/earrings": [
     {
@@ -7250,6 +7831,7 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silverwerr4, I.silverwerr5, I.silverwerr6],
       features: ["92.5 Silver", "High-polish", "Push-back", "Hypoallergenic"],
     },
+<<<<<<< HEAD
     {
       name: "Filigree Silver Earrings",
       desc: "Delicate Cuttack filigree silver earrings — lightweight, intricate, and timeless.",
@@ -7364,6 +7946,8 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silverwerr46, I.silverwerr47, I.silverwerr48],
       features: ["92.5 Silver", "Leaf Design", "Hook Back", "Hallmarked"],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "silver/womens/jhumke": [
     {
@@ -7388,6 +7972,7 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+<<<<<<< HEAD
     {
       name: "Filigree Silver Jhumke",
       desc: "Cuttack filigree jhumke in sterling silver — intricate, lightweight, and timeless.",
@@ -7542,6 +8127,8 @@ const PRODUCT_TEMPLATES = {
         "Hallmarked",
       ],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "silver/womens/payal": [
     {
@@ -7561,6 +8148,7 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silverp4, I.silverp5, I.silverp6],
       features: ["92.5 Silver", "Plain Design", "Adjustable", "BIS Certified"],
     },
+<<<<<<< HEAD
     {
       name: "Oxidised Payal",
       desc: "An oxidised silver payal with tribal motifs — bold, beautiful, and unmistakably Indian.",
@@ -7705,6 +8293,8 @@ const PRODUCT_TEMPLATES = {
         "Hallmarked",
       ],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "silver/womens/toe-rings": [
     {
@@ -7719,6 +8309,7 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silvertr2, I.silvertr4, I.silvertr6],
       features: ["92.5 Silver", "Plain Band", "Open Design", "Lightweight"],
     },
+<<<<<<< HEAD
     {
       name: "Oxidised Toe Ring",
       desc: "A bold oxidised silver toe ring with tribal etching — statement piece for the modern woman.",
@@ -7813,6 +8404,8 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silvertr46, I.silvertr47, I.silvertr48],
       features: ["92.5 Silver", "Cuttack Filigree", "Open Band", "Lightweight"],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "silver/womens/bracelets": [
     {
@@ -7832,6 +8425,7 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silverwb4, I.silverwb5, I.silverwb6],
       features: ["92.5 Silver", "5 Charms", "Lobster Clasp", "Customisable"],
     },
+<<<<<<< HEAD
     {
       name: "Oxidised Silver Bracelet",
       desc: "A bold oxidised silver bracelet with tribal motifs — statement piece for the modern woman.",
@@ -7966,6 +8560,8 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silverwb46, I.silverwb47, I.silverwb48],
       features: ["92.5 Silver", "5 Charms", "Lobster Clasp", "Customisable"],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "silver/womens/kada": [
     {
@@ -7985,6 +8581,7 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+<<<<<<< HEAD
     {
       name: "Oxidised Silver Kada",
       desc: "A bold oxidised silver kada with tribal etching — statement piece for the modern woman.",
@@ -8079,6 +8676,8 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silverwka46, I.silverwka47, I.silverwka48],
       features: ["92.5 Silver", "Floral Engraving", "Open Cuff", "Adjustable"],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "silver/womens/pendants": [
     {
@@ -8103,6 +8702,7 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+<<<<<<< HEAD
     {
       name: "Silver Tree of Life Pendant",
       desc: "A sterling silver pendant with a tree of life motif — growth, strength, and beauty.",
@@ -8227,6 +8827,8 @@ const PRODUCT_TEMPLATES = {
         "Hypoallergenic",
       ],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "silver/kids": [
     {
@@ -8251,6 +8853,7 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+<<<<<<< HEAD
     {
       name: "Kids Silver Bracelet",
       desc: "A delicate 92.5 silver bracelet for children — adjustable and charming.",
@@ -8405,6 +9008,8 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "silver/coins": [
     {
@@ -8419,6 +9024,7 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silverc4, I.silverc6, I.silverc5],
       features: ["999 Pure Silver", "10 Gram", "Tamper-proof", "BIS Certified"],
     },
+<<<<<<< HEAD
     {
       name: "25 Gram Silver Coin",
       desc: "A 999 pure silver coin with a traditional Indian motif — perfect for gifting.",
@@ -8562,6 +9168,8 @@ const PRODUCT_TEMPLATES = {
         "Luxury Box",
       ],
     },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
   "silver/gifts": [
     {
@@ -8576,6 +9184,7 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silverg4, I.silverg5, I.silverg6],
       features: ["92.5 Silver", "Handcrafted", "Display Stand", "Gift Box"],
     },
+<<<<<<< HEAD
     {
   name: "Silver Baby Gift Set",
   desc: "A premium 92.5 silver baby gift set including a bowl, spoon, and glass, beautifully packed for special occasions.",
@@ -8660,6 +9269,8 @@ const PRODUCT_TEMPLATES = {
   imgs: [I.silverg46, I.silverg47, I.silverg48],
   features: ["92.5 Silver", "Premium Collection", "Luxury Gift", "Exclusive Packaging"],
 },
+=======
+>>>>>>> 458c107416c9144de9b2903b36877285a8505d5c
   ],
 };
 
