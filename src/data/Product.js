@@ -455,944 +455,8307 @@
    catalogue.js — Complete Aurum Jewellery Data Layer
    ───────────────────────────────────────────────────── */
 
-export const WHATSAPP_NUMBER = '919876543210'
+export const WHATSAPP_NUMBER = "919876543210";
 
 /* ── Image pools ──────────────────────────────────── */
 const I = {
-  r1:'https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=900&q=90',
-  r2:'https://i.pinimg.com/736x/eb/24/1a/eb241a5b3646245d06b9267e63f849ec.jpg',
-  r3:'https://i.pinimg.com/1200x/94/fc/3f/94fc3fec617cb8efd9020f3e900b9b01.jpg',
-  r4:'https://images.unsplash.com/photo-1610694955371-d4a3e0ce4b52?w=900&q=90',
-  r5:'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=900&q=90',
-  n1:'https://i.pinimg.com/736x/b4/14/aa/b414aaa3bb6d16e652caabaeeaceaeea.jpg',
-  n2:'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=900&q=90',
-  n3:'https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=900&q=90',
-  n4:'https://images.unsplash.com/photo-1607703703520-bb638e84caf2?w=900&q=90',
-  b1:'https://i.pinimg.com/1200x/e4/f1/4e/e4f14e3c6bd7c07ce2ab6497783d5fff.jpg',
-  b2:'https://images.unsplash.com/photo-1630019852942-f89202989a59?w=900&q=90',
-  b3:'https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?w=900&q=90',
-  e1:'https://images.unsplash.com/photo-1573408301185-9519f94e1083?w=900&q=90',
-  e2:'https://i.pinimg.com/1200x/80/86/65/80866544ba9523f6d804ed52ba88e179.jpg',
-  e3:'https://i.pinimg.com/736x/69/ba/3c/69ba3c025eefcfa1f80b36194dc72a6b.jpg',
-  br1:'https://i.pinimg.com/736x/24/b9/76/24b9767f7f7bbe21d56a87a5b080a889.jpg',
-  br2:'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=900&q=90',
-  ch1:'https://i.pinimg.com/1200x/7c/70/18/7c70188c2fe9bedfc5d32de5bb3010ab.jpg',
-  lk1:'https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?w=900&q=90',
-  t1:'https://images.unsplash.com/photo-1583937443604-f42c0f2c6bef?w=900&q=90',
-  py1:'https://images.unsplash.com/photo-1620656798579-1984d9e87df7?w=900&q=90',
-  pd1:'https://images.unsplash.com/photo-1610694955371-d4a3e0ce4b52?w=900&q=90',
-  kd1:'https://i.pinimg.com/736x/8a/2b/1d/8a2b1d2bbef8e961c5e7a6b53d68d631.jpg',
-  jk1:'https://i.pinimg.com/736x/bf/99/12/bf99123de342a2af42066b3436585939.jpg',
-  mg1:'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=900&q=90',
-  ck1:'https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=900&q=90',
-  gn1:'https://images.unsplash.com/photo-1607703703520-bb638e84caf2?w=900&q=90',
-  cn1:'https://images.unsplash.com/photo-1630019852942-f89202989a59?w=900&q=90',
-  sp1:'https://images.unsplash.com/photo-1620656798579-1984d9e87df7?w=900&q=90',
-  ko1:'https://images.unsplash.com/photo-1618220179428-22790b461013?w=900&q=90',
-  mring1:'https://i.pinimg.com/736x/9f/97/25/9f9725732e29f1ab8ebd1b9d4c4e6656.jpg',
-  mring2:'https://i.pinimg.com/1200x/d1/02/79/d10279b7b418b5908767d58b59438f8b.jpg',
-  mring3:'https://i.pinimg.com/736x/56/82/de/5682de1f3a994b47a6f39c639dfd4a79.jpg',
-  msingnet:'https://i.pinimg.com/1200x/ea/73/2a/ea732a872e18f6ee79d25b7a0aa27933.jpg',
-  msingnet2:'https://i.pinimg.com/1200x/ce/7b/5f/ce7b5f8b9141fa9d04841d2929a83782.jpg',
-  msingnet3:'https://i.pinimg.com/1200x/f2/4d/3f/f24d3f9c0ff080e1b63e4839d8725d8f.jpg',
-  mom:'https://i.pinimg.com/1200x/04/2b/fb/042bfb37799802a27afff884b338a9ef.jpg',
-  mom2:'https://i.pinimg.com/736x/ec/8d/8c/ec8d8c2e22980f5651e6ae135b3bc989.jpg',
-  mom3:'https://i.pinimg.com/736x/d6/a9/ee/d6a9eeb6233f7315117d6ba683e7215d.jpg',
-  mdiamond:'https://i.pinimg.com/1200x/7d/9c/67/7d9c672c1ad3799b65203e36ebd6da94.jpg',
-  mdiamond2:'https://i.pinimg.com/1200x/b4/7e/29/b47e294fa17f5e2f253d25763d3270ad.jpg',
-  mdiamond3:'https://i.pinimg.com/1200x/c2/cd/44/c2cd44d1d1461f5210f394fbb4b98b97.jpg',
-  silverg:'https://i.pinimg.com/1200x/32/93/56/329356dbbade5399d621178fb5701d8d.jpg',
-  silverg2:'https://i.pinimg.com/736x/30/70/6c/30706c7d39278502fcf7e262e4701251.jpg',
-  silverg3:'https://i.pinimg.com/1200x/5e/c7/d9/5ec7d94195cca84f389b2c8099b45708.jpg',
-  silverg4:'https://i.pinimg.com/736x/3d/c9/6a/3dc96a1347d23b695c7d43144586561a.jpg',
-  silverg5:'https://i.pinimg.com/1200x/80/ed/58/80ed58b563ccf3e78d312683c9858a0a.jpg',
-  silverg6:'https://i.pinimg.com/736x/85/2b/81/852b81d4cdc3a24c12480295be9dd884.jpg',
-  silverc1:'https://i.pinimg.com/736x/5b/95/f5/5b95f594e30e2c069999c10aa895074c.jpg',
-  silverc2:'https://i.pinimg.com/736x/28/88/bd/2888bd572b58cb8bea8830f679d41af4.jpg',
-  silverc3:'https://i.pinimg.com/736x/58/6f/fe/586ffeddd5f232adf54ad1c0db9ae451.jpg',
-  silverc4:'https://i.pinimg.com/736x/6b/df/c6/6bdfc6f6c559fb7595cecfa20f71dac0.jpg',
-  silverc5:'https://i.pinimg.com/736x/be/2e/ee/be2eee203da5c168345f859420e98d43.jpg',
-  silverc6:'https://i.pinimg.com/1200x/a5/99/22/a5992201a98cc0d929be59b84161cd52.jpg',
-  silverk1:'https://i.pinimg.com/1200x/5b/d3/12/5bd312009d524a23d2a738da012c8d29.jpg',
-  silverk2:'https://i.pinimg.com/736x/ab/a2/b9/aba2b9ab9dbac510e3bd7f10de92a3c8.jpg',
-  silverk3:'https://i.pinimg.com/736x/87/18/44/871844098ac01901a0b5e45c5d8b98e1.jpg',
-  silverk4:'https://i.pinimg.com/1200x/71/b7/5e/71b75e5df5bf8d5a482ad5d49f6f375f.jpg',
-  silverk5:'https://i.pinimg.com/1200x/14/e2/83/14e283f042e2e77ad4860973a15cdcd8.jpg',
-  silverk6:'https://i.pinimg.com/736x/aa/3f/8f/aa3f8f30ca7face32863b73634ec75bf.jpg',
+  r1: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=900&q=90",
+  r2: "https://i.pinimg.com/736x/eb/24/1a/eb241a5b3646245d06b9267e63f849ec.jpg",
+  r3: "https://i.pinimg.com/1200x/94/fc/3f/94fc3fec617cb8efd9020f3e900b9b01.jpg",
+  r4: "https://images.unsplash.com/photo-1610694955371-d4a3e0ce4b52?w=900&q=90",
+  r5: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=900&q=90",
+  n1: "https://i.pinimg.com/736x/b4/14/aa/b414aaa3bb6d16e652caabaeeaceaeea.jpg",
+  n2: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=900&q=90",
+  n3: "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=900&q=90",
+  n4: "https://images.unsplash.com/photo-1607703703520-bb638e84caf2?w=900&q=90",
+  b1: "https://i.pinimg.com/1200x/e4/f1/4e/e4f14e3c6bd7c07ce2ab6497783d5fff.jpg",
+  b2: "https://images.unsplash.com/photo-1630019852942-f89202989a59?w=900&q=90",
+  b3: "https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?w=900&q=90",
+  e1: "https://images.unsplash.com/photo-1573408301185-9519f94e1083?w=900&q=90",
+  e2: "https://i.pinimg.com/1200x/80/86/65/80866544ba9523f6d804ed52ba88e179.jpg",
+  e3: "https://i.pinimg.com/736x/69/ba/3c/69ba3c025eefcfa1f80b36194dc72a6b.jpg",
+  br1: "https://i.pinimg.com/736x/24/b9/76/24b9767f7f7bbe21d56a87a5b080a889.jpg",
+  br2: "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=900&q=90",
+  ch1: "https://i.pinimg.com/1200x/7c/70/18/7c70188c2fe9bedfc5d32de5bb3010ab.jpg",
+  lk1: "https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?w=900&q=90",
+  t1: "https://images.unsplash.com/photo-1583937443604-f42c0f2c6bef?w=900&q=90",
+  py1: "https://images.unsplash.com/photo-1620656798579-1984d9e87df7?w=900&q=90",
+  pd1: "https://images.unsplash.com/photo-1610694955371-d4a3e0ce4b52?w=900&q=90",
+  kd1: "https://i.pinimg.com/736x/8a/2b/1d/8a2b1d2bbef8e961c5e7a6b53d68d631.jpg",
+  jk1: "https://i.pinimg.com/736x/bf/99/12/bf99123de342a2af42066b3436585939.jpg",
+  mg1: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=900&q=90",
+  ck1: "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=900&q=90",
+  gn1: "https://images.unsplash.com/photo-1607703703520-bb638e84caf2?w=900&q=90",
+  cn1: "https://images.unsplash.com/photo-1630019852942-f89202989a59?w=900&q=90",
+  sp1: "https://images.unsplash.com/photo-1620656798579-1984d9e87df7?w=900&q=90",
+  ko1: "https://images.unsplash.com/photo-1618220179428-22790b461013?w=900&q=90",
+  mring1:
+    "https://i.pinimg.com/736x/9f/97/25/9f9725732e29f1ab8ebd1b9d4c4e6656.jpg",
+  mring2:
+    "https://i.pinimg.com/1200x/d1/02/79/d10279b7b418b5908767d58b59438f8b.jpg",
+  mring3:
+    "https://i.pinimg.com/736x/56/82/de/5682de1f3a994b47a6f39c639dfd4a79.jpg",
+  msingnet:
+    "https://i.pinimg.com/1200x/ea/73/2a/ea732a872e18f6ee79d25b7a0aa27933.jpg",
+  msingnet2:
+    "https://i.pinimg.com/1200x/ce/7b/5f/ce7b5f8b9141fa9d04841d2929a83782.jpg",
+  msingnet3:
+    "https://i.pinimg.com/1200x/f2/4d/3f/f24d3f9c0ff080e1b63e4839d8725d8f.jpg",
+  mom: "https://i.pinimg.com/1200x/04/2b/fb/042bfb37799802a27afff884b338a9ef.jpg",
+  mom2: "https://i.pinimg.com/736x/ec/8d/8c/ec8d8c2e22980f5651e6ae135b3bc989.jpg",
+  mom3: "https://i.pinimg.com/736x/d6/a9/ee/d6a9eeb6233f7315117d6ba683e7215d.jpg",
+  mdiamond:
+    "https://i.pinimg.com/1200x/7d/9c/67/7d9c672c1ad3799b65203e36ebd6da94.jpg",
+  mdiamond2:
+    "https://i.pinimg.com/1200x/b4/7e/29/b47e294fa17f5e2f253d25763d3270ad.jpg",
+  mdiamond3:
+    "https://i.pinimg.com/1200x/c2/cd/44/c2cd44d1d1461f5210f394fbb4b98b97.jpg",
+  silverg:
+    "https://i.pinimg.com/1200x/32/93/56/329356dbbade5399d621178fb5701d8d.jpg",
+  silverg2:
+    "https://i.pinimg.com/736x/30/70/6c/30706c7d39278502fcf7e262e4701251.jpg",
+  silverg3:
+    "https://i.pinimg.com/1200x/5e/c7/d9/5ec7d94195cca84f389b2c8099b45708.jpg",
+  silverg4:
+    "https://i.pinimg.com/736x/3d/c9/6a/3dc96a1347d23b695c7d43144586561a.jpg",
+  silverg5:
+    "https://i.pinimg.com/1200x/80/ed/58/80ed58b563ccf3e78d312683c9858a0a.jpg",
+  silverg6:
+    "https://i.pinimg.com/736x/85/2b/81/852b81d4cdc3a24c12480295be9dd884.jpg",
+  silverc1:
+    "https://i.pinimg.com/736x/5b/95/f5/5b95f594e30e2c069999c10aa895074c.jpg",
+  silverc2:
+    "https://i.pinimg.com/736x/28/88/bd/2888bd572b58cb8bea8830f679d41af4.jpg",
+  silverc3:
+    "https://i.pinimg.com/736x/58/6f/fe/586ffeddd5f232adf54ad1c0db9ae451.jpg",
+  silverc4:
+    "https://i.pinimg.com/736x/6b/df/c6/6bdfc6f6c559fb7595cecfa20f71dac0.jpg",
+  silverc5:
+    "https://i.pinimg.com/736x/be/2e/ee/be2eee203da5c168345f859420e98d43.jpg",
+  silverc6:
+    "https://i.pinimg.com/1200x/a5/99/22/a5992201a98cc0d929be59b84161cd52.jpg",
+  silverk1:
+    "https://i.pinimg.com/1200x/5b/d3/12/5bd312009d524a23d2a738da012c8d29.jpg",
+  silverk2:
+    "https://i.pinimg.com/736x/ab/a2/b9/aba2b9ab9dbac510e3bd7f10de92a3c8.jpg",
+  silverk3:
+    "https://i.pinimg.com/736x/87/18/44/871844098ac01901a0b5e45c5d8b98e1.jpg",
+  silverk4:
+    "https://i.pinimg.com/1200x/71/b7/5e/71b75e5df5bf8d5a482ad5d49f6f375f.jpg",
+  silverk5:
+    "https://i.pinimg.com/1200x/14/e2/83/14e283f042e2e77ad4860973a15cdcd8.jpg",
+  silverk6:
+    "https://i.pinimg.com/736x/aa/3f/8f/aa3f8f30ca7face32863b73634ec75bf.jpg",
 
-  silverwpe:'https://i.pinimg.com/1200x/e5/2d/b3/e52db3f86ff426f8765bdf9408237a9c.jpg',
-   silverwpe2:'https://i.pinimg.com/1200x/ad/48/4d/ad484d0fcdb5a5a49bc5a9b8e401229b.jpg',
-    silverwpe3:'https://i.pinimg.com/736x/56/bd/53/56bd53f571548a3cc1a86ab56bedcdb6.jpg',
-     silverwpe4:'https://i.pinimg.com/1200x/d0/18/ad/d018ad1a81d8a7bbd4228abf6f99e1ed.jpg',
-      silverwpe5:'https://i.pinimg.com/736x/74/41/ea/7441ea17b04c7fc5f88c547172351929.jpg',
-       silverwpe6:'https://i.pinimg.com/1200x/86/19/fb/8619fb8046ca84c9997b04e41f90f965.jpg',
-   silverwka:'https://i.pinimg.com/736x/45/6b/04/456b04ce93dfd3f092b41f1c83f25f11.jpg',
-silverwka2:'https://i.pinimg.com/736x/00/96/d7/0096d7d9d49b78c202479ae84e484bb2.jpg',
-silverwka3:'https://i.pinimg.com/736x/7c/5e/57/7c5e5717e7f0568286a65c65edc21e26.jpg',
-silverwka4:'https://i.pinimg.com/1200x/14/c8/87/14c887044bf964e0af41e6371f13f5ba.jpg',
-silverwka5:'https://i.pinimg.com/1200x/3b/15/54/3b1554100bf35d00749c0558c4c6c31e.jpg',
-silverwka6:'https://i.pinimg.com/1200x/5b/a4/f5/5ba4f5abf8c23f5724775f00869a4763.jpg',
-silverwb:'https://i.pinimg.com/736x/99/a9/0b/99a90b39d2ee6e919400eeb8e2d41f4a.jpg',
-silverwb2:'https://i.pinimg.com/736x/04/e7/b4/04e7b420c7baf00016eaca0302b72802.jpg',
-silverwb3:'https://i.pinimg.com/736x/e6/72/e9/e672e9353bf7a09e7d5c728494b8348d.jpg',
-silverwb4:'https://i.pinimg.com/1200x/c5/31/46/c53146f34aab5861f3b42ef5b7018cb3.jpg',
-silverwb5:'https://i.pinimg.com/736x/3d/d2/b9/3dd2b96513a24bd6f9aab963bf4e6eac.jpg',
-silverwb6:'https://i.pinimg.com/1200x/b0/73/cf/b073cf226d5a3306dca733e9c1d977e4.jpg',
-silvertr:'https://i.pinimg.com/1200x/fb/8b/e9/fb8be9e880410d656b3a354e9056fc64.jpg',
-silvertr2:'https://i.pinimg.com/1200x/6a/00/ac/6a00ac00fd82e1e691f677507c40f777.jpg',
-silvertr3:'https://img.staticdj.com/bd23d44cd5aef207e7df671163c1c036_1024x.jpeg',
-silvertr4:'https://i.pinimg.com/1200x/f2/b8/34/f2b834e1bfdf41d49e5e26e381803306.jpg',
-silvertr5:'https://i.pinimg.com/1200x/ee/ef/92/eeef92f629b6b6c5a536e845811d8a69.jpg',
-silvertr6:'https://i.pinimg.com/736x/55/59/31/555931d60a2c98ddff22b92df55b0af3.jpg',
-silverp:'https://i.pinimg.com/1200x/29/e1/00/29e100c78236519106d1172dd74a6ef4.jpg',
-silverp2:'https://i.pinimg.com/736x/31/9b/a8/319ba8e9d3db2b06d53d4ce5028345d0.jpg',
-silverp3:'https://i.pinimg.com/1200x/69/27/00/6927004aba7782a81280f36b8937d512.jpg',
-silverp4:'https://i.pinimg.com/736x/c8/9d/ac/c89dac18d43d09e3dcd40999135e9528.jpg',
-silverp5:'https://i.pinimg.com/1200x/9e/f9/30/9ef9308a3c02f7608ef41e46035c4c7a.jpg',
-silverp6:'https://i.pinimg.com/1200x/1e/a1/69/1ea169e10925f0fbc5bf13f8b48be9e6.jpg',
-silverwj:'https://i.pinimg.com/736x/44/96/14/449614fba17454c74c4ed0ab04f44973.jpg',
-silverwj2:'https://i.pinimg.com/1200x/0c/ee/97/0cee970adc6de9503e3c0aba70799575.jpg',
-silverwj3:'https://i.pinimg.com/736x/38/20/9a/38209ad12724fdcbd4d4c6a0118073aa.jpg',
-silverwj4:'https://i.pinimg.com/736x/1e/09/dc/1e09dc3823b198dcf61907d85bbc7fd3.jpg',
-silverwj5:'https://i.pinimg.com/736x/aa/06/1e/aa061eb9cbbb8243d8e4ff8090db2261.jpg',
-silverwj6:'https://i.pinimg.com/736x/e5/e9/16/e5e916ab2c2808318f75dc9b4d8b0a18.jpg',
-silverwerr:'https://i.pinimg.com/736x/2e/46/08/2e4608b5837585d27913f5db735258ce.jpg',
-silverwerr2:'https://i.pinimg.com/736x/dc/98/3c/dc983c1081b09ec896e084442a8ffa3c.jpg',
-silverwerr3:'https://i.pinimg.com/736x/d8/9b/e9/d89be9de79b3b0f42de85063d613e086.jpg',
-silverwerr4:'https://i.pinimg.com/1200x/55/65/79/55657983b3bd0cf6def05394d0073cce.jpg',
-silverwerr5:'https://i.pinimg.com/1200x/d8/af/91/d8af91a6f88e1f21494e9bffed8e8f21.jpg',
-silverwerr6:'https://i.pinimg.com/1200x/44/f3/bd/44f3bd12d2bbe1c69363adee6128ddb5.jpg',
-silverwch:'https://i.pinimg.com/736x/0d/49/c7/0d49c7f8592125020b58693fce85893d.jpg',
-silverwch2:'https://i.pinimg.com/736x/07/d9/5f/07d95fbe7bf67ed8d60cf7bc27531610.jpg',
-silverwch3:'https://i.pinimg.com/1200x/76/56/0b/76560b47d41a21a39481b75c4bee8c63.jpg',
-silverwch4:'https://i.pinimg.com/1200x/8a/7b/d1/8a7bd1d0a6347f84754afa5fb2bedd72.jpg',
-silverwch5:'https://i.pinimg.com/1200x/7a/f5/83/7af5839bb082f59822a35896fc24e3aa.jpg',
-silverwch6:'https://i.pinimg.com/736x/5e/0f/38/5e0f3839e1a2e2c0a1f6747fa33bacbc.jpg',
-silverwri:'https://i.pinimg.com/1200x/ab/98/54/ab985443b8ab2d6f288a5d4cdf554903.jpg',
-silverwri2:'https://i.pinimg.com/1200x/13/5b/96/135b967d68c7f043e535d2c9d1b16da3.jpg',
-silverwri3:'https://i.pinimg.com/736x/d9/77/64/d9776427886aa2a6d2a79c49681174c7.jpg',
-silverwri4:'https://i.pinimg.com/1200x/37/97/fc/3797fc530d9735758ce9d3efe41b9930.jpg',
-silverwri5:'https://i.pinimg.com/1200x/0b/05/27/0b0527600af58b7c721c7dd9095fcc94.jpg',
-silverwri6:'https://i.pinimg.com/1200x/91/59/37/9159375914b1caa05c2651e9e1676ec3.jpg',
-silvermbra:'https://i.pinimg.com/736x/31/9b/a8/319ba8e9d3db2b06d53d4ce5028345d0.jpg',
-silvermbra2:'https://i.pinimg.com/736x/6a/e7/06/6ae70658c0b79f30feff6ffed8decc96.jpg',
-silvermbra3:'https://i.pinimg.com/1200x/cc/7f/ac/cc7fac54226f8f091acf1c2c4b6df3bd.jpg',
-silvermbra4:'https://i.pinimg.com/736x/7c/f9/00/7cf9000f303c25201b119d3d1f6745e2.jpg',
-silvermbra5:'https://i.pinimg.com/1200x/39/19/d6/3919d6504699cb9a2b0d64ff1a0647e1.jpg',
-silvermbra6:'https://i.pinimg.com/736x/26/8e/45/268e45907f01ec2447ce8e330243a709.jpg',
-silvermka:'https://i.pinimg.com/736x/45/6b/04/456b04ce93dfd3f092b41f1c83f25f11.jpg',
-silvermka2:'https://i.pinimg.com/736x/0c/b9/74/0cb974a1cbf12eaf635ab063bcf61d88.jpg',
-silvermka3:'https://i.pinimg.com/1200x/82/af/d6/82afd6be2c81cceeaa74b2d624e5a13e.jpg',
-silvermka4:'https://i.pinimg.com/1200x/75/6a/69/756a6959cbed90c05a77846a386673dc.jpg',
-silvermka5:'https://i.pinimg.com/1200x/82/51/2a/82512afec576c5c46423bb83f1a20bc7.jpg',
-silvermka6:'https://i.pinimg.com/1200x/12/3a/17/123a17dadd0840cff5eec734aef21ac6.jpg',
-silvermch:'https://i.pinimg.com/1200x/0d/15/d7/0d15d7c497c705a10d084959671a8449.jpg',
-silvermch2:'https://i.pinimg.com/1200x/f7/fb/b0/f7fbb01e8ab82e9675d863a0040d8236.jpg',
-silvermch3:'https://i.pinimg.com/1200x/1a/65/3c/1a653cb3a16bd88400b75829dccdab77.jpg',
-silvermch4:'https://i.pinimg.com/736x/10/52/b8/1052b8dfe5e41a9bb6b36f7f118fbc2e.jpg',
-silvermch5:'https://i.pinimg.com/1200x/0d/42/16/0d4216b8f1f0e3a1e84baa7e6ed0889d.jpg',
-silvermch6:'https://i.pinimg.com/736x/9a/29/39/9a2939a32577e5e4902485b6ac8985b2.jpg',
-silvermrings:'https://i.pinimg.com/736x/e4/79/cd/e479cd126938b702357c4bc066ab155d.jpg',
-silvermrings2:'https://i.pinimg.com/736x/7a/96/9d/7a969d24db7aa046110164539fb1e16b.jpg',
-silvermrings3:'https://i.pinimg.com/1200x/df/6d/2c/df6d2c7a8b33b854476dda86da2a1e23.jpg',
-silvermrings4:'https://i.pinimg.com/736x/03/c9/d5/03c9d53f353af8c50b3d992557011dac.jpg',
-silvermrings5:'https://i.pinimg.com/1200x/59/b6/3a/59b63a9c0143b655345c022d125565f9.jpg',
-silvermrings6:'https://i.pinimg.com/1200x/9a/55/f2/9a55f2462d0a10f67d6f94efde28034e.jpg',
+  silverwpe:
+    "https://i.pinimg.com/1200x/e5/2d/b3/e52db3f86ff426f8765bdf9408237a9c.jpg",
+  silverwpe2:
+    "https://i.pinimg.com/1200x/ad/48/4d/ad484d0fcdb5a5a49bc5a9b8e401229b.jpg",
+  silverwpe3:
+    "https://i.pinimg.com/736x/56/bd/53/56bd53f571548a3cc1a86ab56bedcdb6.jpg",
+  silverwpe4:
+    "https://i.pinimg.com/1200x/d0/18/ad/d018ad1a81d8a7bbd4228abf6f99e1ed.jpg",
+  silverwpe5:
+    "https://i.pinimg.com/736x/74/41/ea/7441ea17b04c7fc5f88c547172351929.jpg",
+  silverwpe6:
+    "https://i.pinimg.com/1200x/86/19/fb/8619fb8046ca84c9997b04e41f90f965.jpg",
+  silverwka:
+    "https://i.pinimg.com/736x/45/6b/04/456b04ce93dfd3f092b41f1c83f25f11.jpg",
+  silverwka2:
+    "https://i.pinimg.com/736x/00/96/d7/0096d7d9d49b78c202479ae84e484bb2.jpg",
+  silverwka3:
+    "https://i.pinimg.com/736x/7c/5e/57/7c5e5717e7f0568286a65c65edc21e26.jpg",
+  silverwka4:
+    "https://i.pinimg.com/1200x/14/c8/87/14c887044bf964e0af41e6371f13f5ba.jpg",
+  silverwka5:
+    "https://i.pinimg.com/1200x/3b/15/54/3b1554100bf35d00749c0558c4c6c31e.jpg",
+  silverwka6:
+    "https://i.pinimg.com/1200x/5b/a4/f5/5ba4f5abf8c23f5724775f00869a4763.jpg",
+  silverwb:
+    "https://i.pinimg.com/736x/99/a9/0b/99a90b39d2ee6e919400eeb8e2d41f4a.jpg",
+  silverwb2:
+    "https://i.pinimg.com/736x/04/e7/b4/04e7b420c7baf00016eaca0302b72802.jpg",
+  silverwb3:
+    "https://i.pinimg.com/736x/e6/72/e9/e672e9353bf7a09e7d5c728494b8348d.jpg",
+  silverwb4:
+    "https://i.pinimg.com/1200x/c5/31/46/c53146f34aab5861f3b42ef5b7018cb3.jpg",
+  silverwb5:
+    "https://i.pinimg.com/736x/3d/d2/b9/3dd2b96513a24bd6f9aab963bf4e6eac.jpg",
+  silverwb6:
+    "https://i.pinimg.com/1200x/b0/73/cf/b073cf226d5a3306dca733e9c1d977e4.jpg",
+  silvertr:
+    "https://i.pinimg.com/1200x/fb/8b/e9/fb8be9e880410d656b3a354e9056fc64.jpg",
+  silvertr2:
+    "https://i.pinimg.com/1200x/6a/00/ac/6a00ac00fd82e1e691f677507c40f777.jpg",
+  silvertr3:
+    "https://img.staticdj.com/bd23d44cd5aef207e7df671163c1c036_1024x.jpeg",
+  silvertr4:
+    "https://i.pinimg.com/1200x/f2/b8/34/f2b834e1bfdf41d49e5e26e381803306.jpg",
+  silvertr5:
+    "https://i.pinimg.com/1200x/ee/ef/92/eeef92f629b6b6c5a536e845811d8a69.jpg",
+  silvertr6:
+    "https://i.pinimg.com/736x/55/59/31/555931d60a2c98ddff22b92df55b0af3.jpg",
+  silverp:
+    "https://i.pinimg.com/1200x/29/e1/00/29e100c78236519106d1172dd74a6ef4.jpg",
+  silverp2:
+    "https://i.pinimg.com/736x/31/9b/a8/319ba8e9d3db2b06d53d4ce5028345d0.jpg",
+  silverp3:
+    "https://i.pinimg.com/1200x/69/27/00/6927004aba7782a81280f36b8937d512.jpg",
+  silverp4:
+    "https://i.pinimg.com/736x/c8/9d/ac/c89dac18d43d09e3dcd40999135e9528.jpg",
+  silverp5:
+    "https://i.pinimg.com/1200x/9e/f9/30/9ef9308a3c02f7608ef41e46035c4c7a.jpg",
+  silverp6:
+    "https://i.pinimg.com/1200x/1e/a1/69/1ea169e10925f0fbc5bf13f8b48be9e6.jpg",
+  silverwj:
+    "https://i.pinimg.com/736x/44/96/14/449614fba17454c74c4ed0ab04f44973.jpg",
+  silverwj2:
+    "https://i.pinimg.com/1200x/0c/ee/97/0cee970adc6de9503e3c0aba70799575.jpg",
+  silverwj3:
+    "https://i.pinimg.com/736x/38/20/9a/38209ad12724fdcbd4d4c6a0118073aa.jpg",
+  silverwj4:
+    "https://i.pinimg.com/736x/1e/09/dc/1e09dc3823b198dcf61907d85bbc7fd3.jpg",
+  silverwj5:
+    "https://i.pinimg.com/736x/aa/06/1e/aa061eb9cbbb8243d8e4ff8090db2261.jpg",
+  silverwj6:
+    "https://i.pinimg.com/736x/e5/e9/16/e5e916ab2c2808318f75dc9b4d8b0a18.jpg",
+  silverwerr:
+    "https://i.pinimg.com/736x/2e/46/08/2e4608b5837585d27913f5db735258ce.jpg",
+  silverwerr2:
+    "https://i.pinimg.com/736x/dc/98/3c/dc983c1081b09ec896e084442a8ffa3c.jpg",
+  silverwerr3:
+    "https://i.pinimg.com/736x/d8/9b/e9/d89be9de79b3b0f42de85063d613e086.jpg",
+  silverwerr4:
+    "https://i.pinimg.com/1200x/55/65/79/55657983b3bd0cf6def05394d0073cce.jpg",
+  silverwerr5:
+    "https://i.pinimg.com/1200x/d8/af/91/d8af91a6f88e1f21494e9bffed8e8f21.jpg",
+  silverwerr6:
+    "https://i.pinimg.com/1200x/44/f3/bd/44f3bd12d2bbe1c69363adee6128ddb5.jpg",
+  silverwch:
+    "https://i.pinimg.com/736x/0d/49/c7/0d49c7f8592125020b58693fce85893d.jpg",
+  silverwch2:
+    "https://i.pinimg.com/736x/07/d9/5f/07d95fbe7bf67ed8d60cf7bc27531610.jpg",
+  silverwch3:
+    "https://i.pinimg.com/1200x/76/56/0b/76560b47d41a21a39481b75c4bee8c63.jpg",
+  silverwch4:
+    "https://i.pinimg.com/1200x/8a/7b/d1/8a7bd1d0a6347f84754afa5fb2bedd72.jpg",
+  silverwch5:
+    "https://i.pinimg.com/1200x/7a/f5/83/7af5839bb082f59822a35896fc24e3aa.jpg",
+  silverwch6:
+    "https://i.pinimg.com/736x/5e/0f/38/5e0f3839e1a2e2c0a1f6747fa33bacbc.jpg",
+  silverwri:
+    "https://i.pinimg.com/1200x/ab/98/54/ab985443b8ab2d6f288a5d4cdf554903.jpg",
+  silverwri2:
+    "https://i.pinimg.com/1200x/13/5b/96/135b967d68c7f043e535d2c9d1b16da3.jpg",
+  silverwri3:
+    "https://i.pinimg.com/736x/d9/77/64/d9776427886aa2a6d2a79c49681174c7.jpg",
+  silverwri4:
+    "https://i.pinimg.com/1200x/37/97/fc/3797fc530d9735758ce9d3efe41b9930.jpg",
+  silverwri5:
+    "https://i.pinimg.com/1200x/0b/05/27/0b0527600af58b7c721c7dd9095fcc94.jpg",
+  silverwri6:
+    "https://i.pinimg.com/1200x/91/59/37/9159375914b1caa05c2651e9e1676ec3.jpg",
+  silvermbra:
+    "https://i.pinimg.com/736x/31/9b/a8/319ba8e9d3db2b06d53d4ce5028345d0.jpg",
+  silvermbra2:
+    "https://i.pinimg.com/736x/6a/e7/06/6ae70658c0b79f30feff6ffed8decc96.jpg",
+  silvermbra3:
+    "https://i.pinimg.com/1200x/cc/7f/ac/cc7fac54226f8f091acf1c2c4b6df3bd.jpg",
+  silvermbra4:
+    "https://i.pinimg.com/736x/7c/f9/00/7cf9000f303c25201b119d3d1f6745e2.jpg",
+  silvermbra5:
+    "https://i.pinimg.com/1200x/39/19/d6/3919d6504699cb9a2b0d64ff1a0647e1.jpg",
+  silvermbra6:
+    "https://i.pinimg.com/736x/26/8e/45/268e45907f01ec2447ce8e330243a709.jpg",
+  silvermka:
+    "https://i.pinimg.com/736x/45/6b/04/456b04ce93dfd3f092b41f1c83f25f11.jpg",
+  silvermka2:
+    "https://i.pinimg.com/736x/0c/b9/74/0cb974a1cbf12eaf635ab063bcf61d88.jpg",
+  silvermka3:
+    "https://i.pinimg.com/1200x/82/af/d6/82afd6be2c81cceeaa74b2d624e5a13e.jpg",
+  silvermka4:
+    "https://i.pinimg.com/1200x/75/6a/69/756a6959cbed90c05a77846a386673dc.jpg",
+  silvermka5:
+    "https://i.pinimg.com/1200x/82/51/2a/82512afec576c5c46423bb83f1a20bc7.jpg",
+  silvermka6:
+    "https://i.pinimg.com/1200x/12/3a/17/123a17dadd0840cff5eec734aef21ac6.jpg",
+  silvermch:
+    "https://i.pinimg.com/1200x/0d/15/d7/0d15d7c497c705a10d084959671a8449.jpg",
+  silvermch2:
+    "https://i.pinimg.com/1200x/f7/fb/b0/f7fbb01e8ab82e9675d863a0040d8236.jpg",
+  silvermch3:
+    "https://i.pinimg.com/1200x/1a/65/3c/1a653cb3a16bd88400b75829dccdab77.jpg",
+  silvermch4:
+    "https://i.pinimg.com/736x/10/52/b8/1052b8dfe5e41a9bb6b36f7f118fbc2e.jpg",
+  silvermch5:
+    "https://i.pinimg.com/1200x/0d/42/16/0d4216b8f1f0e3a1e84baa7e6ed0889d.jpg",
+  silvermch6:
+    "https://i.pinimg.com/736x/9a/29/39/9a2939a32577e5e4902485b6ac8985b2.jpg",
+  silvermrings:
+    "https://i.pinimg.com/736x/e4/79/cd/e479cd126938b702357c4bc066ab155d.jpg",
+  silvermrings2:
+    "https://i.pinimg.com/736x/7a/96/9d/7a969d24db7aa046110164539fb1e16b.jpg",
+  silvermrings3:
+    "https://i.pinimg.com/1200x/df/6d/2c/df6d2c7a8b33b854476dda86da2a1e23.jpg",
+  silvermrings4:
+    "https://i.pinimg.com/736x/03/c9/d5/03c9d53f353af8c50b3d992557011dac.jpg",
+  silvermrings5:
+    "https://i.pinimg.com/1200x/59/b6/3a/59b63a9c0143b655345c022d125565f9.jpg",
+  silvermrings6:
+    "https://i.pinimg.com/1200x/9a/55/f2/9a55f2462d0a10f67d6f94efde28034e.jpg",
 
+  goldCoins:
+    "https://i.pinimg.com/1200x/32/64/c8/3264c8903cab4285185653821bd48908.jpg",
+  goldCoins2:
+    "https://i.pinimg.com/736x/3c/46/97/3c4697486abf9982131e7f236041fde5.jpg",
+  goldCoins3:
+    "https://i.pinimg.com/1200x/14/75/ab/1475ab3b692a881b8af78e50f3a4bf31.jpg",
+  goldCoins4:
+    "https://i.pinimg.com/736x/2e/8a/8e/2e8a8e95bf086629fdba28e6eba7f551.jpg",
+  goldCoins5:
+    "https://i.pinimg.com/736x/cd/df/c8/cddfc8cab9dd80da52be401ec94ca32d.jpg",
+  goldCoins6:
+    "https://i.pinimg.com/1200x/13/64/b1/1364b1c366240e402aff6e75ce6e6d05.jpg",
+  goldCoins7:
+    "https://i.pinimg.com/736x/e5/c5/01/e5c5015992ed5379d5de0de4ccf693a7.jpg",
+  goldCoins8:
+    "https://i.pinimg.com/1200x/1b/c7/2a/1bc72a524426bd4780c739c45d2a566f.jpg",
+  goldCoins9:
+    "https://i.pinimg.com/736x/ea/84/b2/ea84b2f962f7ffb52768ddb1551871ad.jpg",
+  goldCoins10:
+    "https://i.pinimg.com/474x/5a/b2/6e/5ab26e32b94a8d6dc73ec30cf322f4d8.jpg",
+  goldCoins11:
+    "https://i.pinimg.com/474x/ac/4d/b4/ac4db4d5d0757e1333ed18e29e87a291.jpg",
+  goldCoins12:
+    "https://i.pinimg.com/474x/02/95/58/029558904366abc0b493dd4a59a7e96a.jpg",
+  goldCoins13:
+    "https://i.pinimg.com/474x/9c/20/aa/9c20aaeb796549b0b4e7265cc697a846.jpg",
+  goldCoins14:
+    "https://i.pinimg.com/736x/6a/f6/44/6af64465ab9c4c53a9c4b2d4255fd0a4.jpg",
+  goldCoins15:
+    "https://i.pinimg.com/736x/e8/cf/9f/e8cf9f43291a086828506678b95e5381.jpg",
+  goldCoins16:
+    "https://i.pinimg.com/736x/bf/58/1b/bf581b0f3c2efb61ffc293c0f2d105d9.jpg",
+  goldCoins17:
+    "https://i.pinimg.com/736x/d7/f6/da/d7f6da3f1faa11830194b24591e806a1.jpg",
+  goldCoins18:
+    "https://i.pinimg.com/1200x/f0/cc/22/f0cc224f88410eae9621e8c7a08115b0.jpg",
+  goldCoins19:
+    "https://i.pinimg.com/736x/dd/52/b3/dd52b309fd65f28c226e1f4080dd5ec7.jpg",
+  goldCoins20:
+    "https://i.pinimg.com/736x/03/13/ab/0313ab332e8a46aab2af6e040bb6059b.jpg",
+  goldCoins21:
+    "https://i.pinimg.com/1200x/02/53/24/025324e74087db570413e05ece1054f4.jpg",
+  goldCoins22:
+    "https://i.pinimg.com/1200x/d8/d5/27/d8d52786fa1da35d5e210f881040204f.jpg",
+  goldCoins23:
+    "https://i.pinimg.com/736x/cb/c9/99/cbc99964cb021990d46450500a1542c0.jpg",
+  goldCoins24:
+    "https://i.pinimg.com/736x/cd/df/c8/cddfc8cab9dd80da52be401ec94ca32d.jpg",
+  goldCoins25:
+    "https://i.pinimg.com/1200x/b6/f8/f0/b6f8f081c5d9e2e67516844b7a680a9b.jpg",
+  goldCoins26:
+    "https://i.pinimg.com/736x/3b/3b/61/3b3b61741a651c8e7f98e1f9300fcd5b.jpg",
+  goldCoins27:
+    "https://i.pinimg.com/736x/a7/da/9e/a7da9e001862a14522d837b00dc95447.jpg",
+  goldCoins28:
+    "https://i.pinimg.com/736x/e1/82/f6/e182f6a4b5c8642ab702724683cd6a1c.jpg",
+  goldCoins29:
+    "https://i.pinimg.com/1200x/e5/cc/b1/e5ccb1a8a1688e1109cdea962763d98d.jpg",
+  goldCoins30:
+    "https://i.pinimg.com/1200x/0f/4d/ab/0f4dab1eb43dd30e741030b9b0e182dd.jpg",
+  goldCoins31:
+    "https://i.pinimg.com/736x/20/4b/1d/204b1d5fd2c6edb7e6638fef874dae50.jpg",
+  goldCoins32:
+    "https://i.pinimg.com/1200x/40/c4/ce/40c4ce4a3b40a7a96876d1cb9780224d.jpg",
+  goldCoins33:
+    "https://i.pinimg.com/1200x/a6/18/e0/a618e0c5a749e011983ea065945fed10.jpg",
+  goldCoins34:
+    "https://i.pinimg.com/1200x/4e/ef/e5/4eefe537038a4fb9c115f2b003f42dad.jpg",
 
-goldCoins:'https://i.pinimg.com/1200x/32/64/c8/3264c8903cab4285185653821bd48908.jpg',
-goldCoins2:'https://i.pinimg.com/736x/3c/46/97/3c4697486abf9982131e7f236041fde5.jpg',
-goldCoins3:'https://i.pinimg.com/1200x/14/75/ab/1475ab3b692a881b8af78e50f3a4bf31.jpg',
-goldCoins4:'https://i.pinimg.com/736x/2e/8a/8e/2e8a8e95bf086629fdba28e6eba7f551.jpg',
-goldCoins5:'https://i.pinimg.com/736x/cd/df/c8/cddfc8cab9dd80da52be401ec94ca32d.jpg',
-goldCoins6:'https://i.pinimg.com/1200x/13/64/b1/1364b1c366240e402aff6e75ce6e6d05.jpg',
-goldCoins7:'https://i.pinimg.com/736x/e5/c5/01/e5c5015992ed5379d5de0de4ccf693a7.jpg',
-goldCoins8:'https://i.pinimg.com/1200x/1b/c7/2a/1bc72a524426bd4780c739c45d2a566f.jpg',
-goldCoins9:'https://i.pinimg.com/736x/ea/84/b2/ea84b2f962f7ffb52768ddb1551871ad.jpg',
-goldKi:'https://i.pinimg.com/1200x/1b/69/f7/1b69f77da4ae99ddad44ece690df142f.jpg',
-goldKi2:'https://i.pinimg.com/1200x/73/77/94/7377947a6e3aa8759bebb4093afa1603.jpg',
-goldKi3:'https://i.pinimg.com/1200x/28/2b/0f/282b0fd8aad7bb98e8d745c0cb87b756.jpg',
-goldkbr:'https://i.pinimg.com/1200x/03/e4/9d/03e49d2366ef1a4b4db62aeace98b7c2.jpg',
-goldkbr2:'https://i.pinimg.com/1200x/ff/5b/e7/ff5be7a82fbc7f7816d9d75bad9a42d9.jpg',
-goldkbr3:'https://i.pinimg.com/1200x/83/53/60/835360fae83e6ec43ff882869414430f.jpg',
-goldkch:'https://i.pinimg.com/1200x/a9/04/0a/a9040a1ac95dd9173c3254f7f136247f.jpg',
-goldkch2:'https://i.pinimg.com/1200x/01/ba/bb/01babbd4c9b69dbc15365ee6907a0fc0.jpg',
-goldkch3:'https://i.pinimg.com/736x/6b/e4/05/6be40596d29754fec52b1188f9ebad6a.jpg',
-goldker:'https://i.pinimg.com/736x/b7/e9/1e/b7e91e951196696fd56546b24fb425b9.jpg',
-goldker2:'https://i.pinimg.com/736x/c0/a5/3d/c0a53d9e71184eb0efd3331e2800a5a8.jpg',
-goldker3:'https://i.pinimg.com/736x/6a/c0/4c/6ac04c52e8780acb45fa46c02ea5cbbf.jpg',
-goldwtn:'https://i.pinimg.com/736x/bf/99/12/bf99123de342a2af42066b3436585939.jpg',
-goldwtn2:'https://i.pinimg.com/736x/fc/09/6d/fc096d1313dae8ee8d6bc74f7eaf23ef.jpg',
-goldwtn3:'https://i.pinimg.com/736x/9d/4e/df/9d4edfaeca89ade0c53e5c16d584af31.jpg',
-goldwtn4:'https://i.pinimg.com/736x/54/d1/0a/54d10a445be2990048c5556417a42fa7.jpg',
-goldwtn5:'https://i.pinimg.com/736x/11/6f/36/116f360a9fbcf1e2067219f6db0d7fe0.jpg',
-goldwtn6:'https://i.pinimg.com/736x/e0/78/83/e078838e98c27f334a466d457a5bac83.jpg',
+  goldKi:
+    "https://i.pinimg.com/1200x/1b/69/f7/1b69f77da4ae99ddad44ece690df142f.jpg",
+  goldKi2:
+    "https://i.pinimg.com/1200x/73/77/94/7377947a6e3aa8759bebb4093afa1603.jpg",
+  goldKi3:
+    "https://i.pinimg.com/1200x/28/2b/0f/282b0fd8aad7bb98e8d745c0cb87b756.jpg",
+  goldkbr:
+    "https://i.pinimg.com/1200x/03/e4/9d/03e49d2366ef1a4b4db62aeace98b7c2.jpg",
+  goldkbr2:
+    "https://i.pinimg.com/1200x/ff/5b/e7/ff5be7a82fbc7f7816d9d75bad9a42d9.jpg",
+  goldkbr3:
+    "https://i.pinimg.com/1200x/83/53/60/835360fae83e6ec43ff882869414430f.jpg",
+  goldkch:
+    "https://i.pinimg.com/1200x/a9/04/0a/a9040a1ac95dd9173c3254f7f136247f.jpg",
+  goldkch2:
+    "https://i.pinimg.com/1200x/01/ba/bb/01babbd4c9b69dbc15365ee6907a0fc0.jpg",
+  goldkch3:
+    "https://i.pinimg.com/736x/6b/e4/05/6be40596d29754fec52b1188f9ebad6a.jpg",
+  goldker:
+    "https://i.pinimg.com/736x/b7/e9/1e/b7e91e951196696fd56546b24fb425b9.jpg",
+  goldker2:
+    "https://i.pinimg.com/736x/c0/a5/3d/c0a53d9e71184eb0efd3331e2800a5a8.jpg",
+  goldker3:
+    "https://i.pinimg.com/736x/6a/c0/4c/6ac04c52e8780acb45fa46c02ea5cbbf.jpg",
+  goldwtn:
+    "https://i.pinimg.com/736x/bf/99/12/bf99123de342a2af42066b3436585939.jpg",
+  goldwtn2:
+    "https://i.pinimg.com/736x/fc/09/6d/fc096d1313dae8ee8d6bc74f7eaf23ef.jpg",
+  goldwtn3:
+    "https://i.pinimg.com/736x/9d/4e/df/9d4edfaeca89ade0c53e5c16d584af31.jpg",
+  goldwtn4:
+    "https://i.pinimg.com/736x/54/d1/0a/54d10a445be2990048c5556417a42fa7.jpg",
+  goldwtn5:
+    "https://i.pinimg.com/736x/11/6f/36/116f360a9fbcf1e2067219f6db0d7fe0.jpg",
+  goldwtn6:
+    "https://i.pinimg.com/736x/e0/78/83/e078838e98c27f334a466d457a5bac83.jpg",
 
+  goldbride:
+    "https://i.pinimg.com/1200x/9f/a7/c3/9fa7c36bb7614508661f294f9912f064.jpg",
+  goldbride2:
+    "https://i.pinimg.com/1200x/08/e6/3b/08e63b415eefa5bec5bfeb335eb5a999.jpg",
+  goldbride3:
+    "https://i.pinimg.com/1200x/ff/59/77/ff5977c01abf6a62dffda6d2159f214d.jpg",
+  goldchoker:
+    "https://i.pinimg.com/736x/79/2e/f6/792ef645e1894c2cb98676e5aed731ad.jpg",
+  goldchoker2:
+    "https://i.pinimg.com/736x/50/d9/bc/50d9bc289d17279e6bb6f65f73213f15.jpg",
+  goldchoker3:
+    "https://i.pinimg.com/736x/26/87/cf/2687cf5915d10f0e96a9ba07b47bc1f7.jpg",
+  goldHaar:
+    "https://i.pinimg.com/1200x/02/3c/42/023c425c0301126a2bf91da1844a8685.jpg",
+  goldHaar2:
+    "https://i.pinimg.com/736x/6c/bf/91/6cbf91b3b6afaabff80566ebf2ba913c.jpg",
+  goldHaar3:
+    "https://i.pinimg.com/1200x/d7/6d/75/d76d754c2642c0482dcfed859a208e20.jpg",
+  goldNath:
+    "https://i.pinimg.com/1200x/cd/12/d1/cd12d1fb51000116dbf1265412eab5bf.jpg",
+  goldNath2:
+    "https://i.pinimg.com/1200x/29/01/3a/29013a6452079627eccb69452cb87297.jpg",
+  goldNath3:
+    "https://i.pinimg.com/736x/d3/67/a8/d367a87c184af4198f6ffb476fb6b892.jpg",
+  goldbangle:
+    "https://i.pinimg.com/736x/d8/99/3a/d8993ab67fe9ccb514b88bfc59c5f587.jpg",
+  goldbangle2:
+    "https://i.pinimg.com/736x/8c/a5/62/8ca562e4a6deca52f289ce36d61002b0.jpg",
+  goldbangle3:
+    "https://i.pinimg.com/736x/47/1a/b0/471ab005d55c098b881c6d6d17934734.jpg",
 
-goldbride:'https://i.pinimg.com/1200x/9f/a7/c3/9fa7c36bb7614508661f294f9912f064.jpg',
-goldbride2:'https://i.pinimg.com/1200x/08/e6/3b/08e63b415eefa5bec5bfeb335eb5a999.jpg',
-goldbride3:'https://i.pinimg.com/1200x/ff/59/77/ff5977c01abf6a62dffda6d2159f214d.jpg',
-goldchoker:'https://i.pinimg.com/736x/79/2e/f6/792ef645e1894c2cb98676e5aed731ad.jpg',
-goldchoker2:'https://i.pinimg.com/736x/50/d9/bc/50d9bc289d17279e6bb6f65f73213f15.jpg',
-goldchoker3:'https://i.pinimg.com/736x/26/87/cf/2687cf5915d10f0e96a9ba07b47bc1f7.jpg',
-goldHaar:'https://i.pinimg.com/1200x/02/3c/42/023c425c0301126a2bf91da1844a8685.jpg',
-goldHaar2:'https://i.pinimg.com/736x/6c/bf/91/6cbf91b3b6afaabff80566ebf2ba913c.jpg',
-goldHaar3:'https://i.pinimg.com/1200x/d7/6d/75/d76d754c2642c0482dcfed859a208e20.jpg',
-goldNath:'https://i.pinimg.com/1200x/cd/12/d1/cd12d1fb51000116dbf1265412eab5bf.jpg',
-goldNath2:'https://i.pinimg.com/1200x/29/01/3a/29013a6452079627eccb69452cb87297.jpg',
-goldNath3:'https://i.pinimg.com/736x/d3/67/a8/d367a87c184af4198f6ffb476fb6b892.jpg',
-goldbangle:'https://i.pinimg.com/736x/d8/99/3a/d8993ab67fe9ccb514b88bfc59c5f587.jpg',
-goldbangle2:'https://i.pinimg.com/736x/8c/a5/62/8ca562e4a6deca52f289ce36d61002b0.jpg',
-goldbangle3:'https://i.pinimg.com/736x/47/1a/b0/471ab005d55c098b881c6d6d17934734.jpg',
+  goldtops:
+    "https://i.pinimg.com/1200x/2e/c9/77/2ec977371f54ff31a21379a853b5e67b.jpg",
+  goldtops2:
+    "https://i.pinimg.com/1200x/4c/8e/3f/4c8e3f58a69aff9a2de43cc7451bb6dc.jpg",
+  goldtops3:
+    "https://i.pinimg.com/736x/5b/3b/5b/5b3b5b06e234e4422602ea936e311975.jpg",
+  goldtops4:
+    "https://i.pinimg.com/736x/42/5f/b6/425fb69a6f17f8321351f062ab21a8e2.jpg",
+  goldtops5:
+    "https://i.pinimg.com/736x/8e/97/ac/8e97acf09973a37b239755f612a9794e.jpg",
+  goldtops6:
+    "https://i.pinimg.com/1200x/c9/89/52/c98952e57802ed72e9f86e51191e67d8.jpg",
 
-goldtops:'https://i.pinimg.com/1200x/2e/c9/77/2ec977371f54ff31a21379a853b5e67b.jpg',
-goldtops2:'https://i.pinimg.com/1200x/4c/8e/3f/4c8e3f58a69aff9a2de43cc7451bb6dc.jpg',
-goldtops3:'https://i.pinimg.com/736x/5b/3b/5b/5b3b5b06e234e4422602ea936e311975.jpg',
-goldtops4:'https://i.pinimg.com/736x/42/5f/b6/425fb69a6f17f8321351f062ab21a8e2.jpg',
-goldtops5:'https://i.pinimg.com/736x/8e/97/ac/8e97acf09973a37b239755f612a9794e.jpg',
-goldtops6:'https://i.pinimg.com/1200x/c9/89/52/c98952e57802ed72e9f86e51191e67d8.jpg',
+  goldJhumki:
+    "https://i.pinimg.com/736x/29/c7/c6/29c7c67c484cc6a33ff8222a79bde655.jpg",
+  goldJhumki2:
+    "https://i.pinimg.com/736x/12/5b/7d/125b7d79f3fee48576a72826058f476d.jpg",
+  goldJhumki3:
+    "https://i.pinimg.com/1200x/0b/4c/8f/0b4c8fcb06076954c4cd2b68fce8a45f.jpg",
+  goldJhumki4:
+    "https://i.pinimg.com/736x/c9/93/5f/c9935fa4411b6d84be38e3369f7f4a2a.jpg",
+  goldJhumki5:
+    "https://i.pinimg.com/736x/63/c9/72/63c9724074726825a6c630013480f684.jpg",
+  goldJhumki6:
+    "https://i.pinimg.com/736x/53/3b/21/533b21eb74c35d8db157ef7da8cca3e8.jpg",
 
-goldJhumki:'https://i.pinimg.com/736x/29/c7/c6/29c7c67c484cc6a33ff8222a79bde655.jpg',
-goldJhumki2:'https://i.pinimg.com/736x/12/5b/7d/125b7d79f3fee48576a72826058f476d.jpg',
-goldJhumki3:'https://i.pinimg.com/1200x/0b/4c/8f/0b4c8fcb06076954c4cd2b68fce8a45f.jpg',
-goldJhumki4:'https://i.pinimg.com/736x/c9/93/5f/c9935fa4411b6d84be38e3369f7f4a2a.jpg',
-goldJhumki5:'https://i.pinimg.com/736x/63/c9/72/63c9724074726825a6c630013480f684.jpg',
-goldJhumki6:'https://i.pinimg.com/736x/53/3b/21/533b21eb74c35d8db157ef7da8cca3e8.jpg',
+  goldkundal:
+    "https://i.pinimg.com/1200x/f1/dc/f9/f1dcf9f99b3332eda9cdd31f83c9c59d.jpg",
+  goldkundal2:
+    "https://i.pinimg.com/736x/ce/9d/68/ce9d685059c5f12676a1f7393cc6fb03.jpg",
+  goldkundal3:
+    "https://i.pinimg.com/736x/03/02/82/0302823a3ded67c9d44f24635d677839.jpg",
+  goldkundal4:
+    "https://i.pinimg.com/736x/08/5c/2c/085c2c1917cd04ed4efe4598e4376617.jpg",
+  goldkundal5:
+    "https://i.pinimg.com/736x/7e/17/c9/7e17c9e9fd46e13d8466cd8e04a722c7.jpg",
+  goldkundal6:
+    "https://i.pinimg.com/736x/3b/b5/77/3bb577406a9bd3a8d6124b527cd2ea2f.jpg",
 
-goldkundal:'https://i.pinimg.com/1200x/f1/dc/f9/f1dcf9f99b3332eda9cdd31f83c9c59d.jpg',
-goldkundal2:'https://i.pinimg.com/736x/ce/9d/68/ce9d685059c5f12676a1f7393cc6fb03.jpg',
-goldkundal3:'https://i.pinimg.com/736x/03/02/82/0302823a3ded67c9d44f24635d677839.jpg',
-goldkundal4:'https://i.pinimg.com/736x/08/5c/2c/085c2c1917cd04ed4efe4598e4376617.jpg',
-goldkundal5:'https://i.pinimg.com/736x/7e/17/c9/7e17c9e9fd46e13d8466cd8e04a722c7.jpg',
-goldkundal6:'https://i.pinimg.com/736x/3b/b5/77/3bb577406a9bd3a8d6124b527cd2ea2f.jpg',
+  goldnosepin:
+    "https://i.pinimg.com/1200x/7b/ab/ac/7babac888d3438e134ef3a893b34e2ef.jpg",
+  goldnosepin2:
+    "https://i.pinimg.com/1200x/8e/aa/a1/8eaaa1395bf85dca665953fde67a76ef.jpg",
+  goldnosepin3:
+    "https://i.pinimg.com/1200x/16/0d/57/160d57678a509bca8a4de9cc2a32cd05.jpg",
+  goldnosepin4:
+    "https://i.pinimg.com/736x/34/dc/e9/34dce9730e0de6e46ee1dde4c9a87a23.jpg",
+  goldnosepin5:
+    "https://i.pinimg.com/736x/88/a9/3d/88a93d4c9c66bdf4d1abf782e4ca73a5.jpg",
+  goldnosepin6:
+    "https://i.pinimg.com/736x/70/13/df/7013df530736256c0a80472aebafeab1.jpg",
 
-goldnosepin:'https://i.pinimg.com/1200x/7b/ab/ac/7babac888d3438e134ef3a893b34e2ef.jpg',
-goldnosepin2:'https://i.pinimg.com/1200x/8e/aa/a1/8eaaa1395bf85dca665953fde67a76ef.jpg',
-goldnosepin3:'https://i.pinimg.com/1200x/16/0d/57/160d57678a509bca8a4de9cc2a32cd05.jpg',
-goldnosepin4:'https://i.pinimg.com/736x/34/dc/e9/34dce9730e0de6e46ee1dde4c9a87a23.jpg',
-goldnosepin5:'https://i.pinimg.com/736x/88/a9/3d/88a93d4c9c66bdf4d1abf782e4ca73a5.jpg',
-goldnosepin6:'https://i.pinimg.com/736x/70/13/df/7013df530736256c0a80472aebafeab1.jpg',
+  nosering:
+    "https://i.pinimg.com/1200x/f8/b9/4a/f8b94a88240f4255ea7604d87a1c0224.jpg",
+  nosering2:
+    "https://i.pinimg.com/1200x/16/e8/06/16e80656e9864dfb50b481396c01540a.jpg",
+  nosering3:
+    "https://i.pinimg.com/1200x/f7/09/61/f7096105707f966fccf288db593afccc.jpg",
+  nosering4:
+    "https://i.pinimg.com/1200x/76/78/d8/7678d8ca5a4d5ad407592205c8bd1709.jpg",
+  nosering5:
+    "https://i.pinimg.com/736x/73/58/fc/7358fced0489f8b1b9bfc800dd211178.jpg",
+  nosering6:
+    "https://i.pinimg.com/1200x/0a/e6/c7/0ae6c7efd223329f3ec82b52362e3671.jpg",
 
-nosering:'https://i.pinimg.com/1200x/f8/b9/4a/f8b94a88240f4255ea7604d87a1c0224.jpg',
-nosering2:'https://i.pinimg.com/1200x/16/e8/06/16e80656e9864dfb50b481396c01540a.jpg',
-nosering3:'https://i.pinimg.com/1200x/f7/09/61/f7096105707f966fccf288db593afccc.jpg',
-nosering4:'https://i.pinimg.com/1200x/76/78/d8/7678d8ca5a4d5ad407592205c8bd1709.jpg',
-nosering5:'https://i.pinimg.com/736x/73/58/fc/7358fced0489f8b1b9bfc800dd211178.jpg',
-nosering6:'https://i.pinimg.com/1200x/0a/e6/c7/0ae6c7efd223329f3ec82b52362e3671.jpg',
+  nath: "https://i.pinimg.com/1200x/2a/42/5a/2a425a07db0e58c073560a78bef9c210.jpg",
+  nath2:
+    "https://i.pinimg.com/736x/b0/5c/6b/b05c6bfcbdb07a1268a2f82ef7da925c.jpg",
+  nath3:
+    "https://i.pinimg.com/1200x/48/62/24/48622485003408094486a73d5a64fdc8.jpg",
+  nath4:
+    "https://i.pinimg.com/1200x/12/c3/af/12c3af0be516661cddc72aa5627e80c9.jpg",
+  nath5:
+    "https://i.pinimg.com/736x/4d/87/91/4d8791eb9c4046bb1361bebc4fb9a0c1.jpg",
+  nath6:
+    "https://i.pinimg.com/736x/d6/64/69/d664692a4d056e30f0e389b77d90191e.jpg",
 
-nath:'https://i.pinimg.com/1200x/2a/42/5a/2a425a07db0e58c073560a78bef9c210.jpg',
-nath2:'https://i.pinimg.com/736x/b0/5c/6b/b05c6bfcbdb07a1268a2f82ef7da925c.jpg',
-nath3:'https://i.pinimg.com/1200x/48/62/24/48622485003408094486a73d5a64fdc8.jpg',
-nath4:'https://i.pinimg.com/1200x/12/c3/af/12c3af0be516661cddc72aa5627e80c9.jpg',
-nath5:'https://i.pinimg.com/736x/4d/87/91/4d8791eb9c4046bb1361bebc4fb9a0c1.jpg',
-nath6:'https://i.pinimg.com/736x/d6/64/69/d664692a4d056e30f0e389b77d90191e.jpg',
+  mangalsutra:
+    "https://i.pinimg.com/736x/ba/ac/78/baac78f282ea55cc1aa7f3c2c7773c19.jpg",
+  mangalsutra2:
+    "https://i.pinimg.com/736x/b4/49/6b/b4496ba180731fa62f97b11e4da56fec.jpg",
+  mangalsutra3:
+    "https://i.pinimg.com/736x/e1/5a/b0/e15ab0f52f97f7a4cbcbbe9ae3d5f5c6.jpg",
+  mangalsutra4:
+    "https://i.pinimg.com/1200x/44/fe/a5/44fea5e0b37b4e1158440d804683596e.jpg",
+  mangalsutra5:
+    "https://i.pinimg.com/736x/a1/c4/95/a1c49514ad7334ff5441a73ab7fad0dc.jpg",
+  mangalsutra6:
+    "https://i.pinimg.com/1200x/53/05/e7/5305e79d5a9b954e360a225cde4969a6.jpg",
 
-mangalsutra:'https://i.pinimg.com/736x/ba/ac/78/baac78f282ea55cc1aa7f3c2c7773c19.jpg',
-mangalsutra2:'https://i.pinimg.com/736x/b4/49/6b/b4496ba180731fa62f97b11e4da56fec.jpg',
-mangalsutra3:'https://i.pinimg.com/736x/e1/5a/b0/e15ab0f52f97f7a4cbcbbe9ae3d5f5c6.jpg',
-mangalsutra4:'https://i.pinimg.com/1200x/44/fe/a5/44fea5e0b37b4e1158440d804683596e.jpg',
-mangalsutra5:'https://i.pinimg.com/736x/a1/c4/95/a1c49514ad7334ff5441a73ab7fad0dc.jpg',
-mangalsutra6:'https://i.pinimg.com/1200x/53/05/e7/5305e79d5a9b954e360a225cde4969a6.jpg',
+  chudi:
+    "https://i.pinimg.com/736x/6f/99/26/6f9926cb90c266955ff0f60110184685.jpg",
+  chudi2:
+    "https://i.pinimg.com/736x/74/23/c5/7423c5ba164505b60a5909cce5640e18.jpg",
+  chudi3:
+    "https://i.pinimg.com/736x/2f/01/03/2f0103b9cf9de55f9cfa67f523308e2e.jpg",
+  chudi4:
+    "https://i.pinimg.com/1200x/0b/bc/99/0bbc996724aafab3763f4961cae7f55f.jpg",
+  chudi5:
+    "https://i.pinimg.com/736x/0f/47/14/0f47145287847fbf791697b3554e6314.jpg",
+  chudi6:
+    "https://i.pinimg.com/736x/6c/a4/bb/6ca4bbf2515fead83d8d142db4a3e3c2.jpg",
 
-chudi:'https://i.pinimg.com/736x/6f/99/26/6f9926cb90c266955ff0f60110184685.jpg',
-chudi2:'https://i.pinimg.com/736x/74/23/c5/7423c5ba164505b60a5909cce5640e18.jpg',
-chudi3:'https://i.pinimg.com/736x/2f/01/03/2f0103b9cf9de55f9cfa67f523308e2e.jpg',
-chudi4:'https://i.pinimg.com/1200x/0b/bc/99/0bbc996724aafab3763f4961cae7f55f.jpg',
-chudi5:'https://i.pinimg.com/736x/0f/47/14/0f47145287847fbf791697b3554e6314.jpg',
-chudi6:'https://i.pinimg.com/736x/6c/a4/bb/6ca4bbf2515fead83d8d142db4a3e3c2.jpg',
+  raanihar:
+    "https://i.pinimg.com/1200x/5a/45/49/5a4549376e8aea423054b42e1ecdcbc4.jpg",
+  raanihar2:
+    "https://i.pinimg.com/736x/72/60/84/726084e6d4c9897272e361cdaf38f97e.jpg",
+  raanihar3:
+    "https://i.pinimg.com/736x/ec/88/e3/ec88e3e1d32dddf7925f8dd021b7dd45.jpg",
+  raanihar4:
+    "https://i.pinimg.com/736x/bf/f4/6a/bff46a4eddecd2054f103270f9a3a35d.jpg",
+  raanihar5:
+    "https://i.pinimg.com/736x/78/73/58/7873589944730beeff4cd977b607288a.jpg",
+  raanihar6:
+    "https://i.pinimg.com/736x/ee/53/be/ee53beac48d316c27e429ac492df281c.jpg",
 
-raanihar:'https://i.pinimg.com/1200x/5a/45/49/5a4549376e8aea423054b42e1ecdcbc4.jpg',
-raanihar2:'https://i.pinimg.com/736x/72/60/84/726084e6d4c9897272e361cdaf38f97e.jpg',
-raanihar3:'https://i.pinimg.com/736x/ec/88/e3/ec88e3e1d32dddf7925f8dd021b7dd45.jpg',
-raanihar4:'https://i.pinimg.com/736x/bf/f4/6a/bff46a4eddecd2054f103270f9a3a35d.jpg',
-raanihar5:'https://i.pinimg.com/736x/78/73/58/7873589944730beeff4cd977b607288a.jpg',
-raanihar6:'https://i.pinimg.com/736x/ee/53/be/ee53beac48d316c27e429ac492df281c.jpg',
+  choker:
+    "https://i.pinimg.com/736x/3e/76/07/3e7607254f0c2c104bac149c70e9dd06.jpg",
+  choker2:
+    "https://i.pinimg.com/736x/6e/7b/ca/6e7bcaeba41d68ac66278a727e531335.jpg",
+  choker3:
+    "https://i.pinimg.com/736x/6e/f1/8b/6ef18b1c67cbe0da6c575b9d7dc633bc.jpg",
+  choker4:
+    "https://i.pinimg.com/736x/e6/10/57/e61057e83476f9a68341e626ef802808.jpg",
+  choker5:
+    "https://i.pinimg.com/1200x/87/86/5a/87865ae25705562b8703c0c06af691d6.jpg",
+  choker6:
+    "https://i.pinimg.com/1200x/6a/c0/2f/6ac02f8cb09fae5fb90bf05e2bff09fd.jpg",
 
-choker:'https://i.pinimg.com/736x/3e/76/07/3e7607254f0c2c104bac149c70e9dd06.jpg',
-choker2:'https://i.pinimg.com/736x/6e/7b/ca/6e7bcaeba41d68ac66278a727e531335.jpg',
-choker3:'https://i.pinimg.com/736x/6e/f1/8b/6ef18b1c67cbe0da6c575b9d7dc633bc.jpg',
-choker4:'https://i.pinimg.com/736x/e6/10/57/e61057e83476f9a68341e626ef802808.jpg',
-choker5:'https://i.pinimg.com/1200x/87/86/5a/87865ae25705562b8703c0c06af691d6.jpg',
-choker6:'https://i.pinimg.com/1200x/6a/c0/2f/6ac02f8cb09fae5fb90bf05e2bff09fd.jpg',
+  necklaces:
+    "https://i.pinimg.com/736x/b5/1d/54/b51d54377881806e0bb72019260fb5f4.jpg",
+  necklaces2:
+    "https://i.pinimg.com/736x/38/f3/92/38f392ede873533d9eb2751ee1b13150.jpg",
+  necklaces3:
+    "https://i.pinimg.com/736x/53/c2/d4/53c2d401545c3041af70e7625d748edc.jpg",
+  necklaces4:
+    "https://i.pinimg.com/736x/32/ba/25/32ba2551a794df808e20d84d8c0fbfbf.jpg",
+  necklaces5:
+    "https://i.pinimg.com/1200x/92/c6/34/92c634423561a232da095c9456df1df2.jpg",
+  necklaces6:
+    "https://i.pinimg.com/1200x/cb/d1/bc/cbd1bcc02f50903d26d443bf21adf818.jpg",
 
-necklaces:'https://i.pinimg.com/736x/b5/1d/54/b51d54377881806e0bb72019260fb5f4.jpg',
-necklaces2:'https://i.pinimg.com/736x/38/f3/92/38f392ede873533d9eb2751ee1b13150.jpg',
-necklaces3:'https://i.pinimg.com/736x/53/c2/d4/53c2d401545c3041af70e7625d748edc.jpg',
-necklaces4:'https://i.pinimg.com/736x/32/ba/25/32ba2551a794df808e20d84d8c0fbfbf.jpg',
-necklaces5:'https://i.pinimg.com/1200x/92/c6/34/92c634423561a232da095c9456df1df2.jpg',
-necklaces6:'https://i.pinimg.com/1200x/cb/d1/bc/cbd1bcc02f50903d26d443bf21adf818.jpg',
+  Om: "https://i.pinimg.com/1200x/1f/9e/2b/1f9e2b14f4caf757767f8e9f1bc75446.jpg",
+  Om2: "https://i.pinimg.com/1200x/8f/de/99/8fde99bd56c5cad14357b23b6fb49570.jpg",
+  Om3: "https://i.pinimg.com/1200x/c9/54/54/c95454ce07121322e2945c0d427a60ec.jpg",
+  Om4: "https://i.pinimg.com/1200x/75/d6/2a/75d62aea637d806b787bf755ef67e75a.jpg",
+  Om5: "https://i.pinimg.com/1200x/7f/4e/d6/7f4ed6c9464242993d107858b4bf2eaf.jpg",
+  Om6: "https://i.pinimg.com/1200x/2c/f3/52/2cf35261687eae0c693de69ca7afbe98.jpg",
 
-Om:'https://i.pinimg.com/1200x/1f/9e/2b/1f9e2b14f4caf757767f8e9f1bc75446.jpg',
-Om2:'https://i.pinimg.com/1200x/8f/de/99/8fde99bd56c5cad14357b23b6fb49570.jpg',
-Om3:'https://i.pinimg.com/1200x/c9/54/54/c95454ce07121322e2945c0d427a60ec.jpg',
-Om4:'https://i.pinimg.com/1200x/75/d6/2a/75d62aea637d806b787bf755ef67e75a.jpg',
-Om5:'https://i.pinimg.com/1200x/7f/4e/d6/7f4ed6c9464242993d107858b4bf2eaf.jpg',
-Om6:'https://i.pinimg.com/1200x/2c/f3/52/2cf35261687eae0c693de69ca7afbe98.jpg',
+  kanthi:
+    "https://i.pinimg.com/1200x/75/6e/a2/756ea2299ba84dff8669bcfcd4ab955a.jpg",
+  kanthi2:
+    "https://i.pinimg.com/1200x/1b/29/63/1b2963881dc523a82b9eb57a8f881cba.jpg",
+  kanthi3:
+    "https://i.pinimg.com/1200x/a7/7f/6f/a77f6f0faf810a3b65aa0195c8cb87db.jpg",
+  kanthi4:
+    "https://i.pinimg.com/1200x/67/c6/cf/67c6cffc31f1d7bb6d623f265b47d1ea.jpg",
+  kanthi5:
+    "https://i.pinimg.com/1200x/54/a5/ac/54a5acf1536ec21ff40b5423a525293a.jpg",
+  kanthi6:
+    "https://i.pinimg.com/1200x/ae/c4/d4/aec4d4b37009b6c8b741fc8b4c865828.jpg",
 
-kanthi:'https://i.pinimg.com/1200x/75/6e/a2/756ea2299ba84dff8669bcfcd4ab955a.jpg',
-kanthi2:'https://i.pinimg.com/1200x/1b/29/63/1b2963881dc523a82b9eb57a8f881cba.jpg',
-kanthi3:'https://i.pinimg.com/1200x/a7/7f/6f/a77f6f0faf810a3b65aa0195c8cb87db.jpg',
-kanthi4:'https://i.pinimg.com/1200x/67/c6/cf/67c6cffc31f1d7bb6d623f265b47d1ea.jpg',
-kanthi5:'https://i.pinimg.com/1200x/54/a5/ac/54a5acf1536ec21ff40b5423a525293a.jpg',
-kanthi6:'https://i.pinimg.com/1200x/ae/c4/d4/aec4d4b37009b6c8b741fc8b4c865828.jpg',
+  kada: "https://i.pinimg.com/736x/1f/9f/1d/1f9f1dee5397c6b8e2f32257d0c1abe0.jpg",
+  kada4:
+    "https://i.pinimg.com/736x/90/92/0f/90920f058226de9a656df64d76754df5.jpg",
+  kada2:
+    "https://i.pinimg.com/736x/84/94/20/8494201888befe7485cb21e007ed7c1d.jpg",
+  kada3:
+    "https://i.pinimg.com/736x/b3/53/08/b353083f773b97dce5869ed8e34cc376.jpg",
+  kada5:
+    "https://i.pinimg.com/736x/50/d4/c9/50d4c99de6a267276b50dc39957e9174.jpg",
+  kada6:
+    "https://i.pinimg.com/736x/91/04/a1/9104a15e160422e183cdfd6d9eee9079.jpg",
 
-kada:'https://i.pinimg.com/736x/1f/9f/1d/1f9f1dee5397c6b8e2f32257d0c1abe0.jpg',
-kada4:'https://i.pinimg.com/736x/90/92/0f/90920f058226de9a656df64d76754df5.jpg',
-kada2:'https://i.pinimg.com/736x/84/94/20/8494201888befe7485cb21e007ed7c1d.jpg',
-kada3:'https://i.pinimg.com/736x/b3/53/08/b353083f773b97dce5869ed8e34cc376.jpg',
-kada5:'https://i.pinimg.com/736x/50/d4/c9/50d4c99de6a267276b50dc39957e9174.jpg',
-kada6:'https://i.pinimg.com/736x/91/04/a1/9104a15e160422e183cdfd6d9eee9079.jpg',
+  omlocket:
+    "https://i.pinimg.com/736x/ba/43/62/ba4362fed9794ef43f85e8a9c9aff372.jpg",
+  omlocket2:
+    "https://i.pinimg.com/736x/da/4e/01/da4e0143c7816b21ea0188b513b1bb7e.jpg",
+  omlocket3:
+    "https://i.pinimg.com/736x/19/31/2d/19312d3d0f42bfb21c8fa8c3a24491aa.jpg",
+  omlocket4:
+    "https://i.pinimg.com/1200x/ac/85/19/ac8519c4c4f302f3ac7452bdf2d1b268.jpg",
+  omlocket5:
+    "https://i.pinimg.com/1200x/88/d9/b5/88d9b53db32d6b005a538239eed320bf.jpg",
+  omlocket6:
+    "https://i.pinimg.com/736x/9f/3f/97/9f3f9781c22403bcc2aa8e97f9647cec.jpg",
 
+  maalocket:
+    "https://i.pinimg.com/1200x/7c/6c/f3/7c6cf35d6489ff8d4734897018ea3330.jpg",
+  maalocket1:
+    "https://i.pinimg.com/736x/8a/ab/d1/8aabd116d11d4377b1a7fd7f99eeae2d.jpg",
+  maalocket2:
+    "https://i.pinimg.com/736x/c5/f7/64/c5f764660fdff1ef7db826791486fd09.jpg",
+  maalocket3:
+    "https://i.pinimg.com/1200x/31/cd/6a/31cd6aab02e225af007a1e20140f3376.jpg",
+  maalocket4:
+    "https://i.pinimg.com/1200x/bf/e6/7f/bfe67fc59a26607d7221612ab3ac3fcd.jpg",
+  maalocket5:
+    "https://i.pinimg.com/1200x/83/e8/f7/83e8f70fd2919c4e596faeaae192b416.jpg",
+  maalocket6:
+    "https://i.pinimg.com/1200x/e0/c0/80/e0c0802eb90dfa651acafc4bc2fed093.jpg",
 
-omlocket:'https://i.pinimg.com/736x/ba/43/62/ba4362fed9794ef43f85e8a9c9aff372.jpg',
-omlocket2:'https://i.pinimg.com/736x/da/4e/01/da4e0143c7816b21ea0188b513b1bb7e.jpg',
-omlocket3:'https://i.pinimg.com/736x/19/31/2d/19312d3d0f42bfb21c8fa8c3a24491aa.jpg',
-omlocket4:'https://i.pinimg.com/1200x/ac/85/19/ac8519c4c4f302f3ac7452bdf2d1b268.jpg',
-omlocket5:'https://i.pinimg.com/1200x/88/d9/b5/88d9b53db32d6b005a538239eed320bf.jpg',
-omlocket6:'https://i.pinimg.com/736x/9f/3f/97/9f3f9781c22403bcc2aa8e97f9647cec.jpg',
+  gurjarlocket:
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnU9nkyBr25baPSrVubFTfnrXM2b3IfBL-_w&s",
+  gurjarlocket2:
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQBstJDE_V_zqcYgcsv1p8IGsX7TwhVY24Cg&s",
+  gurjarlocket3:
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG3XdR8oKOeqVYL75rm_Z99qyWsO50P4BBHA&s",
+  gurjarlocket4:
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI5vwBuiQ8K6PBAibYTuEjG-HjEKHhgiZA6g&s",
+  gurjarlocket5:
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Nq_C3qXIGQ2yDZ0CuFM8KXX-J_A9mIJ_TA&s",
+  gurjarlocket6:
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9MPTB0q75Mzxgls0yDD7C2ucmpYBiBzYq0A&s",
 
-maalocket:'https://i.pinimg.com/1200x/7c/6c/f3/7c6cf35d6489ff8d4734897018ea3330.jpg',
-maalocket1:'https://i.pinimg.com/736x/8a/ab/d1/8aabd116d11d4377b1a7fd7f99eeae2d.jpg',
-maalocket2:'https://i.pinimg.com/736x/c5/f7/64/c5f764660fdff1ef7db826791486fd09.jpg',
-maalocket3:'https://i.pinimg.com/1200x/31/cd/6a/31cd6aab02e225af007a1e20140f3376.jpg',
-maalocket4:'https://i.pinimg.com/1200x/bf/e6/7f/bfe67fc59a26607d7221612ab3ac3fcd.jpg',
-maalocket5:'https://i.pinimg.com/1200x/83/e8/f7/83e8f70fd2919c4e596faeaae192b416.jpg',
-maalocket6:'https://i.pinimg.com/1200x/e0/c0/80/e0c0802eb90dfa651acafc4bc2fed093.jpg',
+  mkada:
+    "https://i.pinimg.com/1200x/54/f3/12/54f3124fff0941b91099c3bce829ef86.jpg",
+  mkada2:
+    "https://i.pinimg.com/736x/e1/ae/6d/e1ae6d1b6f3296d4f4ac4633d4044ab3.jpg",
+  mkada3:
+    "https://i.pinimg.com/1200x/08/37/d4/0837d433df3d1ac805d6f8948b69d5cd.jpg",
+  mkada4:
+    "https://i.pinimg.com/736x/b3/b2/cc/b3b2cc032c96297975974cea80fc3fd8.jpg",
+  mkada5:
+    "https://i.pinimg.com/736x/f8/75/8a/f8758a72ba65d1f03a1d20639d679914.jpg",
+  mkada6:
+    "https://i.pinimg.com/736x/68/f7/27/68f7278fbdffef4b95fdf439c3485d7a.jpg",
 
-gurjarlocket:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnU9nkyBr25baPSrVubFTfnrXM2b3IfBL-_w&s',
-gurjarlocket2:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQBstJDE_V_zqcYgcsv1p8IGsX7TwhVY24Cg&s',
-gurjarlocket3:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG3XdR8oKOeqVYL75rm_Z99qyWsO50P4BBHA&s',
-gurjarlocket4:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI5vwBuiQ8K6PBAibYTuEjG-HjEKHhgiZA6g&s',
-gurjarlocket5:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Nq_C3qXIGQ2yDZ0CuFM8KXX-J_A9mIJ_TA&s',
-gurjarlocket6:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9MPTB0q75Mzxgls0yDD7C2ucmpYBiBzYq0A&s',
+  wbracelets:
+    "https://i.pinimg.com/736x/eb/fe/0f/ebfe0fca41870abcb4c804c444766d6c.jpg",
+  wbracelets2:
+    "https://i.pinimg.com/736x/ce/8f/76/ce8f763e35ec925e6b161ca9e48b2ede.jpg",
+  wbracelets3:
+    "https://i.pinimg.com/736x/d8/2b/27/d82b277f6fc177d7120c2cd44345320d.jpg",
+  wbracelets4:
+    "https://i.pinimg.com/736x/3b/ae/83/3bae83c73e2ecee62d14cbe47e9344aa.jpg",
+  wbracelets5:
+    "https://i.pinimg.com/736x/b2/ad/c1/b2adc19a23c423362cd5b772b907bc20.jpg",
+  wbracelets6:
+    "https://i.pinimg.com/736x/1c/a2/06/1ca206019f694e14d711577dd9693f68.jpg",
 
+  mbracelets:
+    "https://i.pinimg.com/1200x/6c/63/ea/6c63eaaa4169da7d9a471e97f8da7b98.jpg",
+  mbracelets2:
+    "https://i.pinimg.com/1200x/40/55/c3/4055c355b4c2706152b4b8a3193b54ab.jpg",
+  mbracelets3:
+    "https://i.pinimg.com/1200x/9e/ea/d7/9eead7dfe47e422969b0e4a74d769ef1.jpg",
+  mbracelets4:
+    "https://i.pinimg.com/1200x/74/01/f7/7401f73014b222ee40932a00fdebfdbf.jpg",
+  mbracelets5:
+    "https://i.pinimg.com/736x/c1/cd/38/c1cd38c8a46d693e4136692626358279.jpg",
+  mbracelets6:
+    "https://i.pinimg.com/1200x/74/b5/c2/74b5c23c99b9373776e79a841bcaa683.jpg",
 
-mkada:'https://i.pinimg.com/1200x/54/f3/12/54f3124fff0941b91099c3bce829ef86.jpg',
-mkada2:'https://i.pinimg.com/736x/e1/ae/6d/e1ae6d1b6f3296d4f4ac4633d4044ab3.jpg',
-mkada3:'https://i.pinimg.com/1200x/08/37/d4/0837d433df3d1ac805d6f8948b69d5cd.jpg',
-mkada4:'https://i.pinimg.com/736x/b3/b2/cc/b3b2cc032c96297975974cea80fc3fd8.jpg',
-mkada5:'https://i.pinimg.com/736x/f8/75/8a/f8758a72ba65d1f03a1d20639d679914.jpg',
-mkada6:'https://i.pinimg.com/736x/68/f7/27/68f7278fbdffef4b95fdf439c3485d7a.jpg',
+  mbali:
+    "https://i.pinimg.com/1200x/d5/72/db/d572db50fdf5bc456242f14d1d9c764c.jpg",
+  mbali2:
+    "https://i.pinimg.com/736x/8f/bf/8e/8fbf8e49ca44ff3f9af5a0baf1a0a345.jpg",
+  mbali3:
+    "https://i.pinimg.com/1200x/15/17/cc/1517cc4843bb00f6e4d47443614081fb.jpg",
+  mbali4:
+    "https://i.pinimg.com/736x/ab/2d/1d/ab2d1d9cf40a51ba7341d9105d094a44.jpg",
+  mbali5:
+    "https://i.pinimg.com/1200x/82/a8/d0/82a8d09453a9787093efbc925188db25.jpg",
+  mbali6:
+    "https://i.pinimg.com/1200x/89/40/aa/8940aa2b5ae4a8c48466f233a48712fc.jpg",
 
-wbracelets:'https://i.pinimg.com/736x/eb/fe/0f/ebfe0fca41870abcb4c804c444766d6c.jpg',
-wbracelets2:'https://i.pinimg.com/736x/ce/8f/76/ce8f763e35ec925e6b161ca9e48b2ede.jpg',
-wbracelets3:'https://i.pinimg.com/736x/d8/2b/27/d82b277f6fc177d7120c2cd44345320d.jpg',
-wbracelets4:'https://i.pinimg.com/736x/3b/ae/83/3bae83c73e2ecee62d14cbe47e9344aa.jpg',
-wbracelets5:'https://i.pinimg.com/736x/b2/ad/c1/b2adc19a23c423362cd5b772b907bc20.jpg',
-wbracelets6:'https://i.pinimg.com/736x/1c/a2/06/1ca206019f694e14d711577dd9693f68.jpg',
+  wmali:
+    "https://i.pinimg.com/736x/6d/0e/a6/6d0ea6ff563158d87166a3302ff84749.jpg",
+  wmali2:
+    "https://i.pinimg.com/1200x/43/59/09/4359093c545004cfe777ea037351d152.jpg",
+  wmali3:
+    "https://i.pinimg.com/736x/12/1f/66/121f6650752aeb46dc695de9be6558f9.jpg",
+  wmali4:
+    "https://i.pinimg.com/1200x/f2/af/83/f2af836c6650a6ab771803ae3a7b4d03.jpg",
+  wmali5:
+    "https://i.pinimg.com/736x/cc/1f/9b/cc1f9b5dcfb94281237a93f50bc9f313.jpg",
+  wmali6:
+    "https://i.pinimg.com/736x/b2/d0/69/b2d0694015b4c194bc056ed109aa3500.jpg",
 
-mbracelets:'https://i.pinimg.com/1200x/6c/63/ea/6c63eaaa4169da7d9a471e97f8da7b98.jpg',
-mbracelets2:'https://i.pinimg.com/1200x/40/55/c3/4055c355b4c2706152b4b8a3193b54ab.jpg',
-mbracelets3:'https://i.pinimg.com/1200x/9e/ea/d7/9eead7dfe47e422969b0e4a74d769ef1.jpg',
-mbracelets4:'https://i.pinimg.com/1200x/74/01/f7/7401f73014b222ee40932a00fdebfdbf.jpg',
-mbracelets5:'https://i.pinimg.com/736x/c1/cd/38/c1cd38c8a46d693e4136692626358279.jpg',
-mbracelets6:'https://i.pinimg.com/1200x/74/b5/c2/74b5c23c99b9373776e79a841bcaa683.jpg',
+  wearrings:
+    "https://i.pinimg.com/736x/1f/ef/e2/1fefe2356eaceb08cf515728b239fbfa.jpg",
+  wearrings2:
+    "https://i.pinimg.com/736x/8b/4b/36/8b4b36abd0d7abd3dc5f45d4b5bc4c3b.jpg",
+  wearrings3:
+    "https://i.pinimg.com/736x/f5/db/6c/f5db6c5f37abae6be28f514a8363e548.jpg",
+  wearrings4:
+    "https://i.pinimg.com/736x/5c/a9/68/5ca96805fa1043dded20cd8b6c09aa47.jpg",
+  wearrings5:
+    "https://i.pinimg.com/736x/58/37/9d/58379d888a246e9950dbaac1ba88361d.jpg",
+  wearrings6:
+    "https://i.pinimg.com/736x/a9/14/dc/a914dca94e3913f846832d17c59478df.jpg",
 
+  mearring:
+    "https://i.pinimg.com/1200x/e1/4f/f9/e14ff9816198d72e37f9914bc22548d5.jpg",
+  mearring2:
+    "https://i.pinimg.com/1200x/50/48/78/504878137b7760f53c33f016df9a9cf4.jpg",
+  mearring3:
+    "https://i.pinimg.com/1200x/58/c3/d7/58c3d73a10e23576765ec237e313f356.jpg",
+  mearring4:
+    "https://i.pinimg.com/1200x/e1/ab/c0/e1abc004aed7f8784c8a5388130540dc.jpg",
+  mearring5:
+    "https://i.pinimg.com/1200x/10/b1/77/10b177c92183f08fb50112585e2ea42c.jpg",
+  mearring6:
+    "https://i.pinimg.com/1200x/35/78/61/3578614822ed4fab692959fcee62aa45.jpg",
 
-mbali:'https://i.pinimg.com/1200x/d5/72/db/d572db50fdf5bc456242f14d1d9c764c.jpg',
-mbali2:'https://i.pinimg.com/736x/8f/bf/8e/8fbf8e49ca44ff3f9af5a0baf1a0a345.jpg',
-mbali3:'https://i.pinimg.com/1200x/15/17/cc/1517cc4843bb00f6e4d47443614081fb.jpg',
-mbali4:'https://i.pinimg.com/736x/ab/2d/1d/ab2d1d9cf40a51ba7341d9105d094a44.jpg',
-mbali5:'https://i.pinimg.com/1200x/82/a8/d0/82a8d09453a9787093efbc925188db25.jpg',
-mbali6:'https://i.pinimg.com/1200x/89/40/aa/8940aa2b5ae4a8c48466f233a48712fc.jpg',
+  mchain:
+    "https://i.pinimg.com/736x/43/58/29/435829de25b6f081c1a5d44b25b04143.jpg",
+  mchain2:
+    "https://i.pinimg.com/736x/c9/8d/30/c98d3081f725142baca34dc5c0209418.jpg",
+  mchain3:
+    "https://i.pinimg.com/1200x/c5/5a/c4/c55ac4c14d217005b21510b780c296b4.jpg",
+  mchain4:
+    "https://i.pinimg.com/736x/cb/02/55/cb0255af79ca2e3d5096cd09eb29e617.jpg",
+  mchain5:
+    "https://i.pinimg.com/1200x/42/6d/34/426d34e1b5722d3e71b4417150fdc74e.jpg",
+  mchain6:
+    "https://i.pinimg.com/736x/a5/8f/85/a58f85773efc10abac97cc3360e6f340.jpg",
 
-wmali:'https://i.pinimg.com/736x/6d/0e/a6/6d0ea6ff563158d87166a3302ff84749.jpg',
-wmali2:'https://i.pinimg.com/1200x/43/59/09/4359093c545004cfe777ea037351d152.jpg',
-wmali3:'https://i.pinimg.com/736x/12/1f/66/121f6650752aeb46dc695de9be6558f9.jpg',
-wmali4:'https://i.pinimg.com/1200x/f2/af/83/f2af836c6650a6ab771803ae3a7b4d03.jpg',
-wmali5:'https://i.pinimg.com/736x/cc/1f/9b/cc1f9b5dcfb94281237a93f50bc9f313.jpg',
-wmali6:'https://i.pinimg.com/736x/b2/d0/69/b2d0694015b4c194bc056ed109aa3500.jpg',
+  wchain:
+    "https://i.pinimg.com/1200x/15/8b/51/158b5131a648a6b42e2d36262be4a755.jpg",
+  wchain2:
+    "https://i.pinimg.com/736x/46/b5/02/46b502687f7111de1e945383c342aa9a.jpg",
+  wchain3:
+    "https://i.pinimg.com/736x/2f/20/d3/2f20d3dcad119123882bd6ad94232e21.jpg",
+  wchain4:
+    "https://i.pinimg.com/736x/b5/76/71/b57671d03b3b9f6d9e72596d88355ca0.jpg",
+  wchain5:
+    "https://i.pinimg.com/736x/1b/98/91/1b9891a7c9dfa99c19e64d70ee49e665.jpg",
+  wchain6:
+    "https://i.pinimg.com/736x/a1/01/1f/a1011f47b3098d91985fe085e0dea86c.jpg",
 
-wearrings:'https://i.pinimg.com/736x/1f/ef/e2/1fefe2356eaceb08cf515728b239fbfa.jpg',
-wearrings2:'https://i.pinimg.com/736x/8b/4b/36/8b4b36abd0d7abd3dc5f45d4b5bc4c3b.jpg',
-wearrings3:'https://i.pinimg.com/736x/f5/db/6c/f5db6c5f37abae6be28f514a8363e548.jpg',
-wearrings4:'https://i.pinimg.com/736x/5c/a9/68/5ca96805fa1043dded20cd8b6c09aa47.jpg',
-wearrings5:'https://i.pinimg.com/736x/58/37/9d/58379d888a246e9950dbaac1ba88361d.jpg',
-wearrings6:'https://i.pinimg.com/736x/a9/14/dc/a914dca94e3913f846832d17c59478df.jpg',
-
-mearring:'https://i.pinimg.com/1200x/e1/4f/f9/e14ff9816198d72e37f9914bc22548d5.jpg',
-mearring2:'https://i.pinimg.com/1200x/50/48/78/504878137b7760f53c33f016df9a9cf4.jpg',
-mearring3:'https://i.pinimg.com/1200x/58/c3/d7/58c3d73a10e23576765ec237e313f356.jpg',
-mearring4:'https://i.pinimg.com/1200x/e1/ab/c0/e1abc004aed7f8784c8a5388130540dc.jpg',
-mearring5:'https://i.pinimg.com/1200x/10/b1/77/10b177c92183f08fb50112585e2ea42c.jpg',
-mearring6:'https://i.pinimg.com/1200x/35/78/61/3578614822ed4fab692959fcee62aa45.jpg',
-
-mchain:'https://i.pinimg.com/736x/43/58/29/435829de25b6f081c1a5d44b25b04143.jpg',
-mchain2:'https://i.pinimg.com/736x/c9/8d/30/c98d3081f725142baca34dc5c0209418.jpg',
-mchain3:'https://i.pinimg.com/1200x/c5/5a/c4/c55ac4c14d217005b21510b780c296b4.jpg',
-mchain4:'https://i.pinimg.com/736x/cb/02/55/cb0255af79ca2e3d5096cd09eb29e617.jpg',
-mchain5:'https://i.pinimg.com/1200x/42/6d/34/426d34e1b5722d3e71b4417150fdc74e.jpg',
-mchain6:'https://i.pinimg.com/736x/a5/8f/85/a58f85773efc10abac97cc3360e6f340.jpg',
-
-wchain:'https://i.pinimg.com/1200x/15/8b/51/158b5131a648a6b42e2d36262be4a755.jpg',
-wchain2:'https://i.pinimg.com/736x/46/b5/02/46b502687f7111de1e945383c342aa9a.jpg',
-wchain3:'https://i.pinimg.com/736x/2f/20/d3/2f20d3dcad119123882bd6ad94232e21.jpg',
-wchain4:'https://i.pinimg.com/736x/b5/76/71/b57671d03b3b9f6d9e72596d88355ca0.jpg',
-wchain5:'https://i.pinimg.com/736x/1b/98/91/1b9891a7c9dfa99c19e64d70ee49e665.jpg',
-wchain6:'https://i.pinimg.com/736x/a1/01/1f/a1011f47b3098d91985fe085e0dea86c.jpg',
-
-wring:'https://i.pinimg.com/736x/32/c7/45/32c745d5a8e1d8ac440b81bedee9c73f.jpg',
-wring2:'https://i.pinimg.com/1200x/59/a0/65/59a0652308ebce6e6a24aa62bffbf639.jpg',
-wring3:'https://i.pinimg.com/1200x/1a/5f/54/1a5f54e16ddf93a867186771c2239540.jpg',
-wring4:'https://i.pinimg.com/736x/5a/df/fc/5adffcbd6f1568c4021f70c8cc829cb4.jpg',
-wring5:'https://i.pinimg.com/736x/5a/36/2f/5a362fa4ddabaef07de87b6a925aa242.jpg',
-wring6:'https://i.pinimg.com/1200x/c2/e0/95/c2e09556480b3a7d475fd4bb1ac03a09.jpg',
- wring7:'https://i.pinimg.com/1200x/60/24/86/60248641866ca378f1078ff18bfcbd99.jpg',
- wring8:'https://i.pinimg.com/736x/0e/6d/ea/0e6dea8f55fe19b83dc94d0b747f18c0.jpg',
- wring9:'https://i.pinimg.com/1200x/90/02/ad/9002ad0ac34c41050762813c10728e1b.jpg',
- wring10:'https://i.pinimg.com/1200x/95/27/86/952786e913cd0fd8ab74498788c045a6.jpg',
- wring11:'https://i.pinimg.com/1200x/40/2a/48/402a485d3bfd936288ca29485655f1e2.jpg',
- wring12:'https://i.pinimg.com/1200x/95/27/86/952786e913cd0fd8ab74498788c045a6.jpg',
- wring13:'https://i.pinimg.com/736x/9e/e4/82/9ee4829ef31a542fb7a75e676e67e408.jpg',
- wring14:'https://i.pinimg.com/736x/4b/f6/1e/4bf61e39ba6a0539fd8b4fc01b84d4af.jpg',
-  wring15:'https://i.pinimg.com/736x/49/39/d4/4939d4aa44609c75a64f49be6dd98646.jpg',
- wring16:'https://i.pinimg.com/736x/a9/d4/73/a9d473cf4360c66e7da92791afe7195c.jpg',
-
-
-
-
-
-}
+  wring:
+    "https://i.pinimg.com/736x/32/c7/45/32c745d5a8e1d8ac440b81bedee9c73f.jpg",
+  wring2:
+    "https://i.pinimg.com/1200x/59/a0/65/59a0652308ebce6e6a24aa62bffbf639.jpg",
+  wring3:
+    "https://i.pinimg.com/1200x/1a/5f/54/1a5f54e16ddf93a867186771c2239540.jpg",
+  wring4:
+    "https://i.pinimg.com/736x/5a/df/fc/5adffcbd6f1568c4021f70c8cc829cb4.jpg",
+  wring5:
+    "https://i.pinimg.com/736x/5a/36/2f/5a362fa4ddabaef07de87b6a925aa242.jpg",
+  wring6:
+    "https://i.pinimg.com/1200x/c2/e0/95/c2e09556480b3a7d475fd4bb1ac03a09.jpg",
+};
 
 /* ── Category registry — drives ALL routes & nav ─── */
 export const CATEGORIES = [
   // GOLD MEN
-  { slug:'gold/mens/rings',        label:'Gold Rings',         gender:'men',   metal:'gold', path:'/shop/gold/mens/rings' },
-  { slug:'gold/mens/chains',       label:'Gold Neck Chains',   gender:'men',   metal:'gold', path:'/shop/gold/mens/chains' },
-  { slug:'gold/mens/earrings',     label:'Gold Earrings',      gender:'men',   metal:'gold', path:'/shop/gold/mens/earrings' },
-  { slug:'gold/mens/bali',         label:'Gold Bali',          gender:'men',   metal:'gold', path:'/shop/gold/mens/bali' },
-  { slug:'gold/mens/bracelets',    label:'Gold Bracelets',     gender:'men',   metal:'gold', path:'/shop/gold/mens/bracelets' },
-  { slug:'gold/mens/kada',         label:'Gold Kada',          gender:'men',   metal:'gold', path:'/shop/gold/mens/kada' },
-  { slug:'gold/mens/kanthi',       label:'Gold Kanthi',        gender:'men',   metal:'gold', path:'/shop/gold/mens/kanthi' },
-  { slug:'gold/mens/om-lockets',   label:'Gold Om Lockets',    gender:'men',   metal:'gold', path:'/shop/gold/mens/om-lockets' },
-  { slug:'gold/mens/maa-lockets',  label:'Gold Maa Lockets',   gender:'men',   metal:'gold', path:'/shop/gold/mens/maa-lockets' },
-  { slug:'gold/mens/gurjar-lockets',label:'Gold Gurjar Lockets',gender:'men',  metal:'gold', path:'/shop/gold/mens/gurjar-lockets' },
-  { slug:'gold/mens/om-collection',label:'Gold Om Collection', gender:'men',   metal:'gold', path:'/shop/gold/mens/om-collection' },
+  {
+    slug: "gold/mens/rings",
+    label: "Gold Rings",
+    gender: "men",
+    metal: "gold",
+    path: "/shop/gold/mens/rings",
+  },
+  {
+    slug: "gold/mens/chains",
+    label: "Gold Neck Chains",
+    gender: "men",
+    metal: "gold",
+    path: "/shop/gold/mens/chains",
+  },
+  {
+    slug: "gold/mens/earrings",
+    label: "Gold Earrings",
+    gender: "men",
+    metal: "gold",
+    path: "/shop/gold/mens/earrings",
+  },
+  {
+    slug: "gold/mens/bali",
+    label: "Gold Bali",
+    gender: "men",
+    metal: "gold",
+    path: "/shop/gold/mens/bali",
+  },
+  {
+    slug: "gold/mens/bracelets",
+    label: "Gold Bracelets",
+    gender: "men",
+    metal: "gold",
+    path: "/shop/gold/mens/bracelets",
+  },
+  {
+    slug: "gold/mens/kada",
+    label: "Gold Kada",
+    gender: "men",
+    metal: "gold",
+    path: "/shop/gold/mens/kada",
+  },
+  {
+    slug: "gold/mens/kanthi",
+    label: "Gold Kanthi",
+    gender: "men",
+    metal: "gold",
+    path: "/shop/gold/mens/kanthi",
+  },
+  {
+    slug: "gold/mens/om-lockets",
+    label: "Gold Om Lockets",
+    gender: "men",
+    metal: "gold",
+    path: "/shop/gold/mens/om-lockets",
+  },
+  {
+    slug: "gold/mens/maa-lockets",
+    label: "Gold Maa Lockets",
+    gender: "men",
+    metal: "gold",
+    path: "/shop/gold/mens/maa-lockets",
+  },
+  {
+    slug: "gold/mens/gurjar-lockets",
+    label: "Gold Gurjar Lockets",
+    gender: "men",
+    metal: "gold",
+    path: "/shop/gold/mens/gurjar-lockets",
+  },
+  {
+    slug: "gold/mens/om-collection",
+    label: "Gold Om Collection",
+    gender: "men",
+    metal: "gold",
+    path: "/shop/gold/mens/om-collection",
+  },
   // GOLD WOMEN
-  { slug:'gold/womens/rings',      label:'Gold Rings',         gender:'women', metal:'gold', path:'/shop/gold/womens/rings' },
-  { slug:'gold/womens/chains',     label:'Gold Neck Chains',   gender:'women', metal:'gold', path:'/shop/gold/womens/chains' },
-  { slug:'gold/womens/earrings',   label:'Gold Earrings',      gender:'women', metal:'gold', path:'/shop/gold/womens/earrings' },
-  { slug:'gold/womens/necklaces',  label:'Gold Necklaces',     gender:'women', metal:'gold', path:'/shop/gold/womens/necklaces' },
-  { slug:'gold/womens/chokers',    label:'Gold Chokers',       gender:'women', metal:'gold', path:'/shop/gold/womens/chokers' },
-  { slug:'gold/womens/rani-haar',  label:'Gold Rani Haar',     gender:'women', metal:'gold', path:'/shop/gold/womens/rani-haar' },
-  { slug:'gold/womens/bali',       label:'Gold Bali',          gender:'women', metal:'gold', path:'/shop/gold/womens/bali' },
-  { slug:'gold/womens/bracelets',  label:'Gold Bracelets',     gender:'women', metal:'gold', path:'/shop/gold/womens/bracelets' },
-  { slug:'gold/womens/chudi',      label:'Gold Chudi',         gender:'women', metal:'gold', path:'/shop/gold/womens/chudi' },
-  { slug:'gold/womens/kada',       label:'Gold Kada',          gender:'women', metal:'gold', path:'/shop/gold/womens/kada' },
-  { slug:'gold/womens/mangalsutra',label:'Mangalsutra',        gender:'women', metal:'gold', path:'/shop/gold/womens/mangalsutra' },
-  { slug:'gold/womens/nath',       label:'Nath',               gender:'women', metal:'gold', path:'/shop/gold/womens/nath' },
-  { slug:'gold/womens/nose-rings', label:'Nose Rings',         gender:'women', metal:'gold', path:'/shop/gold/womens/nose-rings' },
-  { slug:'gold/womens/nose-pins',  label:'Nose Pins',          gender:'women', metal:'gold', path:'/shop/gold/womens/nose-pins' },
-  { slug:'gold/womens/kundal',     label:'Kundal',             gender:'women', metal:'gold', path:'/shop/gold/womens/kundal' },
-  { slug:'gold/womens/jhumki',     label:'Jhumki',             gender:'women', metal:'gold', path:'/shop/gold/womens/jhumki' },
-  { slug:'gold/womens/tops',       label:'Tops',               gender:'women', metal:'gold', path:'/shop/gold/womens/tops' },
-  { slug:'gold/womens/temple',     label:'Temple Jewellery',   gender:'women', metal:'gold', path:'/shop/gold/womens/temple' },
+  {
+    slug: "gold/womens/rings",
+    label: "Gold Rings",
+    gender: "women",
+    metal: "gold",
+    path: "/shop/gold/womens/rings",
+  },
+  {
+    slug: "gold/womens/chains",
+    label: "Gold Neck Chains",
+    gender: "women",
+    metal: "gold",
+    path: "/shop/gold/womens/chains",
+  },
+  {
+    slug: "gold/womens/earrings",
+    label: "Gold Earrings",
+    gender: "women",
+    metal: "gold",
+    path: "/shop/gold/womens/earrings",
+  },
+  {
+    slug: "gold/womens/necklaces",
+    label: "Gold Necklaces",
+    gender: "women",
+    metal: "gold",
+    path: "/shop/gold/womens/necklaces",
+  },
+  {
+    slug: "gold/womens/chokers",
+    label: "Gold Chokers",
+    gender: "women",
+    metal: "gold",
+    path: "/shop/gold/womens/chokers",
+  },
+  {
+    slug: "gold/womens/rani-haar",
+    label: "Gold Rani Haar",
+    gender: "women",
+    metal: "gold",
+    path: "/shop/gold/womens/rani-haar",
+  },
+  {
+    slug: "gold/womens/bali",
+    label: "Gold Bali",
+    gender: "women",
+    metal: "gold",
+    path: "/shop/gold/womens/bali",
+  },
+  {
+    slug: "gold/womens/bracelets",
+    label: "Gold Bracelets",
+    gender: "women",
+    metal: "gold",
+    path: "/shop/gold/womens/bracelets",
+  },
+  {
+    slug: "gold/womens/chudi",
+    label: "Gold Chudi",
+    gender: "women",
+    metal: "gold",
+    path: "/shop/gold/womens/chudi",
+  },
+  {
+    slug: "gold/womens/kada",
+    label: "Gold Kada",
+    gender: "women",
+    metal: "gold",
+    path: "/shop/gold/womens/kada",
+  },
+  {
+    slug: "gold/womens/mangalsutra",
+    label: "Mangalsutra",
+    gender: "women",
+    metal: "gold",
+    path: "/shop/gold/womens/mangalsutra",
+  },
+  {
+    slug: "gold/womens/nath",
+    label: "Nath",
+    gender: "women",
+    metal: "gold",
+    path: "/shop/gold/womens/nath",
+  },
+  {
+    slug: "gold/womens/nose-rings",
+    label: "Nose Rings",
+    gender: "women",
+    metal: "gold",
+    path: "/shop/gold/womens/nose-rings",
+  },
+  {
+    slug: "gold/womens/nose-pins",
+    label: "Nose Pins",
+    gender: "women",
+    metal: "gold",
+    path: "/shop/gold/womens/nose-pins",
+  },
+  {
+    slug: "gold/womens/kundal",
+    label: "Kundal",
+    gender: "women",
+    metal: "gold",
+    path: "/shop/gold/womens/kundal",
+  },
+  {
+    slug: "gold/womens/jhumki",
+    label: "Jhumki",
+    gender: "women",
+    metal: "gold",
+    path: "/shop/gold/womens/jhumki",
+  },
+  {
+    slug: "gold/womens/tops",
+    label: "Tops",
+    gender: "women",
+    metal: "gold",
+    path: "/shop/gold/womens/tops",
+  },
+  {
+    slug: "gold/womens/temple",
+    label: "Temple Jewellery",
+    gender: "women",
+    metal: "gold",
+    path: "/shop/gold/womens/temple",
+  },
   // GOLD SPECIAL
-  { slug:'gold/bridal',            label:'Bridal Jewellery',   gender:'women', metal:'gold', path:'/shop/gold/bridal', special:true },
-  { slug:'gold/kids',              label:'Kids Jewellery',     gender:'kids',  metal:'gold', path:'/shop/gold/kids', special:true },
-  { slug:'gold/coins',             label:'Gold Coins',         gender:'unisex',metal:'gold', path:'/shop/gold/coins', special:true },
+  {
+    slug: "gold/bridal",
+    label: "Bridal Jewellery",
+    gender: "women",
+    metal: "gold",
+    path: "/shop/gold/bridal",
+    special: true,
+  },
+  {
+    slug: "gold/kids",
+    label: "Kids Jewellery",
+    gender: "kids",
+    metal: "gold",
+    path: "/shop/gold/kids",
+    special: true,
+  },
+  {
+    slug: "gold/coins",
+    label: "Gold Coins",
+    gender: "unisex",
+    metal: "gold",
+    path: "/shop/gold/coins",
+    special: true,
+  },
   // SILVER MEN
-  { slug:'silver/mens/rings',      label:'Silver Rings',       gender:'men',   metal:'silver', path:'/shop/silver/mens/rings' },
-  { slug:'silver/mens/chains',     label:'Silver Neck Chains', gender:'men',   metal:'silver', path:'/shop/silver/mens/chains' },
-  { slug:'silver/mens/kada',       label:'Silver Kada',        gender:'men',   metal:'silver', path:'/shop/silver/mens/kada' },
-  { slug:'silver/mens/bracelets',  label:'Silver Bracelets',   gender:'men',   metal:'silver', path:'/shop/silver/mens/bracelets' },
+  {
+    slug: "silver/mens/rings",
+    label: "Silver Rings",
+    gender: "men",
+    metal: "silver",
+    path: "/shop/silver/mens/rings",
+  },
+  {
+    slug: "silver/mens/chains",
+    label: "Silver Neck Chains",
+    gender: "men",
+    metal: "silver",
+    path: "/shop/silver/mens/chains",
+  },
+  {
+    slug: "silver/mens/kada",
+    label: "Silver Kada",
+    gender: "men",
+    metal: "silver",
+    path: "/shop/silver/mens/kada",
+  },
+  {
+    slug: "silver/mens/bracelets",
+    label: "Silver Bracelets",
+    gender: "men",
+    metal: "silver",
+    path: "/shop/silver/mens/bracelets",
+  },
   // SILVER WOMEN
-  { slug:'silver/womens/rings',    label:'Silver Rings',       gender:'women', metal:'silver', path:'/shop/silver/womens/rings' },
-  { slug:'silver/womens/chains',   label:'Silver Neck Chains', gender:'women', metal:'silver', path:'/shop/silver/womens/chains' },
-  { slug:'silver/womens/earrings', label:'Silver Earrings',    gender:'women', metal:'silver', path:'/shop/silver/womens/earrings' },
-  { slug:'silver/womens/jhumke',   label:'Silver Jhumke',      gender:'women', metal:'silver', path:'/shop/silver/womens/jhumke' },
-  { slug:'silver/womens/payal',    label:'Silver Payal',       gender:'women', metal:'silver', path:'/shop/silver/womens/payal' },
-  { slug:'silver/womens/toe-rings',label:'Silver Toe Rings',   gender:'women', metal:'silver', path:'/shop/silver/womens/toe-rings' },
-  { slug:'silver/womens/bracelets',label:'Silver Bracelets',   gender:'women', metal:'silver', path:'/shop/silver/womens/bracelets' },
-  { slug:'silver/womens/kada',     label:'Silver Kada',        gender:'women', metal:'silver', path:'/shop/silver/womens/kada' },
-  { slug:'silver/womens/pendants', label:'Silver Pendants',    gender:'women', metal:'silver', path:'/shop/silver/womens/pendants' },
+  {
+    slug: "silver/womens/rings",
+    label: "Silver Rings",
+    gender: "women",
+    metal: "silver",
+    path: "/shop/silver/womens/rings",
+  },
+  {
+    slug: "silver/womens/chains",
+    label: "Silver Neck Chains",
+    gender: "women",
+    metal: "silver",
+    path: "/shop/silver/womens/chains",
+  },
+  {
+    slug: "silver/womens/earrings",
+    label: "Silver Earrings",
+    gender: "women",
+    metal: "silver",
+    path: "/shop/silver/womens/earrings",
+  },
+  {
+    slug: "silver/womens/jhumke",
+    label: "Silver Jhumke",
+    gender: "women",
+    metal: "silver",
+    path: "/shop/silver/womens/jhumke",
+  },
+  {
+    slug: "silver/womens/payal",
+    label: "Silver Payal",
+    gender: "women",
+    metal: "silver",
+    path: "/shop/silver/womens/payal",
+  },
+  {
+    slug: "silver/womens/toe-rings",
+    label: "Silver Toe Rings",
+    gender: "women",
+    metal: "silver",
+    path: "/shop/silver/womens/toe-rings",
+  },
+  {
+    slug: "silver/womens/bracelets",
+    label: "Silver Bracelets",
+    gender: "women",
+    metal: "silver",
+    path: "/shop/silver/womens/bracelets",
+  },
+  {
+    slug: "silver/womens/kada",
+    label: "Silver Kada",
+    gender: "women",
+    metal: "silver",
+    path: "/shop/silver/womens/kada",
+  },
+  {
+    slug: "silver/womens/pendants",
+    label: "Silver Pendants",
+    gender: "women",
+    metal: "silver",
+    path: "/shop/silver/womens/pendants",
+  },
   // SILVER SPECIAL
-  { slug:'silver/kids',            label:'Silver Kids',        gender:'kids',  metal:'silver', path:'/shop/silver/kids', special:true },
-  { slug:'silver/coins',           label:'Silver Coins',       gender:'unisex',metal:'silver', path:'/shop/silver/coins', special:true },
-  { slug:'silver/gifts',           label:'Silver Gift Items',  gender:'unisex',metal:'silver', path:'/shop/silver/gifts', special:true },
-]
+  {
+    slug: "silver/kids",
+    label: "Silver Kids",
+    gender: "kids",
+    metal: "silver",
+    path: "/shop/silver/kids",
+    special: true,
+  },
+  {
+    slug: "silver/coins",
+    label: "Silver Coins",
+    gender: "unisex",
+    metal: "silver",
+    path: "/shop/silver/coins",
+    special: true,
+  },
+  {
+    slug: "silver/gifts",
+    label: "Silver Gift Items",
+    gender: "unisex",
+    metal: "silver",
+    path: "/shop/silver/gifts",
+    special: true,
+  },
+];
 
 export function getCategoryBySlug(slug) {
-  return CATEGORIES.find(c => c.slug === slug) || null
+  return CATEGORIES.find((c) => c.slug === slug) || null;
 }
 
 /* ── Collection registry ─────────────────────────── */
 export const COLLECTIONS = [
-  { slug:'mens/lightweight',    label:"Men's Lightweight",       gender:'men',   path:'/collections/mens/lightweight',    image:I.ch1 },
-  { slug:'mens/daily-wear',     label:"Men's Daily Wear",        gender:'men',   path:'/collections/mens/daily-wear',     image:I.r3  },
-  { slug:'mens/party-wear',     label:"Men's Party Wear",        gender:'men',   path:'/collections/mens/party-wear',     image:I.r2  },
-  { slug:'mens/traditional',    label:"Men's Traditional",       gender:'men',   path:'/collections/mens/traditional',    image:I.kd1 },
-  { slug:'womens/lightweight',  label:"Women's Lightweight",     gender:'women', path:'/collections/womens/lightweight',  image:I.e2  },
-  { slug:'womens/daily-wear',   label:"Women's Daily Wear",      gender:'women', path:'/collections/womens/daily-wear',   image:I.n1  },
-  { slug:'womens/party-wear',   label:"Women's Party Wear",      gender:'women', path:'/collections/womens/party-wear',   image:I.e3  },
-  { slug:'womens/traditional',  label:"Women's Traditional",     gender:'women', path:'/collections/womens/traditional',  image:I.jk1 },
-  { slug:'bridal',              label:'Bridal Collection',       gender:'women', path:'/collections/bridal',              image:I.br1 },
-  { slug:'kids',                label:'Kids Collection',         gender:'kids',  path:'/collections/kids',               image:I.b1  },
-]
+  {
+    slug: "mens/lightweight",
+    label: "Men's Lightweight",
+    gender: "men",
+    path: "/collections/mens/lightweight",
+    image: I.ch1,
+  },
+  {
+    slug: "mens/daily-wear",
+    label: "Men's Daily Wear",
+    gender: "men",
+    path: "/collections/mens/daily-wear",
+    image: I.r3,
+  },
+  {
+    slug: "mens/party-wear",
+    label: "Men's Party Wear",
+    gender: "men",
+    path: "/collections/mens/party-wear",
+    image: I.r2,
+  },
+  {
+    slug: "mens/traditional",
+    label: "Men's Traditional",
+    gender: "men",
+    path: "/collections/mens/traditional",
+    image: I.kd1,
+  },
+  {
+    slug: "womens/lightweight",
+    label: "Women's Lightweight",
+    gender: "women",
+    path: "/collections/womens/lightweight",
+    image: I.e2,
+  },
+  {
+    slug: "womens/daily-wear",
+    label: "Women's Daily Wear",
+    gender: "women",
+    path: "/collections/womens/daily-wear",
+    image: I.n1,
+  },
+  {
+    slug: "womens/party-wear",
+    label: "Women's Party Wear",
+    gender: "women",
+    path: "/collections/womens/party-wear",
+    image: I.e3,
+  },
+  {
+    slug: "womens/traditional",
+    label: "Women's Traditional",
+    gender: "women",
+    path: "/collections/womens/traditional",
+    image: I.jk1,
+  },
+  {
+    slug: "bridal",
+    label: "Bridal Collection",
+    gender: "women",
+    path: "/collections/bridal",
+    image: I.br1,
+  },
+  {
+    slug: "kids",
+    label: "Kids Collection",
+    gender: "kids",
+    path: "/collections/kids",
+    image: I.b1,
+  },
+];
 
 export function getCollectionBySlug(slug) {
-  return COLLECTIONS.find(c => c.slug === slug) || null
+  return COLLECTIONS.find((c) => c.slug === slug) || null;
 }
 
 /* ── Product factory: generates products for any category slug ─ */
 const PRODUCT_TEMPLATES = {
-  'gold/mens/rings': [
-    { name:'Classic Gold Band',      desc:'A sturdy 22K gold band with a brushed finish — the mark of measured confidence.',          imgs:[I.mring1,I.mring2,I.mring3], features:['22K Gold','Brushed Finish','BIS Certified','Custom Sizing'] },
-    { name:'Signet Ring',            desc:'Bold oval signet in 22K gold, hand-engraved with a traditional motif.',                    imgs:[I.msingnet,I.msingnet2,I.msingnet3], features:['22K Gold','Hand-engraved','Heavyweight Design','Hallmarked'] },
-    { name:'Om Band Ring',           desc:'Sacred Om symbol intricately carved on a solid 22K gold band.',                            imgs:[I.mom,I.mom2,I.mom3], features:['22K Gold','Om Motif','Anti-tarnish Finish','BIS Certified'] },
-    { name:'Diamond-set Band',       desc:'A clean 18K gold band channel-set with three brilliant-cut diamonds.',                    imgs:[I.mdiamond,I.mdiamond2,I.r4], features:['18K Gold','Diamond Channel Set','Polished Finish','GIA Certified'] },
-    { name:'Pearl Drop Earrings',    desc:'Elegant pearl drops in 22K gold, perfect for a touch of timeless sophistication.',        imgs:[I.mear1,I.mear2,I.mear3], features:['22K Gold','Pearl Drops','Hypoallergenic','BIS Certified'] },
-    { name:'Twisted Rope Ring',        desc:'Two strands of 22K gold twisted into a single band — a modern take on a classic design.',   imgs:[I.mring4,I.mring5,I.mring6], features:['22K Gold','Twisted Design','High-polish Finish','Custom Sizing'] },
-    { name:'Celtic Knot Ring',          desc:'Intricate Celtic knotwork carved into a 22K gold band — a symbol of eternity.',             imgs:[I.mring7,I.mring8,I.mring9], features:['22K Gold','Celtic Knot Design','Polished Finish','BIS Certified'] },
-    { name:'Hammered Gold Ring',         desc:'A textured 22K gold band with a hammered finish — rugged yet refined.',                     imgs:[I.mring10,I.mring11,I.mring12], features:['22K Gold','Hammered Texture','Polished Edges','Hallmarked'] },
-    { name:'Black Rhodium Ring',          desc:'A 22K gold band plated with black rhodium for a bold, contemporary look.',                  imgs:[I.mring13,I.mring14,I.mring15], features:['22K Gold','Black Rhodium Plating','Polished Finish','BIS Certified'] },
-    { name:'Two-tone Gold Ring',            desc:'A 22K gold band with a contrasting 18K gold inlay — a striking two-tone effect.',            imgs:[I.mring16,I.mring17,I.mring18], features:['22K Gold','18K Gold Inlay','Polished Finish','Custom Sizing'] },
-    { name:'Geometric Pattern Ring',        desc:'A 22K gold band engraved with geometric patterns for a modern aesthetic.',                  imgs:[I.mring19,I.mring20,I.mring21], features:['22K Gold','Geometric Engraving','Polished Finish','BIS Certified'] },
-    { name:'Floral Motif Ring',                desc:'A delicate 22K gold band adorned with engraved floral motifs — feminine and elegant.',        imgs:[I.mring22,I.mring23,I.mring24], features:['22K Gold','Floral Engraving','Polished Finish','Hallmarked'] },
-    { name:'Sapphire-set Ring',                 desc:'A 22K gold band set with a deep blue sapphire — a regal statement piece.',                    imgs:[I.mring25,I.mring26,I.mring27], features:['22K Gold','Sapphire Gemstone','Polished Finish','GIA Certified'] },
-    { name:'Emerald-set Ring',                  desc:'A 22K gold band set with a vibrant green emerald — a touch of luxury and color.',              imgs:[I.mring28,I.mring29,I.mring30], features:['22K Gold','Emerald Gemstone','Polished Finish','GIA Certified'] },
-    { name:'Ruby-set Ring',                    desc:'A 22K gold band set with a rich red ruby — a classic choice for elegance.',                     imgs:[I.mring31,I.mring32,I.mring33], features:['22K Gold','Ruby Gemstone','Polished Finish','GIA Certified'] },
-    { name:'Custom Engraved Ring',               desc:'A 22K gold band that can be personalized with your own engraving — a truly unique piece.',      imgs:[I.mring34,I.mring35,I.mring36], features:['22K Gold','Custom Engraving','Polished Finish','BIS Certified'] },
+  "gold/mens/rings": [
+    {
+      name: "Classic Gold Band",
+      desc: "A sturdy 22K gold band with a brushed finish — the mark of measured confidence.",
+      imgs: [I.mring1, I.mring2, I.mring3],
+      features: [
+        "22K Gold",
+        "Brushed Finish",
+        "BIS Certified",
+        "Custom Sizing",
+      ],
+    },
+    {
+      name: "Signet Ring",
+      desc: "Bold oval signet in 22K gold, hand-engraved with a traditional motif.",
+      imgs: [I.msingnet, I.msingnet2, I.msingnet3],
+      features: [
+        "22K Gold",
+        "Hand-engraved",
+        "Heavyweight Design",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Om Band Ring",
+      desc: "Sacred Om symbol intricately carved on a solid 22K gold band.",
+      imgs: [I.mom, I.mom2, I.mom3],
+      features: [
+        "22K Gold",
+        "Om Motif",
+        "Anti-tarnish Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Diamond-set Band",
+      desc: "A clean 18K gold band channel-set with three brilliant-cut diamonds.",
+      imgs: [I.mdiamond, I.mdiamond2, I.r4],
+      features: [
+        "18K Gold",
+        "Diamond Channel Set",
+        "Polished Finish",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Pearl Drop Earrings",
+      desc: "Elegant pearl drops in 22K gold, perfect for a touch of timeless sophistication.",
+      imgs: [I.mear1, I.mear2, I.mear3],
+      features: ["22K Gold", "Pearl Drops", "Hypoallergenic", "BIS Certified"],
+    },
+    {
+      name: "Twisted Rope Ring",
+      desc: "Two strands of 22K gold twisted into a single band — a modern take on a classic design.",
+      imgs: [I.mring4, I.mring5, I.mring6],
+      features: [
+        "22K Gold",
+        "Twisted Design",
+        "High-polish Finish",
+        "Custom Sizing",
+      ],
+    },
+    {
+      name: "Celtic Knot Ring",
+      desc: "Intricate Celtic knotwork carved into a 22K gold band — a symbol of eternity.",
+      imgs: [I.mring7, I.mring8, I.mring9],
+      features: [
+        "22K Gold",
+        "Celtic Knot Design",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Hammered Gold Ring",
+      desc: "A textured 22K gold band with a hammered finish — rugged yet refined.",
+      imgs: [I.mring10, I.mring11, I.mring12],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Polished Edges",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Black Rhodium Ring",
+      desc: "A 22K gold band plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.mring13, I.mring14, I.mring15],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Two-tone Gold Ring",
+      desc: "A 22K gold band with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.mring16, I.mring17, I.mring18],
+      features: [
+        "22K Gold",
+        "18K Gold Inlay",
+        "Polished Finish",
+        "Custom Sizing",
+      ],
+    },
+    {
+      name: "Geometric Pattern Ring",
+      desc: "A 22K gold band engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.mring19, I.mring20, I.mring21],
+      features: [
+        "22K Gold",
+        "Geometric Engraving",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Floral Motif Ring",
+      desc: "A delicate 22K gold band adorned with engraved floral motifs — feminine and elegant.",
+      imgs: [I.mring22, I.mring23, I.mring24],
+      features: [
+        "22K Gold",
+        "Floral Engraving",
+        "Polished Finish",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Sapphire-set Ring",
+      desc: "A 22K gold band set with a deep blue sapphire — a regal statement piece.",
+      imgs: [I.mring25, I.mring26, I.mring27],
+      features: [
+        "22K Gold",
+        "Sapphire Gemstone",
+        "Polished Finish",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Emerald-set Ring",
+      desc: "A 22K gold band set with a vibrant green emerald — a touch of luxury and color.",
+      imgs: [I.mring28, I.mring29, I.mring30],
+      features: [
+        "22K Gold",
+        "Emerald Gemstone",
+        "Polished Finish",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Ruby-set Ring",
+      desc: "A 22K gold band set with a rich red ruby — a classic choice for elegance.",
+      imgs: [I.mring31, I.mring32, I.mring33],
+      features: [
+        "22K Gold",
+        "Ruby Gemstone",
+        "Polished Finish",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Custom Engraved Ring",
+      desc: "A 22K gold band that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.mring34, I.mring35, I.mring36],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
   ],
-  'gold/womens/rings': [
-    { name:'Solitaire Diamond Ring', desc:'A timeless solitaire set in 22K gold — the ultimate declaration of love.',                 imgs:[I.wring,I.wring2,I.wring3], features:['22K Gold','Brilliant-cut Diamond','Cathedral Setting','BIS Certified'] },
-    { name:'Rose Gold Halo Ring',    desc:'A halo of micro-pavé stones encircles a central gem in 18K rose gold.',                   imgs:[I.wring4,I.wring5,I.wring6], features:['18K Rose Gold','Pavé Diamond Halo','GIA Certified Stone','Custom Sizing'] },
-    { name:'Vintage Filigree Ring',    desc:'Intricate filigree work in 22K gold — a nod to antique elegance.',                          imgs:[I.wring7,I.wring8,I.wring9], features:['22K Gold','Filigree Detailing','Antique Finish','Hallmarked'] },
-    { name:'Pearl and Diamond Ring',   desc:'A lustrous pearl flanked by sparkling diamonds in 18K gold.',                               imgs:[I.wring10,I.wring11,I.wring12], features:['18K Gold','Pearl Centerpiece','Diamond Accents','GIA Certified'] },
-    { name:'Floral Motif Ring',         desc:'A delicate floral design in 22K gold, perfect for everyday elegance.',                     imgs:[I.wring13,I.wring14,I.wring15], features:['22K Gold','Floral Engraving','Polished Finish','BIS Certified'] },
-    { name:'Two-tone Gold Ring',        desc:'A 22K gold band with a contrasting 18K gold inlay — a striking two-tone effect.',            imgs:[I.wring16,I.wring17,I.wring18], features:['22K Gold','18K Gold Inlay','Polished Finish','Custom Sizing'] },
-    { name:'Geometric Pattern Ring',      desc:'A 22K gold band engraved with geometric patterns for a modern aesthetic.',                  imgs:[I.wring19,I.wring20,I.wring21], features:['22K Gold','Geometric Engraving','Polished Finish','BIS Certified'] },
-    { name:'Floral Motif Ring',            desc:'A delicate 22K gold band adorned with engraved floral motifs — feminine and elegant.',        imgs:[I.wring22,I.wring23,I.wring24], features:['22K Gold','Floral Engraving','Polished Finish','Hallmarked'] },
-    { name:'Sapphire-set Ring',             desc:'A 22K gold band set with a deep blue sapphire — a regal statement piece.',                    imgs:[I.wring25,I.wring26,I.wring27], features:['22K Gold','Sapphire Gemstone','Polished Finish','GIA Certified'] },
-    { name:'Emerald-set Ring',              desc:'A 22K gold band set with a vibrant green emerald — a touch of luxury and color.',              imgs:[I.wring28,I.wring29,I.wring30], features:['22K Gold','Emerald Gemstone','Polished Finish','GIA Certified'] },
-    { name:'Ruby-set Ring',                desc:'A 22K gold band set with a rich red ruby — a classic choice for elegance.',                     imgs:[I.wring31,I.wring32,I.wring33], features:['22K Gold','Ruby Gemstone','Polished Finish','GIA Certified'] },
-    { name:'Custom Engraved Ring',           desc:'A 22K gold band that can be personalized with your own engraving — a truly unique piece.',      imgs:[I.wring34,I.wring35,I.wring36], features:['22K Gold','Custom Engraving','Polished Finish','BIS Certified'] },
-    { name:'Diamond Eternity Band',         desc:'A continuous circle of diamonds set in 18K gold — a symbol of eternal love.',                 imgs:[I.wring37,I.wring38,I.wring39], features:['18K Gold','Eternity Band','Brilliant-cut Diamonds','GIA Certified'] },
-    { name:'Twisted Rope Ring',               desc:'Two strands of 22K gold twisted into a single band — a modern take on a classic design.',       imgs:[I.wring40,I.wring41,I.wring42], features:['22K Gold','Twisted Design','High-polish Finish','Custom Sizing'] },
-    { name:'Celtic Knot Ring',                 desc:'Intricate Celtic knotwork carved into a 22K gold band — a symbol of eternity.',             imgs:[I.wring43,I.wring44,I.wring45], features:['22K Gold','Celtic Knot Design','Polished Finish','BIS Certified'] },
-    { name:'Hammered Gold Ring',                 desc:'A textured 22K gold band with a hammered finish — rugged yet refined.',                     imgs:[I.wring46,I.wring47,I.wring48], features:['22K Gold','Hammered Texture','Polished Edges','Hallmarked'] },
+  "gold/womens/rings": [
+    {
+      name: "Solitaire Diamond Ring",
+      desc: "A timeless solitaire set in 22K gold — the ultimate declaration of love.",
+      imgs: [I.wring, I.wring2, I.wring3],
+      features: [
+        "22K Gold",
+        "Brilliant-cut Diamond",
+        "Cathedral Setting",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Rose Gold Halo Ring",
+      desc: "A halo of micro-pavé stones encircles a central gem in 18K rose gold.",
+      imgs: [I.wring4, I.wring5, I.wring6],
+      features: [
+        "18K Rose Gold",
+        "Pavé Diamond Halo",
+        "GIA Certified Stone",
+        "Custom Sizing",
+      ],
+    },
+    {
+      name: "Vintage Filigree Ring",
+      desc: "Intricate filigree work in 22K gold — a nod to antique elegance.",
+      imgs: [I.wring7, I.wring8, I.wring9],
+      features: [
+        "22K Gold",
+        "Filigree Detailing",
+        "Antique Finish",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Pearl and Diamond Ring",
+      desc: "A lustrous pearl flanked by sparkling diamonds in 18K gold.",
+      imgs: [I.wring10, I.wring11, I.wring12],
+      features: [
+        "18K Gold",
+        "Pearl Centerpiece",
+        "Diamond Accents",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Floral Motif Ring",
+      desc: "A delicate floral design in 22K gold, perfect for everyday elegance.",
+      imgs: [I.wring13, I.wring14, I.wring15],
+      features: [
+        "22K Gold",
+        "Floral Engraving",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Two-tone Gold Ring",
+      desc: "A 22K gold band with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.wring16, I.wring17, I.wring18],
+      features: [
+        "22K Gold",
+        "18K Gold Inlay",
+        "Polished Finish",
+        "Custom Sizing",
+      ],
+    },
+    {
+      name: "Geometric Pattern Ring",
+      desc: "A 22K gold band engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.wring19, I.wring20, I.wring21],
+      features: [
+        "22K Gold",
+        "Geometric Engraving",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Floral Motif Ring",
+      desc: "A delicate 22K gold band adorned with engraved floral motifs — feminine and elegant.",
+      imgs: [I.wring22, I.wring23, I.wring24],
+      features: [
+        "22K Gold",
+        "Floral Engraving",
+        "Polished Finish",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Sapphire-set Ring",
+      desc: "A 22K gold band set with a deep blue sapphire — a regal statement piece.",
+      imgs: [I.wring25, I.wring26, I.wring27],
+      features: [
+        "22K Gold",
+        "Sapphire Gemstone",
+        "Polished Finish",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Emerald-set Ring",
+      desc: "A 22K gold band set with a vibrant green emerald — a touch of luxury and color.",
+      imgs: [I.wring28, I.wring29, I.wring30],
+      features: [
+        "22K Gold",
+        "Emerald Gemstone",
+        "Polished Finish",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Ruby-set Ring",
+      desc: "A 22K gold band set with a rich red ruby — a classic choice for elegance.",
+      imgs: [I.wring31, I.wring32, I.wring33],
+      features: [
+        "22K Gold",
+        "Ruby Gemstone",
+        "Polished Finish",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Custom Engraved Ring",
+      desc: "A 22K gold band that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.wring34, I.wring35, I.wring36],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Diamond Eternity Band",
+      desc: "A continuous circle of diamonds set in 18K gold — a symbol of eternal love.",
+      imgs: [I.wring37, I.wring38, I.wring39],
+      features: [
+        "18K Gold",
+        "Eternity Band",
+        "Brilliant-cut Diamonds",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Twisted Rope Ring",
+      desc: "Two strands of 22K gold twisted into a single band — a modern take on a classic design.",
+      imgs: [I.wring40, I.wring41, I.wring42],
+      features: [
+        "22K Gold",
+        "Twisted Design",
+        "High-polish Finish",
+        "Custom Sizing",
+      ],
+    },
+    {
+      name: "Celtic Knot Ring",
+      desc: "Intricate Celtic knotwork carved into a 22K gold band — a symbol of eternity.",
+      imgs: [I.wring43, I.wring44, I.wring45],
+      features: [
+        "22K Gold",
+        "Celtic Knot Design",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Hammered Gold Ring",
+      desc: "A textured 22K gold band with a hammered finish — rugged yet refined.",
+      imgs: [I.wring46, I.wring47, I.wring48],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Polished Edges",
+        "Hallmarked",
+      ],
+    },
   ],
-  'gold/mens/chains': [
-    { name:'Curb Chain — Heavy',     desc:'Hand-assembled curb chain in 22K gold, available in 18", 20" and 22".',                   imgs:[I.mchain5,I.mchain,I.mchain4], features:['22K Gold','Mirror Polish','3 Length Options','BIS Certified'] },
-    { name:'Figaro Chain',           desc:'Classic Figaro pattern in 22K gold — alternating oval and round links.',                  imgs:[I.mchain3,I.mchain2,I.mchain6], features:['22K Gold','Figaro Pattern','Secure Lobster Clasp','Hallmarked'] },
-    { name:'Rope Chain',              desc:'Twisted rope design in 22K gold — a timeless choice for everyday wear.',                   imgs:[I.mchain4,I.mchain5,I.mchain6], features:['22K Gold','Rope Design','Durable Construction','BIS Certified'] },
-    { name:'Box Chain',               desc:'A sleek box-link chain in 22K gold — understated elegance for any occasion.',              imgs:[I.mchain2,I.mchain3,I.mchain4], features:['22K Gold','Box Link','Lightweight','Hallmarked'] },
-    { name:'Snake Chain',             desc:'Smooth, flexible snake chain in 22K gold — a modern classic.',                             imgs:[I.mchain,I.mchain2,I.mchain3], features:['22K Gold','Snake Design','Flexible Wear','BIS Certified'] },
-    { name:'Anchor Chain',            desc:'Sturdy anchor-link chain in 22K gold — a bold statement piece.',                           imgs:[I.mchain5,I.mchain6,I.mchain], features:['22K Gold','Anchor Link','Durable Construction','Hallmarked'] },
-    { name:'Herringbone Chain',         desc:'Flat, flexible herringbone weave in 22K gold that lies smooth against the skin.',         imgs:[I.mchain4,I.mchain5,I.mchain6], features:['22K Gold','Herringbone Pattern','Flat Profile','BIS Certified'] },
-    { name:'Cuban Link Chain',           desc:'Thick, interlocking Cuban links in 22K gold — a bold and masculine design.',                imgs:[I.mchain2,I.mchain3,I.mchain4], features:['22K Gold','Cuban Link','Heavyweight Design','Hallmarked'] },
-    { name:'Ball Chain',                    desc:'Tiny spheres of 22K gold strung into a delicate everyday chain.',                        imgs:[I.mchain5,I.mchain6,I.mchain], features:['22K Gold','Ball Link','16" Length','Lightweight'] },
-    { name:'Twisted Rope Chain',               desc:'A rope-like twist in 22K gold — a classic design that catches the light beautifully.',      imgs:[I.mchain3,I.mchain4,I.mchain5], features:['22K Gold','Twisted Rope Design','Durable Construction','BIS Certified'] },
-    { name:'Figaro Chain — Heavy',               desc:'A heavier version of the classic Figaro pattern in 22K gold — bold and eye-catching.',      imgs:[I.mchain2,I.mchain3,I.mchain4], features:['22K Gold','Heavyweight Figaro','Secure Lobster Clasp','Hallmarked'] },
-    { name:'Curb Chain — Lightweight',               desc:'A lighter version of the classic curb chain in 22K gold — perfect for layering.',           imgs:[I.mchain5,I.mchain6,I.mchain], features:['22K Gold','Lightweight Curb','3 Length Options','BIS Certified'] },
-    { name:'Box Chain — Heavy',               desc:'A heavier version of the sleek box-link chain in 22K gold — substantial and durable.',        imgs:[I.mchain2,I.mchain3,I.mchain4], features:['22K Gold','Heavyweight Box Link','Lightweight','Hallmarked'] },
-    { name:'Snake Chain — Heavy',               desc:'A thicker version of the smooth snake chain in 22K gold — bold and modern.',                 imgs:[I.mchain5,I.mchain6,I.mchain], features:['22K Gold','Heavyweight Snake','Flexible Wear','BIS Certified'] },
-    { name:'Anchor Chain — Heavy',               desc:'A heavier version of the sturdy anchor-link chain in 22K gold — a statement piece.',         imgs:[I.mchain2,I.mchain3,I.mchain4], features:['22K Gold','Heavyweight Anchor','Durable Construction','Hallmarked'] },
-    { name:'Herringbone Chain — Heavy',               desc:'A thicker version of the flat herringbone weave in 22K gold — smooth and substantial.',      imgs:[I.mchain5,I.mchain6,I.mchain], features:['22K Gold','Heavyweight Herringbone','Flat Profile','BIS Certified'] },
+  "gold/mens/chains": [
+    {
+      name: "Curb Chain — Heavy",
+      desc: 'Hand-assembled curb chain in 22K gold, available in 18", 20" and 22".',
+      imgs: [I.mchain5, I.mchain, I.mchain4],
+      features: [
+        "22K Gold",
+        "Mirror Polish",
+        "3 Length Options",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Figaro Chain",
+      desc: "Classic Figaro pattern in 22K gold — alternating oval and round links.",
+      imgs: [I.mchain3, I.mchain2, I.mchain6],
+      features: [
+        "22K Gold",
+        "Figaro Pattern",
+        "Secure Lobster Clasp",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Rope Chain",
+      desc: "Twisted rope design in 22K gold — a timeless choice for everyday wear.",
+      imgs: [I.mchain4, I.mchain5, I.mchain6],
+      features: [
+        "22K Gold",
+        "Rope Design",
+        "Durable Construction",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Box Chain",
+      desc: "A sleek box-link chain in 22K gold — understated elegance for any occasion.",
+      imgs: [I.mchain2, I.mchain3, I.mchain4],
+      features: ["22K Gold", "Box Link", "Lightweight", "Hallmarked"],
+    },
+    {
+      name: "Snake Chain",
+      desc: "Smooth, flexible snake chain in 22K gold — a modern classic.",
+      imgs: [I.mchain, I.mchain2, I.mchain3],
+      features: ["22K Gold", "Snake Design", "Flexible Wear", "BIS Certified"],
+    },
+    {
+      name: "Anchor Chain",
+      desc: "Sturdy anchor-link chain in 22K gold — a bold statement piece.",
+      imgs: [I.mchain5, I.mchain6, I.mchain],
+      features: [
+        "22K Gold",
+        "Anchor Link",
+        "Durable Construction",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Herringbone Chain",
+      desc: "Flat, flexible herringbone weave in 22K gold that lies smooth against the skin.",
+      imgs: [I.mchain4, I.mchain5, I.mchain6],
+      features: [
+        "22K Gold",
+        "Herringbone Pattern",
+        "Flat Profile",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Cuban Link Chain",
+      desc: "Thick, interlocking Cuban links in 22K gold — a bold and masculine design.",
+      imgs: [I.mchain2, I.mchain3, I.mchain4],
+      features: ["22K Gold", "Cuban Link", "Heavyweight Design", "Hallmarked"],
+    },
+    {
+      name: "Ball Chain",
+      desc: "Tiny spheres of 22K gold strung into a delicate everyday chain.",
+      imgs: [I.mchain5, I.mchain6, I.mchain],
+      features: ["22K Gold", "Ball Link", '16" Length', "Lightweight"],
+    },
+    {
+      name: "Twisted Rope Chain",
+      desc: "A rope-like twist in 22K gold — a classic design that catches the light beautifully.",
+      imgs: [I.mchain3, I.mchain4, I.mchain5],
+      features: [
+        "22K Gold",
+        "Twisted Rope Design",
+        "Durable Construction",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Figaro Chain — Heavy",
+      desc: "A heavier version of the classic Figaro pattern in 22K gold — bold and eye-catching.",
+      imgs: [I.mchain2, I.mchain3, I.mchain4],
+      features: [
+        "22K Gold",
+        "Heavyweight Figaro",
+        "Secure Lobster Clasp",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Curb Chain — Lightweight",
+      desc: "A lighter version of the classic curb chain in 22K gold — perfect for layering.",
+      imgs: [I.mchain5, I.mchain6, I.mchain],
+      features: [
+        "22K Gold",
+        "Lightweight Curb",
+        "3 Length Options",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Box Chain — Heavy",
+      desc: "A heavier version of the sleek box-link chain in 22K gold — substantial and durable.",
+      imgs: [I.mchain2, I.mchain3, I.mchain4],
+      features: [
+        "22K Gold",
+        "Heavyweight Box Link",
+        "Lightweight",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Snake Chain — Heavy",
+      desc: "A thicker version of the smooth snake chain in 22K gold — bold and modern.",
+      imgs: [I.mchain5, I.mchain6, I.mchain],
+      features: [
+        "22K Gold",
+        "Heavyweight Snake",
+        "Flexible Wear",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Anchor Chain — Heavy",
+      desc: "A heavier version of the sturdy anchor-link chain in 22K gold — a statement piece.",
+      imgs: [I.mchain2, I.mchain3, I.mchain4],
+      features: [
+        "22K Gold",
+        "Heavyweight Anchor",
+        "Durable Construction",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Herringbone Chain — Heavy",
+      desc: "A thicker version of the flat herringbone weave in 22K gold — smooth and substantial.",
+      imgs: [I.mchain5, I.mchain6, I.mchain],
+      features: [
+        "22K Gold",
+        "Heavyweight Herringbone",
+        "Flat Profile",
+        "BIS Certified",
+      ],
+    },
   ],
-  'gold/womens/chains': [
-    { name:'Delicate Box Chain',     desc:'A gossamer-thin box chain in 18K gold — perfect for layering lockets.',                   imgs:[I.wchain,I.wchain3,I.wchain2], features:['18K Gold','Box Link','Lightweight','Hallmarked'] },
-    { name:'Herringbone Chain',      desc:'Flat, flexible herringbone weave in 22K gold that lies smooth against the skin.',         imgs:[I.wchain4,I.wchain5,I.wchain6], features:['22K Gold','Herringbone Pattern','Flat Profile','BIS Certified'] },
-    { name:'Gold Ball Chain',        desc:'Tiny spheres of 22K gold strung into a delicate everyday chain.',                        imgs:[I.n1,I.n2,I.ch1], features:['22K Gold','Ball Link','16" Length','Lightweight'] },
-    { name:'Twisted Rope Chain',       desc:'A rope-like twist in 22K gold — a classic design that catches the light beautifully.',      imgs:[I.wchain2,I.wchain3,I.wchain4], features:['22K Gold','Twisted Rope Design','Durable Construction','BIS Certified'] },
-    { name:'Figaro Chain',             desc:'Classic Figaro pattern in 22K gold — alternating oval and round links.',                  imgs:[I.wchain5,I.wchain6,I.wchain], features:['22K Gold','Figaro Pattern','Secure Lobster Clasp','Hallmarked'] },
-    { name:'Curb Chain — Lightweight',       desc:'A lighter version of the classic curb chain in 22K gold — perfect for layering.',           imgs:[I.wchain,I.wchain2,I.wchain3], features:['22K Gold','Lightweight Curb','3 Length Options','BIS Certified'] },
-    { name:'Curb Chain — Heavy',       desc:'Hand-assembled curb chain in 22K gold, available in 18", 20" and 22".',                   imgs:[I.wchain4,I.wchain5,I.wchain6], features:['22K Gold','Mirror Polish','3 Length Options','BIS Certified'] },
-    { name:'Snake Chain',                 desc:'Smooth, flexible snake chain in 22K gold — a modern classic.',                             imgs:[I.wchain2,I.wchain3,I.wchain4], features:['22K Gold','Snake Design','Flexible Wear','BIS Certified'] },
-    { name:'Anchor Chain',                desc:'Sturdy anchor-link chain in 22K gold — a bold statement piece.',                           imgs:[I.wchain5,I.wchain6,I.wchain], features:['22K Gold','Anchor Link','Durable Construction','Hallmarked'] },
-    { name:'Cuban Link Chain',             desc:'Thick, interlocking Cuban links in 22K gold — a bold and masculine design.',                imgs:[I.wchain2,I.wchain3,I.wchain4], features:['22K Gold','Cuban Link','Heavyweight Design','Hallmarked'] },
-    { name:'Box Chain — Heavy',               desc:'A heavier version of the sleek box-link chain in 22K gold — substantial and durable.',        imgs:[I.wchain5,I.wchain6,I.wchain], features:['22K Gold','Heavyweight Box Link','Lightweight','Hallmarked'] },
-    { name:'Snake Chain — Heavy',               desc:'A thicker version of the smooth snake chain in 22K gold — bold and modern.',                 imgs:[I.wchain2,I.wchain3,I.wchain4], features:['22K Gold','Heavyweight Snake','Flexible Wear','BIS Certified'] },
-    { name:'Anchor Chain — Heavy',               desc:'A heavier version of the sturdy anchor-link chain in 22K gold — a statement piece.',         imgs:[I.wchain5,I.wchain6,I.wchain], features:['22K Gold','Heavyweight Anchor','Durable Construction','Hallmarked'] },
-    { name:'Herringbone Chain — Heavy',               desc:'A thicker version of the flat herringbone weave in 22K gold — smooth and substantial.',      imgs:[I.wchain2,I.wchain3,I.wchain4], features:['22K Gold','Heavyweight Herringbone','Flat Profile','BIS Certified'] },
-    { name:'Figaro Chain — Heavy',               desc:'A heavier version of the classic Figaro pattern in 22K gold — bold and eye-catching.',      imgs:[I.wchain5,I.wchain6,I.wchain], features:['22K Gold','Heavyweight Figaro','Secure Lobster Clasp','Hallmarked'] },
-    { name:'Twisted Rope Chain — Heavy',               desc:'A thicker version of the rope-like twist in 22K gold — catches the light beautifully.',      imgs:[I.wchain2,I.wchain3,I.wchain4], features:['22K Gold','Heavyweight Twisted Rope','Durable Construction','BIS Certified'] },
+  "gold/womens/chains": [
+    {
+      name: "Delicate Box Chain",
+      desc: "A gossamer-thin box chain in 18K gold — perfect for layering lockets.",
+      imgs: [I.wchain, I.wchain3, I.wchain2],
+      features: ["18K Gold", "Box Link", "Lightweight", "Hallmarked"],
+    },
+    {
+      name: "Herringbone Chain",
+      desc: "Flat, flexible herringbone weave in 22K gold that lies smooth against the skin.",
+      imgs: [I.wchain4, I.wchain5, I.wchain6],
+      features: [
+        "22K Gold",
+        "Herringbone Pattern",
+        "Flat Profile",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Gold Ball Chain",
+      desc: "Tiny spheres of 22K gold strung into a delicate everyday chain.",
+      imgs: [I.n1, I.n2, I.ch1],
+      features: ["22K Gold", "Ball Link", '16" Length', "Lightweight"],
+    },
+    {
+      name: "Twisted Rope Chain",
+      desc: "A rope-like twist in 22K gold — a classic design that catches the light beautifully.",
+      imgs: [I.wchain2, I.wchain3, I.wchain4],
+      features: [
+        "22K Gold",
+        "Twisted Rope Design",
+        "Durable Construction",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Figaro Chain",
+      desc: "Classic Figaro pattern in 22K gold — alternating oval and round links.",
+      imgs: [I.wchain5, I.wchain6, I.wchain],
+      features: [
+        "22K Gold",
+        "Figaro Pattern",
+        "Secure Lobster Clasp",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Curb Chain — Lightweight",
+      desc: "A lighter version of the classic curb chain in 22K gold — perfect for layering.",
+      imgs: [I.wchain, I.wchain2, I.wchain3],
+      features: [
+        "22K Gold",
+        "Lightweight Curb",
+        "3 Length Options",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Curb Chain — Heavy",
+      desc: 'Hand-assembled curb chain in 22K gold, available in 18", 20" and 22".',
+      imgs: [I.wchain4, I.wchain5, I.wchain6],
+      features: [
+        "22K Gold",
+        "Mirror Polish",
+        "3 Length Options",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Snake Chain",
+      desc: "Smooth, flexible snake chain in 22K gold — a modern classic.",
+      imgs: [I.wchain2, I.wchain3, I.wchain4],
+      features: ["22K Gold", "Snake Design", "Flexible Wear", "BIS Certified"],
+    },
+    {
+      name: "Anchor Chain",
+      desc: "Sturdy anchor-link chain in 22K gold — a bold statement piece.",
+      imgs: [I.wchain5, I.wchain6, I.wchain],
+      features: [
+        "22K Gold",
+        "Anchor Link",
+        "Durable Construction",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Cuban Link Chain",
+      desc: "Thick, interlocking Cuban links in 22K gold — a bold and masculine design.",
+      imgs: [I.wchain2, I.wchain3, I.wchain4],
+      features: ["22K Gold", "Cuban Link", "Heavyweight Design", "Hallmarked"],
+    },
+    {
+      name: "Box Chain — Heavy",
+      desc: "A heavier version of the sleek box-link chain in 22K gold — substantial and durable.",
+      imgs: [I.wchain5, I.wchain6, I.wchain],
+      features: [
+        "22K Gold",
+        "Heavyweight Box Link",
+        "Lightweight",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Snake Chain — Heavy",
+      desc: "A thicker version of the smooth snake chain in 22K gold — bold and modern.",
+      imgs: [I.wchain2, I.wchain3, I.wchain4],
+      features: [
+        "22K Gold",
+        "Heavyweight Snake",
+        "Flexible Wear",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Anchor Chain — Heavy",
+      desc: "A heavier version of the sturdy anchor-link chain in 22K gold — a statement piece.",
+      imgs: [I.wchain5, I.wchain6, I.wchain],
+      features: [
+        "22K Gold",
+        "Heavyweight Anchor",
+        "Durable Construction",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Herringbone Chain — Heavy",
+      desc: "A thicker version of the flat herringbone weave in 22K gold — smooth and substantial.",
+      imgs: [I.wchain2, I.wchain3, I.wchain4],
+      features: [
+        "22K Gold",
+        "Heavyweight Herringbone",
+        "Flat Profile",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Figaro Chain — Heavy",
+      desc: "A heavier version of the classic Figaro pattern in 22K gold — bold and eye-catching.",
+      imgs: [I.wchain5, I.wchain6, I.wchain],
+      features: [
+        "22K Gold",
+        "Heavyweight Figaro",
+        "Secure Lobster Clasp",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Twisted Rope Chain — Heavy",
+      desc: "A thicker version of the rope-like twist in 22K gold — catches the light beautifully.",
+      imgs: [I.wchain2, I.wchain3, I.wchain4],
+      features: [
+        "22K Gold",
+        "Heavyweight Twisted Rope",
+        "Durable Construction",
+        "BIS Certified",
+      ],
+    },
   ],
-  'gold/mens/earrings': [
-    { name:'Classic Gold Stud',      desc:'A simple 22K gold dome stud — the essential men\'s earring.',                             imgs:[I.mearring2,I.mearring,I.mearring3], features:['22K Gold','Butterfly Back','6mm Diameter','Hallmarked'] },
-    { name:'Om Stud',                desc:'Sacred Om engraved on a flat gold disc — devotion you can wear daily.',                   imgs:[I.mearring4,I.mearring5,I.mearring6], features:['22K Gold','Om Engraving','Push-back Setting','BIS Certified'] },
-    { name:'Diamond Stud',            desc:'A single brilliant-cut diamond set in 18K gold — understated luxury.',                     imgs:[I.mearring7,I.mearring8,I.mearring9], features:['18K Gold','Brilliant-cut Diamond','Butterfly Back','GIA Certified'] },
-    { name:'Hoop Earring',             desc:'A small 22K gold hoop with a hinged clasp — classic and versatile.',                       imgs:[I.mearring10,I.mearring11,I.mearring12], features:['22K Gold','Hinged Hoop','Polished Finish','Hallmarked'] },
-    { name:'Twisted Rope Hoop',          desc:'A 22K gold hoop with a twisted rope texture — adds subtle flair to any outfit.',           imgs:[I.mearring13,I.mearring14,I.mearring15], features:['22K Gold','Twisted Rope Design','Hinged Clasp','BIS Certified'] },
-    { name:'Celtic Knot Stud',             desc:'Intricate Celtic knot design engraved on a 22K gold stud — a symbol of eternity.',          imgs:[I.mearring16,I.mearring17,I.mearring18], features:['22K Gold','Celtic Knot Engraving','Push-back Setting','Hallmarked'] },
-    { name:'Hammered Gold Stud',             desc:'A textured 22K gold stud with a hammered finish — rugged yet refined.',                     imgs:[I.mearring19,I.mearring20,I.mearring21], features:['22K Gold','Hammered Texture','Polished Edges','BIS Certified'] },
-    { name:'Black Rhodium Stud',                desc:'A 22K gold stud plated with black rhodium for a bold, contemporary look.',                  imgs:[I.mearring22,I.mearring23,I.mearring24], features:['22K Gold','Black Rhodium Plating','Polished Finish','Hallmarked'] },
-    { name:'Two-tone Gold Stud',                  desc:'A 22K gold stud with a contrasting 18K gold inlay — a striking two-tone effect.',            imgs:[I.mearring25,I.mearring26,I.mearring27], features:['22K Gold','18K Gold Inlay','Polished Finish','BIS Certified'] },
-    { name:'Geometric Pattern Stud',                desc:'A 22K gold stud engraved with geometric patterns for a modern aesthetic.',                  imgs:[I.mearring28,I.mearring29,I.mearring30], features:['22K Gold','Geometric Engraving','Polished Finish','Hallmarked'] },
-    { name:'Floral Motif Stud',                      desc:'A delicate 22K gold stud adorned with engraved floral motifs — feminine and elegant.',        imgs:[I.mearring31,I.mearring32,I.mearring33], features:['22K Gold','Floral Engraving','Polished Finish','BIS Certified'] },
-    { name:'Sapphire-set Stud',                       desc:'A 22K gold stud set with a deep blue sapphire — a regal statement piece.',                    imgs:[I.mearring34,I.mearring35,I.mearring36], features:['22K Gold','Sapphire Gemstone','Polished Finish','GIA Certified'] },
-    { name:'Emerald-set Stud',                        desc:'A 22K gold stud set with a vibrant green emerald — a touch of luxury and color.',              imgs:[I.mearring37,I.mearring38,I.mearring39], features:['22K Gold','Emerald Gemstone','Polished Finish','GIA Certified'] },
-    { name:'Ruby-set Stud',                          desc:'A 22K gold stud set with a rich red ruby — a classic choice for elegance.',                     imgs:[I.mearring40,I.mearring41,I.mearring42], features:['22K Gold','Ruby Gemstone','Polished Finish','GIA Certified'] },
-    { name:'Custom Engraved Stud',                       desc:'A 22K gold stud that can be personalized with your own engraving — a truly unique piece.',      imgs:[I.mearring43,I.mearring44,I.mearring45], features:['22K Gold','Custom Engraving','Polished Finish','BIS Certified'] },
-    { name:'Diamond Stud Earrings',                       desc:'A pair of brilliant-cut diamonds set in 18K gold — timeless elegance for any occasion.',        imgs:[I.mearring46,I.mearring47,I.mearring48], features:['18K Gold','Brilliant-cut Diamonds','Butterfly Back','GIA Certified'] },
+  "gold/mens/earrings": [
+    {
+      name: "Classic Gold Stud",
+      desc: "A simple 22K gold dome stud — the essential men's earring.",
+      imgs: [I.mearring2, I.mearring, I.mearring3],
+      features: ["22K Gold", "Butterfly Back", "6mm Diameter", "Hallmarked"],
+    },
+    {
+      name: "Om Stud",
+      desc: "Sacred Om engraved on a flat gold disc — devotion you can wear daily.",
+      imgs: [I.mearring4, I.mearring5, I.mearring6],
+      features: [
+        "22K Gold",
+        "Om Engraving",
+        "Push-back Setting",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Diamond Stud",
+      desc: "A single brilliant-cut diamond set in 18K gold — understated luxury.",
+      imgs: [I.mearring7, I.mearring8, I.mearring9],
+      features: [
+        "18K Gold",
+        "Brilliant-cut Diamond",
+        "Butterfly Back",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Hoop Earring",
+      desc: "A small 22K gold hoop with a hinged clasp — classic and versatile.",
+      imgs: [I.mearring10, I.mearring11, I.mearring12],
+      features: ["22K Gold", "Hinged Hoop", "Polished Finish", "Hallmarked"],
+    },
+    {
+      name: "Twisted Rope Hoop",
+      desc: "A 22K gold hoop with a twisted rope texture — adds subtle flair to any outfit.",
+      imgs: [I.mearring13, I.mearring14, I.mearring15],
+      features: [
+        "22K Gold",
+        "Twisted Rope Design",
+        "Hinged Clasp",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Celtic Knot Stud",
+      desc: "Intricate Celtic knot design engraved on a 22K gold stud — a symbol of eternity.",
+      imgs: [I.mearring16, I.mearring17, I.mearring18],
+      features: [
+        "22K Gold",
+        "Celtic Knot Engraving",
+        "Push-back Setting",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Hammered Gold Stud",
+      desc: "A textured 22K gold stud with a hammered finish — rugged yet refined.",
+      imgs: [I.mearring19, I.mearring20, I.mearring21],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Polished Edges",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Black Rhodium Stud",
+      desc: "A 22K gold stud plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.mearring22, I.mearring23, I.mearring24],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Polished Finish",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Two-tone Gold Stud",
+      desc: "A 22K gold stud with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.mearring25, I.mearring26, I.mearring27],
+      features: [
+        "22K Gold",
+        "18K Gold Inlay",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Geometric Pattern Stud",
+      desc: "A 22K gold stud engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.mearring28, I.mearring29, I.mearring30],
+      features: [
+        "22K Gold",
+        "Geometric Engraving",
+        "Polished Finish",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Floral Motif Stud",
+      desc: "A delicate 22K gold stud adorned with engraved floral motifs — feminine and elegant.",
+      imgs: [I.mearring31, I.mearring32, I.mearring33],
+      features: [
+        "22K Gold",
+        "Floral Engraving",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Sapphire-set Stud",
+      desc: "A 22K gold stud set with a deep blue sapphire — a regal statement piece.",
+      imgs: [I.mearring34, I.mearring35, I.mearring36],
+      features: [
+        "22K Gold",
+        "Sapphire Gemstone",
+        "Polished Finish",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Emerald-set Stud",
+      desc: "A 22K gold stud set with a vibrant green emerald — a touch of luxury and color.",
+      imgs: [I.mearring37, I.mearring38, I.mearring39],
+      features: [
+        "22K Gold",
+        "Emerald Gemstone",
+        "Polished Finish",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Ruby-set Stud",
+      desc: "A 22K gold stud set with a rich red ruby — a classic choice for elegance.",
+      imgs: [I.mearring40, I.mearring41, I.mearring42],
+      features: [
+        "22K Gold",
+        "Ruby Gemstone",
+        "Polished Finish",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Custom Engraved Stud",
+      desc: "A 22K gold stud that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.mearring43, I.mearring44, I.mearring45],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Diamond Stud Earrings",
+      desc: "A pair of brilliant-cut diamonds set in 18K gold — timeless elegance for any occasion.",
+      imgs: [I.mearring46, I.mearring47, I.mearring48],
+      features: [
+        "18K Gold",
+        "Brilliant-cut Diamonds",
+        "Butterfly Back",
+        "GIA Certified",
+      ],
+    },
   ],
-  'gold/womens/earrings': [
-    { name:'Diamond Drop Earring',   desc:'A single brilliant-cut diamond suspends from a delicate 18K gold hook.',                 imgs:[I.wearrings,I.wearrings3,I.wearrings2], features:['18K Gold','Brilliant-cut Diamond','Hook Setting','GIA Certified'] },
-    { name:'Gold Flower Stud',       desc:'A five-petal gold flower with a pearl centre — timeless feminine elegance.',              imgs:[I.wearrings4,I.wearrings5,I.wearrings6], features:['22K Gold','Pearl Centre','Push-back','Handcrafted'] },
-    { name:'Chandelier Earring',     desc:'Three tiers of 22K gold drops that catch the light with every movement.',                 imgs:[I.e2,I.e3,I.e1], features:['22K Gold','Three-tier Drop','Hook Back','Party Favourite'] },
-    { name:'Hoop Earring',            desc:'A classic 22K gold hoop with a hinged clasp — versatile and elegant.',                    imgs:[I.wearrings7,I.wearrings8,I.wearrings9], features:['22K Gold','Hinged Hoop','Polished Finish','Hallmarked'] },
-    { name:'Twisted Rope Hoop',       desc:'A 22K gold hoop with a twisted rope texture — adds subtle flair to any outfit.',          imgs:[I.wearrings10,I.wearrings11,I.wearrings12], features:['22K Gold','Twisted Rope Design','Hinged Clasp','BIS Certified'] },
-    { name:'Celtic Knot Stud',        desc:'Intricate Celtic knot design engraved on a 22K gold stud — a symbol of eternity.',         imgs:[I.wearrings13,I.wearrings14,I.wearrings15], features:['22K Gold','Celtic Knot Engraving','Push-back Setting','Hallmarked'] },
-    { name:'Hammered Gold Stud',      desc:'A textured 22K gold stud with a hammered finish — rugged yet refined.',                    imgs:[I.wearrings16,I.wearrings17,I.wearrings18], features:['22K Gold','Hammered Texture','Polished Edges','BIS Certified'] },
-    { name:'Black Rhodium Stud',         desc:'A 22K gold stud plated with black rhodium for a bold, contemporary look.',                 imgs:[I.wearrings19,I.wearrings20,I.wearrings21], features:['22K Gold','Black Rhodium Plating','Polished Finish','Hallmarked'] },
-    { name:'Two-tone Gold Stud',           desc:'A 22K gold stud with a contrasting 18K gold inlay — a striking two-tone effect.',           imgs:[I.wearrings22,I.wearrings23,I.wearrings24], features:['22K Gold','18K Gold Inlay','Polished Finish','BIS Certified'] },
-    { name:'Geometric Pattern Stud',       desc:'A 22K gold stud engraved with geometric patterns for a modern aesthetic.',                 imgs:[I.wearrings25,I.wearrings26,I.wearrings27], features:['22K Gold','Geometric Engraving','Polished Finish','Hallmarked'] },
-    { name:'Floral Motif Stud',             desc:'A delicate 22K gold stud adorned with engraved floral motifs — feminine and elegant.',       imgs:[I.wearrings28,I.wearrings29,I.wearrings30], features:['22K Gold','Floral Engraving','Polished Finish','BIS Certified'] },
-    { name:'Sapphire-set Stud',              desc:'A 22K gold stud set with a deep blue sapphire — a regal statement piece.',                   imgs:[I.wearrings31,I.wearrings32,I.wearrings33], features:['22K Gold','Sapphire Gemstone','Polished Finish','GIA Certified'] },
-    { name:'Emerald-set Stud',               desc:'A 22K gold stud set with a vibrant green emerald — a touch of luxury and color.',             imgs:[I.wearrings34,I.wearrings35,I.wearrings36], features:['22K Gold','Emerald Gemstone','Polished Finish','GIA Certified'] },
-    { name:'Ruby-set Stud',                 desc:'A 22K gold stud set with a rich red ruby — a classic choice for elegance.',                    imgs:[I.wearrings37,I.wearrings38,I.wearrings39], features:['22K Gold','Ruby Gemstone','Polished Finish','GIA Certified'] },
-    { name:'Custom Engraved Stud',            desc:'A 22K gold stud that can be personalized with your own engraving — a truly unique piece.',     imgs:[I.wearrings40,I.wearrings41,I.wearrings42], features:['22K Gold','Custom Engraving','Polished Finish','BIS Certified'] },
-    { name:'Diamond Stud Earrings',            desc:'A pair of brilliant-cut diamonds set in 18K gold — timeless elegance for any occasion.',       imgs:[I.wearrings43,I.wearrings44,I.wearrings45], features:['18K Gold','Brilliant-cut Diamonds','Butterfly Back','GIA Certified'] },
+  "gold/womens/earrings": [
+    {
+      name: "Diamond Drop Earring",
+      desc: "A single brilliant-cut diamond suspends from a delicate 18K gold hook.",
+      imgs: [I.wearrings, I.wearrings3, I.wearrings2],
+      features: [
+        "18K Gold",
+        "Brilliant-cut Diamond",
+        "Hook Setting",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Gold Flower Stud",
+      desc: "A five-petal gold flower with a pearl centre — timeless feminine elegance.",
+      imgs: [I.wearrings4, I.wearrings5, I.wearrings6],
+      features: ["22K Gold", "Pearl Centre", "Push-back", "Handcrafted"],
+    },
+    {
+      name: "Chandelier Earring",
+      desc: "Three tiers of 22K gold drops that catch the light with every movement.",
+      imgs: [I.e2, I.e3, I.e1],
+      features: ["22K Gold", "Three-tier Drop", "Hook Back", "Party Favourite"],
+    },
+    {
+      name: "Hoop Earring",
+      desc: "A classic 22K gold hoop with a hinged clasp — versatile and elegant.",
+      imgs: [I.wearrings7, I.wearrings8, I.wearrings9],
+      features: ["22K Gold", "Hinged Hoop", "Polished Finish", "Hallmarked"],
+    },
+    {
+      name: "Twisted Rope Hoop",
+      desc: "A 22K gold hoop with a twisted rope texture — adds subtle flair to any outfit.",
+      imgs: [I.wearrings10, I.wearrings11, I.wearrings12],
+      features: [
+        "22K Gold",
+        "Twisted Rope Design",
+        "Hinged Clasp",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Celtic Knot Stud",
+      desc: "Intricate Celtic knot design engraved on a 22K gold stud — a symbol of eternity.",
+      imgs: [I.wearrings13, I.wearrings14, I.wearrings15],
+      features: [
+        "22K Gold",
+        "Celtic Knot Engraving",
+        "Push-back Setting",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Hammered Gold Stud",
+      desc: "A textured 22K gold stud with a hammered finish — rugged yet refined.",
+      imgs: [I.wearrings16, I.wearrings17, I.wearrings18],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Polished Edges",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Black Rhodium Stud",
+      desc: "A 22K gold stud plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.wearrings19, I.wearrings20, I.wearrings21],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Polished Finish",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Two-tone Gold Stud",
+      desc: "A 22K gold stud with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.wearrings22, I.wearrings23, I.wearrings24],
+      features: [
+        "22K Gold",
+        "18K Gold Inlay",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Geometric Pattern Stud",
+      desc: "A 22K gold stud engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.wearrings25, I.wearrings26, I.wearrings27],
+      features: [
+        "22K Gold",
+        "Geometric Engraving",
+        "Polished Finish",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Floral Motif Stud",
+      desc: "A delicate 22K gold stud adorned with engraved floral motifs — feminine and elegant.",
+      imgs: [I.wearrings28, I.wearrings29, I.wearrings30],
+      features: [
+        "22K Gold",
+        "Floral Engraving",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Sapphire-set Stud",
+      desc: "A 22K gold stud set with a deep blue sapphire — a regal statement piece.",
+      imgs: [I.wearrings31, I.wearrings32, I.wearrings33],
+      features: [
+        "22K Gold",
+        "Sapphire Gemstone",
+        "Polished Finish",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Emerald-set Stud",
+      desc: "A 22K gold stud set with a vibrant green emerald — a touch of luxury and color.",
+      imgs: [I.wearrings34, I.wearrings35, I.wearrings36],
+      features: [
+        "22K Gold",
+        "Emerald Gemstone",
+        "Polished Finish",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Ruby-set Stud",
+      desc: "A 22K gold stud set with a rich red ruby — a classic choice for elegance.",
+      imgs: [I.wearrings37, I.wearrings38, I.wearrings39],
+      features: [
+        "22K Gold",
+        "Ruby Gemstone",
+        "Polished Finish",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Custom Engraved Stud",
+      desc: "A 22K gold stud that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.wearrings40, I.wearrings41, I.wearrings42],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Diamond Stud Earrings",
+      desc: "A pair of brilliant-cut diamonds set in 18K gold — timeless elegance for any occasion.",
+      imgs: [I.wearrings43, I.wearrings44, I.wearrings45],
+      features: [
+        "18K Gold",
+        "Brilliant-cut Diamonds",
+        "Butterfly Back",
+        "GIA Certified",
+      ],
+    },
   ],
-  'gold/mens/bali': [
-    { name:'Classic Gold Bali',      desc:'A smooth circular bali in 22K gold — the definitive men\'s hoop earring.',               imgs:[I.mbali2,I.mbali,I.mbali3], features:['22K Gold','Smooth Finish','Hinged Closure','BIS Certified'] },
-    { name:'Twisted Bali',           desc:'A twisted rope texture on a classic bali form, in 22K gold.',                            imgs:[I.mbali4,I.mbali5,I.mbali6], features:['22K Gold','Rope Texture','Hinged Clasp','Hallmarked'] },
-    { name:'Diamond-set Bali',       desc:'A channel of brilliant diamonds set in 18K gold bali — understated sparkle.',             imgs:[I.mbali7,I.mbali8,I.mbali9], features:['18K Gold','Diamond Channel','Safety Catch','GIA Certified'] },
-    { name:'Hammered Bali',           desc:'A hammered texture on a solid 22K gold bali — rugged yet refined.',                      imgs:[I.mbali10,I.mbali11,I.mbali12], features:['22K Gold','Hammered Texture','Hinged Closure','BIS Certified'] },
-    { name:'Black Rhodium Bali',      desc:'A 22K gold bali plated with black rhodium for a bold, contemporary look.',                imgs:[I.mbali13,I.mbali14,I.mbali15], features:['22K Gold','Black Rhodium Plating','Hinged Clasp','Hallmarked'] },
-    { name:'Two-tone Gold Bali',      desc:'A 22K gold bali with a contrasting 18K gold inlay — a striking two-tone effect.',          imgs:[I.mbali16,I.mbali17,I.mbali18], features:['22K Gold','18K Gold Inlay','Hinged Closure','BIS Certified'] },
-    { name:'Geometric Pattern Bali',  desc:'A 22K gold bali engraved with geometric patterns for a modern aesthetic.',               imgs:[I.mbali19,I.mbali20,I.mbali21], features:['22K Gold','Geometric Engraving','Hinged Clasp','Hallmarked'] },
-    { name:'Floral Motif Bali',          desc:'A delicate 22K gold bali adorned with engraved floral motifs — masculine elegance.',       imgs:[I.mbali22,I.mbali23,I.mbali24], features:['22K Gold','Floral Engraving','Hinged Closure','BIS Certified'] },
-    { name:'Sapphire-set Bali',           desc:'A 22K gold bali set with a deep blue sapphire — a regal statement piece.',                 imgs:[I.mbali25,I.mbali26,I.mbali27], features:['22K Gold','Sapphire Gemstone','Hinged Clasp','GIA Certified'] },
-    { name:'Emerald-set Bali',            desc:'A 22K gold bali set with a vibrant green emerald — a touch of luxury and color.',           imgs:[I.mbali28,I.mbali29,I.mbali30], features:['22K Gold','Emerald Gemstone','Hinged Closure','GIA Certified'] },
-    { name:'Ruby-set Bali',                desc:'A 22K gold bali set with a rich red ruby — a classic choice for elegance.',                 imgs:[I.mbali31,I.mbali32,I.mbali33], features:['22K Gold','Ruby Gemstone','Hinged Clasp','GIA Certified'] },
-    { name:'Custom Engraved Bali',         desc:'A 22K gold bali that can be personalized with your own engraving — a truly unique piece.',   imgs:[I.mbali34,I.mbali35,I.mbali36], features:['22K Gold','Custom Engraving','Hinged Closure','BIS Certified'] },
-    { name:'Diamond-set Bali',               desc:'A channel of brilliant diamonds set in 18K gold bali — understated sparkle.',             imgs:[I.mbali37,I.mbali38,I.mbali39], features:['18K Gold','Diamond Channel','Safety Catch','GIA Certified'] },
-    { name:'Hammered Bali',                    desc:'A hammered texture on a solid 22K gold bali — rugged yet refined.',                      imgs:[I.mbali40,I.mbali41,I.mbali42], features:['22K Gold','Hammered Texture','Hinged Closure','BIS Certified'] },
-    { name:'Black Rhodium Bali',                 desc:'A 22K gold bali plated with black rhodium for a bold, contemporary look.',                imgs:[I.mbali43,I.mbali44,I.mbali45], features:['22K Gold','Black Rhodium Plating','Hinged Clasp','Hallmarked'] },
-    { name:'Two-tone Gold Bali',                 desc:'A 22K gold bali with a contrasting 18K gold inlay — a striking two-tone effect.',          imgs:[I.mbali46,I.mbali47,I.mbali48], features:['22K Gold','18K Gold Inlay','Hinged Closure','BIS Certified'] },
+  "gold/mens/bali": [
+    {
+      name: "Classic Gold Bali",
+      desc: "A smooth circular bali in 22K gold — the definitive men's hoop earring.",
+      imgs: [I.mbali2, I.mbali, I.mbali3],
+      features: [
+        "22K Gold",
+        "Smooth Finish",
+        "Hinged Closure",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Twisted Bali",
+      desc: "A twisted rope texture on a classic bali form, in 22K gold.",
+      imgs: [I.mbali4, I.mbali5, I.mbali6],
+      features: ["22K Gold", "Rope Texture", "Hinged Clasp", "Hallmarked"],
+    },
+    {
+      name: "Diamond-set Bali",
+      desc: "A channel of brilliant diamonds set in 18K gold bali — understated sparkle.",
+      imgs: [I.mbali7, I.mbali8, I.mbali9],
+      features: [
+        "18K Gold",
+        "Diamond Channel",
+        "Safety Catch",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Hammered Bali",
+      desc: "A hammered texture on a solid 22K gold bali — rugged yet refined.",
+      imgs: [I.mbali10, I.mbali11, I.mbali12],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Hinged Closure",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Black Rhodium Bali",
+      desc: "A 22K gold bali plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.mbali13, I.mbali14, I.mbali15],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Hinged Clasp",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Two-tone Gold Bali",
+      desc: "A 22K gold bali with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.mbali16, I.mbali17, I.mbali18],
+      features: [
+        "22K Gold",
+        "18K Gold Inlay",
+        "Hinged Closure",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Geometric Pattern Bali",
+      desc: "A 22K gold bali engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.mbali19, I.mbali20, I.mbali21],
+      features: [
+        "22K Gold",
+        "Geometric Engraving",
+        "Hinged Clasp",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Floral Motif Bali",
+      desc: "A delicate 22K gold bali adorned with engraved floral motifs — masculine elegance.",
+      imgs: [I.mbali22, I.mbali23, I.mbali24],
+      features: [
+        "22K Gold",
+        "Floral Engraving",
+        "Hinged Closure",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Sapphire-set Bali",
+      desc: "A 22K gold bali set with a deep blue sapphire — a regal statement piece.",
+      imgs: [I.mbali25, I.mbali26, I.mbali27],
+      features: [
+        "22K Gold",
+        "Sapphire Gemstone",
+        "Hinged Clasp",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Emerald-set Bali",
+      desc: "A 22K gold bali set with a vibrant green emerald — a touch of luxury and color.",
+      imgs: [I.mbali28, I.mbali29, I.mbali30],
+      features: [
+        "22K Gold",
+        "Emerald Gemstone",
+        "Hinged Closure",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Ruby-set Bali",
+      desc: "A 22K gold bali set with a rich red ruby — a classic choice for elegance.",
+      imgs: [I.mbali31, I.mbali32, I.mbali33],
+      features: ["22K Gold", "Ruby Gemstone", "Hinged Clasp", "GIA Certified"],
+    },
+    {
+      name: "Custom Engraved Bali",
+      desc: "A 22K gold bali that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.mbali34, I.mbali35, I.mbali36],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Hinged Closure",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Diamond-set Bali",
+      desc: "A channel of brilliant diamonds set in 18K gold bali — understated sparkle.",
+      imgs: [I.mbali37, I.mbali38, I.mbali39],
+      features: [
+        "18K Gold",
+        "Diamond Channel",
+        "Safety Catch",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Hammered Bali",
+      desc: "A hammered texture on a solid 22K gold bali — rugged yet refined.",
+      imgs: [I.mbali40, I.mbali41, I.mbali42],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Hinged Closure",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Black Rhodium Bali",
+      desc: "A 22K gold bali plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.mbali43, I.mbali44, I.mbali45],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Hinged Clasp",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Two-tone Gold Bali",
+      desc: "A 22K gold bali with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.mbali46, I.mbali47, I.mbali48],
+      features: [
+        "22K Gold",
+        "18K Gold Inlay",
+        "Hinged Closure",
+        "BIS Certified",
+      ],
+    },
   ],
-  'gold/womens/bali': [
-    { name:'Floral Bali',            desc:'Tiny floral clusters set in 22K gold — a feminine take on the classic hoop.',             imgs:[I.wmali3,I.wmali,I.wmali2], features:['22K Gold','Floral Detail','Hinged Closure','Handcrafted'] },
-    { name:'Diamond Bali',           desc:'A continuous channel of diamonds set in 18K gold bali — pure sparkle.',                  imgs:[I.wmali4,I.wmali5,I.wmali6], features:['18K Gold','Diamond Channel','Safety Catch','GIA Certified'] },
-    { name:'Twisted Rope Bali',      desc:'A 22K gold bali with a twisted rope texture — adds subtle flair to any outfit.',          imgs:[I.wmali7,I.wmali8,I.wmali9], features:['22K Gold','Twisted Rope Design','Hinged Clasp','BIS Certified'] },
-    { name:'Hammered Bali',          desc:'A hammered texture on a solid 22K gold bali — rugged yet refined.',                      imgs:[I.wmali10,I.wmali11,I.wmali12], features:['22K Gold','Hammered Texture','Hinged Closure','BIS Certified'] },
-    { name:'Black Rhodium Bali',     desc:'A 22K gold bali plated with black rhodium for a bold, contemporary look.',                imgs:[I.wmali13,I.wmali14,I.wmali15], features:['22K Gold','Black Rhodium Plating','Hinged Clasp','Hallmarked'] },
-    { name:'Two-tone Gold Bali',     desc:'A 22K gold bali with a contrasting 18K gold inlay — a striking two-tone effect.',          imgs:[I.wmali16,I.wmali17,I.wmali18], features:['22K Gold','18K Gold Inlay','Hinged Closure','BIS Certified'] },
-    { name:'Geometric Pattern Bali', desc:'A 22K gold bali engraved with geometric patterns for a modern aesthetic.',               imgs:[I.wmali19,I.wmali20,I.wmali21], features:['22K Gold','Geometric Engraving','Hinged Clasp','Hallmarked'] },
-    { name:'Floral Motif Bali',      desc:'A delicate 22K gold bali adorned with engraved floral motifs — masculine elegance.',       imgs:[I.wmali22,I.wmali23,I.wmali24], features:['22K Gold','Floral Engraving','Hinged Closure','BIS Certified'] },
-    { name:'Sapphire-set Bali',      desc:'A 22K gold bali set with a deep blue sapphire — a regal statement piece.',                 imgs:[I.wmali25,I.wmali26,I.wmali27], features:['22K Gold','Sapphire Gemstone','Hinged Clasp','GIA Certified'] },
-    { name:'Emerald-set Bali',       desc:'A 22K gold bali set with a vibrant green emerald — a touch of luxury and color.',           imgs:[I.wmali28,I.wmali29,I.wmali30], features:['22K Gold','Emerald Gemstone','Hinged Closure','GIA Certified'] },
-    { name:'Ruby-set Bali',          desc:'A 22K gold bali set with a rich red ruby — a classic choice for elegance.',                 imgs:[I.wmali31,I.wmali32,I.wmali33], features:['22K Gold','Ruby Gemstone','Hinged Clasp','GIA Certified'] },
-    { name:'Custom Engraved Bali',   desc:'A 22K gold bali that can be personalized with your own engraving — a truly unique piece.',   imgs:[I.wmali34,I.wmali35,I.wmali36], features:['22K Gold','Custom Engraving','Hinged Closure','BIS Certified'] },
-    { name:'Diamond-set Bali',        desc:'A channel of brilliant diamonds set in 18K gold bali — understated sparkle.',             imgs:[I.wmali37,I.wmali38,I.wmali39], features:['18K Gold','Diamond Channel','Safety Catch','GIA Certified'] },
-    { name:'Hammered Bali',           desc:'A hammered texture on a solid 22K gold bali — rugged yet refined.',                      imgs:[I.wmali40,I.wmali41,I.wmali42], features:['22K Gold','Hammered Texture','Hinged Closure','BIS Certified'] },
-    { name:'Black Rhodium Bali',      desc:'A 22K gold bali plated with black rhodium for a bold, contemporary look.',                imgs:[I.wmali43,I.wmali44,I.wmali45], features:['22K Gold','Black Rhodium Plating','Hinged Clasp','Hallmarked'] },
-    { name:'Two-tone Gold Bali',      desc:'A 22K gold bali with a contrasting 18K gold inlay — a striking two-tone effect.',          imgs:[I.wmali46,I.wmali47,I.wmali48], features:['22K Gold','18K Gold Inlay','Hinged Closure','BIS Certified'] },
+  "gold/womens/bali": [
+    {
+      name: "Floral Bali",
+      desc: "Tiny floral clusters set in 22K gold — a feminine take on the classic hoop.",
+      imgs: [I.wmali3, I.wmali, I.wmali2],
+      features: ["22K Gold", "Floral Detail", "Hinged Closure", "Handcrafted"],
+    },
+    {
+      name: "Diamond Bali",
+      desc: "A continuous channel of diamonds set in 18K gold bali — pure sparkle.",
+      imgs: [I.wmali4, I.wmali5, I.wmali6],
+      features: [
+        "18K Gold",
+        "Diamond Channel",
+        "Safety Catch",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Twisted Rope Bali",
+      desc: "A 22K gold bali with a twisted rope texture — adds subtle flair to any outfit.",
+      imgs: [I.wmali7, I.wmali8, I.wmali9],
+      features: [
+        "22K Gold",
+        "Twisted Rope Design",
+        "Hinged Clasp",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Hammered Bali",
+      desc: "A hammered texture on a solid 22K gold bali — rugged yet refined.",
+      imgs: [I.wmali10, I.wmali11, I.wmali12],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Hinged Closure",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Black Rhodium Bali",
+      desc: "A 22K gold bali plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.wmali13, I.wmali14, I.wmali15],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Hinged Clasp",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Two-tone Gold Bali",
+      desc: "A 22K gold bali with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.wmali16, I.wmali17, I.wmali18],
+      features: [
+        "22K Gold",
+        "18K Gold Inlay",
+        "Hinged Closure",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Geometric Pattern Bali",
+      desc: "A 22K gold bali engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.wmali19, I.wmali20, I.wmali21],
+      features: [
+        "22K Gold",
+        "Geometric Engraving",
+        "Hinged Clasp",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Floral Motif Bali",
+      desc: "A delicate 22K gold bali adorned with engraved floral motifs — masculine elegance.",
+      imgs: [I.wmali22, I.wmali23, I.wmali24],
+      features: [
+        "22K Gold",
+        "Floral Engraving",
+        "Hinged Closure",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Sapphire-set Bali",
+      desc: "A 22K gold bali set with a deep blue sapphire — a regal statement piece.",
+      imgs: [I.wmali25, I.wmali26, I.wmali27],
+      features: [
+        "22K Gold",
+        "Sapphire Gemstone",
+        "Hinged Clasp",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Emerald-set Bali",
+      desc: "A 22K gold bali set with a vibrant green emerald — a touch of luxury and color.",
+      imgs: [I.wmali28, I.wmali29, I.wmali30],
+      features: [
+        "22K Gold",
+        "Emerald Gemstone",
+        "Hinged Closure",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Ruby-set Bali",
+      desc: "A 22K gold bali set with a rich red ruby — a classic choice for elegance.",
+      imgs: [I.wmali31, I.wmali32, I.wmali33],
+      features: ["22K Gold", "Ruby Gemstone", "Hinged Clasp", "GIA Certified"],
+    },
+    {
+      name: "Custom Engraved Bali",
+      desc: "A 22K gold bali that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.wmali34, I.wmali35, I.wmali36],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Hinged Closure",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Diamond-set Bali",
+      desc: "A channel of brilliant diamonds set in 18K gold bali — understated sparkle.",
+      imgs: [I.wmali37, I.wmali38, I.wmali39],
+      features: [
+        "18K Gold",
+        "Diamond Channel",
+        "Safety Catch",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Hammered Bali",
+      desc: "A hammered texture on a solid 22K gold bali — rugged yet refined.",
+      imgs: [I.wmali40, I.wmali41, I.wmali42],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Hinged Closure",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Black Rhodium Bali",
+      desc: "A 22K gold bali plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.wmali43, I.wmali44, I.wmali45],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Hinged Clasp",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Two-tone Gold Bali",
+      desc: "A 22K gold bali with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.wmali46, I.wmali47, I.wmali48],
+      features: [
+        "22K Gold",
+        "18K Gold Inlay",
+        "Hinged Closure",
+        "BIS Certified",
+      ],
+    },
   ],
-  'gold/mens/bracelets': [
-    { name:'Curb Bracelet',          desc:'A heavy curb-link bracelet in 22K gold — bold, masculine, enduring.',                    imgs:[I.mbracelets2,I.mbracelets,I.mbracelets3], features:['22K Gold','Curb Link','Box Clasp','BIS Certified'] },
-    { name:'ID Bracelet',            desc:'Flat-link ID bracelet in 22K gold with engraving surface on the plate.',                  imgs:[I.mbracelets4,I.mbracelets5,I.mbracelets6], features:['22K Gold','ID Plate','Engravable','Hallmarked'] },
-    { name:'Rope Bracelet',          desc:'Twisted rope design in 22K gold — a classic men\'s bracelet.',                            imgs:[I.mbracelets7,I.mbracelets8,I.mbracelets9], features:['22K Gold','Rope Design','Box Clasp','BIS Certified'] },
-    { name:'Figaro Bracelet',         desc:'Alternating oval and round links in 22K gold — a timeless men\'s bracelet.',              imgs:[I.mbracelets10,I.mbracelets11,I.mbracelets12], features:['22K Gold','Figaro Pattern','Box Clasp','Hallmarked'] },
-    { name:'Anchor Bracelet',         desc:'Sturdy anchor-link bracelet in 22K gold — a bold statement piece.',                       imgs:[I.mbracelets13,I.mbracelets14,I.mbracelets15], features:['22K Gold','Anchor Link','Box Clasp','BIS Certified'] },
-    { name:'Twisted Rope Bracelet',     desc:'A thicker version of the twisted rope design in 22K gold — bold and masculine.',          imgs:[I.mbracelets16,I.mbracelets17,I.mbracelets18], features:['22K Gold','Twisted Rope Design','Box Clasp','Hallmarked'] },
-    { name:'Cuban Link Bracelet',         desc:'Thick, interlocking Cuban links in 22K gold — a bold and masculine design.',                imgs:[I.mbracelets19,I.mbracelets20,I.mbracelets21], features:['22K Gold','Cuban Link','Box Clasp','BIS Certified'] },
-    { name:'Box Link Bracelet',         desc:'A sleek box-link bracelet in 22K gold — modern and versatile.',                            imgs:[I.mbracelets22,I.mbracelets23,I.mbracelets24], features:['22K Gold','Box Link','Box Clasp','Hallmarked'] },
-    { name:'Snake Bracelet',         desc:'Smooth, flexible snake bracelet in 22K gold — a modern classic.',                         imgs:[I.mbracelets25,I.mbracelets26,I.mbracelets27], features:['22K Gold','Snake Design','Box Clasp','BIS Certified'] },
-    { name:'Herringbone Bracelet',         desc:'Flat, flexible herringbone weave in 22K gold that lies smooth against the skin.',         imgs:[I.mbracelets28,I.mbracelets29,I.mbracelets30], features:['22K Gold','Herringbone Pattern','Box Clasp','Hallmarked'] },
-    { name:'Diamond-set Bracelet',         desc:'A channel of brilliant diamonds set in 18K gold — understated sparkle.',                  imgs:[I.mbracelets31,I.mbracelets32,I.mbracelets33], features:['18K Gold','Diamond Channel','Box Clasp','GIA Certified'] },
-    { name:'Custom Engraved Bracelet',         desc:'A 22K gold bracelet that can be personalized with your own engraving — a truly unique piece.',   imgs:[I.mbracelets34,I.mbracelets35,I.mbracelets36], features:['22K Gold','Custom Engraving','Box Clasp','BIS Certified'] },
-    { name:'Hammered Bracelet',         desc:'A hammered texture on a solid 22K gold bracelet — rugged yet refined.',                   imgs:[I.mbracelets37,I.mbracelets38,I.mbracelets39], features:['22K Gold','Hammered Texture','Box Clasp','Hallmarked'] },
-    { name:'Black Rhodium Bracelet',         desc:'A 22K gold bracelet plated with black rhodium for a bold, contemporary look.',            imgs:[I.mbracelets40,I.mbracelets41,I.mbracelets42], features:['22K Gold','Black Rhodium Plating','Box Clasp','BIS Certified'] },
-    { name:'Two-tone Gold Bracelet',         desc:'A 22K gold bracelet with a contrasting 18K gold inlay — a striking two-tone effect.',      imgs:[I.mbracelets43,I.mbracelets44,I.mbracelets45], features:['22K Gold','18K Gold Inlay','Box Clasp','Hallmarked'] },
-    { name:'Geometric Pattern Bracelet',         desc:'A 22K gold bracelet engraved with geometric patterns for a modern aesthetic.',           imgs:[I.mbracelets46,I.mbracelets47,I.mbracelets48], features:['22K Gold','Geometric Engraving','Box Clasp','BIS Certified'] },
+  "gold/mens/bracelets": [
+    {
+      name: "Curb Bracelet",
+      desc: "A heavy curb-link bracelet in 22K gold — bold, masculine, enduring.",
+      imgs: [I.mbracelets2, I.mbracelets, I.mbracelets3],
+      features: ["22K Gold", "Curb Link", "Box Clasp", "BIS Certified"],
+    },
+    {
+      name: "ID Bracelet",
+      desc: "Flat-link ID bracelet in 22K gold with engraving surface on the plate.",
+      imgs: [I.mbracelets4, I.mbracelets5, I.mbracelets6],
+      features: ["22K Gold", "ID Plate", "Engravable", "Hallmarked"],
+    },
+    {
+      name: "Rope Bracelet",
+      desc: "Twisted rope design in 22K gold — a classic men's bracelet.",
+      imgs: [I.mbracelets7, I.mbracelets8, I.mbracelets9],
+      features: ["22K Gold", "Rope Design", "Box Clasp", "BIS Certified"],
+    },
+    {
+      name: "Figaro Bracelet",
+      desc: "Alternating oval and round links in 22K gold — a timeless men's bracelet.",
+      imgs: [I.mbracelets10, I.mbracelets11, I.mbracelets12],
+      features: ["22K Gold", "Figaro Pattern", "Box Clasp", "Hallmarked"],
+    },
+    {
+      name: "Anchor Bracelet",
+      desc: "Sturdy anchor-link bracelet in 22K gold — a bold statement piece.",
+      imgs: [I.mbracelets13, I.mbracelets14, I.mbracelets15],
+      features: ["22K Gold", "Anchor Link", "Box Clasp", "BIS Certified"],
+    },
+    {
+      name: "Twisted Rope Bracelet",
+      desc: "A thicker version of the twisted rope design in 22K gold — bold and masculine.",
+      imgs: [I.mbracelets16, I.mbracelets17, I.mbracelets18],
+      features: ["22K Gold", "Twisted Rope Design", "Box Clasp", "Hallmarked"],
+    },
+    {
+      name: "Cuban Link Bracelet",
+      desc: "Thick, interlocking Cuban links in 22K gold — a bold and masculine design.",
+      imgs: [I.mbracelets19, I.mbracelets20, I.mbracelets21],
+      features: ["22K Gold", "Cuban Link", "Box Clasp", "BIS Certified"],
+    },
+    {
+      name: "Box Link Bracelet",
+      desc: "A sleek box-link bracelet in 22K gold — modern and versatile.",
+      imgs: [I.mbracelets22, I.mbracelets23, I.mbracelets24],
+      features: ["22K Gold", "Box Link", "Box Clasp", "Hallmarked"],
+    },
+    {
+      name: "Snake Bracelet",
+      desc: "Smooth, flexible snake bracelet in 22K gold — a modern classic.",
+      imgs: [I.mbracelets25, I.mbracelets26, I.mbracelets27],
+      features: ["22K Gold", "Snake Design", "Box Clasp", "BIS Certified"],
+    },
+    {
+      name: "Herringbone Bracelet",
+      desc: "Flat, flexible herringbone weave in 22K gold that lies smooth against the skin.",
+      imgs: [I.mbracelets28, I.mbracelets29, I.mbracelets30],
+      features: ["22K Gold", "Herringbone Pattern", "Box Clasp", "Hallmarked"],
+    },
+    {
+      name: "Diamond-set Bracelet",
+      desc: "A channel of brilliant diamonds set in 18K gold — understated sparkle.",
+      imgs: [I.mbracelets31, I.mbracelets32, I.mbracelets33],
+      features: ["18K Gold", "Diamond Channel", "Box Clasp", "GIA Certified"],
+    },
+    {
+      name: "Custom Engraved Bracelet",
+      desc: "A 22K gold bracelet that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.mbracelets34, I.mbracelets35, I.mbracelets36],
+      features: ["22K Gold", "Custom Engraving", "Box Clasp", "BIS Certified"],
+    },
+    {
+      name: "Hammered Bracelet",
+      desc: "A hammered texture on a solid 22K gold bracelet — rugged yet refined.",
+      imgs: [I.mbracelets37, I.mbracelets38, I.mbracelets39],
+      features: ["22K Gold", "Hammered Texture", "Box Clasp", "Hallmarked"],
+    },
+    {
+      name: "Black Rhodium Bracelet",
+      desc: "A 22K gold bracelet plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.mbracelets40, I.mbracelets41, I.mbracelets42],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Box Clasp",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Two-tone Gold Bracelet",
+      desc: "A 22K gold bracelet with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.mbracelets43, I.mbracelets44, I.mbracelets45],
+      features: ["22K Gold", "18K Gold Inlay", "Box Clasp", "Hallmarked"],
+    },
+    {
+      name: "Geometric Pattern Bracelet",
+      desc: "A 22K gold bracelet engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.mbracelets46, I.mbracelets47, I.mbracelets48],
+      features: [
+        "22K Gold",
+        "Geometric Engraving",
+        "Box Clasp",
+        "BIS Certified",
+      ],
+    },
   ],
-  'gold/womens/bracelets': [
-    { name:'Tennis Bracelet',        desc:'A continuous channel of brilliant diamonds in 18K gold — the definitive luxury bracelet.',imgs:[I.wbracelets,I.wbracelets2,I.wbracelets3], features:['18K Gold','F-G VS Diamonds','Box Clasp','GIA Certified'] },
-    { name:'Gold Charm Bracelet',    desc:'A delicate 22K gold chain with three traditional charms — personal and meaningful.',      imgs:[I.wbracelets4,I.wbracelets5,I.wbracelets6], features:['22K Gold','3 Charms Included','Lobster Clasp','Customisable'] },
-    { name:'Bangle with Stones',     desc:'A solid 22K gold bangle studded with ruby and emerald accents.',                         imgs:[I.b2,I.b3,I.b1], features:['22K Gold','Ruby & Emerald','Polished Finish','BIS Certified'] },
-    { name:'Twisted Rope Bracelet',  desc:'A twisted rope design in 22K gold — a classic feminine bracelet.',                        imgs:[I.wbracelets7,I.wbracelets8,I.wbracelets9], features:['22K Gold','Twisted Rope Design','Lobster Clasp','BIS Certified'] },
-    { name:'Hammered Bracelet',        desc:'A hammered texture on a solid 22K gold bracelet — rugged yet refined.',                   imgs:[I.wbracelets10,I.wbracelets11,I.wbracelets12], features:['22K Gold','Hammered Texture','Lobster Clasp','Hallmarked'] },
-    { name:'Black Rhodium Bracelet',        desc:'A 22K gold bracelet plated with black rhodium for a bold, contemporary look.',            imgs:[I.wbracelets13,I.wbracelets14,I.wbracelets15], features:['22K Gold','Black Rhodium Plating','Lobster Clasp','BIS Certified'] },
-    { name:'Two-tone Gold Bracelet',        desc:'A 22K gold bracelet with a contrasting 18K gold inlay — a striking two-tone effect.',      imgs:[I.wbracelets16,I.wbracelets17,I.wbracelets18], features:['22K Gold','18K Gold Inlay','Lobster Clasp','Hallmarked'] },
-    { name:'Geometric Pattern Bracelet',        desc:'A 22K gold bracelet engraved with geometric patterns for a modern aesthetic.',           imgs:[I.wbracelets19,I.wbracelets20,I.wbracelets21], features:['22K Gold','Geometric Engraving','Lobster Clasp','BIS Certified'] },
-    { name:'Sapphire-set Bracelet',        desc:'A 22K gold bracelet set with deep blue sapphires — a regal statement piece.',             imgs:[I.wbracelets22,I.wbracelets23,I.wbracelets24], features:['22K Gold','Sapphire Gemstones','Lobster Clasp','GIA Certified'] },
-    { name:'Emerald-set Bracelet',        desc:'A 22K gold bracelet set with vibrant green emeralds — a touch of luxury and color.',       imgs:[I.wbracelets25,I.wbracelets26,I.wbracelets27], features:['22K Gold','Emerald Gemstones','Lobster Clasp','GIA Certified'] },
-    { name:'Ruby-set Bracelet',        desc:'A 22K gold bracelet set with rich red rubies — a classic choice for elegance.',             imgs:[I.wbracelets28,I.wbracelets29,I.wbracelets30], features:['22K Gold','Ruby Gemstones','Lobster Clasp','GIA Certified'] },
-    { name:'Custom Engraved Bracelet',        desc:'A 22K gold bracelet that can be personalized with your own engraving — a truly unique piece.',   imgs:[I.wbracelets31,I.wbracelets32,I.wbracelets33], features:['22K Gold','Custom Engraving','Lobster Clasp','BIS Certified'] },
-    { name:'Diamond-set Bracelet',        desc:'A channel of brilliant diamonds set in 18K gold — understated sparkle.',                  imgs:[I.wbracelets34,I.wbracelets35,I.wbracelets36], features:['18K Gold','Diamond Channel','Lobster Clasp','GIA Certified'] },
-    { name:'Hammered Bracelet',        desc:'A hammered texture on a solid 22K gold bracelet — rugged yet refined.',                   imgs:[I.wbracelets37,I.wbracelets38,I.wbracelets39], features:['22K Gold','Hammered Texture','Lobster Clasp','Hallmarked'] },
-    { name:'Black Rhodium Bracelet',        desc:'A 22K gold bracelet plated with black rhodium for a bold, contemporary look.',            imgs:[I.wbracelets40,I.wbracelets41,I.wbracelets42], features:['22K Gold','Black Rhodium Plating','Lobster Clasp','BIS Certified'] },
-    { name:'Two-tone Gold Bracelet',        desc:'A 22K gold bracelet with a contrasting 18K gold inlay — a striking two-tone effect.',      imgs:[I.wbracelets43,I.wbracelets44,I.wbracelets45], features:['22K Gold','18K Gold Inlay','Lobster Clasp','Hallmarked'] },
+  "gold/womens/bracelets": [
+    {
+      name: "Tennis Bracelet",
+      desc: "A continuous channel of brilliant diamonds in 18K gold — the definitive luxury bracelet.",
+      imgs: [I.wbracelets, I.wbracelets2, I.wbracelets3],
+      features: ["18K Gold", "F-G VS Diamonds", "Box Clasp", "GIA Certified"],
+    },
+    {
+      name: "Gold Charm Bracelet",
+      desc: "A delicate 22K gold chain with three traditional charms — personal and meaningful.",
+      imgs: [I.wbracelets4, I.wbracelets5, I.wbracelets6],
+      features: [
+        "22K Gold",
+        "3 Charms Included",
+        "Lobster Clasp",
+        "Customisable",
+      ],
+    },
+    {
+      name: "Bangle with Stones",
+      desc: "A solid 22K gold bangle studded with ruby and emerald accents.",
+      imgs: [I.b2, I.b3, I.b1],
+      features: [
+        "22K Gold",
+        "Ruby & Emerald",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Twisted Rope Bracelet",
+      desc: "A twisted rope design in 22K gold — a classic feminine bracelet.",
+      imgs: [I.wbracelets7, I.wbracelets8, I.wbracelets9],
+      features: [
+        "22K Gold",
+        "Twisted Rope Design",
+        "Lobster Clasp",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Hammered Bracelet",
+      desc: "A hammered texture on a solid 22K gold bracelet — rugged yet refined.",
+      imgs: [I.wbracelets10, I.wbracelets11, I.wbracelets12],
+      features: ["22K Gold", "Hammered Texture", "Lobster Clasp", "Hallmarked"],
+    },
+    {
+      name: "Black Rhodium Bracelet",
+      desc: "A 22K gold bracelet plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.wbracelets13, I.wbracelets14, I.wbracelets15],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Lobster Clasp",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Two-tone Gold Bracelet",
+      desc: "A 22K gold bracelet with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.wbracelets16, I.wbracelets17, I.wbracelets18],
+      features: ["22K Gold", "18K Gold Inlay", "Lobster Clasp", "Hallmarked"],
+    },
+    {
+      name: "Geometric Pattern Bracelet",
+      desc: "A 22K gold bracelet engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.wbracelets19, I.wbracelets20, I.wbracelets21],
+      features: [
+        "22K Gold",
+        "Geometric Engraving",
+        "Lobster Clasp",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Sapphire-set Bracelet",
+      desc: "A 22K gold bracelet set with deep blue sapphires — a regal statement piece.",
+      imgs: [I.wbracelets22, I.wbracelets23, I.wbracelets24],
+      features: [
+        "22K Gold",
+        "Sapphire Gemstones",
+        "Lobster Clasp",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Emerald-set Bracelet",
+      desc: "A 22K gold bracelet set with vibrant green emeralds — a touch of luxury and color.",
+      imgs: [I.wbracelets25, I.wbracelets26, I.wbracelets27],
+      features: [
+        "22K Gold",
+        "Emerald Gemstones",
+        "Lobster Clasp",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Ruby-set Bracelet",
+      desc: "A 22K gold bracelet set with rich red rubies — a classic choice for elegance.",
+      imgs: [I.wbracelets28, I.wbracelets29, I.wbracelets30],
+      features: [
+        "22K Gold",
+        "Ruby Gemstones",
+        "Lobster Clasp",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Custom Engraved Bracelet",
+      desc: "A 22K gold bracelet that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.wbracelets31, I.wbracelets32, I.wbracelets33],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Lobster Clasp",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Diamond-set Bracelet",
+      desc: "A channel of brilliant diamonds set in 18K gold — understated sparkle.",
+      imgs: [I.wbracelets34, I.wbracelets35, I.wbracelets36],
+      features: [
+        "18K Gold",
+        "Diamond Channel",
+        "Lobster Clasp",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Hammered Bracelet",
+      desc: "A hammered texture on a solid 22K gold bracelet — rugged yet refined.",
+      imgs: [I.wbracelets37, I.wbracelets38, I.wbracelets39],
+      features: ["22K Gold", "Hammered Texture", "Lobster Clasp", "Hallmarked"],
+    },
+    {
+      name: "Black Rhodium Bracelet",
+      desc: "A 22K gold bracelet plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.wbracelets40, I.wbracelets41, I.wbracelets42],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Lobster Clasp",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Two-tone Gold Bracelet",
+      desc: "A 22K gold bracelet with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.wbracelets43, I.wbracelets44, I.wbracelets45],
+      features: ["22K Gold", "18K Gold Inlay", "Lobster Clasp", "Hallmarked"],
+    },
   ],
-  'gold/mens/kada': [
-    { name:'Plain Kada — Heavy',     desc:'A thick solid 22K gold kada — worn as a mark of tradition and strength.',                 imgs:[I.mkada,I.mkada2,I.mkada3], features:['22K Gold','Open-cuff','Solid Weight','BIS Certified'] },
-    { name:'Rope-edge Kada',         desc:'Traditional rope-edge design on a solid 22K gold open kada.',                            imgs:[I.mkada4,I.mkada5,I.mkada6], features:['22K Gold','Rope Edge','Open Cuff','Hallmarked'] },
-    { name:'Diamond-set Kada',       desc:'A channel of brilliant diamonds set in 18K gold — understated sparkle.',                  imgs:[I.mkada7,I.mkada8,I.mkada9], features:['18K Gold','Diamond Channel','Open Cuff','GIA Certified'] },
-    { name:'Hammered Kada',          desc:'A hammered texture on a solid 22K gold kada — rugged yet refined.',                      imgs:[I.mkada10,I.mkada11,I.mkada12], features:['22K Gold','Hammered Texture','Open Cuff','BIS Certified'] },
-    { name:'Black Rhodium Kada',     desc:'A 22K gold kada plated with black rhodium for a bold, contemporary look.',                imgs:[I.mkada13,I.mkada14,I.mkada15], features:['22K Gold','Black Rhodium Plating','Open Cuff','Hallmarked'] },
-    { name:'Two-tone Gold Kada',     desc:'A 22K gold kada with a contrasting 18K gold inlay — a striking two-tone effect.',          imgs:[I.mkada16,I.mkada17,I.mkada18], features:['22K Gold','18K Gold Inlay','Open Cuff','BIS Certified'] },
-    { name:'Geometric Pattern Kada',  desc:'A 22K gold kada engraved with geometric patterns for a modern aesthetic.',               imgs:[I.mkada19,I.mkada20,I.mkada21], features:['22K Gold','Geometric Engraving','Open Cuff','Hallmarked'] },
-    { name:'Floral Motif Kada',          desc:'A delicate 22K gold kada adorned with engraved floral motifs — masculine elegance.',       imgs:[I.mkada22,I.mkada23,I.mkada24], features:['22K Gold','Floral Engraving','Open Cuff','BIS Certified'] },
-    { name:'Sapphire-set Kada',           desc:'A 22K gold kada set with a deep blue sapphire — a regal statement piece.',                 imgs:[I.mkada25,I.mkada26,I.mkada27], features:['22K Gold','Sapphire Gemstone','Open Cuff','GIA Certified'] },
-    { name:'Emerald-set Kada',            desc:'A 22K gold kada set with a vibrant green emerald — a touch of luxury and color.',           imgs:[I.mkada28,I.mkada29,I.mkada30], features:['22K Gold','Emerald Gemstone','Open Cuff','GIA Certified'] },
-    { name:'Ruby-set Kada',                desc:'A 22K gold kada set with a rich red ruby — a classic choice for elegance.',                 imgs:[I.mkada31,I.mkada32,I.mkada33], features:['22K Gold','Ruby Gemstone','Open Cuff','GIA Certified'] },
-    { name:'Custom Engraved Kada',         desc:'A 22K gold kada that can be personalized with your own engraving — a truly unique piece.',   imgs:[I.mkada34,I.mkada35,I.mkada36], features:['22K Gold','Custom Engraving','Open Cuff','BIS Certified'] },
-    { name:'Diamond-set Kada',               desc:'A channel of brilliant diamonds set in 18K gold — understated sparkle.',             imgs:[I.mkada37,I.mkada38,I.mkada39], features:['18K Gold','Diamond Channel','Open Cuff','GIA Certified'] },
-    { name:'Hammered Kada',                    desc:'A hammered texture on a solid 22K gold kada — rugged yet refined.',                      imgs:[I.mkada40,I.mkada41,I.mkada42], features:['22K Gold','Hammered Texture','Open Cuff','BIS Certified'] },
-    { name:'Black Rhodium Kada',                 desc:'A 22K gold kada plated with black rhodium for a bold, contemporary look.',                imgs:[I.mkada43,I.mkada44,I.mkada45], features:['22K Gold','Black Rhodium Plating','Open Cuff','Hallmarked'] },
-    { name:'Two-tone Gold Kada',                 desc:'A 22K gold kada with a contrasting 18K gold inlay — a striking two-tone effect.',          imgs:[I.mkada46,I.mkada47,I.mkada48], features:['22K Gold','18K Gold Inlay','Open Cuff','BIS Certified'] },
+  "gold/mens/kada": [
+    {
+      name: "Plain Kada — Heavy",
+      desc: "A thick solid 22K gold kada — worn as a mark of tradition and strength.",
+      imgs: [I.mkada, I.mkada2, I.mkada3],
+      features: ["22K Gold", "Open-cuff", "Solid Weight", "BIS Certified"],
+    },
+    {
+      name: "Rope-edge Kada",
+      desc: "Traditional rope-edge design on a solid 22K gold open kada.",
+      imgs: [I.mkada4, I.mkada5, I.mkada6],
+      features: ["22K Gold", "Rope Edge", "Open Cuff", "Hallmarked"],
+    },
+    {
+      name: "Diamond-set Kada",
+      desc: "A channel of brilliant diamonds set in 18K gold — understated sparkle.",
+      imgs: [I.mkada7, I.mkada8, I.mkada9],
+      features: ["18K Gold", "Diamond Channel", "Open Cuff", "GIA Certified"],
+    },
+    {
+      name: "Hammered Kada",
+      desc: "A hammered texture on a solid 22K gold kada — rugged yet refined.",
+      imgs: [I.mkada10, I.mkada11, I.mkada12],
+      features: ["22K Gold", "Hammered Texture", "Open Cuff", "BIS Certified"],
+    },
+    {
+      name: "Black Rhodium Kada",
+      desc: "A 22K gold kada plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.mkada13, I.mkada14, I.mkada15],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Open Cuff",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Two-tone Gold Kada",
+      desc: "A 22K gold kada with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.mkada16, I.mkada17, I.mkada18],
+      features: ["22K Gold", "18K Gold Inlay", "Open Cuff", "BIS Certified"],
+    },
+    {
+      name: "Geometric Pattern Kada",
+      desc: "A 22K gold kada engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.mkada19, I.mkada20, I.mkada21],
+      features: ["22K Gold", "Geometric Engraving", "Open Cuff", "Hallmarked"],
+    },
+    {
+      name: "Floral Motif Kada",
+      desc: "A delicate 22K gold kada adorned with engraved floral motifs — masculine elegance.",
+      imgs: [I.mkada22, I.mkada23, I.mkada24],
+      features: ["22K Gold", "Floral Engraving", "Open Cuff", "BIS Certified"],
+    },
+    {
+      name: "Sapphire-set Kada",
+      desc: "A 22K gold kada set with a deep blue sapphire — a regal statement piece.",
+      imgs: [I.mkada25, I.mkada26, I.mkada27],
+      features: ["22K Gold", "Sapphire Gemstone", "Open Cuff", "GIA Certified"],
+    },
+    {
+      name: "Emerald-set Kada",
+      desc: "A 22K gold kada set with a vibrant green emerald — a touch of luxury and color.",
+      imgs: [I.mkada28, I.mkada29, I.mkada30],
+      features: ["22K Gold", "Emerald Gemstone", "Open Cuff", "GIA Certified"],
+    },
+    {
+      name: "Ruby-set Kada",
+      desc: "A 22K gold kada set with a rich red ruby — a classic choice for elegance.",
+      imgs: [I.mkada31, I.mkada32, I.mkada33],
+      features: ["22K Gold", "Ruby Gemstone", "Open Cuff", "GIA Certified"],
+    },
+    {
+      name: "Custom Engraved Kada",
+      desc: "A 22K gold kada that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.mkada34, I.mkada35, I.mkada36],
+      features: ["22K Gold", "Custom Engraving", "Open Cuff", "BIS Certified"],
+    },
+    {
+      name: "Diamond-set Kada",
+      desc: "A channel of brilliant diamonds set in 18K gold — understated sparkle.",
+      imgs: [I.mkada37, I.mkada38, I.mkada39],
+      features: ["18K Gold", "Diamond Channel", "Open Cuff", "GIA Certified"],
+    },
+    {
+      name: "Hammered Kada",
+      desc: "A hammered texture on a solid 22K gold kada — rugged yet refined.",
+      imgs: [I.mkada40, I.mkada41, I.mkada42],
+      features: ["22K Gold", "Hammered Texture", "Open Cuff", "BIS Certified"],
+    },
+    {
+      name: "Black Rhodium Kada",
+      desc: "A 22K gold kada plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.mkada43, I.mkada44, I.mkada45],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Open Cuff",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Two-tone Gold Kada",
+      desc: "A 22K gold kada with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.mkada46, I.mkada47, I.mkada48],
+      features: ["22K Gold", "18K Gold Inlay", "Open Cuff", "BIS Certified"],
+    },
   ],
-  'gold/womens/kada': [
-    { name:'Floral Kada',            desc:'A delicate 22K gold kada with hand-carved floral motifs all around.',                    imgs:[I.kada,I.kada2,I.kada3], features:['22K Gold','Floral Motif','Lightweight','BIS Certified'] },
-    { name:'Diamond Kada',           desc:'A 22K gold kada channel-set with brilliant diamonds along its span.',                    imgs:[I.kada4,I.kada5,I.kada6], features:['22K Gold','Diamond-set','Safety Clasp','GIA Certified'] },
-    { name:'Twisted Rope Kada',      desc:'A twisted rope design in 22K gold — a classic feminine kada.',                            imgs:[I.kada7,I.kada8,I.kada9], features:['22K Gold','Twisted Rope Design','Lightweight','BIS Certified'] },
-    { name:'Hammered Kada',          desc:'A hammered texture on a solid 22K gold kada — rugged yet refined.',                      imgs:[I.kada10,I.kada11,I.kada12], features:['22K Gold','Hammered Texture','Lightweight','BIS Certified'] },
-    { name:'Black Rhodium Kada',     desc:'A 22K gold kada plated with black rhodium for a bold, contemporary look.',                imgs:[I.kada13,I.kada14,I.kada15], features:['22K Gold','Black Rhodium Plating','Lightweight','Hallmarked'] },
-    { name:'Two-tone Gold Kada',     desc:'A 22K gold kada with a contrasting 18K gold inlay — a striking two-tone effect.',          imgs:[I.kada16,I.kada17,I.kada18], features:['22K Gold','18K Gold Inlay','Lightweight','BIS Certified'] },
-    { name:'Geometric Pattern Kada', desc:'A 22K gold kada engraved with geometric patterns for a modern aesthetic.',               imgs:[I.kada19,I.kada20,I.kada21], features:['22K Gold','Geometric Engraving','Lightweight','Hallmarked'] },
-    { name:'Floral Motif Kada',          desc:'A delicate 22K gold kada adorned with engraved floral motifs — feminine elegance.',       imgs:[I.kada22,I.kada23,I.kada24], features:['22K Gold','Floral Engraving','Lightweight','BIS Certified'] },
-    { name:'Sapphire-set Kada',           desc:'A 22K gold kada set with a deep blue sapphire — a regal statement piece.',                 imgs:[I.kada25,I.kada26,I.kada27], features:['22K Gold','Sapphire Gemstone','Lightweight','GIA Certified'] },
-    { name:'Emerald-set Kada',            desc:'A 22K gold kada set with a vibrant green emerald — a touch of luxury and color.',           imgs:[I.kada28,I.kada29,I.kada30], features:['22K Gold','Emerald Gemstone','Lightweight','GIA Certified'] },
-    { name:'Ruby-set Kada',                desc:'A 22K gold kada set with a rich red ruby — a classic choice for elegance.',                 imgs:[I.kada31,I.kada32,I.kada33], features:['22K Gold','Ruby Gemstone','Lightweight','GIA Certified'] },
-    { name:'Custom Engraved Kada',         desc:'A 22K gold kada that can be personalized with your own engraving — a truly unique piece.',   imgs:[I.kada34,I.kada35,I.kada36], features:['22K Gold','Custom Engraving','Lightweight','BIS Certified'] },
-    { name:'Diamond-set Kada',               desc:'A channel of brilliant diamonds set in 18K gold — understated sparkle.',             imgs:[I.kada37,I.kada38,I.kada39], features:['18K Gold','Diamond Channel','Lightweight','GIA Certified'] },
-    { name:'Hammered Kada',                    desc:'A hammered texture on a solid 22K gold kada — rugged yet refined.',                      imgs:[I.kada40,I.kada41,I.kada42], features:['22K Gold','Hammered Texture','Lightweight','BIS Certified'] },
-    { name:'Black Rhodium Kada',                 desc:'A 22K gold kada plated with black rhodium for a bold, contemporary look.',                imgs:[I.kada43,I.kada44,I.kada45], features:['22K Gold','Black Rhodium Plating','Lightweight','Hallmarked'] },
-    { name:'Two-tone Gold Kada',                 desc:'A 22K gold kada with a contrasting 18K gold inlay — a striking two-tone effect.',          imgs:[I.kada46,I.kada47,I.kada48], features:['22K Gold','18K Gold Inlay','Lightweight','BIS Certified'] },
+  "gold/womens/kada": [
+    {
+      name: "Floral Kada",
+      desc: "A delicate 22K gold kada with hand-carved floral motifs all around.",
+      imgs: [I.kada, I.kada2, I.kada3],
+      features: ["22K Gold", "Floral Motif", "Lightweight", "BIS Certified"],
+    },
+    {
+      name: "Diamond Kada",
+      desc: "A 22K gold kada channel-set with brilliant diamonds along its span.",
+      imgs: [I.kada4, I.kada5, I.kada6],
+      features: ["22K Gold", "Diamond-set", "Safety Clasp", "GIA Certified"],
+    },
+    {
+      name: "Twisted Rope Kada",
+      desc: "A twisted rope design in 22K gold — a classic feminine kada.",
+      imgs: [I.kada7, I.kada8, I.kada9],
+      features: [
+        "22K Gold",
+        "Twisted Rope Design",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Hammered Kada",
+      desc: "A hammered texture on a solid 22K gold kada — rugged yet refined.",
+      imgs: [I.kada10, I.kada11, I.kada12],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Black Rhodium Kada",
+      desc: "A 22K gold kada plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.kada13, I.kada14, I.kada15],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Lightweight",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Two-tone Gold Kada",
+      desc: "A 22K gold kada with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.kada16, I.kada17, I.kada18],
+      features: ["22K Gold", "18K Gold Inlay", "Lightweight", "BIS Certified"],
+    },
+    {
+      name: "Geometric Pattern Kada",
+      desc: "A 22K gold kada engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.kada19, I.kada20, I.kada21],
+      features: [
+        "22K Gold",
+        "Geometric Engraving",
+        "Lightweight",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Floral Motif Kada",
+      desc: "A delicate 22K gold kada adorned with engraved floral motifs — feminine elegance.",
+      imgs: [I.kada22, I.kada23, I.kada24],
+      features: [
+        "22K Gold",
+        "Floral Engraving",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Sapphire-set Kada",
+      desc: "A 22K gold kada set with a deep blue sapphire — a regal statement piece.",
+      imgs: [I.kada25, I.kada26, I.kada27],
+      features: [
+        "22K Gold",
+        "Sapphire Gemstone",
+        "Lightweight",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Emerald-set Kada",
+      desc: "A 22K gold kada set with a vibrant green emerald — a touch of luxury and color.",
+      imgs: [I.kada28, I.kada29, I.kada30],
+      features: [
+        "22K Gold",
+        "Emerald Gemstone",
+        "Lightweight",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Ruby-set Kada",
+      desc: "A 22K gold kada set with a rich red ruby — a classic choice for elegance.",
+      imgs: [I.kada31, I.kada32, I.kada33],
+      features: ["22K Gold", "Ruby Gemstone", "Lightweight", "GIA Certified"],
+    },
+    {
+      name: "Custom Engraved Kada",
+      desc: "A 22K gold kada that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.kada34, I.kada35, I.kada36],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Diamond-set Kada",
+      desc: "A channel of brilliant diamonds set in 18K gold — understated sparkle.",
+      imgs: [I.kada37, I.kada38, I.kada39],
+      features: ["18K Gold", "Diamond Channel", "Lightweight", "GIA Certified"],
+    },
+    {
+      name: "Hammered Kada",
+      desc: "A hammered texture on a solid 22K gold kada — rugged yet refined.",
+      imgs: [I.kada40, I.kada41, I.kada42],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Black Rhodium Kada",
+      desc: "A 22K gold kada plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.kada43, I.kada44, I.kada45],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Lightweight",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Two-tone Gold Kada",
+      desc: "A 22K gold kada with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.kada46, I.kada47, I.kada48],
+      features: ["22K Gold", "18K Gold Inlay", "Lightweight", "BIS Certified"],
+    },
   ],
-  'gold/mens/kanthi': [
-    { name:'Traditional Kanthi',     desc:'A devotional kanthi necklace in 22K gold with sacred bead design.',                      imgs:[I.kanthi3,I.kanthi,I.kanthi2], features:['22K Gold','Sacred Beads','Traditional Design','BIS Certified'] },
-    { name:'Om Kanthi',              desc:'Om-embossed beads strung in 22K gold — worn as a devotional ornament.',                  imgs:[I.kanthi4,I.kanthi5,I.kanthi6], features:['22K Gold','Om Motif Beads','Adjustable Length','Hallmarked'] },
-    { name:'Maa Kanthi',             desc:'A kanthi necklace in 22K gold with "Maa" engraved on the beads — a tribute to motherhood.', imgs:[I.kanthi7,I.kanthi8,I.kanthi9], features:['22K Gold','Maa Engraved Beads','Adjustable Length','BIS Certified'] },
-    { name:'Gurjar Kanthi',          desc:'A kanthi necklace in 22K gold with Gurjar community motifs on the beads.',                imgs:[I.kanthi10,I.kanthi11,I.kanthi12], features:['22K Gold','Gurjar Motif Beads','Adjustable Length','Hallmarked'] },
-    { name:'Diamond-set Kanthi',       desc:'A channel of brilliant diamonds set in 18K gold beads — understated sparkle.',             imgs:[I.kanthi13,I.kanthi14,I.kanthi15], features:['18K Gold','Diamond Channel','Adjustable Length','GIA Certified'] },
-    { name:'Custom Engraved Kanthi',    desc:'A 22K gold kanthi that can be personalized with your own engraving on the beads.',         imgs:[I.kanthi16,I.kanthi17,I.kanthi18], features:['22K Gold','Custom Engraving','Adjustable Length','BIS Certified'] },
-    { name:'Hammered Kanthi',           desc:'A hammered texture on a solid 22K gold kanthi — rugged yet refined.',                      imgs:[I.kanthi19,I.kanthi20,I.kanthi21], features:['22K Gold','Hammered Texture','Adjustable Length','Hallmarked'] },
-    { name:'Black Rhodium Kanthi',        desc:'A 22K gold kanthi plated with black rhodium for a bold, contemporary look.',                imgs:[I.kanthi22,I.kanthi23,I.kanthi24], features:['22K Gold','Black Rhodium Plating','Adjustable Length','BIS Certified'] },
-    { name:'Two-tone Gold Kanthi',        desc:'A 22K gold kanthi with a contrasting 18K gold inlay — a striking two-tone effect.',          imgs:[I.kanthi25,I.kanthi26,I.kanthi27], features:['22K Gold','18K Gold Inlay','Adjustable Length','Hallmarked'] },
-    { name:'Geometric Pattern Kanthi',    desc:'A 22K gold kanthi engraved with geometric patterns for a modern aesthetic.',               imgs:[I.kanthi28,I.kanthi29,I.kanthi30], features:['22K Gold','Geometric Engraving','Adjustable Length','BIS Certified'] },
-    { name:'Floral Motif Kanthi',         desc:'A delicate 22K gold kanthi adorned with engraved floral motifs — masculine elegance.',       imgs:[I.kanthi31,I.kanthi32,I.kanthi33], features:['22K Gold','Floral Engraving','Adjustable Length','Hallmarked'] },
+  "gold/mens/kanthi": [
+    {
+      name: "Traditional Kanthi",
+      desc: "A devotional kanthi necklace in 22K gold with sacred bead design.",
+      imgs: [I.kanthi3, I.kanthi, I.kanthi2],
+      features: [
+        "22K Gold",
+        "Sacred Beads",
+        "Traditional Design",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Om Kanthi",
+      desc: "Om-embossed beads strung in 22K gold — worn as a devotional ornament.",
+      imgs: [I.kanthi4, I.kanthi5, I.kanthi6],
+      features: [
+        "22K Gold",
+        "Om Motif Beads",
+        "Adjustable Length",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Maa Kanthi",
+      desc: 'A kanthi necklace in 22K gold with "Maa" engraved on the beads — a tribute to motherhood.',
+      imgs: [I.kanthi7, I.kanthi8, I.kanthi9],
+      features: [
+        "22K Gold",
+        "Maa Engraved Beads",
+        "Adjustable Length",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Gurjar Kanthi",
+      desc: "A kanthi necklace in 22K gold with Gurjar community motifs on the beads.",
+      imgs: [I.kanthi10, I.kanthi11, I.kanthi12],
+      features: [
+        "22K Gold",
+        "Gurjar Motif Beads",
+        "Adjustable Length",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Diamond-set Kanthi",
+      desc: "A channel of brilliant diamonds set in 18K gold beads — understated sparkle.",
+      imgs: [I.kanthi13, I.kanthi14, I.kanthi15],
+      features: [
+        "18K Gold",
+        "Diamond Channel",
+        "Adjustable Length",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Custom Engraved Kanthi",
+      desc: "A 22K gold kanthi that can be personalized with your own engraving on the beads.",
+      imgs: [I.kanthi16, I.kanthi17, I.kanthi18],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Adjustable Length",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Hammered Kanthi",
+      desc: "A hammered texture on a solid 22K gold kanthi — rugged yet refined.",
+      imgs: [I.kanthi19, I.kanthi20, I.kanthi21],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Adjustable Length",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Black Rhodium Kanthi",
+      desc: "A 22K gold kanthi plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.kanthi22, I.kanthi23, I.kanthi24],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Adjustable Length",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Two-tone Gold Kanthi",
+      desc: "A 22K gold kanthi with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.kanthi25, I.kanthi26, I.kanthi27],
+      features: [
+        "22K Gold",
+        "18K Gold Inlay",
+        "Adjustable Length",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Geometric Pattern Kanthi",
+      desc: "A 22K gold kanthi engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.kanthi28, I.kanthi29, I.kanthi30],
+      features: [
+        "22K Gold",
+        "Geometric Engraving",
+        "Adjustable Length",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Floral Motif Kanthi",
+      desc: "A delicate 22K gold kanthi adorned with engraved floral motifs — masculine elegance.",
+      imgs: [I.kanthi31, I.kanthi32, I.kanthi33],
+      features: [
+        "22K Gold",
+        "Floral Engraving",
+        "Adjustable Length",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Sapphire-set Kanthi",
+      desc: "A 22K gold kanthi set with a deep blue sapphire — a regal statement piece.",
+      imgs: [I.kanthi34, I.kanthi35, I.kanthi36],
+      features: [
+        "22K Gold",
+        "Sapphire Gemstone",
+        "Adjustable Length",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Emerald-set Kanthi",
+      desc: "A 22K gold kanthi set with a vibrant green emerald — a touch of luxury and color.",
+      imgs: [I.kanthi37, I.kanthi38, I.kanthi39],
+      features: [
+        "22K Gold",
+        "Emerald Gemstone",
+        "Adjustable Length",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Ruby-set Kanthi",
+      desc: "A 22K gold kanthi set with a rich red ruby — a classic choice for elegance.",
+      imgs: [I.kanthi40, I.kanthi41, I.kanthi42],
+      features: [
+        "22K Gold",
+        "Ruby Gemstone",
+        "Adjustable Length",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Custom Engraved Kanthi",
+      desc: "A 22K gold kanthi that can be personalized with your own engraving on the beads.",
+      imgs: [I.kanthi43, I.kanthi44, I.kanthi45],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Adjustable Length",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Diamond-set Kanthi",
+      desc: "A channel of brilliant diamonds set in 18K gold beads — understated sparkle.",
+      imgs: [I.kanthi46, I.kanthi47, I.kanthi48],
+      features: [
+        "18K Gold",
+        "Diamond Channel",
+        "Adjustable Length",
+        "GIA Certified",
+      ],
+    },
   ],
-  'gold/mens/om-lockets': [
-    { name:'Om Locket — Classic',    desc:'A hand-carved Om symbol on a solid 22K gold locket — devotion made wearable.',           imgs:[I.omlocket,I.omlocket2,I.omlocket3], features:['22K Gold','Hand-carved Om','Wide Bail','Gift-ready Box'] },
-    { name:'Om Locket — 3D',         desc:'A three-dimensional Om locket in 22K gold with high-relief engraving.',                  imgs:[I.omlocket4,I.omlocket5,I.omlocket6], features:['22K Gold','3D Relief','Polished Finish','BIS Certified'] },
+  "gold/mens/om-lockets": [
+    {
+      name: "Om Locket — Classic",
+      desc: "A hand-carved Om symbol on a solid 22K gold locket — devotion made wearable.",
+      imgs: [I.omlocket, I.omlocket2, I.omlocket3],
+      features: ["22K Gold", "Hand-carved Om", "Wide Bail", "Gift-ready Box"],
+    },
+    {
+      name: "Om Locket — 3D",
+      desc: "A three-dimensional Om locket in 22K gold with high-relief engraving.",
+      imgs: [I.omlocket4, I.omlocket5, I.omlocket6],
+      features: ["22K Gold", "3D Relief", "Polished Finish", "BIS Certified"],
+    },
+    {
+      name: "Om Locket — Diamond Accent",
+      desc: "A 22K gold Om locket with a single channel-set diamond for understated sparkle.",
+      imgs: [I.omlocket7, I.omlocket8, I.omlocket9],
+      features: ["22K Gold", "Diamond Accent", "Wide Bail", "GIA Certified"],
+    },
+    {
+      name: "Om Locket — Black Rhodium",
+      desc: "A 22K gold Om locket plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.omlocket10, I.omlocket11, I.omlocket12],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Wide Bail",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Om Locket — Two-tone",
+      desc: "A 22K gold Om locket with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.omlocket13, I.omlocket14, I.omlocket15],
+      features: ["22K Gold", "18K Gold Inlay", "Wide Bail", "BIS Certified"],
+    },
+    {
+      name: "Om Locket — Geometric Pattern",
+      desc: "A 22K gold Om locket engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.omlocket16, I.omlocket17, I.omlocket18],
+      features: ["22K Gold", "Geometric Engraving", "Wide Bail", "Hallmarked"],
+    },
+    {
+      name: "Om Locket — Floral Motif",
+      desc: "A delicate 22K gold Om locket adorned with engraved floral motifs — masculine elegance.",
+      imgs: [I.omlocket19, I.omlocket20, I.omlocket21],
+      features: ["22K Gold", "Floral Engraving", "Wide Bail", "BIS Certified"],
+    },
+    {
+      name: "Om Locket — Sapphire-set",
+      desc: "A 22K gold Om locket set with a deep blue sapphire — a regal statement piece.",
+      imgs: [I.omlocket22, I.omlocket23, I.omlocket24],
+      features: ["22K Gold", "Sapphire Gemstone", "Wide Bail", "GIA Certified"],
+    },
+    {
+      name: "Om Locket — Emerald-set",
+      desc: "A 22K gold Om locket set with a vibrant green emerald — a touch of luxury and color.",
+      imgs: [I.omlocket25, I.omlocket26, I.omlocket27],
+      features: ["22K Gold", "Emerald Gemstone", "Wide Bail", "GIA Certified"],
+    },
+    {
+      name: "Om Locket — Ruby-set",
+      desc: "A 22K gold Om locket set with a rich red ruby — a classic choice for elegance.",
+      imgs: [I.omlocket28, I.omlocket29, I.omlocket30],
+      features: ["22K Gold", "Ruby Gemstone", "Wide Bail", "GIA Certified"],
+    },
+    {
+      name: "Om Locket — Custom Engraved",
+      desc: "A 22K gold Om locket that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.omlocket31, I.omlocket32, I.omlocket33],
+      features: ["22K Gold", "Custom Engraving", "Wide Bail", "BIS Certified"],
+    },
+    {
+      name: "Om Locket — Diamond-set",
+      desc: "A channel of brilliant diamonds set in 18K gold — understated sparkle.",
+      imgs: [I.omlocket34, I.omlocket35, I.omlocket36],
+      features: ["18K Gold", "Diamond Channel", "Wide Bail", "GIA Certified"],
+    },
+    {
+      name: "Om Locket — Hammered",
+      desc: "A hammered texture on a solid 22K gold Om locket — rugged yet refined.",
+      imgs: [I.omlocket37, I.omlocket38, I.omlocket39],
+      features: ["22K Gold", "Hammered Texture", "Wide Bail", "BIS Certified"],
+    },
+    {
+      name: "Om Locket — Black Rhodium",
+      desc: "A 22K gold Om locket plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.omlocket40, I.omlocket41, I.omlocket42],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Wide Bail",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Om Locket — Two-tone",
+      desc: "A 22K gold Om locket with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.omlocket43, I.omlocket44, I.omlocket45],
+      features: ["22K Gold", "18K Gold Inlay", "Wide Bail", "BIS Certified"],
+    },
+    {
+      name: "Om Locket — Geometric Pattern",
+      desc: "A 22K gold Om locket engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.omlocket46, I.omlocket47, I.omlocket48],
+      features: ["22K Gold", "Geometric Engraving", "Wide Bail", "Hallmarked"],
+    },
   ],
-  'gold/mens/maa-lockets': [
-    { name:'Maa Locket — Script',    desc:'The word "Maa" in elegant Devanagari script, crafted in solid 22K gold.',                imgs:[I.maalocket,I.maalocket2,I.maalocket3], features:['22K Gold','Devanagari Script','Handcrafted','Hallmarked'] },
-    { name:'Maa Locket — Portrait',  desc:'A goddess Durga portrait locket in 22K gold — a tribute to divine motherhood.',          imgs:[I.maalocket4,I.maalocket5,I.maalocket6], features:['22K Gold','Durga Portrait','Embossed Detail','BIS Certified'] },
+  "gold/mens/maa-lockets": [
+    {
+      name: "Maa Locket — Script",
+      desc: 'The word "Maa" in elegant Devanagari script, crafted in solid 22K gold.',
+      imgs: [I.maalocket, I.maalocket2, I.maalocket3],
+      features: ["22K Gold", "Devanagari Script", "Handcrafted", "Hallmarked"],
+    },
+    {
+      name: "Maa Locket — Portrait",
+      desc: "A goddess Durga portrait locket in 22K gold — a tribute to divine motherhood.",
+      imgs: [I.maalocket4, I.maalocket5, I.maalocket6],
+      features: [
+        "22K Gold",
+        "Durga Portrait",
+        "Embossed Detail",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Maa Locket — Diamond Accent",
+      desc: "A 22K gold Maa locket with a single channel-set diamond for understated sparkle.",
+      imgs: [I.maalocket7, I.maalocket8, I.maalocket9],
+      features: ["22K Gold", "Diamond Accent", "Wide Bail", "GIA Certified"],
+    },
+    {
+      name: "Maa Locket — Black Rhodium",
+      desc: "A 22K gold Maa locket plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.maalocket10, I.maalocket11, I.maalocket12],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Wide Bail",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Maa Locket — Two-tone",
+      desc: "A 22K gold Maa locket with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.maalocket13, I.maalocket14, I.maalocket15],
+      features: ["22K Gold", "18K Gold Inlay", "Wide Bail", "BIS Certified"],
+    },
+    {
+      name: "Maa Locket — Geometric Pattern",
+      desc: "A 22K gold Maa locket engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.maalocket16, I.maalocket17, I.maalocket18],
+      features: ["22K Gold", "Geometric Engraving", "Wide Bail", "Hallmarked"],
+    },
+    {
+      name: "Maa Locket — Floral Motif",
+      desc: "A delicate 22K gold Maa locket adorned with engraved floral motifs — feminine elegance.",
+      imgs: [I.maalocket19, I.maalocket20, I.maalocket21],
+      features: ["22K Gold", "Floral Engraving", "Wide Bail", "BIS Certified"],
+    },
+    {
+      name: "Maa Locket — Sapphire-set",
+      desc: "A 22K gold Maa locket set with a deep blue sapphire — a regal statement piece.",
+      imgs: [I.maalocket22, I.maalocket23, I.maalocket24],
+      features: ["22K Gold", "Sapphire Gemstone", "Wide Bail", "GIA Certified"],
+    },
+    {
+      name: "Maa Locket — Emerald-set",
+      desc: "A 22K gold Maa locket set with a vibrant green emerald — a touch of luxury and color.",
+      imgs: [I.maalocket25, I.maalocket26, I.maalocket27],
+      features: ["22K Gold", "Emerald Gemstone", "Wide Bail", "GIA Certified"],
+    },
+    {
+      name: "Maa Locket — Ruby-set",
+      desc: "A 22K gold Maa locket set with a rich red ruby — a classic choice for elegance.",
+      imgs: [I.maalocket28, I.maalocket29, I.maalocket30],
+      features: ["22K Gold", "Ruby Gemstone", "Wide Bail", "GIA Certified"],
+    },
+    {
+      name: "Maa Locket — Custom Engraved",
+      desc: "A 22K gold Maa locket that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.maalocket31, I.maalocket32, I.maalocket33],
+      features: ["22K Gold", "Custom Engraving", "Wide Bail", "BIS Certified"],
+    },
+    {
+      name: "Maa Locket — Diamond-set",
+      desc: "A channel of brilliant diamonds set in 18K gold — understated sparkle.",
+      imgs: [I.maalocket34, I.maalocket35, I.maalocket36],
+      features: ["18K Gold", "Diamond Channel", "Wide Bail", "GIA Certified"],
+    },
+    {
+      name: "Maa Locket — Hammered",
+      desc: "A hammered texture on a solid 22K gold Maa locket — rugged yet refined.",
+      imgs: [I.maalocket37, I.maalocket38, I.maalocket39],
+      features: ["22K Gold", "Hammered Texture", "Wide Bail", "BIS Certified"],
+    },
+    {
+      name: "Maa Locket — Black Rhodium",
+      desc: "A 22K gold Maa locket plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.maalocket40, I.maalocket41, I.maalocket42],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Wide Bail",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Maa Locket — Two-tone",
+      desc: "A 22K gold Maa locket with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.maalocket43, I.maalocket44, I.maalocket45],
+      features: ["22K Gold", "18K Gold Inlay", "Wide Bail", "BIS Certified"],
+    },
+    {
+      name: "Maa Locket — Geometric Pattern",
+      desc: "A 22K gold Maa locket engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.maalocket46, I.maalocket47, I.maalocket48],
+      features: ["22K Gold", "Geometric Engraving", "Wide Bail", "Hallmarked"],
+    },
   ],
-  'gold/mens/gurjar-lockets': [
-    { name:'Gurjar Pride Locket',    desc:'A locket in 22K gold featuring traditional Gurjar community motifs.',                    imgs:[I.gurjarlocket,I.gurjarlocket2,I.gurjarlocket3], features:['22K Gold','Gurjar Motif','Cultural Heritage','BIS Certified'] },
-    { name:'Gurjar Heritage Locket', desc:'Bold Gurjar warrior emblem cast in 22K gold — a locket of cultural pride.',              imgs:[I.gurjarlocket4,I.gurjarlocket5,I.gurjarlocket6], features:['22K Gold','Heritage Design','Deep Engraving','Hallmarked'] },
+  "gold/mens/gurjar-lockets": [
+    {
+      name: "Gurjar Pride Locket",
+      desc: "A locket in 22K gold featuring traditional Gurjar community motifs.",
+      imgs: [I.gurjarlocket, I.gurjarlocket2, I.gurjarlocket3],
+      features: [
+        "22K Gold",
+        "Gurjar Motif",
+        "Cultural Heritage",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Gurjar Heritage Locket",
+      desc: "Bold Gurjar warrior emblem cast in 22K gold — a locket of cultural pride.",
+      imgs: [I.gurjarlocket4, I.gurjarlocket5, I.gurjarlocket6],
+      features: ["22K Gold", "Heritage Design", "Deep Engraving", "Hallmarked"],
+    },
+    {
+      name: "Gurjar Community Locket",
+      desc: "A 22K gold locket with intricate Gurjar community symbols and patterns.",
+      imgs: [I.gurjarlocket7, I.gurjarlocket8, I.gurjarlocket9],
+      features: [
+        "22K Gold",
+        "Community Symbols",
+        "Handcrafted",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Gurjar Warrior Locket",
+      desc: "A locket in 22K gold depicting a Gurjar warrior in traditional attire.",
+      imgs: [I.gurjarlocket10, I.gurjarlocket11, I.gurjarlocket12],
+      features: [
+        "22K Gold",
+        "Warrior Motif",
+        "Detailed Craftsmanship",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Gurjar Pride Locket — Diamond Accent",
+      desc: "A 22K gold Gurjar locket with a single channel-set diamond for understated sparkle.",
+      imgs: [I.gurjarlocket13, I.gurjarlocket14, I.gurjarlocket15],
+      features: ["22K Gold", "Diamond Accent", "Wide Bail", "GIA Certified"],
+    },
+    {
+      name: "Gurjar Heritage Locket — Black Rhodium",
+      desc: "A 22K gold Gurjar locket plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.gurjarlocket16, I.gurjarlocket17, I.gurjarlocket18],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Wide Bail",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Gurjar Community Locket — Two-tone",
+      desc: "A 22K gold Gurjar locket with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.gurjarlocket19, I.gurjarlocket20, I.gurjarlocket21],
+      features: ["22K Gold", "18K Gold Inlay", "Wide Bail", "BIS Certified"],
+    },
+    {
+      name: "Gurjar Warrior Locket — Geometric Pattern",
+      desc: "A 22K gold Gurjar locket engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.gurjarlocket22, I.gurjarlocket23, I.gurjarlocket24],
+      features: ["22K Gold", "Geometric Engraving", "Wide Bail", "Hallmarked"],
+    },
+    {
+      name: "Gurjar Pride Locket — Floral Motif",
+      desc: "A delicate 22K gold Gurjar locket adorned with engraved floral motifs — masculine elegance.",
+      imgs: [I.gurjarlocket25, I.gurjarlocket26, I.gurjarlocket27],
+      features: ["22K Gold", "Floral Engraving", "Wide Bail", "BIS Certified"],
+    },
+    {
+      name: "Gurjar Heritage Locket — Sapphire-set",
+      desc: "A 22K gold Gurjar locket set with a deep blue sapphire — a regal statement piece.",
+      imgs: [I.gurjarlocket28, I.gurjarlocket29, I.gurjarlocket30],
+      features: ["22K Gold", "Sapphire Gemstone", "Wide Bail", "GIA Certified"],
+    },
+    {
+      name: "Gurjar Community Locket — Emerald-set",
+      desc: "A 22K gold Gurjar locket set with a vibrant green emerald — a touch of luxury and color.",
+      imgs: [I.gurjarlocket31, I.gurjarlocket32, I.gurjarlocket33],
+      features: ["22K Gold", "Emerald Gemstone", "Wide Bail", "GIA Certified"],
+    },
+    {
+      name: "Gurjar Warrior Locket — Ruby-set",
+      desc: "A 22K gold Gurjar locket set with a rich red ruby — a classic choice for elegance.",
+      imgs: [I.gurjarlocket34, I.gurjarlocket35, I.gurjarlocket36],
+      features: ["22K Gold", "Ruby Gemstone", "Wide Bail", "GIA Certified"],
+    },
+    {
+      name: "Gurjar Pride Locket — Custom Engraved",
+      desc: "A 22K gold Gurjar locket that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.gurjarlocket37, I.gurjarlocket38, I.gurjarlocket39],
+      features: ["22K Gold", "Custom Engraving", "Wide Bail", "BIS Certified"],
+    },
+    {
+      name: "Gurjar Heritage Locket — Diamond-set",
+      desc: "A channel of brilliant diamonds set in 18K gold — understated sparkle.",
+      imgs: [I.gurjarlocket40, I.gurjarlocket41, I.gurjarlocket42],
+      features: ["18K Gold", "Diamond Channel", "Wide Bail", "GIA Certified"],
+    },
+    {
+      name: "Gurjar Community Locket — Hammered",
+      desc: "A hammered texture on a solid 22K gold Gurjar locket — rugged yet refined.",
+      imgs: [I.gurjarlocket43, I.gurjarlocket44, I.gurjarlocket45],
+      features: ["22K Gold", "Hammered Texture", "Wide Bail", "BIS Certified"],
+    },
+    {
+      name: "Gurjar Warrior Locket — Black Rhodium",
+      desc: "A 22K gold Gurjar locket plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.gurjarlocket46, I.gurjarlocket47, I.gurjarlocket48],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Wide Bail",
+        "Hallmarked",
+      ],
+    },
   ],
-  'gold/mens/om-collection': [
-    { name:'Om Pendant',             desc:'A minimal Om pendant in 22K gold — sacred simplicity.',                                  imgs:[I.Om,I.Om3,I.Om2], features:['22K Gold','Om Design','Lightweight','BIS Certified'] },
-    { name:'Om Signet Ring',         desc:'The Om symbol inlaid in a classic 22K gold signet ring.',                                imgs:[I.Om4,I.Om5,I.Om6], features:['22K Gold','Om Inlay','Signet Style','Hallmarked'] },
+  "gold/mens/om-collection": [
+    {
+      name: "Om Pendant",
+      desc: "A minimal Om pendant in 22K gold — sacred simplicity.",
+      imgs: [I.Om, I.Om3, I.Om2],
+      features: ["22K Gold", "Om Design", "Lightweight", "BIS Certified"],
+    },
+    {
+      name: "Om Signet Ring",
+      desc: "The Om symbol inlaid in a classic 22K gold signet ring.",
+      imgs: [I.Om4, I.Om5, I.Om6],
+      features: ["22K Gold", "Om Inlay", "Signet Style", "Hallmarked"],
+    },
+    {
+      name: "Om Bracelet",
+      desc: "A 22K gold bracelet with a central Om charm — devotion on the wrist.",
+      imgs: [I.Om7, I.Om8, I.Om9],
+      features: ["22K Gold", "Om Charm", "Adjustable", "BIS Certified"],
+    },
+    {
+      name: "Om Cufflinks",
+      desc: "22K gold cufflinks engraved with the Om symbol — a subtle spiritual touch.",
+      imgs: [I.Om10, I.Om11, I.Om12],
+      features: ["22K Gold", "Om Engraving", "Cufflink Style", "Hallmarked"],
+    },
+    {
+      name: "Om Keychain",
+      desc: "A 22K gold keychain with a dangling Om charm — carry your devotion everywhere.",
+      imgs: [I.Om13, I.Om14, I.Om15],
+      features: ["22K Gold", "Om Charm", "Keychain Style", "BIS Certified"],
+    },
+    {
+      name: "Om Wall Hanging",
+      desc: "A decorative wall hanging in 22K gold with a central Om motif — sacred home decor.",
+      imgs: [I.Om16, I.Om17, I.Om18],
+      features: ["22K Gold", "Om Motif", "Wall Hanging", "Hallmarked"],
+    },
+    {
+      name: "Om Ring",
+      desc: "A 22K gold ring with a raised Om symbol — a wearable expression of faith.",
+      imgs: [I.Om19, I.Om20, I.Om21],
+      features: ["22K Gold", "Raised Om", "Ring Style", "BIS Certified"],
+    },
+    {
+      name: "Om Brooch",
+      desc: "A 22K gold brooch in the shape of the Om symbol — a statement accessory.",
+      imgs: [I.Om22, I.Om23, I.Om24],
+      features: ["22K Gold", "Om Shape", "Brooch Style", "Hallmarked"],
+    },
+    {
+      name: "Om Pendant with Gemstone",
+      desc: "A 22K gold Om pendant accented with a small sapphire — sacred and stylish.",
+      imgs: [I.Om25, I.Om26, I.Om27],
+      features: [
+        "22K Gold",
+        "Sapphire Accent",
+        "Pendant Style",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Om Bracelet with Diamond",
+      desc: "A 22K gold bracelet featuring a channel of diamonds around an Om charm — understated luxury.",
+      imgs: [I.Om28, I.Om29, I.Om30],
+      features: ["22K Gold", "Diamond Channel", "Om Charm", "GIA Certified"],
+    },
+    {
+      name: "Om Cufflinks with Enamel",
+      desc: "22K gold cufflinks with Om symbol inlaid with black enamel — a bold spiritual statement.",
+      imgs: [I.Om31, I.Om32, I.Om33],
+      features: ["22K Gold", "Enamel Inlay", "Cufflink Style", "Hallmarked"],
+    },
+    {
+      name: "Om Keychain with Engraving",
+      desc: "A 22K gold keychain engraved with the Om symbol — a personal touch to your devotion.",
+      imgs: [I.Om34, I.Om35, I.Om36],
+      features: ["22K Gold", "Engraved Om", "Keychain Style", "BIS Certified"],
+    },
+    {
+      name: "Om Wall Hanging with Gemstone",
+      desc: "A decorative wall hanging in 22K gold with Om motif and a small emerald accent.",
+      imgs: [I.Om37, I.Om38, I.Om39],
+      features: ["22K Gold", "Emerald Accent", "Wall Hanging", "GIA Certified"],
+    },
+    {
+      name: "Om Ring with Diamond",
+      desc: "A 22K gold ring with raised Om symbol and a channel of diamonds — sacred elegance.",
+      imgs: [I.Om40, I.Om41, I.Om42],
+      features: ["22K Gold", "Raised Om", "Diamond Channel", "GIA Certified"],
+    },
+    {
+      name: "Om Brooch with Sapphire",
+      desc: "A 22K gold brooch in the shape of Om symbol accented with a small sapphire — a statement of faith.",
+      imgs: [I.Om43, I.Om44, I.Om45],
+      features: [
+        "22K Gold",
+        "Sapphire Accent",
+        "Brooch Style",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Om Pendant with Ruby",
+      desc: "A 22K gold Om pendant accented with a small ruby — sacred and stylish.",
+      imgs: [I.Om46, I.Om47, I.Om48],
+      features: ["22K Gold", "Ruby Accent", "Pendant Style", "GIA Certified"],
+    },
   ],
-  'gold/womens/necklaces': [
-    { name:'Pearl Strand Necklace',  desc:'South Sea pearls strung on 18K gold silk — a classic that transcends generations.',      imgs:[I.necklaces2,I.necklaces,I.necklaces3], features:['18K Gold Clasp','South Sea Pearls','Hand-knotted','Luxury Box'] },
-    { name:'Layered Gold Necklace',  desc:'Three layers of 22K gold chains at varying lengths — effortlessly editorial.',           imgs:[I.necklaces4,I.necklaces5,I.necklaces6], features:['22K Gold','Triple Layer','Adjustable','BIS Certified'] },
+  "gold/womens/necklaces": [
+    {
+      name: "Pearl Strand Necklace",
+      desc: "South Sea pearls strung on 18K gold silk — a classic that transcends generations.",
+      imgs: [I.necklaces2, I.necklaces, I.necklaces3],
+      features: [
+        "18K Gold Clasp",
+        "South Sea Pearls",
+        "Hand-knotted",
+        "Luxury Box",
+      ],
+    },
+    {
+      name: "Layered Gold Necklace",
+      desc: "Three layers of 22K gold chains at varying lengths — effortlessly editorial.",
+      imgs: [I.necklaces4, I.necklaces5, I.necklaces6],
+      features: ["22K Gold", "Triple Layer", "Adjustable", "BIS Certified"],
+    },
+    {
+      name: "Diamond Pendant Necklace",
+      desc: "A solitaire diamond pendant on a delicate 18K gold chain — understated elegance.",
+      imgs: [I.necklaces7, I.necklaces8, I.necklaces9],
+      features: [
+        "18K Gold",
+        "Solitaire Diamond",
+        "Adjustable",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Meenakari Necklace",
+      desc: "A 22K gold necklace with vibrant meenakari enamel in traditional motifs.",
+      imgs: [I.necklaces10, I.necklaces11, I.necklaces12],
+      features: [
+        "22K Gold",
+        "Meenakari Enamel",
+        "Traditional Motifs",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Choker Necklace",
+      desc: "A close-fitting 22K gold choker with intricate filigree work — regal and refined.",
+      imgs: [I.necklaces13, I.necklaces14, I.necklaces15],
+      features: ["22K Gold", "Filigree Work", "Adjustable", "Hallmarked"],
+    },
+    {
+      name: "Statement Necklace",
+      desc: "A bold 22K gold necklace with geometric patterns and a contemporary silhouette.",
+      imgs: [I.necklaces16, I.necklaces17, I.necklaces18],
+      features: ["22K Gold", "Geometric Design", "Adjustable", "BIS Certified"],
+    },
+    {
+      name: "Floral Motif Necklace",
+      desc: "A delicate 22K gold necklace adorned with engraved floral motifs — feminine elegance.",
+      imgs: [I.necklaces19, I.necklaces20, I.necklaces21],
+      features: ["22K Gold", "Floral Engraving", "Adjustable", "Hallmarked"],
+    },
+    {
+      name: "Sapphire-set Necklace",
+      desc: "A 22K gold necklace set with deep blue sapphires — a regal statement piece.",
+      imgs: [I.necklaces22, I.necklaces23, I.necklaces24],
+      features: [
+        "22K Gold",
+        "Sapphire Gemstones",
+        "Adjustable",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Emerald-set Necklace",
+      desc: "A 22K gold necklace set with vibrant green emeralds — a touch of luxury and color.",
+      imgs: [I.necklaces25, I.necklaces26, I.necklaces27],
+      features: [
+        "22K Gold",
+        "Emerald Gemstones",
+        "Adjustable",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Ruby-set Necklace",
+      desc: "A 22K gold necklace set with rich red rubies — a classic choice for elegance.",
+      imgs: [I.necklaces28, I.necklaces29, I.necklaces30],
+      features: ["22K Gold", "Ruby Gemstones", "Adjustable", "GIA Certified"],
+    },
+    {
+      name: "Custom Engraved Necklace",
+      desc: "A 22K gold necklace that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.necklaces31, I.necklaces32, I.necklaces33],
+      features: ["22K Gold", "Custom Engraving", "Adjustable", "BIS Certified"],
+    },
+    {
+      name: "Diamond-set Necklace",
+      desc: "A channel of brilliant diamonds set in 18K gold — understated sparkle.",
+      imgs: [I.necklaces34, I.necklaces35, I.necklaces36],
+      features: ["18K Gold", "Diamond Channel", "Adjustable", "GIA Certified"],
+    },
+    {
+      name: "Hammered Necklace",
+      desc: "A hammered texture on a solid 22K gold necklace — rugged yet refined.",
+      imgs: [I.necklaces37, I.necklaces38, I.necklaces39],
+      features: ["22K Gold", "Hammered Texture", "Adjustable", "BIS Certified"],
+    },
+    {
+      name: "Black Rhodium Necklace",
+      desc: "A 22K gold necklace plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.necklaces40, I.necklaces41, I.necklaces42],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Adjustable",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Two-tone Gold Necklace",
+      desc: "A 22K gold necklace with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.necklaces43, I.necklaces44, I.necklaces45],
+      features: ["22K Gold", "18K Gold Inlay", "Adjustable", "BIS Certified"],
+    },
+    {
+      name: "Geometric Pattern Necklace",
+      desc: "A 22K gold necklace engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.necklaces46, I.necklaces47, I.necklaces48],
+      features: ["22K Gold", "Geometric Engraving", "Adjustable", "Hallmarked"],
+    },
   ],
-  'gold/womens/chokers': [
-    { name:'Diamond Gold Choker',    desc:'Channel-set diamonds in a close-fitting 22K gold choker — drama at its finest.',        imgs:[I.choker,I.choker4,I.choker1], features:['22K Gold','Channel Diamonds','Adjustable','Bridal Favourite'] },
-    { name:'Floral Choker',          desc:'22K gold florets linked into a choker that moves beautifully with the neck.',            imgs:[I.choker2,I.choker5,I.choker6], features:['22K Gold','Floral Links','Box Clasp','Handcrafted'] },
+  "gold/womens/chokers": [
+    {
+      name: "Diamond Gold Choker",
+      desc: "Channel-set diamonds in a close-fitting 22K gold choker — drama at its finest.",
+      imgs: [I.choker, I.choker4, I.choker1],
+      features: [
+        "22K Gold",
+        "Channel Diamonds",
+        "Adjustable",
+        "Bridal Favourite",
+      ],
+    },
+    {
+      name: "Floral Choker",
+      desc: "22K gold florets linked into a choker that moves beautifully with the neck.",
+      imgs: [I.choker2, I.choker5, I.choker6],
+      features: ["22K Gold", "Floral Links", "Box Clasp", "Handcrafted"],
+    },
+    {
+      name: "Meenakari Choker",
+      desc: "A 22K gold choker with vibrant meenakari enamel in traditional motifs.",
+      imgs: [I.choker3, I.choker7, I.choker8],
+      features: ["22K Gold", "Meenakari Enamel", "Adjustable", "BIS Certified"],
+    },
+    {
+      name: "Pearl Choker",
+      desc: "South Sea pearls strung on 22K gold links — a classic that transcends generations.",
+      imgs: [I.choker9, I.choker10, I.choker11],
+      features: ["22K Gold", "South Sea Pearls", "Hand-knotted", "Luxury Box"],
+    },
+    {
+      name: "Geometric Choker",
+      desc: "A bold 22K gold choker with geometric patterns and a contemporary silhouette.",
+      imgs: [I.choker12, I.choker13, I.choker14],
+      features: ["22K Gold", "Geometric Design", "Adjustable", "BIS Certified"],
+    },
+    {
+      name: "Hammered Gold Choker",
+      desc: "A hammered texture on a solid 22K gold choker — rugged yet refined.",
+      imgs: [I.choker15, I.choker16, I.choker17],
+      features: ["22K Gold", "Hammered Texture", "Adjustable", "BIS Certified"],
+    },
+    {
+      name: "Black Rhodium Choker",
+      desc: "A 22K gold choker plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.choker18, I.choker19, I.choker20],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Adjustable",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Two-tone Gold Choker",
+      desc: "A 22K gold choker with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.choker21, I.choker22, I.choker23],
+      features: ["22K Gold", "18K Gold Inlay", "Adjustable", "BIS Certified"],
+    },
+    {
+      name: "Geometric Pattern Choker",
+      desc: "A 22K gold choker engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.choker24, I.choker25, I.choker26],
+      features: ["22K Gold", "Geometric Engraving", "Adjustable", "Hallmarked"],
+    },
+    {
+      name: "Floral Motif Choker",
+      desc: "A delicate 22K gold choker adorned with engraved floral motifs — feminine elegance.",
+      imgs: [I.choker27, I.choker28, I.choker29],
+      features: ["22K Gold", "Floral Engraving", "Adjustable", "BIS Certified"],
+    },
+    {
+      name: "Sapphire-set Choker",
+      desc: "A 22K gold choker set with deep blue sapphires — a regal statement piece.",
+      imgs: [I.choker30, I.choker31, I.choker32],
+      features: [
+        "22K Gold",
+        "Sapphire Gemstones",
+        "Adjustable",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Emerald-set Choker",
+      desc: "A 22K gold choker set with vibrant green emeralds — a touch of luxury and color.",
+      imgs: [I.choker33, I.choker34, I.choker35],
+      features: [
+        "22K Gold",
+        "Emerald Gemstones",
+        "Adjustable",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Ruby-set Choker",
+      desc: "A 22K gold choker set with rich red rubies — a classic choice for elegance.",
+      imgs: [I.choker36, I.choker37, I.choker38],
+      features: ["22K Gold", "Ruby Gemstones", "Adjustable", "GIA Certified"],
+    },
+    {
+      name: "Custom Engraved Choker",
+      desc: "A 22K gold choker that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.choker39, I.choker40, I.choker41],
+      features: ["22K Gold", "Custom Engraving", "Adjustable", "BIS Certified"],
+    },
+    {
+      name: "Diamond-set Choker",
+      desc: "A channel of brilliant diamonds set in 18K gold — understated sparkle.",
+      imgs: [I.choker42, I.choker43, I.choker44],
+      features: ["18K Gold", "Diamond Channel", "Adjustable", "GIA Certified"],
+    },
+    {
+      name: "Hammered Choker",
+      desc: "A hammered texture on a solid 22K gold choker — rugged yet refined.",
+      imgs: [I.choker45, I.choker46, I.choker47],
+      features: ["22K Gold", "Hammered Texture", "Adjustable", "BIS Certified"],
+    },
   ],
-  'gold/womens/rani-haar': [
-    { name:'Rani Haar — Classic',    desc:'A long layered rani haar in 22K gold with ruby and meenakari pendant work.',             imgs:[I.raanihar,I.raanihar2,I.raanihar3], features:['22K Gold','Ruby & Meenakari','Multi-layer','Bridal Weight'] },
-    { name:'Rani Haar — Pearls',     desc:'Alternating 22K gold beads and South Sea pearls in a grand rani haar.',                 imgs:[I.raanihar4,I.raanihar5,I.raanihar6], features:['22K Gold','Pearl Accents','Knotted Thread','BIS Certified'] },
+  "gold/womens/rani-haar": [
+    {
+      name: "Rani Haar — Classic",
+      desc: "A long layered rani haar in 22K gold with ruby and meenakari pendant work.",
+      imgs: [I.raanihar, I.raanihar2, I.raanihar3],
+      features: [
+        "22K Gold",
+        "Ruby & Meenakari",
+        "Multi-layer",
+        "Bridal Weight",
+      ],
+    },
+    {
+      name: "Rani Haar — Pearls",
+      desc: "Alternating 22K gold beads and South Sea pearls in a grand rani haar.",
+      imgs: [I.raanihar4, I.raanihar5, I.raanihar6],
+      features: [
+        "22K Gold",
+        "Pearl Accents",
+        "Knotted Thread",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Rani Haar — Diamond-set",
+      desc: "A rani haar in 18K gold with channel-set diamonds and a statement pendant.",
+      imgs: [I.raanihar7, I.raanihar8, I.raanihar9],
+      features: [
+        "18K Gold",
+        "Diamond Channel",
+        "Statement Pendant",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Rani Haar — Meenakari",
+      desc: "A rani haar in 22K gold with vibrant meenakari enamel and traditional motifs.",
+      imgs: [I.raanihar10, I.raanihar11, I.raanihar12],
+      features: [
+        "22K Gold",
+        "Meenakari Enamel",
+        "Traditional Motifs",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Rani Haar — Custom Engraved",
+      desc: "A 22K gold rani haar that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.raanihar13, I.raanihar14, I.raanihar15],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Multi-layer",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Rani Haar — Hammered",
+      desc: "A hammered texture on a solid 22K gold rani haar — rugged yet refined.",
+      imgs: [I.raanihar16, I.raanihar17, I.raanihar18],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Multi-layer",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Rani Haar — Black Rhodium",
+      desc: "A 22K gold rani haar plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.raanihar19, I.raanihar20, I.raanihar21],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Multi-layer",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Rani Haar — Two-tone",
+      desc: "A 22K gold rani haar with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.raanihar22, I.raanihar23, I.raanihar24],
+      features: ["22K Gold", "18K Gold Inlay", "Multi-layer", "BIS Certified"],
+    },
+    {
+      name: "Rani Haar — Geometric Pattern",
+      desc: "A 22K gold rani haar engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.raanihar25, I.raanihar26, I.raanihar27],
+      features: [
+        "22K Gold",
+        "Geometric Engraving",
+        "Multi-layer",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Rani Haar — Floral Motif",
+      desc: "A delicate 22K gold rani haar adorned with engraved floral motifs — feminine elegance.",
+      imgs: [I.raanihar28, I.raanihar29, I.raanihar30],
+      features: [
+        "22K Gold",
+        "Floral Engraving",
+        "Multi-layer",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Rani Haar — Sapphire-set",
+      desc: "A 22K gold rani haar set with deep blue sapphires — a regal statement piece.",
+      imgs: [I.raanihar31, I.raanihar32, I.raanihar33],
+      features: [
+        "22K Gold",
+        "Sapphire Gemstones",
+        "Multi-layer",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Rani Haar — Emerald-set",
+      desc: "A 22K gold rani haar set with vibrant green emeralds — a touch of luxury and color.",
+      imgs: [I.raanihar34, I.raanihar35, I.raanihar36],
+      features: [
+        "22K Gold",
+        "Emerald Gemstones",
+        "Multi-layer",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Rani Haar — Ruby-set",
+      desc: "A 22K gold rani haar set with rich red rubies — a classic choice for elegance.",
+      imgs: [I.raanihar37, I.raanihar38, I.raanihar39],
+      features: ["22K Gold", "Ruby Gemstones", "Multi-layer", "GIA Certified"],
+    },
+    {
+      name: "Rani Haar — Custom Engraved",
+      desc: "A 22K gold rani haar that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.raanihar40, I.raanihar41, I.raanihar42],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Multi-layer",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Rani Haar — Diamond-set",
+      desc: "A channel of brilliant diamonds set in 18K gold — understated sparkle.",
+      imgs: [I.raanihar43, I.raanihar44, I.raanihar45],
+      features: ["18K Gold", "Diamond Channel", "Multi-layer", "GIA Certified"],
+    },
+    {
+      name: "Rani Haar — Hammered",
+      desc: "A hammered texture on a solid 22K gold rani haar — rugged yet refined.",
+      imgs: [I.raanihar46, I.raanihar47, I.raanihar48],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Multi-layer",
+        "BIS Certified",
+      ],
+    },
   ],
-  'gold/womens/chudi': [
-    { name:'Gold Chudi Set of 8',    desc:'Eight hand-carved 22K gold chudi with a repeating lotus motif.',                        imgs:[I.chudi,I.chudi3,I.chudi2], features:['22K Gold','Lotus Motif','Set of 8','Custom Weight'] },
-    { name:'Slim Gold Bangles',      desc:'Twelve slim 22K gold bangles stacked for everyday brilliance.',                         imgs:[I.chudi4,I.chudi5,I.chudi6], features:['22K Gold','Lightweight','Set of 12','Daily Wear'] },
+  "gold/womens/chudi": [
+    {
+      name: "Gold Chudi Set of 8",
+      desc: "Eight hand-carved 22K gold chudi with a repeating lotus motif.",
+      imgs: [I.chudi, I.chudi3, I.chudi2],
+      features: ["22K Gold", "Lotus Motif", "Set of 8", "Custom Weight"],
+    },
+    {
+      name: "Slim Gold Bangles",
+      desc: "Twelve slim 22K gold bangles stacked for everyday brilliance.",
+      imgs: [I.chudi4, I.chudi5, I.chudi6],
+      features: ["22K Gold", "Lightweight", "Set of 12", "Daily Wear"],
+    },
+    {
+      name: "Diamond Chudi Set",
+      desc: "A set of 6 18K gold chudi with channel-set diamonds for understated sparkle.",
+      imgs: [I.chudi7, I.chudi8, I.chudi9],
+      features: ["18K Gold", "Diamond Channel", "Set of 6", "GIA Certified"],
+    },
+    {
+      name: "Meenakari Chudi Set",
+      desc: "A set of 10 22K gold chudi with vibrant meenakari enamel in traditional motifs.",
+      imgs: [I.chudi10, I.chudi11, I.chudi12],
+      features: ["22K Gold", "Meenakari Enamel", "Set of 10", "BIS Certified"],
+    },
+    {
+      name: "Custom Engraved Chudi",
+      desc: "A 22K gold chudi that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.chudi13, I.chudi14, I.chudi15],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Single Piece",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Hammered Gold Chudi",
+      desc: "A hammered texture on a solid 22K gold chudi — rugged yet refined.",
+      imgs: [I.chudi16, I.chudi17, I.chudi18],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Single Piece",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Black Rhodium Chudi",
+      desc: "A 22K gold chudi plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.chudi19, I.chudi20, I.chudi21],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Single Piece",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Two-tone Gold Chudi",
+      desc: "A 22K gold chudi with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.chudi22, I.chudi23, I.chudi24],
+      features: ["22K Gold", "18K Gold Inlay", "Single Piece", "BIS Certified"],
+    },
+    {
+      name: "Geometric Pattern Chudi",
+      desc: "A 22K gold chudi engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.chudi25, I.chudi26, I.chudi27],
+      features: [
+        "22K Gold",
+        "Geometric Engraving",
+        "Single Piece",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Floral Motif Chudi",
+      desc: "A delicate 22K gold chudi adorned with engraved floral motifs — feminine elegance.",
+      imgs: [I.chudi28, I.chudi29, I.chudi30],
+      features: [
+        "22K Gold",
+        "Floral Engraving",
+        "Single Piece",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Sapphire-set Chudi",
+      desc: "A 22K gold chudi set with deep blue sapphires — a regal statement piece.",
+      imgs: [I.chudi31, I.chudi32, I.chudi33],
+      features: [
+        "22K Gold",
+        "Sapphire Gemstones",
+        "Single Piece",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Emerald-set Chudi",
+      desc: "A 22K gold chudi set with vibrant green emeralds — a touch of luxury and color.",
+      imgs: [I.chudi34, I.chudi35, I.chudi36],
+      features: [
+        "22K Gold",
+        "Emerald Gemstones",
+        "Single Piece",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Ruby-set Chudi",
+      desc: "A 22K gold chudi set with rich red rubies — a classic choice for elegance.",
+      imgs: [I.chudi37, I.chudi38, I.chudi39],
+      features: ["22K Gold", "Ruby Gemstones", "Single Piece", "GIA Certified"],
+    },
+    {
+      name: "Custom Engraved Chudi",
+      desc: "A 22K gold chudi that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.chudi40, I.chudi41, I.chudi42],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Single Piece",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Diamond-set Chudi",
+      desc: "A channel of brilliant diamonds set in 18K gold — understated sparkle.",
+      imgs: [I.chudi43, I.chudi44, I.chudi45],
+      features: [
+        "18K Gold",
+        "Diamond Channel",
+        "Single Piece",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Hammered Chudi",
+      desc: "A hammered texture on a solid 22K gold chudi — rugged yet refined.",
+      imgs: [I.chudi46, I.chudi47, I.chudi48],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Single Piece",
+        "BIS Certified",
+      ],
+    },
   ],
-  'gold/womens/mangalsutra': [
-    { name:'Classic Mangalsutra',    desc:'Sacred 22K gold pendant with diamond on traditional black bead chain.',                  imgs:[I.mangalsutra,I.mangalsutra2,I.mangalsutra3], features:['22K Gold','Certified Diamond','Black Bead','Customisable Length'] },
-    { name:'Modern Mangalsutra',     desc:'A contemporary single-strand mangalsutra in 18K gold with a sleek pendant.',             imgs:[I.mangalsutra4,I.mangalsutra5,I.mangalsutra6], features:['18K Gold','Modern Design','Lightweight','BIS Certified'] },
+  "gold/womens/mangalsutra": [
+    {
+      name: "Classic Mangalsutra",
+      desc: "Sacred 22K gold pendant with diamond on traditional black bead chain.",
+      imgs: [I.mangalsutra, I.mangalsutra2, I.mangalsutra3],
+      features: [
+        "22K Gold",
+        "Certified Diamond",
+        "Black Bead",
+        "Customisable Length",
+      ],
+    },
+    {
+      name: "Modern Mangalsutra",
+      desc: "A contemporary single-strand mangalsutra in 18K gold with a sleek pendant.",
+      imgs: [I.mangalsutra4, I.mangalsutra5, I.mangalsutra6],
+      features: ["18K Gold", "Modern Design", "Lightweight", "BIS Certified"],
+    },
+    {
+      name: "Diamond Mangalsutra",
+      desc: "A 22K gold mangalsutra with channel-set diamonds and a statement pendant.",
+      imgs: [I.mangalsutra7, I.mangalsutra8, I.mangalsutra9],
+      features: [
+        "22K Gold",
+        "Diamond Channel",
+        "Statement Pendant",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Meenakari Mangalsutra",
+      desc: "A 22K gold mangalsutra with vibrant meenakari enamel and traditional motifs.",
+      imgs: [I.mangalsutra10, I.mangalsutra11, I.mangalsutra12],
+      features: [
+        "22K Gold",
+        "Meenakari Enamel",
+        "Traditional Motifs",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Custom Engraved Mangalsutra",
+      desc: "A 22K gold mangalsutra that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.mangalsutra13, I.mangalsutra14, I.mangalsutra15],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Pendant Style",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Hammered Gold Mangalsutra",
+      desc: "A hammered texture on a solid 22K gold mangalsutra — rugged yet refined.",
+      imgs: [I.mangalsutra16, I.mangalsutra17, I.mangalsutra18],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Pendant Style",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Black Rhodium Mangalsutra",
+      desc: "A 22K gold mangalsutra plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.mangalsutra19, I.mangalsutra20, I.mangalsutra21],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Pendant Style",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Two-tone Gold Mangalsutra",
+      desc: "A 22K gold mangalsutra with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.mangalsutra22, I.mangalsutra23, I.mangalsutra24],
+      features: [
+        "22K Gold",
+        "18K Gold Inlay",
+        "Pendant Style",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Geometric Pattern Mangalsutra",
+      desc: "A 22K gold mangalsutra engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.mangalsutra25, I.mangalsutra26, I.mangalsutra27],
+      features: [
+        "22K Gold",
+        "Geometric Engraving",
+        "Pendant Style",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Floral Motif Mangalsutra",
+      desc: "A delicate 22K gold mangalsutra adorned with engraved floral motifs — feminine elegance.",
+      imgs: [I.mangalsutra28, I.mangalsutra29, I.mangalsutra30],
+      features: [
+        "22K Gold",
+        "Floral Engraving",
+        "Pendant Style",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Sapphire-set Mangalsutra",
+      desc: "A 22K gold mangalsutra set with deep blue sapphires — a regal statement piece.",
+      imgs: [I.mangalsutra31, I.mangalsutra32, I.mangalsutra33],
+      features: [
+        "22K Gold",
+        "Sapphire Gemstones",
+        "Pendant Style",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Emerald-set Mangalsutra",
+      desc: "A 22K gold mangalsutra set with vibrant green emeralds — a touch of luxury and color.",
+      imgs: [I.mangalsutra34, I.mangalsutra35, I.mangalsutra36],
+      features: [
+        "22K Gold",
+        "Emerald Gemstones",
+        "Pendant Style",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Ruby-set Mangalsutra",
+      desc: "A 22K gold mangalsutra set with rich red rubies — a classic choice for elegance.",
+      imgs: [I.mangalsutra37, I.mangalsutra38, I.mangalsutra39],
+      features: [
+        "22K Gold",
+        "Ruby Gemstones",
+        "Pendant Style",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Custom Engraved Mangalsutra",
+      desc: "A 22K gold mangalsutra that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.mangalsutra40, I.mangalsutra41, I.mangalsutra42],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Pendant Style",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Diamond-set Mangalsutra",
+      desc: "A channel of brilliant diamonds set in 18K gold — understated sparkle.",
+      imgs: [I.mangalsutra43, I.mangalsutra44, I.mangalsutra45],
+      features: [
+        "18K Gold",
+        "Diamond Channel",
+        "Pendant Style",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Hammered Mangalsutra",
+      desc: "A hammered texture on a solid 22K gold mangalsutra — rugged yet refined.",
+      imgs: [I.mangalsutra46, I.mangalsutra47, I.mangalsutra48],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Pendant Style",
+        "BIS Certified",
+      ],
+    },
   ],
-  'gold/womens/nath': [
-    { name:'Bridal Nath — Large',    desc:'A grand bridal nath in 22K gold with pearl and ruby drops, worn with a chain support.',  imgs:[I.nath,I.nath2,I.nath3], features:['22K Gold','Pearl & Ruby','Chain Support Included','Bridal Piece'] },
-    { name:'Everyday Nath',          desc:'A small, comfortable nath in 22K gold for daily wear.',                                  imgs:[I.nath4,I.nath5,I.nath6], features:['22K Gold','Lightweight','Easy Clasp','BIS Certified'] },
+  "gold/womens/nath": [
+    {
+      name: "Bridal Nath — Large",
+      desc: "A grand bridal nath in 22K gold with pearl and ruby drops, worn with a chain support.",
+      imgs: [I.nath, I.nath2, I.nath3],
+      features: [
+        "22K Gold",
+        "Pearl & Ruby",
+        "Chain Support Included",
+        "Bridal Piece",
+      ],
+    },
+    {
+      name: "Everyday Nath",
+      desc: "A small, comfortable nath in 22K gold for daily wear.",
+      imgs: [I.nath4, I.nath5, I.nath6],
+      features: ["22K Gold", "Lightweight", "Easy Clasp", "BIS Certified"],
+    },
+    {
+      name: "Diamond Nath",
+      desc: "A 22K gold nath with channel-set diamonds and a delicate chain support.",
+      imgs: [I.nath7, I.nath8, I.nath9],
+      features: [
+        "22K Gold",
+        "Diamond Channel",
+        "Chain Support Included",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Meenakari Nath",
+      desc: "A 22K gold nath with vibrant meenakari enamel and traditional motifs.",
+      imgs: [I.nath10, I.nath11, I.nath12],
+      features: [
+        "22K Gold",
+        "Meenakari Enamel",
+        "Traditional Motifs",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Custom Engraved Nath",
+      desc: "A 22K gold nath that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.nath13, I.nath14, I.nath15],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Chain Support Included",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Hammered Gold Nath",
+      desc: "A hammered texture on a solid 22K gold nath — rugged yet refined.",
+      imgs: [I.nath16, I.nath17, I.nath18],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Chain Support Included",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Black Rhodium Nath",
+      desc: "A 22K gold nath plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.nath19, I.nath20, I.nath21],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Chain Support Included",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Two-tone Gold Nath",
+      desc: "A 22K gold nath with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.nath22, I.nath23, I.nath24],
+      features: [
+        "22K Gold",
+        "18K Gold Inlay",
+        "Chain Support Included",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Geometric Pattern Nath",
+      desc: "A 22K gold nath engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.nath25, I.nath26, I.nath27],
+      features: [
+        "22K Gold",
+        "Geometric Engraving",
+        "Chain Support Included",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Floral Motif Nath",
+      desc: "A delicate 22K gold nath adorned with engraved floral motifs — feminine elegance.",
+      imgs: [I.nath28, I.nath29, I.nath30],
+      features: [
+        "22K Gold",
+        "Floral Engraving",
+        "Chain Support Included",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Sapphire-set Nath",
+      desc: "A 22K gold nath set with deep blue sapphires — a regal statement piece.",
+      imgs: [I.nath31, I.nath32, I.nath33],
+      features: [
+        "22K Gold",
+        "Sapphire Gemstones",
+        "Chain Support Included",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Emerald-set Nath",
+      desc: "A 22K gold nath set with vibrant green emeralds — a touch of luxury and color.",
+      imgs: [I.nath34, I.nath35, I.nath36],
+      features: [
+        "22K Gold",
+        "Emerald Gemstones",
+        "Chain Support Included",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Ruby-set Nath",
+      desc: "A 22K gold nath set with rich red rubies — a classic choice for elegance.",
+      imgs: [I.nath37, I.nath38, I.nath39],
+      features: [
+        "22K Gold",
+        "Ruby Gemstones",
+        "Chain Support Included",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Custom Engraved Nath",
+      desc: "A 22K gold nath that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.nath40, I.nath41, I.nath42],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Chain Support Included",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Diamond-set Nath",
+      desc: "A channel of brilliant diamonds set in 18K gold — understated sparkle.",
+      imgs: [I.nath43, I.nath44, I.nath45],
+      features: [
+        "18K Gold",
+        "Diamond Channel",
+        "Chain Support Included",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Hammered Nath",
+      desc: "A hammered texture on a solid 22K gold nath — rugged yet refined.",
+      imgs: [I.nath46, I.nath47, I.nath48],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Chain Support Included",
+        "BIS Certified",
+      ],
+    },
   ],
-  'gold/womens/nose-rings': [
-    { name:'Diamond Nose Ring',      desc:'A tiny brilliant-cut diamond set in an 18K gold nose ring.',                            imgs:[I.nosering,I.nosering2,I.nosering3], features:['18K Gold','Brilliant Diamond','Twist-lock Closure','GIA Certified'] },
-    { name:'Plain Gold Nose Ring',   desc:'A simple 22K gold nose ring — minimal, refined, traditional.',                          imgs:[I.nosering4,I.nosering5,I.nosering6], features:['22K Gold','Plain Design','Comfortable Fit','BIS Certified'] },
+  "gold/womens/nose-rings": [
+    {
+      name: "Diamond Nose Ring",
+      desc: "A tiny brilliant-cut diamond set in an 18K gold nose ring.",
+      imgs: [I.nosering, I.nosering2, I.nosering3],
+      features: [
+        "18K Gold",
+        "Brilliant Diamond",
+        "Twist-lock Closure",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Plain Gold Nose Ring",
+      desc: "A simple 22K gold nose ring — minimal, refined, traditional.",
+      imgs: [I.nosering4, I.nosering5, I.nosering6],
+      features: [
+        "22K Gold",
+        "Plain Design",
+        "Comfortable Fit",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Meenakari Nose Ring",
+      desc: "A 22K gold nose ring with vibrant meenakari enamel in traditional motifs.",
+      imgs: [I.nosering7, I.nosering8, I.nosering9],
+      features: [
+        "22K Gold",
+        "Meenakari Enamel",
+        "Traditional Motifs",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Ruby Nose Ring",
+      desc: "A 22K gold nose ring set with a single Burmese ruby — a pop of color.",
+      imgs: [I.nosering10, I.nosering11, I.nosering12],
+      features: ["22K Gold", "Burmese Ruby", "Push-pin Back", "BIS Certified"],
+    },
+    {
+      name: "Custom Engraved Nose Ring",
+      desc: "A 22K gold nose ring that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.nosering13, I.nosering14, I.nosering15],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Push-pin Back",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Hammered Gold Nose Ring",
+      desc: "A hammered texture on a solid 22K gold nose ring — rugged yet refined.",
+      imgs: [I.nosering16, I.nosering17, I.nosering18],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Push-pin Back",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Black Rhodium Nose Ring",
+      desc: "A 22K gold nose ring plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.nosering19, I.nosering20, I.nosering21],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Push-pin Back",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Two-tone Gold Nose Ring",
+      desc: "A 22K gold nose ring with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.nosering22, I.nosering23, I.nosering24],
+      features: [
+        "22K Gold",
+        "18K Gold Inlay",
+        "Push-pin Back",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Geometric Pattern Nose Ring",
+      desc: "A 22K gold nose ring engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.nosering25, I.nosering26, I.nosering27],
+      features: [
+        "22K Gold",
+        "Geometric Engraving",
+        "Push-pin Back",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Floral Motif Nose Ring",
+      desc: "A delicate 22K gold nose ring adorned with engraved floral motifs — feminine elegance.",
+      imgs: [I.nosering28, I.nosering29, I.nosering30],
+      features: [
+        "22K Gold",
+        "Floral Engraving",
+        "Push-pin Back",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Sapphire-set Nose Ring",
+      desc: "A 22K gold nose ring set with deep blue sapphires — a regal statement piece.",
+      imgs: [I.nosering31, I.nosering32, I.nosering33],
+      features: [
+        "22K Gold",
+        "Sapphire Gemstones",
+        "Push-pin Back",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Emerald-set Nose Ring",
+      desc: "A 22K gold nose ring set with vibrant green emeralds — a touch of luxury and color.",
+      imgs: [I.nosering34, I.nosering35, I.nosering36],
+      features: [
+        "22K Gold",
+        "Emerald Gemstones",
+        "Push-pin Back",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Ruby-set Nose Ring",
+      desc: "A 22K gold nose ring set with rich red rubies — a classic choice for elegance.",
+      imgs: [I.nosering37, I.nosering38, I.nosering39],
+      features: [
+        "22K Gold",
+        "Ruby Gemstones",
+        "Push-pin Back",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Custom Engraved Nose Ring",
+      desc: "A 22K gold nose ring that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.nosering40, I.nosering41, I.nosering42],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Push-pin Back",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Diamond-set Nose Ring",
+      desc: "A channel of brilliant diamonds set in 18K gold — understated sparkle.",
+      imgs: [I.nosering43, I.nosering44, I.nosering45],
+      features: [
+        "18K Gold",
+        "Diamond Channel",
+        "Push-pin Back",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Hammered Nose Ring",
+      desc: "A hammered texture on a solid 22K gold nose ring — rugged yet refined.",
+      imgs: [I.nosering46, I.nosering47, I.nosering48],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Push-pin Back",
+        "BIS Certified",
+      ],
+    },
   ],
-  'gold/womens/nose-pins': [
-    { name:'Diamond Nose Pin',       desc:'A single brilliant-cut diamond on an 18K gold nose pin — barely-there luxury.',         imgs:[I.goldnosepin,I.goldnosepin2,I.goldnosepin3], features:['18K Gold','Brilliant Diamond','Flat Pin Back','GIA Certified'] },
-    { name:'Ruby Nose Pin',          desc:'A vivid Burmese ruby set in 22K gold on a classic push-pin back.',                      imgs:[I.goldnosepin5,I.goldnosepin6,I.goldnosepin7], features:['22K Gold','Burmese Ruby','Push-pin Back','BIS Certified'] },
+  "gold/womens/nose-pins": [
+    {
+      name: "Diamond Nose Pin",
+      desc: "A single brilliant-cut diamond on an 18K gold nose pin — barely-there luxury.",
+      imgs: [I.goldnosepin, I.goldnosepin2, I.goldnosepin3],
+      features: [
+        "18K Gold",
+        "Brilliant Diamond",
+        "Flat Pin Back",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Ruby Nose Pin",
+      desc: "A vivid Burmese ruby set in 22K gold on a classic push-pin back.",
+      imgs: [I.goldnosepin5, I.goldnosepin6, I.goldnosepin7],
+      features: ["22K Gold", "Burmese Ruby", "Push-pin Back", "BIS Certified"],
+    },
+    {
+      name: "Meenakari Nose Pin",
+      desc: "A 22K gold nose pin with vibrant meenakari enamel in traditional motifs.",
+      imgs: [I.goldnosepin8, I.goldnosepin9, I.goldnosepin10],
+      features: [
+        "22K Gold",
+        "Meenakari Enamel",
+        "Push-pin Back",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Custom Engraved Nose Pin",
+      desc: "A 22K gold nose pin that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.goldnosepin11, I.goldnosepin12, I.goldnosepin13],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Push-pin Back",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Hammered Gold Nose Pin",
+      desc: "A hammered texture on a solid 22K gold nose pin — rugged yet refined.",
+      imgs: [I.goldnosepin14, I.goldnosepin15, I.goldnosepin16],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Push-pin Back",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Black Rhodium Nose Pin",
+      desc: "A 22K gold nose pin plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.goldnosepin17, I.goldnosepin18, I.goldnosepin19],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Push-pin Back",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Two-tone Gold Nose Pin",
+      desc: "A 22K gold nose pin with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.goldnosepin20, I.goldnosepin21, I.goldnosepin22],
+      features: [
+        "22K Gold",
+        "18K Gold Inlay",
+        "Push-pin Back",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Geometric Pattern Nose Pin",
+      desc: "A 22K gold nose pin engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.goldnosepin23, I.goldnosepin24, I.goldnosepin25],
+      features: [
+        "22K Gold",
+        "Geometric Engraving",
+        "Push-pin Back",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Floral Motif Nose Pin",
+      desc: "A delicate 22K gold nose pin adorned with engraved floral motifs — feminine elegance.",
+      imgs: [I.goldnosepin26, I.goldnosepin27, I.goldnosepin28],
+      features: [
+        "22K Gold",
+        "Floral Engraving",
+        "Push-pin Back",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Sapphire-set Nose Pin",
+      desc: "A 22K gold nose pin set with deep blue sapphires — a regal statement piece.",
+      imgs: [I.goldnosepin29, I.goldnosepin30, I.goldnosepin31],
+      features: [
+        "22K Gold",
+        "Sapphire Gemstones",
+        "Push-pin Back",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Emerald-set Nose Pin",
+      desc: "A 22K gold nose pin set with vibrant green emeralds — a touch of luxury and color.",
+      imgs: [I.goldnosepin32, I.goldnosepin33, I.goldnosepin34],
+      features: [
+        "22K Gold",
+        "Emerald Gemstones",
+        "Push-pin Back",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Ruby-set Nose Pin",
+      desc: "A 22K gold nose pin set with rich red rubies — a classic choice for elegance.",
+      imgs: [I.goldnosepin35, I.goldnosepin36, I.goldnosepin37],
+      features: [
+        "22K Gold",
+        "Ruby Gemstones",
+        "Push-pin Back",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Custom Engraved Nose Pin",
+      desc: "A 22K gold nose pin that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.goldnosepin38, I.goldnosepin39, I.goldnosepin40],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Push-pin Back",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Diamond-set Nose Pin",
+      desc: "A channel of brilliant diamonds set in 18K gold — understated sparkle.",
+      imgs: [I.goldnosepin41, I.goldnosepin42, I.goldnosepin43],
+      features: [
+        "18K Gold",
+        "Diamond Channel",
+        "Push-pin Back",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Hammered Nose Pin",
+      desc: "A hammered texture on a solid 22K gold nose pin — rugged yet refined.",
+      imgs: [I.goldnosepin44, I.goldnosepin45, I.goldnosepin46],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Push-pin Back",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Lightweight Nose Pin",
+      desc: "A 22K gold nose pin designed for comfort and daily wear.",
+      imgs: [I.goldnosepin47, I.goldnosepin48, I.goldnosepin49],
+      features: [
+        "22K Gold",
+        "Lightweight Design",
+        "Push-pin Back",
+        "BIS Certified",
+      ],
+    },
   ],
-  'gold/womens/kundal': [
-    { name:'Traditional Kundal',     desc:'Large circular ear ornaments in 22K gold with traditional filigree work.',               imgs:[I.goldkundal,I.goldkundal3,I.goldkundal2], features:['22K Gold','Filigree Work','Traditional Design','Hallmarked'] },
-    { name:'Meenakari Kundal',       desc:'22K gold kundal adorned with vibrant meenakari enamel in traditional colours.',          imgs:[I.goldkundal6,I.goldkundal5,I.goldkundal4], features:['22K Gold','Meenakari Enamel','Hand-painted','BIS Certified'] },
+  "gold/womens/kundal": [
+    {
+      name: "Traditional Kundal",
+      desc: "Large circular ear ornaments in 22K gold with traditional filigree work.",
+      imgs: [I.goldkundal, I.goldkundal3, I.goldkundal2],
+      features: [
+        "22K Gold",
+        "Filigree Work",
+        "Traditional Design",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Meenakari Kundal",
+      desc: "22K gold kundal adorned with vibrant meenakari enamel in traditional colours.",
+      imgs: [I.goldkundal6, I.goldkundal5, I.goldkundal4],
+      features: [
+        "22K Gold",
+        "Meenakari Enamel",
+        "Hand-painted",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Diamond-set Kundal",
+      desc: "A pair of 18K gold kundal with channel-set diamonds for understated sparkle.",
+      imgs: [I.goldkundal9, I.goldkundal8, I.goldkundal7],
+      features: [
+        "18K Gold",
+        "Diamond Channel",
+        "Contemporary Design",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Custom Engraved Kundal",
+      desc: "22K gold kundal that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.goldkundal12, I.goldkundal11, I.goldkundal10],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Traditional Design",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Hammered Gold Kundal",
+      desc: "A hammered texture on a solid 22K gold kundal — rugged yet refined.",
+      imgs: [I.goldkundal15, I.goldkundal14, I.goldkundal13],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Traditional Design",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Black Rhodium Kundal",
+      desc: "22K gold kundal plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.goldkundal18, I.goldkundal17, I.goldkundal16],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Contemporary Design",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Two-tone Gold Kundal",
+      desc: "22K gold kundal with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.goldkundal21, I.goldkundal20, I.goldkundal19],
+      features: [
+        "22K Gold",
+        "18K Gold Inlay",
+        "Traditional Design",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Geometric Pattern Kundal",
+      desc: "22K gold kundal engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.goldkundal24, I.goldkundal23, I.goldkundal22],
+      features: [
+        "22K Gold",
+        "Geometric Engraving",
+        "Contemporary Design",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Floral Motif Kundal",
+      desc: "Delicate 22K gold kundal adorned with engraved floral motifs — feminine elegance.",
+      imgs: [I.goldkundal27, I.goldkundal26, I.goldkundal25],
+      features: [
+        "22K Gold",
+        "Floral Engraving",
+        "Traditional Design",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Sapphire-set Kundal",
+      desc: "22K gold kundal set with deep blue sapphires — a regal statement piece.",
+      imgs: [I.goldkundal30, I.goldkundal29, I.goldkundal28],
+      features: [
+        "22K Gold",
+        "Sapphire Gemstones",
+        "Contemporary Design",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Emerald-set Kundal",
+      desc: "22K gold kundal set with vibrant green emeralds — a touch of luxury and color.",
+      imgs: [I.goldkundal33, I.goldkundal32, I.goldkundal31],
+      features: [
+        "22K Gold",
+        "Emerald Gemstones",
+        "Traditional Design",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Ruby-set Kundal",
+      desc: "22K gold kundal set with rich red rubies — a classic choice for elegance.",
+      imgs: [I.goldkundal36, I.goldkundal35, I.goldkundal34],
+      features: [
+        "22K Gold",
+        "Ruby Gemstones",
+        "Contemporary Design",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Custom Engraved Kundal",
+      desc: "22K gold kundal that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.goldkundal39, I.goldkundal38, I.goldkundal37],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Traditional Design",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Diamond-set Kundal",
+      desc: "A channel of brilliant diamonds set in 18K gold — understated sparkle.",
+      imgs: [I.goldkundal42, I.goldkundal41, I.goldkundal40],
+      features: [
+        "18K Gold",
+        "Diamond Channel",
+        "Contemporary Design",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Hammered Kundal",
+      desc: "A hammered texture on a solid 22K gold kundal — rugged yet refined.",
+      imgs: [I.goldkundal45, I.goldkundal44, I.goldkundal43],
+      features: [
+        "22K Gold",
+        "Hammered Texture",
+        "Traditional Design",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Lightweight Kundal",
+      desc: "22K gold kundal designed for comfort and daily wear.",
+      imgs: [I.goldkundal48, I.goldkundal47, I.goldkundal46],
+      features: [
+        "22K Gold",
+        "Lightweight Design",
+        "Contemporary Design",
+        "BIS Certified",
+      ],
+    },
   ],
-  'gold/womens/jhumki': [
-    { name:'Traditional Gold Jhumki',desc:'Hand-engraved jhumkis with meenakari work — India\'s finest earring tradition.',        imgs:[I.goldJhumki,I.goldJhumki3,I.goldJhumki2], features:['22K Gold','Meenakari Work','Ruby & Emerald','Traditional'] },
-    { name:'Light Jhumki',           desc:'A smaller, everyday jhumki in 22K gold — easy to wear from morning to evening.',        imgs:[I.goldJhumki4,I.goldJhumki5,I.goldJhumki6], features:['22K Gold','Lightweight','Hook Back','Daily Wear'] },
+  "gold/womens/jhumki": [
+    {
+      name: "Traditional Gold Jhumki",
+      desc: "Hand-engraved jhumkis with meenakari work — India's finest earring tradition.",
+      imgs: [I.goldJhumki, I.goldJhumki3, I.goldJhumki2],
+      features: ["22K Gold", "Meenakari Work", "Ruby & Emerald", "Traditional"],
+    },
+    {
+      name: "Light Jhumki",
+      desc: "A smaller, everyday jhumki in 22K gold — easy to wear from morning to evening.",
+      imgs: [I.goldJhumki4, I.goldJhumki5, I.goldJhumki6],
+      features: ["22K Gold", "Lightweight", "Hook Back", "Daily Wear"],
+    },
+    {
+      name: "Diamond Jhumki",
+      desc: "A pair of 18K gold jhumkis with channel-set diamonds — understated sparkle.",
+      imgs: [I.goldJhumki7, I.goldJhumki8, I.goldJhumki9],
+      features: ["18K Gold", "Diamond Channel", "Push-back", "GIA Certified"],
+    },
+    {
+      name: "Custom Engraved Jhumki",
+      desc: "22K gold jhumkis that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.goldJhumki10, I.goldJhumki11, I.goldJhumki12],
+      features: ["22K Gold", "Custom Engraving", "Hook Back", "BIS Certified"],
+    },
+    {
+      name: "Hammered Gold Jhumki",
+      desc: "A hammered texture on a solid 22K gold jhumki — rugged yet refined.",
+      imgs: [I.goldJhumki13, I.goldJhumki14, I.goldJhumki15],
+      features: ["22K Gold", "Hammered Texture", "Hook Back", "BIS Certified"],
+    },
+    {
+      name: "Black Rhodium Jhumki",
+      desc: "22K gold jhumkis plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.goldJhumki16, I.goldJhumki17, I.goldJhumki18],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Hook Back",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Two-tone Gold Jhumki",
+      desc: "22K gold jhumkis with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.goldJhumki19, I.goldJhumki20, I.goldJhumki21],
+      features: ["22K Gold", "18K Gold Inlay", "Hook Back", "BIS Certified"],
+    },
+    {
+      name: "Geometric Pattern Jhumki",
+      desc: "22K gold jhumkis engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.goldJhumki22, I.goldJhumki23, I.goldJhumki24],
+      features: ["22K Gold", "Geometric Engraving", "Hook Back", "Hallmarked"],
+    },
+    {
+      name: "Floral Motif Jhumki",
+      desc: "Delicate 22K gold jhumkis adorned with engraved floral motifs — feminine elegance.",
+      imgs: [I.goldJhumki25, I.goldJhumki26, I.goldJhumki27],
+      features: ["22K Gold", "Floral Engraving", "Hook Back", "BIS Certified"],
+    },
+    {
+      name: "Sapphire-set Jhumki",
+      desc: "22K gold jhumkis set with deep blue sapphires — a regal statement piece.",
+      imgs: [I.goldJhumki28, I.goldJhumki29, I.goldJhumki30],
+      features: [
+        "22K Gold",
+        "Sapphire Gemstones",
+        "Hook Back",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Emerald-set Jhumki",
+      desc: "22K gold jhumkis set with vibrant green emeralds — a touch of luxury and color.",
+      imgs: [I.goldJhumki31, I.goldJhumki32, I.goldJhumki33],
+      features: ["22K Gold", "Emerald Gemstones", "Hook Back", "GIA Certified"],
+    },
+    {
+      name: "Ruby-set Jhumki",
+      desc: "22K gold jhumkis set with rich red rubies — a classic choice for elegance.",
+      imgs: [I.goldJhumki34, I.goldJhumki35, I.goldJhumki36],
+      features: ["22K Gold", "Ruby Gemstones", "Hook Back", "GIA Certified"],
+    },
+    {
+      name: "Custom Engraved Jhumki",
+      desc: "22K gold jhumkis that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.goldJhumki37, I.goldJhumki38, I.goldJhumki39],
+      features: ["22K Gold", "Custom Engraving", "Hook Back", "BIS Certified"],
+    },
+    {
+      name: "Diamond-set Jhumki",
+      desc: "A channel of brilliant diamonds set in 18K gold — understated sparkle.",
+      imgs: [I.goldJhumki40, I.goldJhumki41, I.goldJhumki42],
+      features: ["18K Gold", "Diamond Channel", "Hook Back", "GIA Certified"],
+    },
+    {
+      name: "Hammered Jhumki",
+      desc: "A hammered texture on a solid 22K gold jhumki — rugged yet refined.",
+      imgs: [I.goldJhumki43, I.goldJhumki44, I.goldJhumki45],
+      features: ["22K Gold", "Hammered Texture", "Hook Back", "BIS Certified"],
+    },
+    {
+      name: "Lightweight Jhumki",
+      desc: "22K gold jhumkis designed for comfort and daily wear.",
+      imgs: [I.goldJhumki46, I.goldJhumki47, I.goldJhumki48],
+      features: [
+        "22K Gold",
+        "Lightweight Design",
+        "Hook Back",
+        "BIS Certified",
+      ],
+    },
   ],
-  'gold/womens/tops': [
-    { name:'Diamond Tops',           desc:'Brilliant-cut diamond studs in a four-claw 18K gold setting.',                          imgs:[I.goldtops2,I.goldtops3,I.goldtops], features:['18K Gold','Brilliant Diamond','Four-claw','Certificate Included'] },
-    { name:'Pearl Tops',             desc:'A perfectly round Akoya pearl set in 22K gold — a timeless stud.',                      imgs:[I.goldtops4,I.goldtops5,I.goldtops6], features:['22K Gold','Akoya Pearl','Push-back','Luxury Box'] },
+  "gold/womens/tops": [
+    {
+      name: "Diamond Tops",
+      desc: "Brilliant-cut diamond studs in a four-claw 18K gold setting.",
+      imgs: [I.goldtops2, I.goldtops3, I.goldtops],
+      features: [
+        "18K Gold",
+        "Brilliant Diamond",
+        "Four-claw",
+        "Certificate Included",
+      ],
+    },
+    {
+      name: "Pearl Tops",
+      desc: "A perfectly round Akoya pearl set in 22K gold — a timeless stud.",
+      imgs: [I.goldtops4, I.goldtops5, I.goldtops6],
+      features: ["22K Gold", "Akoya Pearl", "Push-back", "Luxury Box"],
+    },
+    {
+      name: "Ruby Tops",
+      desc: "A single Burmese ruby in a 22K gold bezel setting — a pop of color.",
+      imgs: [I.goldtops7, I.goldtops8, I.goldtops9],
+      features: ["22K Gold", "Burmese Ruby", "Bezel Setting", "BIS Certified"],
+    },
+    {
+      name: "Sapphire Tops",
+      desc: "A deep blue sapphire in a 22K gold prong setting — understated elegance.",
+      imgs: [I.goldtops10, I.goldtops11, I.goldtops12],
+      features: ["22K Gold", "Blue Sapphire", "Prong Setting", "GIA Certified"],
+    },
+    {
+      name: "Emerald Tops",
+      desc: "A vibrant green emerald in a 22K gold halo setting — a statement stud.",
+      imgs: [I.goldtops13, I.goldtops14, I.goldtops15],
+      features: ["22K Gold", "Green Emerald", "Halo Setting", "GIA Certified"],
+    },
+    {
+      name: "Custom Engraved Tops",
+      desc: "22K gold tops that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.goldtops16, I.goldtops17, I.goldtops18],
+      features: ["22K Gold", "Custom Engraving", "Push-back", "BIS Certified"],
+    },
+    {
+      name: "Hammered Gold Tops",
+      desc: "A hammered texture on a solid 22K gold stud — rugged yet refined.",
+      imgs: [I.goldtops19, I.goldtops20, I.goldtops21],
+      features: ["22K Gold", "Hammered Texture", "Push-back", "BIS Certified"],
+    },
+    {
+      name: "Black Rhodium Tops",
+      desc: "22K gold tops plated with black rhodium for a bold, contemporary look.",
+      imgs: [I.goldtops22, I.goldtops23, I.goldtops24],
+      features: [
+        "22K Gold",
+        "Black Rhodium Plating",
+        "Push-back",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Two-tone Gold Tops",
+      desc: "22K gold tops with a contrasting 18K gold inlay — a striking two-tone effect.",
+      imgs: [I.goldtops25, I.goldtops26, I.goldtops27],
+      features: ["22K Gold", "18K Gold Inlay", "Push-back", "BIS Certified"],
+    },
+    {
+      name: "Geometric Pattern Tops",
+      desc: "22K gold tops engraved with geometric patterns for a modern aesthetic.",
+      imgs: [I.goldtops28, I.goldtops29, I.goldtops30],
+      features: ["22K Gold", "Geometric Engraving", "Push-back", "Hallmarked"],
+    },
+    {
+      name: "Floral Motif Tops",
+      desc: "Delicate 22K gold tops adorned with engraved floral motifs — feminine elegance.",
+      imgs: [I.goldtops31, I.goldtops32, I.goldtops33],
+      features: ["22K Gold", "Floral Engraving", "Push-back", "BIS Certified"],
+    },
+    {
+      name: "Sapphire-set Tops",
+      desc: "22K gold tops set with deep blue sapphires — a regal statement piece.",
+      imgs: [I.goldtops34, I.goldtops35, I.goldtops36],
+      features: [
+        "22K Gold",
+        "Sapphire Gemstones",
+        "Push-back",
+        "GIA Certified",
+      ],
+    },
+    {
+      name: "Emerald-set Tops",
+      desc: "22K gold tops set with vibrant green emeralds — a touch of luxury and color.",
+      imgs: [I.goldtops37, I.goldtops38, I.goldtops39],
+      features: ["22K Gold", "Emerald Gemstones", "Push-back", "GIA Certified"],
+    },
+    {
+      name: "Ruby-set Tops",
+      desc: "22K gold tops set with rich red rubies — a classic choice for elegance.",
+      imgs: [I.goldtops40, I.goldtops41, I.goldtops42],
+      features: ["22K Gold", "Ruby Gemstones", "Push-back", "GIA Certified"],
+    },
+    {
+      name: "Custom Engraved Tops",
+      desc: "22K gold tops that can be personalized with your own engraving — a truly unique piece.",
+      imgs: [I.goldtops43, I.goldtops44, I.goldtops45],
+      features: ["22K Gold", "Custom Engraving", "Push-back", "BIS Certified"],
+    },
+    {
+      name: "Diamond-set Tops",
+      desc: "A channel of brilliant diamonds set in 18K gold — understated sparkle.",
+      imgs: [I.goldtops46, I.goldtops47, I.goldtops48],
+      features: ["18K Gold", "Diamond Channel", "Push-back", "GIA Certified"],
+    },
   ],
-  'gold/womens/temple': [
-    { name:'Temple Necklace',        desc:'Lakshmi and lotus motif panels in 22K gold — sacred artistry for festive occasions.',   imgs:[I.goldwtn,I.goldwtn2,I.goldwtn3], features:['22K Gold','Temple Motif','Hand-finished','South Indian Style'] },
-    { name:'Temple Earrings',        desc:'Traditional deity-motif earrings in 22K gold with meenakari accents.',                  imgs:[I.goldwtn4,I.goldwtn5,I.goldwtn6], features:['22K Gold','Deity Motif','Meenakari Accents','Festive Wear'] },
+  "gold/womens/temple": [
+    {
+      name: "Temple Necklace",
+      desc: "Lakshmi and lotus motif panels in 22K gold — sacred artistry for festive occasions.",
+      imgs: [I.goldwtn, I.goldwtn2, I.goldwtn3],
+      features: [
+        "22K Gold",
+        "Temple Motif",
+        "Hand-finished",
+        "South Indian Style",
+      ],
+    },
+    {
+      name: "Temple Earrings",
+      desc: "Traditional deity-motif earrings in 22K gold with meenakari accents.",
+      imgs: [I.goldwtn4, I.goldwtn5, I.goldwtn6],
+      features: [
+        "22K Gold",
+        "Deity Motif",
+        "Meenakari Accents",
+        "Festive Wear",
+      ],
+    },
+    {
+      name: "Temple Pendant",
+      desc: "A 22K gold pendant featuring a goddess motif, perfect for auspicious gifting.",
+      imgs: [I.goldwtn7, I.goldwtn8, I.goldwtn9],
+      features: [
+        "22K Gold",
+        "Goddess Motif",
+        "Polished Finish",
+        "Gift Box Included",
+      ],
+    },
+    {
+      name: "Temple Bracelet",
+      desc: "A 22K gold bracelet with engraved temple motifs and intricate detailing.",
+      imgs: [I.goldwtn10, I.goldwtn11, I.goldwtn12],
+      features: [
+        "22K Gold",
+        "Temple Engraving",
+        "Adjustable Fit",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Temple Ring",
+      desc: "A 22K gold ring with a miniature temple design — a statement piece for devotees.",
+      imgs: [I.goldwtn13, I.goldwtn14, I.goldwtn15],
+      features: [
+        "22K Gold",
+        "Temple Design",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Temple Hairpin",
+      desc: "A 22K gold hairpin with deity motifs — perfect for traditional hairstyles.",
+      imgs: [I.goldwtn16, I.goldwtn17, I.goldwtn18],
+      features: ["22K Gold", "Deity Motifs", "Secure Grip", "Festive Wear"],
+    },
+    {
+      name: "Temple Anklet",
+      desc: "A 22K gold anklet with engraved temple motifs and tiny bells for a melodic jingle.",
+      imgs: [I.goldwtn19, I.goldwtn20, I.goldwtn21],
+      features: [
+        "22K Gold",
+        "Temple Engraving",
+        "Adjustable Length",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Temple Brooch",
+      desc: "A 22K gold brooch with intricate temple carvings — a unique accessory for sarees.",
+      imgs: [I.goldwtn22, I.goldwtn23, I.goldwtn24],
+      features: ["22K Gold", "Temple Carvings", "Pin Back", "BIS Certified"],
+    },
+    {
+      name: "Temple Cufflinks",
+      desc: "22K gold cufflinks with miniature temple motifs — a divine touch to formal wear.",
+      imgs: [I.goldwtn25, I.goldwtn26, I.goldwtn27],
+      features: ["22K Gold", "Temple Motifs", "T-bar Closure", "BIS Certified"],
+    },
+    {
+      name: "Temple Hair Chain",
+      desc: "A 22K gold hair chain with deity motifs and delicate links — perfect for bridal hairstyles.",
+      imgs: [I.goldwtn28, I.goldwtn29, I.goldwtn30],
+      features: [
+        "22K Gold",
+        "Deity Motifs",
+        "Delicate Links",
+        "Bridal Accessory",
+      ],
+    },
+    {
+      name: "Temple Waist Belt",
+      desc: "A 22K gold waist belt with engraved temple motifs — traditional elegance for festive wear.",
+      imgs: [I.goldwtn31, I.goldwtn32, I.goldwtn33],
+      features: [
+        "22K Gold",
+        "Temple Engraving",
+        "Adjustable Fit",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Temple Hair Comb",
+      desc: "A 22K gold hair comb with deity motifs and intricate detailing — perfect for traditional hairstyles.",
+      imgs: [I.goldwtn34, I.goldwtn35, I.goldwtn36],
+      features: ["22K Gold", "Deity Motifs", "Secure Grip", "Festive Wear"],
+    },
+    {
+      name: "Temple Nose Pin",
+      desc: "A 22K gold nose pin with a miniature temple design — auspicious and elegant.",
+      imgs: [I.goldwtn37, I.goldwtn38, I.goldwtn39],
+      features: ["22K Gold", "Temple Design", "Push-pin Back", "BIS Certified"],
+    },
+    {
+      name: "Temple Hair Ornament",
+      desc: "A 22K gold hair ornament with deity motifs and intricate filigree work — perfect for bridal hairstyles.",
+      imgs: [I.goldwtn40, I.goldwtn41, I.goldwtn42],
+      features: [
+        "22K Gold",
+        "Deity Motifs",
+        "Filigree Work",
+        "Bridal Accessory",
+      ],
+    },
+    {
+      name: "Temple Toe Ring",
+      desc: "A 22K gold toe ring with engraved temple motifs — a traditional accessory for married women.",
+      imgs: [I.goldwtn43, I.goldwtn44, I.goldwtn45],
+      features: [
+        "22K Gold",
+        "Temple Engraving",
+        "Adjustable Fit",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Temple Hair Stick",
+      desc: "A 22K gold hair stick with deity motifs and delicate engravings — perfect for traditional hairstyles.",
+      imgs: [I.goldwtn46, I.goldwtn47, I.goldwtn48],
+      features: [
+        "22K Gold",
+        "Deity Motifs",
+        "Delicate Engravings",
+        "Festive Wear",
+      ],
+    },
   ],
-  'gold/bridal': [
-    { name:'Royal Bridal Set',       desc:'A complete 7-piece bridal set in 22K gold — necklace, maang tikka, earrings, bangles, nath, payal, mangalsutra.', imgs:[I.goldbride,I.goldbride2,I.goldbride3], features:['22K Gold','7-Piece Set','Polki & Ruby','Bespoke Fitting'] },
-    { name:'Bridal Choker Set',      desc:'Grand choker with matching earrings and tikka in 22K gold, set with diamonds.',         imgs:[I.goldchoker,I.goldchoker2,I.goldchoker3], features:['22K Gold','Diamond-set','Matching Set','Bridal Weight'] },
-    { name:'Rani Haar Bridal Set',   desc:'A sweeping rani haar with matching earrings and bangles for the modern bride.',         imgs:[I.goldHaar,I.goldHaar2,I.goldHaar3], features:['22K Gold','Multi-layer','Pearl Accents','Complete Set'] },
-    { name:'Bridal Nath',            desc:'A large statement nath in 22K gold with pearl, ruby and emerald drops.',                imgs:[I.goldNath,I.goldNath2,I.goldNath3], features:['22K Gold','Pearl & Ruby','Chain Support','Bridal Only'] },
-    { name:'Bridal Bangles Set',     desc:'A set of 12 slim 22K gold bangles with diamond accents for the bride.',                 imgs:[I.goldbangle,I.goldbangle2,I.goldbangle3], features:['22K Gold','Diamond Accents','Set of 12','BIS Certified'] },
+  "gold/bridal": [
+    {
+      name: "Royal Bridal Set",
+      desc: "A complete 7-piece bridal set in 22K gold — necklace, maang tikka, earrings, bangles, nath, payal, mangalsutra.",
+      imgs: [I.goldbride, I.goldbride2, I.goldbride3],
+      features: ["22K Gold", "7-Piece Set", "Polki & Ruby", "Bespoke Fitting"],
+    },
+    {
+      name: "Bridal Choker Set",
+      desc: "Grand choker with matching earrings and tikka in 22K gold, set with diamonds.",
+      imgs: [I.goldchoker, I.goldchoker2, I.goldchoker3],
+      features: ["22K Gold", "Diamond-set", "Matching Set", "Bridal Weight"],
+    },
+    {
+      name: "Rani Haar Bridal Set",
+      desc: "A sweeping rani haar with matching earrings and bangles for the modern bride.",
+      imgs: [I.goldHaar, I.goldHaar2, I.goldHaar3],
+      features: ["22K Gold", "Multi-layer", "Pearl Accents", "Complete Set"],
+    },
+    {
+      name: "Bridal Nath",
+      desc: "A large statement nath in 22K gold with pearl, ruby and emerald drops.",
+      imgs: [I.goldNath, I.goldNath2, I.goldNath3],
+      features: ["22K Gold", "Pearl & Ruby", "Chain Support", "Bridal Only"],
+    },
+    {
+      name: "Bridal Bangles Set",
+      desc: "A set of 12 slim 22K gold bangles with diamond accents for the bride.",
+      imgs: [I.goldbangle, I.goldbangle2, I.goldbangle3],
+      features: ["22K Gold", "Diamond Accents", "Set of 12", "BIS Certified"],
+    },
+    {
+      name: "Bridal Payal",
+      desc: "A pair of 22K gold anklets with intricate temple motifs and tiny bells.",
+      imgs: [I.goldpayal, I.goldpayal2, I.goldpayal3],
+      features: [
+        "22K Gold",
+        "Temple Motifs",
+        "Adjustable Length",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Bridal Mangalsutra",
+      desc: "A traditional 22K gold mangalsutra with black beads and diamond pendant.",
+      imgs: [I.goldmangalsutra, I.goldmangalsutra2, I.goldmangalsutra3],
+      features: ["22K Gold", "Black Beads", "Diamond Pendant", "BIS Certified"],
+    },
+    {
+      name: "Bridal Maang Tikka",
+      desc: "A 22K gold maang tikka with polki diamonds and pearl drops for the bride.",
+      imgs: [I.goldmaangtikka, I.goldmaangtikka2, I.goldmaangtikka3],
+      features: ["22K Gold", "Polki Diamonds", "Pearl Drops", "BIS Certified"],
+    },
+    {
+      name: "Bridal Earrings",
+      desc: "A pair of 22K gold earrings with intricate filigree and gemstone accents.",
+      imgs: [I.goldbridale, I.goldbridale2, I.goldbridale3],
+      features: [
+        "22K Gold",
+        "Filigree Work",
+        "Gemstone Accents",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Bridal Ring",
+      desc: "A 22K gold ring with a large central gemstone and intricate detailing for the bride.",
+      imgs: [I.goldbridalr, I.goldbridalr2, I.goldbridalr3],
+      features: [
+        "22K Gold",
+        "Gemstone Centerpiece",
+        "Intricate Detailing",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Bridal Hair Accessories",
+      desc: "A set of 22K gold hairpins and clips with floral motifs for bridal hairstyles.",
+      imgs: [I.goldbridalh, I.goldbridalh2, I.goldbridalh3],
+      features: ["22K Gold", "Floral Motifs", "Set of 5", "BIS Certified"],
+    },
+    {
+      name: "Bridal Waist Belt",
+      desc: "A 22K gold kamarbandh with intricate temple motifs and adjustable fit for bridal wear.",
+      imgs: [I.goldbridalw, I.goldbridalw2, I.goldbridalw3],
+      features: [
+        "22K Gold",
+        "Temple Motifs",
+        "Adjustable Fit",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Bridal Nose Ring",
+      desc: "A large 22K gold nath with pearl and gemstone drops for the bride.",
+      imgs: [I.goldbridaln, I.goldbridaln2, I.goldbridaln3],
+      features: [
+        "22K Gold",
+        "Pearl & Gemstone",
+        "Chain Support",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Bridal Anklet Set",
+      desc: "A pair of 22K gold anklets with intricate designs and tiny bells for bridal wear.",
+      imgs: [I.goldbridala, I.goldbridala2, I.goldbridala3],
+      features: [
+        "22K Gold",
+        "Intricate Design",
+        "Adjustable Length",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Bridal Hair Chain",
+      desc: "A 22K gold hair chain with deity motifs and delicate links for bridal hairstyles.",
+      imgs: [I.goldbridalhc, I.goldbridalhc2, I.goldbridalhc3],
+      features: [
+        "22K Gold",
+        "Deity Motifs",
+        "Delicate Links",
+        "Bridal Accessory",
+      ],
+    },
+    {
+      name: "Bridal Toe Ring",
+      desc: "A 22K gold toe ring with engraved temple motifs — a traditional accessory for married women.",
+      imgs: [I.goldbridalt, I.goldbridalt2, I.goldbridalt3],
+      features: [
+        "22K Gold",
+        "Temple Engraving",
+        "Adjustable Fit",
+        "BIS Certified",
+      ],
+    },
   ],
-  'gold/kids': [
-    { name:'Kids Ring',              desc:'A tiny 18K gold ring with a heart motif — a keepsake for life.',                        imgs:[I.goldKi2,I.goldKi3,I.goldKi], features:['18K Gold','Heart Motif','Safe Design','BIS Certified'] },
-    { name:'Kids Bracelet',          desc:'A delicate 18K gold chain bracelet with a star charm for little wrists.',               imgs:[I.goldkbr3,I.goldkbr,I.goldkbr2], features:['18K Gold','Star Charm','Safety Clasp','Adjustable'] },
-    { name:'Kids Chain',             desc:'A lightweight 18K gold chain designed for comfortable daily wear.',                     imgs:[I.goldkch,I.goldkch2,I.goldkch3], features:['18K Gold','Lightweight','Secure Clasp','BIS Certified'] },
-    { name:'Kids Earrings',          desc:'Tiny butterfly studs in 18K gold with a comfortable push-back setting.',                imgs:[I.goldker,I.goldker1,I.goldker2], features:['18K Gold','Butterfly Design','Push-back','Hypoallergenic'] },
+  "gold/kids": [
+    {
+      name: "Kids Ring",
+      desc: "A tiny 18K gold ring with a heart motif — a keepsake for life.",
+      imgs: [I.goldKi2, I.goldKi3, I.goldKi],
+      features: ["18K Gold", "Heart Motif", "Safe Design", "BIS Certified"],
+    },
+    {
+      name: "Kids Bracelet",
+      desc: "A delicate 18K gold chain bracelet with a star charm for little wrists.",
+      imgs: [I.goldkbr3, I.goldkbr, I.goldkbr2],
+      features: ["18K Gold", "Star Charm", "Safety Clasp", "Adjustable"],
+    },
+    {
+      name: "Kids Chain",
+      desc: "A lightweight 18K gold chain designed for comfortable daily wear.",
+      imgs: [I.goldkch, I.goldkch2, I.goldkch3],
+      features: ["18K Gold", "Lightweight", "Secure Clasp", "BIS Certified"],
+    },
+    {
+      name: "Kids Earrings",
+      desc: "Tiny butterfly studs in 18K gold with a comfortable push-back setting.",
+      imgs: [I.goldker, I.goldker1, I.goldker2],
+      features: ["18K Gold", "Butterfly Design", "Push-back", "Hypoallergenic"],
+    },
+    {
+      name: "Kids Anklet",
+      desc: "A small 18K gold anklet with bell charms — jingling joy for little feet.",
+      imgs: [I.goldkan, I.goldkan2, I.goldkan3],
+      features: [
+        "18K Gold",
+        "Bell Charms",
+        "Adjustable Length",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Kids Nose Pin",
+      desc: "A petite 18K gold nose pin with a floral motif — delicate and safe for children.",
+      imgs: [I.goldknp, I.goldknp2, I.goldknp3],
+      features: ["18K Gold", "Floral Motif", "Push-pin Back", "BIS Certified"],
+    },
+    {
+      name: "Kids Pendant",
+      desc: "A charming 18K gold pendant in the shape of a teddy bear — a gift to treasure.",
+      imgs: [I.goldkpe, I.goldkpe2, I.goldkpe3],
+      features: [
+        "18K Gold",
+        "Teddy Bear Shape",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Kids Hairpin",
+      desc: "A small 18K gold hairpin with a star design — perfect for little girls' hairstyles.",
+      imgs: [I.goldkhp, I.goldkhp2, I.goldkhp3],
+      features: ["18K Gold", "Star Design", "Secure Grip", "BIS Certified"],
+    },
+    {
+      name: "Kids Toe Ring",
+      desc: "A tiny 18K gold toe ring with a heart motif — a keepsake for little feet.",
+      imgs: [I.goldkto, I.goldkto2, I.goldkto3],
+      features: ["18K Gold", "Heart Motif", "Adjustable Fit", "BIS Certified"],
+    },
+    {
+      name: "Kids Hair Clip",
+      desc: "A small 18K gold hair clip with a butterfly design — delicate and secure.",
+      imgs: [I.goldkhc, I.goldkhc2, I.goldkhc3],
+      features: [
+        "18K Gold",
+        "Butterfly Design",
+        "Secure Grip",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Kids Cuff Bracelet",
+      desc: "A tiny 18K gold cuff bracelet with a star motif — adjustable and safe for children.",
+      imgs: [I.goldkcu, I.goldkcu2, I.goldkcu3],
+      features: ["18K Gold", "Star Motif", "Adjustable Fit", "BIS Certified"],
+    },
+    {
+      name: "Kids Charm Necklace",
+      desc: "A delicate 18K gold necklace with a heart-shaped charm — a keepsake for little ones.",
+      imgs: [I.goldkchm, I.goldkchm2, I.goldkchm3],
+      features: [
+        "18K Gold",
+        "Heart-shaped Charm",
+        "Adjustable Length",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Kids ID Bracelet",
+      desc: "A small 18K gold ID bracelet with an engravable plate — a personal touch for children.",
+      imgs: [I.goldkid, I.goldkid2, I.goldkid3],
+      features: [
+        "18K Gold",
+        "Engravable Plate",
+        "Adjustable Fit",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Kids Anklet with Bells",
+      desc: "A tiny 18K gold anklet with bell charms — jingling joy for little feet.",
+      imgs: [I.goldkanb, I.goldkanb2, I.goldkanb3],
+      features: [
+        "18K Gold",
+        "Bell Charms",
+        "Adjustable Length",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Kids Hair Band",
+      desc: "A small 18K gold hair band with a floral motif — delicate and secure for little girls.",
+      imgs: [I.goldkha, I.goldkha2, I.goldkha3],
+      features: ["18K Gold", "Floral Motif", "Secure Fit", "BIS Certified"],
+    },
+    {
+      name: "Kids Toe Ring with Gemstone",
+      desc: "A tiny 18K gold toe ring with a small gemstone — a keepsake for little feet.",
+      imgs: [I.goldkto2, I.goldkto3, I.goldkto4],
+      features: [
+        "18K Gold",
+        "Gemstone Accent",
+        "Adjustable Fit",
+        "BIS Certified",
+      ],
+    },
   ],
-  'gold/coins': [
-    { name:'1 Gram Gold Coin',       desc:'Certified 24K pure gold coin — a timeless investment and auspicious gift.',             imgs:[I.goldCoins,I.goldCoins3,I.goldCoins2], features:['24K Pure Gold','BIS Certified','1 Gram','Gift Box Included'] },
-    { name:'5 Gram Gold Coin',       desc:'A 24K gold coin with Lakshmi motif — prosperity in your hands.',                       imgs:[I.goldCoins5,I.goldCoins4,I.goldCoins6], features:['24K Pure Gold','Lakshmi Motif','5 Gram','Certificate Included'] },
-    { name:'10 Gram Gold Coin',      desc:'An investment-grade 24K gold coin in a premium tamper-proof capsule.',                  imgs:[I.goldCoins7,I.goldCoins8,I.goldCoins9], features:['24K Pure Gold','10 Gram','Tamper-proof Capsule','BIS Certified'] },
+  "gold/coins": [
+    {
+      name: "1 Gram Gold Coin",
+      desc: "Certified 24K pure gold coin — a timeless investment and auspicious gift.",
+      imgs: [I.goldCoins, I.goldCoins3, I.goldCoins2],
+      features: [
+        "24K Pure Gold",
+        "BIS Certified",
+        "1 Gram",
+        "Gift Box Included",
+      ],
+    },
+    {
+      name: "5 Gram Gold Coin",
+      desc: "A 24K gold coin with Lakshmi motif — prosperity in your hands.",
+      imgs: [I.goldCoins5, I.goldCoins4, I.goldCoins6],
+      features: [
+        "24K Pure Gold",
+        "Lakshmi Motif",
+        "5 Gram",
+        "Certificate Included",
+      ],
+    },
+    {
+      name: "10 Gram Gold Coin",
+      desc: "An investment-grade 24K gold coin in a premium tamper-proof capsule.",
+      imgs: [I.goldCoins7, I.goldCoins8, I.goldCoins9],
+      features: [
+        "24K Pure Gold",
+        "10 Gram",
+        "Tamper-proof Capsule",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "20 Gram Gold Coin",
+      desc: "A 24K gold coin with intricate engraving — a valuable addition to your portfolio.",
+      imgs: [I.goldCoins10, I.goldCoins11, I.goldCoins12],
+      features: [
+        "24K Pure Gold",
+        "20 Gram",
+        "Intricate Engraving",
+        "Certificate Included",
+      ],
+    },
+    {
+      name: "50 Gram Gold Coin",
+      desc: "A large 24K gold coin with auspicious motifs — a prestigious gift for special occasions.",
+      imgs: [I.goldCoins13, I.goldCoins14, I.goldCoins15],
+      features: [
+        "24K Pure Gold",
+        "50 Gram",
+        "Auspicious Motifs",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "100 Gram Gold Coin",
+      desc: "A premium 24K gold coin with a high-relief design — a collector's delight.",
+      imgs: [I.goldCoins16, I.goldCoins17, I.goldCoins18],
+      features: [
+        "24K Pure Gold",
+        "100 Gram",
+        "High-relief Design",
+        "Certificate Included",
+      ],
+    },
+    {
+      name: "Custom Gold Coin",
+      desc: "A 24K gold coin that can be personalized with your own design or engraving.",
+      imgs: [I.goldCoins19, I.goldCoins20, I.goldCoins21],
+      features: [
+        "24K Pure Gold",
+        "Custom Design",
+        "Engraving Option",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Commemorative Gold Coin",
+      desc: "A limited edition 24K gold coin celebrating a special event or milestone.",
+      imgs: [I.goldCoins22, I.goldCoins23, I.goldCoins24],
+      features: [
+        "24K Pure Gold",
+        "Limited Edition",
+        "Commemorative Design",
+        "Certificate Included",
+      ],
+    },
+    {
+      name: "Gold Coin with Gemstones",
+      desc: "A 24K gold coin adorned with precious gemstones — a luxurious keepsake.",
+      imgs: [I.goldCoins25, I.goldCoins26, I.goldCoins27],
+      features: [
+        "24K Pure Gold",
+        "Gemstone Accents",
+        "Luxury Keepsake",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Gold Coin with Religious Motif",
+      desc: "A 24K gold coin featuring a sacred religious motif — a blessing in your hands.",
+      imgs: [I.goldCoins28, I.goldCoins29, I.goldCoins30],
+      features: [
+        "24K Pure Gold",
+        "Religious Motif",
+        "Blessing Coin",
+        "Certificate Included",
+      ],
+    },
+    {
+      name: "Gold Coin with Custom Message",
+      desc: "A 24K gold coin that can be engraved with a personal message or dedication.",
+      imgs: [I.goldCoins31, I.goldCoins32, I.goldCoins33],
+      features: [
+        "24K Pure Gold",
+        "Custom Engraving",
+        "Personal Dedication",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Gold Coin with Zodiac Sign",
+      desc: "A 24K gold coin featuring your zodiac sign — a personalized astrological gift.",
+      imgs: [I.goldCoins34, I.goldCoins35, I.goldCoins36],
+      features: [
+        "24K Pure Gold",
+        "Zodiac Sign",
+        "Astrological Gift",
+        "Certificate Included",
+      ],
+    },
+    {
+      name: "Gold Coin with National Emblem",
+      desc: "A 24K gold coin featuring the national emblem — a patriotic keepsake.",
+      imgs: [I.goldCoins37, I.goldCoins38, I.goldCoins39],
+      features: [
+        "24K Pure Gold",
+        "National Emblem",
+        "Patriotic Keepsake",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Gold Coin with Custom Shape",
+      desc: "A 24K gold coin that can be minted in a unique shape of your choice.",
+      imgs: [I.goldCoins40, I.goldCoins41, I.goldCoins42],
+      features: [
+        "24K Pure Gold",
+        "Custom Shape",
+        "Unique Design",
+        "Certificate Included",
+      ],
+    },
+    {
+      name: "Gold Coin with Family Crest",
+      desc: "A 24K gold coin featuring your family crest or emblem — a heritage keepsake.",
+      imgs: [I.goldCoins43, I.goldCoins44, I.goldCoins45],
+      features: [
+        "24K Pure Gold",
+        "Family Crest",
+        "Heritage Keepsake",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Gold Coin with Custom Artwork",
+      desc: "A 24K gold coin that can be engraved with your own artwork or illustration.",
+      imgs: [I.goldCoins46, I.goldCoins47, I.goldCoins48],
+      features: [
+        "24K Pure Gold",
+        "Custom Artwork",
+        "Engraving Option",
+        "Certificate Included",
+      ],
+    },
   ],
-  'silver/mens/rings': [
-    { name:'Oxidised Silver Band',   desc:'A wide oxidised band with tribal texture — contemporary style with deep roots.',        imgs:[I.silvermrings,I.silvermrings2,I.silvermrings3], features:['92.5 Silver','Hand-oxidised','Tribal Pattern','Unisex Design'] },
-    { name:'Plain Silver Band',      desc:'A simple polished silver band — the understated choice of the discerning man.',         imgs:[I.silvermrings4,I.silvermrings5,I.silvermrings6], features:['92.5 Silver','High-polish','BIS Certified','Comfortable Fit'] },
+  "silver/mens/rings": [
+    {
+      name: "Oxidised Silver Band",
+      desc: "A wide oxidised band with tribal texture — contemporary style with deep roots.",
+      imgs: [I.silvermrings, I.silvermrings2, I.silvermrings3],
+      features: [
+        "92.5 Silver",
+        "Hand-oxidised",
+        "Tribal Pattern",
+        "Unisex Design",
+      ],
+    },
+    {
+      name: "Plain Silver Band",
+      desc: "A simple polished silver band — the understated choice of the discerning man.",
+      imgs: [I.silvermrings4, I.silvermrings5, I.silvermrings6],
+      features: [
+        "92.5 Silver",
+        "High-polish",
+        "BIS Certified",
+        "Comfortable Fit",
+      ],
+    },
+    {
+      name: "Silver Signet Ring",
+      desc: "A classic signet ring in sterling silver — ready for engraving your personal crest.",
+      imgs: [I.silvermrings7, I.silvermrings8, I.silvermrings9],
+      features: [
+        "92.5 Silver",
+        "Signet Style",
+        "Engravable Surface",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Silver Spinner Ring",
+      desc: "A sterling silver spinner ring with a smooth inner band — stress relief in style.",
+      imgs: [I.silvermrings10, I.silvermrings11, I.silvermrings12],
+      features: [
+        "92.5 Silver",
+        "Spinner Design",
+        "Comfort Fit",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Celtic Ring",
+      desc: "A sterling silver ring with intricate Celtic knotwork — a symbol of eternity.",
+      imgs: [I.silvermrings13, I.silvermrings14, I.silvermrings15],
+      features: [
+        "92.5 Silver",
+        "Celtic Knotwork",
+        "Polished Finish",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Silver Skull Ring",
+      desc: "A bold sterling silver ring featuring a detailed skull motif — edgy and daring.",
+      imgs: [I.silvermrings16, I.silvermrings17, I.silvermrings18],
+      features: [
+        "92.5 Silver",
+        "Skull Motif",
+        "Oxidised Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Geometric Ring",
+      desc: "A modern sterling silver ring with geometric cutouts — sleek and contemporary.",
+      imgs: [I.silvermrings19, I.silvermrings20, I.silvermrings21],
+      features: [
+        "92.5 Silver",
+        "Geometric Cutouts",
+        "Polished Finish",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Silver Hammered Ring",
+      desc: "A sterling silver ring with a hammered texture — rugged yet refined.",
+      imgs: [I.silvermrings22, I.silvermrings23, I.silvermrings24],
+      features: [
+        "92.5 Silver",
+        "Hammered Texture",
+        "Comfort Fit",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Infinity Ring",
+      desc: "A sterling silver ring with an infinity symbol design — timeless and meaningful.",
+      imgs: [I.silvermrings25, I.silvermrings26, I.silvermrings27],
+      features: [
+        "92.5 Silver",
+        "Infinity Symbol",
+        "Polished Finish",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Silver Tribal Ring",
+      desc: "A sterling silver ring with tribal-inspired engravings — bold and distinctive.",
+      imgs: [I.silvermrings28, I.silvermrings29, I.silvermrings30],
+      features: [
+        "92.5 Silver",
+        "Tribal Engravings",
+        "Oxidised Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Wave Ring",
+      desc: "A sterling silver ring with a wave pattern — fluid design for the modern man.",
+      imgs: [I.silvermrings31, I.silvermrings32, I.silvermrings33],
+      features: [
+        "92.5 Silver",
+        "Wave Pattern",
+        "Polished Finish",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Silver Arrow Ring",
+      desc: "A sterling silver ring with an arrow motif — symbolizing direction and purpose.",
+      imgs: [I.silvermrings34, I.silvermrings35, I.silvermrings36],
+      features: [
+        "92.5 Silver",
+        "Arrow Motif",
+        "Oxidised Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Shield Ring",
+      desc: "A sterling silver ring with a shield design — strength and protection in style.",
+      imgs: [I.silvermrings37, I.silvermrings38, I.silvermrings39],
+      features: [
+        "92.5 Silver",
+        "Shield Design",
+        "Polished Finish",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Silver Anchor Ring",
+      desc: "A sterling silver ring with an anchor motif — stability and hope for the modern man.",
+      imgs: [I.silvermrings40, I.silvermrings41, I.silvermrings42],
+      features: [
+        "92.5 Silver",
+        "Anchor Motif",
+        "Oxidised Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Compass Ring",
+      desc: "A sterling silver ring with a compass design — guiding the wearer through life's journey.",
+      imgs: [I.silvermrings43, I.silvermrings44, I.silvermrings45],
+      features: [
+        "92.5 Silver",
+        "Compass Design",
+        "Polished Finish",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Silver Feather Ring",
+      desc: "A sterling silver ring with a feather motif — lightness and freedom in design.",
+      imgs: [I.silvermrings46, I.silvermrings47, I.silvermrings48],
+      features: [
+        "92.5 Silver",
+        "Feather Motif",
+        "Oxidised Finish",
+        "BIS Certified",
+      ],
+    },
   ],
-  'silver/mens/chains': [
-    { name:'Silver Curb Chain',      desc:'A sturdy curb-link silver chain — the masculine choice for everyday wear.',             imgs:[I.silvermch,I.silvermch2,I.silvermch3], features:['92.5 Silver','Curb Link','Lobster Clasp','BIS Certified'] },
-    { name:'Silver Rope Chain',      desc:'Twisted rope weave in sterling silver, available in 18" and 22".',                     imgs:[I.silvermch4,I.silvermch5,I.silvermch6], features:['92.5 Silver','Rope Weave','2 Lengths','Hallmarked'] },
+  "silver/mens/chains": [
+    {
+      name: "Silver Curb Chain",
+      desc: "A sturdy curb-link silver chain — the masculine choice for everyday wear.",
+      imgs: [I.silvermch, I.silvermch2, I.silvermch3],
+      features: ["92.5 Silver", "Curb Link", "Lobster Clasp", "BIS Certified"],
+    },
+    {
+      name: "Silver Rope Chain",
+      desc: 'Twisted rope weave in sterling silver, available in 18" and 22".',
+      imgs: [I.silvermch4, I.silvermch5, I.silvermch6],
+      features: ["92.5 Silver", "Rope Weave", "2 Lengths", "Hallmarked"],
+    },
+    {
+      name: "Silver Box Chain",
+      desc: "A sleek box-link silver chain — versatile and durable for daily wear.",
+      imgs: [I.silvermch7, I.silvermch8, I.silvermch9],
+      features: ["92.5 Silver", "Box Link", "Lobster Clasp", "BIS Certified"],
+    },
+    {
+      name: "Silver Figaro Chain",
+      desc: "Alternating link pattern in sterling silver — a classic chain style.",
+      imgs: [I.silvermch10, I.silvermch11, I.silvermch12],
+      features: [
+        "92.5 Silver",
+        "Figaro Pattern",
+        "Lobster Clasp",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Silver Snake Chain",
+      desc: "Smooth and flexible sterling silver chain with a snake-like appearance.",
+      imgs: [I.silvermch13, I.silvermch14, I.silvermch15],
+      features: [
+        "92.5 Silver",
+        "Snake Design",
+        "Lobster Clasp",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Ball Chain",
+      desc: "Tiny silver spheres strung together — a minimalist chain for pendants.",
+      imgs: [I.silvermch16, I.silvermch17, I.silvermch18],
+      features: ["92.5 Silver", "Ball Link", "Lobster Clasp", "Hallmarked"],
+    },
+    {
+      name: "Silver Anchor Chain",
+      desc: "Sterling silver chain with anchor-shaped links — nautical style.",
+      imgs: [I.silvermch19, I.silvermch20, I.silvermch21],
+      features: [
+        "92.5 Silver",
+        "Anchor Links",
+        "Lobster Clasp",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Wheat Chain",
+      desc: "Interwoven links in sterling silver — a textured chain for a refined look.",
+      imgs: [I.silvermch22, I.silvermch23, I.silvermch24],
+      features: ["92.5 Silver", "Wheat Pattern", "Lobster Clasp", "Hallmarked"],
+    },
+    {
+      name: "Silver Herringbone Chain",
+      desc: "Flat, slanted links in sterling silver — a smooth and elegant chain.",
+      imgs: [I.silvermch25, I.silvermch26, I.silvermch27],
+      features: [
+        "92.5 Silver",
+        "Herringbone Design",
+        "Lobster Clasp",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Mariner Chain",
+      desc: "Sterling silver chain with oval links and a bar in the center — a nautical-inspired design.",
+      imgs: [I.silvermch28, I.silvermch29, I.silvermch30],
+      features: ["92.5 Silver", "Mariner Style", "Lobster Clasp", "Hallmarked"],
+    },
+    {
+      name: "Silver Rope Twist Chain",
+      desc: "Twisted rope design in sterling silver — a classic and versatile chain.",
+      imgs: [I.silvermch31, I.silvermch32, I.silvermch33],
+      features: ["92.5 Silver", "Rope Twist", "Lobster Clasp", "BIS Certified"],
+    },
+    {
+      name: "Silver Venetian Chain",
+      desc: "Flat, square links in sterling silver — a sleek and modern chain.",
+      imgs: [I.silvermch34, I.silvermch35, I.silvermch36],
+      features: [
+        "92.5 Silver",
+        "Venetian Design",
+        "Lobster Clasp",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Silver Belcher Chain",
+      desc: "Uniform round links in sterling silver — a simple and classic chain.",
+      imgs: [I.silvermch37, I.silvermch38, I.silvermch39],
+      features: [
+        "92.5 Silver",
+        "Belcher Style",
+        "Lobster Clasp",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Singapore Chain",
+      desc: "Twisted and textured sterling silver chain — a sparkling effect for everyday wear.",
+      imgs: [I.silvermch40, I.silvermch41, I.silvermch42],
+      features: [
+        "92.5 Silver",
+        "Singapore Design",
+        "Lobster Clasp",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Silver Cable Chain",
+      desc: "Interlocking oval links in sterling silver — a versatile and durable chain.",
+      imgs: [I.silvermch43, I.silvermch44, I.silvermch45],
+      features: [
+        "92.5 Silver",
+        "Cable Style",
+        "Lobster Clasp",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Rolo Chain",
+      desc: "Round links in sterling silver — a classic chain style for pendants.",
+      imgs: [I.silvermch46, I.silvermch47, I.silvermch48],
+      features: ["92.5 Silver", "Rolo Design", "Lobster Clasp", "Hallmarked"],
+    },
   ],
-  'silver/mens/kada': [
-    { name:"Men's Silver Kada",      desc:'Solid 92.5 silver kada with rope-edge — tradition worn with authority.',               imgs:[I.silvermka,I.silvermka2,I.silvermka3], features:['92.5 Silver','Rope Edge','Open Cuff','BIS Hallmarked'] },
-    { name:'Plain Silver Kada',      desc:'A smooth, heavy silver kada — minimal design, maximum presence.',                      imgs:[I.silvermka4,I.silvermka5,I.silvermka6], features:['92.5 Silver','Plain Finish','Heavy Gauge','BIS Certified'] },
+  "silver/mens/kada": [
+    {
+      name: "Men's Silver Kada",
+      desc: "Solid 92.5 silver kada with rope-edge — tradition worn with authority.",
+      imgs: [I.silvermka, I.silvermka2, I.silvermka3],
+      features: ["92.5 Silver", "Rope Edge", "Open Cuff", "BIS Hallmarked"],
+    },
+    {
+      name: "Plain Silver Kada",
+      desc: "A smooth, heavy silver kada — minimal design, maximum presence.",
+      imgs: [I.silvermka4, I.silvermka5, I.silvermka6],
+      features: ["92.5 Silver", "Plain Finish", "Heavy Gauge", "BIS Certified"],
+    },
+    {
+      name: "Oxidised Silver Kada",
+      desc: "A bold oxidised silver kada with tribal etching — statement piece for the modern man.",
+      imgs: [I.silvermka7, I.silvermka8, I.silvermka9],
+      features: [
+        "92.5 Silver",
+        "Oxidised Finish",
+        "Tribal Etching",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Engraved Silver Kada",
+      desc: "A sterling silver kada engraved with a geometric pattern — contemporary and stylish.",
+      imgs: [I.silvermka10, I.silvermka11, I.silvermka12],
+      features: [
+        "92.5 Silver",
+        "Geometric Engraving",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Cuff Kada",
+      desc: "A wide sterling silver cuff kada with a brushed finish — bold and masculine.",
+      imgs: [I.silvermka13, I.silvermka14, I.silvermka15],
+      features: ["92.5 Silver", "Brushed Finish", "Wide Cuff", "BIS Certified"],
+    },
+    {
+      name: "Silver Tribal Kada",
+      desc: "A sterling silver kada with tribal-inspired motifs — edgy and distinctive.",
+      imgs: [I.silvermka16, I.silvermka17, I.silvermka18],
+      features: [
+        "92.5 Silver",
+        "Tribal Motifs",
+        "Oxidised Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Hammered Kada",
+      desc: "A sterling silver kada with a hammered texture — rugged yet refined.",
+      imgs: [I.silvermka19, I.silvermka20, I.silvermka21],
+      features: [
+        "92.5 Silver",
+        "Hammered Texture",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Rope Edge Kada",
+      desc: "A sterling silver kada with a rope-edge design — classic and timeless.",
+      imgs: [I.silvermka22, I.silvermka23, I.silvermka24],
+      features: [
+        "92.5 Silver",
+        "Rope Edge",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Oxidised Kada",
+      desc: "A sterling silver kada with an oxidised finish and engraved detailing — bold and contemporary.",
+      imgs: [I.silvermka25, I.silvermka26, I.silvermka27],
+      features: [
+        "92.5 Silver",
+        "Oxidised Finish",
+        "Engraved Detailing",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Cuff Bracelet",
+      desc: "A wide sterling silver cuff bracelet with a brushed finish — bold and masculine.",
+      imgs: [I.silvermbra7, I.silvermbra8, I.silvermbra9],
+      features: ["92.5 Silver", "Brushed Finish", "Wide Cuff", "BIS Certified"],
+    },
+    {
+      name: "Silver Tribal Bracelet",
+      desc: "A sterling silver bracelet with tribal-inspired motifs — edgy and distinctive.",
+      imgs: [I.silvermbra10, I.silvermbra11, I.silvermbra12],
+      features: [
+        "92.5 Silver",
+        "Tribal Motifs",
+        "Oxidised Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Hammered Bracelet",
+      desc: "A sterling silver bracelet with a hammered texture — rugged yet refined.",
+      imgs: [I.silvermbra13, I.silvermbra14, I.silvermbra15],
+      features: [
+        "92.5 Silver",
+        "Hammered Texture",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Rope Edge Bracelet",
+      desc: "A sterling silver bracelet with a rope-edge design — classic and timeless.",
+      imgs: [I.silvermbra16, I.silvermbra17, I.silvermbra18],
+      features: [
+        "92.5 Silver",
+        "Rope Edge",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Oxidised Bracelet",
+      desc: "A sterling silver bracelet with an oxidised finish and engraved detailing — bold and contemporary.",
+      imgs: [I.silvermbra19, I.silvermbra20, I.silvermbra21],
+      features: [
+        "92.5 Silver",
+        "Oxidised Finish",
+        "Engraved Detailing",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Cuff Bangle",
+      desc: "A wide sterling silver cuff bangle with a brushed finish — bold and masculine.",
+      imgs: [I.silvermbra22, I.silvermbra23, I.silvermbra24],
+      features: ["92.5 Silver", "Brushed Finish", "Wide Cuff", "BIS Certified"],
+    },
+    {
+      name: "Silver Tribal Bangle",
+      desc: "A sterling silver bangle with tribal-inspired motifs — edgy and distinctive.",
+      imgs: [I.silvermbra25, I.silvermbra26, I.silvermbra27],
+      features: [
+        "92.5 Silver",
+        "Tribal Motifs",
+        "Oxidised Finish",
+        "BIS Certified",
+      ],
+    },
   ],
-  'silver/mens/bracelets': [
-    { name:'Silver Curb Bracelet',   desc:'Curb-link silver bracelet with a box clasp — bold and enduring.',                      imgs:[I.silvermbra,I.silvermbra2,I.silvermbra3], features:['92.5 Silver','Curb Link','Box Clasp','BIS Certified'] },
-    { name:'Silver ID Bracelet',     desc:'Flat-plate silver ID bracelet with an engravable surface.',                             imgs:[I.silvermbra4,I.silvermbra5,I.silvermbra6], features:['92.5 Silver','Engravable Plate','Lobster Clasp','Hallmarked'] },
+  "silver/mens/bracelets": [
+    {
+      name: "Silver Curb Bracelet",
+      desc: "Curb-link silver bracelet with a box clasp — bold and enduring.",
+      imgs: [I.silvermbra, I.silvermbra2, I.silvermbra3],
+      features: ["92.5 Silver", "Curb Link", "Box Clasp", "BIS Certified"],
+    },
+    {
+      name: "Silver ID Bracelet",
+      desc: "Flat-plate silver ID bracelet with an engravable surface.",
+      imgs: [I.silvermbra4, I.silvermbra5, I.silvermbra6],
+      features: [
+        "92.5 Silver",
+        "Engravable Plate",
+        "Lobster Clasp",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Silver Rope Bracelet",
+      desc: "Twisted rope silver bracelet with a secure clasp — classic and versatile.",
+      imgs: [I.silvermbra7, I.silvermbra8, I.silvermbra9],
+      features: [
+        "92.5 Silver",
+        "Rope Design",
+        "Lobster Clasp",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Box Bracelet",
+      desc: "Box-link silver bracelet with a polished finish — sleek and modern.",
+      imgs: [I.silvermbra10, I.silvermbra11, I.silvermbra12],
+      features: ["92.5 Silver", "Box Link", "Lobster Clasp", "Hallmarked"],
+    },
+    {
+      name: "Silver Figaro Bracelet",
+      desc: "Figaro-link silver bracelet with alternating link sizes — stylish and contemporary.",
+      imgs: [I.silvermbra13, I.silvermbra14, I.silvermbra15],
+      features: [
+        "92.5 Silver",
+        "Figaro Pattern",
+        "Lobster Clasp",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Snake Bracelet",
+      desc: "Smooth snake-link silver bracelet with a secure clasp — elegant and understated.",
+      imgs: [I.silvermbra16, I.silvermbra17, I.silvermbra18],
+      features: ["92.5 Silver", "Snake Design", "Lobster Clasp", "Hallmarked"],
+    },
+    {
+      name: "Silver Ball Bracelet",
+      desc: "Tiny silver spheres strung into a delicate bracelet — minimalist and versatile.",
+      imgs: [I.silvermbra19, I.silvermbra20, I.silvermbra21],
+      features: ["92.5 Silver", "Ball Link", "Lobster Clasp", "BIS Certified"],
+    },
+    {
+      name: "Silver Anchor Bracelet",
+      desc: "Sterling silver bracelet with anchor-shaped links — nautical style.",
+      imgs: [I.silvermbra22, I.silvermbra23, I.silvermbra24],
+      features: ["92.5 Silver", "Anchor Links", "Lobster Clasp", "Hallmarked"],
+    },
+    {
+      name: "Silver Wheat Bracelet",
+      desc: "Interwoven links in sterling silver — a textured bracelet for a refined look.",
+      imgs: [I.silvermbra25, I.silvermbra26, I.silvermbra27],
+      features: [
+        "92.5 Silver",
+        "Wheat Pattern",
+        "Lobster Clasp",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Herringbone Bracelet",
+      desc: "Flat, slanted links in sterling silver — a smooth and elegant bracelet.",
+      imgs: [I.silvermbra28, I.silvermbra29, I.silvermbra30],
+      features: [
+        "92.5 Silver",
+        "Herringbone Design",
+        "Lobster Clasp",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Silver Mariner Bracelet",
+      desc: "Sterling silver bracelet with oval links and a bar in the center — a nautical-inspired design.",
+      imgs: [I.silvermbra31, I.silvermbra32, I.silvermbra33],
+      features: [
+        "92.5 Silver",
+        "Mariner Style",
+        "Lobster Clasp",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Rope Twist Bracelet",
+      desc: "Twisted rope design in sterling silver — a classic and versatile bracelet.",
+      imgs: [I.silvermbra34, I.silvermbra35, I.silvermbra36],
+      features: ["92.5 Silver", "Rope Twist", "Lobster Clasp", "Hallmarked"],
+    },
+    {
+      name: "Silver Venetian Bracelet",
+      desc: "Flat, square links in sterling silver — a sleek and modern bracelet.",
+      imgs: [I.silvermbra37, I.silvermbra38, I.silvermbra39],
+      features: [
+        "92.5 Silver",
+        "Venetian Design",
+        "Lobster Clasp",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Belcher Bracelet",
+      desc: "Uniform round links in sterling silver — a simple and classic bracelet.",
+      imgs: [I.silvermbra40, I.silvermbra41, I.silvermbra42],
+      features: ["92.5 Silver", "Belcher Style", "Lobster Clasp", "Hallmarked"],
+    },
+    {
+      name: "Silver Singapore Bracelet",
+      desc: "Twisted and textured sterling silver bracelet — a sparkling effect for everyday wear.",
+      imgs: [I.silvermbra43, I.silvermbra44, I.silvermbra45],
+      features: [
+        "92.5 Silver",
+        "Singapore Design",
+        "Lobster Clasp",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Cable Bracelet",
+      desc: "Interlocking oval links in sterling silver — a versatile and durable bracelet.",
+      imgs: [I.silvermbra46, I.silvermbra47, I.silvermbra48],
+      features: ["92.5 Silver", "Cable Style", "Lobster Clasp", "Hallmarked"],
+    },
   ],
-  'silver/womens/rings': [
-    { name:'Filigree Silver Ring',   desc:'Gossamer-thin silver wire woven into a delicate filigree ring.',                       imgs:[I.silverwri,I.silverwri3,I.silverwri2], features:['92.5 Silver','Cuttack Filigree','Handcrafted','Lightweight'] },
-    { name:'Stone-set Silver Ring',  desc:'A 92.5 silver ring set with a cushion-cut amethyst — colour and craft.',               imgs:[I.silverwri6,I.silverwri5,I.silverwri4], features:['92.5 Silver','Amethyst Stone','Prong Setting','BIS Certified'] },
+  "silver/womens/rings": [
+    {
+      name: "Filigree Silver Ring",
+      desc: "Gossamer-thin silver wire woven into a delicate filigree ring.",
+      imgs: [I.silverwri, I.silverwri3, I.silverwri2],
+      features: [
+        "92.5 Silver",
+        "Cuttack Filigree",
+        "Handcrafted",
+        "Lightweight",
+      ],
+    },
+    {
+      name: "Stone-set Silver Ring",
+      desc: "A 92.5 silver ring set with a cushion-cut amethyst — colour and craft.",
+      imgs: [I.silverwri6, I.silverwri5, I.silverwri4],
+      features: [
+        "92.5 Silver",
+        "Amethyst Stone",
+        "Prong Setting",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Oxidised Silver Ring",
+      desc: "A bold oxidised silver ring with tribal etching — statement piece for the modern woman.",
+      imgs: [I.silverwri7, I.silverwri8, I.silverwri9],
+      features: [
+        "92.5 Silver",
+        "Oxidised Finish",
+        "Tribal Etching",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Engraved Silver Ring",
+      desc: "A sterling silver ring engraved with a geometric pattern — contemporary and stylish.",
+      imgs: [I.silverwri10, I.silverwri11, I.silverwri12],
+      features: [
+        "92.5 Silver",
+        "Geometric Engraving",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Cuff Ring",
+      desc: "A wide sterling silver cuff ring with a brushed finish — bold and feminine.",
+      imgs: [I.silverwri13, I.silverwri14, I.silverwri15],
+      features: ["92.5 Silver", "Brushed Finish", "Wide Cuff", "BIS Certified"],
+    },
+    {
+      name: "Silver Tribal Ring",
+      desc: "A sterling silver ring with tribal-inspired motifs — edgy and distinctive.",
+      imgs: [I.silverwri16, I.silverwri17, I.silverwri18],
+      features: [
+        "92.5 Silver",
+        "Tribal Motifs",
+        "Oxidised Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Hammered Ring",
+      desc: "A sterling silver ring with a hammered texture — rugged yet refined.",
+      imgs: [I.silverwri19, I.silverwri20, I.silverwri21],
+      features: [
+        "92.5 Silver",
+        "Hammered Texture",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Rope Edge Ring",
+      desc: "A sterling silver ring with a rope-edge design — classic and timeless.",
+      imgs: [I.silverwri22, I.silverwri23, I.silverwri24],
+      features: [
+        "92.5 Silver",
+        "Rope Edge",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Oxidised Ring",
+      desc: "A sterling silver ring with an oxidised finish and engraved detailing — bold and contemporary.",
+      imgs: [I.silverwri25, I.silverwri26, I.silverwri27],
+      features: [
+        "92.5 Silver",
+        "Oxidised Finish",
+        "Engraved Detailing",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Cuff Ring",
+      desc: "A wide sterling silver cuff ring with a brushed finish — bold and feminine.",
+      imgs: [I.silverwri28, I.silverwri29, I.silverwri30],
+      features: ["92.5 Silver", "Brushed Finish", "Wide Cuff", "BIS Certified"],
+    },
+    {
+      name: "Silver Tribal Ring",
+      desc: "A sterling silver ring with tribal-inspired motifs — edgy and distinctive.",
+      imgs: [I.silverwri31, I.silverwri32, I.silverwri33],
+      features: [
+        "92.5 Silver",
+        "Tribal Motifs",
+        "Oxidised Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Hammered Ring",
+      desc: "A sterling silver ring with a hammered texture — rugged yet refined.",
+      imgs: [I.silverwri34, I.silverwri35, I.silverwri36],
+      features: [
+        "92.5 Silver",
+        "Hammered Texture",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Rope Edge Ring",
+      desc: "A sterling silver ring with a rope-edge design — classic and timeless.",
+      imgs: [I.silverwri37, I.silverwri38, I.silverwri39],
+      features: [
+        "92.5 Silver",
+        "Rope Edge",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Oxidised Ring",
+      desc: "A sterling silver ring with an oxidised finish and engraved detailing — bold and contemporary.",
+      imgs: [I.silverwri40, I.silverwri41, I.silverwri42],
+      features: [
+        "92.5 Silver",
+        "Oxidised Finish",
+        "Engraved Detailing",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Cuff Ring",
+      desc: "A wide sterling silver cuff ring with a brushed finish — bold and feminine.",
+      imgs: [I.silverwri43, I.silverwri44, I.silverwri45],
+      features: ["92.5 Silver", "Brushed Finish", "Wide Cuff", "BIS Certified"],
+    },
+    {
+      name: "Silver Tribal Ring",
+      desc: "A sterling silver ring with tribal-inspired motifs — edgy and distinctive.",
+      imgs: [I.silverwri46, I.silverwri47, I.silverwri48],
+      features: [
+        "92.5 Silver",
+        "Tribal Motifs",
+        "Oxidised Finish",
+        "BIS Certified",
+      ],
+    },
   ],
-  'silver/womens/chains': [
-    { name:'Silver Box Chain',       desc:'A fine silver box chain for layering or wearing alone with a pendant.',                 imgs:[I.silverwch,I.silverwch2,I.silverwch3], features:['92.5 Silver','Box Link','16" Length','BIS Certified'] },
-    { name:'Silver Ball Chain',      desc:'Tiny silver spheres strung into a delicate ball chain necklace.',                      imgs:[I.silverwch4,I.silverwch5,I.silverwch6], features:['92.5 Silver','Ball Link','Lightweight','Hallmarked'] },
+  "silver/womens/chains": [
+    {
+      name: "Silver Box Chain",
+      desc: "A fine silver box chain for layering or wearing alone with a pendant.",
+      imgs: [I.silverwch, I.silverwch2, I.silverwch3],
+      features: ["92.5 Silver", "Box Link", '16" Length', "BIS Certified"],
+    },
+    {
+      name: "Silver Ball Chain",
+      desc: "Tiny silver spheres strung into a delicate ball chain necklace.",
+      imgs: [I.silverwch4, I.silverwch5, I.silverwch6],
+      features: ["92.5 Silver", "Ball Link", "Lightweight", "Hallmarked"],
+    },
+    {
+      name: "Silver Rope Chain",
+      desc: 'Twisted rope weave in sterling silver, available in 18" and 22".',
+      imgs: [I.silverwch7, I.silverwch8, I.silverwch9],
+      features: ["92.5 Silver", "Rope Weave", "2 Lengths", "BIS Certified"],
+    },
+    {
+      name: "Silver Snake Chain",
+      desc: "Smooth and flexible sterling silver chain with a snake-like appearance.",
+      imgs: [I.silverwch10, I.silverwch11, I.silverwch12],
+      features: ["92.5 Silver", "Snake Design", '16" Length', "Hallmarked"],
+    },
+    {
+      name: "Silver Curb Chain",
+      desc: "A sturdy curb-link silver chain — the versatile choice for everyday wear.",
+      imgs: [I.silverwch13, I.silverwch14, I.silverwch15],
+      features: ["92.5 Silver", "Curb Link", '18" Length', "BIS Certified"],
+    },
+    {
+      name: "Silver Figaro Chain",
+      desc: "Alternating link pattern in sterling silver — a classic chain style.",
+      imgs: [I.silverwch16, I.silverwch17, I.silverwch18],
+      features: ["92.5 Silver", "Figaro Pattern", '20" Length', "Hallmarked"],
+    },
+    {
+      name: "Silver Herringbone Chain",
+      desc: "Flat, slanted links in sterling silver — a smooth and elegant chain.",
+      imgs: [I.silverwch19, I.silverwch20, I.silverwch21],
+      features: [
+        "92.5 Silver",
+        "Herringbone Design",
+        '16" Length',
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Mariner Chain",
+      desc: "Sterling silver chain with oval links and a bar in the center — a nautical-inspired design.",
+      imgs: [I.silverwch22, I.silverwch23, I.silverwch24],
+      features: ["92.5 Silver", "Mariner Style", '18" Length', "Hallmarked"],
+    },
+    {
+      name: "Silver Rope Twist Chain",
+      desc: "Twisted rope design in sterling silver — a classic and versatile chain.",
+      imgs: [I.silverwch25, I.silverwch26, I.silverwch27],
+      features: ["92.5 Silver", "Rope Twist", '20" Length', "BIS Certified"],
+    },
+    {
+      name: "Silver Venetian Chain",
+      desc: "Flat, square links in sterling silver — a sleek and modern chain.",
+      imgs: [I.silverwch28, I.silverwch29, I.silverwch30],
+      features: ["92.5 Silver", "Venetian Design", '16" Length', "Hallmarked"],
+    },
+    {
+      name: "Silver Belcher Chain",
+      desc: "Uniform round links in sterling silver — a simple and classic chain.",
+      imgs: [I.silverwch31, I.silverwch32, I.silverwch33],
+      features: ["92.5 Silver", "Belcher Style", '18" Length', "BIS Certified"],
+    },
+    {
+      name: "Silver Singapore Chain",
+      desc: "Twisted and textured sterling silver chain — a sparkling effect for everyday wear.",
+      imgs: [I.silverwch34, I.silverwch35, I.silverwch36],
+      features: ["92.5 Silver", "Singapore Design", '20" Length', "Hallmarked"],
+    },
+    {
+      name: "Silver Cable Chain",
+      desc: "Interlocking oval links in sterling silver — a versatile and durable chain.",
+      imgs: [I.silverwch37, I.silverwch38, I.silverwch39],
+      features: ["92.5 Silver", "Cable Style", '16" Length', "BIS Certified"],
+    },
+    {
+      name: "Silver Rolo Chain",
+      desc: "Round links in sterling silver — a classic chain style for pendants.",
+      imgs: [I.silverwch40, I.silverwch41, I.silverwch42],
+      features: ["92.5 Silver", "Rolo Design", '18" Length', "Hallmarked"],
+    },
+    {
+      name: "Silver Anchor Chain",
+      desc: "Sterling silver chain with anchor-shaped links — nautical style.",
+      imgs: [I.silverwch43, I.silverwch44, I.silverwch45],
+      features: ["92.5 Silver", "Anchor Links", '20" Length', "BIS Certified"],
+    },
+    {
+      name: "Silver Wheat Chain",
+      desc: "Interwoven links in sterling silver — a textured chain for a refined look.",
+      imgs: [I.silverwch46, I.silverwch47, I.silverwch48],
+      features: ["92.5 Silver", "Wheat Pattern", '16" Length', "Hallmarked"],
+    },
   ],
-  'silver/womens/earrings': [
-    { name:'Oxidised Silver Drops',  desc:'Long oxidised silver drops with geometric patterning — bold and contemporary.',        imgs:[I.silverwerr3,I.silverwerr1,I.silverwerr2], features:['92.5 Silver','Oxidised Finish','Hook Back','Statement Piece'] },
-    { name:'Silver Stud',            desc:'A simple polished silver stud — the silver wardrobe essential.',                       imgs:[I.silverwerr4,I.silverwerr5,I.silverwerr6], features:['92.5 Silver','High-polish','Push-back','Hypoallergenic'] },
+  "silver/womens/earrings": [
+    {
+      name: "Oxidised Silver Drops",
+      desc: "Long oxidised silver drops with geometric patterning — bold and contemporary.",
+      imgs: [I.silverwerr3, I.silverwerr1, I.silverwerr2],
+      features: [
+        "92.5 Silver",
+        "Oxidised Finish",
+        "Hook Back",
+        "Statement Piece",
+      ],
+    },
+    {
+      name: "Silver Stud",
+      desc: "A simple polished silver stud — the silver wardrobe essential.",
+      imgs: [I.silverwerr4, I.silverwerr5, I.silverwerr6],
+      features: ["92.5 Silver", "High-polish", "Push-back", "Hypoallergenic"],
+    },
+    {
+      name: "Filigree Silver Earrings",
+      desc: "Delicate Cuttack filigree silver earrings — lightweight, intricate, and timeless.",
+      imgs: [I.silverwerr7, I.silverwerr8, I.silverwerr9],
+      features: [
+        "92.5 Silver",
+        "Cuttack Filigree",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Hoop Earrings",
+      desc: "Classic sterling silver hoops — versatile, elegant, and enduring.",
+      imgs: [I.silverwerr10, I.silverwerr11, I.silverwerr12],
+      features: ["92.5 Silver", "Hoop Design", "Hinged Back", "Hallmarked"],
+    },
+    {
+      name: "Silver Chandbali Earrings",
+      desc: "Traditional silver chandbali earrings with intricate detailing — a festive favourite.",
+      imgs: [I.silverwerr13, I.silverwerr14, I.silverwerr15],
+      features: [
+        "92.5 Silver",
+        "Chandbali Design",
+        "Hook Back",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Jhumka Earrings",
+      desc: "Classic silver jhumka earrings with bell-shaped design — timeless and elegant.",
+      imgs: [I.silverwerr16, I.silverwerr17, I.silverwerr18],
+      features: ["92.5 Silver", "Jhumka Design", "Hook Back", "Hallmarked"],
+    },
+    {
+      name: "Silver Drop Earrings",
+      desc: "Elegant silver drop earrings with a minimalist design — perfect for everyday wear.",
+      imgs: [I.silverwerr19, I.silverwerr20, I.silverwerr21],
+      features: ["92.5 Silver", "Drop Design", "Hook Back", "BIS Certified"],
+    },
+    {
+      name: "Silver Ear Cuffs",
+      desc: "Trendy silver ear cuffs with intricate patterns — no piercings needed.",
+      imgs: [I.silverwerr22, I.silverwerr23, I.silverwerr24],
+      features: [
+        "92.5 Silver",
+        "Ear Cuff Design",
+        "Adjustable Fit",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Silver Threader Earrings",
+      desc: "Delicate silver threader earrings with a sleek design — lightweight and versatile.",
+      imgs: [I.silverwerr25, I.silverwerr26, I.silverwerr27],
+      features: [
+        "92.5 Silver",
+        "Threader Design",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Huggie Earrings",
+      desc: "Small silver huggie hoops that hug the earlobe — subtle and stylish.",
+      imgs: [I.silverwerr28, I.silverwerr29, I.silverwerr30],
+      features: ["92.5 Silver", "Huggie Design", "Hinged Back", "Hallmarked"],
+    },
+    {
+      name: "Silver Tassel Earrings",
+      desc: "Sterling silver tassel earrings with a playful design — perfect for parties.",
+      imgs: [I.silverwerr31, I.silverwerr32, I.silverwerr33],
+      features: ["92.5 Silver", "Tassel Design", "Hook Back", "BIS Certified"],
+    },
+    {
+      name: "Silver Geometric Earrings",
+      desc: "Modern silver earrings with geometric shapes — contemporary and chic.",
+      imgs: [I.silverwerr34, I.silverwerr35, I.silverwerr36],
+      features: ["92.5 Silver", "Geometric Design", "Hook Back", "Hallmarked"],
+    },
+    {
+      name: "Silver Pearl Earrings",
+      desc: "Elegant silver earrings adorned with freshwater pearls — classic and timeless.",
+      imgs: [I.silverwerr37, I.silverwerr38, I.silverwerr39],
+      features: [
+        "92.5 Silver",
+        "Freshwater Pearls",
+        "Hook Back",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Filigree Studs",
+      desc: "Intricate Cuttack filigree silver studs — lightweight and versatile for daily wear.",
+      imgs: [I.silverwerr40, I.silverwerr41, I.silverwerr42],
+      features: ["92.5 Silver", "Cuttack Filigree", "Push-back", "Hallmarked"],
+    },
+    {
+      name: "Silver Hoop Drops",
+      desc: "Sterling silver hoops with dangling drops — a fusion of classic and contemporary.",
+      imgs: [I.silverwerr43, I.silverwerr44, I.silverwerr45],
+      features: [
+        "92.5 Silver",
+        "Hoop with Drops",
+        "Hook Back",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Leaf Earrings",
+      desc: "Delicate silver earrings shaped like leaves — nature-inspired elegance.",
+      imgs: [I.silverwerr46, I.silverwerr47, I.silverwerr48],
+      features: ["92.5 Silver", "Leaf Design", "Hook Back", "Hallmarked"],
+    },
   ],
-  'silver/womens/jhumke': [
-    { name:'Oxidised Silver Jhumke', desc:'Large oxidised jhumke with beaded drops — bold, beautiful, unmistakably Indian.',     imgs:[I.silverwj,I.silverwj2,I.silverwj3], features:['92.5 Silver','Hand Oxidised','Beaded Drops','Lever-back Hook'] },
-    { name:'Plain Silver Jhumke',    desc:'Classic jhumke in polished silver — the heritage earring for everyday wear.',          imgs:[I.silverwj4,I.silverwj5,I.silverwj6], features:['92.5 Silver','Plain Finish','Comfortable Fit','BIS Certified'] },
+  "silver/womens/jhumke": [
+    {
+      name: "Oxidised Silver Jhumke",
+      desc: "Large oxidised jhumke with beaded drops — bold, beautiful, unmistakably Indian.",
+      imgs: [I.silverwj, I.silverwj2, I.silverwj3],
+      features: [
+        "92.5 Silver",
+        "Hand Oxidised",
+        "Beaded Drops",
+        "Lever-back Hook",
+      ],
+    },
+    {
+      name: "Plain Silver Jhumke",
+      desc: "Classic jhumke in polished silver — the heritage earring for everyday wear.",
+      imgs: [I.silverwj4, I.silverwj5, I.silverwj6],
+      features: [
+        "92.5 Silver",
+        "Plain Finish",
+        "Comfortable Fit",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Filigree Silver Jhumke",
+      desc: "Cuttack filigree jhumke in sterling silver — intricate, lightweight, and timeless.",
+      imgs: [I.silverwj7, I.silverwj8, I.silverwj9],
+      features: [
+        "92.5 Silver",
+        "Cuttack Filigree",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Pearl Jhumke",
+      desc: "Elegant jhumke with freshwater pearls in sterling silver — classic and feminine.",
+      imgs: [I.silverwj10, I.silverwj11, I.silverwj12],
+      features: [
+        "92.5 Silver",
+        "Freshwater Pearls",
+        "Lever-back Hook",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Silver Beaded Jhumke",
+      desc: "Sterling silver jhumke with tiny beads — playful, traditional, and versatile.",
+      imgs: [I.silverwj13, I.silverwj14, I.silverwj15],
+      features: [
+        "92.5 Silver",
+        "Beaded Design",
+        "Lever-back Hook",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Oxidised Jhumke",
+      desc: "Bold oxidised silver jhumke with tribal motifs — statement earrings for the modern woman.",
+      imgs: [I.silverwj16, I.silverwj17, I.silverwj18],
+      features: [
+        "92.5 Silver",
+        "Hand Oxidised",
+        "Tribal Motifs",
+        "Lever-back Hook",
+      ],
+    },
+    {
+      name: "Silver Filigree Jhumke",
+      desc: "Intricate Cuttack filigree jhumke in sterling silver — lightweight and elegant.",
+      imgs: [I.silverwj19, I.silverwj20, I.silverwj21],
+      features: [
+        "92.5 Silver",
+        "Cuttack Filigree",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Pearl Drop Jhumke",
+      desc: "Sterling silver jhumke with dangling freshwater pearls — graceful and timeless.",
+      imgs: [I.silverwj22, I.silverwj23, I.silverwj24],
+      features: [
+        "92.5 Silver",
+        "Freshwater Pearls",
+        "Lever-back Hook",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Silver Beaded Drop Jhumke",
+      desc: "Delicate jhumke with tiny silver beads and drops — playful and traditional.",
+      imgs: [I.silverwj25, I.silverwj26, I.silverwj27],
+      features: [
+        "92.5 Silver",
+        "Beaded Design",
+        "Lever-back Hook",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Oxidised Drop Jhumke",
+      desc: "Bold oxidised silver jhumke with dangling drops — statement earrings for the modern woman.",
+      imgs: [I.silverwj28, I.silverwj29, I.silverwj30],
+      features: [
+        "92.5 Silver",
+        "Hand Oxidised",
+        "Dangling Drops",
+        "Lever-back Hook",
+      ],
+    },
+    {
+      name: "Silver Filigree Drop Jhumke",
+      desc: "Intricate Cuttack filigree jhumke with dangling drops — lightweight and elegant.",
+      imgs: [I.silverwj31, I.silverwj32, I.silverwj33],
+      features: [
+        "92.5 Silver",
+        "Cuttack Filigree",
+        "Dangling Drops",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Pearl Cluster Jhumke",
+      desc: "Sterling silver jhumke with clustered freshwater pearls — feminine and timeless.",
+      imgs: [I.silverwj34, I.silverwj35, I.silverwj36],
+      features: [
+        "92.5 Silver",
+        "Freshwater Pearls",
+        "Cluster Design",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Silver Beaded Cluster Jhumke",
+      desc: "Delicate jhumke with tiny silver beads in a clustered design — playful and traditional.",
+      imgs: [I.silverwj37, I.silverwj38, I.silverwj39],
+      features: [
+        "92.5 Silver",
+        "Beaded Cluster",
+        "Lever-back Hook",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Oxidised Cluster Jhumke",
+      desc: "Bold oxidised silver jhumke with clustered drops — statement earrings for the modern woman.",
+      imgs: [I.silverwj40, I.silverwj41, I.silverwj42],
+      features: [
+        "92.5 Silver",
+        "Hand Oxidised",
+        "Cluster Design",
+        "Lever-back Hook",
+      ],
+    },
+    {
+      name: "Silver Filigree Cluster Jhumke",
+      desc: "Intricate Cuttack filigree jhumke with clustered drops — lightweight and elegant.",
+      imgs: [I.silverwj43, I.silverwj44, I.silverwj45],
+      features: [
+        "92.5 Silver",
+        "Cuttack Filigree",
+        "Cluster Design",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Pearl Tassel Jhumke",
+      desc: "Sterling silver jhumke with dangling freshwater pearl tassels — graceful and timeless.",
+      imgs: [I.silverwj46, I.silverwj47, I.silverwj48],
+      features: [
+        "92.5 Silver",
+        "Freshwater Pearls",
+        "Tassel Design",
+        "Hallmarked",
+      ],
+    },
   ],
-  'silver/womens/payal': [
-    { name:'Designer Payal',         desc:'Sterling silver anklets with a ghungroo pattern — the music of tradition.',            imgs:[I.silverp,I.silverp3,I.silverp2], features:['92.5 Silver','Ghungroo Bells','Lobster Clasp','Sold as Pair'] },
-    { name:'Plain Payal',            desc:'A simple polished silver payal — minimal and comfortable for daily wear.',              imgs:[I.silverp4,I.silverp5,I.silverp6], features:['92.5 Silver','Plain Design','Adjustable','BIS Certified'] },
+  "silver/womens/payal": [
+    {
+      name: "Designer Payal",
+      desc: "Sterling silver anklets with a ghungroo pattern — the music of tradition.",
+      imgs: [I.silverp, I.silverp3, I.silverp2],
+      features: [
+        "92.5 Silver",
+        "Ghungroo Bells",
+        "Lobster Clasp",
+        "Sold as Pair",
+      ],
+    },
+    {
+      name: "Plain Payal",
+      desc: "A simple polished silver payal — minimal and comfortable for daily wear.",
+      imgs: [I.silverp4, I.silverp5, I.silverp6],
+      features: ["92.5 Silver", "Plain Design", "Adjustable", "BIS Certified"],
+    },
+    {
+      name: "Oxidised Payal",
+      desc: "An oxidised silver payal with tribal motifs — bold, beautiful, and unmistakably Indian.",
+      imgs: [I.silverp7, I.silverp8, I.silverp9],
+      features: [
+        "92.5 Silver",
+        "Oxidised Finish",
+        "Tribal Motifs",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Filigree Payal",
+      desc: "Cuttack filigree silver payal — intricate, lightweight, and timeless.",
+      imgs: [I.silverp10, I.silverp11, I.silverp12],
+      features: [
+        "92.5 Silver",
+        "Cuttack Filigree",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Beaded Payal",
+      desc: "Sterling silver payal with tiny beads — playful, traditional, and versatile.",
+      imgs: [I.silverp13, I.silverp14, I.silverp15],
+      features: ["92.5 Silver", "Beaded Design", "Adjustable", "BIS Certified"],
+    },
+    {
+      name: "Oxidised Beaded Payal",
+      desc: "Bold oxidised silver payal with beaded drops — statement anklet for the modern woman.",
+      imgs: [I.silverp16, I.silverp17, I.silverp18],
+      features: [
+        "92.5 Silver",
+        "Oxidised Finish",
+        "Beaded Design",
+        "Lever-back Hook",
+      ],
+    },
+    {
+      name: "Filigree Beaded Payal",
+      desc: "Intricate Cuttack filigree silver payal with beaded drops — lightweight and elegant.",
+      imgs: [I.silverp19, I.silverp20, I.silverp21],
+      features: [
+        "92.5 Silver",
+        "Cuttack Filigree",
+        "Beaded Design",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Pearl Payal",
+      desc: "Sterling silver payal with dangling freshwater pearls — graceful and timeless.",
+      imgs: [I.silverp22, I.silverp23, I.silverp24],
+      features: [
+        "92.5 Silver",
+        "Freshwater Pearls",
+        "Dangling Design",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Beaded Pearl Payal",
+      desc: "Delicate payal with tiny silver beads and dangling freshwater pearls — playful and traditional.",
+      imgs: [I.silverp25, I.silverp26, I.silverp27],
+      features: [
+        "92.5 Silver",
+        "Beaded Design",
+        "Freshwater Pearls",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Oxidised Pearl Payal",
+      desc: "Bold oxidised silver payal with dangling freshwater pearls — statement anklet for the modern woman.",
+      imgs: [I.silverp28, I.silverp29, I.silverp30],
+      features: [
+        "92.5 Silver",
+        "Oxidised Finish",
+        "Freshwater Pearls",
+        "Lever-back Hook",
+      ],
+    },
+    {
+      name: "Filigree Pearl Payal",
+      desc: "Intricate Cuttack filigree silver payal with dangling freshwater pearls — lightweight and elegant.",
+      imgs: [I.silverp31, I.silverp32, I.silverp33],
+      features: [
+        "92.5 Silver",
+        "Cuttack Filigree",
+        "Freshwater Pearls",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Tassel Payal",
+      desc: "Sterling silver payal with dangling tassels — playful, traditional, and versatile.",
+      imgs: [I.silverp34, I.silverp35, I.silverp36],
+      features: ["92.5 Silver", "Tassel Design", "Adjustable", "Hallmarked"],
+    },
+    {
+      name: "Beaded Tassel Payal",
+      desc: "Delicate payal with tiny silver beads and dangling tassels — playful and traditional.",
+      imgs: [I.silverp37, I.silverp38, I.silverp39],
+      features: [
+        "92.5 Silver",
+        "Beaded Design",
+        "Tassel Drops",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Oxidised Tassel Payal",
+      desc: "Bold oxidised silver payal with dangling tassels — statement anklet for the modern woman.",
+      imgs: [I.silverp40, I.silverp41, I.silverp42],
+      features: [
+        "92.5 Silver",
+        "Oxidised Finish",
+        "Tassel Design",
+        "Lever-back Hook",
+      ],
+    },
+    {
+      name: "Filigree Tassel Payal",
+      desc: "Intricate Cuttack filigree silver payal with dangling tassels — lightweight and elegant.",
+      imgs: [I.silverp43, I.silverp44, I.silverp45],
+      features: [
+        "92.5 Silver",
+        "Cuttack Filigree",
+        "Tassel Drops",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Pearl Tassel Payal",
+      desc: "Sterling silver payal with dangling freshwater pearl tassels — graceful and timeless.",
+      imgs: [I.silverp46, I.silverp47, I.silverp48],
+      features: [
+        "92.5 Silver",
+        "Freshwater Pearls",
+        "Tassel Design",
+        "Hallmarked",
+      ],
+    },
   ],
-  'silver/womens/toe-rings': [
-    { name:'Floral Toe Ring',        desc:'A tiny floral silver toe ring — delicate, traditional, auspicious.',                   imgs:[I.silvertr5,I.silvertr,I.silvertr3], features:['92.5 Silver','Floral Motif','Open Band','Adjustable'] },
-    { name:'Plain Silver Toe Ring',  desc:'A smooth plain silver toe ring — the enduring symbol of married grace.',               imgs:[I.silvertr2,I.silvertr4,I.silvertr6], features:['92.5 Silver','Plain Band','Open Design','Lightweight'] },
+  "silver/womens/toe-rings": [
+    {
+      name: "Floral Toe Ring",
+      desc: "A tiny floral silver toe ring — delicate, traditional, auspicious.",
+      imgs: [I.silvertr5, I.silvertr, I.silvertr3],
+      features: ["92.5 Silver", "Floral Motif", "Open Band", "Adjustable"],
+    },
+    {
+      name: "Plain Silver Toe Ring",
+      desc: "A smooth plain silver toe ring — the enduring symbol of married grace.",
+      imgs: [I.silvertr2, I.silvertr4, I.silvertr6],
+      features: ["92.5 Silver", "Plain Band", "Open Design", "Lightweight"],
+    },
+    {
+      name: "Oxidised Toe Ring",
+      desc: "A bold oxidised silver toe ring with tribal etching — statement piece for the modern woman.",
+      imgs: [I.silvertr7, I.silvertr8, I.silvertr9],
+      features: [
+        "92.5 Silver",
+        "Oxidised Finish",
+        "Tribal Etching",
+        "Lever-back Hook",
+      ],
+    },
+    {
+      name: "Engraved Toe Ring",
+      desc: "A sterling silver toe ring engraved with a geometric pattern — contemporary and stylish.",
+      imgs: [I.silvertr10, I.silvertr11, I.silvertr12],
+      features: [
+        "92.5 Silver",
+        "Geometric Engraving",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Toe Ring with Gemstone",
+      desc: "A sterling silver toe ring set with a small gemstone — subtle sparkle for everyday wear.",
+      imgs: [I.silvertr13, I.silvertr14, I.silvertr15],
+      features: ["92.5 Silver", "Gemstone Accent", "Open Band", "Adjustable"],
+    },
+    {
+      name: "Silver Toe Ring with Beads",
+      desc: "A sterling silver toe ring adorned with tiny beads — playful and traditional.",
+      imgs: [I.silvertr16, I.silvertr17, I.silvertr18],
+      features: ["92.5 Silver", "Beaded Design", "Open Band", "Adjustable"],
+    },
+    {
+      name: "Silver Toe Ring with Filigree",
+      desc: "A delicate Cuttack filigree silver toe ring — intricate, lightweight, and timeless.",
+      imgs: [I.silvertr19, I.silvertr20, I.silvertr21],
+      features: ["92.5 Silver", "Cuttack Filigree", "Open Band", "Lightweight"],
+    },
+    {
+      name: "Silver Toe Ring with Pearl",
+      desc: "A sterling silver toe ring with a small freshwater pearl — classic and feminine.",
+      imgs: [I.silvertr22, I.silvertr23, I.silvertr24],
+      features: ["92.5 Silver", "Freshwater Pearl", "Open Band", "Adjustable"],
+    },
+    {
+      name: "Silver Toe Ring with Tassel",
+      desc: "A sterling silver toe ring with a tiny tassel — playful and unique.",
+      imgs: [I.silvertr25, I.silvertr26, I.silvertr27],
+      features: ["92.5 Silver", "Tassel Accent", "Open Band", "Adjustable"],
+    },
+    {
+      name: "Silver Toe Ring with Leaf Motif",
+      desc: "A sterling silver toe ring with a leaf motif — nature-inspired elegance.",
+      imgs: [I.silvertr28, I.silvertr29, I.silvertr30],
+      features: ["92.5 Silver", "Leaf Motif", "Open Band", "Adjustable"],
+    },
+    {
+      name: "Silver Toe Ring with Geometric Design",
+      desc: "A sterling silver toe ring with a geometric pattern — contemporary and stylish.",
+      imgs: [I.silvertr31, I.silvertr32, I.silvertr33],
+      features: ["92.5 Silver", "Geometric Design", "Open Band", "Adjustable"],
+    },
+    {
+      name: "Silver Toe Ring with Tribal Etching",
+      desc: "A sterling silver toe ring with tribal etching — bold and distinctive.",
+      imgs: [I.silvertr34, I.silvertr35, I.silvertr36],
+      features: ["92.5 Silver", "Tribal Etching", "Open Band", "Adjustable"],
+    },
+    {
+      name: "Silver Toe Ring with Hammered Texture",
+      desc: "A sterling silver toe ring with a hammered texture — rugged yet refined.",
+      imgs: [I.silvertr37, I.silvertr38, I.silvertr39],
+      features: ["92.5 Silver", "Hammered Texture", "Open Band", "Adjustable"],
+    },
+    {
+      name: "Silver Toe Ring with Rope Edge",
+      desc: "A sterling silver toe ring with a rope-edge design — classic and timeless.",
+      imgs: [I.silvertr40, I.silvertr41, I.silvertr42],
+      features: ["92.5 Silver", "Rope Edge", "Open Band", "Adjustable"],
+    },
+    {
+      name: "Silver Toe Ring with Oxidised Finish",
+      desc: "A sterling silver toe ring with an oxidised finish — bold and contemporary.",
+      imgs: [I.silvertr43, I.silvertr44, I.silvertr45],
+      features: ["92.5 Silver", "Oxidised Finish", "Open Band", "Adjustable"],
+    },
+    {
+      name: "Silver Toe Ring with Filigree Design",
+      desc: "A delicate Cuttack filigree silver toe ring — intricate, lightweight, and timeless.",
+      imgs: [I.silvertr46, I.silvertr47, I.silvertr48],
+      features: ["92.5 Silver", "Cuttack Filigree", "Open Band", "Lightweight"],
+    },
   ],
-  'silver/womens/bracelets': [
-    { name:'Filigree Silver Bracelet',desc:'Gossamer silver filigree bracelet — ultra-lightweight, exquisite craft.',             imgs:[I.silverwb,I.silverwb2,I.silverwb3], features:['92.5 Silver','Cuttack Filigree','Toggle Clasp','Ultra Lightweight'] },
-    { name:'Silver Charm Bracelet',  desc:'A fine silver chain bracelet with five traditional charm drops.',                      imgs:[I.silverwb4,I.silverwb5,I.silverwb6], features:['92.5 Silver','5 Charms','Lobster Clasp','Customisable'] },
+  "silver/womens/bracelets": [
+    {
+      name: "Filigree Silver Bracelet",
+      desc: "Gossamer silver filigree bracelet — ultra-lightweight, exquisite craft.",
+      imgs: [I.silverwb, I.silverwb2, I.silverwb3],
+      features: [
+        "92.5 Silver",
+        "Cuttack Filigree",
+        "Toggle Clasp",
+        "Ultra Lightweight",
+      ],
+    },
+    {
+      name: "Silver Charm Bracelet",
+      desc: "A fine silver chain bracelet with five traditional charm drops.",
+      imgs: [I.silverwb4, I.silverwb5, I.silverwb6],
+      features: ["92.5 Silver", "5 Charms", "Lobster Clasp", "Customisable"],
+    },
+    {
+      name: "Oxidised Silver Bracelet",
+      desc: "A bold oxidised silver bracelet with tribal motifs — statement piece for the modern woman.",
+      imgs: [I.silverwb7, I.silverwb8, I.silverwb9],
+      features: [
+        "92.5 Silver",
+        "Oxidised Finish",
+        "Tribal Motifs",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Bangle Set",
+      desc: "A set of three polished silver bangles — classic, versatile, and timeless.",
+      imgs: [I.silverwb10, I.silverwb11, I.silverwb12],
+      features: [
+        "92.5 Silver",
+        "3-piece Set",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Cuff Bracelet",
+      desc: "A wide sterling silver cuff bracelet with a brushed finish — bold and feminine.",
+      imgs: [I.silverwb13, I.silverwb14, I.silverwb15],
+      features: ["92.5 Silver", "Brushed Finish", "Wide Cuff", "BIS Certified"],
+    },
+    {
+      name: "Silver Beaded Bracelet",
+      desc: "A delicate silver bracelet adorned with tiny beads — playful and traditional.",
+      imgs: [I.silverwb16, I.silverwb17, I.silverwb18],
+      features: [
+        "92.5 Silver",
+        "Beaded Design",
+        "Lobster Clasp",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Pearl Bracelet",
+      desc: "An elegant silver bracelet with freshwater pearls — classic and feminine.",
+      imgs: [I.silverwb19, I.silverwb20, I.silverwb21],
+      features: [
+        "92.5 Silver",
+        "Freshwater Pearls",
+        "Lobster Clasp",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Silver Filigree Bracelet",
+      desc: "Intricate Cuttack filigree silver bracelet — lightweight and elegant.",
+      imgs: [I.silverwb22, I.silverwb23, I.silverwb24],
+      features: [
+        "92.5 Silver",
+        "Cuttack Filigree",
+        "Toggle Clasp",
+        "Ultra Lightweight",
+      ],
+    },
+    {
+      name: "Silver Charm Bracelet",
+      desc: "A fine silver chain bracelet with five traditional charm drops.",
+      imgs: [I.silverwb25, I.silverwb26, I.silverwb27],
+      features: ["92.5 Silver", "5 Charms", "Lobster Clasp", "Customisable"],
+    },
+    {
+      name: "Oxidised Silver Bracelet",
+      desc: "A bold oxidised silver bracelet with tribal motifs — statement piece for the modern  woman.",
+      imgs: [I.silverwb28, I.silverwb29, I.silverwb30],
+      features: [
+        "92.5 Silver",
+        "Oxidised Finish",
+        "Tribal Motifs",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Bangle Set",
+      desc: "A set of three polished silver bangles — classic, versatile, and timeless.",
+      imgs: [I.silverwb31, I.silverwb32, I.silverwb33],
+      features: [
+        "92.5 Silver",
+        "3-piece Set",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Cuff Bracelet",
+      desc: "A wide sterling silver cuff bracelet with a brushed finish — bold and feminine.",
+      imgs: [I.silverwb34, I.silverwb35, I.silverwb36],
+      features: ["92.5 Silver", "Brushed Finish", "Wide Cuff", "BIS Certified"],
+    },
+    {
+      name: "Silver Beaded Bracelet",
+      desc: "A delicate silver bracelet adorned with tiny beads — playful and traditional.",
+      imgs: [I.silverwb37, I.silverwb38, I.silverwb39],
+      features: [
+        "92.5 Silver",
+        "Beaded Design",
+        "Lobster Clasp",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Pearl Bracelet",
+      desc: "An elegant silver bracelet with freshwater pearls — classic and feminine.",
+      imgs: [I.silverwb40, I.silverwb41, I.silverwb42],
+      features: [
+        "92.5 Silver",
+        "Freshwater Pearls",
+        "Lobster Clasp",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Silver Filigree Bracelet",
+      desc: "Intricate Cuttack filigree silver bracelet — lightweight and elegant.",
+      imgs: [I.silverwb43, I.silverwb44, I.silverwb45],
+      features: [
+        "92.5 Silver",
+        "Cuttack Filigree",
+        "Toggle Clasp",
+        "Ultra Lightweight",
+      ],
+    },
+    {
+      name: "Silver Charm Bracelet",
+      desc: "A fine silver chain bracelet with five traditional charm drops.",
+      imgs: [I.silverwb46, I.silverwb47, I.silverwb48],
+      features: ["92.5 Silver", "5 Charms", "Lobster Clasp", "Customisable"],
+    },
   ],
-  'silver/womens/kada': [
-    { name:'Floral Silver Kada',     desc:'A lightweight silver kada with hand-carved floral motifs — feminine tradition.',       imgs:[I.silverwka,I.silverwka2,I.silverwka3], features:['92.5 Silver','Floral Motif','Open Cuff','Lightweight'] },
-    { name:'Filigree Kada',          desc:'A wide silver kada in Cuttack filigree — the finest Indian silverwork tradition.',    imgs:[I.silverwka4,I.silverwka5,I.silverwka6], features:['92.5 Silver','Cuttack Filigree','Handcrafted','BIS Certified'] },
+  "silver/womens/kada": [
+    {
+      name: "Floral Silver Kada",
+      desc: "A lightweight silver kada with hand-carved floral motifs — feminine tradition.",
+      imgs: [I.silverwka, I.silverwka2, I.silverwka3],
+      features: ["92.5 Silver", "Floral Motif", "Open Cuff", "Lightweight"],
+    },
+    {
+      name: "Filigree Kada",
+      desc: "A wide silver kada in Cuttack filigree — the finest Indian silverwork tradition.",
+      imgs: [I.silverwka4, I.silverwka5, I.silverwka6],
+      features: [
+        "92.5 Silver",
+        "Cuttack Filigree",
+        "Handcrafted",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Oxidised Silver Kada",
+      desc: "A bold oxidised silver kada with tribal etching — statement piece for the modern woman.",
+      imgs: [I.silverwka7, I.silverwka8, I.silverwka9],
+      features: [
+        "92.5 Silver",
+        "Oxidised Finish",
+        "Tribal Etching",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Engraved Silver Kada",
+      desc: "A sterling silver kada engraved with geometric patterns — contemporary and stylish.",
+      imgs: [I.silverwka10, I.silverwka11, I.silverwka12],
+      features: [
+        "92.5 Silver",
+        "Geometric Engraving",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Kada with Gemstone",
+      desc: "A sterling silver kada set with a small gemstone — subtle sparkle for everyday wear.",
+      imgs: [I.silverwka13, I.silverwka14, I.silverwka15],
+      features: ["92.5 Silver", "Gemstone Accent", "Open Cuff", "Adjustable"],
+    },
+    {
+      name: "Silver Kada with Beads",
+      desc: "A delicate silver kada adorned with tiny beads — playful and traditional.",
+      imgs: [I.silverwka16, I.silverwka17, I.silverwka18],
+      features: ["92.5 Silver", "Beaded Design", "Open Cuff", "Adjustable"],
+    },
+    {
+      name: "Silver Kada with Filigree",
+      desc: "A delicate Cuttack filigree silver kada — intricate, lightweight, and timeless.",
+      imgs: [I.silverwka19, I.silverwka20, I.silverwka21],
+      features: ["92.5 Silver", "Cuttack Filigree", "Open Cuff", "Lightweight"],
+    },
+    {
+      name: "Silver Kada with Pearl",
+      desc: "A sterling silver kada with a small freshwater pearl — classic and feminine.",
+      imgs: [I.silverwka22, I.silverwka23, I.silverwka24],
+      features: ["92.5 Silver", "Freshwater Pearl", "Open Cuff", "Adjustable"],
+    },
+    {
+      name: "Silver Kada with Tassel",
+      desc: "A sterling silver kada with a tiny tassel — playful and unique.",
+      imgs: [I.silverwka25, I.silverwka26, I.silverwka27],
+      features: ["92.5 Silver", "Tassel Accent", "Open Cuff", "Adjustable"],
+    },
+    {
+      name: "Silver Kada with Leaf Motif",
+      desc: "A sterling silver kada with a leaf motif — nature-inspired elegance.",
+      imgs: [I.silverwka28, I.silverwka29, I.silverwka30],
+      features: ["92.5 Silver", "Leaf Motif", "Open Cuff", "Adjustable"],
+    },
+    {
+      name: "Silver Kada with Geometric Design",
+      desc: "A sterling silver kada with a geometric pattern — contemporary and stylish.",
+      imgs: [I.silverwka31, I.silverwka32, I.silverwka33],
+      features: ["92.5 Silver", "Geometric Design", "Open Cuff", "Adjustable"],
+    },
+    {
+      name: "Silver Kada with Tribal Etching",
+      desc: "A sterling silver kada with tribal etching — bold and distinctive.",
+      imgs: [I.silverwka34, I.silverwka35, I.silverwka36],
+      features: ["92.5 Silver", "Tribal Etching", "Open Cuff", "Adjustable"],
+    },
+    {
+      name: "Silver Kada with Hammered Texture",
+      desc: "A sterling silver kada with a hammered texture — rugged yet refined.",
+      imgs: [I.silverwka37, I.silverwka38, I.silverwka39],
+      features: ["92.5 Silver", "Hammered Texture", "Open Cuff", "Adjustable"],
+    },
+    {
+      name: "Silver Kada with Rope Edge",
+      desc: "A sterling silver kada with a rope-edge design — classic and timeless.",
+      imgs: [I.silverwka40, I.silverwka41, I.silverwka42],
+      features: ["92.5 Silver", "Rope Edge", "Open Cuff", "Adjustable"],
+    },
+    {
+      name: "Silver Kada with Lace Design",
+      desc: "A sterling silver kada with a delicate lace design — intricate and elegant.",
+      imgs: [I.silverwka43, I.silverwka44, I.silverwka45],
+      features: ["92.5 Silver", "Lace Design", "Open Cuff", "Adjustable"],
+    },
+    {
+      name: "Silver Kada with Floral Engraving",
+      desc: "A sterling silver kada with hand-engraved floral patterns — feminine and timeless.",
+      imgs: [I.silverwka46, I.silverwka47, I.silverwka48],
+      features: ["92.5 Silver", "Floral Engraving", "Open Cuff", "Adjustable"],
+    },
   ],
-  'silver/womens/pendants': [
-    { name:'Silver Om Pendant',      desc:'A minimal Om pendant in 92.5 silver — sacred geometry in a modern silhouette.',       imgs:[I.silverwpe,I.silverwpe2,I.silverwpe3], features:['92.5 Silver','High-polish','Universal Bail','Hypoallergenic'] },
-    { name:'Hamsa Pendant',          desc:'A Hand of Fatima (Hamsa) in oxidised silver — protection and elegance.',               imgs:[I.silverwpe4,I.silverwpe5,I.silverwpe6], features:['92.5 Silver','Oxidised Finish','Hamsa Design','BIS Certified'] },
+  "silver/womens/pendants": [
+    {
+      name: "Silver Om Pendant",
+      desc: "A minimal Om pendant in 92.5 silver — sacred geometry in a modern silhouette.",
+      imgs: [I.silverwpe, I.silverwpe2, I.silverwpe3],
+      features: [
+        "92.5 Silver",
+        "High-polish",
+        "Universal Bail",
+        "Hypoallergenic",
+      ],
+    },
+    {
+      name: "Hamsa Pendant",
+      desc: "A Hand of Fatima (Hamsa) in oxidised silver — protection and elegance.",
+      imgs: [I.silverwpe4, I.silverwpe5, I.silverwpe6],
+      features: [
+        "92.5 Silver",
+        "Oxidised Finish",
+        "Hamsa Design",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Silver Tree of Life Pendant",
+      desc: "A sterling silver pendant with a tree of life motif — growth, strength, and beauty.",
+      imgs: [I.silverwpe7, I.silverwpe8, I.silverwpe9],
+      features: [
+        "92.5 Silver",
+        "Tree of Life Motif",
+        "High-polish",
+        "Hypoallergenic",
+      ],
+    },
+    {
+      name: "Silver Lotus Pendant",
+      desc: "A lotus flower pendant in polished silver — purity and enlightenment.",
+      imgs: [I.silverwpe10, I.silverwpe11, I.silverwpe12],
+      features: ["92.5 Silver", "Lotus Motif", "High-polish", "Hypoallergenic"],
+    },
+    {
+      name: "Silver Mandala Pendant",
+      desc: "A mandala-inspired pendant in sterling silver — intricate, balanced, and harmonious.",
+      imgs: [I.silverwpe13, I.silverwpe14, I.silverwpe15],
+      features: [
+        "92.5 Silver",
+        "Mandala Design",
+        "High-polish",
+        "Hypoallergenic",
+      ],
+    },
+    {
+      name: "Silver Feather Pendant",
+      desc: "A delicate feather pendant in 92.5 silver — light, airy, and symbolic.",
+      imgs: [I.silverwpe16, I.silverwpe17, I.silverwpe18],
+      features: [
+        "92.5 Silver",
+        "Feather Motif",
+        "High-polish",
+        "Hypoallergenic",
+      ],
+    },
+    {
+      name: "Silver Infinity Pendant",
+      desc: "An infinity symbol pendant in sterling silver — timeless, elegant, and meaningful.",
+      imgs: [I.silverwpe19, I.silverwpe20, I.silverwpe21],
+      features: [
+        "92.5 Silver",
+        "Infinity Symbol",
+        "High-polish",
+        "Hypoallergenic",
+      ],
+    },
+    {
+      name: "Silver Heart Pendant",
+      desc: "A classic heart-shaped pendant in polished silver — love, affection, and elegance.",
+      imgs: [I.silverwpe22, I.silverwpe23, I.silverwpe24],
+      features: ["92.5 Silver", "Heart Shape", "High-polish", "Hypoallergenic"],
+    },
+    {
+      name: "Silver Star Pendant",
+      desc: "A star-shaped pendant in sterling silver — guidance, hope, and brilliance.",
+      imgs: [I.silverwpe25, I.silverwpe26, I.silverwpe27],
+      features: ["92.5 Silver", "Star Shape", "High-polish", "Hypoallergenic"],
+    },
+    {
+      name: "Silver Moon Pendant",
+      desc: "A crescent moon pendant in 92.5 silver — mystery, intuition, and serenity.",
+      imgs: [I.silverwpe28, I.silverwpe29, I.silverwpe30],
+      features: [
+        "92.5 Silver",
+        "Crescent Moon",
+        "High-polish",
+        "Hypoallergenic",
+      ],
+    },
+    {
+      name: "Silver Sun Pendant",
+      desc: "A sunburst pendant in sterling silver — energy, vitality, and radiance.",
+      imgs: [I.silverwpe31, I.silverwpe32, I.silverwpe33],
+      features: [
+        "92.5 Silver",
+        "Sunburst Design",
+        "High-polish",
+        "Hypoallergenic",
+      ],
+    },
+    {
+      name: "Silver Key Pendant",
+      desc: "A key-shaped pendant in polished silver — unlocking possibilities and dreams.",
+      imgs: [I.silverwpe34, I.silverwpe35, I.silverwpe36],
+      features: ["92.5 Silver", "Key Shape", "High-polish", "Hypoallergenic"],
+    },
+    {
+      name: "Silver Lock Pendant",
+      desc: "A lock-shaped pendant in sterling silver — security, love, and protection.",
+      imgs: [I.silverwpe37, I.silverwpe38, I.silverwpe39],
+      features: ["92.5 Silver", "Lock Shape", "High-polish", "Hypoallergenic"],
+    },
+    {
+      name: "Silver Anchor Pendant",
+      desc: "An anchor-shaped pendant in 92.5 silver — stability, hope, and strength.",
+      imgs: [I.silverwpe40, I.silverwpe41, I.silverwpe42],
+      features: [
+        "92.5 Silver",
+        "Anchor Shape",
+        "High-polish",
+        "Hypoallergenic",
+      ],
+    },
+    {
+      name: "Silver Arrow Pendant",
+      desc: "An arrow-shaped pendant in sterling silver — direction, focus, and ambition.",
+      imgs: [I.silverwpe43, I.silverwpe44, I.silverwpe45],
+      features: ["92.5 Silver", "Arrow Shape", "High-polish", "Hypoallergenic"],
+    },
+    {
+      name: "Silver Compass Pendant",
+      desc: "A compass-inspired pendant in polished silver — guidance, exploration, and adventure.",
+      imgs: [I.silverwpe46, I.silverwpe47, I.silverwpe48],
+      features: [
+        "92.5 Silver",
+        "Compass Design",
+        "High-polish",
+        "Hypoallergenic",
+      ],
+    },
   ],
-  'silver/kids': [
-    { name:'Baby Chanda Suraj Set',  desc:'Chanda and Suraj motif set in 92.5 silver — a sacred gift for newborns.',             imgs:[I.silverk1,I.silverk2,I.silverk3], features:['92.5 Silver','Chanda Suraj Motif','Gift Box','BIS Certified'] },
-    { name:'Kids Silver Kada',       desc:'A small 92.5 silver kada for children — safe, light and beautifully crafted.',        imgs:[I.silverk4,I.silverk5,I.silverk6], features:['92.5 Silver','Child-safe Design','Lightweight','BIS Certified'] },
+  "silver/kids": [
+    {
+      name: "Baby Chanda Suraj Set",
+      desc: "Chanda and Suraj motif set in 92.5 silver — a sacred gift for newborns.",
+      imgs: [I.silverk1, I.silverk2, I.silverk3],
+      features: [
+        "92.5 Silver",
+        "Chanda Suraj Motif",
+        "Gift Box",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Kids Silver Kada",
+      desc: "A small 92.5 silver kada for children — safe, light and beautifully crafted.",
+      imgs: [I.silverk4, I.silverk5, I.silverk6],
+      features: [
+        "92.5 Silver",
+        "Child-safe Design",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Kids Silver Bracelet",
+      desc: "A delicate 92.5 silver bracelet for children — adjustable and charming.",
+      imgs: [I.silverk7, I.silverk8, I.silverk9],
+      features: [
+        "92.5 Silver",
+        "Adjustable Design",
+        "Child-safe",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Kids Silver Necklace",
+      desc: "A small 92.5 silver necklace for children — safe, light and beautifully crafted.",
+      imgs: [I.silverk10, I.silverk11, I.silverk12],
+      features: [
+        "92.5 Silver",
+        "Child-safe Design",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Kids Silver Earrings",
+      desc: "A pair of 92.5 silver earrings for children — safe, light and beautifully crafted.",
+      imgs: [I.silverk13, I.silverk14, I.silverk15],
+      features: [
+        "92.5 Silver",
+        "Child-safe Design",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Kids Silver Anklet",
+      desc: "A small 92.5 silver anklet for children — safe, light and beautifully crafted.",
+      imgs: [I.silverk16, I.silverk17, I.silverk18],
+      features: [
+        "92.5 Silver",
+        "Child-safe Design",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Kids Silver Ring",
+      desc: "A small 92.5 silver ring for children — safe, light and beautifully crafted.",
+      imgs: [I.silverk19, I.silverk20, I.silverk21],
+      features: [
+        "92.5 Silver",
+        "Child-safe Design",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Kids Silver Toe Ring",
+      desc: "A small 92.5 silver toe ring for children — safe, light and beautifully crafted.",
+      imgs: [I.silverk22, I.silverk23, I.silverk24],
+      features: [
+        "92.5 Silver",
+        "Child-safe Design",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Kids Silver Pendant",
+      desc: "A small 92.5 silver pendant for children — safe, light and beautifully crafted.",
+      imgs: [I.silverk25, I.silverk26, I.silverk27],
+      features: [
+        "92.5 Silver",
+        "Child-safe Design",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Kids Silver Nose Pin",
+      desc: "A small 92.5 silver nose pin for children — safe, light and beautifully crafted.",
+      imgs: [I.silverk28, I.silverk29, I.silverk30],
+      features: [
+        "92.5 Silver",
+        "Child-safe Design",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Kids Silver Hair Accessory",
+      desc: "A small 92.5 silver hair accessory for children — safe, light and beautifully crafted.",
+      imgs: [I.silverk31, I.silverk32, I.silverk33],
+      features: [
+        "92.5 Silver",
+        "Child-safe Design",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Kids Silver Anklet with Charms",
+      desc: "A small 92.5 silver anklet with charms for children — safe, light and beautifully crafted.",
+      imgs: [I.silverk34, I.silverk35, I.silverk36],
+      features: [
+        "92.5 Silver",
+        "Child-safe Design",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Kids Silver Bracelet with Charms",
+      desc: "A small 92.5 silver bracelet with charms for children — safe, light and beautifully crafted.",
+      imgs: [I.silverk37, I.silverk38, I.silverk39],
+      features: [
+        "92.5 Silver",
+        "Child-safe Design",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Kids Silver Necklace with Charms",
+      desc: "A small 92.5 silver necklace with charms for children — safe, light and beautifully crafted.",
+      imgs: [I.silverk40, I.silverk41, I.silverk42],
+      features: [
+        "92.5 Silver",
+        "Child-safe Design",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Kids Silver Earrings with Charms",
+      desc: "A small 92.5 silver earrings with charms for children — safe, light and beautifully crafted.",
+      imgs: [I.silverk43, I.silverk44, I.silverk45],
+      features: [
+        "92.5 Silver",
+        "Child-safe Design",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Kids Silver Ring with Charms",
+      desc: "A small 92.5 silver ring with charms for children — safe, light and beautifully crafted.",
+      imgs: [I.silverk46, I.silverk47, I.silverk48],
+      features: [
+        "92.5 Silver",
+        "Child-safe Design",
+        "Lightweight",
+        "BIS Certified",
+      ],
+    },
   ],
-  'silver/coins': [
-    { name:'5 Gram Silver Coin',     desc:'999 pure silver coin with Lakshmi motif — an auspicious gifting tradition.',           imgs:[I.silverc1,I.silverc2,I.silverc3], features:['999 Pure Silver','Lakshmi Motif','5 Gram','Gift Box'] },
-    { name:'10 Gram Silver Coin',    desc:'A 999 pure silver coin in a tamper-proof capsule with BIS certification.',             imgs:[I.silverc4,I.silverc6,I.silverc5], features:['999 Pure Silver','10 Gram','Tamper-proof','BIS Certified'] },
+  "silver/coins": [
+    {
+      name: "5 Gram Silver Coin",
+      desc: "999 pure silver coin with Lakshmi motif — an auspicious gifting tradition.",
+      imgs: [I.silverc1, I.silverc2, I.silverc3],
+      features: ["999 Pure Silver", "Lakshmi Motif", "5 Gram", "Gift Box"],
+    },
+    {
+      name: "10 Gram Silver Coin",
+      desc: "A 999 pure silver coin in a tamper-proof capsule with BIS certification.",
+      imgs: [I.silverc4, I.silverc6, I.silverc5],
+      features: ["999 Pure Silver", "10 Gram", "Tamper-proof", "BIS Certified"],
+    },
+    {
+      name: "25 Gram Silver Coin",
+      desc: "A 999 pure silver coin with a traditional Indian motif — perfect for gifting.",
+      imgs: [I.silverc7, I.silverc8, I.silverc9],
+      features: ["999 Pure Silver", "25 Gram", "Traditional Motif", "Gift Box"],
+    },
+    {
+      name: "50 Gram Silver Coin",
+      desc: "A 999 pure silver coin with a contemporary design — a modern take on a classic tradition.",
+      imgs: [I.silverc10, I.silverc11, I.silverc12],
+      features: [
+        "999 Pure Silver",
+        "50 Gram",
+        "Contemporary Design",
+        "Gift Box",
+      ],
+    },
+    {
+      name: "100 Gram Silver Coin",
+      desc: "A 999 pure silver coin with a commemorative design — a collector's delight.",
+      imgs: [I.silverc13, I.silverc14, I.silverc15],
+      features: [
+        "999 Pure Silver",
+        "100 Gram",
+        "Commemorative Design",
+        "Collector's Item",
+      ],
+    },
+    {
+      name: "Silver Coin Set",
+      desc: "A set of three 999 pure silver coins with auspicious motifs — a perfect gift for any occasion.",
+      imgs: [I.silverc16, I.silverc17, I.silverc18],
+      features: [
+        "999 Pure Silver",
+        "3-piece Set",
+        "Auspicious Motifs",
+        "Gift Box",
+      ],
+    },
+    {
+      name: "20 Gram Silver Coin",
+      desc: "A 999 pure silver coin crafted with an elegant floral design, perfect for festive gifting and investment.",
+      imgs: [I.silverc19, I.silverc20, I.silverc21],
+      features: ["999 Pure Silver", "20 Gram", "Floral Design", "Gift Box"],
+    },
+
+    {
+      name: "30 Gram Silver Coin",
+      desc: "Premium 999 pure silver coin featuring a beautifully engraved Om symbol for auspicious occasions.",
+      imgs: [I.silverc22, I.silverc23, I.silverc24],
+      features: ["999 Pure Silver", "30 Gram", "Om Design", "Premium Finish"],
+    },
+
+    {
+      name: "Lakshmi Ganesh Silver Coin",
+      desc: "Traditional 999 pure silver coin with Lakshmi and Ganesh engraving, ideal for Diwali gifting.",
+      imgs: [I.silverc25, I.silverc26, I.silverc27],
+      features: [
+        "999 Pure Silver",
+        "Lakshmi Ganesh",
+        "Religious Design",
+        "Gift Box",
+      ],
+    },
+
+    {
+      name: "Ganesh Silver Coin",
+      desc: "Beautifully engraved Lord Ganesh silver coin made from 999 pure silver with a premium finish.",
+      imgs: [I.silverc28, I.silverc29, I.silverc30],
+      features: [
+        "999 Pure Silver",
+        "Ganesh Motif",
+        "Premium Finish",
+        "BIS Certified",
+      ],
+    },
+
+    {
+      name: "Om Silver Coin",
+      desc: "A sacred Om engraved silver coin crafted in 999 pure silver for gifting and worship.",
+      imgs: [I.silverc31, I.silverc32, I.silverc33],
+      features: ["999 Pure Silver", "Om Symbol", "Elegant Design", "Gift Box"],
+    },
+
+    {
+      name: "Shree Silver Coin",
+      desc: "999 pure silver coin featuring the auspicious Shree symbol with a mirror-polished finish.",
+      imgs: [I.silverc34, I.silverc35, I.silverc36],
+      features: [
+        "999 Pure Silver",
+        "Shree Symbol",
+        "Mirror Finish",
+        "Premium Quality",
+      ],
+    },
+
+    {
+      name: "Rectangle Silver Coin",
+      desc: "A stylish rectangular silver coin crafted from 999 pure silver with a modern engraved pattern.",
+      imgs: [I.silverc37, I.silverc38, I.silverc39],
+      features: [
+        "999 Pure Silver",
+        "Rectangle Shape",
+        "Modern Design",
+        "Gift Box",
+      ],
+    },
+
+    {
+      name: "Round Silver Coin",
+      desc: "Classic round silver coin made from 999 pure silver with a smooth polished finish.",
+      imgs: [I.silverc40, I.silverc41, I.silverc42],
+      features: [
+        "999 Pure Silver",
+        "Round Shape",
+        "Polished Finish",
+        "BIS Certified",
+      ],
+    },
+
+    {
+      name: "Temple Silver Coin",
+      desc: "A beautifully crafted 999 pure silver coin featuring a traditional temple artwork.",
+      imgs: [I.silverc43, I.silverc44, I.silverc45],
+      features: [
+        "999 Pure Silver",
+        "Temple Design",
+        "Traditional Artwork",
+        "Gift Box",
+      ],
+    },
+
+    {
+      name: "Limited Edition Silver Coin",
+      desc: "Exclusive limited edition 999 pure silver coin designed for collectors and premium gifting.",
+      imgs: [I.silverc46, I.silverc47, I.silverc48],
+      features: [
+        "999 Pure Silver",
+        "Limited Edition",
+        "Collector Item",
+        "Luxury Box",
+      ],
+    },
   ],
-  'silver/gifts': [
-    { name:'Silver Gift Set — Pooja',desc:'A curated pooja gift set in 92.5 silver — diya, spoon, and bowl with box.',           imgs:[I.silverg,I.silverg2,I.silverg3], features:['92.5 Silver','3-piece Set','Pooja Items','Gift Wrapped'] },
-    { name:'Silver Showpiece',       desc:'A handcrafted silver showpiece depicting a traditional Indian motif.',                  imgs:[I.silverg4,I.silverg5,I.silverg6], features:['92.5 Silver','Handcrafted','Display Stand','Gift Box'] },
+  "silver/gifts": [
+    {
+      name: "Silver Gift Set — Pooja",
+      desc: "A curated pooja gift set in 92.5 silver — diya, spoon, and bowl with box.",
+      imgs: [I.silverg, I.silverg2, I.silverg3],
+      features: ["92.5 Silver", "3-piece Set", "Pooja Items", "Gift Wrapped"],
+    },
+    {
+      name: "Silver Showpiece",
+      desc: "A handcrafted silver showpiece depicting a traditional Indian motif.",
+      imgs: [I.silverg4, I.silverg5, I.silverg6],
+      features: ["92.5 Silver", "Handcrafted", "Display Stand", "Gift Box"],
+    },
+    {
+  name: "Silver Baby Gift Set",
+  desc: "A premium 92.5 silver baby gift set including a bowl, spoon, and glass, beautifully packed for special occasions.",
+  imgs: [I.silverg7, I.silverg8, I.silverg9],
+  features: ["92.5 Silver", "Baby Gift", "3-piece Set", "Gift Box"],
+},
+{
+  name: "Silver Bowl Set",
+  desc: "Elegant handcrafted silver bowls ideal for serving sweets or gifting during festivals.",
+  imgs: [I.silverg10, I.silverg11, I.silverg12],
+  features: ["92.5 Silver", "Handcrafted", "Premium Finish", "Gift Box"],
+},
+{
+  name: "Silver Diya Set",
+  desc: "Traditional silver diya set designed for pooja ceremonies and festive celebrations.",
+  imgs: [I.silverg13, I.silverg14, I.silverg15],
+  features: ["92.5 Silver", "Pair of Diyas", "Traditional Design", "Gift Box"],
+},
+{
+  name: "Silver Glass",
+  desc: "Pure silver drinking glass crafted with a polished finish for everyday elegance.",
+  imgs: [I.silverg16, I.silverg17, I.silverg18],
+  features: ["92.5 Silver", "Polished Finish", "Classic Design", "Premium Quality"],
+},
+{
+  name: "Silver Spoon Set",
+  desc: "A beautifully crafted silver spoon set perfect for gifting and everyday use.",
+  imgs: [I.silverg19, I.silverg20, I.silverg21],
+  features: ["92.5 Silver", "Set of 6", "Elegant Design", "Gift Box"],
+},
+{
+  name: "Silver Plate",
+  desc: "Premium silver plate with intricate craftsmanship, suitable for pooja and gifting.",
+  imgs: [I.silverg22, I.silverg23, I.silverg24],
+  features: ["92.5 Silver", "Traditional Design", "Mirror Finish", "Gift Box"],
+},
+{
+  name: "Silver Kalash",
+  desc: "Traditional silver kalash handcrafted for pooja rituals and auspicious occasions.",
+  imgs: [I.silverg25, I.silverg26, I.silverg27],
+  features: ["92.5 Silver", "Traditional Design", "Religious Use", "Premium Finish"],
+},
+{
+  name: "Silver Dry Fruit Box",
+  desc: "Luxury silver dry fruit box featuring elegant craftsmanship for festive gifting.",
+  imgs: [I.silverg28, I.silverg29, I.silverg30],
+  features: ["92.5 Silver", "Luxury Box", "Festival Gift", "Handcrafted"],
+},
+{
+  name: "Silver Photo Frame",
+  desc: "Beautiful silver-plated photo frame designed to preserve your cherished memories.",
+  imgs: [I.silverg31, I.silverg32, I.silverg33],
+  features: ["Silver Finish", "Premium Frame", "Gift Ready", "Elegant Design"],
+},
+{
+  name: "Silver Idol — Lakshmi",
+  desc: "Handcrafted silver Lakshmi idol for worship and festive gifting.",
+  imgs: [I.silverg34, I.silverg35, I.silverg36],
+  features: ["92.5 Silver", "Lakshmi Idol", "Handcrafted", "Gift Box"],
+},
+{
+  name: "Silver Idol — Ganesh",
+  desc: "Finely crafted silver Ganesh idol with intricate detailing for home temples.",
+  imgs: [I.silverg37, I.silverg38, I.silverg39],
+  features: ["92.5 Silver", "Ganesh Idol", "Premium Finish", "Gift Box"],
+},
+{
+  name: "Silver Puja Thali",
+  desc: "Complete silver pooja thali with traditional engraving for religious ceremonies.",
+  imgs: [I.silverg40, I.silverg41, I.silverg42],
+  features: ["92.5 Silver", "Traditional Engraving", "Pooja Essentials", "Gift Box"],
+},
+{
+  name: "Silver Tea Set",
+  desc: "Luxury silver tea serving set crafted with timeless elegance for premium gifting.",
+  imgs: [I.silverg43, I.silverg44, I.silverg45],
+  features: ["92.5 Silver", "Luxury Collection", "Serving Set", "Premium Box"],
+},
+{
+  name: "Silver Premium Gift Hamper",
+  desc: "An exclusive silver gift hamper featuring handcrafted silver essentials for memorable occasions.",
+  imgs: [I.silverg46, I.silverg47, I.silverg48],
+  features: ["92.5 Silver", "Premium Collection", "Luxury Gift", "Exclusive Packaging"],
+},
   ],
-}
+};
 
 /* ── Generate product objects from templates ──────── */
 function makeProducts(categorySlug, catMeta) {
-  const templates = PRODUCT_TEMPLATES[categorySlug] || []
+  const templates = PRODUCT_TEMPLATES[categorySlug] || [];
   return templates.map((t, idx) => {
-    const id = categorySlug.replace(/\//g, '-') + '-' + (idx + 1)
-    const slug = (t.name || "").toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
-    const detailPath = `/shop/${categorySlug}/${slug}`
+    const id = categorySlug.replace(/\//g, "-") + "-" + (idx + 1);
+    const slug = (t.name || "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/(^-|-$)/g, "");
+    const detailPath = `/shop/${categorySlug}/${slug}`;
     return {
       id,
       slug,
       detailPath,
       categorySlug,
       name: t.name,
-      gender: catMeta?.gender || 'unisex',
+      gender: catMeta?.gender || "unisex",
       category: catMeta?.label || categorySlug,
-      metal: catMeta?.metal || 'gold',
+      metal: catMeta?.metal || "gold",
       collections: [],
       images: t.imgs,
       shortDescription: t.desc,
-      fullDescription: t.desc + ' Each piece is crafted by master artisans with decades of experience, using only the finest materials. Available for bespoke customisation — contact us for details.',
+      fullDescription:
+        t.desc +
+        " Each piece is crafted by master artisans with decades of experience, using only the finest materials. Available for bespoke customisation — contact us for details.",
       features: t.features,
       tags: [catMeta?.metal, catMeta?.gender].filter(Boolean),
-    }
-  })
+    };
+  });
 }
 
 /* ── Build full product catalogue ─────────────────── */
-const _productsByCategory = {}
-CATEGORIES.forEach(cat => {
-  const key = cat.slug
-  _productsByCategory[key] = makeProducts(key, cat)
-})
+const _productsByCategory = {};
+CATEGORIES.forEach((cat) => {
+  const key = cat.slug;
+  _productsByCategory[key] = makeProducts(key, cat);
+});
 
 export function getProductsByCategory(slug) {
-  return _productsByCategory[slug] || []
+  return _productsByCategory[slug] || [];
 }
 
 export function getProductByPath(categorySlug, productSlug) {
-  const list = _productsByCategory[categorySlug] || []
-  return list.find(p => p.slug === productSlug) || null
+  const list = _productsByCategory[categorySlug] || [];
+  return list.find((p) => p.slug === productSlug) || null;
 }
 
 export function getRelatedProducts(categorySlug, currentSlug, limit = 4) {
-  const list = _productsByCategory[categorySlug] || []
-  const others = list.filter(p => p.slug !== currentSlug)
+  const list = _productsByCategory[categorySlug] || [];
+  const others = list.filter((p) => p.slug !== currentSlug);
   // Also pull from same metal/gender
-  const cat = getCategoryBySlug(categorySlug)
-  let extras = []
+  const cat = getCategoryBySlug(categorySlug);
+  let extras = [];
   if (cat) {
-    CATEGORIES
-      .filter(c => c.metal === cat.metal && c.gender === cat.gender && c.slug !== categorySlug)
+    CATEGORIES.filter(
+      (c) =>
+        c.metal === cat.metal &&
+        c.gender === cat.gender &&
+        c.slug !== categorySlug,
+    )
       .slice(0, 2)
-      .forEach(c => { extras = extras.concat((_productsByCategory[c.slug] || []).slice(0, 1)) })
+      .forEach((c) => {
+        extras = extras.concat((_productsByCategory[c.slug] || []).slice(0, 1));
+      });
   }
-  return [...others, ...extras].slice(0, limit)
+  return [...others, ...extras].slice(0, limit);
 }
 
 export function getCollectionProducts(collectionSlug, limit = 8) {
-  const col = getCollectionBySlug(collectionSlug)
-  if (!col) return []
-  const gender = col.gender
-  let list = []
-  CATEGORIES
-    .filter(c => gender === 'kids' ? c.gender === 'kids' : c.gender === gender)
-    .forEach(c => { list = list.concat((_productsByCategory[c.slug] || []).slice(0, 1)) })
-  return list.slice(0, limit)
+  const col = getCollectionBySlug(collectionSlug);
+  if (!col) return [];
+  const gender = col.gender;
+  let list = [];
+  CATEGORIES.filter((c) =>
+    gender === "kids" ? c.gender === "kids" : c.gender === gender,
+  ).forEach((c) => {
+    list = list.concat((_productsByCategory[c.slug] || []).slice(0, 1));
+  });
+  return list.slice(0, limit);
 }
 
 /* ── WhatsApp helper ─────────────────────────────── */
 export function getWhatsAppUrl(product) {
   const msg = [
-    'Hello,',
-    'I am interested in this jewellery item.',
-    '',
+    "Hello,",
+    "I am interested in this jewellery item.",
+    "",
     `*Product Name:* ${product.name}`,
     `*Category:* ${product.category}`,
     `*Material:* ${product.metal.charAt(0).toUpperCase() + product.metal.slice(1)}`,
-    `*Gender:* ${(product.gender||'').charAt(0).toUpperCase() + (product.gender||'').slice(1)}`,
-    '',
-    'Please share more details.',
-  ].join('\n')
-  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`
+    `*Gender:* ${(product.gender || "").charAt(0).toUpperCase() + (product.gender || "").slice(1)}`,
+    "",
+    "Please share more details.",
+  ].join("\n");
+  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
 }
