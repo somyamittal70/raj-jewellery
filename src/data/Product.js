@@ -1186,7 +1186,7 @@ const I = {
   silverwri6:
     "https://i.pinimg.com/1200x/91/59/37/9159375914b1caa05c2651e9e1676ec3.jpg",
 
-<<<<<<< HEAD
+
   silverwri7:
 "https://i.pinimg.com/1200x/e3/40/9d/e3409d04b1272e843584db3238c52189.jpg",
   silverwri8:
@@ -1274,9 +1274,6 @@ const I = {
 "https://i.pinimg.com/736x/64/e0/2b/64e02b6bb7c0efced0c0529c0393e6db.jpg",
 
     //bracelet
-
-=======
->>>>>>> 6b6efba319c6c179d169391fe18876d1f49bc8cd
   silvermbra:
     "https://i.pinimg.com/1200x/c7/8c/6f/c78c6f88c3d45cf6ccf713203cb1508d.jpg",
   silvermbra2:
@@ -1429,83 +1426,6 @@ const I = {
     "https://i.pinimg.com/1200x/0d/42/16/0d4216b8f1f0e3a1e84baa7e6ed0889d.jpg",
   silvermch6:
     "https://i.pinimg.com/736x/9a/29/39/9a2939a32577e5e4902485b6ac8985b2.jpg",
-<<<<<<< HEAD
- 
-     
-     silvermch15:
-    "",
-     silvermch16:
-    "",
-     silvermch17:
-    "",
-     silvermch18:
-    "",
-     silvermch19:
-    "",
-     silvermch20:
-    "",
-     silvermch21:
-    "",
-     silvermch22:
-    "",
-     silvermch23:
-    "",
-     silvermch24:
-    "",
-     silvermch25:
-    "",
-        silvermch26:
-    "",
-        silvermch27:
-    "",
-        silvermch28:
-    "",
-        silvermch29:
-    "",
-        silvermch30:
-    "",
-        silvermch31:
-    "",
-        silvermch32:
-    "",
-        silvermch33:
-    "",
-        silvermch34:
-    "",
-        silvermch35:
-    "",
-        silvermch36:
-    "",
-        silvermch37:
-    "",
-          silvermch38:
-    "",
-          silvermch39:
-    "",
-          silvermch40:
-    "",
-          silvermch41:
-    "",
-          silvermch42:
-    "",
-          silvermch43:
-    "",
-          silvermch44:
-    "",
-          silvermch45:
-    "",
-             silvermch46:
-    "",
-         silvermch47:
-    "",
-         silvermch48:
-    "",
-
-
-
-
-
-=======
   silvermch7:
     "https://i.pinimg.com/1200x/18/76/d6/1876d67a0cceef05e4535f97ff2c391c.jpg",
   silvermch8:
@@ -1590,7 +1510,6 @@ const I = {
     "https://i.pinimg.com/1200x/65/97/43/659743dd9451daaad2f4b19a466f33c3.jpg",
   silvermch48:
     "https://i.pinimg.com/1200x/e4/41/e2/e441e2d16d2fb9fa31ea9f1a4f4bbbe6.jpg",
->>>>>>> 6b6efba319c6c179d169391fe18876d1f49bc8cd
 
   silvermrings:
     "https://i.pinimg.com/736x/e4/79/cd/e479cd126938b702357c4bc066ab155d.jpg",
@@ -10258,45 +10177,8 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silverwpe22, I.silverwpe23, I.silverwpe24],
       features: ["92.5 Silver", "Heart Shape", "High-polish", "Hypoallergenic"],
     },
-<<<<<<< HEAD
    
 
-=======
-    {
-      name: "Silver Star Pendant",
-      desc: "A star-shaped pendant in sterling silver — guidance, hope, and brilliance.",
-      imgs: [I.silverwpe25, I.silverwpe26, I.silverwpe27],
-      features: ["92.5 Silver", "Star Shape", "High-polish", "Hypoallergenic"],
-    },
-    {
-      name: "Silver Moon Pendant",
-      desc: "A crescent moon pendant in 92.5 silver — mystery, intuition, and serenity.",
-      imgs: [I.silverwpe28, I.silverwpe29, I.silverwpe30],
-      features: [
-        "92.5 Silver",
-        "Crescent Moon",
-        "High-polish",
-        "Hypoallergenic",
-      ],
-    },
-    {
-      name: "Silver Sun Pendant",
-      desc: "A sunburst pendant in sterling silver — energy, vitality, and radiance.",
-      imgs: [I.silverwpe31, I.silverwpe32, I.silverwpe33],
-      features: [
-        "92.5 Silver",
-        "Sunburst Design",
-        "High-polish",
-        "Hypoallergenic",
-      ],
-    },
-    {
-      name: "Silver Key Pendant",
-      desc: "A key-shaped pendant in polished silver — unlocking possibilities and dreams.",
-      imgs: [I.silverwpe34, I.silverwpe35, I.silverwpe36],
-      features: ["92.5 Silver", "Key Shape", "High-polish", "Hypoallergenic"],
-    },
->>>>>>> 6b6efba319c6c179d169391fe18876d1f49bc8cd
   ],
 
   "silver/kids": [
