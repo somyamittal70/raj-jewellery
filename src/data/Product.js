@@ -510,6 +510,90 @@ const I = {
     "https://i.pinimg.com/1200x/b4/7e/29/b47e294fa17f5e2f253d25763d3270ad.jpg",
   mdiamond3:
     "https://i.pinimg.com/1200x/c2/cd/44/c2cd44d1d1461f5210f394fbb4b98b97.jpg",
+  mring00:
+    "https://i.pinimg.com/1200x/6e/53/42/6e5342ee744ae290c657116d9c27fbc4.jpg",
+  mring0:
+    "https://i.pinimg.com/1200x/fc/6d/a7/fc6da771e0f678dba0d9fed39d510ea0.jpg",
+  mring:
+    "https://i.pinimg.com/1200x/8c/47/69/8c476908775f19658252de8715d46dc7.jpg",
+  mring4:
+    "https://i.pinimg.com/1200x/ac/96/e2/ac96e2e97e6923f5c514259f282e8dad.jpg",
+  mring5:
+    "https://i.pinimg.com/1200x/1f/46/42/1f464285db2a2592442549d267e90e57.jpg",
+  mring6:
+    "https://i.pinimg.com/1200x/11/90/2b/11902b84e870c2d1de7d31790c196b7d.jpg",
+
+  mring7:
+    "https://i.pinimg.com/1200x/1a/65/65/1a6565d5ecf476ef5a4508de01a18611.jpg",
+  mring8:
+    "https://i.pinimg.com/1200x/61/15/ba/6115baaf38bc380826c604dec40f9217.jpg",
+  mring9:
+    "https://i.pinimg.com/736x/ee/ba/02/eeba02bf55a355722959f3bfa7965e16.jpg",
+  mring10:
+    "https://i.pinimg.com/1200x/ea/63/f0/ea63f0fa617c2b9db4f886434249bef3.jpg",
+  mring11:
+    "https://i.pinimg.com/1200x/f9/5a/6a/f95a6a93a70fb5fcce94a7b421d06f80.jpg",
+  mring12:
+    "https://i.pinimg.com/736x/ef/45/84/ef4584a10a2c04974b5a376f11201193.jpg",
+  mring13:
+    "https://i.pinimg.com/736x/40/9d/4b/409d4b1a7e5cab4c836b7d5a51f8a689.jpg",
+  mring14:
+    "https://i.pinimg.com/1200x/d2/13/1f/d2131f9994ff82705029a57ce0f4bb44.jpg",
+  mring15:
+    "https://i.pinimg.com/1200x/9b/88/c3/9b88c3ac1be5b29426973363a5aff1d9.jpg",
+  mring16:
+    "https://i.pinimg.com/1200x/28/1c/0f/281c0ff6002477ca0fd670788c555e96.jpg",
+  mring17:
+    "https://i.pinimg.com/1200x/4a/99/ed/4a99ed2e7a6dc30351084b2eb84f0c51.jpg",
+  mring18:
+    "https://i.pinimg.com/1200x/64/07/d6/6407d6020005aeb94a0f489bba2cee9a.jpg",
+  mring19:
+    "https://i.pinimg.com/736x/ac/6a/f4/ac6af4470155134c892ba46bb6697d71.jpg",
+  mring20:
+    "https://i.pinimg.com/1200x/f9/09/ee/f909eec3f1aa818812a56040baf8a311.jpg",
+  mring21:
+    "https://i.pinimg.com/736x/fd/24/20/fd2420831755c3cfdf787ace8e8d649f.jpg",
+  mring22:
+    "https://i.pinimg.com/736x/0f/9f/9a/0f9f9a0ff180a6a7c72a549c37546a91.jpg",
+  mring23:
+    "https://i.pinimg.com/1200x/42/d1/98/42d198829c41e1de266f2a12e8bf0257.jpg",
+  mring24:
+    "https://i.pinimg.com/1200x/52/7f/d5/527fd502e821a6f5e490218224da9d40.jpg",
+  mring25:
+    "https://i.pinimg.com/736x/ee/ba/02/eeba02bf55a355722959f3bfa7965e16.jpg",
+  mring26:
+    "https://i.pinimg.com/736x/e0/0d/91/e00d91af9d85be653efd9bad3636152e.jpg",
+  mring27:
+    "https://i.pinimg.com/1200x/56/0f/01/560f01f190a2f4c20b43cb405906e237.jpg",
+  mring28:
+    "https://i.pinimg.com/736x/86/13/e3/8613e3f3354e55b67e0d7fc8dcecaeda.jpg",
+  mring29:
+    "https://i.pinimg.com/736x/03/31/6f/03316f53bdf15dbc95cb39a820735adc.jpg",
+  mring30:
+    "https://i.pinimg.com/736x/d2/f9/8d/d2f98de179be7dd5f351ceaced2a21f7.jpg",
+  mring31:
+    "https://i.pinimg.com/1200x/b1/22/81/b12281c4a059bef7122d87f6c9f2ae25.jpg",
+  mring32:
+    "https://i.pinimg.com/736x/d8/da/0e/d8da0e98c23542da2784e3dfa879edea.jpg",
+  mring33:
+    "https://i.pinimg.com/736x/c3/6b/92/c36b92ccad773b3b804e42acf96de897.jpg",
+  mring34:
+    "https://i.pinimg.com/1200x/78/7a/f3/787af3fd48a4b50bcbf388ea1fbec9e9.jpg",
+  mring35:
+    "https://i.pinimg.com/1200x/1e/ae/48/1eae48684618402f9c82e31a34a22b14.jpg",
+  mring36:
+    "https://i.pinimg.com/736x/32/24/9e/32249e0a19d683f3c8bd2d6f2c7f7eb3.jpg",
+  mring37:
+    "https://i.pinimg.com/736x/0f/9f/9a/0f9f9a0ff180a6a7c72a549c37546a91.jpg",
+  mring38:
+    "https://i.pinimg.com/1200x/d9/ba/02/d9ba02ebf863347cb4be9586be3b196e.jpg",
+  mring39:
+    "https://i.pinimg.com/1200x/d4/74/4a/d4744afb3547e9d0996e822903909150.jpg",
+  mring40:
+    "https://i.pinimg.com/736x/22/47/c9/2247c9d3448905e4b0f5ed19cdcd0ba8.jpg",
+  mring41:
+    "https://i.pinimg.com/736x/82/19/4e/82194e2b04c2f1be581eb56806f35491.jpg",
+
   silverg:
     "https://i.pinimg.com/1200x/32/93/56/329356dbbade5399d621178fb5701d8d.jpg",
   silverg2:
@@ -1361,6 +1445,7 @@ const I = {
     "https://i.pinimg.com/736x/c0/a5/3d/c0a53d9e71184eb0efd3331e2800a5a8.jpg",
   goldker3:
     "https://i.pinimg.com/736x/6a/c0/4c/6ac04c52e8780acb45fa46c02ea5cbbf.jpg",
+    // goldkan,goldknp,goldkpe,goldkhp,goldkto,goldkcu,goldkhc,goldkchm,goldkid,goldkanb,goldkha,goldkto2
   goldwtn:
     "https://i.pinimg.com/736x/bf/99/12/bf99123de342a2af42066b3436585939.jpg",
   goldwtn2:
@@ -2035,9 +2120,39 @@ const I = {
   Om: "https://i.pinimg.com/1200x/1f/9e/2b/1f9e2b14f4caf757767f8e9f1bc75446.jpg",
   Om2: "https://i.pinimg.com/1200x/8f/de/99/8fde99bd56c5cad14357b23b6fb49570.jpg",
   Om3: "https://i.pinimg.com/1200x/c9/54/54/c95454ce07121322e2945c0d427a60ec.jpg",
-  Om4: "https://i.pinimg.com/1200x/75/d6/2a/75d62aea637d806b787bf755ef67e75a.jpg",
-  Om5: "https://i.pinimg.com/1200x/7f/4e/d6/7f4ed6c9464242993d107858b4bf2eaf.jpg",
-  Om6: "https://i.pinimg.com/1200x/2c/f3/52/2cf35261687eae0c693de69ca7afbe98.jpg",
+  Om4: "https://i.pinimg.com/1200x/04/2b/fb/042bfb37799802a27afff884b338a9ef.jpg",
+  Om5: "https://i.pinimg.com/1200x/ce/bc/9e/cebc9ef09ba8cba93ba768cc5a31b5a9.jpg",
+  Om6: "https://i.pinimg.com/1200x/2f/4b/4f/2f4b4fe3048a9dc15dca531aec257671.jpg",
+  Om7: "https://i.pinimg.com/1200x/e6/72/42/e6724200f30325ea4bb2979cb7d5868f.jpg",
+  Om8: "https://i.pinimg.com/736x/75/6b/17/756b17780c9b52a529329e79dc8d1cd7.jpg",
+  Om9: "https://i.pinimg.com/1200x/fc/ea/6a/fcea6ae13c07977b65cfa33180b17e92.jpg",
+  Om10: "https://i.pinimg.com/1200x/11/df/e5/11dfe520f8d640b3823e2f741a7041f6.jpg",
+  Om11: "https://i.pinimg.com/1200x/1a/45/1d/1a451d4ec32194c86ea4bdbc10ed4a68.jpg",
+  Om12: "https://i.pinimg.com/1200x/0f/b8/02/0fb802b23e1ae17615cb7599c845142c.jpg",
+  Om13: "https://i.pinimg.com/1200x/e0/3f/8f/e03f8fd2c862c19f622e298f4da5b215.jpg",
+  Om14: "https://i.pinimg.com/1200x/fd/5b/42/fd5b422cfa4051d922e34a76c18f8f50.jpg",
+  Om15: "https://i.pinimg.com/1200x/18/d7/e9/18d7e98443c93ea3b14b6b3dc4e584ac.jpg",
+  Om16: "https://i.pinimg.com/1200x/e1/f1/50/e1f1502acf33c77092210e060cc21490.jpg",
+  Om17: "https://i.pinimg.com/1200x/dc/b6/f3/dcb6f363b8248708bfb5cfd5fd33434f.jpg",
+  Om18: "https://i.pinimg.com/1200x/6e/6e/39/6e6e39244ef470ada35475ec8f9ae909.jpg",
+  Om19: "https://i.pinimg.com/1200x/8a/b0/a1/8ab0a1a34ac723b06e0322bbbffe7bc8.jpg",
+  Om20: "https://i.pinimg.com/1200x/9f/3b/4a/9f3b4a54f3c647564cd0b89c6592331a.jpg",
+  Om21: "https://i.pinimg.com/1200x/eb/a6/e6/eba6e6561b30390fb8c3774da0acdb8a.jpg",
+  Om22: "https://i.pinimg.com/1200x/a1/68/07/a16807858a3cb6a45333901de09eb465.jpg",
+  Om23: "https://i.pinimg.com/736x/a8/78/f2/a878f28634ac7d803d8a7c51b9c2ffac.jpg",
+  Om24: "https://i.pinimg.com/1200x/c8/78/9f/c8789f32d4b56c01d011bb6cbb4e2997.jpg",
+  Om25: "https://i.pinimg.com/1200x/1c/19/94/1c19945daea988ac0faebb028bbcbfb9.jpg",
+  Om26: "https://i.pinimg.com/1200x/2b/eb/06/2beb067e6487913f52d0fef9cc087bc6.jpg",
+  Om27: "https://i.pinimg.com/736x/e8/ed/7e/e8ed7ee085ca412f1e77b2682e189e4d.jpg",
+  Om28: "https://i.pinimg.com/1200x/98/bc/15/98bc15eb370cfbb7f2b17322d266de74.jpg",
+  Om29: "https://i.pinimg.com/1200x/2b/eb/06/2beb067e6487913f52d0fef9cc087bc6.jpg",
+  Om30: "https://i.pinimg.com/1200x/63/b2/9e/63b29e3adf18a529126e4c4e0e33b864.jpg",
+  Om31:"https://i.pinimg.com/1200x/d4/e8/f5/d4e8f5ef4354de057188d1e603db7036.jpg",
+  Om32:"",
+  Om33:"",
+  Om34:"https://i.pinimg.com/1200x/fd/5b/42/fd5b422cfa4051d922e34a76c18f8f50.jpg",
+  Om35:"",
+  Om36:"",
 
   kanthi:
     "https://i.pinimg.com/1200x/75/6e/a2/756ea2299ba84dff8669bcfcd4ab955a.jpg",
@@ -2051,6 +2166,78 @@ const I = {
     "https://i.pinimg.com/1200x/54/a5/ac/54a5acf1536ec21ff40b5423a525293a.jpg",
   kanthi6:
     "https://i.pinimg.com/1200x/ae/c4/d4/aec4d4b37009b6c8b741fc8b4c865828.jpg",
+  kanthi7:
+    "https://i.pinimg.com/736x/f1/8f/e3/f18fe3020b18b2e139c2424189f40da9.jpg",
+  kanthi8:
+    "https://i.pinimg.com/1200x/1b/29/63/1b2963881dc523a82b9eb57a8f881cba.jpg",
+  kanthi9:
+    "https://i.pinimg.com/1200x/28/12/43/28124341a16153c7341ec7fd44b717e4.jpg",
+  kanthi10:
+    "https://i.pinimg.com/736x/0c/ab/c1/0cabc124a549c809581ec5d3babc45ea.jpg",
+  kanthi11:
+    "https://i.pinimg.com/736x/b5/33/e8/b533e83549d1b50d55ca8bef0bed26bb.jpg",
+  kanthi12:
+    "https://i.pinimg.com/1200x/83/d5/fe/83d5fe6fedf681b2db95d1ee9a3b6f6c.jpg",
+  kanthi13:
+    "https://i.pinimg.com/1200x/24/fc/34/24fc34af8dfe6268da13a01c628e2efc.jpg",
+  kanthi14:
+    "https://i.pinimg.com/736x/75/7d/b6/757db6b65a1fca72ba2dde13dbaf4963.jpg",
+  kanthi15:
+    "https://i.pinimg.com/736x/ce/92/79/ce9279657dbd45a2c7abb5ea485e8dd7.jpg",
+  kanthi16:
+    "https://i.pinimg.com/236x/eb/7c/b6/eb7cb655b474bcc5ac6712bff548eaea.jpg",
+  kanthi17:
+    "https://i.pinimg.com/736x/3b/72/59/3b72599d18c1e2f09bef1b299b3fc423.jpg",
+  kanthi18:
+    "https://i.pinimg.com/1200x/af/57/82/af57825d93cc22b1108e19e4146cf050.jpg",
+  kanthi19:
+    "https://i.pinimg.com/736x/b5/33/e8/b533e83549d1b50d55ca8bef0bed26bb.jpg",
+  kanthi20:
+    "https://i.pinimg.com/736x/8d/30/3b/8d303be32a96ba880f8d24060db29917.jpg",
+  kanthi21:
+    "https://i.pinimg.com/1200x/28/12/43/28124341a16153c7341ec7fd44b717e4.jpg",
+  kanthi22:
+    "https://i.pinimg.com/1200x/80/ba/55/80ba55a7274f93980012802d43f159a9.jpg",
+  kanthi23:
+    "https://i.pinimg.com/736x/91/24/92/912492d4a7496a648d4c1823a18ae671.jpg",
+  kanthi24:
+    "https://i.pinimg.com/1200x/c0/ff/17/c0ff1711eedfbf4531cb58fd413fe55a.jpg",
+  kanthi25:
+    "https://i.pinimg.com/1200x/6d/c0/50/6dc0509bef134bcdac7c2b5d4cdde74e.jpg",
+  kanthi26:
+    "https://i.pinimg.com/736x/d3/4b/ca/d34bca0a8bff94ebd849e070e4532745.jpg",
+  kanthi27:
+    "https://i.pinimg.com/1200x/83/d5/fe/83d5fe6fedf681b2db95d1ee9a3b6f6c.jpg",
+  kanthi28:
+    "https://i.pinimg.com/736x/0c/ab/c1/0cabc124a549c809581ec5d3babc45ea.jpg",
+  kanthi29:
+    "https://i.pinimg.com/736x/ce/92/79/ce9279657dbd45a2c7abb5ea485e8dd7.jpg",
+  kanthi30:
+    "https://i.pinimg.com/736x/85/e9/4e/85e94e0a72a1b7988b545055449ad328.jpg",
+  kanthi31:
+    "https://i.pinimg.com/736x/8d/30/3b/8d303be32a96ba880f8d24060db29917.jpg",
+  kanthi32:
+    "https://i.pinimg.com/1200x/28/12/43/28124341a16153c7341ec7fd44b717e4.jpg",
+  kanthi33:
+    "https://i.pinimg.com/736x/46/1b/a6/461ba6429b867835b146bdd2aa997f39.jpg",
+  kanthi34:
+    "https://i.pinimg.com/1200x/b4/dc/5a/b4dc5aeae8fb286bbfc8e88d1e0fc5b1.jpg",
+  kanthi35:
+    "https://i.pinimg.com/1200x/54/63/a8/5463a890a7ff3d9d8a3eeb4ffb4ce075.jpg",
+  kanthi36:
+    "https://i.pinimg.com/1200x/25/44/58/2544587a0a338ac4291b9296b856ff59.jpg",
+  kanthi37: "",
+  kanthi38: "",
+  kanthi39: "",
+  kanthi40: "",
+  kanthi41: "",
+  kanthi42: "",
+  kanthi43: "",
+  kanthi44: "",
+  kanthi45: "",
+  kanthi46: "",
+  kanthi47: "",
+  kanthi48: "",
 
   kada: "https://i.pinimg.com/736x/1f/9f/1d/1f9f1dee5397c6b8e2f32257d0c1abe0.jpg",
   kada4:
@@ -2119,6 +2306,66 @@ const I = {
     "https://i.pinimg.com/1200x/88/d9/b5/88d9b53db32d6b005a538239eed320bf.jpg",
   omlocket6:
     "https://i.pinimg.com/736x/9f/3f/97/9f3f9781c22403bcc2aa8e97f9647cec.jpg",
+  omlocket7:
+    "https://i.pinimg.com/1200x/46/7b/74/467b74523ba8a8c163b09dcc0b55c2c0.jpg",
+  omlocket8:
+    "https://i.pinimg.com/1200x/87/b0/95/87b0955e157dddf619f440d1db54bb5a.jpg",
+  omlocket9:
+    "https://i.pinimg.com/736x/4d/e6/88/4de688155e927730d96ce744dbd2d507.jpg",
+  omlocket10:
+    "https://i.pinimg.com/1200x/95/56/e8/9556e89db1e98ff15020cb7c7bdee1c4.jpg",
+  omlocket11:
+    "https://i.pinimg.com/736x/cb/b3/9b/cbb39b37ebbb965fe8cd2beaa10b0f4e.jpg",
+  omlocket12:
+    "https://i.pinimg.com/1200x/ed/51/f0/ed51f064cd7aa3884900c00f9f446cd9.jpg",
+  omlocket13:
+    "https://i.pinimg.com/736x/ed/d0/93/edd0936cde0bb2bff1503bc958be0afc.jpg",
+  omlocket14:
+    "https://i.pinimg.com/1200x/05/11/1d/05111d836f7100fb10edec1337aa41ce.jpg",
+  omlocket15:
+    "https://i.pinimg.com/1200x/31/16/4c/31164cede93575d3864fdc67d39f8343.jpg",
+  omlocket16:
+    "https://i.pinimg.com/736x/ef/dd/99/efdd992f7e2b36eba5cac63c022d9880.jpg",
+  omlocket17:
+    "https://i.pinimg.com/1200x/7f/4e/d6/7f4ed6c9464242993d107858b4bf2eaf.jpg",
+  omlocket18:
+    "https://i.pinimg.com/1200x/57/59/04/5759049863a9c7bcb24192e6a94abe8f.jpg",
+  omlocket19:
+    "https://i.pinimg.com/1200x/9f/73/c0/9f73c04bee617e4693a7d2c9e87fc253.jpg",
+  omlocket20:
+    "https://i.pinimg.com/736x/52/3b/e4/523be4e5e70ec09a48d6f838881e94a3.jpg",
+  omlocket21:
+    "https://i.pinimg.com/736x/29/de/9a/29de9a52e0ba68434867dd04b2e4694d.jpg",
+  omlocket22:
+    "https://i.pinimg.com/736x/af/09/5c/af095c88d0ed0dd18e9a2762226ab661.jpg",
+  omlocket23:
+    "https://i.pinimg.com/736x/ae/4d/5f/ae4d5fe9b576109ad05949c6070f23e7.jpg",
+  omlocket24:
+    "https://i.pinimg.com/1200x/93/47/8e/93478edd6ab8f2d8494e4d723dcccd9c.jpg",
+  omlocket25:
+    "https://i.pinimg.com/1200x/04/3a/bd/043abdd04b261ed1b3c9c3a7931275eb.jpg",
+  omlocket26:
+    "https://i.pinimg.com/736x/1f/54/f5/1f54f56a15788224545b64e53677e87a.jpg",
+  omlocket27:
+    "https://i.pinimg.com/736x/f6/79/a4/f679a40e986dc78c49f3d5dba14f5bb7.jpg",
+  omlocket28:
+    "https://i.pinimg.com/736x/c5/46/71/c5467138a7a3134615eb379e132988e5.jpg",
+  omlocket29:
+    "https://i.pinimg.com/736x/da/4e/01/da4e0143c7816b21ea0188b513b1bb7e.jpg",
+  omlocket30:
+    "https://i.pinimg.com/736x/5d/f7/67/5df767837e2cda9327a6ec059e22c233.jpg",
+  omlocket31:
+    "https://i.pinimg.com/1200x/04/a4/27/04a427c80718043b46aee742fe30b801.jpg",
+  omlocket32:
+    "https://i.pinimg.com/1200x/17/d1/02/17d102903dc322c2a8d92208a826631e.jpg",
+  omlocket33:
+    "https://i.pinimg.com/1200x/fe/ff/45/feff45702b0485d387b7b74908934da7.jpg",
+  omlocket34:
+    "https://i.pinimg.com/736x/ce/d3/03/ced3035d9ca5fe6b74b36cb6fda375f9.jpg",
+  omlocket35:
+    "https://i.pinimg.com/736x/1d/f2/bb/1df2bb6aeec224b28a3b9bfd427cf31c.jpg",
+  omlocket36:
+    "https://i.pinimg.com/736x/4d/e6/88/4de688155e927730d96ce744dbd2d507.jpg",
 
   maalocket:
     "https://i.pinimg.com/1200x/7c/6c/f3/7c6cf35d6489ff8d4734897018ea3330.jpg",
@@ -2134,6 +2381,36 @@ const I = {
     "https://i.pinimg.com/1200x/83/e8/f7/83e8f70fd2919c4e596faeaae192b416.jpg",
   maalocket6:
     "https://i.pinimg.com/1200x/e0/c0/80/e0c0802eb90dfa651acafc4bc2fed093.jpg",
+  maalocket7: "",
+  maalocket8: "",
+  maalocket9: "",
+  maalocket10: "",
+  maalocket11: "",
+  maalocket12: "",
+  maalocket13: "",
+  maalocket14: "",
+  maalocket15: "",
+  maalocket16: "",
+  maalocket17: "",
+  maalocket18: "",
+  maalocket19: "",
+  maalocket20: "",
+  maalocket21: "",
+  maalocket22: "",
+  maalocket23: "",
+  maalocket24: "",
+  maalocket25: "",
+  maalocket26: "",
+  maalocket27: "",
+  maalocket28: "",
+  maalocket29: "",
+  maalocket30: "",
+  maalocket31: "",
+  maalocket32: "",
+  maalocket33: "",
+  maalocket34: "",
+  maalocket35: "",
+  maalocket36: "",
 
   gurjarlocket:
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnU9nkyBr25baPSrVubFTfnrXM2b3IfBL-_w&s",
@@ -2147,6 +2424,37 @@ const I = {
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Nq_C3qXIGQ2yDZ0CuFM8KXX-J_A9mIJ_TA&s",
   gurjarlocket6:
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9MPTB0q75Mzxgls0yDD7C2ucmpYBiBzYq0A&s",
+  gurjarlocket7:
+    "https://i.pinimg.com/474x/12/1a/ae/121aaef2c86350025e0b25d86bdf0688.jpg?nii=t",
+  gurjarlocket8: "",
+  gurjarlocket9: "",
+  gurjarlocket10: "",
+  gurjarlocket11: "",
+  gurjarlocket12: "",
+  gurjarlocket13: "",
+  gurjarlocket14: "",
+  gurjarlocket15: "",
+  gurjarlocket16: "",
+  gurjarlocket17: "",
+  gurjarlocket18: "",
+  gurjarlocket19: "",
+  gurjarlocket20: "",
+  gurjarlocket21: "",
+  gurjarlocket22: "",
+  gurjarlocket23: "",
+  gurjarlocket24: "",
+  gurjarlocket25: "",
+  gurjarlocket26: "",
+  gurjarlocket27: "",
+  gurjarlocket28: "",
+  gurjarlocket29: "",
+  gurjarlocket30: "",
+  gurjarlocket31: "",
+  gurjarlocket32: "",
+  gurjarlocket33: "",
+  gurjarlocket34: "",
+  gurjarlocket35: "",
+  gurjarlocket36: "",
 
   mkada:
     "https://i.pinimg.com/1200x/54/f3/12/54f3124fff0941b91099c3bce829ef86.jpg",
@@ -2160,6 +2468,90 @@ const I = {
     "https://i.pinimg.com/736x/f8/75/8a/f8758a72ba65d1f03a1d20639d679914.jpg",
   mkada6:
     "https://i.pinimg.com/736x/68/f7/27/68f7278fbdffef4b95fdf439c3485d7a.jpg",
+  mkada7:
+    "https://i.pinimg.com/1200x/a3/41/91/a341919a6b1979f3c40baad6caf1f9e1.jpg",
+  mkada8:
+    "https://i.pinimg.com/1200x/be/c3/83/bec383c5cc2410d0b194b16870c5c064.jpg",
+  mkada9:
+    "https://i.pinimg.com/1200x/0c/9c/c2/0c9cc27ccd443adacc51fb4aa6cc9729.jpg",
+  mkada10:
+    "https://i.pinimg.com/736x/2e/5c/08/2e5c08d6505785a2026abece31cec080.jpg",
+  mkada11:
+    "https://i.pinimg.com/736x/62/82/5a/62825af67fa6d625e3093c847366a01b.jpg",
+  mkada12:
+    "https://i.pinimg.com/736x/30/3f/19/303f194fe5638f73b80e1cda66ffef21.jpg",
+  mkada13:
+    "https://i.pinimg.com/1200x/42/bc/54/42bc546f85d439bc7975ce7386754f3d.jpg",
+  mkada14:
+    "https://i.pinimg.com/736x/ab/51/24/ab51246ea16d51d0e23b5e7e632eb3b3.jpg",
+  mkada15:
+    "https://i.pinimg.com/736x/be/e3/fc/bee3fc243d0a93add8351770238ed4b9.jpg",
+  mkada16:
+    "https://i.pinimg.com/1200x/d5/41/0e/d5410e6bc5bb36febd30265e2c1638a5.jpg",
+  mkada17:
+    "https://i.pinimg.com/736x/f1/61/0b/f1610bfc02adf416dc0c497419340551.jpg",
+  mkada18:
+    "https://i.pinimg.com/736x/2f/da/b6/2fdab6f0b8326a6bc057c059a3fdc375.jpg",
+  mkada19:
+    "https://i.pinimg.com/736x/d8/ec/70/d8ec70c0714609666ce5ba4c98e8da04.jpg",
+  mkada20:
+    "https://i.pinimg.com/736x/9f/3a/57/9f3a5701af9ecfb72b4fd705819e77c0.jpg",
+  mkada21:
+    "https://i.pinimg.com/736x/73/2a/bf/732abf0e629df39daa408be42f15eb10.jpg",
+  mkada22:
+    "https://i.pinimg.com/736x/af/0a/39/af0a39f00318a3b578440644f2bd029b.jpg",
+  mkada23:
+    "https://i.pinimg.com/1200x/c0/fa/32/c0fa32cb87b95550bba2925ad8baeee3.jpg",
+  mkada24:
+    "https://i.pinimg.com/736x/b1/5f/4a/b15f4a5568c17b660cf6cc60939b5580.jpg",
+  mkada25:
+    "https://i.pinimg.com/1200x/65/2f/30/652f30c507e412669defa5419d4d0ee0.jpg",
+  mkada26:
+    "https://i.pinimg.com/1200x/ec/19/57/ec195713b1cb0ca06918d70ed62ab0eb.jpg",
+  mkada27:
+    "https://i.pinimg.com/736x/ab/51/24/ab51246ea16d51d0e23b5e7e632eb3b3.jpg",
+  mkada28:
+    "https://i.pinimg.com/1200x/7e/9c/67/7e9c672a527277f9b561e0a9b2298338.jpg",
+  mkada29:
+    "https://i.pinimg.com/1200x/39/1e/84/391e84fbd6eb05b551eaff8732e8ed8b.jpg",
+  mkada30:
+    "https://i.pinimg.com/736x/73/2a/bf/732abf0e629df39daa408be42f15eb10.jpg",
+  mkada31:
+    "https://i.pinimg.com/1200x/48/12/3c/48123c8a7d0854b045295473afe0b44c.jpg",
+  mkada32:
+    "https://i.pinimg.com/736x/9e/72/69/9e72696bd0cf40dd050d781345f909de.jpg",
+  mkada33:
+    "https://i.pinimg.com/1200x/03/2d/37/032d3713f03aef454cc007ca8fcae38c.jpg",
+  mkada34:
+    "https://i.pinimg.com/1200x/37/08/a3/3708a3324e669edfa3df326a91e0a55b.jpg",
+  mkada35:
+    "https://i.pinimg.com/1200x/7f/84/df/7f84df7b88db7f3cbc4d03377b1818d6.jpg",
+  mkada36:
+    "https://i.pinimg.com/1200x/53/06/1a/53061acf60af2846f2d7fc7c12dd7f68.jpg",
+  mkada37:
+    "https://i.pinimg.com/1200x/01/a9/61/01a961dbba19e600a3bb61ce22b906eb.jpg",
+  mkada38:
+    "https://i.pinimg.com/1200x/5a/d3/86/5ad386f9834ba9d214ad8591e353f8dd.jpg",
+  mkada39:
+    "https://i.pinimg.com/736x/c2/1e/78/c21e78e74d4d115425d15f3979f88b34.jpg",
+  mkada40:
+    "https://i.pinimg.com/736x/5d/dc/42/5ddc42ca598d0f143828403b3203c474.jpg",
+  mkada41:
+    "https://i.pinimg.com/1200x/e5/92/79/e59279ccd01a51a9cd2bda0891d27196.jpg",
+  mkada42:
+    "https://i.pinimg.com/1200x/50/51/af/5051af654b96ffea9840f13143dada0e.jpg",
+  mkada43:
+    "https://i.pinimg.com/736x/c4/98/c2/c498c2b125789024c47351e5873e5bca.jpg",
+  mkada44:
+    "https://i.pinimg.com/1200x/53/a9/8a/53a98ac94a68e486d33aaae2fe6cf342.jpg",
+  mkada45:
+    "https://i.pinimg.com/736x/1b/bb/f0/1bbbf025dc50f088cc8aaf5afb965aa0.jpg",
+  mkada46:
+    "https://i.pinimg.com/1200x/ab/73/8a/ab738a82dd2b232d2fbdc41afd2466c5.jpg",
+  mkada47:
+    "https://i.pinimg.com/1200x/03/ec/12/03ec12bbfb5dece41c9499587a5871a7.jpg",
+  mkada48:
+    "https://i.pinimg.com/236x/8a/43/34/8a433468e6cf5d91a2817eca3618bfce.jpg",
 
   wbracelets:
     "https://i.pinimg.com/736x/eb/fe/0f/ebfe0fca41870abcb4c804c444766d6c.jpg",
@@ -2228,6 +2620,93 @@ const I = {
     "https://i.pinimg.com/736x/c1/cd/38/c1cd38c8a46d693e4136692626358279.jpg",
   mbracelets6:
     "https://i.pinimg.com/1200x/74/b5/c2/74b5c23c99b9373776e79a841bcaa683.jpg",
+  mbracelets7:
+    "https://i.pinimg.com/736x/38/5a/80/385a8020d9e3112c101365e8102b9847.jpg",
+  mbracelets8:
+    "https://i.pinimg.com/1200x/2f/47/98/2f4798e77875a1e108a60d22c9a9d643.jpg",
+  mbracelets9:
+    "https://i.pinimg.com/1200x/7a/f0/8f/7af08ff1da4982f49deecc65560ef23a.jpg",
+  mbracelets10:
+    "https://i.pinimg.com/1200x/12/dd/2d/12dd2dfe38b8609746d5067828774bbd.jpg",
+  mbracelets11:
+    "https://i.pinimg.com/1200x/36/12/45/361245685ed226c7c3a03fb80cc325ae.jpg",
+  mbracelets12:
+    "https://i.pinimg.com/1200x/cc/63/23/cc63236254c394422e8cad35c754ddde.jpg",
+  mbracelets13:
+    "https://i.pinimg.com/1200x/da/d2/c8/dad2c84802ecbf5868db502ea6ff4370.jpg",
+  mbracelets14:
+    "https://i.pinimg.com/1200x/8a/31/4b/8a314baa24b49baf899945fa18af6596.jpg",
+  mbracelets15:
+    "https://i.pinimg.com/1200x/b5/ff/06/b5ff0676f4efb19c17d1f0178af79616.jpg",
+  mbracelets16:
+    "https://i.pinimg.com/1200x/39/07/18/3907188bdac4a2ecd33938b176fdb921.jpg",
+  mbracelets17:
+    "https://i.pinimg.com/736x/b4/20/79/b4207967ef5c59b71adf82c1b34ea379.jpg",
+  mbracelets18:
+    "https://i.pinimg.com/1200x/0e/7e/b1/0e7eb14d0fd3ad682fc50c3feb87c9b5.jpg",
+  mbracelets19:
+    "https://i.pinimg.com/1200x/a5/19/19/a51919909c5e6136269ba7159804245d.jpg",
+  mbracelets20:
+    "https://i.pinimg.com/1200x/49/d1/b5/49d1b5c0835dd74fe67c061830dbe1ad.jpg",
+  mbracelets21:
+    "https://i.pinimg.com/1200x/a8/7c/42/a87c420ef49b838de963b20020a09d6c.jpg",
+  mbracelets22:
+    "https://i.pinimg.com/1200x/75/1f/d5/751fd53096ab339b06dc0f423c3868a3.jpg",
+  mbracelets23:
+    "https://i.pinimg.com/1200x/b6/ca/04/b6ca043368266defe0c3c80610403332.jpg",
+  mbracelets24:
+    "https://i.pinimg.com/1200x/9e/41/38/9e4138f219810e06fb2b5f93a6fc54c0.jpg",
+  mbracelets25:
+    "https://i.pinimg.com/736x/3d/0a/b8/3d0ab885e90eda322e9799871d2189bd.jpg",
+  mbracelets26:
+    "https://i.pinimg.com/1200x/c3/4a/34/c34a348087d9d08413809c40885a729d.jpg",
+  mbracelets27:
+    "https://i.pinimg.com/1200x/fc/9b/1f/fc9b1f2d649f5355a235563ec25821d8.jpg",
+  mbracelets28:
+    "https://i.pinimg.com/1200x/a7/b6/17/a7b6171a171a73823c74cb1e997e1fa5.jpg",
+  mbracelets29:
+    "https://i.pinimg.com/1200x/4c/d5/06/4cd506c8536de15c9a7ed991460b2f24.jpg",
+  mbracelets30:
+    "https://i.pinimg.com/1200x/3c/47/70/3c4770b2d682b79527ce10c9a95ac056.jpg",
+  mbracelets31:
+    "https://i.pinimg.com/1200x/2d/a2/cb/2da2cb1822651e6d9c1de6a776f6b737.jpg",
+  mbracelets32:
+    "https://i.pinimg.com/1200x/ee/42/23/ee4223604a7eb253f4020a64c24ee42f.jpg",
+  mbracelets33:
+    "https://i.pinimg.com/1200x/0e/4b/70/0e4b706f919111a10cfc52d42e62aafd.jpg",
+  mbracelets34:
+    "https://i.pinimg.com/1200x/c1/47/cf/c147cfb98ae165e3f5a836f389a4a5bc.jpg",
+  mbracelets35:
+    "https://i.pinimg.com/736x/e6/55/2e/e6552e2970eabb2ed8adf20ef8e503bf.jpg",
+  mbracelets36:
+    "https://i.pinimg.com/736x/25/70/cf/2570cf06424f221a4ef6102c5ae834e4.jpg",
+  mbracelets37:
+    "https://i.pinimg.com/736x/d1/2a/5d/d12a5d219c3230d3f884e297b3ffc85c.jpg",
+  mbracelets38:
+    "https://i.pinimg.com/1200x/bb/9c/ea/bb9cea9236120cc1f6addbf92d460148.jpg",
+  mbracelets39:
+    "https://i.pinimg.com/1200x/08/d0/44/08d0440d28456353c55f9c595d8c5037.jpg",
+  mbracelets40:
+    "https://i.pinimg.com/1200x/a7/1e/31/a71e31b38bc2b79f1f34064d658e19c3.jpg",
+  mbracelets41:
+    "https://i.pinimg.com/1200x/ef/1c/0c/ef1c0cf6e05b376866179c7a5d7dfb54.jpg",
+  mbracelets42:
+    "https://i.pinimg.com/1200x/98/bb/34/98bb3402e6f436508ed539b0e216adf5.jpg",
+  mbracelets43:
+    "https://i.pinimg.com/1200x/80/31/e6/8031e6e224f170cbe84d82beb5c4e97b.jpg",
+  mbracelets44:
+    "https://i.pinimg.com/1200x/19/44/07/194407dd86f309bdef7e18d842b3cb2b.jpg",
+  mbracelets45:
+    "https://i.pinimg.com/1200x/e2/cd/52/e2cd52deff997f34c96b51d296fc713e.jpg",
+  mbracelets46:
+    "https://i.pinimg.com/1200x/39/45/ef/3945ef389beb9ace7200329e26e42bd7.jpg",
+
+  mbracelets47:
+    "https://i.pinimg.com/1200x/6f/7f/56/6f7f568f9547e6c8211422697786f32c.jpg",
+  mbracelets48:
+    "https://i.pinimg.com/1200x/d6/2f/4b/d62f4b4211f6ef7b3b27ee29623d3314.jpg",
+  mbracelets49:
+    "https://i.pinimg.com/1200x/19/ae/79/19ae79237b52df9828dc9f8d1f1a2be4.jpg",
 
   mbali:
     "https://i.pinimg.com/1200x/d5/72/db/d572db50fdf5bc456242f14d1d9c764c.jpg",
@@ -2241,6 +2720,92 @@ const I = {
     "https://i.pinimg.com/1200x/82/a8/d0/82a8d09453a9787093efbc925188db25.jpg",
   mbali6:
     "https://i.pinimg.com/1200x/89/40/aa/8940aa2b5ae4a8c48466f233a48712fc.jpg",
+  mbali7:
+    "https://i.pinimg.com/736x/65/d5/05/65d505541b14d3df7ba9c852c09477cf.jpg",
+  mbali8:
+    "https://i.pinimg.com/1200x/0d/71/a5/0d71a5e07872a8555ed64d064adf4f6e.jpg",
+  mbali9:
+    "https://i.pinimg.com/1200x/1e/f3/8e/1ef38e00529d721c206a8ec9dac35544.jpg",
+  mbali10:
+    "https://i.pinimg.com/1200x/82/a8/d0/82a8d09453a9787093efbc925188db25.jpg",
+  mbali11:
+    "https://i.pinimg.com/1200x/2a/86/05/2a860596ac52f4b86730b3ea94cbb834.jpg",
+  mbali12:
+    "https://i.pinimg.com/1200x/82/a8/d0/82a8d09453a9787093efbc925188db25.jpg",
+  mbali13:
+    "https://i.pinimg.com/1200x/79/fd/87/79fd874e98935e88d17f005c4ac35e04.jpg",
+  mbali14:
+    "https://i.pinimg.com/736x/75/74/4f/75744f7be6335eca3c75458d437992e0.jpg",
+  mbali15:
+    "https://i.pinimg.com/1200x/d5/72/db/d572db50fdf5bc456242f14d1d9c764c.jpg",
+  mbali16:
+    "https://i.pinimg.com/1200x/3d/9c/a5/3d9ca506662f64c0bb4ea53be6495293.jpg",
+  mbali17:
+    "https://i.pinimg.com/1200x/a2/27/58/a2275884a0ee78b43cca3bef576e5da5.jpg",
+  mbali18:
+    "https://i.pinimg.com/736x/fe/2f/55/fe2f55488a271c395c2daa0b5797d729.jpg",
+  mbali19:
+    "https://i.pinimg.com/1200x/85/c1/17/85c117c8c3a61d4d35c7c43aaf2c97f9.jpg",
+  mbali20:
+    "https://www.muteyaar.com/wp-content/uploads/2023/03/J0713-scaled.jpg",
+  mbali21:
+    "https://www.roopdarshan.co.nz/cdn/shop/files/DSC_9256-Photoroom.jpg?v=1746832769",
+  mbali22:
+    "https://i.pinimg.com/1200x/64/01/71/640171c4e09ccf076f5b99912c29caf4.jpg",
+  mbali23:
+    "https://i.pinimg.com/736x/c0/88/94/c08894a11aea13c3e11d6e66f9876a4d.jpg",
+  mbali24:
+    "https://i.pinimg.com/736x/e9/9e/32/e99e32e99221bcc5fc1812b14fc9206b.jpg",
+  mbali25:
+    "https://i.pinimg.com/1200x/f3/35/49/f33549e081632864dd11a2a1a0b01842.jpg",
+  mbali26:
+    "https://i.pinimg.com/1200x/0c/43/36/0c4336f731a8d47bb9ce473475652662.jpg",
+  mbali27:
+    "https://i.pinimg.com/736x/c0/88/94/c08894a11aea13c3e11d6e66f9876a4d.jpg",
+  mbali28:
+    "https://i.pinimg.com/736x/d8/27/4a/d8274aca1d79cf780fc7f66c584cf1b6.jpg",
+  mbali29:
+    "https://i.pinimg.com/1200x/a9/e5/dd/a9e5dda62235e397b5ae73bf9e6e7fc2.jpg",
+  mbali30:
+    "https://i.pinimg.com/736x/fe/2f/55/fe2f55488a271c395c2daa0b5797d729.jpg",
+  mbali31:
+    "https://i.pinimg.com/1200x/41/cf/92/41cf929379b51e993c4761159058c802.jpg",
+  mbali32:
+    "https://i.pinimg.com/1200x/b8/d1/53/b8d153427582905c40e592e406b6b2f0.jpg",
+  mbali33:
+    "https://i.pinimg.com/736x/b3/69/4b/b3694bdf04a839cec5ecb6898e6ed1e4.jpg",
+  mbali34:
+    "https://i.pinimg.com/1200x/f3/35/49/f33549e081632864dd11a2a1a0b01842.jpg",
+  mbali35:
+    "https://i.pinimg.com/1200x/df/47/a8/df47a8d77e1d03b8b4c4387eaa12762a.jpg",
+  mbali36:
+    "https://i.pinimg.com/1200x/56/98/fc/5698fc6ac030d80522733c7001ca0cda.jpg",
+  mbali37:
+    "https://i.pinimg.com/1200x/59/49/e1/5949e1c21790bb60452febac809d717d.jpg",
+  mbali38:
+    "https://i.pinimg.com/736x/ab/06/fc/ab06fc54b9b0b1c2208c35e8bf0855fa.jpg",
+  mbali39:
+    "https://i.pinimg.com/1200x/f9/19/8d/f9198d8c6b259ebb037efafc5d286198.jpg",
+  mbali40:
+    "https://i.pinimg.com/1200x/34/32/b8/3432b8950bbc1fe3862a3742b12c9f13.jpg",
+  mbali41:
+    "https://i.pinimg.com/736x/1b/20/f9/1b20f91f179359bf5156db9ad297f8eb.jpg",
+  mbali41:
+    "https://i.pinimg.com/736x/86/0a/4a/860a4a6cd9ee03cf4d672e1b93aecb91.jpg",
+  mbali42:
+    "https://i.pinimg.com/1200x/54/55/0b/54550b306b54df6f633540c47aeb006f.jpg",
+  mbali43:
+    "https://i.pinimg.com/1200x/a9/e5/dd/a9e5dda62235e397b5ae73bf9e6e7fc2.jpg",
+  mbali44:
+    "https://i.pinimg.com/1200x/54/37/1c/54371cc120c3c91ce0e57d0849e90993.jpg",
+  mbali45:
+    "https://i.pinimg.com/1200x/d0/c5/c1/d0c5c1b16e47d54525a03acc07925b49.jpg",
+  mbali46:
+    "https://i.pinimg.com/736x/d8/27/4a/d8274aca1d79cf780fc7f66c584cf1b6.jpg",
+  mbali47:
+    "https://i.pinimg.com/736x/5f/6f/95/5f6f95959653d5e6bd1c343d53742acf.jpg",
+  mbali48:
+    "https://i.pinimg.com/736x/c0/cc/20/c0cc20f17ef4e1ff03cf45d8390d0d23.jpg",
 
   wmali:
     "https://i.pinimg.com/736x/6d/0e/a6/6d0ea6ff563158d87166a3302ff84749.jpg",
@@ -3060,9 +3625,9 @@ const PRODUCT_TEMPLATES = {
       ],
     },
     {
-      name: "Pearl Drop Earrings",
+      name: "Pearl Drop Rings",
       desc: "Elegant pearl drops in 22K gold, perfect for a touch of timeless sophistication.",
-      imgs: [I.mear1, I.mear2, I.mear3],
+      imgs: [I.mring, I.mring0, I.mring00],
       features: ["22K Gold", "Pearl Drops", "Hypoallergenic", "BIS Certified"],
     },
     {
@@ -4972,6 +5537,17 @@ const PRODUCT_TEMPLATES = {
         "Hallmarked",
       ],
     },
+    {
+      name: "Floral  Kanthi",
+      desc: "A delicate 22K gold kanthi adorned with engraved floral  — masculine elegance.",
+      imgs: [I.kanthi34, I.kanthi35, I.kanthi36],
+      features: [
+        "22K Gold",
+        "Custom Engraving",
+        "Adjustable Length",
+        "Hallmarked",
+      ],
+    },
   ],
   "gold/mens/om-lockets": [
     {
@@ -4985,6 +5561,101 @@ const PRODUCT_TEMPLATES = {
       desc: "A three-dimensional Om locket in 22K gold with high-relief engraving.",
       imgs: [I.omlocket4, I.omlocket5, I.omlocket6],
       features: ["22K Gold", "3D Relief", "Polished Finish", "BIS Certified"],
+    },
+    {
+      name: "Om Locket — Divine Glow",
+      desc: "An elegant Om locket crafted in 22K gold with a radiant finish that reflects spiritual grace.",
+      imgs: [I.omlocket7, I.omlocket8, I.omlocket9],
+      features: [
+        "22K Gold",
+        "Radiant Finish",
+        "Lightweight Design",
+        "BIS Hallmarked",
+      ],
+    },
+    {
+      name: "Om Locket — Sacred Aura",
+      desc: "A beautifully detailed Om pendant inspired by traditional temple artistry and timeless devotion.",
+      imgs: [I.omlocket10, I.omlocket11, I.omlocket12],
+      features: [
+        "22K Gold",
+        "Temple-Inspired Design",
+        "Fine Detailing",
+        "Premium Packaging",
+      ],
+    },
+    {
+      name: "Om Locket — Eternal Blessing",
+      desc: "A premium Om locket featuring intricate craftsmanship and a polished golden shine.",
+      imgs: [I.omlocket13, I.omlocket14, I.omlocket15],
+      features: ["22K Gold", "Mirror Polish", "Durable Build", "BIS Certified"],
+    },
+    {
+      name: "Om Locket — Lotus Harmony",
+      desc: "An Om symbol gracefully combined with lotus-inspired elements for a serene spiritual look.",
+      imgs: [I.omlocket16, I.omlocket17, I.omlocket18],
+      features: [
+        "22K Gold",
+        "Lotus Motif",
+        "Elegant Finish",
+        "Gift Box Included",
+      ],
+    },
+    {
+      name: "Om Locket — Royal Heritage",
+      desc: "A regal Om pendant crafted with traditional Indian artistry and premium gold workmanship.",
+      imgs: [I.omlocket19, I.omlocket20, I.omlocket21],
+      features: [
+        "22K Gold",
+        "Heritage Design",
+        "Premium Craftsmanship",
+        "Hallmarked Gold",
+      ],
+    },
+    {
+      name: "Om Locket — Sun Radiance",
+      desc: "A vibrant Om locket surrounded by sunburst-inspired detailing symbolizing energy and positivity.",
+      imgs: [I.omlocket22, I.omlocket23, I.omlocket24],
+      features: [
+        "22K Gold",
+        "Sunburst Pattern",
+        "Glossy Finish",
+        "Certified Purity",
+      ],
+    },
+    {
+      name: "Om Locket — Spiritual Essence",
+      desc: "A contemporary Om pendant designed for everyday wear while maintaining a sacred touch.",
+      imgs: [I.omlocket25, I.omlocket26, I.omlocket27],
+      features: [
+        "22K Gold",
+        "Modern Design",
+        "Daily Wear Friendly",
+        "Scratch Resistant",
+      ],
+    },
+    {
+      name: "Om Locket — Golden Serenity",
+      desc: "A refined Om locket with smooth contours and a luxurious gold finish for a peaceful presence.",
+      imgs: [I.omlocket28, I.omlocket29, I.omlocket30],
+      features: ["22K Gold", "Smooth Finish", "Comfort Fit", "Premium Quality"],
+    },
+    {
+      name: "Om Locket — Celestial Om",
+      desc: "A unique Om pendant inspired by celestial patterns, blending spirituality with modern elegance.",
+      imgs: [I.omlocket31, I.omlocket32, I.omlocket33],
+      features: ["22K Gold", "Celestial Pattern", "High Polish", "Gift Ready"],
+    },
+    {
+      name: "Om Locket — Divine Heritage",
+      desc: "A statement Om locket featuring rich detailing and a classic gold aesthetic rooted in tradition.",
+      imgs: [I.omlocket34, I.omlocket35, I.omlocket36],
+      features: [
+        "22K Gold",
+        "Traditional Artwork",
+        "Premium Finish",
+        "BIS Hallmarked",
+      ],
     },
   ],
   "gold/mens/maa-lockets": [
@@ -5005,6 +5676,101 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
+    {
+      name: "Maa Locket — Divine Blessing",
+      desc: "A beautifully crafted Maa locket symbolizing a mother's unconditional love and blessings.",
+      imgs: [I.maalocket7, I.maalocket8, I.maalocket9],
+      features: [
+        "22K Gold",
+        "Elegant Lettering",
+        "Premium Finish",
+        "BIS Hallmarked",
+      ],
+    },
+    {
+      name: "Maa Locket — Golden Love",
+      desc: "A timeless Maa pendant designed to celebrate the eternal bond between mother and child.",
+      imgs: [I.maalocket10, I.maalocket11, I.maalocket12],
+      features: ["22K Gold", "Handcrafted Design", "High Polish", "Gift Ready"],
+    },
+    {
+      name: "Maa Locket — Sacred Affection",
+      desc: "An artistic Maa locket featuring graceful curves and intricate detailing in pure gold.",
+      imgs: [I.maalocket13, I.maalocket14, I.maalocket15],
+      features: [
+        "22K Gold",
+        "Fine Craftsmanship",
+        "Lightweight",
+        "Hallmarked Gold",
+      ],
+    },
+    {
+      name: "Maa Locket — Mother's Grace",
+      desc: "A delicate Maa pendant that beautifully captures the warmth and care of motherhood.",
+      imgs: [I.maalocket16, I.maalocket17, I.maalocket18],
+      features: [
+        "22K Gold",
+        "Smooth Finish",
+        "Comfort Wear",
+        "Certified Purity",
+      ],
+    },
+    {
+      name: "Maa Locket — Eternal Bond",
+      desc: "A premium Maa locket designed as a lasting symbol of love, strength, and protection.",
+      imgs: [I.maalocket19, I.maalocket20, I.maalocket21],
+      features: [
+        "22K Gold",
+        "Premium Detailing",
+        "Mirror Polish",
+        "Gift Packaging",
+      ],
+    },
+    {
+      name: "Maa Locket — Lotus Devotion",
+      desc: "A Maa pendant inspired by the lotus flower, representing purity and maternal affection.",
+      imgs: [I.maalocket22, I.maalocket23, I.maalocket24],
+      features: ["22K Gold", "Lotus Motif", "Luxury Finish", "BIS Certified"],
+    },
+    {
+      name: "Maa Locket — Divine Mother",
+      desc: "A spiritually inspired locket honoring the nurturing power and grace of motherhood.",
+      imgs: [I.maalocket25, I.maalocket26, I.maalocket27],
+      features: [
+        "22K Gold",
+        "Spiritual Design",
+        "Detailed Engraving",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Maa Locket — Heart of Gold",
+      desc: "A heartfelt Maa pendant featuring a modern design with a touch of traditional elegance.",
+      imgs: [I.maalocket28, I.maalocket29, I.maalocket30],
+      features: [
+        "22K Gold",
+        "Modern Styling",
+        "Glossy Finish",
+        "Premium Quality",
+      ],
+    },
+    {
+      name: "Maa Locket — Blessing Charm",
+      desc: "A graceful Maa charm locket crafted to keep a mother's blessings close every day.",
+      imgs: [I.maalocket31, I.maalocket32, I.maalocket33],
+      features: ["22K Gold", "Charm Design", "Daily Wear", "Certified Gold"],
+    },
+    {
+      name: "Maa Locket — Golden Tribute",
+      desc: "An exquisite Maa locket created as a tribute to the love, sacrifice, and strength of mothers.",
+      imgs: [I.maalocket34, I.maalocket35, I.maalocket36],
+      features: [
+        "22K Gold",
+        "Artisan Crafted",
+        "Luxury Polish",
+        "BIS Hallmarked",
+      ],
+    },
   ],
   "gold/mens/gurjar-lockets": [
     {
@@ -5023,6 +5789,106 @@ const PRODUCT_TEMPLATES = {
       desc: "Bold Gurjar warrior emblem cast in 22K gold — a locket of cultural pride.",
       imgs: [I.gurjarlocket4, I.gurjarlocket5, I.gurjarlocket6],
       features: ["22K Gold", "Heritage Design", "Deep Engraving", "Hallmarked"],
+    },
+    {
+      name: "Gurjar Royal Crest Locket",
+      desc: "A majestic Gurjar-inspired locket showcasing a royal crest design crafted in pure 22K gold.",
+      imgs: [I.gurjarlocket7, I.gurjarlocket8, I.gurjarlocket9],
+      features: [
+        "22K Gold",
+        "Royal Crest Design",
+        "Premium Finish",
+        "BIS Hallmarked",
+      ],
+    },
+    {
+      name: "Gurjar Warrior Shield Locket",
+      desc: "A bold gold locket inspired by the courage and strength of legendary Gurjar warriors.",
+      imgs: [I.gurjarlocket10, I.gurjarlocket11, I.gurjarlocket12],
+      features: [
+        "22K Gold",
+        "Warrior Shield Motif",
+        "High Relief Design",
+        "Certified Gold",
+      ],
+    },
+    {
+      name: "Gurjar Legacy Locket",
+      desc: "A timeless tribute to Gurjar heritage, crafted with intricate detailing and cultural symbolism.",
+      imgs: [I.gurjarlocket13, I.gurjarlocket14, I.gurjarlocket15],
+      features: [
+        "22K Gold",
+        "Heritage Artwork",
+        "Fine Craftsmanship",
+        "Hallmarked",
+      ],
+    },
+    {
+      name: "Gurjar Rajputana Locket",
+      desc: "An elegant locket inspired by Rajputana-era Gurjar traditions and royal identity.",
+      imgs: [I.gurjarlocket16, I.gurjarlocket17, I.gurjarlocket18],
+      features: [
+        "22K Gold",
+        "Rajputana Style",
+        "Detailed Engraving",
+        "Luxury Packaging",
+      ],
+    },
+    {
+      name: "Gurjar Unity Locket",
+      desc: "A meaningful design symbolizing unity, pride, and the enduring spirit of the Gurjar community.",
+      imgs: [I.gurjarlocket19, I.gurjarlocket20, I.gurjarlocket21],
+      features: [
+        "22K Gold",
+        "Community Symbol",
+        "Glossy Finish",
+        "BIS Certified",
+      ],
+    },
+    {
+      name: "Gurjar Dynasty Locket",
+      desc: "A premium gold pendant reflecting the rich legacy and historical influence of Gurjar dynasties.",
+      imgs: [I.gurjarlocket22, I.gurjarlocket23, I.gurjarlocket24],
+      features: [
+        "22K Gold",
+        "Dynasty Emblem",
+        "Mirror Polish",
+        "Hallmarked Gold",
+      ],
+    },
+    {
+      name: "Gurjar Lion Crest Locket",
+      desc: "A striking lion-inspired crest locket representing bravery, leadership, and Gurjar pride.",
+      imgs: [I.gurjarlocket25, I.gurjarlocket26, I.gurjarlocket27],
+      features: [
+        "22K Gold",
+        "Lion Crest Design",
+        "Bold Appearance",
+        "Certified Purity",
+      ],
+    },
+    {
+      name: "Gurjar Heritage Seal Locket",
+      desc: "An artistic gold locket featuring a heritage seal motif inspired by traditional Gurjar culture.",
+      imgs: [I.gurjarlocket28, I.gurjarlocket29, I.gurjarlocket30],
+      features: ["22K Gold", "Seal Pattern", "Premium Detailing", "Gift Ready"],
+    },
+    {
+      name: "Gurjar Valor Locket",
+      desc: "A powerful pendant honoring the valor, resilience, and achievements of the Gurjar community.",
+      imgs: [I.gurjarlocket31, I.gurjarlocket32, I.gurjarlocket33],
+      features: ["22K Gold", "Valor Symbol", "Luxury Finish", "BIS Hallmarked"],
+    },
+    {
+      name: "Gurjar Crown Locket",
+      desc: "A regal Gurjar-themed locket featuring crown-inspired detailing for a distinguished look.",
+      imgs: [I.gurjarlocket34, I.gurjarlocket35, I.gurjarlocket36],
+      features: [
+        "22K Gold",
+        "Crown Motif",
+        "Handcrafted Design",
+        "Premium Quality",
+      ],
     },
   ],
   "gold/mens/om-collection": [
@@ -5103,35 +5969,35 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.Om34, I.Om35, I.Om36],
       features: ["22K Gold", "Engraved Om", "Keychain Style", "BIS Certified"],
     },
-    {
-      name: "Om Wall Hanging with Gemstone",
-      desc: "A decorative wall hanging in 22K gold with Om motif and a small emerald accent.",
-      imgs: [I.Om37, I.Om38, I.Om39],
-      features: ["22K Gold", "Emerald Accent", "Wall Hanging", "GIA Certified"],
-    },
-    {
-      name: "Om Ring with Diamond",
-      desc: "A 22K gold ring with raised Om symbol and a channel of diamonds — sacred elegance.",
-      imgs: [I.Om40, I.Om41, I.Om42],
-      features: ["22K Gold", "Raised Om", "Diamond Channel", "GIA Certified"],
-    },
-    {
-      name: "Om Brooch with Sapphire",
-      desc: "A 22K gold brooch in the shape of Om symbol accented with a small sapphire — a statement of faith.",
-      imgs: [I.Om43, I.Om44, I.Om45],
-      features: [
-        "22K Gold",
-        "Sapphire Accent",
-        "Brooch Style",
-        "GIA Certified",
-      ],
-    },
-    {
-      name: "Om Pendant with Ruby",
-      desc: "A 22K gold Om pendant accented with a small ruby — sacred and stylish.",
-      imgs: [I.Om46, I.Om47, I.Om48],
-      features: ["22K Gold", "Ruby Accent", "Pendant Style", "GIA Certified"],
-    },
+    // {
+    //   name: "Om Wall Hanging with Gemstone",
+    //   desc: "A decorative wall hanging in 22K gold with Om motif and a small emerald accent.",
+    //   imgs: [I.Om37, I.Om38, I.Om39],
+    //   features: ["22K Gold", "Emerald Accent", "Wall Hanging", "GIA Certified"],
+    // },
+    // {
+    //   name: "Om Ring with Diamond",
+    //   desc: "A 22K gold ring with raised Om symbol and a channel of diamonds — sacred elegance.",
+    //   imgs: [I.Om40, I.Om41, I.Om42],
+    //   features: ["22K Gold", "Raised Om", "Diamond Channel", "GIA Certified"],
+    // },
+    // {
+    //   name: "Om Brooch with Sapphire",
+    //   desc: "A 22K gold brooch in the shape of Om symbol accented with a small sapphire — a statement of faith.",
+    //   imgs: [I.Om43, I.Om44, I.Om45],
+    //   features: [
+    //     "22K Gold",
+    //     "Sapphire Accent",
+    //     "Brooch Style",
+    //     "GIA Certified",
+    //   ],
+    // },
+    // {
+    //   name: "Om Pendant with Ruby",
+    //   desc: "A 22K gold Om pendant accented with a small ruby — sacred and stylish.",
+    //   imgs: [I.Om46, I.Om47, I.Om48],
+    //   features: ["22K Gold", "Ruby Accent", "Pendant Style", "GIA Certified"],
+    // },
   ],
   "gold/womens/necklaces": [
     {
