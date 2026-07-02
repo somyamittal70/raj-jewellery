@@ -697,6 +697,28 @@ const I = {
     "https://i.pinimg.com/1200x/3b/15/54/3b1554100bf35d00749c0558c4c6c31e.jpg",
   silverwka6:
     "https://i.pinimg.com/1200x/5b/a4/f5/5ba4f5abf8c23f5724775f00869a4763.jpg",
+  silverwka7:
+  "https://i.pinimg.com/736x/d5/67/09/d5670943a51c8ae35baab32935b0cdcc.jpg",
+  silverwka10:
+  "https://i.pinimg.com/736x/40/e6/30/40e6304138911347054c782816b64a9e.jpg",
+  silverwka13:
+  "https://i.pinimg.com/736x/23/6f/35/236f3516c5d0eb58f8294429481584fc.jpg",
+  silverwka16:
+  "https://i.pinimg.com/1200x/c4/08/78/c4087819da0a2549ab3c3808a9ee2060.jpg",
+  silverwka19:
+  "https://i.pinimg.com/736x/7c/5e/57/7c5e5717e7f0568286a65c65edc21e26.jpg",
+  silverwka22:
+  "",
+  silverwka25:
+  "",
+  silverwka28:
+  "",
+  silverwka31:
+  "",
+  silverwka34:
+  "",
+
+
   silverwb:
     "https://i.pinimg.com/736x/99/a9/0b/99a90b39d2ee6e919400eeb8e2d41f4a.jpg",
   silverwb2:
@@ -709,18 +731,100 @@ const I = {
     "https://i.pinimg.com/736x/3d/d2/b9/3dd2b96513a24bd6f9aab963bf4e6eac.jpg",
   silverwb6:
     "https://i.pinimg.com/1200x/b0/73/cf/b073cf226d5a3306dca733e9c1d977e4.jpg",
+  silverwb7:
+  "https://i.pinimg.com/736x/1b/06/77/1b0677bb1b218ba245bfa95263599d67.jpg",
+  silverwb10:
+  "https://i.pinimg.com/1200x/c6/5e/44/c65e443580197aae4670f1a8a5fe6323.jpg",
+  silverwb13:
+  "https://i.pinimg.com/736x/a5/d5/bc/a5d5bc5b26551f81bc36bb916ea212fc.jpg",
+  silverwb16:
+  "https://i.pinimg.com/1200x/af/b4/b5/afb4b510010150649391a195ffa3dd47.jpg",
+  silverwb19:
+  "https://i.pinimg.com/1200x/9d/b5/23/9db5236c5b8a224c1988273103e631ae.jpg",
+  silverwb22:
+  "https://i.pinimg.com/1200x/b0/31/19/b03119aecc95e9a5bf5520300b01e70f.jpg",
+  silverwb25:
+  "https://i.pinimg.com/1200x/9b/30/7b/9b307bc67214b4b83efa34ad02cdc77e.jpg",
+  silverwb28:
+  "https://i.pinimg.com/736x/56/f4/62/56f46237dad5870ff6d987ef4aa5d29d.jpg",
+  silverwb31:
+  "https://i.pinimg.com/1200x/dd/8e/d8/dd8ed825abe0146686e2ad1ad803bc5f.jpg",
+  silverwb34:
+  "https://i.pinimg.com/1200x/d9/0c/26/d90c26c33b87e25c0e458fc6bb40566a.jpg",
+
   silvertr:
-    "https://i.pinimg.com/1200x/fb/8b/e9/fb8be9e880410d656b3a354e9056fc64.jpg",
+    "https://i.pinimg.com/1200x/a3/f0/62/a3f062105d280fec239397e5909f7d2d.jpg",
   silvertr2:
-    "https://i.pinimg.com/1200x/6a/00/ac/6a00ac00fd82e1e691f677507c40f777.jpg",
+    "https://i.pinimg.com/736x/d3/e0/8b/d3e08bf6406c836adef66be0c8eab2f5.jpg",
   silvertr3:
-    "https://img.staticdj.com/bd23d44cd5aef207e7df671163c1c036_1024x.jpeg",
+    "https://i.pinimg.com/736x/49/79/e4/4979e4da469bd415e2cf0d38baae0ec7.jpg",
   silvertr4:
-    "https://i.pinimg.com/1200x/f2/b8/34/f2b834e1bfdf41d49e5e26e381803306.jpg",
+    "https://i.pinimg.com/1200x/9c/16/33/9c16336e665f21600570bd76cf5bcead.jpg",
   silvertr5:
-    "https://i.pinimg.com/1200x/ee/ef/92/eeef92f629b6b6c5a536e845811d8a69.jpg",
+    "https://i.pinimg.com/1200x/ca/19/84/ca1984755813187e0f9b559f4a5d35c0.jpg",
   silvertr6:
-    "https://i.pinimg.com/736x/55/59/31/555931d60a2c98ddff22b92df55b0af3.jpg",
+    "https://i.pinimg.com/1200x/1d/23/75/1d23756e3fea46dc5cd2a824b3036cb7.jpg",
+    silvertr7:
+    "https://i.pinimg.com/1200x/49/0a/98/490a98d6b8382fd7d548cc59e078e66a.jpg",
+    silvertr8:
+    "https://i.pinimg.com/1200x/46/86/9f/46869ff609677a73cdfb1fd1bb281808.jpg",
+    silvertr9:
+    "https://i.pinimg.com/1200x/67/20/4a/67204ad0c02cab9432f75c0263b1a1fc.jpg",
+    silvertr10:
+    "https://i.pinimg.com/736x/20/b1/92/20b192bd1f29d96b0231ba9b1b0762fc.jpg",
+    silvertr11:
+    "https://i.pinimg.com/736x/bf/3a/12/bf3a12c4080b4303cbbf415b58c161ca.jpg",
+    silvertr12:
+    "https://i.pinimg.com/1200x/59/fc/d1/59fcd10a78dac8d8f88eb888ed6dd05c.jpg",
+    silvertr13:
+    "https://i.pinimg.com/1200x/8f/d7/fa/8fd7fa72bebc4cd72938b6f1b50d1e5a.jpg",
+    silvertr14:
+    "https://i.pinimg.com/1200x/bf/76/db/bf76dbf6ae12cf737c34e66a838ed8bf.jpg",
+    silvertr15:
+    "https://i.pinimg.com/1200x/30/a3/a1/30a3a1985c8d16468ec0498cf28664c7.jpg",
+    silvertr16:
+    "https://i.pinimg.com/1200x/b9/c2/d9/b9c2d9374f008549332ac245b51c74b7.jpg",
+    silvertr17:
+    "https://i.pinimg.com/1200x/fe/08/1c/fe081c039ca9e482d9515814f900e2b8.jpg",
+    silvertr18:
+    "https://i.pinimg.com/1200x/14/09/b0/1409b0a5020675119a2b3b012f6d6f67.jpg",
+    silvertr19:
+    "https://i.pinimg.com/1200x/48/c4/45/48c44548672d3ea8e10f3f51b9a1e7f5.jpg",
+    silvertr20:
+    "https://i.pinimg.com/1200x/4c/8c/f6/4c8cf6ba655e40d55c4746f7feabc9ab.jpg",
+    silvertr21:
+    "https://i.pinimg.com/1200x/32/23/00/3223000edd9617b66aa8f8b227c4f73a.jpg",
+    silvertr22:
+    "https://i.pinimg.com/1200x/72/85/be/7285be566038278318625bae27d6eb5f.jpg",
+    silvertr23:
+    "https://i.pinimg.com/736x/63/c7/22/63c722e3b82c32f1313a074b5f266244.jpg",
+    silvertr24:
+    "https://i.pinimg.com/236x/8f/4a/fd/8f4afd8c76f6b5b4002184448dec06f0.jpg",
+    silvertr25:
+    "https://i.pinimg.com/736x/14/7a/0d/147a0d878756d4adf7a560b52cc86268.jpg",
+    silvertr26:
+    "https://i.pinimg.com/736x/90/c8/1d/90c81d0f70955c815f705a3be59d167a.jpg",
+    silvertr27:
+    "https://i.pinimg.com/736x/0e/b3/49/0eb3491aa6ca4d8c904ef5cbad0ca69b.jpg",
+    silvertr28:
+    "https://i.pinimg.com/736x/e0/b2/04/e0b204773d1973bf3703c0ea93ecc0f9.jpg",
+    silvertr29:
+    "https://i.pinimg.com/736x/a1/f8/cc/a1f8cc08299718eb1c34bbb7bc507cda.jpg",
+    silvertr30:
+    "https://i.pinimg.com/1200x/ac/1e/9d/ac1e9d0c9663cd5a40584c848dc02af3.jpg",
+    silvertr31:
+    "https://i.pinimg.com/1200x/08/86/d4/0886d40312e37b62b62c5400bc07226f.jpg",
+    silvertr32:
+    "https://i.pinimg.com/1200x/e5/2d/6a/e52d6afbf038d97057458a9f163580c5.jpg",
+    silvertr33:
+    "https://i.pinimg.com/736x/de/00/85/de008563823f86a67f668d5d6a3154ae.jpg",
+    silvertr34:
+    "https://i.pinimg.com/1200x/34/61/6f/34616fab1e2130885e02aa34d148dcd6.jpg",
+    silvertr35:
+    "https://i.pinimg.com/1200x/87/81/43/8781438f4053e25f5dccc6662520fe19.jpg",
+    silvertr36:
+    "https://i.pinimg.com/736x/96/dd/58/96dd58b0c85feb9ba7ffcd48c6ef1533.jpg",
+
   silverp:
     "https://i.pinimg.com/1200x/29/e1/00/29e100c78236519106d1172dd74a6ef4.jpg",
   silverp2:
@@ -733,6 +837,91 @@ const I = {
     "https://i.pinimg.com/1200x/9e/f9/30/9ef9308a3c02f7608ef41e46035c4c7a.jpg",
   silverp6:
     "https://i.pinimg.com/1200x/1e/a1/69/1ea169e10925f0fbc5bf13f8b48be9e6.jpg",
+  silverp7:
+    "https://i.pinimg.com/736x/a9/cd/14/a9cd14e7f43fc5c32e74ce315db70f90.jpg",
+  silverp8:
+    "https://i.pinimg.com/736x/e0/1e/0b/e01e0b161256d2f7937179b79f568f8b.jpg",
+  silverp9:
+    "https://i.pinimg.com/1200x/11/fc/db/11fcdbc38777e73c0095a06fc3f3a891.jpg",
+  silverp10:
+    "https://i.pinimg.com/736x/e5/70/21/e570213cfeecf40d9693dd13f5ac610d.jpg",
+  silverp11:
+    "https://i.pinimg.com/736x/0e/e7/2d/0ee72d8cc95caf04fabff31022a5f18c.jpg",
+  silverp12:
+    "https://i.pinimg.com/736x/55/f0/ca/55f0ca4fe12598c06ad065e8c5ae474c.jpg",
+  silverp13:
+    "https://i.pinimg.com/1200x/96/d4/a5/96d4a59f14509ff736715ec55e21e608.jpg",
+  silverp14:
+    "https://i.pinimg.com/736x/6e/14/5a/6e145a45058c258554367c3836d08921.jpg",
+  silverp15:
+    "https://i.pinimg.com/736x/a6/05/5b/a6055bef8e387856668a79294db3f19c.jpg",
+  silverp16:
+    "https://i.pinimg.com/736x/5c/ad/3c/5cad3cc039e04e5b6e565f3df609a759.jpg",
+  silverp17:
+    "https://i.pinimg.com/736x/55/55/0f/55550f82f243b9991e51d7b29984ae7d.jpg",
+  silverp18:
+    "https://i.pinimg.com/1200x/c9/fa/a9/c9faa92002db70cb822510179bf6fd55.jpg",
+  silverp19:
+    "https://i.pinimg.com/1200x/a3/49/d1/a349d136a7e51829cb659cd8d8cd91f1.jpg",
+  silverp20:
+    "https://i.pinimg.com/736x/ff/bb/a7/ffbba7d6cd3192416f31ba35b402288f.jpg",
+  silverp21:
+    "https://i.pinimg.com/736x/db/b8/7d/dbb87d13fcda8c02e6292ff9079bc21f.jpg",
+  silverp22:
+    "https://i.pinimg.com/1200x/dc/75/57/dc7557c811107bc8a0b87907a5e392d2.jpg",
+  silverp23:
+    "https://i.pinimg.com/736x/b8/26/6a/b8266aed676a26b8e898368792fd6f03.jpg",
+  silverp24:
+    "https://i.pinimg.com/736x/7c/58/e8/7c58e8afdea43c95064de68a8758bc97.jpg",
+  silverp25:
+    "https://i.pinimg.com/1200x/7f/75/2c/7f752cece2de754ba220907b8cb8f1c8.jpg",
+  silverp26:
+    "https://i.pinimg.com/736x/4c/f6/d2/4cf6d2ade9525250e94083370650f903.jpg",
+  silverp27:
+    "https://i.pinimg.com/736x/90/43/e7/9043e7718d763dfb7b102d462dc1be48.jpg",
+  silverp28:
+    "https://i.pinimg.com/736x/d3/9c/b1/d39cb14187f73862628f62c34e7f0ce1.jpg",
+  silverp29:
+    "https://i.pinimg.com/1200x/76/dc/38/76dc3897bb76de97d1b444a4bbdb59ac.jpg",
+  silverp30:
+    "https://i.pinimg.com/736x/ea/e2/e1/eae2e11c1348628b8ada41cf7b0e30c6.jpg",
+  silverp31:
+    "https://i.pinimg.com/1200x/ea/00/32/ea00325ba75da2553e64ae705907a725.jpg",
+  silverp32:
+    "https://i.pinimg.com/1200x/05/78/61/0578614aff97967b2f0bb5e640dce6a1.jpg",
+  silverp33:
+    "https://i.pinimg.com/1200x/0b/a3/d8/0ba3d84632670cdadfe0a36ddbb7c3bf.jpg",
+  silverp34:
+    "https://i.pinimg.com/1200x/45/fc/55/45fc55b48d1858df8fdb4429e393fb5b.jpg",
+  silverp35:
+    "https://i.pinimg.com/1200x/89/37/96/8937962774e5d7b87aa962b91d5b4a06.jpg",
+  silverp36:
+    "https://i.pinimg.com/736x/50/7f/71/507f7172211241e74d134f78791b5667.jpg",
+  silverp37:
+    "https://i.pinimg.com/1200x/e5/43/07/e54307de4fd1436b91cf017b6fd41e38.jpg",
+  silverp38:
+    "https://i.pinimg.com/1200x/a4/ad/0e/a4ad0e51060d76aa25f40262a031bf9d.jpg",
+  silverp39:
+    "https://i.pinimg.com/1200x/4b/2a/21/4b2a2117f8c56291412b94ebe69adcf6.jpg",
+  silverp40:
+    "https://i.pinimg.com/736x/8e/6e/24/8e6e24586016f49e33793c4b5bb65bd1.jpg",
+  silverp41:
+    "https://i.pinimg.com/736x/ea/7d/db/ea7ddb24ca37f21b0b52d717bf73daaf.jpg",
+  silverp42:
+    "https://i.pinimg.com/1200x/c6/9b/bd/c69bbdb38008b52d1cb3383a8a61dd2b.jpg",
+  silverp43:
+    "https://i.pinimg.com/736x/58/3b/bc/583bbc31fb64f511481910ce9e00ecbb.jpg",
+  silverp44:
+    "https://i.pinimg.com/736x/cd/ce/28/cdce28c0a6d4e013cfaf0909fc034d47.jpg",
+  silverp45:
+    "https://i.pinimg.com/736x/c6/53/81/c6538177258eeb1fed4fc7ba9fdb3f92.jpg",
+  silverp46:
+    "https://i.pinimg.com/736x/71/1f/26/711f26d1e94b29a34206b7423a31a3f5.jpg",
+  silverp47:
+    "https://i.pinimg.com/736x/1d/88/0f/1d880feabe2bb1c36949586e3fc826ad.jpg",
+  silverp48:
+    "https://i.pinimg.com/1200x/03/5a/a8/035aa8803362bd0d6169d42370a07b23.jpg",
+
   silverwj:
     "https://i.pinimg.com/736x/44/96/14/449614fba17454c74c4ed0ab04f44973.jpg",
   silverwj2:
@@ -745,6 +934,67 @@ const I = {
     "https://i.pinimg.com/736x/aa/06/1e/aa061eb9cbbb8243d8e4ff8090db2261.jpg",
   silverwj6:
     "https://i.pinimg.com/736x/e5/e9/16/e5e916ab2c2808318f75dc9b4d8b0a18.jpg",
+  silverwj7:
+  "https://i.pinimg.com/1200x/85/3d/b8/853db8b8d6ef897c737cdf451d312872.jpg",
+  silverwj8:
+  "https://i.pinimg.com/736x/6f/29/33/6f29339e0ae28955090540771ec62898.jpg",
+  silverwj9:
+  "https://i.pinimg.com/736x/77/bd/80/77bd801ce63568802486ed15fa76807d.jpg",
+  silverwj10:
+  "https://i.pinimg.com/736x/90/80/25/908025f62f7a8ef60f66d316aa7e30cb.jpg",
+  silverwj11:
+  "https://i.pinimg.com/1200x/d9/f3/58/d9f358409bec48f9581f6054ea3d4488.jpg",
+  silverwj12:
+  "https://i.pinimg.com/1200x/ad/96/a1/ad96a10cfb08195d4401d500c43e42b2.jpg",
+  silverwj13:
+  "https://i.pinimg.com/736x/13/e7/1d/13e71d3c9260f9a1951c0ec378d175af.jpg",
+  silverwj14:
+  "https://i.pinimg.com/736x/04/1c/2f/041c2fb2ae443eb971afda62a619bd5d.jpg",
+  silverwj15:
+  "https://i.pinimg.com/736x/50/f9/9d/50f99d473a69ebf1f7bb49372c3ceb7f.jpg",
+  silverwj16:
+  "https://i.pinimg.com/736x/2e/0e/4b/2e0e4b38cf2033bf78a8417a1a94547e.jpg",
+  silverwj17:
+  "https://i.pinimg.com/736x/78/7d/fb/787dfb326ad4e1b7bc2b05cceb0ab476.jpg",
+  silverwj18:
+  "https://i.pinimg.com/1200x/c0/21/4b/c0214bccc1f6ee3472877e28c0953341.jpg",
+  silverwj19:
+  "https://i.pinimg.com/1200x/1e/b6/43/1eb6435115b6a0e712f9c36db30d06f5.jpg",
+  silverwj20:
+  "https://i.pinimg.com/1200x/9e/c4/3d/9ec43d69339e4bb014d36f27bc7ebd3e.jpg",
+  silverwj21:
+  "https://i.pinimg.com/1200x/82/05/7a/82057a118febecdcd7360d166736646f.jpg",
+  silverwj22:
+  "https://i.pinimg.com/1200x/87/2a/e8/872ae8cb1516806df51c5861d3558826.jpg",
+  silverwj23:
+  "https://i.pinimg.com/1200x/53/4a/ee/534aee06c0fa53153fed8ae2f3d27277.jpg",
+  silverwj24:
+  "https://i.pinimg.com/736x/6b/ba/a8/6bbaa849fa75fc634b755409c3956470.jpg",
+  silverwj25:
+  "https://i.pinimg.com/736x/29/ec/5b/29ec5b8815df85460ddfeccb9d310d5c.jpg",
+  silverwj26:
+  "https://i.pinimg.com/736x/1a/ad/28/1aad28f6311e50c9dbc0f0603e6b4f7e.jpg",
+  silverwj27:
+  "https://i.pinimg.com/736x/1b/f6/2f/1bf62f35bc20f44ae13890c2dc09d96a.jpg",
+  silverwj28:
+  "https://i.pinimg.com/1200x/85/3d/b8/853db8b8d6ef897c737cdf451d312872.jpg",
+  silverwj29:
+  "https://i.pinimg.com/736x/76/34/3b/76343b901b7aa2eedb596fb7b07c8a3f.jpg",
+  silverwj30:
+  "https://i.pinimg.com/736x/fb/6e/6c/fb6e6c0dbb7f6261e82599263f37a0bf.jpg",
+  silverwj31:
+  "https://i.pinimg.com/736x/02/be/99/02be99c1fa8dbd0078c63970fb8349d5.jpg",
+  silverwj32:
+  "https://i.pinimg.com/736x/cb/52/0b/cb520b37e8ad13eae055dab081dc1d64.jpg",
+  silverwj33:
+  "https://i.pinimg.com/1200x/05/f2/a7/05f2a7d95d30173dc21cbc43eb00c681.jpg",
+  silverwj34:
+  "https://i.pinimg.com/1200x/b9/58/88/b958888ad08348e10fb4b21088d84251.jpg",
+  silverwj35:
+  "https://i.pinimg.com/1200x/55/16/89/5516894e13a8ddc44952f2af184a0525.jpg",
+  silverwj36:
+  "https://i.pinimg.com/736x/76/52/5f/76525f102f3b7e63a1958425285ef6dd.jpg",
+  
   silverwerr:
     "https://i.pinimg.com/736x/2e/46/08/2e4608b5837585d27913f5db735258ce.jpg",
   silverwerr2:
@@ -936,6 +1186,7 @@ const I = {
   silverwri6:
     "https://i.pinimg.com/1200x/91/59/37/9159375914b1caa05c2651e9e1676ec3.jpg",
 
+<<<<<<< HEAD
   silverwri7:
 "https://i.pinimg.com/1200x/e3/40/9d/e3409d04b1272e843584db3238c52189.jpg",
   silverwri8:
@@ -1024,30 +1275,148 @@ const I = {
 
     //bracelet
 
+=======
+>>>>>>> 6b6efba319c6c179d169391fe18876d1f49bc8cd
   silvermbra:
-    "https://i.pinimg.com/736x/31/9b/a8/319ba8e9d3db2b06d53d4ce5028345d0.jpg",
+    "https://i.pinimg.com/1200x/c7/8c/6f/c78c6f88c3d45cf6ccf713203cb1508d.jpg",
   silvermbra2:
-    "https://i.pinimg.com/736x/6a/e7/06/6ae70658c0b79f30feff6ffed8decc96.jpg",
+    "https://i.pinimg.com/736x/7c/40/bd/7c40bdc2cd94eef77ae18c617ee6ce94.jpg",
   silvermbra3:
-    "https://i.pinimg.com/1200x/cc/7f/ac/cc7fac54226f8f091acf1c2c4b6df3bd.jpg",
+    "https://i.pinimg.com/1200x/4e/6b/36/4e6b36991baaea85a36244f5d4cd51fe.jpg",
   silvermbra4:
-    "https://i.pinimg.com/736x/7c/f9/00/7cf9000f303c25201b119d3d1f6745e2.jpg",
+    "https://i.pinimg.com/1200x/cb/84/86/cb84862e7004ea2d210a0ee7862040e2.jpg",
   silvermbra5:
-    "https://i.pinimg.com/1200x/39/19/d6/3919d6504699cb9a2b0d64ff1a0647e1.jpg",
+    "https://i.pinimg.com/1200x/75/91/03/759103c59eb644b634cc1e7f471e95d4.jpg",
   silvermbra6:
-    "https://i.pinimg.com/736x/26/8e/45/268e45907f01ec2447ce8e330243a709.jpg",
+    "https://i.pinimg.com/1200x/73/78/56/7378560c83a15023c80527ffb92f928f.jpg",
+    silvermbra7:
+    "https://i.pinimg.com/1200x/2d/c3/29/2dc329fd475e59ee1b2bfa4f82589a84.jpg",
+    silvermbra8:
+    "https://i.pinimg.com/736x/e5/b3/99/e5b399184060474881fafaf38d789c41.jpg",
+    silvermbra9:
+    "https://i.pinimg.com/1200x/24/4c/8b/244c8bc757abeaf1fe6c7bd0bb481d19.jpg",
+    silvermbra10:
+    "https://i.pinimg.com/1200x/49/e9/02/49e902857688176cddb5d78d8bf1858e.jpg",
+    silvermbra11:
+    "https://i.pinimg.com/736x/07/b3/ad/07b3ad9892cab4c118f93ee1b63dd344.jpg",
+    silvermbra12:
+    "https://i.pinimg.com/1200x/e7/39/fa/e739faa84bc2b1e8466bee7b05dd2440.jpg",
+    silvermbra13:
+    "https://i.pinimg.com/1200x/ad/da/ac/addaacd3d8fb1e86930d6bb23ff4f2ed.jpg",
+    silvermbra14:
+    "https://i.pinimg.com/1200x/91/42/2a/91422a663ceacc82471dbf574dd11b19.jpg",
+    silvermbra15:
+    "https://i.pinimg.com/1200x/3c/9a/fb/3c9afb5b899b98865207331737fa4ca4.jpg",
+    silvermbra16:
+    "https://i.pinimg.com/1200x/34/c6/c6/34c6c695755064f6a3fd58ac632dddb5.jpg",
+    silvermbra17:
+    "https://i.pinimg.com/1200x/d4/7b/b3/d47bb3cfff7c6c07d96cbbb906e65d29.jpg",
+    silvermbra18:
+    "https://i.pinimg.com/1200x/2d/b6/de/2db6de71fd046b8f9994fa43c3da2acf.jpg",
+    silvermbra19:
+    "https://i.pinimg.com/1200x/a5/8b/3e/a58b3e7e1bba3a92989fc903818b06a5.jpg",
+    silvermbra20:
+    "https://i.pinimg.com/1200x/26/c4/0b/26c40b699b78d0113b1574c8378db9bd.jpg",
+    silvermbra21:
+    "https://i.pinimg.com/1200x/1f/f8/c7/1ff8c788fb376114f7dd0e0284051888.jpg",
+    silvermbra22:
+    "https://i.pinimg.com/736x/a8/6b/f6/a86bf690fc4c5c8f3b2eed6b504dd5a6.jpg",
+    silvermbra23:
+    "https://i.pinimg.com/1200x/bf/45/51/bf4551a85452740ccaa1eb2758296b00.jpg",
+    silvermbra24:
+    "https://i.pinimg.com/1200x/16/cd/0f/16cd0ff7555446f0230a5754b6de7a37.jpg",
+    silvermbra25:
+    "https://i.pinimg.com/1200x/de/2c/76/de2c7683e423ceb5f9d321e97758705f.jpg",
+    silvermbra26:
+    "https://i.pinimg.com/1200x/25/40/8a/25408a5bbabe9f9e3ca7f1cd632ff2b2.jpg",
+    silvermbra27:
+    "https://i.pinimg.com/1200x/2d/b6/de/2db6de71fd046b8f9994fa43c3da2acf.jpg",
+    silvermbra28:
+    "https://i.pinimg.com/1200x/d5/a9/22/d5a92209c599f300a9b08cf96795002d.jpg",
+    silvermbra29:
+    "https://i.pinimg.com/1200x/a2/a2/4b/a2a24b85287a31f5f1fd0a4761233186.jpg",
+    silvermbra30:
+    "https://i.pinimg.com/1200x/49/da/62/49da62094b7290f8cfca85e4743f6c8b.jpg",
+    silvermbra31:
+    "https://i.pinimg.com/1200x/7b/92/36/7b92366a3a08f2adf39a9c94fc3833e0.jpg",
+    silvermbra32:
+    "https://i.pinimg.com/1200x/3c/be/f3/3cbef32f7a360ec8210bc659b0391a1a.jpg",
+    silvermbra33:
+    "https://i.pinimg.com/1200x/11/f5/13/11f513f4ea2b179ca8cf23f8f2755c13.jpg",
+    silvermbra34:
+    "https://i.pinimg.com/1200x/50/11/9c/50119c4d1cc27c2683eb4e3a4ce92340.jpg",
+    silvermbra35:
+    "https://i.pinimg.com/1200x/30/5d/98/305d980a5e0d85e076df2ddea1745ec7.jpg",
+    silvermbra36:
+    "https://i.pinimg.com/1200x/4e/6b/36/4e6b36991baaea85a36244f5d4cd51fe.jpg",
+
   silvermka:
-    "https://i.pinimg.com/736x/45/6b/04/456b04ce93dfd3f092b41f1c83f25f11.jpg",
+    "https://i.pinimg.com/736x/6b/54/f4/6b54f411d8ff6798b8bf151937c8b86c.jpg",
   silvermka2:
-    "https://i.pinimg.com/736x/0c/b9/74/0cb974a1cbf12eaf635ab063bcf61d88.jpg",
+    "https://i.pinimg.com/736x/d6/bb/9c/d6bb9c3bbab57ce21b4cef30a5b36ab8.jpg",
   silvermka3:
-    "https://i.pinimg.com/1200x/82/af/d6/82afd6be2c81cceeaa74b2d624e5a13e.jpg",
+    "https://i.pinimg.com/1200x/43/d0/9d/43d09d14134e9d29b88d6b2a6eec58f6.jpg",
   silvermka4:
-    "https://i.pinimg.com/1200x/75/6a/69/756a6959cbed90c05a77846a386673dc.jpg",
+    "https://i.pinimg.com/736x/47/a6/c5/47a6c562c8c7b841433ba02dfd51acae.jpg",
   silvermka5:
-    "https://i.pinimg.com/1200x/82/51/2a/82512afec576c5c46423bb83f1a20bc7.jpg",
+    "https://i.pinimg.com/736x/f6/e2/2a/f6e22a00a4d8ef39f19159d76567a0ca.jpg",
   silvermka6:
-    "https://i.pinimg.com/1200x/12/3a/17/123a17dadd0840cff5eec734aef21ac6.jpg",
+    "https://i.pinimg.com/736x/57/5a/7d/575a7d1942af4835c2f6416e089fa0dc.jpg",
+  silvermka7:
+    "https://i.pinimg.com/736x/cf/2c/13/cf2c13eac1da175ee654b6ec4f287a38.jpg",
+  silvermka8:
+    "https://i.pinimg.com/736x/35/e8/fa/35e8fa5f75999eaeb6f679d7c2e2134d.jpg",
+  silvermka9:
+    "https://i.pinimg.com/736x/5d/59/e8/5d59e83864778a4ad8065c3cc18eb9cf.jpg",
+  silvermka10:
+    "https://i.pinimg.com/1200x/1c/20/ce/1c20ce1ef543ffbcf6579c3215c217e3.jpg",
+  silvermka11:
+    "https://i.pinimg.com/1200x/28/7e/fd/287efdb0630d894e3e84965818881eea.jpg",
+  silvermka12:
+    "https://i.pinimg.com/1200x/94/a8/85/94a885bc497786f8c52958cdb9ed27c6.jpg",
+  silvermka13:
+    "https://i.pinimg.com/736x/b0/90/4e/b0904e496e65591c4a30334da49cedca.jpg",
+  silvermka14:
+    "https://i.pinimg.com/1200x/97/c6/55/97c6553ffd650cf5c38b6ceb514bbe93.jpg",
+  silvermka15:
+    "https://i.pinimg.com/1200x/4f/f2/6e/4ff26e4762fb97423f627a7297f3ee34.jpg",
+  silvermka16:
+    "https://i.pinimg.com/1200x/41/49/00/414900f651bdeb09e202b6a0e4746d23.jpg",
+  silvermka17:
+    "https://i.pinimg.com/1200x/9e/fc/bb/9efcbb1369209d9e47dec53ca213abd3.jpg",
+  silvermka18:
+    "https://i.pinimg.com/1200x/c9/01/ef/c901efa20a1d7648adf89534cbe775a7.jpg",
+  silvermka19:
+    "https://i.pinimg.com/736x/aa/06/ea/aa06ea08fa4ed1071c3b83a39fdc63fc.jpg",
+  silvermka20:
+    "https://i.pinimg.com/736x/0f/b5/0b/0fb50bd85fd07896abf0c4a8827cb435.jpg",
+  silvermka21:
+    "https://i.pinimg.com/736x/73/5f/00/735f005f7d0de1559374ff4832b96523.jpg",
+  silvermka22:
+    "https://i.pinimg.com/1200x/73/94/93/739493f9850f188616c82691944f00f2.jpg",
+  silvermka23:
+    "https://i.pinimg.com/736x/aa/52/40/aa5240edd6b8e3a61c93a4e181eae603.jpg",
+  silvermka24:
+    "https://i.pinimg.com/1200x/2a/45/e9/2a45e960172945f513868bd2baaef166.jpg",
+  silvermka25:
+    "https://i.pinimg.com/1200x/99/c1/1b/99c11bcdd6cfb623a7742f614c84720d.jpg",
+  silvermka26:
+    "https://i.pinimg.com/1200x/33/d7/33/33d7338ee2f0b07ebc4750e60eb5f418.jpg",
+  silvermka27:
+    "https://i.pinimg.com/1200x/ae/e4/8e/aee48e0996d3085e465e715ce281bec3.jpg",
+  silvermka28:
+    "https://i.pinimg.com/1200x/54/33/57/543357f62c0283b60ebc78ec4ec9fb6d.jpg",
+  silvermka29:
+    "https://i.pinimg.com/736x/c2/a3/73/c2a373755160cc71a24004228924501d.jpg",
+  silvermka30:
+    "https://i.pinimg.com/1200x/c4/03/44/c40344e1740442de5c338cac87a67751.jpg",
+  silvermka31: "https://i.pinimg.com/1200x/2a/45/e9/2a45e960172945f513868bd2baaef166.jpg",
+  silvermka32: "https://i.pinimg.com/736x/c3/af/af/c3afafb24442422826e5905eba613bb0.jpg",
+  silvermka33: "https://i.pinimg.com/1200x/51/51/b2/5151b284b1e8353c9163c1d22d837637.jpg",
+  silvermka34: "https://i.pinimg.com/1200x/01/02/24/0102249df2ea8e82ba58dd8e4c8843db.jpg",
+  silvermka35: "https://i.pinimg.com/1200x/b0/31/7c/b0317c8218e0cae6b36fa3d9fc440a2a.jpg",
+  silvermka36: "https://i.pinimg.com/1200x/08/0f/b6/080fb61fa44d7ac4f28c424d61fc8f6c.jpg",
+
   silvermch:
     "https://i.pinimg.com/1200x/0d/15/d7/0d15d7c497c705a10d084959671a8449.jpg",
   silvermch2:
@@ -1060,6 +1429,7 @@ const I = {
     "https://i.pinimg.com/1200x/0d/42/16/0d4216b8f1f0e3a1e84baa7e6ed0889d.jpg",
   silvermch6:
     "https://i.pinimg.com/736x/9a/29/39/9a2939a32577e5e4902485b6ac8985b2.jpg",
+<<<<<<< HEAD
  
      
      silvermch15:
@@ -1135,6 +1505,92 @@ const I = {
 
 
 
+=======
+  silvermch7:
+    "https://i.pinimg.com/1200x/18/76/d6/1876d67a0cceef05e4535f97ff2c391c.jpg",
+  silvermch8:
+    "https://i.pinimg.com/736x/04/76/32/047632e5d62e70ba415a9ca3f397413a.jpg",
+  silvermch9:
+    "https://i.pinimg.com/1200x/21/80/ab/2180ab2c9f228e69dfb6eed226e628ac.jpg",
+  silvermch10:
+    "https://i.pinimg.com/736x/ad/da/ac/addaacd3d8fb1e86930d6bb23ff4f2ed.jpg",
+  silvermch11:
+    "https://i.pinimg.com/1200x/89/30/6b/89306b5e76faeb32efc6574cc2e87582.jpg",
+  silvermch12:
+    "https://i.pinimg.com/1200x/07/a8/31/07a831fa14e599866c5e3cfec9d2a531.jpg",
+  silvermch13:
+    "https://i.pinimg.com/1200x/f0/19/71/f019716216de490d4ead29d77f94a17e.jpg",
+  silvermch14:
+    "https://i.pinimg.com/1200x/61/c0/cf/61c0cf5c69938587b3e761ee25e071d7.jpg",
+  silvermch15:
+    "https://i.pinimg.com/1200x/5f/74/a7/5f74a79bb8f8ccd768860d40130de810.jpg",
+  silvermch16:
+    "https://i.pinimg.com/1200x/b7/1a/91/b71a9132acecdf8fe9df6ddc4c26b176.jpg",
+  silvermch17:
+    "https://i.pinimg.com/1200x/a5/8b/3e/a58b3e7e1bba3a92989fc903818b06a5.jpg",
+  silvermch18:
+    "https://i.pinimg.com/736x/3e/09/50/3e095063ebd6d1518c9baa06ba9a4f1f.jpg",
+  silvermch19:
+    "https://i.pinimg.com/736x/77/e8/2c/77e82cf93e8e1f1b61046ee05a3fb9b0.jpg",
+  silvermch20:
+    "https://i.pinimg.com/736x/80/fb/ca/80fbcab988868db1fdb5a453ec6d1ee3.jpg",
+  silvermch21:
+    "https://i.pinimg.com/1200x/cd/4a/c5/cd4ac593f1dba1b9153a969fa03dffcd.jpg",
+  silvermch22:
+    "https://i.pinimg.com/736x/63/ea/59/63ea590b070993b8a718ef788c7e1fc1.jpg",
+  silvermch23:
+    "https://i.pinimg.com/736x/65/84/2f/65842f3c2ab69fa0bdbc96eaed12ddd8.jpg",
+  silvermch24:
+    "https://i.pinimg.com/1200x/d4/23/79/d42379d8d06089e68d495d0cd3838cda.jpg",
+  silvermch25:
+    "https://i.pinimg.com/1200x/18/6b/e0/186be0e491157fd7de9289b82b9d9008.jpg",
+  silvermch26:
+    "https://i.pinimg.com/1200x/ff/d6/8e/ffd68eff14feb03ea7350ff9399f8d39.jpg",
+  silvermch27:
+    "https://i.pinimg.com/1200x/ea/7d/9c/ea7d9c3cb62fae149266d7952ce67fd9.jpg",
+  silvermch28:
+    "https://i.pinimg.com/736x/84/b8/0e/84b80efc7e731b3e74a60b4ad435c9e8.jpg",
+  silvermch29:
+    "https://i.pinimg.com/1200x/d0/a5/01/d0a501c389d83f936c9c4dd65cbc43f3.jpg",
+  silvermch30:
+    "https://i.pinimg.com/1200x/c9/f6/64/c9f66406ce87ec6f5cdb57e2860db2ba.jpg",
+  silvermch31:
+    "https://i.pinimg.com/1200x/67/37/2f/67372fd5bf9fc2eb5c7b90bd86f61c9f.jpg",
+  silvermch32:
+    "https://i.pinimg.com/736x/47/2d/9e/472d9ee66479c9b62eb8769027f8b2ef.jpg",
+  silvermch33:
+    "https://i.pinimg.com/1200x/44/8a/d2/448ad2c70730d6e22b7ecfb8028bcfb1.jpg",
+  silvermch34:
+    "https://i.pinimg.com/1200x/ba/69/34/ba6934fd1583aa6d01b9006ccfdc7a01.jpg",
+  silvermch35:
+    "https://i.pinimg.com/736x/51/c2/92/51c2921ac37a91dfabb27ea42586f073.jpg",
+  silvermch36:
+    "https://i.pinimg.com/1200x/0f/96/59/0f9659f757715e3f48869d6fc7754da8.jpg",
+  silvermch37:
+    "https://i.pinimg.com/1200x/11/ef/72/11ef72033fd8e9c0f4ec5eb102385d4a.jpg",
+  silvermch38:
+    "https://i.pinimg.com/1200x/f6/1b/dd/f61bddd2e155b8ad422f5b8e99d5623c.jpg",
+  silvermch39:
+    "https://i.pinimg.com/1200x/8e/56/3e/8e563ecc71782f5a5a890b05e554c916.jpg",
+  silvermch40:
+    "https://i.pinimg.com/1200x/e1/70/f0/e170f0e7f049178219ec24d107b380c8.jpg",
+  silvermch41:
+    "https://i.pinimg.com/1200x/c3/25/34/c3253427045ac4509f975ff56a9b61ef.jpg",
+  silvermch42:
+    "https://i.pinimg.com/736x/8e/47/2c/8e472c844b10b1724cb7af3d68f461cb.jpg",
+  silvermch43:
+    "https://i.pinimg.com/1200x/12/be/b3/12beb300c4a55cd4d0030d2e07fb8df2.jpg",
+  silvermch44:
+    "https://i.pinimg.com/1200x/20/6b/6d/206b6de556e718cea2fa6ae21bd86094.jpg",
+  silvermch45:
+    "https://i.pinimg.com/1200x/5a/c8/b8/5ac8b81bfa66afc389bacbc217c0c467.jpg",
+  silvermch46:
+    "https://i.pinimg.com/736x/e0/f2/87/e0f28778594f39d7916d6b1c736db350.jpg",
+  silvermch47:
+    "https://i.pinimg.com/1200x/65/97/43/659743dd9451daaad2f4b19a466f33c3.jpg",
+  silvermch48:
+    "https://i.pinimg.com/1200x/e4/41/e2/e441e2d16d2fb9fa31ea9f1a4f4bbbe6.jpg",
+>>>>>>> 6b6efba319c6c179d169391fe18876d1f49bc8cd
 
   silvermrings:
     "https://i.pinimg.com/736x/e4/79/cd/e479cd126938b702357c4bc066ab155d.jpg",
@@ -1147,7 +1603,91 @@ const I = {
   silvermrings5:
     "https://i.pinimg.com/1200x/59/b6/3a/59b63a9c0143b655345c022d125565f9.jpg",
   silvermrings6:
-    "https://i.pinimg.com/1200x/9a/55/f2/9a55f2462d0a10f67d6f94efde28034e.jpg",
+    "https://i.pinimg.com/1200x/b9/c7/ce/b9c7ce07da9cb14f740355fcf9574a08.jpg",
+  silvermrings7:
+    "https://i.pinimg.com/736x/fe/4f/53/fe4f53360210e0b246fe2a1793826b14.jpg",
+  silvermrings8:
+    "https://i.pinimg.com/736x/94/a1/08/94a108db13712430f9fd5bafdadbe36e.jpg",
+  silvermrings9:
+    "https://i.pinimg.com/1200x/7a/c5/1a/7ac51a863907703412c3af84a4dee5b0.jpg",
+  silvermrings10:
+    "https://i.pinimg.com/1200x/a7/7c/d6/a77cd60083dc487194c6ce4bfb420e07.jpg",
+  silvermrings11:
+    "https://i.pinimg.com/736x/16/9e/40/169e40690ad257c910407b96fec11914.jpg",
+  silvermrings12:
+    "https://i.pinimg.com/736x/08/d2/82/08d282a5f38b2341e1d1bea4d6d03fd3.jpg",
+  silvermrings13:
+    "https://i.pinimg.com/736x/fb/0e/42/fb0e426125a781c16ec37f22b37cabfc.jpg",
+  silvermrings14:
+    "https://i.pinimg.com/736x/76/68/c9/7668c997c960448f4416d660e1037dc5.jpg",
+  silvermrings15:
+    "https://i.pinimg.com/736x/62/fa/46/62fa46625541362c80c9bfcb308f7164.jpg",
+  silvermrings16:
+    "https://i.pinimg.com/1200x/19/67/d4/1967d47fac7ef879139c8876a4ccc1e1.jpg",
+  silvermrings17:
+    "https://i.pinimg.com/1200x/e7/9b/c9/e79bc94f64fe52157b7c487e63272e52.jpg",
+  silvermrings18:
+    "https://i.pinimg.com/736x/26/6d/21/266d215fabde8741626968cd9a23016f.jpg",
+  silvermrings19:
+    "https://i.pinimg.com/1200x/e0/6c/d0/e06cd039648eecf76580236c3150a30d.jpg",
+  silvermrings20:
+    "https://i.pinimg.com/1200x/d6/75/a7/d675a76594360d63361962a89f37a842.jpg",
+  silvermrings21:
+    "https://i.pinimg.com/1200x/ac/09/4f/ac094face97f602c025d79105faffe9d.jpg",
+  silvermrings22:
+    "https://i.pinimg.com/1200x/77/6b/28/776b28e3dbb7c2fec9dcd9af3910df9a.jpg",
+  silvermrings23:
+    "https://i.pinimg.com/1200x/e0/b7/4e/e0b74e7caabe15941758df32f3430267.jpg",
+  silvermrings24:
+    "https://i.pinimg.com/1200x/cc/4e/3f/cc4e3f728dc6713746620fa523c7f3d6.jpg",
+  silvermrings25:
+    "https://i.pinimg.com/1200x/f2/33/98/f23398a3dc0af623c8138bd76d7ff975.jpg",
+  silvermrings26:
+    "https://i.pinimg.com/736x/54/cd/1d/54cd1d32f8f9b2e25e5e0038c267b5de.jpg",
+  silvermrings27:
+    "https://i.pinimg.com/1200x/ab/0e/c2/ab0ec256ea6b4b5f988c204e7650fcd6.jpg",
+  silvermrings28:
+    "https://i.pinimg.com/1200x/b8/33/79/b833794a034ba057b13a8bd71694a28a.jpg",
+  silvermrings29:
+    "https://i.pinimg.com/1200x/2d/7d/a5/2d7da5ca7f8b042ca2cb33c607663c4e.jpg",
+  silvermrings30:
+    "https://i.pinimg.com/1200x/88/97/8a/88978af06c4a3b74e713fff158d10f45.jpg",
+  silvermrings31:
+    "https://i.pinimg.com/1200x/f8/37/fb/f837fbe340b3200201c6662f68ff8d9d.jpg",
+  silvermrings32:
+    "https://i.pinimg.com/1200x/19/0a/4d/190a4daaba9c09de7d235ef4e4abc08a.jpg",
+  silvermrings33:
+    "https://i.pinimg.com/1200x/ea/18/a3/ea18a3bb51da896d69c464710ae97e16.jpg",
+  silvermrings34:
+    "https://i.pinimg.com/1200x/41/b0/0e/41b00ec4144f7dec21b51e2b9a6b29c9.jpg",
+  silvermrings35:
+    "https://i.pinimg.com/1200x/68/b7/bd/68b7bdf5f2983a4c9ac5a346e788f22b.jpg",
+  silvermrings36:
+    "https://i.pinimg.com/1200x/76/0f/38/760f3821cc85430019be2ca6c764dc0b.jpg",
+  silvermrings37:
+    "https://i.pinimg.com/1200x/47/d3/00/47d300270848a4b7cb9403f033c0a061.jpg",
+  silvermrings38:
+    "https://i.pinimg.com/1200x/4f/d9/f9/4fd9f9498ed47e6db00fced4482ae3fa.jpg",
+  silvermrings39:
+    "https://i.pinimg.com/1200x/a5/4c/45/a54c45900e3c28d2d7dc80922372e5b6.jpg",
+  silvermrings40:
+    "https://i.pinimg.com/1200x/e4/40/12/e44012c2430afd8c822e3df40add1bae.jpg",
+  silvermrings41:
+    "https://i.pinimg.com/1200x/35/9e/c2/359ec255aae7b0ad22fae558584dd8ee.jpg",
+  silvermrings42:
+    "https://i.pinimg.com/1200x/03/fc/8e/03fc8e7ee043bd90ad417e50ad3b0d7b.jpg",
+  silvermrings43:
+    "https://i.pinimg.com/1200x/a1/36/49/a13649efd160c2b53b4feb7974029519.jpg",
+  silvermrings44:
+    "https://i.pinimg.com/736x/bd/11/f4/bd11f44f326c636921abc23965b8e5d3.jpg",
+  silvermrings45:
+    "https://i.pinimg.com/1200x/e5/0f/1d/e50f1da319e4f85263600dcd29e18415.jpg",
+  silvermrings46:
+    "https://i.pinimg.com/736x/62/fa/46/62fa46625541362c80c9bfcb308f7164.jpg",
+  silvermrings47:
+    "https://i.pinimg.com/736x/23/47/bc/2347bc2ee88326f763af21297c51c54a.jpg",
+  silvermrings48:
+    "https://i.pinimg.com/1200x/b7/f9/d5/b7f9d5c1d8d5f8889b7f2ad672fea160.jpg",
 
   goldCoins:
     "https://i.pinimg.com/1200x/32/64/c8/3264c8903cab4285185653821bd48908.jpg",
@@ -1176,13 +1716,76 @@ const I = {
   goldCoins13:
     "https://i.pinimg.com/1200x/52/f8/5f/52f85fe596423d33c9cce1797f05ddbc.jpg",
   goldCoins14:
-    "https://i.pinimg.com/1200x/cc/80/4a/cc804aa0eb7c7e57d8f369439457b39b.jpg",
+    "https://i.pinimg.com/1200x/4b/22/98/4b2298649d72e95dae9d3686f6da9a66.jpg",
   goldCoins15:
-    "https://i.pinimg.com/1200x/9f/44/8e/9f448e488c867271c02f85c04cb8f101.jpg",
+    "https://i.pinimg.com/736x/6a/8c/1d/6a8c1d882b0452431fed15419a1efb22.jpg",
   goldCoins16:
-    "https://i.pinimg.com/736x/b1/65/8c/b1658c1f73917e045203765f65d77004.jpg",
+    "https://i.pinimg.com/736x/9c/20/aa/9c20aaeb796549b0b4e7265cc697a846.jpg",
   goldCoins17:
-    "https://i.pinimg.com/1200x/1d/d7/16/1dd71623d2cd33eef8f958feb5420537.jpg",
+    "https://i.pinimg.com/1200x/20/7b/d4/207bd43e676d5d7223e654a000b528b7.jpg",
+  goldCoins18:
+    "https://i.pinimg.com/736x/35/5f/47/355f47d12075e2636438a7d2878f6eb3.jpg",
+  goldCoins19:
+    "https://i.pinimg.com/1200x/88/35/37/883537e152e696ba174a2550b4dc05ce.jpg",
+  goldCoins20:
+    "https://i.pinimg.com/1200x/98/da/45/98da45d455f6828c2a770b6d7ba883a7.jpg",
+  goldCoins21:
+    "https://i.pinimg.com/1200x/4e/f9/6b/4ef96be6d608e09ec792cacef9f379d5.jpg",
+  goldCoins22:
+    "https://i.pinimg.com/1200x/9e/64/02/9e6402ac9465fb835eafb7e9998d6036.jpg",
+  goldCoins23:
+    "https://i.pinimg.com/1200x/29/9b/ac/299bacae072f17cff89961ff5b85a4fb.jpg",
+  goldCoins24:
+    "https://i.pinimg.com/1200x/43/e3/bd/43e3bd30a8b9d0e57d0d4338a4254ba7.jpg",
+  goldCoins25:
+    "https://i.pinimg.com/1200x/d3/22/35/d322359a0bea532556464c3cdd9ae2d4.jpg",
+  goldCoins26:
+    "https://i.pinimg.com/736x/8d/c0/2c/8dc02c7b500bd520f987060cc78e7778.jpg",
+  goldCoins27:
+    "https://i.pinimg.com/1200x/ab/f1/5a/abf15a0b3b8d326049557107861fe0a0.jpg",
+  goldCoins28:
+    "https://i.pinimg.com/736x/79/58/4d/79584dab677f35b3eb924a9ba1917204.jpg",
+  goldCoins29:
+    "https://i.pinimg.com/1200x/d7/26/10/d72610259f4434b88d83b05620d1768d.jpg",
+  goldCoins30:
+    "https://i.pinimg.com/736x/97/83/5f/97835fcae4860048bb5be7f91a66d88b.jpg",
+  goldCoins31:
+    "https://i.pinimg.com/1200x/70/86/cc/7086cc43e14fde2a2b57c05ac2dc1e97.jpg",
+  goldCoins32:
+    "https://i.pinimg.com/1200x/b2/a4/20/b2a420d6261ad2398b15014d38435f50.jpg",
+  goldCoins33:
+    "https://i.pinimg.com/1200x/f3/b8/ea/f3b8eae14079eaf8bd449507cd9de57c.jpg",
+  goldCoins34:
+    "https://i.pinimg.com/1200x/b3/d8/81/b3d881cb16bfc6340ca00fc0c369fe09.jpg",
+  goldCoins35:
+    "https://i.pinimg.com/1200x/e7/47/39/e74739d120bfb77014cbba16fea29505.jpg",
+  goldCoins36:
+    "https://i.pinimg.com/1200x/be/91/89/be9189a3b9546d5cb390d3fecc562dfc.jpg",
+  goldCoins37:
+    "https://i.pinimg.com/1200x/5f/bf/10/5fbf10418b9b50194864e3144bae93c5.jpg",
+  goldCoins38:
+    "https://i.pinimg.com/1200x/fa/4d/a4/fa4da403f95e8552cc88818e3e1205a3.jpg",
+  goldCoins39:
+    "https://i.pinimg.com/736x/ec/04/0a/ec040ac1e7042e8f2e556f95f72c89c3.jpg",
+  goldCoins40:
+    "https://i.pinimg.com/1200x/e1/70/94/e17094e1dc3e49ea12d84a442a246565.jpg",
+  goldCoins41:
+    "https://i.pinimg.com/1200x/0d/22/57/0d2257431f84aea6cf42d150adc601ff.jpg",
+  goldCoins42:
+    "https://i.pinimg.com/1200x/c5/30/25/c530259f7f401bc810bc03d45e82dc74.jpg",
+  goldCoins43:
+    "https://i.pinimg.com/1200x/ad/21/bb/ad21bb15d688cfdc4cfa3ed1021d131e.jpg",
+  goldCoins44:
+    "https://i.pinimg.com/1200x/a8/52/7e/a8527eca3d2b148d61f3ee8f505170d3.jpg",
+  goldCoins45:
+    "https://i.pinimg.com/1200x/fa/01/8d/fa018d723d1a7d90de8f42a028b6f600.jpg",
+  goldCoins46:
+    "https://i.pinimg.com/1200x/f9/11/71/f91171838846043196df76ac22d4fcc2.jpg",
+  goldCoins47:
+    "https://i.pinimg.com/1200x/4f/36/90/4f36902e60400cb0d47eca99822ba0c2.jpg",
+  goldCoins48:
+    "https://i.pinimg.com/1200x/1e/9c/99/1e9c995b9306fe4d15d96aa7d6e80afb.jpg",
+
   goldKi:
     "https://i.pinimg.com/1200x/1b/69/f7/1b69f77da4ae99ddad44ece690df142f.jpg",
   goldKi2:
@@ -4463,48 +5066,33 @@ const PRODUCT_TEMPLATES = {
       ],
     },
     {
-      name: "Diamond-set Bali",
-      desc: "A channel of brilliant diamonds set in 18K gold bali — understated sparkle.",
+      name: "Matte Finish Bali",
+      desc: "A sophisticated 22K gold bali with a premium matte finish for a modern masculine look.",
       imgs: [I.mbali37, I.mbali38, I.mbali39],
-      features: [
-        "18K Gold",
-        "Diamond Channel",
-        "Safety Catch",
-        "GIA Certified",
-      ],
+      features: ["22K Gold", "Matte Finish", "Hinged Closure", "BIS Certified"],
     },
     {
-      name: "Hammered Bali",
-      desc: "A hammered texture on a solid 22K gold bali — rugged yet refined.",
+      name: "Greek Pattern Bali",
+      desc: "A 22K gold bali featuring an engraved Greek-inspired pattern for a distinctive style.",
       imgs: [I.mbali40, I.mbali41, I.mbali42],
-      features: [
-        "22K Gold",
-        "Hammered Texture",
-        "Hinged Closure",
-        "BIS Certified",
-      ],
+      features: ["22K Gold", "Greek Pattern", "Hinged Clasp", "Hallmarked"],
     },
     {
-      name: "Black Rhodium Bali",
-      desc: "A 22K gold bali plated with black rhodium for a bold, contemporary look.",
+      name: "Square Edge Bali",
+      desc: "A contemporary square-edge bali crafted in 22K gold with a bold geometric profile.",
       imgs: [I.mbali43, I.mbali44, I.mbali45],
       features: [
         "22K Gold",
-        "Black Rhodium Plating",
-        "Hinged Clasp",
-        "Hallmarked",
-      ],
-    },
-    {
-      name: "Two-tone Gold Bali",
-      desc: "A 22K gold bali with a contrasting 18K gold inlay — a striking two-tone effect.",
-      imgs: [I.mbali46, I.mbali47, I.mbali48],
-      features: [
-        "22K Gold",
-        "18K Gold Inlay",
+        "Square Edge Design",
         "Hinged Closure",
         "BIS Certified",
       ],
+    },
+    {
+      name: "Dual Line Bali",
+      desc: "A stylish 22K gold bali with dual engraved lines that add subtle depth and elegance.",
+      imgs: [I.mbali46, I.mbali47, I.mbali48],
+      features: ["22K Gold", "Dual Line Design", "Hinged Clasp", "Hallmarked"],
     },
   ],
   "gold/womens/bali": [
@@ -8433,72 +9021,67 @@ const PRODUCT_TEMPLATES = {
       ],
     },
     {
-      name: "Silver Cuff Bracelet",
-      desc: "A wide sterling silver cuff bracelet with a brushed finish — bold and masculine.",
-      imgs: [I.silvermbra7, I.silvermbra8, I.silvermbra9],
-      features: ["92.5 Silver", "Brushed Finish", "Wide Cuff", "BIS Certified"],
-    },
-    {
-      name: "Silver Tribal Bracelet",
-      desc: "A sterling silver bracelet with tribal-inspired motifs — edgy and distinctive.",
-      imgs: [I.silvermbra10, I.silvermbra11, I.silvermbra12],
+      name: "Silver Twist Kada",
+      desc: "A twisted sterling silver kada with a polished finish — timeless craftsmanship for everyday wear.",
+      imgs: [I.silvermka28, I.silvermka29, I.silvermka30],
       features: [
         "92.5 Silver",
-        "Tribal Motifs",
-        "Oxidised Finish",
-        "BIS Certified",
-      ],
-    },
-    {
-      name: "Silver Hammered Bracelet",
-      desc: "A sterling silver bracelet with a hammered texture — rugged yet refined.",
-      imgs: [I.silvermbra13, I.silvermbra14, I.silvermbra15],
-      features: [
-        "92.5 Silver",
-        "Hammered Texture",
+        "Twist Design",
         "Polished Finish",
         "BIS Certified",
       ],
     },
     {
-      name: "Silver Rope Edge Bracelet",
-      desc: "A sterling silver bracelet with a rope-edge design — classic and timeless.",
-      imgs: [I.silvermbra16, I.silvermbra17, I.silvermbra18],
+      name: "Silver Textured Kada",
+      desc: "Sterling silver kada featuring a finely textured surface for a rugged yet elegant appearance.",
+      imgs: [I.silvermka31, I.silvermka32, I.silvermka33],
+      features: ["92.5 Silver", "Textured Finish", "Comfort Fit", "Hallmarked"],
+    },
+    {
+      name: "Silver Dual Tone Kada",
+      desc: "Contemporary dual-tone silver kada with contrasting finishes for a distinctive style.",
+      imgs: [I.silvermka34, I.silvermka35, I.silvermka36],
       features: [
         "92.5 Silver",
-        "Rope Edge",
-        "Polished Finish",
+        "Dual Tone Finish",
+        "Open Cuff",
         "BIS Certified",
       ],
     },
-    {
-      name: "Silver Oxidised Bracelet",
-      desc: "A sterling silver bracelet with an oxidised finish and engraved detailing — bold and contemporary.",
-      imgs: [I.silvermbra19, I.silvermbra20, I.silvermbra21],
-      features: [
-        "92.5 Silver",
-        "Oxidised Finish",
-        "Engraved Detailing",
-        "BIS Certified",
-      ],
-    },
-    {
-      name: "Silver Cuff Bangle",
-      desc: "A wide sterling silver cuff bangle with a brushed finish — bold and masculine.",
-      imgs: [I.silvermbra22, I.silvermbra23, I.silvermbra24],
-      features: ["92.5 Silver", "Brushed Finish", "Wide Cuff", "BIS Certified"],
-    },
-    {
-      name: "Silver Tribal Bangle",
-      desc: "A sterling silver bangle with tribal-inspired motifs — edgy and distinctive.",
-      imgs: [I.silvermbra25, I.silvermbra26, I.silvermbra27],
-      features: [
-        "92.5 Silver",
-        "Tribal Motifs",
-        "Oxidised Finish",
-        "BIS Certified",
-      ],
-    },
+    // {
+    //   name: "Silver Greek Pattern Kada",
+    //   desc: "Premium sterling silver kada adorned with a classic Greek key pattern for a refined look.",
+    //   imgs: [I.silvermka37, I.silvermka38, I.silvermka39],
+    //   features: [
+    //     "92.5 Silver",
+    //     "Greek Pattern",
+    //     "Polished Finish",
+    //     "Hallmarked",
+    //   ],
+    // },
+    // {
+    //   name: "Silver Matte Finish Kada",
+    //   desc: "Minimalist silver kada with a smooth matte finish that blends elegance with durability.",
+    //   imgs: [I.silvermka40, I.silvermka41, I.silvermka42],
+    //   features: ["92.5 Silver", "Matte Finish", "Heavy Gauge", "BIS Certified"],
+    // },
+    // {
+    //   name: "Silver Ridged Kada",
+    //   desc: "Sterling silver kada featuring raised ridges for a bold and masculine appearance.",
+    //   imgs: [I.silvermka43, I.silvermka44, I.silvermka45],
+    //   features: ["92.5 Silver", "Ridged Design", "Comfort Fit", "Hallmarked"],
+    // },
+    // {
+    //   name: "Silver Heritage Kada",
+    //   desc: "Traditional handcrafted sterling silver kada inspired by heritage motifs and timeless design.",
+    //   imgs: [I.silvermka46, I.silvermka47, I.silvermka48],
+    //   features: [
+    //     "92.5 Silver",
+    //     "Heritage Design",
+    //     "Handcrafted Finish",
+    //     "BIS Certified",
+    //   ],
+    // },
   ],
   "silver/mens/bracelets": [
     {
@@ -8603,41 +9186,42 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silvermbra34, I.silvermbra35, I.silvermbra36],
       features: ["92.5 Silver", "Rope Twist", "Lobster Clasp", "Hallmarked"],
     },
-    {
-      name: "Silver Venetian Bracelet",
-      desc: "Flat, square links in sterling silver — a sleek and modern bracelet.",
-      imgs: [I.silvermbra37, I.silvermbra38, I.silvermbra39],
-      features: [
-        "92.5 Silver",
-        "Venetian Design",
-        "Lobster Clasp",
-        "BIS Certified",
-      ],
-    },
-    {
-      name: "Silver Belcher Bracelet",
-      desc: "Uniform round links in sterling silver — a simple and classic bracelet.",
-      imgs: [I.silvermbra40, I.silvermbra41, I.silvermbra42],
-      features: ["92.5 Silver", "Belcher Style", "Lobster Clasp", "Hallmarked"],
-    },
-    {
-      name: "Silver Singapore Bracelet",
-      desc: "Twisted and textured sterling silver bracelet — a sparkling effect for everyday wear.",
-      imgs: [I.silvermbra43, I.silvermbra44, I.silvermbra45],
-      features: [
-        "92.5 Silver",
-        "Singapore Design",
-        "Lobster Clasp",
-        "BIS Certified",
-      ],
-    },
-    {
-      name: "Silver Cable Bracelet",
-      desc: "Interlocking oval links in sterling silver — a versatile and durable bracelet.",
-      imgs: [I.silvermbra46, I.silvermbra47, I.silvermbra48],
-      features: ["92.5 Silver", "Cable Style", "Lobster Clasp", "Hallmarked"],
-    },
+    // {
+    //   name: "Silver Venetian Bracelet",
+    //   desc: "Flat, square links in sterling silver — a sleek and modern bracelet.",
+    //   imgs: [I.silvermbra37, I.silvermbra38, I.silvermbra39],
+    //   features: [
+    //     "92.5 Silver",
+    //     "Venetian Design",
+    //     "Lobster Clasp",
+    //     "BIS Certified",
+    //   ],
+    // },
+    // {
+    //   name: "Silver Belcher Bracelet",
+    //   desc: "Uniform round links in sterling silver — a simple and classic bracelet.",
+    //   imgs: [I.silvermbra40, I.silvermbra41, I.silvermbra42],
+    //   features: ["92.5 Silver", "Belcher Style", "Lobster Clasp", "Hallmarked"],
+    // },
+    // {
+    //   name: "Silver Singapore Bracelet",
+    //   desc: "Twisted and textured sterling silver bracelet — a sparkling effect for everyday wear.",
+    //   imgs: [I.silvermbra43, I.silvermbra44, I.silvermbra45],
+    //   features: [
+    //     "92.5 Silver",
+    //     "Singapore Design",
+    //     "Lobster Clasp",
+    //     "BIS Certified",
+    //   ],
+    // },
+    // {
+    //   name: "Silver Cable Bracelet",
+    //   desc: "Interlocking oval links in sterling silver — a versatile and durable bracelet.",
+    //   imgs: [I.silvermbra46, I.silvermbra47, I.silvermbra48],
+    //   features: ["92.5 Silver", "Cable Style", "Lobster Clasp", "Hallmarked"],
+    // },
   ],
+
   "silver/womens/rings": [
     {
       name: "Filigree Silver Ring",
@@ -9140,51 +9724,8 @@ const PRODUCT_TEMPLATES = {
         "Hallmarked",
       ],
     },
-    {
-      name: "Silver Beaded Cluster Jhumke",
-      desc: "Delicate jhumke with tiny silver beads in a clustered design — playful and traditional.",
-      imgs: [I.silverwj37, I.silverwj38, I.silverwj39],
-      features: [
-        "92.5 Silver",
-        "Beaded Cluster",
-        "Lever-back Hook",
-        "BIS Certified",
-      ],
-    },
-    {
-      name: "Silver Oxidised Cluster Jhumke",
-      desc: "Bold oxidised silver jhumke with clustered drops — statement earrings for the modern woman.",
-      imgs: [I.silverwj40, I.silverwj41, I.silverwj42],
-      features: [
-        "92.5 Silver",
-        "Hand Oxidised",
-        "Cluster Design",
-        "Lever-back Hook",
-      ],
-    },
-    {
-      name: "Silver Filigree Cluster Jhumke",
-      desc: "Intricate Cuttack filigree jhumke with clustered drops — lightweight and elegant.",
-      imgs: [I.silverwj43, I.silverwj44, I.silverwj45],
-      features: [
-        "92.5 Silver",
-        "Cuttack Filigree",
-        "Cluster Design",
-        "BIS Certified",
-      ],
-    },
-    {
-      name: "Silver Pearl Tassel Jhumke",
-      desc: "Sterling silver jhumke with dangling freshwater pearl tassels — graceful and timeless.",
-      imgs: [I.silverwj46, I.silverwj47, I.silverwj48],
-      features: [
-        "92.5 Silver",
-        "Freshwater Pearls",
-        "Tassel Design",
-        "Hallmarked",
-      ],
-    },
   ],
+
   "silver/womens/payal": [
     {
       name: "Designer Payal",
@@ -9348,6 +9889,7 @@ const PRODUCT_TEMPLATES = {
       ],
     },
   ],
+
   "silver/womens/toe-rings": [
     {
       name: "Floral Toe Ring",
@@ -9430,30 +9972,6 @@ const PRODUCT_TEMPLATES = {
       desc: "A sterling silver toe ring with tribal etching — bold and distinctive.",
       imgs: [I.silvertr34, I.silvertr35, I.silvertr36],
       features: ["92.5 Silver", "Tribal Etching", "Open Band", "Adjustable"],
-    },
-    {
-      name: "Silver Toe Ring with Hammered Texture",
-      desc: "A sterling silver toe ring with a hammered texture — rugged yet refined.",
-      imgs: [I.silvertr37, I.silvertr38, I.silvertr39],
-      features: ["92.5 Silver", "Hammered Texture", "Open Band", "Adjustable"],
-    },
-    {
-      name: "Silver Toe Ring with Rope Edge",
-      desc: "A sterling silver toe ring with a rope-edge design — classic and timeless.",
-      imgs: [I.silvertr40, I.silvertr41, I.silvertr42],
-      features: ["92.5 Silver", "Rope Edge", "Open Band", "Adjustable"],
-    },
-    {
-      name: "Silver Toe Ring with Oxidised Finish",
-      desc: "A sterling silver toe ring with an oxidised finish — bold and contemporary.",
-      imgs: [I.silvertr43, I.silvertr44, I.silvertr45],
-      features: ["92.5 Silver", "Oxidised Finish", "Open Band", "Adjustable"],
-    },
-    {
-      name: "Silver Toe Ring with Filigree Design",
-      desc: "A delicate Cuttack filigree silver toe ring — intricate, lightweight, and timeless.",
-      imgs: [I.silvertr46, I.silvertr47, I.silvertr48],
-      features: ["92.5 Silver", "Cuttack Filigree", "Open Band", "Lightweight"],
     },
   ],
   "silver/womens/bracelets": [
@@ -9569,46 +10087,8 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silverwb34, I.silverwb35, I.silverwb36],
       features: ["92.5 Silver", "Brushed Finish", "Wide Cuff", "BIS Certified"],
     },
-    {
-      name: "Silver Beaded Bracelet",
-      desc: "A delicate silver bracelet adorned with tiny beads — playful and traditional.",
-      imgs: [I.silverwb37, I.silverwb38, I.silverwb39],
-      features: [
-        "92.5 Silver",
-        "Beaded Design",
-        "Lobster Clasp",
-        "BIS Certified",
-      ],
-    },
-    {
-      name: "Silver Pearl Bracelet",
-      desc: "An elegant silver bracelet with freshwater pearls — classic and feminine.",
-      imgs: [I.silverwb40, I.silverwb41, I.silverwb42],
-      features: [
-        "92.5 Silver",
-        "Freshwater Pearls",
-        "Lobster Clasp",
-        "Hallmarked",
-      ],
-    },
-    {
-      name: "Silver Filigree Bracelet",
-      desc: "Intricate Cuttack filigree silver bracelet — lightweight and elegant.",
-      imgs: [I.silverwb43, I.silverwb44, I.silverwb45],
-      features: [
-        "92.5 Silver",
-        "Cuttack Filigree",
-        "Toggle Clasp",
-        "Ultra Lightweight",
-      ],
-    },
-    {
-      name: "Silver Charm Bracelet",
-      desc: "A fine silver chain bracelet with five traditional charm drops.",
-      imgs: [I.silverwb46, I.silverwb47, I.silverwb48],
-      features: ["92.5 Silver", "5 Charms", "Lobster Clasp", "Customisable"],
-    },
   ],
+
   "silver/womens/kada": [
     {
       name: "Floral Silver Kada",
@@ -9697,31 +10177,8 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silverwka34, I.silverwka35, I.silverwka36],
       features: ["92.5 Silver", "Tribal Etching", "Open Cuff", "Adjustable"],
     },
-    {
-      name: "Silver Kada with Hammered Texture",
-      desc: "A sterling silver kada with a hammered texture — rugged yet refined.",
-      imgs: [I.silverwka37, I.silverwka38, I.silverwka39],
-      features: ["92.5 Silver", "Hammered Texture", "Open Cuff", "Adjustable"],
-    },
-    {
-      name: "Silver Kada with Rope Edge",
-      desc: "A sterling silver kada with a rope-edge design — classic and timeless.",
-      imgs: [I.silverwka40, I.silverwka41, I.silverwka42],
-      features: ["92.5 Silver", "Rope Edge", "Open Cuff", "Adjustable"],
-    },
-    {
-      name: "Silver Kada with Lace Design",
-      desc: "A sterling silver kada with a delicate lace design — intricate and elegant.",
-      imgs: [I.silverwka43, I.silverwka44, I.silverwka45],
-      features: ["92.5 Silver", "Lace Design", "Open Cuff", "Adjustable"],
-    },
-    {
-      name: "Silver Kada with Floral Engraving",
-      desc: "A sterling silver kada with hand-engraved floral patterns — feminine and timeless.",
-      imgs: [I.silverwka46, I.silverwka47, I.silverwka48],
-      features: ["92.5 Silver", "Floral Engraving", "Open Cuff", "Adjustable"],
-    },
   ],
+
   "silver/womens/pendants": [
     {
       name: "Silver Om Pendant",
@@ -9801,9 +10258,47 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silverwpe22, I.silverwpe23, I.silverwpe24],
       features: ["92.5 Silver", "Heart Shape", "High-polish", "Hypoallergenic"],
     },
+<<<<<<< HEAD
    
 
+=======
+    {
+      name: "Silver Star Pendant",
+      desc: "A star-shaped pendant in sterling silver — guidance, hope, and brilliance.",
+      imgs: [I.silverwpe25, I.silverwpe26, I.silverwpe27],
+      features: ["92.5 Silver", "Star Shape", "High-polish", "Hypoallergenic"],
+    },
+    {
+      name: "Silver Moon Pendant",
+      desc: "A crescent moon pendant in 92.5 silver — mystery, intuition, and serenity.",
+      imgs: [I.silverwpe28, I.silverwpe29, I.silverwpe30],
+      features: [
+        "92.5 Silver",
+        "Crescent Moon",
+        "High-polish",
+        "Hypoallergenic",
+      ],
+    },
+    {
+      name: "Silver Sun Pendant",
+      desc: "A sunburst pendant in sterling silver — energy, vitality, and radiance.",
+      imgs: [I.silverwpe31, I.silverwpe32, I.silverwpe33],
+      features: [
+        "92.5 Silver",
+        "Sunburst Design",
+        "High-polish",
+        "Hypoallergenic",
+      ],
+    },
+    {
+      name: "Silver Key Pendant",
+      desc: "A key-shaped pendant in polished silver — unlocking possibilities and dreams.",
+      imgs: [I.silverwpe34, I.silverwpe35, I.silverwpe36],
+      features: ["92.5 Silver", "Key Shape", "High-polish", "Hypoallergenic"],
+    },
+>>>>>>> 6b6efba319c6c179d169391fe18876d1f49bc8cd
   ],
+
   "silver/kids": [
     {
       name: "Baby Chanda Suraj Set",
@@ -9937,51 +10432,8 @@ const PRODUCT_TEMPLATES = {
         "BIS Certified",
       ],
     },
-    {
-      name: "Kids Silver Bracelet with Charms",
-      desc: "A small 92.5 silver bracelet with charms for children — safe, light and beautifully crafted.",
-      imgs: [I.silverk37, I.silverk38, I.silverk39],
-      features: [
-        "92.5 Silver",
-        "Child-safe Design",
-        "Lightweight",
-        "BIS Certified",
-      ],
-    },
-    {
-      name: "Kids Silver Necklace with Charms",
-      desc: "A small 92.5 silver necklace with charms for children — safe, light and beautifully crafted.",
-      imgs: [I.silverk40, I.silverk41, I.silverk42],
-      features: [
-        "92.5 Silver",
-        "Child-safe Design",
-        "Lightweight",
-        "BIS Certified",
-      ],
-    },
-    {
-      name: "Kids Silver Earrings with Charms",
-      desc: "A small 92.5 silver earrings with charms for children — safe, light and beautifully crafted.",
-      imgs: [I.silverk43, I.silverk44, I.silverk45],
-      features: [
-        "92.5 Silver",
-        "Child-safe Design",
-        "Lightweight",
-        "BIS Certified",
-      ],
-    },
-    {
-      name: "Kids Silver Ring with Charms",
-      desc: "A small 92.5 silver ring with charms for children — safe, light and beautifully crafted.",
-      imgs: [I.silverk46, I.silverk47, I.silverk48],
-      features: [
-        "92.5 Silver",
-        "Child-safe Design",
-        "Lightweight",
-        "BIS Certified",
-      ],
-    },
   ],
+
   "silver/coins": [
     {
       name: "5 Gram Silver Coin",
@@ -10090,55 +10542,8 @@ const PRODUCT_TEMPLATES = {
         "Premium Quality",
       ],
     },
-
-    {
-      name: "Rectangle Silver Coin",
-      desc: "A stylish rectangular silver coin crafted from 999 pure silver with a modern engraved pattern.",
-      imgs: [I.silverc37, I.silverc38, I.silverc39],
-      features: [
-        "999 Pure Silver",
-        "Rectangle Shape",
-        "Modern Design",
-        "Gift Box",
-      ],
-    },
-
-    {
-      name: "Round Silver Coin",
-      desc: "Classic round silver coin made from 999 pure silver with a smooth polished finish.",
-      imgs: [I.silverc40, I.silverc41, I.silverc42],
-      features: [
-        "999 Pure Silver",
-        "Round Shape",
-        "Polished Finish",
-        "BIS Certified",
-      ],
-    },
-
-    {
-      name: "Temple Silver Coin",
-      desc: "A beautifully crafted 999 pure silver coin featuring a traditional temple artwork.",
-      imgs: [I.silverc43, I.silverc44, I.silverc45],
-      features: [
-        "999 Pure Silver",
-        "Temple Design",
-        "Traditional Artwork",
-        "Gift Box",
-      ],
-    },
-
-    {
-      name: "Limited Edition Silver Coin",
-      desc: "Exclusive limited edition 999 pure silver coin designed for collectors and premium gifting.",
-      imgs: [I.silverc46, I.silverc47, I.silverc48],
-      features: [
-        "999 Pure Silver",
-        "Limited Edition",
-        "Collector Item",
-        "Luxury Box",
-      ],
-    },
   ],
+
   "silver/gifts": [
     {
       name: "Silver Gift Set — Pooja",
@@ -10168,16 +10573,12 @@ const PRODUCT_TEMPLATES = {
       name: "Silver Diya Set",
       desc: "Traditional silver diya set designed for pooja ceremonies and festive celebrations.",
       imgs: [I.silverg13, I.silverg14, I.silverg15],
-
       features: [
         "92.5 Silver",
         "Pair of Diyas",
         "Traditional Design",
         "Gift Box",
       ],
-
-      features: ["92.5 Silver", "Pair of Diyas", "Traditional Design", "Gift Box"],
-
     },
     {
       name: "Silver Glass",
@@ -10189,7 +10590,6 @@ const PRODUCT_TEMPLATES = {
         "Classic Design",
         "Premium Quality",
       ],
-      features: ["92.5 Silver", "Polished Finish", "Classic Design", "Premium Quality"],
     },
     {
       name: "Silver Spoon Set",
@@ -10207,7 +10607,6 @@ const PRODUCT_TEMPLATES = {
         "Mirror Finish",
         "Gift Box",
       ],
-      features: ["92.5 Silver", "Traditional Design", "Mirror Finish", "Gift Box"],
     },
     {
       name: "Silver Kalash",
@@ -10219,7 +10618,6 @@ const PRODUCT_TEMPLATES = {
         "Religious Use",
         "Premium Finish",
       ],
-      features: ["92.5 Silver", "Traditional Design", "Religious Use", "Premium Finish"],
     },
     {
       name: "Silver Dry Fruit Box",
@@ -10237,55 +10635,12 @@ const PRODUCT_TEMPLATES = {
         "Gift Ready",
         "Elegant Design",
       ],
-      features: ["Silver Finish", "Premium Frame", "Gift Ready", "Elegant Design"],
     },
     {
       name: "Silver Idol — Lakshmi",
       desc: "Handcrafted silver Lakshmi idol for worship and festive gifting.",
       imgs: [I.silverg34, I.silverg35, I.silverg36],
       features: ["92.5 Silver", "Lakshmi Idol", "Handcrafted", "Gift Box"],
-    },
-    {
-      name: "Silver Idol — Ganesh",
-      desc: "Finely crafted silver Ganesh idol with intricate detailing for home temples.",
-      imgs: [I.silverg37, I.silverg38, I.silverg39],
-      features: ["92.5 Silver", "Ganesh Idol", "Premium Finish", "Gift Box"],
-    },
-    {
-      name: "Silver Puja Thali",
-      desc: "Complete silver pooja thali with traditional engraving for religious ceremonies.",
-      imgs: [I.silverg40, I.silverg41, I.silverg42],
-      features: [
-        "92.5 Silver",
-        "Traditional Engraving",
-        "Pooja Essentials",
-        "Gift Box",
-      ],
-      features: ["92.5 Silver", "Traditional Engraving", "Pooja Essentials", "Gift Box"],
-    },
-    {
-      name: "Silver Tea Set",
-      desc: "Luxury silver tea serving set crafted with timeless elegance for premium gifting.",
-      imgs: [I.silverg43, I.silverg44, I.silverg45],
-      features: [
-        "92.5 Silver",
-        "Luxury Collection",
-        "Serving Set",
-        "Premium Box",
-      ],
-      features: ["92.5 Silver", "Luxury Collection", "Serving Set", "Premium Box"],
-    },
-    {
-      name: "Silver Premium Gift Hamper",
-      desc: "An exclusive silver gift hamper featuring handcrafted silver essentials for memorable occasions.",
-      imgs: [I.silverg46, I.silverg47, I.silverg48],
-      features: [
-        "92.5 Silver",
-        "Premium Collection",
-        "Luxury Gift",
-        "Exclusive Packaging",
-      ],
-      features: ["92.5 Silver", "Premium Collection", "Luxury Gift", "Exclusive Packaging"],
     },
   ],
 };
