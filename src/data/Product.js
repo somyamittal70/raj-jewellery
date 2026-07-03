@@ -596,28 +596,54 @@ const I = {
 
   silverg:
     "https://i.pinimg.com/1200x/32/93/56/329356dbbade5399d621178fb5701d8d.jpg",
-  silverg2:
-    "https://i.pinimg.com/736x/30/70/6c/30706c7d39278502fcf7e262e4701251.jpg",
-  silverg3:
-    "https://i.pinimg.com/1200x/5e/c7/d9/5ec7d94195cca84f389b2c8099b45708.jpg",
   silverg4:
     "https://i.pinimg.com/736x/3d/c9/6a/3dc96a1347d23b695c7d43144586561a.jpg",
-  silverg5:
-    "https://i.pinimg.com/1200x/80/ed/58/80ed58b563ccf3e78d312683c9858a0a.jpg",
-  silverg6:
-    "https://i.pinimg.com/736x/85/2b/81/852b81d4cdc3a24c12480295be9dd884.jpg",
+  silverg7:
+    "https://i.pinimg.com/1200x/ab/5f/6b/ab5f6b6825bc14aa229d9c3bb4c8b4ba.jpg",
+  silverg10:
+    "https://i.pinimg.com/1200x/61/f6/e8/61f6e83253b116088fae18b1caebc49d.jpg",
+  silverg13:
+    "https://i.pinimg.com/1200x/92/8a/e8/928ae806ecefe4fcc2c8a02197298f01.jpg",
+  silverg16:
+    "https://i.pinimg.com/1200x/3c/46/95/3c46955bec6758dbcc30d7a896a56be9.jpg",
+  silverg19:
+    "https://i.pinimg.com/1200x/41/59/4d/41594d7ad545b30bdc8d87244c7ee73a.jpg",
+  silverg22:
+    "https://i.pinimg.com/736x/a3/6f/a5/a36fa5b228b5a74d4ba32998eb3553e2.jpg",
+  silverg25:
+    "https://i.pinimg.com/1200x/9c/69/6e/9c696e857baef4094d1e9054dc133839.jpg",
+  silverg28:
+    "https://i.pinimg.com/736x/d0/52/6b/d0526b09031728cd4424893c513c4f42.jpg",
+  silverg31:
+    "https://i.pinimg.com/1200x/f8/22/f4/f822f4d21ed068595ddf12579a59df78.jpg",
+  silverg34:
+    "https://i.pinimg.com/1200x/65/49/02/654902c8a8d1f468d28000e2885c74b3.jpg",
+
   silverc1:
     "https://i.pinimg.com/736x/5b/95/f5/5b95f594e30e2c069999c10aa895074c.jpg",
-  silverc2:
-    "https://i.pinimg.com/736x/28/88/bd/2888bd572b58cb8bea8830f679d41af4.jpg",
-  silverc3:
-    "https://i.pinimg.com/736x/58/6f/fe/586ffeddd5f232adf54ad1c0db9ae451.jpg",
   silverc4:
     "https://i.pinimg.com/736x/6b/df/c6/6bdfc6f6c559fb7595cecfa20f71dac0.jpg",
-  silverc5:
-    "https://i.pinimg.com/736x/be/2e/ee/be2eee203da5c168345f859420e98d43.jpg",
-  silverc6:
-    "https://i.pinimg.com/1200x/a5/99/22/a5992201a98cc0d929be59b84161cd52.jpg",
+  silverc7:
+  "https://i.pinimg.com/1200x/7a/d9/b8/7ad9b86b25f2f045cbb70b428907670c.jpg",
+  silverc10:
+  "https://i.pinimg.com/1200x/cd/94/05/cd9405230be236abdc1bb8537ef7bcda.jpg",
+  silverc13:
+  "https://i.pinimg.com/736x/44/58/aa/4458aa842627109084ba734f8d8638aa.jpg",
+  silverc16:
+  "https://i.pinimg.com/736x/fd/a2/3d/fda23d8eeac6b4b8eeec5bf7d0c270dc.jpg",
+  silverc19:
+  "https://i.pinimg.com/736x/57/aa/91/57aa91d2731f3aa40cb59f617d961d0a.jpg",
+  silverc22:
+  "https://i.pinimg.com/736x/0e/d4/87/0ed4874cacaebb080ba0d9bdb1a02d1c.jpg",
+  silverc25:
+  "https://i.pinimg.com/1200x/18/bf/f2/18bff27ff2fe722d68a6bcc14b6d9c11.jpg",
+  silverc28:
+  "https://i.pinimg.com/1200x/f0/1b/4b/f01b4bf790be9da54f610150576c3a9f.jpg",
+  silverc31:
+  "https://i.pinimg.com/1200x/1f/a0/99/1fa099e9044d9d86bcce1d99931a8510.jpg",
+  silverc34:
+  "https://i.pinimg.com/1200x/ba/03/c2/ba03c2ed5a82fda129856d9b9f5e886f.jpg",
+
   silverk1:
     "https://i.pinimg.com/1200x/5b/d3/12/5bd312009d524a23d2a738da012c8d29.jpg",
   silverk2:
@@ -630,6 +656,26 @@ const I = {
     "https://i.pinimg.com/1200x/14/e2/83/14e283f042e2e77ad4860973a15cdcd8.jpg",
   silverk6:
     "https://i.pinimg.com/736x/aa/3f/8f/aa3f8f30ca7face32863b73634ec75bf.jpg",
+  silverk7:
+  "https://i.pinimg.com/1200x/ce/b3/f3/ceb3f32257ebd9fbae426837b5756b1c.jpg",
+  silverk10:
+  "https://i.pinimg.com/1200x/68/90/1a/68901a55cabd1606e9076056398aeb8a.jpg",
+  silverk13:
+  "https://i.pinimg.com/1200x/1f/ab/bd/1fabbd951555ae2526cfb0b5ea529ffd.jpg",
+  silverk16:
+  "https://i.pinimg.com/736x/86/f5/79/86f579f53975f1b2bab5fc941d3f04d2.jpg",
+  silverk19:
+  "https://i.pinimg.com/1200x/82/e0/90/82e090715a713cd35560071c296379a1.jpg",
+  silverk22:
+  "https://i.pinimg.com/736x/bb/d8/de/bbd8defecec3260b4f05b1181d4c319b.jpg",
+  silverk25:
+  "https://i.pinimg.com/1200x/af/e8/da/afe8dac1ce920d8be5b6a3b46282e4f1.jpg",
+  silverk28:
+  "https://i.pinimg.com/1200x/30/31/9b/30319b12e46e14d6c59d9b2153930b98.jpg",
+  silverk31:
+  "https://i.pinimg.com/736x/2d/0c/6a/2d0c6a5fc9b26a94a8afa1bca1971e0a.jpg",
+  silverk34:
+  "https://i.pinimg.com/1200x/75/80/e2/7580e22190734bc6687dd3caeaf5a8b1.jpg",
 
   silverwpe:
     "https://i.pinimg.com/1200x/e5/2d/b3/e52db3f86ff426f8765bdf9408237a9c.jpg",
@@ -644,46 +690,43 @@ const I = {
   silverwpe6:
     "https://i.pinimg.com/1200x/86/19/fb/8619fb8046ca84c9997b04e41f90f965.jpg",
 
-     silverwpe7:
+  silverwpe7:
     "https://i.pinimg.com/1200x/8f/a7/a2/8fa7a288c6749c15cc5caf886e3b4f45.jpg",
-    silverwpe8:
-    "https://i.pinimg.com/736x/2e/5f/62/2e5f62a66fcc2a13c8d88c0c3a0fe4e6.jpg",    silverwpe9:
+  silverwpe8:
+    "https://i.pinimg.com/736x/2e/5f/62/2e5f62a66fcc2a13c8d88c0c3a0fe4e6.jpg",
+  silverwpe9:
     "https://i.pinimg.com/1200x/b3/f8/c9/b3f8c9ad49b02e817ed63c965d231653.jpg",
-        silverwpe10:
+  silverwpe10:
     "https://i.pinimg.com/1200x/94/75/ab/9475ab33db5c9c37a4f8cb46dc7bba06.jpg",
-        silverwpe11:
+  silverwpe11:
     "https://i.pinimg.com/1200x/d4/70/e9/d470e964ebd0ca848eada7bf32cd1813.jpg",
-        silverwpe12:
+  silverwpe12:
     "https://i.pinimg.com/736x/22/2b/7b/222b7b62efa0de9bbfae3968faae3e4d.jpg",
-        silverwpe13:
+  silverwpe13:
     "https://i.pinimg.com/1200x/70/a3/4a/70a34ab174cb3e42f07570f9f96689af.jpg",
-        silverwpe14:
+  silverwpe14:
     "https://i.pinimg.com/736x/bc/d7/dc/bcd7dcca7b8b241d598c8729e8ff0251.jpg",
-        silverwpe15:
+  silverwpe15:
     "https://i.pinimg.com/736x/9b/7f/bd/9b7fbd138f56fe7c94841c4e13d3df74.jpg",
-        silverwpe16:
+  silverwpe16:
     "https://i.pinimg.com/736x/bc/26/2b/bc262b2e544c17a37c3b58110d70009d.jpg",
 
-            silverwpe17:
+  silverwpe17:
     "https://i.pinimg.com/1200x/d2/a7/b4/d2a7b4314341f1bbfadd16f838945269.jpg",
-               silverwpe18:
+  silverwpe18:
     "https://i.pinimg.com/1200x/41/16/21/411621176c2fe577d470523b9a140993.jpg",
-               silverwpe19:
+  silverwpe19:
     "https://i.pinimg.com/736x/4c/38/a1/4c38a11f5506cb6bc3bbbe0cc755972d.jpg",
-               silverwpe20:
+  silverwpe20:
     "https://i.pinimg.com/1200x/0d/1a/ab/0d1aab1efd37c44930af0c4fe91cb4d6.jpg",
-               silverwpe21:
+  silverwpe21:
     "https://i.pinimg.com/736x/cf/89/1d/cf891d09e2817db90000e6eaee0890fc.jpg",
-               silverwpe22:
+  silverwpe22:
     "https://i.pinimg.com/1200x/c3/82/3c/c3823ce113cfeadf8fea865cbb55afd2.jpg",
-               silverwpe23:
+  silverwpe23:
     "https://i.pinimg.com/736x/59/39/b3/5939b31b7e527bf17d61caaedbd3839d.jpg",
-               silverwpe24:
+  silverwpe24:
     "https://i.pinimg.com/736x/79/47/0b/79470bcb5ca3648e75d36bf559f439d9.jpg",
-
-
-  
-
 
   silverwka:
     "https://i.pinimg.com/736x/45/6b/04/456b04ce93dfd3f092b41f1c83f25f11.jpg",
@@ -698,26 +741,21 @@ const I = {
   silverwka6:
     "https://i.pinimg.com/1200x/5b/a4/f5/5ba4f5abf8c23f5724775f00869a4763.jpg",
   silverwka7:
-  "https://i.pinimg.com/736x/d5/67/09/d5670943a51c8ae35baab32935b0cdcc.jpg",
+    "https://i.pinimg.com/736x/d5/67/09/d5670943a51c8ae35baab32935b0cdcc.jpg",
   silverwka10:
-  "https://i.pinimg.com/736x/40/e6/30/40e6304138911347054c782816b64a9e.jpg",
+    "https://i.pinimg.com/736x/40/e6/30/40e6304138911347054c782816b64a9e.jpg",
   silverwka13:
-  "https://i.pinimg.com/736x/23/6f/35/236f3516c5d0eb58f8294429481584fc.jpg",
+    "https://i.pinimg.com/736x/23/6f/35/236f3516c5d0eb58f8294429481584fc.jpg",
   silverwka16:
-  "https://i.pinimg.com/1200x/c4/08/78/c4087819da0a2549ab3c3808a9ee2060.jpg",
+    "https://i.pinimg.com/1200x/c4/08/78/c4087819da0a2549ab3c3808a9ee2060.jpg",
   silverwka19:
-  "https://i.pinimg.com/736x/7c/5e/57/7c5e5717e7f0568286a65c65edc21e26.jpg",
+    "https://i.pinimg.com/736x/7c/5e/57/7c5e5717e7f0568286a65c65edc21e26.jpg",
   silverwka22:
-  "",
-  silverwka25:
-  "",
-  silverwka28:
-  "",
-  silverwka31:
-  "",
-  silverwka34:
-  "",
-
+    "https://i.pinimg.com/736x/2f/1c/be/2f1cbe141ddda50851cf27d9d1b27105.jpg",
+  silverwka25: "https://i.pinimg.com/736x/56/6c/26/566c263aaa5c6b19be359ae6ae199f2d.jpg",
+  silverwka28: "https://i.pinimg.com/1200x/70/92/6c/70926c5973657da9e31b7d1367b19356.jpg",
+  silverwka31: "https://i.pinimg.com/736x/99/a9/0b/99a90b39d2ee6e919400eeb8e2d41f4a.jpg",
+  silverwka34: "https://i.pinimg.com/1200x/39/90/3b/39903b49cd1137dd0b242cf0e5ba5bce.jpg",
 
   silverwb:
     "https://i.pinimg.com/736x/99/a9/0b/99a90b39d2ee6e919400eeb8e2d41f4a.jpg",
@@ -732,25 +770,25 @@ const I = {
   silverwb6:
     "https://i.pinimg.com/1200x/b0/73/cf/b073cf226d5a3306dca733e9c1d977e4.jpg",
   silverwb7:
-  "https://i.pinimg.com/736x/1b/06/77/1b0677bb1b218ba245bfa95263599d67.jpg",
+    "https://i.pinimg.com/736x/1b/06/77/1b0677bb1b218ba245bfa95263599d67.jpg",
   silverwb10:
-  "https://i.pinimg.com/1200x/c6/5e/44/c65e443580197aae4670f1a8a5fe6323.jpg",
+    "https://i.pinimg.com/1200x/c6/5e/44/c65e443580197aae4670f1a8a5fe6323.jpg",
   silverwb13:
-  "https://i.pinimg.com/736x/a5/d5/bc/a5d5bc5b26551f81bc36bb916ea212fc.jpg",
+    "https://i.pinimg.com/736x/a5/d5/bc/a5d5bc5b26551f81bc36bb916ea212fc.jpg",
   silverwb16:
-  "https://i.pinimg.com/1200x/af/b4/b5/afb4b510010150649391a195ffa3dd47.jpg",
+    "https://i.pinimg.com/1200x/af/b4/b5/afb4b510010150649391a195ffa3dd47.jpg",
   silverwb19:
-  "https://i.pinimg.com/1200x/9d/b5/23/9db5236c5b8a224c1988273103e631ae.jpg",
+    "https://i.pinimg.com/1200x/9d/b5/23/9db5236c5b8a224c1988273103e631ae.jpg",
   silverwb22:
-  "https://i.pinimg.com/1200x/b0/31/19/b03119aecc95e9a5bf5520300b01e70f.jpg",
+    "https://i.pinimg.com/1200x/b0/31/19/b03119aecc95e9a5bf5520300b01e70f.jpg",
   silverwb25:
-  "https://i.pinimg.com/1200x/9b/30/7b/9b307bc67214b4b83efa34ad02cdc77e.jpg",
+    "https://i.pinimg.com/1200x/9b/30/7b/9b307bc67214b4b83efa34ad02cdc77e.jpg",
   silverwb28:
-  "https://i.pinimg.com/736x/56/f4/62/56f46237dad5870ff6d987ef4aa5d29d.jpg",
+    "https://i.pinimg.com/736x/56/f4/62/56f46237dad5870ff6d987ef4aa5d29d.jpg",
   silverwb31:
-  "https://i.pinimg.com/1200x/dd/8e/d8/dd8ed825abe0146686e2ad1ad803bc5f.jpg",
+    "https://i.pinimg.com/1200x/dd/8e/d8/dd8ed825abe0146686e2ad1ad803bc5f.jpg",
   silverwb34:
-  "https://i.pinimg.com/1200x/d9/0c/26/d90c26c33b87e25c0e458fc6bb40566a.jpg",
+    "https://i.pinimg.com/1200x/d9/0c/26/d90c26c33b87e25c0e458fc6bb40566a.jpg",
 
   silvertr:
     "https://i.pinimg.com/1200x/a3/f0/62/a3f062105d280fec239397e5909f7d2d.jpg",
@@ -764,65 +802,65 @@ const I = {
     "https://i.pinimg.com/1200x/ca/19/84/ca1984755813187e0f9b559f4a5d35c0.jpg",
   silvertr6:
     "https://i.pinimg.com/1200x/1d/23/75/1d23756e3fea46dc5cd2a824b3036cb7.jpg",
-    silvertr7:
+  silvertr7:
     "https://i.pinimg.com/1200x/49/0a/98/490a98d6b8382fd7d548cc59e078e66a.jpg",
-    silvertr8:
+  silvertr8:
     "https://i.pinimg.com/1200x/46/86/9f/46869ff609677a73cdfb1fd1bb281808.jpg",
-    silvertr9:
+  silvertr9:
     "https://i.pinimg.com/1200x/67/20/4a/67204ad0c02cab9432f75c0263b1a1fc.jpg",
-    silvertr10:
+  silvertr10:
     "https://i.pinimg.com/736x/20/b1/92/20b192bd1f29d96b0231ba9b1b0762fc.jpg",
-    silvertr11:
+  silvertr11:
     "https://i.pinimg.com/736x/bf/3a/12/bf3a12c4080b4303cbbf415b58c161ca.jpg",
-    silvertr12:
+  silvertr12:
     "https://i.pinimg.com/1200x/59/fc/d1/59fcd10a78dac8d8f88eb888ed6dd05c.jpg",
-    silvertr13:
+  silvertr13:
     "https://i.pinimg.com/1200x/8f/d7/fa/8fd7fa72bebc4cd72938b6f1b50d1e5a.jpg",
-    silvertr14:
+  silvertr14:
     "https://i.pinimg.com/1200x/bf/76/db/bf76dbf6ae12cf737c34e66a838ed8bf.jpg",
-    silvertr15:
+  silvertr15:
     "https://i.pinimg.com/1200x/30/a3/a1/30a3a1985c8d16468ec0498cf28664c7.jpg",
-    silvertr16:
+  silvertr16:
     "https://i.pinimg.com/1200x/b9/c2/d9/b9c2d9374f008549332ac245b51c74b7.jpg",
-    silvertr17:
+  silvertr17:
     "https://i.pinimg.com/1200x/fe/08/1c/fe081c039ca9e482d9515814f900e2b8.jpg",
-    silvertr18:
+  silvertr18:
     "https://i.pinimg.com/1200x/14/09/b0/1409b0a5020675119a2b3b012f6d6f67.jpg",
-    silvertr19:
+  silvertr19:
     "https://i.pinimg.com/1200x/48/c4/45/48c44548672d3ea8e10f3f51b9a1e7f5.jpg",
-    silvertr20:
+  silvertr20:
     "https://i.pinimg.com/1200x/4c/8c/f6/4c8cf6ba655e40d55c4746f7feabc9ab.jpg",
-    silvertr21:
+  silvertr21:
     "https://i.pinimg.com/1200x/32/23/00/3223000edd9617b66aa8f8b227c4f73a.jpg",
-    silvertr22:
+  silvertr22:
     "https://i.pinimg.com/1200x/72/85/be/7285be566038278318625bae27d6eb5f.jpg",
-    silvertr23:
+  silvertr23:
     "https://i.pinimg.com/736x/63/c7/22/63c722e3b82c32f1313a074b5f266244.jpg",
-    silvertr24:
+  silvertr24:
     "https://i.pinimg.com/236x/8f/4a/fd/8f4afd8c76f6b5b4002184448dec06f0.jpg",
-    silvertr25:
+  silvertr25:
     "https://i.pinimg.com/736x/14/7a/0d/147a0d878756d4adf7a560b52cc86268.jpg",
-    silvertr26:
+  silvertr26:
     "https://i.pinimg.com/736x/90/c8/1d/90c81d0f70955c815f705a3be59d167a.jpg",
-    silvertr27:
+  silvertr27:
     "https://i.pinimg.com/736x/0e/b3/49/0eb3491aa6ca4d8c904ef5cbad0ca69b.jpg",
-    silvertr28:
+  silvertr28:
     "https://i.pinimg.com/736x/e0/b2/04/e0b204773d1973bf3703c0ea93ecc0f9.jpg",
-    silvertr29:
+  silvertr29:
     "https://i.pinimg.com/736x/a1/f8/cc/a1f8cc08299718eb1c34bbb7bc507cda.jpg",
-    silvertr30:
+  silvertr30:
     "https://i.pinimg.com/1200x/ac/1e/9d/ac1e9d0c9663cd5a40584c848dc02af3.jpg",
-    silvertr31:
+  silvertr31:
     "https://i.pinimg.com/1200x/08/86/d4/0886d40312e37b62b62c5400bc07226f.jpg",
-    silvertr32:
+  silvertr32:
     "https://i.pinimg.com/1200x/e5/2d/6a/e52d6afbf038d97057458a9f163580c5.jpg",
-    silvertr33:
+  silvertr33:
     "https://i.pinimg.com/736x/de/00/85/de008563823f86a67f668d5d6a3154ae.jpg",
-    silvertr34:
+  silvertr34:
     "https://i.pinimg.com/1200x/34/61/6f/34616fab1e2130885e02aa34d148dcd6.jpg",
-    silvertr35:
+  silvertr35:
     "https://i.pinimg.com/1200x/87/81/43/8781438f4053e25f5dccc6662520fe19.jpg",
-    silvertr36:
+  silvertr36:
     "https://i.pinimg.com/736x/96/dd/58/96dd58b0c85feb9ba7ffcd48c6ef1533.jpg",
 
   silverp:
@@ -935,66 +973,66 @@ const I = {
   silverwj6:
     "https://i.pinimg.com/736x/e5/e9/16/e5e916ab2c2808318f75dc9b4d8b0a18.jpg",
   silverwj7:
-  "https://i.pinimg.com/1200x/85/3d/b8/853db8b8d6ef897c737cdf451d312872.jpg",
+    "https://i.pinimg.com/1200x/85/3d/b8/853db8b8d6ef897c737cdf451d312872.jpg",
   silverwj8:
-  "https://i.pinimg.com/736x/6f/29/33/6f29339e0ae28955090540771ec62898.jpg",
+    "https://i.pinimg.com/736x/6f/29/33/6f29339e0ae28955090540771ec62898.jpg",
   silverwj9:
-  "https://i.pinimg.com/736x/77/bd/80/77bd801ce63568802486ed15fa76807d.jpg",
+    "https://i.pinimg.com/736x/77/bd/80/77bd801ce63568802486ed15fa76807d.jpg",
   silverwj10:
-  "https://i.pinimg.com/736x/90/80/25/908025f62f7a8ef60f66d316aa7e30cb.jpg",
+    "https://i.pinimg.com/736x/90/80/25/908025f62f7a8ef60f66d316aa7e30cb.jpg",
   silverwj11:
-  "https://i.pinimg.com/1200x/d9/f3/58/d9f358409bec48f9581f6054ea3d4488.jpg",
+    "https://i.pinimg.com/1200x/d9/f3/58/d9f358409bec48f9581f6054ea3d4488.jpg",
   silverwj12:
-  "https://i.pinimg.com/1200x/ad/96/a1/ad96a10cfb08195d4401d500c43e42b2.jpg",
+    "https://i.pinimg.com/1200x/ad/96/a1/ad96a10cfb08195d4401d500c43e42b2.jpg",
   silverwj13:
-  "https://i.pinimg.com/736x/13/e7/1d/13e71d3c9260f9a1951c0ec378d175af.jpg",
+    "https://i.pinimg.com/736x/13/e7/1d/13e71d3c9260f9a1951c0ec378d175af.jpg",
   silverwj14:
-  "https://i.pinimg.com/736x/04/1c/2f/041c2fb2ae443eb971afda62a619bd5d.jpg",
+    "https://i.pinimg.com/736x/04/1c/2f/041c2fb2ae443eb971afda62a619bd5d.jpg",
   silverwj15:
-  "https://i.pinimg.com/736x/50/f9/9d/50f99d473a69ebf1f7bb49372c3ceb7f.jpg",
+    "https://i.pinimg.com/736x/50/f9/9d/50f99d473a69ebf1f7bb49372c3ceb7f.jpg",
   silverwj16:
-  "https://i.pinimg.com/736x/2e/0e/4b/2e0e4b38cf2033bf78a8417a1a94547e.jpg",
+    "https://i.pinimg.com/736x/2e/0e/4b/2e0e4b38cf2033bf78a8417a1a94547e.jpg",
   silverwj17:
-  "https://i.pinimg.com/736x/78/7d/fb/787dfb326ad4e1b7bc2b05cceb0ab476.jpg",
+    "https://i.pinimg.com/736x/78/7d/fb/787dfb326ad4e1b7bc2b05cceb0ab476.jpg",
   silverwj18:
-  "https://i.pinimg.com/1200x/c0/21/4b/c0214bccc1f6ee3472877e28c0953341.jpg",
+    "https://i.pinimg.com/1200x/c0/21/4b/c0214bccc1f6ee3472877e28c0953341.jpg",
   silverwj19:
-  "https://i.pinimg.com/1200x/1e/b6/43/1eb6435115b6a0e712f9c36db30d06f5.jpg",
+    "https://i.pinimg.com/1200x/1e/b6/43/1eb6435115b6a0e712f9c36db30d06f5.jpg",
   silverwj20:
-  "https://i.pinimg.com/1200x/9e/c4/3d/9ec43d69339e4bb014d36f27bc7ebd3e.jpg",
+    "https://i.pinimg.com/1200x/9e/c4/3d/9ec43d69339e4bb014d36f27bc7ebd3e.jpg",
   silverwj21:
-  "https://i.pinimg.com/1200x/82/05/7a/82057a118febecdcd7360d166736646f.jpg",
+    "https://i.pinimg.com/1200x/82/05/7a/82057a118febecdcd7360d166736646f.jpg",
   silverwj22:
-  "https://i.pinimg.com/1200x/87/2a/e8/872ae8cb1516806df51c5861d3558826.jpg",
+    "https://i.pinimg.com/1200x/87/2a/e8/872ae8cb1516806df51c5861d3558826.jpg",
   silverwj23:
-  "https://i.pinimg.com/1200x/53/4a/ee/534aee06c0fa53153fed8ae2f3d27277.jpg",
+    "https://i.pinimg.com/1200x/53/4a/ee/534aee06c0fa53153fed8ae2f3d27277.jpg",
   silverwj24:
-  "https://i.pinimg.com/736x/6b/ba/a8/6bbaa849fa75fc634b755409c3956470.jpg",
+    "https://i.pinimg.com/736x/6b/ba/a8/6bbaa849fa75fc634b755409c3956470.jpg",
   silverwj25:
-  "https://i.pinimg.com/736x/29/ec/5b/29ec5b8815df85460ddfeccb9d310d5c.jpg",
+    "https://i.pinimg.com/736x/29/ec/5b/29ec5b8815df85460ddfeccb9d310d5c.jpg",
   silverwj26:
-  "https://i.pinimg.com/736x/1a/ad/28/1aad28f6311e50c9dbc0f0603e6b4f7e.jpg",
+    "https://i.pinimg.com/736x/1a/ad/28/1aad28f6311e50c9dbc0f0603e6b4f7e.jpg",
   silverwj27:
-  "https://i.pinimg.com/736x/1b/f6/2f/1bf62f35bc20f44ae13890c2dc09d96a.jpg",
+    "https://i.pinimg.com/736x/1b/f6/2f/1bf62f35bc20f44ae13890c2dc09d96a.jpg",
   silverwj28:
-  "https://i.pinimg.com/1200x/85/3d/b8/853db8b8d6ef897c737cdf451d312872.jpg",
+    "https://i.pinimg.com/1200x/85/3d/b8/853db8b8d6ef897c737cdf451d312872.jpg",
   silverwj29:
-  "https://i.pinimg.com/736x/76/34/3b/76343b901b7aa2eedb596fb7b07c8a3f.jpg",
+    "https://i.pinimg.com/736x/76/34/3b/76343b901b7aa2eedb596fb7b07c8a3f.jpg",
   silverwj30:
-  "https://i.pinimg.com/736x/fb/6e/6c/fb6e6c0dbb7f6261e82599263f37a0bf.jpg",
+    "https://i.pinimg.com/736x/fb/6e/6c/fb6e6c0dbb7f6261e82599263f37a0bf.jpg",
   silverwj31:
-  "https://i.pinimg.com/736x/02/be/99/02be99c1fa8dbd0078c63970fb8349d5.jpg",
+    "https://i.pinimg.com/736x/02/be/99/02be99c1fa8dbd0078c63970fb8349d5.jpg",
   silverwj32:
-  "https://i.pinimg.com/736x/cb/52/0b/cb520b37e8ad13eae055dab081dc1d64.jpg",
+    "https://i.pinimg.com/736x/cb/52/0b/cb520b37e8ad13eae055dab081dc1d64.jpg",
   silverwj33:
-  "https://i.pinimg.com/1200x/05/f2/a7/05f2a7d95d30173dc21cbc43eb00c681.jpg",
+    "https://i.pinimg.com/1200x/05/f2/a7/05f2a7d95d30173dc21cbc43eb00c681.jpg",
   silverwj34:
-  "https://i.pinimg.com/1200x/b9/58/88/b958888ad08348e10fb4b21088d84251.jpg",
+    "https://i.pinimg.com/1200x/b9/58/88/b958888ad08348e10fb4b21088d84251.jpg",
   silverwj35:
-  "https://i.pinimg.com/1200x/55/16/89/5516894e13a8ddc44952f2af184a0525.jpg",
+    "https://i.pinimg.com/1200x/55/16/89/5516894e13a8ddc44952f2af184a0525.jpg",
   silverwj36:
-  "https://i.pinimg.com/736x/76/52/5f/76525f102f3b7e63a1958425285ef6dd.jpg",
-  
+    "https://i.pinimg.com/736x/76/52/5f/76525f102f3b7e63a1958425285ef6dd.jpg",
+
   silverwerr:
     "https://i.pinimg.com/736x/2e/46/08/2e4608b5837585d27913f5db735258ce.jpg",
   silverwerr2:
@@ -1007,69 +1045,66 @@ const I = {
     "https://i.pinimg.com/1200x/d8/af/91/d8af91a6f88e1f21494e9bffed8e8f21.jpg",
   silverwerr6:
     "https://i.pinimg.com/1200x/44/f3/bd/44f3bd12d2bbe1c69363adee6128ddb5.jpg",
-      silverwerr7:
+  silverwerr7:
     "https://i.pinimg.com/1200x/20/e4/ed/20e4ed04433e3441deeb507c01a28109.jpg",
-        silverwerr8:
+  silverwerr8:
     "https://i.pinimg.com/736x/8e/03/ec/8e03ec54b360843615faad2adcef1ec0.jpg",
-        silverwerr9:
+  silverwerr9:
     "https://i.pinimg.com/1200x/8c/18/29/8c18296c41e1dad43a2f128a4d361ebe.jpg",
-        silverwerr10:
+  silverwerr10:
     "https://i.pinimg.com/736x/ed/71/a4/ed71a40976dec68bebf5033bd18d62c3.jpg",
-        silverwerr11:
+  silverwerr11:
     "https://i.pinimg.com/736x/3a/f3/00/3af300b646a29f6099d367c85dc4045a.jpg",
-        silverwerr12:
+  silverwerr12:
     "https://i.pinimg.com/736x/e4/c1/15/e4c11509950412bd47159dc1b15d578f.jpg",
-        silverwerr13:
+  silverwerr13:
     "https://i.pinimg.com/1200x/11/01/a8/1101a8fcc0de5f0de84962799b8544ec.jpg",
-        silverwerr14:
+  silverwerr14:
     "https://i.pinimg.com/1200x/f3/31/23/f33123902df64f7f6eacdbe73eafa541.jpg",
-        silverwerr15:
+  silverwerr15:
     "https://i.pinimg.com/1200x/a8/f4/f1/a8f4f147a2f0aed4dd139c2852d5c1cd.jpg",
-        silverwerr16:
+  silverwerr16:
     "https://i.pinimg.com/736x/59/4c/7a/594c7a1fe044478a76376ceb843f8287.jpg",
-        silverwerr17:
+  silverwerr17:
     "https://i.pinimg.com/736x/96/18/b6/9618b6b918cf40d7e1e6742d8f5c81f6.jpg",
-        silverwerr18:
+  silverwerr18:
     "https://i.pinimg.com/1200x/84/6c/9a/846c9aed15c1cbfb26f6313c7414f7d8.jpg",
-        silverwerr19:
+  silverwerr19:
     "https://i.pinimg.com/736x/92/c1/5e/92c15eaefcb28c0262de83a8b69892e0.jpg",
-        silverwerr20:
+  silverwerr20:
     "https://i.pinimg.com/736x/71/b9/4e/71b94e007d4136991587a26cc1520cbb.jpg",
-        silverwerr21:
+  silverwerr21:
     "https://i.pinimg.com/736x/6b/a9/03/6ba903de53fbba9de207def4fad74a59.jpg",
-        silverwerr22:
+  silverwerr22:
     "https://i.pinimg.com/1200x/65/d7/59/65d7593c780d936bb77f4fa27b86119e.jpg",
-        silverwerr23:
+  silverwerr23:
     "https://i.pinimg.com/1200x/c0/fe/db/c0fedb94918e8391831c2107f7ff65fe.jpg",
-        silverwerr24:
+  silverwerr24:
     "https://i.pinimg.com/1200x/53/53/36/535336e75cb67088d5eef53729c27933.jpg",
-        silverwerr25:
+  silverwerr25:
     "https://i.pinimg.com/1200x/24/1a/2f/241a2f5f31089d63a550d4abe82e7bf2.jpg",
-        silverwerr26:
+  silverwerr26:
     "https://i.pinimg.com/1200x/fe/ef/60/feef603b4ffafc878f1d83ccdc8453da.jpg",
-        silverwerr27:
+  silverwerr27:
     "https://i.pinimg.com/1200x/98/61/9a/98619aa67054213154cbbb1a815eb706.jpg",
-        silverwerr28:
+  silverwerr28:
     "https://i.pinimg.com/1200x/4b/38/2d/4b382de9b3b512d99b412e594b539073.jpg",
-        silverwerr29:
+  silverwerr29:
     "https://i.pinimg.com/1200x/1c/b4/d3/1cb4d377909d64210a490fd668942fee.jpg",
-        silverwerr30:
+  silverwerr30:
     "https://i.pinimg.com/1200x/33/de/d8/33ded8479ab5b109e6fa61025f39588e.jpg",
-        silverwerr31:
+  silverwerr31:
     "https://i.pinimg.com/1200x/8f/8c/82/8f8c82ed4ae9db2c77048d606599a3ad.jpg",
-        silverwerr32:
+  silverwerr32:
     "https://i.pinimg.com/1200x/b2/0e/33/b20e3337ffb77e8150540ef7bb6e98e0.jpg",
-        silverwerr33:
+  silverwerr33:
     "https://i.pinimg.com/1200x/2a/34/73/2a347330470a542dfb50ea67ef566105.jpg",
-        silverwerr34:
+  silverwerr34:
     "https://i.pinimg.com/736x/85/c3/4e/85c34e897ab82c4f0988d51b3036a954.jpg",
-        silverwerr35:
+  silverwerr35:
     "https://i.pinimg.com/736x/9f/80/47/9f804712f035d77f821fd352574b6945.jpg",
-        silverwerr36:
+  silverwerr36:
     "https://i.pinimg.com/1200x/a4/e2/ea/a4e2ea10f4de20071dbe299645db9d59.jpg",
-    
-
-
 
   silverwch:
     "https://i.pinimg.com/736x/0d/49/c7/0d49c7f8592125020b58693fce85893d.jpg",
@@ -1084,94 +1119,91 @@ const I = {
   silverwch6:
     "https://i.pinimg.com/736x/5e/0f/38/5e0f3839e1a2e2c0a1f6747fa33bacbc.jpg",
 
-     silverwch7:
+  silverwch7:
     "https://i.pinimg.com/1200x/6a/e0/8e/6ae08e4e7a2a37f396967bd3fe148ebd.jpg",
-       silverwch8:
+  silverwch8:
     "https://i.pinimg.com/736x/9a/0d/bf/9a0dbfdf7f61e2cdfe7eaf103b56ec5e.jpg",
-       silverwch9:
+  silverwch9:
     "https://i.pinimg.com/1200x/c5/82/5e/c5825eaffe10697db787f9a052c1e180.jpg",
-       silverwch10:
+  silverwch10:
     "https://i.pinimg.com/736x/18/ec/a1/18eca1a45ad9caed0e6bbeeb05f2ac2b.jpg",
-         silverwch11:
+  silverwch11:
     "https://i.pinimg.com/736x/16/22/25/162225beee72f63a36800db1d00f3917.jpg",
-         silverwch12:
+  silverwch12:
     "https://i.pinimg.com/736x/f8/c2/e3/f8c2e30e2867c331b23d5949871db7eb.jpg",
-         silverwch13:
+  silverwch13:
     "https://i.pinimg.com/736x/9e/20/b0/9e20b00ca3e41a432588ee877e65a276.jpg",
-         silverwch14:
+  silverwch14:
     "https://i.pinimg.com/736x/07/37/c8/0737c85c63cfe308d38e64a0bc84ec0b.jpg",
-         silverwch15:
+  silverwch15:
     "https://i.pinimg.com/736x/04/c2/78/04c27862525bb0d7bb5eca398316787b.jpg",
-         silverwch16:
+  silverwch16:
     "https://i.pinimg.com/1200x/2f/0c/d3/2f0cd33fc84afd8d48af4c74396320df.jpg",
-         silverwch17:
+  silverwch17:
     "https://i.pinimg.com/1200x/c8/cb/1e/c8cb1e8a339bcddf2aead37bf5573c42.jpg",
-         silverwch18:
+  silverwch18:
     "https://i.pinimg.com/736x/f2/93/2d/f2932d38e3999941941dfabe51654c4f.jpg",
-         silverwch19:
+  silverwch19:
     "https://i.pinimg.com/736x/5f/9c/9e/5f9c9e87ade3969662fe8faa6824477c.jpg",
-         silverwch20:
+  silverwch20:
     "https://i.pinimg.com/736x/a0/21/52/a02152d32b8ab083b28e84328ebf657e.jpg",
-         silverwch21:
+  silverwch21:
     "https://i.pinimg.com/736x/67/c2/25/67c22519fa705d4b6983dc71a1c6c4fc.jpg",
-         silverwch22:
+  silverwch22:
     "https://i.pinimg.com/736x/c9/4b/e5/c94be54bc37950156e3125913063bc82.jpg",
-         silverwch23:
+  silverwch23:
     "https://i.pinimg.com/736x/47/dd/3b/47dd3b87ac1146cc84aa7a1c95f721fb.jpg",
-         silverwch24:
+  silverwch24:
     "https://i.pinimg.com/1200x/da/99/68/da99682f58a5d0e70965b504576ff4ac.jpg",
-   
-         silverwch25:
+
+  silverwch25:
     "https://i.pinimg.com/736x/56/69/bf/5669bf3c632d2ce106170883ebea3933.jpg",
-         silverwch26:
+  silverwch26:
     "https://i.pinimg.com/736x/dc/e4/ad/dce4ad277e1f2f98916552e01ccda5ca.jpg",
-         silverwch27:
+  silverwch27:
     "https://i.pinimg.com/1200x/48/39/01/483901b15251e988cced18f512de3c27.jpg",
-         silverwch28:
+  silverwch28:
     "https://i.pinimg.com/736x/3f/f7/d1/3ff7d18b7e6e0c1ed7b7566554887b7f.jpg",
-         silverwch29:
+  silverwch29:
     "https://i.pinimg.com/736x/c6/06/1f/c6061fa77b623228e1cf4d095a69c587.jpg",
-         silverwch30:
+  silverwch30:
     "https://i.pinimg.com/1200x/ad/c2/7f/adc27f6728b8c5d0041f1630eaf1782f.jpg",
-         silverwch31:
+  silverwch31:
     "https://i.pinimg.com/736x/7f/77/a2/7f77a2f521c0ca31a89e4291736b46ed.jpg",
-         silverwch32:
+  silverwch32:
     "https://i.pinimg.com/736x/22/91/74/229174762fd60b16a69faf5578280d14.jpg",
-         silverwch33:
+  silverwch33:
     "https://i.pinimg.com/1200x/87/59/34/8759340338d8547511ffce0b62180546.jpg",
-         silverwch34:
+  silverwch34:
     "https://i.pinimg.com/1200x/54/de/88/54de887b3cd53e04645c229ae9fdc282.jpg",
-         silverwch35:
+  silverwch35:
     "https://i.pinimg.com/736x/00/fe/69/00fe696ad4880fb45728cc16c4e82ba5.jpg",
-         silverwch36:
+  silverwch36:
     "https://i.pinimg.com/1200x/bb/1b/b3/bb1bb33e3dc469a5cd97c3a2c4ef195a.jpg",
-         silverwch37:
+  silverwch37:
     "https://i.pinimg.com/1200x/29/66/1d/29661d43d4c00e7c40d467728bec9f81.jpg",
-         silverwch38:
+  silverwch38:
     "https://i.pinimg.com/1200x/09/8c/a1/098ca16850b11eb238ea34976b919ebe.jpg",
-         silverwch39:
+  silverwch39:
     "https://i.pinimg.com/1200x/20/f1/78/20f1789f435f7a80e1114f2d10a7ae74.jpg",
-         silverwch40:
+  silverwch40:
     "https://i.pinimg.com/1200x/31/ed/eb/31edebc2dcabbd4bfba2503870415236.jpg",
-         silverwch41:
+  silverwch41:
     "https://i.pinimg.com/1200x/a1/e4/85/a1e485231d6abe46baa50f62a603c941.jpg",
-         silverwch42:
+  silverwch42:
     "https://i.pinimg.com/736x/0b/29/ba/0b29babb7987a50434b10d34cabb3c79.jpg",
-         silverwch43:
+  silverwch43:
     "https://i.pinimg.com/1200x/23/72/99/237299da0812c2849af88b80e71c3fae.jpg",
-         silverwch44:
+  silverwch44:
     "https://i.pinimg.com/1200x/b9/e5/4f/b9e54f9ee27d719c6bee575d3e5dd3e9.jpg",
-           silverwch45:
+  silverwch45:
     "https://i.pinimg.com/1200x/47/31/93/473193f006bae3f3ac4cda8c44abc034.jpg",
-           silverwch46:
+  silverwch46:
     "https://i.pinimg.com/736x/0b/1c/3f/0b1c3faf1622a76c2cc9d8a81903a563.jpg",
-           silverwch47:
+  silverwch47:
     "https://i.pinimg.com/736x/2b/88/15/2b8815714c01b6e8ac920bb0819af4b8.jpg",
-           silverwch48:
+  silverwch48:
     "https://i.pinimg.com/736x/62/f8/06/62f80603e575ff94d47db4307d1571fb.jpg",
-
-
-
 
   silverwri:
     "https://i.pinimg.com/1200x/ab/98/54/ab985443b8ab2d6f288a5d4cdf554903.jpg",
@@ -1185,6 +1217,90 @@ const I = {
     "https://i.pinimg.com/1200x/0b/05/27/0b0527600af58b7c721c7dd9095fcc94.jpg",
   silverwri6:
     "https://i.pinimg.com/1200x/91/59/37/9159375914b1caa05c2651e9e1676ec3.jpg",
+  silverwri7:
+    "https://i.pinimg.com/1200x/e3/40/9d/e3409d04b1272e843584db3238c52189.jpg",
+  silverwri8:
+    "https://i.pinimg.com/1200x/b5/16/c5/b516c59c1088b1368ed0acd3670a2a7e.jpg",
+  silverwri9:
+    "https://i.pinimg.com/1200x/ef/94/65/ef9465757fad4b03b2b84af48b8f80f7.jpg",
+  silverwri10:
+    "https://i.pinimg.com/1200x/0d/8c/d9/0d8cd9643712e3d90da111dcbf8f812c.jpg",
+  silverwri11:
+    "https://i.pinimg.com/1200x/c0/a7/3d/c0a73d2ba196c48edd149f1bacbdb84a.jpg",
+  silverwri12:
+    "https://i.pinimg.com/736x/f7/82/d6/f782d63f1310248491cb6af536262607.jpg",
+  silverwri13:
+    "https://i.pinimg.com/736x/13/77/4f/13774fd91c43fcc04714fb47ee7485ed.jpg",
+  silverwri14:
+    "https://i.pinimg.com/1200x/2a/67/bc/2a67bc3fd991dabfcabc49b8cf040c4b.jpg",
+  silverwri15:
+    "https://i.pinimg.com/1200x/53/de/08/53de08b37deaba27b4a12188ab5b0dc9.jpg",
+  silverwri16:
+    "https://i.pinimg.com/736x/d5/a3/86/d5a386068576f34bd28b2eb4c8bad76a.jpg",
+  silverwri17:
+    "https://i.pinimg.com/1200x/f9/8c/0c/f98c0c07f24a7a38719fe0cb545ca00d.jpg",
+  silverwri18:
+    "https://i.pinimg.com/736x/1b/3a/d7/1b3ad7facdb033d987f896c89bcf085b.jpg",
+  silverwri19:
+    "https://i.pinimg.com/736x/61/83/6c/61836cc15ba699d74139726b547fe397.jpg",
+  silverwri20:
+    "https://i.pinimg.com/1200x/2c/83/96/2c839639d90f00fcec2fc3e4f4aecc20.jpg",
+  silverwri21:
+    "https://i.pinimg.com/736x/ad/42/0e/ad420e0348ed83abb5ad925331a11283.jpg",
+  silverwri22:
+    "https://i.pinimg.com/1200x/7e/43/59/7e43591bb0ea3d22261d4bd8f7888496.jpg",
+  silverwri23:
+    "https://i.pinimg.com/736x/3f/d1/f8/3fd1f8f8bd13f60412cdfd5900501d05.jpg",
+  silverwri24:
+    "https://i.pinimg.com/736x/af/5f/a7/af5fa73af802170f49c2733944c68078.jpg",
+  silverwri25:
+    "https://i.pinimg.com/1200x/a3/99/9c/a3999cdce88e29bc11a2ed58f6d19abe.jpg",
+  silverwri26:
+    "https://i.pinimg.com/1200x/09/01/b9/0901b99471edc4840e4983177f85958a.jpg",
+  silverwri27:
+    "https://i.pinimg.com/736x/de/80/92/de8092cbe39e433b8d43c3f01fe96774.jpg",
+  silverwri28:
+    "https://i.pinimg.com/1200x/bd/0e/a2/bd0ea21120726b5d5ae273c4490bb5b4.jpg",
+  silverwri29:
+    "https://i.pinimg.com/1200x/e9/af/29/e9af29d0e4c0cfce33ff98616ec0a4b0.jpg",
+  silverwri30:
+    "https://i.pinimg.com/1200x/e9/af/29/e9af29d0e4c0cfce33ff98616ec0a4b0.jpg",
+  silverwri31:
+    "https://i.pinimg.com/736x/a2/f2/77/a2f277b6ccabc303b67b90fd92fe1c9c.jpg",
+  silverwri32:
+    "https://i.pinimg.com/1200x/ff/d2/da/ffd2da62747ae7dc38c502ed46310dad.jpg",
+  silverwri33:
+    "https://i.pinimg.com/736x/81/6f/8e/816f8e548d2c702b262cf997d0f54ebb.jpg",
+  silverwri34:
+    "https://i.pinimg.com/736x/ba/11/3c/ba113c9da3ed81e74b05ac294b5a66f2.jpg",
+  silverwri35:
+    "https://i.pinimg.com/1200x/ab/21/21/ab2121436c11009eed39703436554098.jpg",
+  silverwri36:
+    "https://i.pinimg.com/1200x/94/f3/63/94f3631888277f454f4d4c73f87b28f3.jpg",
+  silverwri37:
+    "https://i.pinimg.com/1200x/0c/33/1c/0c331ca1d3cdedaa9c95066084b33e64.jpg",
+  silverwri38:
+    "https://i.pinimg.com/736x/10/c6/6e/10c66e15632f64049b76302b142efcde.jpg",
+  silverwri39:
+    "https://i.pinimg.com/1200x/45/b1/43/45b143b1225a3e501e5e84e524319955.jpg",
+  silverwri40:
+    "https://i.pinimg.com/1200x/7a/f6/cc/7af6cc0adc82f6dad58929b42dfe8b57.jpg",
+  silverwri41:
+    "https://i.pinimg.com/1200x/4a/c9/e3/4ac9e36dcb7cd1d5b75bf98c1d91af75.jpg",
+  silverwri42:
+    "https://i.pinimg.com/736x/3d/44/ec/3d44ec49eef6f63606388d9373a98644.jpg",
+  silverwri43:
+    "https://i.pinimg.com/736x/5a/49/e1/5a49e15303d0061aba31ce08cca59cf4.jpg",
+  silverwri44:
+    "https://i.pinimg.com/736x/df/98/7a/df987ab527936d5cc1cfcf6fdb3cbe53.jpg",
+  silverwri45:
+    "https://i.pinimg.com/1200x/2b/4c/ec/2b4cec578d1e7af28a9fac846031f0d6.jpg",
+  silverwri46:
+    "https://i.pinimg.com/1200x/99/9c/a2/999ca2916e53404467c360d1799bc098.jpg",
+  silverwri47:
+    "https://i.pinimg.com/736x/6c/bc/b9/6cbcb96c50a4d479f2ab92ddec616df2.jpg",
+  silverwri48:
+    "https://i.pinimg.com/736x/64/e0/2b/64e02b6bb7c0efced0c0529c0393e6db.jpg",
 
   silvermbra:
     "https://i.pinimg.com/1200x/c7/8c/6f/c78c6f88c3d45cf6ccf713203cb1508d.jpg",
@@ -1198,65 +1314,65 @@ const I = {
     "https://i.pinimg.com/1200x/75/91/03/759103c59eb644b634cc1e7f471e95d4.jpg",
   silvermbra6:
     "https://i.pinimg.com/1200x/73/78/56/7378560c83a15023c80527ffb92f928f.jpg",
-    silvermbra7:
+  silvermbra7:
     "https://i.pinimg.com/1200x/2d/c3/29/2dc329fd475e59ee1b2bfa4f82589a84.jpg",
-    silvermbra8:
+  silvermbra8:
     "https://i.pinimg.com/736x/e5/b3/99/e5b399184060474881fafaf38d789c41.jpg",
-    silvermbra9:
+  silvermbra9:
     "https://i.pinimg.com/1200x/24/4c/8b/244c8bc757abeaf1fe6c7bd0bb481d19.jpg",
-    silvermbra10:
+  silvermbra10:
     "https://i.pinimg.com/1200x/49/e9/02/49e902857688176cddb5d78d8bf1858e.jpg",
-    silvermbra11:
+  silvermbra11:
     "https://i.pinimg.com/736x/07/b3/ad/07b3ad9892cab4c118f93ee1b63dd344.jpg",
-    silvermbra12:
+  silvermbra12:
     "https://i.pinimg.com/1200x/e7/39/fa/e739faa84bc2b1e8466bee7b05dd2440.jpg",
-    silvermbra13:
+  silvermbra13:
     "https://i.pinimg.com/1200x/ad/da/ac/addaacd3d8fb1e86930d6bb23ff4f2ed.jpg",
-    silvermbra14:
+  silvermbra14:
     "https://i.pinimg.com/1200x/91/42/2a/91422a663ceacc82471dbf574dd11b19.jpg",
-    silvermbra15:
+  silvermbra15:
     "https://i.pinimg.com/1200x/3c/9a/fb/3c9afb5b899b98865207331737fa4ca4.jpg",
-    silvermbra16:
+  silvermbra16:
     "https://i.pinimg.com/1200x/34/c6/c6/34c6c695755064f6a3fd58ac632dddb5.jpg",
-    silvermbra17:
+  silvermbra17:
     "https://i.pinimg.com/1200x/d4/7b/b3/d47bb3cfff7c6c07d96cbbb906e65d29.jpg",
-    silvermbra18:
+  silvermbra18:
     "https://i.pinimg.com/1200x/2d/b6/de/2db6de71fd046b8f9994fa43c3da2acf.jpg",
-    silvermbra19:
+  silvermbra19:
     "https://i.pinimg.com/1200x/a5/8b/3e/a58b3e7e1bba3a92989fc903818b06a5.jpg",
-    silvermbra20:
+  silvermbra20:
     "https://i.pinimg.com/1200x/26/c4/0b/26c40b699b78d0113b1574c8378db9bd.jpg",
-    silvermbra21:
+  silvermbra21:
     "https://i.pinimg.com/1200x/1f/f8/c7/1ff8c788fb376114f7dd0e0284051888.jpg",
-    silvermbra22:
+  silvermbra22:
     "https://i.pinimg.com/736x/a8/6b/f6/a86bf690fc4c5c8f3b2eed6b504dd5a6.jpg",
-    silvermbra23:
+  silvermbra23:
     "https://i.pinimg.com/1200x/bf/45/51/bf4551a85452740ccaa1eb2758296b00.jpg",
-    silvermbra24:
+  silvermbra24:
     "https://i.pinimg.com/1200x/16/cd/0f/16cd0ff7555446f0230a5754b6de7a37.jpg",
-    silvermbra25:
+  silvermbra25:
     "https://i.pinimg.com/1200x/de/2c/76/de2c7683e423ceb5f9d321e97758705f.jpg",
-    silvermbra26:
+  silvermbra26:
     "https://i.pinimg.com/1200x/25/40/8a/25408a5bbabe9f9e3ca7f1cd632ff2b2.jpg",
-    silvermbra27:
+  silvermbra27:
     "https://i.pinimg.com/1200x/2d/b6/de/2db6de71fd046b8f9994fa43c3da2acf.jpg",
-    silvermbra28:
+  silvermbra28:
     "https://i.pinimg.com/1200x/d5/a9/22/d5a92209c599f300a9b08cf96795002d.jpg",
-    silvermbra29:
+  silvermbra29:
     "https://i.pinimg.com/1200x/a2/a2/4b/a2a24b85287a31f5f1fd0a4761233186.jpg",
-    silvermbra30:
+  silvermbra30:
     "https://i.pinimg.com/1200x/49/da/62/49da62094b7290f8cfca85e4743f6c8b.jpg",
-    silvermbra31:
+  silvermbra31:
     "https://i.pinimg.com/1200x/7b/92/36/7b92366a3a08f2adf39a9c94fc3833e0.jpg",
-    silvermbra32:
+  silvermbra32:
     "https://i.pinimg.com/1200x/3c/be/f3/3cbef32f7a360ec8210bc659b0391a1a.jpg",
-    silvermbra33:
+  silvermbra33:
     "https://i.pinimg.com/1200x/11/f5/13/11f513f4ea2b179ca8cf23f8f2755c13.jpg",
-    silvermbra34:
+  silvermbra34:
     "https://i.pinimg.com/1200x/50/11/9c/50119c4d1cc27c2683eb4e3a4ce92340.jpg",
-    silvermbra35:
+  silvermbra35:
     "https://i.pinimg.com/1200x/30/5d/98/305d980a5e0d85e076df2ddea1745ec7.jpg",
-    silvermbra36:
+  silvermbra36:
     "https://i.pinimg.com/1200x/4e/6b/36/4e6b36991baaea85a36244f5d4cd51fe.jpg",
 
   silvermka:
@@ -1319,12 +1435,18 @@ const I = {
     "https://i.pinimg.com/736x/c2/a3/73/c2a373755160cc71a24004228924501d.jpg",
   silvermka30:
     "https://i.pinimg.com/1200x/c4/03/44/c40344e1740442de5c338cac87a67751.jpg",
-  silvermka31: "https://i.pinimg.com/1200x/2a/45/e9/2a45e960172945f513868bd2baaef166.jpg",
-  silvermka32: "https://i.pinimg.com/736x/c3/af/af/c3afafb24442422826e5905eba613bb0.jpg",
-  silvermka33: "https://i.pinimg.com/1200x/51/51/b2/5151b284b1e8353c9163c1d22d837637.jpg",
-  silvermka34: "https://i.pinimg.com/1200x/01/02/24/0102249df2ea8e82ba58dd8e4c8843db.jpg",
-  silvermka35: "https://i.pinimg.com/1200x/b0/31/7c/b0317c8218e0cae6b36fa3d9fc440a2a.jpg",
-  silvermka36: "https://i.pinimg.com/1200x/08/0f/b6/080fb61fa44d7ac4f28c424d61fc8f6c.jpg",
+  silvermka31:
+    "https://i.pinimg.com/1200x/2a/45/e9/2a45e960172945f513868bd2baaef166.jpg",
+  silvermka32:
+    "https://i.pinimg.com/736x/c3/af/af/c3afafb24442422826e5905eba613bb0.jpg",
+  silvermka33:
+    "https://i.pinimg.com/1200x/51/51/b2/5151b284b1e8353c9163c1d22d837637.jpg",
+  silvermka34:
+    "https://i.pinimg.com/1200x/01/02/24/0102249df2ea8e82ba58dd8e4c8843db.jpg",
+  silvermka35:
+    "https://i.pinimg.com/1200x/b0/31/7c/b0317c8218e0cae6b36fa3d9fc440a2a.jpg",
+  silvermka36:
+    "https://i.pinimg.com/1200x/08/0f/b6/080fb61fa44d7ac4f28c424d61fc8f6c.jpg",
 
   silvermch:
     "https://i.pinimg.com/1200x/0d/15/d7/0d15d7c497c705a10d084959671a8449.jpg",
@@ -1641,7 +1763,25 @@ const I = {
     "https://i.pinimg.com/736x/c0/a5/3d/c0a53d9e71184eb0efd3331e2800a5a8.jpg",
   goldker3:
     "https://i.pinimg.com/736x/6a/c0/4c/6ac04c52e8780acb45fa46c02ea5cbbf.jpg",
-    // goldkan,goldknp,goldkpe,goldkhp,goldkto,goldkcu,goldkhc,goldkchm,goldkid,goldkanb,goldkha,goldkto2
+  // goldkan,goldknp,goldkpe,goldkhp,goldkto,goldkcu,goldkhc
+  goldkan:
+    "https://i.pinimg.com/736x/2c/43/c1/2c43c1cd4d7d71cef39d31588aa374df.jpg",
+  goldknp:
+    "https://i.pinimg.com/1200x/e0/0e/b0/e00eb0ce5d5f0d30dabffd84a690846d.jpg",
+  goldkpe:
+    "https://i.pinimg.com/736x/46/2b/31/462b31c9bd816371c916d423788003cf.jpg",
+  goldkhp:
+    "https://i.pinimg.com/1200x/da/f7/fa/daf7fa1d5f5bf9a58e650a233866286c.jpg",
+  goldkto:
+    "https://i.pinimg.com/1200x/48/75/76/4875760b23ea17633818d2e77313d8eb.jpg",
+  goldkhc:
+    "https://i.pinimg.com/1200x/d1/bc/cc/d1bccc14e1deaed12f7121b4b78142d1.jpg",
+  goldkcu:
+    "https://i.pinimg.com/1200x/ad/95/6e/ad956ed5df6bcbc828d585b11496a684.jpg",
+  goldkchm:
+    "https://i.pinimg.com/1200x/2f/03/d5/2f03d53295a2f8f5d58b2656bcc54549.jpg",
+
+
   goldwtn:
     "https://i.pinimg.com/736x/bf/99/12/bf99123de342a2af42066b3436585939.jpg",
   goldwtn2:
@@ -1654,18 +1794,27 @@ const I = {
     "https://i.pinimg.com/736x/11/6f/36/116f360a9fbcf1e2067219f6db0d7fe0.jpg",
   goldwtn6:
     "https://i.pinimg.com/736x/e0/78/83/e078838e98c27f334a466d457a5bac83.jpg",
-  goldwtn7:"https://i.pinimg.com/control1/1200x/b8/6c/dc/b86cdcbc7fc891b86c7b926a9a28c6a4.jpg",
-  goldwtn8:"https://i.pinimg.com/1200x/6c/8f/d3/6c8fd34aa6e7926460b2609abc815516.jpg",
-  goldwtn9:"https://i.pinimg.com/1200x/8e/ed/7f/8eed7f9b5feff012e23d5d10282a930b.jpg",
-  goldwtn10:"https://i.pinimg.com/736x/03/ca/84/03ca84ee598b2b67010fcdf8d9f03f39.jpg",
-  goldwtn11:"https://i.pinimg.com/control1/1200x/2a/3a/de/2a3ade462629739548d0673c93a05ef4.jpg",
-  goldwtn12:"https://i.pinimg.com/1200x/8e/22/81/8e2281b03f52bf7e90a49c45a97afcd3.jpg",
-  goldwtn13:"https://i.pinimg.com/1200x/ab/1e/b2/ab1eb2ef9531ff877cba47405ace4f3a.jpg",
-  goldwtn14:"https://i.pinimg.com/736x/53/1b/ec/531becad421cdc6bc7e5645d9be0d4ef.jpg",
-  goldwtn15:"https://i.pinimg.com/1200x/3e/b6/10/3eb610409ac4e1c09b1888de737fa07e.jpg",
-  goldwtn16:"https://i.pinimg.com/1200x/f9/43/f9/f943f960b5c84fae427099de8e18d465.jpg",
+  goldwtn7:
+    "https://i.pinimg.com/control1/1200x/b8/6c/dc/b86cdcbc7fc891b86c7b926a9a28c6a4.jpg",
+  goldwtn8:
+    "https://i.pinimg.com/1200x/6c/8f/d3/6c8fd34aa6e7926460b2609abc815516.jpg",
+  goldwtn9:
+    "https://i.pinimg.com/1200x/8e/ed/7f/8eed7f9b5feff012e23d5d10282a930b.jpg",
+  goldwtn10:
+    "https://i.pinimg.com/736x/03/ca/84/03ca84ee598b2b67010fcdf8d9f03f39.jpg",
+  goldwtn11:
+    "https://i.pinimg.com/control1/1200x/2a/3a/de/2a3ade462629739548d0673c93a05ef4.jpg",
+  goldwtn12:
+    "https://i.pinimg.com/1200x/8e/22/81/8e2281b03f52bf7e90a49c45a97afcd3.jpg",
+  goldwtn13:
+    "https://i.pinimg.com/1200x/ab/1e/b2/ab1eb2ef9531ff877cba47405ace4f3a.jpg",
+  goldwtn14:
+    "https://i.pinimg.com/736x/53/1b/ec/531becad421cdc6bc7e5645d9be0d4ef.jpg",
+  goldwtn15:
+    "https://i.pinimg.com/1200x/3e/b6/10/3eb610409ac4e1c09b1888de737fa07e.jpg",
+  goldwtn16:
+    "https://i.pinimg.com/1200x/f9/43/f9/f943f960b5c84fae427099de8e18d465.jpg",
 
-  
   goldbride:
     "https://i.pinimg.com/1200x/9f/a7/c3/9fa7c36bb7614508661f294f9912f064.jpg",
   goldbride2:
@@ -1696,10 +1845,26 @@ const I = {
     "https://i.pinimg.com/736x/8c/a5/62/8ca562e4a6deca52f289ce36d61002b0.jpg",
   goldbangle3:
     "https://i.pinimg.com/736x/47/1a/b0/471ab005d55c098b881c6d6d17934734.jpg",
+  goldpayal:
+    "https://i.pinimg.com/736x/e8/9a/a5/e89aa56afa5aa39c4c4c0b5e86aeb068.jpg",
+  goldmangalsutra:
+    "https://i.pinimg.com/1200x/41/b7/f5/41b7f5fb1d67d51c138541056d886ff8.jpg",
+  goldmaangtikka:
+    "https://i.pinimg.com/1200x/0f/4e/35/0f4e352f0e43a823e2bfbd9e490bc112.jpg",
+  goldbridale:
+    "https://i.pinimg.com/1200x/f7/4f/44/f74f44be294900bbd392742aca65aa2f.jpg",
+  goldbridalr:
+    "https://i.pinimg.com/1200x/e6/ac/64/e6ac6401655093f1bde222114bdedb5b.jpg",
+  goldbridalh:
+    "https://i.pinimg.com/1200x/67/7a/f4/677af4d88e77df3ebde44757bde870d8.jpg",
+  goldbridalw:
+    "https://i.pinimg.com/1200x/97/70/c8/9770c8889957984c0faf87c1f2b02160.jpg",
+  
 
   goldtops:
     "https://i.pinimg.com/1200x/2e/c9/77/2ec977371f54ff31a21379a853b5e67b.jpg",
-  goldtops2:"https://i.pinimg.com/736x/a7/cb/b1/a7cbb1047bf3f9cccac425f4095cfb8f.jpg",
+  goldtops2:
+    "https://i.pinimg.com/736x/a7/cb/b1/a7cbb1047bf3f9cccac425f4095cfb8f.jpg",
   goldtops3:
     "https://i.pinimg.com/736x/5b/3b/5b/5b3b5b06e234e4422602ea936e311975.jpg",
   goldtops4:
@@ -1708,48 +1873,90 @@ const I = {
     "https://i.pinimg.com/736x/8e/97/ac/8e97acf09973a37b239755f612a9794e.jpg",
   goldtops6:
     "https://i.pinimg.com/1200x/c9/89/52/c98952e57802ed72e9f86e51191e67d8.jpg",
-  goldtops7:"https://i.pinimg.com/736x/ef/d8/50/efd850f1368d1fc895d2dbb3df4d6fe7.jpg",
-  goldtops8:"https://i.pinimg.com/736x/ef/d8/50/efd850f1368d1fc895d2dbb3df4d6fe7.jpg",
-  goldtops9:"https://i.pinimg.com/1200x/37/8a/f8/378af8bbdfd036755f84cf689baed56f.jpg",
-  goldtops10:"https://i.pinimg.com/1200x/9b/76/cd/9b76cd4bd50f4f203411767eb507b121.jpg",
-  goldtops11:"https://i.pinimg.com/736x/f2/5b/cd/f25bcd5d114b621fca19a275bcd64911.jpg",
-  goldtops12:"https://i.pinimg.com/1200x/f2/af/83/f2af836c6650a6ab771803ae3a7b4d03.jpg",
-  goldtops13:"https://i.pinimg.com/736x/af/db/63/afdb631b0eaba0346c6c024a030e6a70.jpg",
-  goldtops14:"https://i.pinimg.com/1200x/cc/e0/d5/cce0d5b4bd5fa6aa65d2d7778919f603.jpg",
-  goldtops15:"https://i.pinimg.com/control1/1200x/b9/e9/25/b9e9254ef2197faba42d13a7bf9cd392.jpg",
-  goldtops16:"https://i.pinimg.com/1200x/7b/7d/57/7b7d573eadb18e5dae3255ce043216a2.jpg",
-  goldtops17:"https://i.pinimg.com/1200x/e9/74/0b/e9740b02a97232ff23e556e25e12f0f5.jpg",
-  goldtops18:"https://i.pinimg.com/736x/b9/75/40/b97540b3f0e85e9f6b1c97f4f8734855.jpg",
-  goldtops19:"https://i.pinimg.com/1200x/94/e2/a2/94e2a209f9aeb77f17ada305e39be59d.jpg",
-  goldtops20:"https://i.pinimg.com/1200x/48/1e/74/481e7411818155d7d635b1af3f88efd7.jpg",
-  goldtops21:"https://i.pinimg.com/736x/fb/73/cd/fb73cd0164d4d42674e40d6fb324408a.jpg",
-  goldtops22:"https://i.pinimg.com/1200x/83/91/f3/8391f3ef4ac1d8d140ab0f41aa4722ce.jpg",
-  goldtops23:"https://i.pinimg.com/1200x/a5/86/cc/a586cc911d707c99ef3bf1a8347e273c.jpg",
-  goldtops24:"https://i.pinimg.com/736x/d0/ba/13/d0ba1355e731b80b01e740badd608489.jpg",
-  goldtops25:"https://i.pinimg.com/736x/d6/e3/c2/d6e3c2c77c3368712eabd491a24f2d85.jpg",
-  goldtops26:"https://i.pinimg.com/736x/73/f3/46/73f34646846c9aa0fc2b2635c0924112.jpg",
-  goldtops27:"https://i.pinimg.com/1200x/55/e7/d3/55e7d3185948875bf2b81a42c39abb82.jpg",
-  goldtops28:"https://i.pinimg.com/1200x/6f/e8/15/6fe815a28e05c17717c2b19ebd9215f9.jpg",
-  goldtops29:"https://i.pinimg.com/control1/1200x/95/a1/0c/95a10cc05c8bc85ea3f5918ab813ccec.jpg",
-  goldtops30:"https://i.pinimg.com/736x/87/f7/1c/87f71c6780566e2c8868b77bfe520781.jpg",
-  goldtops31:"https://i.pinimg.com/1200x/21/ed/ae/21edae06b14d542d1c47ac1462053110.jpg",
-  goldtops32:"https://i.pinimg.com/1200x/82/45/1a/82451a3302f75774c01905c11b96465e.jpg",
-  goldtops33:"https://i.pinimg.com/1200x/71/96/52/719652f5155df3c0bc66dcb677f869a2.jpg",
-  goldtops34:"https://i.pinimg.com/1200x/82/37/db/8237db664283531cea855cb84c782c96.jpg",
-  goldtops35:"https://i.pinimg.com/1200x/b4/f0/11/b4f01184fbb645ba3e799739960b9411.jpg",
-  goldtops36:"https://i.pinimg.com/1200x/c8/6a/05/c86a05daa67e5dde78e4028f56ce3cf4.jpg",
-  goldtops37:"https://i.pinimg.com/736x/7a/c0/0c/7ac00c570c4e955aeb6c4d18790485e7.jpg",
-  goldtops38:"https://i.pinimg.com/736x/10/05/06/100506f00a782e4000db6437aeaef07f.jpg",
-  goldtops39:"https://i.pinimg.com/1200x/75/fa/89/75fa89913214ea7d3132716ecc80408f.jpg",
-  goldtops40:"https://i.pinimg.com/736x/36/ac/a2/36aca23efbf189a36343e81e1946038c.jpg",
-  goldtops41:"https://i.pinimg.com/736x/d0/e7/9e/d0e79e31b1ec41aa5015378996416141.jpg",
-  goldtops42:"https://i.pinimg.com/1200x/b9/d6/c4/b9d6c41f50740760a9f3741efb848a73.jpg",
-  goldtops43:"https://i.pinimg.com/control1/1200x/e2/cb/3e/e2cb3ef09369d0d8d935656bcb12d848.jpg",
-  goldtops44:"https://i.pinimg.com/1200x/45/e1/54/45e154ffe4b648f581d501da25c0c6bf.jpg",
-  goldtops45:"https://i.pinimg.com/736x/95/1b/3b/951b3b194f245ca2d05efef7e67a16f0.jpg",
-  goldtops46:"https://i.pinimg.com/1200x/46/44/10/464410cae2b585a0557e664895d805b8.jpg",
-  goldtops47:"https://i.pinimg.com/736x/61/0a/b1/610ab1284fb0d19620c7debf870ef887.jpg",
-  goldtops48:"https://i.pinimg.com/control1/1200x/76/b4/fd/76b4fd596bc3ea469e4f7c976bae073b.jpg",
+  goldtops7:
+    "https://i.pinimg.com/736x/ef/d8/50/efd850f1368d1fc895d2dbb3df4d6fe7.jpg",
+  goldtops8:
+    "https://i.pinimg.com/736x/ef/d8/50/efd850f1368d1fc895d2dbb3df4d6fe7.jpg",
+  goldtops9:
+    "https://i.pinimg.com/1200x/37/8a/f8/378af8bbdfd036755f84cf689baed56f.jpg",
+  goldtops10:
+    "https://i.pinimg.com/1200x/9b/76/cd/9b76cd4bd50f4f203411767eb507b121.jpg",
+  goldtops11:
+    "https://i.pinimg.com/736x/f2/5b/cd/f25bcd5d114b621fca19a275bcd64911.jpg",
+  goldtops12:
+    "https://i.pinimg.com/1200x/f2/af/83/f2af836c6650a6ab771803ae3a7b4d03.jpg",
+  goldtops13:
+    "https://i.pinimg.com/736x/af/db/63/afdb631b0eaba0346c6c024a030e6a70.jpg",
+  goldtops14:
+    "https://i.pinimg.com/1200x/cc/e0/d5/cce0d5b4bd5fa6aa65d2d7778919f603.jpg",
+  goldtops15:
+    "https://i.pinimg.com/control1/1200x/b9/e9/25/b9e9254ef2197faba42d13a7bf9cd392.jpg",
+  goldtops16:
+    "https://i.pinimg.com/1200x/7b/7d/57/7b7d573eadb18e5dae3255ce043216a2.jpg",
+  goldtops17:
+    "https://i.pinimg.com/1200x/e9/74/0b/e9740b02a97232ff23e556e25e12f0f5.jpg",
+  goldtops18:
+    "https://i.pinimg.com/736x/b9/75/40/b97540b3f0e85e9f6b1c97f4f8734855.jpg",
+  goldtops19:
+    "https://i.pinimg.com/1200x/94/e2/a2/94e2a209f9aeb77f17ada305e39be59d.jpg",
+  goldtops20:
+    "https://i.pinimg.com/1200x/48/1e/74/481e7411818155d7d635b1af3f88efd7.jpg",
+  goldtops21:
+    "https://i.pinimg.com/736x/fb/73/cd/fb73cd0164d4d42674e40d6fb324408a.jpg",
+  goldtops22:
+    "https://i.pinimg.com/1200x/83/91/f3/8391f3ef4ac1d8d140ab0f41aa4722ce.jpg",
+  goldtops23:
+    "https://i.pinimg.com/1200x/a5/86/cc/a586cc911d707c99ef3bf1a8347e273c.jpg",
+  goldtops24:
+    "https://i.pinimg.com/736x/d0/ba/13/d0ba1355e731b80b01e740badd608489.jpg",
+  goldtops25:
+    "https://i.pinimg.com/736x/d6/e3/c2/d6e3c2c77c3368712eabd491a24f2d85.jpg",
+  goldtops26:
+    "https://i.pinimg.com/736x/73/f3/46/73f34646846c9aa0fc2b2635c0924112.jpg",
+  goldtops27:
+    "https://i.pinimg.com/1200x/55/e7/d3/55e7d3185948875bf2b81a42c39abb82.jpg",
+  goldtops28:
+    "https://i.pinimg.com/1200x/6f/e8/15/6fe815a28e05c17717c2b19ebd9215f9.jpg",
+  goldtops29:
+    "https://i.pinimg.com/control1/1200x/95/a1/0c/95a10cc05c8bc85ea3f5918ab813ccec.jpg",
+  goldtops30:
+    "https://i.pinimg.com/736x/87/f7/1c/87f71c6780566e2c8868b77bfe520781.jpg",
+  goldtops31:
+    "https://i.pinimg.com/1200x/21/ed/ae/21edae06b14d542d1c47ac1462053110.jpg",
+  goldtops32:
+    "https://i.pinimg.com/1200x/82/45/1a/82451a3302f75774c01905c11b96465e.jpg",
+  goldtops33:
+    "https://i.pinimg.com/1200x/71/96/52/719652f5155df3c0bc66dcb677f869a2.jpg",
+  goldtops34:
+    "https://i.pinimg.com/1200x/82/37/db/8237db664283531cea855cb84c782c96.jpg",
+  goldtops35:
+    "https://i.pinimg.com/1200x/b4/f0/11/b4f01184fbb645ba3e799739960b9411.jpg",
+  goldtops36:
+    "https://i.pinimg.com/1200x/c8/6a/05/c86a05daa67e5dde78e4028f56ce3cf4.jpg",
+  goldtops37:
+    "https://i.pinimg.com/736x/7a/c0/0c/7ac00c570c4e955aeb6c4d18790485e7.jpg",
+  goldtops38:
+    "https://i.pinimg.com/736x/10/05/06/100506f00a782e4000db6437aeaef07f.jpg",
+  goldtops39:
+    "https://i.pinimg.com/1200x/75/fa/89/75fa89913214ea7d3132716ecc80408f.jpg",
+  goldtops40:
+    "https://i.pinimg.com/736x/36/ac/a2/36aca23efbf189a36343e81e1946038c.jpg",
+  goldtops41:
+    "https://i.pinimg.com/736x/d0/e7/9e/d0e79e31b1ec41aa5015378996416141.jpg",
+  goldtops42:
+    "https://i.pinimg.com/1200x/b9/d6/c4/b9d6c41f50740760a9f3741efb848a73.jpg",
+  goldtops43:
+    "https://i.pinimg.com/control1/1200x/e2/cb/3e/e2cb3ef09369d0d8d935656bcb12d848.jpg",
+  goldtops44:
+    "https://i.pinimg.com/1200x/45/e1/54/45e154ffe4b648f581d501da25c0c6bf.jpg",
+  goldtops45:
+    "https://i.pinimg.com/736x/95/1b/3b/951b3b194f245ca2d05efef7e67a16f0.jpg",
+  goldtops46:
+    "https://i.pinimg.com/1200x/46/44/10/464410cae2b585a0557e664895d805b8.jpg",
+  goldtops47:
+    "https://i.pinimg.com/736x/61/0a/b1/610ab1284fb0d19620c7debf870ef887.jpg",
+  goldtops48:
+    "https://i.pinimg.com/control1/1200x/76/b4/fd/76b4fd596bc3ea469e4f7c976bae073b.jpg",
 
   goldJhumki:
     "https://i.pinimg.com/736x/29/c7/c6/29c7c67c484cc6a33ff8222a79bde655.jpg",
@@ -1763,50 +1970,68 @@ const I = {
     "https://i.pinimg.com/736x/63/c9/72/63c9724074726825a6c630013480f684.jpg",
   goldJhumki6:
     "https://i.pinimg.com/736x/53/3b/21/533b21eb74c35d8db157ef7da8cca3e8.jpg",
-  goldJhumki7:"https://i.pinimg.com/control1/1200x/a1/97/b3/a197b3c10ce5c23ee2fd65ab37864536.jpg",
-  goldJhumki8:"https://i.pinimg.com/736x/9c/4a/42/9c4a423089bd5df3d90ff2b5c90b2022.jpg",
-  goldJhumki9:"https://i.pinimg.com/control1/1200x/8d/3d/06/8d3d0612677f48e83c40f0c8ca67a6cd.jpg",
-  goldJhumki10:"https://i.pinimg.com/736x/a1/e2/c5/a1e2c54170bc8650a402949411efc607.jpg",
-  goldJhumki11:"https://i.pinimg.com/736x/01/0e/70/010e704f8d24727b4cf26d9ba237f3b5.jpg",
-  goldJhumki12:"https://i.pinimg.com/1200x/af/1a/d8/af1ad876974e2421c4dde31ec3cdc32c.jpg",
-  goldJhumki13:"https://i.pinimg.com/736x/fa/95/64/fa956485bfd28acaf23408900f9309c4.jpg",
-  goldJhumki14:"https://i.pinimg.com/736x/f5/89/b0/f589b08717d15beb67c72f11250de779.jpg",
-  goldJhumki15:"https://i.pinimg.com/control1/736x/87/b5/12/87b512d79ca6fdc8d5ede3f8340fc76b.jpg",
-  goldJhumki16:"https://i.pinimg.com/736x/a9/cd/c8/a9cdc81b17044d7231db094efede9f40.jpg",//
-  goldJhumki17:"",
-  goldJhumki18:"",
-  goldJhumki19:"https://i.pinimg.com/1200x/0b/4c/8f/0b4c8fcb06076954c4cd2b68fce8a45f.jpg",//
-  goldJhumki20:"",
-  goldJhumki21:"",
-  goldJhumki22:"https://i.pinimg.com/1200x/c9/dd/a8/c9dda8a49e8fbad797a6fdd222bb8f84.jpg",//
-  goldJhumki23:"",
-  goldJhumki24:"",
-  goldJhumki25:"https://i.pinimg.com/control1/736x/8b/cc/bd/8bccbdebc93012f60439328c67dda925.jpg",//
-  goldJhumki26:"",
-  goldJhumki27:"",
-  goldJhumki28:"https://i.pinimg.com/736x/17/ca/9c/17ca9ca7fd3d53ef29bf36974566c647.jpg",//
-  goldJhumki29:"",
-  goldJhumki30:"",
-  goldJhumki31:"https://i.pinimg.com/736x/93/a7/45/93a745ed6e9b9b09c41f6a870d83b984.jpg",//
-  goldJhumki32:"",
-  goldJhumki33:"",
-  goldJhumki34:"https://i.pinimg.com/1200x/01/98/81/0198818cb459bae0556319cfdac573d4.jpg",//
-  goldJhumki35:"",
-  goldJhumki36:"",
-  goldJhumki37:"https://i.pinimg.com/736x/fe/8b/74/fe8b746f68fbf198cd88f308ec97eebf.jpg",//
-  goldJhumki38:"",
-  goldJhumki39:"",
-  goldJhumki40:"https://i.pinimg.com/736x/1b/99/67/1b996714fe116d84daa27e9d988d18f9.jpg",//
-  goldJhumki41:"",
-  goldJhumki42:"",
-  goldJhumki43:"https://i.pinimg.com/736x/17/90/52/1790529183477a7226e6a1ae00f393bb.jpg",//
-  goldJhumki44:"",
-  goldJhumki45:"",
-  goldJhumki46:"https://i.pinimg.com/736x/42/63/fa/4263fa2fe54e53ddf5d50abf761f2fbd.jpg",//
-  goldJhumki47:"",
-  goldJhumki48:"",
-
-
+  goldJhumki7:
+    "https://i.pinimg.com/control1/1200x/a1/97/b3/a197b3c10ce5c23ee2fd65ab37864536.jpg",
+  goldJhumki8:
+    "https://i.pinimg.com/736x/9c/4a/42/9c4a423089bd5df3d90ff2b5c90b2022.jpg",
+  goldJhumki9:
+    "https://i.pinimg.com/control1/1200x/8d/3d/06/8d3d0612677f48e83c40f0c8ca67a6cd.jpg",
+  goldJhumki10:
+    "https://i.pinimg.com/736x/a1/e2/c5/a1e2c54170bc8650a402949411efc607.jpg",
+  goldJhumki11:
+    "https://i.pinimg.com/736x/01/0e/70/010e704f8d24727b4cf26d9ba237f3b5.jpg",
+  goldJhumki12:
+    "https://i.pinimg.com/1200x/af/1a/d8/af1ad876974e2421c4dde31ec3cdc32c.jpg",
+  goldJhumki13:
+    "https://i.pinimg.com/736x/fa/95/64/fa956485bfd28acaf23408900f9309c4.jpg",
+  goldJhumki14:
+    "https://i.pinimg.com/736x/f5/89/b0/f589b08717d15beb67c72f11250de779.jpg",
+  goldJhumki15:
+    "https://i.pinimg.com/control1/736x/87/b5/12/87b512d79ca6fdc8d5ede3f8340fc76b.jpg",
+  goldJhumki16:
+    "https://i.pinimg.com/736x/a9/cd/c8/a9cdc81b17044d7231db094efede9f40.jpg", //
+  goldJhumki17: "",
+  goldJhumki18: "",
+  goldJhumki19:
+    "https://i.pinimg.com/1200x/0b/4c/8f/0b4c8fcb06076954c4cd2b68fce8a45f.jpg", //
+  goldJhumki20: "",
+  goldJhumki21: "",
+  goldJhumki22:
+    "https://i.pinimg.com/1200x/c9/dd/a8/c9dda8a49e8fbad797a6fdd222bb8f84.jpg", //
+  goldJhumki23: "",
+  goldJhumki24: "",
+  goldJhumki25:
+    "https://i.pinimg.com/control1/736x/8b/cc/bd/8bccbdebc93012f60439328c67dda925.jpg", //
+  goldJhumki26: "",
+  goldJhumki27: "",
+  goldJhumki28:
+    "https://i.pinimg.com/736x/17/ca/9c/17ca9ca7fd3d53ef29bf36974566c647.jpg", //
+  goldJhumki29: "",
+  goldJhumki30: "",
+  goldJhumki31:
+    "https://i.pinimg.com/736x/93/a7/45/93a745ed6e9b9b09c41f6a870d83b984.jpg", //
+  goldJhumki32: "",
+  goldJhumki33: "",
+  goldJhumki34:
+    "https://i.pinimg.com/1200x/01/98/81/0198818cb459bae0556319cfdac573d4.jpg", //
+  goldJhumki35: "",
+  goldJhumki36: "",
+  goldJhumki37:
+    "https://i.pinimg.com/736x/fe/8b/74/fe8b746f68fbf198cd88f308ec97eebf.jpg", //
+  goldJhumki38: "",
+  goldJhumki39: "",
+  goldJhumki40:
+    "https://i.pinimg.com/736x/1b/99/67/1b996714fe116d84daa27e9d988d18f9.jpg", //
+  goldJhumki41: "",
+  goldJhumki42: "",
+  goldJhumki43:
+    "https://i.pinimg.com/736x/17/90/52/1790529183477a7226e6a1ae00f393bb.jpg", //
+  goldJhumki44: "",
+  goldJhumki45: "",
+  goldJhumki46:
+    "https://i.pinimg.com/736x/42/63/fa/4263fa2fe54e53ddf5d50abf761f2fbd.jpg", //
+  goldJhumki47: "",
+  goldJhumki48: "",
 
   goldkundal:
     "https://i.pinimg.com/1200x/f1/dc/f9/f1dcf9f99b3332eda9cdd31f83c9c59d.jpg",
@@ -1820,49 +2045,90 @@ const I = {
     "https://i.pinimg.com/736x/7e/17/c9/7e17c9e9fd46e13d8466cd8e04a722c7.jpg",
   goldkundal6:
     "https://i.pinimg.com/736x/3b/b5/77/3bb577406a9bd3a8d6124b527cd2ea2f.jpg",
-  goldkundal7:"https://i.pinimg.com/control1/736x/45/5f/b6/455fb695d5868cc8678b07fba86dfd9f.jpg",
-  goldkundal8:"https://i.pinimg.com/736x/7e/ef/ba/7eefba2a099518a3137440a3715908ac.jpg",
-  goldkundal9:"https://i.pinimg.com/1200x/0b/02/c5/0b02c5ee2b4760fb7a116ca747585f5b.jpg",
-  goldkundal10:"https://i.pinimg.com/736x/91/2b/bf/912bbf188e3147cc122ccabb50c43cbd.jpg",
-  goldkundal11:"https://i.pinimg.com/1200x/11/12/32/111232a931461d19213c2d0d27be0413.jpg",
-  goldkundal12:"https://i.pinimg.com/736x/53/8e/27/538e2702e5135875b5d206813204bb6c.jpg",
-  goldkundal13:"https://i.pinimg.com/736x/7e/17/c9/7e17c9e9fd46e13d8466cd8e04a722c7.jpg",
-  goldkundal14:"https://i.pinimg.com/736x/5a/0f/b5/5a0fb5f418ca8e9e8db2a7e971cce140.jpg",
-  goldkundal15:"https://i.pinimg.com/736x/24/7a/a4/247aa46d6732171e0f2c3c353e222d6d.jpg",
-  goldkundal16:"https://i.pinimg.com/736x/21/e1/d3/21e1d37deee141faa6d767f21c4c48df.jpg",
-  goldkundal17:"https://i.pinimg.com/control1/1200x/6c/1f/a8/6c1fa89579e4bedbed683982a06e1e12.jpg",
-  goldkundal18:"https://i.pinimg.com/control1/736x/f0/2c/d4/f02cd42d50903dc17c0bb5c514d199d4.jpg",
-  goldkundal19:"https://i.pinimg.com/736x/f5/0c/c2/f50cc22b265dfadfc9c13289b02a3d92.jpg",
-  goldkundal20:"https://i.pinimg.com/736x/e6/b2/38/e6b238962f05fd298e5089679a0e3af2.jpg",
-  goldkundal21:"https://i.pinimg.com/736x/8f/ae/02/8fae0268e3beb07ca7e2ff1300659d0d.jpg",
-  goldkundal22:"https://i.pinimg.com/1200x/9a/e2/57/9ae2576f8adf8255bbb642adf3f88722.jpg",
-  goldkundal23:"https://i.pinimg.com/736x/a3/72/a4/a372a495f7b9533b014ee43737535dd6.jpg",
-  goldkundal24:"https://i.pinimg.com/736x/03/e0/01/03e001922b4e44821acbe66e3472ba55.jpg",
-  goldkundal25:"https://i.pinimg.com/736x/cd/c7/d9/cdc7d9c909e4fd68c62b5646a9a2f1a0.jpg",
-  goldkundal26:"https://i.pinimg.com/1200x/69/a0/91/69a0912807c269badb0d27ea6fc6994e.jpg",
-  goldkundal27:"https://i.pinimg.com/736x/9e/c9/28/9ec928d7b7ee0219177c11a309b3503c.jpg",
-  goldkundal28:"https://i.pinimg.com/736x/9b/1b/68/9b1b6874235cc357222cd457caa561c4.jpg",
-  goldkundal29:"https://i.pinimg.com/736x/a7/2e/0e/a72e0e3fef04fd9ae96c09e3c1393345.jpg",
-  goldkundal30:"https://i.pinimg.com/736x/b7/69/4a/b7694a041832ac0edc81810a044802b7.jpg",
-  goldkundal31:"https://i.pinimg.com/736x/29/37/4a/29374a7a33b2e8030d01726601b076ac.jpg",
-  goldkundal32:"https://i.pinimg.com/736x/91/6e/79/916e79b876ec2b1b577238602d01b00e.jpg",
-  goldkundal33:"https://i.pinimg.com/736x/55/20/53/5520530dcec4b5f852dd7ee8046da5f3.jpg",
-  goldkundal34:"https://i.pinimg.com/1200x/2b/11/bf/2b11bf589554f29d8759c75042570218.jpg",
-  goldkundal35:"https://i.pinimg.com/1200x/62/2b/3a/622b3a4d00cb2fd1e879a696f938d7c6.jpg",
-  goldkundal36:"https://i.pinimg.com/1200x/c9/a6/bb/c9a6bb495c9fe3e176f3f68915c6c891.jpg",
-  goldkundal37:"https://i.pinimg.com/736x/2b/7a/67/2b7a67edda623eae01044ae4ad4f9e3b.jpg",
-  goldkundal38:"https://i.pinimg.com/736x/49/98/05/4998058d803d0aaa61e63bf4aa9da9fd.jpg",
-  goldkundal39:"https://i.pinimg.com/1200x/50/ae/31/50ae31504af1b7173e0874d429c6b049.jpg",
-  goldkundal40:"https://i.pinimg.com/736x/64/39/54/6439544947c027e4155c26861453afe9.jpg",
-  goldkundal41:"https://i.pinimg.com/736x/f8/e6/ba/f8e6bac35526ba9acf9de669dae42a25.jpg",
-  goldkundal42:"https://i.pinimg.com/1200x/13/8b/2e/138b2e2cd28ff58e35ad9ea59b285031.jpg",
-  goldkundal43:"https://i.pinimg.com/736x/e2/86/7a/e2867a770a42dfa75ab021ee29f54a2e.jpg",
-  goldkundal44:"https://i.pinimg.com/736x/24/e2/b6/24e2b6529ebd361a65731592d95f4bf2.jpg",
-  goldkundal45:"https://i.pinimg.com/736x/78/38/f8/7838f896ceabd9ce2b79896de741105c.jpg",
-  goldkundal46:"https://i.pinimg.com/736x/91/d7/8a/91d78a537852d38c4e2cd03b365d30e4.jpg",
-  goldkundal47:"https://i.pinimg.com/1200x/75/0b/f0/750bf054b17324382a73192551c379ff.jpg",
-  goldkundal48:"https://i.pinimg.com/736x/8f/58/d5/8f58d5ef7becc548421eedd0ee3c4833.jpg",
-
+  goldkundal7:
+    "https://i.pinimg.com/control1/736x/45/5f/b6/455fb695d5868cc8678b07fba86dfd9f.jpg",
+  goldkundal8:
+    "https://i.pinimg.com/736x/7e/ef/ba/7eefba2a099518a3137440a3715908ac.jpg",
+  goldkundal9:
+    "https://i.pinimg.com/1200x/0b/02/c5/0b02c5ee2b4760fb7a116ca747585f5b.jpg",
+  goldkundal10:
+    "https://i.pinimg.com/736x/91/2b/bf/912bbf188e3147cc122ccabb50c43cbd.jpg",
+  goldkundal11:
+    "https://i.pinimg.com/1200x/11/12/32/111232a931461d19213c2d0d27be0413.jpg",
+  goldkundal12:
+    "https://i.pinimg.com/736x/53/8e/27/538e2702e5135875b5d206813204bb6c.jpg",
+  goldkundal13:
+    "https://i.pinimg.com/736x/7e/17/c9/7e17c9e9fd46e13d8466cd8e04a722c7.jpg",
+  goldkundal14:
+    "https://i.pinimg.com/736x/5a/0f/b5/5a0fb5f418ca8e9e8db2a7e971cce140.jpg",
+  goldkundal15:
+    "https://i.pinimg.com/736x/24/7a/a4/247aa46d6732171e0f2c3c353e222d6d.jpg",
+  goldkundal16:
+    "https://i.pinimg.com/736x/21/e1/d3/21e1d37deee141faa6d767f21c4c48df.jpg",
+  goldkundal17:
+    "https://i.pinimg.com/control1/1200x/6c/1f/a8/6c1fa89579e4bedbed683982a06e1e12.jpg",
+  goldkundal18:
+    "https://i.pinimg.com/control1/736x/f0/2c/d4/f02cd42d50903dc17c0bb5c514d199d4.jpg",
+  goldkundal19:
+    "https://i.pinimg.com/736x/f5/0c/c2/f50cc22b265dfadfc9c13289b02a3d92.jpg",
+  goldkundal20:
+    "https://i.pinimg.com/736x/e6/b2/38/e6b238962f05fd298e5089679a0e3af2.jpg",
+  goldkundal21:
+    "https://i.pinimg.com/736x/8f/ae/02/8fae0268e3beb07ca7e2ff1300659d0d.jpg",
+  goldkundal22:
+    "https://i.pinimg.com/1200x/9a/e2/57/9ae2576f8adf8255bbb642adf3f88722.jpg",
+  goldkundal23:
+    "https://i.pinimg.com/736x/a3/72/a4/a372a495f7b9533b014ee43737535dd6.jpg",
+  goldkundal24:
+    "https://i.pinimg.com/736x/03/e0/01/03e001922b4e44821acbe66e3472ba55.jpg",
+  goldkundal25:
+    "https://i.pinimg.com/736x/cd/c7/d9/cdc7d9c909e4fd68c62b5646a9a2f1a0.jpg",
+  goldkundal26:
+    "https://i.pinimg.com/1200x/69/a0/91/69a0912807c269badb0d27ea6fc6994e.jpg",
+  goldkundal27:
+    "https://i.pinimg.com/736x/9e/c9/28/9ec928d7b7ee0219177c11a309b3503c.jpg",
+  goldkundal28:
+    "https://i.pinimg.com/736x/9b/1b/68/9b1b6874235cc357222cd457caa561c4.jpg",
+  goldkundal29:
+    "https://i.pinimg.com/736x/a7/2e/0e/a72e0e3fef04fd9ae96c09e3c1393345.jpg",
+  goldkundal30:
+    "https://i.pinimg.com/736x/b7/69/4a/b7694a041832ac0edc81810a044802b7.jpg",
+  goldkundal31:
+    "https://i.pinimg.com/736x/29/37/4a/29374a7a33b2e8030d01726601b076ac.jpg",
+  goldkundal32:
+    "https://i.pinimg.com/736x/91/6e/79/916e79b876ec2b1b577238602d01b00e.jpg",
+  goldkundal33:
+    "https://i.pinimg.com/736x/55/20/53/5520530dcec4b5f852dd7ee8046da5f3.jpg",
+  goldkundal34:
+    "https://i.pinimg.com/1200x/2b/11/bf/2b11bf589554f29d8759c75042570218.jpg",
+  goldkundal35:
+    "https://i.pinimg.com/1200x/62/2b/3a/622b3a4d00cb2fd1e879a696f938d7c6.jpg",
+  goldkundal36:
+    "https://i.pinimg.com/1200x/c9/a6/bb/c9a6bb495c9fe3e176f3f68915c6c891.jpg",
+  goldkundal37:
+    "https://i.pinimg.com/736x/2b/7a/67/2b7a67edda623eae01044ae4ad4f9e3b.jpg",
+  goldkundal38:
+    "https://i.pinimg.com/736x/49/98/05/4998058d803d0aaa61e63bf4aa9da9fd.jpg",
+  goldkundal39:
+    "https://i.pinimg.com/1200x/50/ae/31/50ae31504af1b7173e0874d429c6b049.jpg",
+  goldkundal40:
+    "https://i.pinimg.com/736x/64/39/54/6439544947c027e4155c26861453afe9.jpg",
+  goldkundal41:
+    "https://i.pinimg.com/736x/f8/e6/ba/f8e6bac35526ba9acf9de669dae42a25.jpg",
+  goldkundal42:
+    "https://i.pinimg.com/1200x/13/8b/2e/138b2e2cd28ff58e35ad9ea59b285031.jpg",
+  goldkundal43:
+    "https://i.pinimg.com/736x/e2/86/7a/e2867a770a42dfa75ab021ee29f54a2e.jpg",
+  goldkundal44:
+    "https://i.pinimg.com/736x/24/e2/b6/24e2b6529ebd361a65731592d95f4bf2.jpg",
+  goldkundal45:
+    "https://i.pinimg.com/736x/78/38/f8/7838f896ceabd9ce2b79896de741105c.jpg",
+  goldkundal46:
+    "https://i.pinimg.com/736x/91/d7/8a/91d78a537852d38c4e2cd03b365d30e4.jpg",
+  goldkundal47:
+    "https://i.pinimg.com/1200x/75/0b/f0/750bf054b17324382a73192551c379ff.jpg",
+  goldkundal48:
+    "https://i.pinimg.com/736x/8f/58/d5/8f58d5ef7becc548421eedd0ee3c4833.jpg",
 
   goldnosepin:
     "https://i.pinimg.com/1200x/7b/ab/ac/7babac888d3438e134ef3a893b34e2ef.jpg",
@@ -1876,50 +2142,90 @@ const I = {
     "https://i.pinimg.com/736x/88/a9/3d/88a93d4c9c66bdf4d1abf782e4ca73a5.jpg",
   goldnosepin6:
     "https://i.pinimg.com/736x/70/13/df/7013df530736256c0a80472aebafeab1.jpg",
-  goldnosepin7:"https://i.pinimg.com/1200x/23/b1/30/23b130387b67d3e1d52a9055db2af4aa.jpg",
-  goldnosepin8:"https://i.pinimg.com/1200x/7a/c9/10/7ac91076e66f63ff654731d7bf87e1ba.jpg",
-  goldnosepin9:"https://i.pinimg.com/736x/51/65/6c/51656c568ead8ed984074082b2cdb886.jpg",
-  goldnosepin10:"https://i.pinimg.com/1200x/d3/da/76/d3da7663f4e9ca6e794fb15bcb93f56f.jpg",
-  goldnosepin11:"https://i.pinimg.com/1200x/5b/91/34/5b913420956f11a25ed369e17001981f.jpg",
-  goldnosepin12:"https://i.pinimg.com/736x/c8/b9/19/c8b919528f6185cac948154d178267fe.jpg",
-  goldnosepin13:"https://i.pinimg.com/736x/1e/d1/37/1ed137dc03e0bab1b73aa82f4cf46577.jpg",
-  goldnosepin14:"https://i.pinimg.com/1200x/78/1a/2a/781a2a404e11ebc8082ea5cf16f8b52f.jpg",
-  goldnosepin15:"https://i.pinimg.com/1200x/1d/c8/4e/1dc84eba7eda25170619db9b19650220.jpg",
-  goldnosepin16:"https://i.pinimg.com/1200x/71/d3/5e/71d35e6dfaa08cd990adf08dcda9357d.jpg",
-  goldnosepin17:"https://i.pinimg.com/1200x/4b/1d/02/4b1d02ed709591291b9ffcb3db668a5f.jpg",
-  goldnosepin18:"https://i.pinimg.com/736x/a8/d9/20/a8d92049caca8c2e3447c7e11d44fbd2.jpg",
-  goldnosepin19:"https://i.pinimg.com/736x/3c/57/51/3c5751b5e482d52fc55893d97fcca45f.jpg",
-  goldnosepin20:"https://i.pinimg.com/736x/22/59/b4/2259b4b5b9e352cb0a0cd675ebc4f58c.jpg",
-  goldnosepin21:"https://i.pinimg.com/1200x/f1/eb/b8/f1ebb85c2c883236928cf297ceac7d7a.jpg",
-  goldnosepin22:"https://i.pinimg.com/1200x/6c/f5/8d/6cf58dc0b3a106173840bc8a8c7ad827.jpg",
-  goldnosepin23:"https://i.pinimg.com/736x/e4/39/42/e43942684121cfbbade64151a0fd0031.jpg",
-  goldnosepin24:"https://i.pinimg.com/1200x/b8/4d/41/b84d4167a4fcbbf97e25014bfd44845f.jpg",
-  goldnosepin25:"https://i.pinimg.com/736x/2d/4d/c8/2d4dc83daac6e4eb00efb8e401eb468a.jpg",
-  goldnosepin26:"https://i.pinimg.com/736x/74/e5/cb/74e5cb9315e62e9ef032a18ba8745d62.jpg",
-  goldnosepin27:"https://i.pinimg.com/736x/31/ee/ac/31eeac5b2dd21fc6a4c33cc7e81b1d32.jpg",
-  goldnosepin28:"https://i.pinimg.com/736x/d0/f7/ff/d0f7ff7f970d0928d067ea4187c04063.jpg",
-  goldnosepin29:"https://i.pinimg.com/736x/41/34/72/413472b3015e9618a263d7b8ae54c45f.jpg",
-  goldnosepin30:"https://i.pinimg.com/1200x/05/54/25/055425f8d6e37e0ebad87e272f7d1446.jpg",
-  goldnosepin31:"https://i.pinimg.com/736x/ed/f1/c0/edf1c01bfec27b827d7c72acbca8ccea.jpg",
-  goldnosepin32:"https://i.pinimg.com/1200x/7f/fe/c4/7ffec435f8c4ba4996fe1a68f86f8453.jpg",
-  goldnosepin33:"https://i.pinimg.com/736x/0d/34/f6/0d34f6207306735cb2392b49b6a8f97f.jpg",
-  goldnosepin34:"https://i.pinimg.com/736x/af/de/e2/afdee2e75d2af236de68fa0260a11f79.jpg",
-  goldnosepin35:"https://i.pinimg.com/736x/37/42/0b/37420ba12894f1fc5545ca496d0ada05.jpg",
-  goldnosepin36:"https://i.pinimg.com/1200x/1d/fa/fd/1dfafd8de2cadb9815f0b29b24205d02.jpg",
-  goldnosepin37:"https://i.pinimg.com/1200x/32/7a/01/327a01adfc42cc2392e95a8308a6e6ba.jpg",
-  goldnosepin38:"https://i.pinimg.com/1200x/3f/45/1e/3f451ee4ca9f53a9a78eeabd17d56eb4.jpg",
-  goldnosepin39:"https://i.pinimg.com/736x/be/d6/ca/bed6ca1d94b7cc31388bd8fe462250ff.jpg",
-  goldnosepin40:"https://i.pinimg.com/736x/31/24/8b/31248ba8c3b9f1c7bc4383ea3a17b222.jpg",
-  goldnosepin41:"https://i.pinimg.com/736x/e4/0b/49/e40b49fedb94b1e2257578871db56526.jpg",
-  goldnosepin42:"https://i.pinimg.com/736x/32/51/ea/3251eadf094b597ea5d2f8bb7c14d499.jpg",
-  goldnosepin43:"https://i.pinimg.com/736x/07/75/70/077570ddfc63c79584c8086c44ee77d7.jpg",
-  goldnosepin44:"https://i.pinimg.com/736x/20/10/61/2010619bb48610faae4bcb1cf941cd83.jpg",
-  goldnosepin45:"https://i.pinimg.com/1200x/ff/c1/f5/ffc1f52c5a65d866addf494255714b6e.jpg",
-  goldnosepin46:"https://i.pinimg.com/736x/ed/33/0c/ed330c1a1aa85b3a1539cb8083bcdf54.jpg",
-  goldnosepin47:"https://i.pinimg.com/736x/53/b2/1a/53b21a7eef58a6bd588ba1aa24a51e1b.jpg",
-  goldnosepin48:"https://i.pinimg.com/736x/d5/9b/53/d59b53b1bcbdda75607671a559b3aa79.jpg",
- 
-
+  goldnosepin7:
+    "https://i.pinimg.com/1200x/23/b1/30/23b130387b67d3e1d52a9055db2af4aa.jpg",
+  goldnosepin8:
+    "https://i.pinimg.com/1200x/7a/c9/10/7ac91076e66f63ff654731d7bf87e1ba.jpg",
+  goldnosepin9:
+    "https://i.pinimg.com/736x/51/65/6c/51656c568ead8ed984074082b2cdb886.jpg",
+  goldnosepin10:
+    "https://i.pinimg.com/1200x/d3/da/76/d3da7663f4e9ca6e794fb15bcb93f56f.jpg",
+  goldnosepin11:
+    "https://i.pinimg.com/1200x/5b/91/34/5b913420956f11a25ed369e17001981f.jpg",
+  goldnosepin12:
+    "https://i.pinimg.com/736x/c8/b9/19/c8b919528f6185cac948154d178267fe.jpg",
+  goldnosepin13:
+    "https://i.pinimg.com/736x/1e/d1/37/1ed137dc03e0bab1b73aa82f4cf46577.jpg",
+  goldnosepin14:
+    "https://i.pinimg.com/1200x/78/1a/2a/781a2a404e11ebc8082ea5cf16f8b52f.jpg",
+  goldnosepin15:
+    "https://i.pinimg.com/1200x/1d/c8/4e/1dc84eba7eda25170619db9b19650220.jpg",
+  goldnosepin16:
+    "https://i.pinimg.com/1200x/71/d3/5e/71d35e6dfaa08cd990adf08dcda9357d.jpg",
+  goldnosepin17:
+    "https://i.pinimg.com/1200x/4b/1d/02/4b1d02ed709591291b9ffcb3db668a5f.jpg",
+  goldnosepin18:
+    "https://i.pinimg.com/736x/a8/d9/20/a8d92049caca8c2e3447c7e11d44fbd2.jpg",
+  goldnosepin19:
+    "https://i.pinimg.com/736x/3c/57/51/3c5751b5e482d52fc55893d97fcca45f.jpg",
+  goldnosepin20:
+    "https://i.pinimg.com/736x/22/59/b4/2259b4b5b9e352cb0a0cd675ebc4f58c.jpg",
+  goldnosepin21:
+    "https://i.pinimg.com/1200x/f1/eb/b8/f1ebb85c2c883236928cf297ceac7d7a.jpg",
+  goldnosepin22:
+    "https://i.pinimg.com/1200x/6c/f5/8d/6cf58dc0b3a106173840bc8a8c7ad827.jpg",
+  goldnosepin23:
+    "https://i.pinimg.com/736x/e4/39/42/e43942684121cfbbade64151a0fd0031.jpg",
+  goldnosepin24:
+    "https://i.pinimg.com/1200x/b8/4d/41/b84d4167a4fcbbf97e25014bfd44845f.jpg",
+  goldnosepin25:
+    "https://i.pinimg.com/736x/2d/4d/c8/2d4dc83daac6e4eb00efb8e401eb468a.jpg",
+  goldnosepin26:
+    "https://i.pinimg.com/736x/74/e5/cb/74e5cb9315e62e9ef032a18ba8745d62.jpg",
+  goldnosepin27:
+    "https://i.pinimg.com/736x/31/ee/ac/31eeac5b2dd21fc6a4c33cc7e81b1d32.jpg",
+  goldnosepin28:
+    "https://i.pinimg.com/736x/d0/f7/ff/d0f7ff7f970d0928d067ea4187c04063.jpg",
+  goldnosepin29:
+    "https://i.pinimg.com/736x/41/34/72/413472b3015e9618a263d7b8ae54c45f.jpg",
+  goldnosepin30:
+    "https://i.pinimg.com/1200x/05/54/25/055425f8d6e37e0ebad87e272f7d1446.jpg",
+  goldnosepin31:
+    "https://i.pinimg.com/736x/ed/f1/c0/edf1c01bfec27b827d7c72acbca8ccea.jpg",
+  goldnosepin32:
+    "https://i.pinimg.com/1200x/7f/fe/c4/7ffec435f8c4ba4996fe1a68f86f8453.jpg",
+  goldnosepin33:
+    "https://i.pinimg.com/736x/0d/34/f6/0d34f6207306735cb2392b49b6a8f97f.jpg",
+  goldnosepin34:
+    "https://i.pinimg.com/736x/af/de/e2/afdee2e75d2af236de68fa0260a11f79.jpg",
+  goldnosepin35:
+    "https://i.pinimg.com/736x/37/42/0b/37420ba12894f1fc5545ca496d0ada05.jpg",
+  goldnosepin36:
+    "https://i.pinimg.com/1200x/1d/fa/fd/1dfafd8de2cadb9815f0b29b24205d02.jpg",
+  goldnosepin37:
+    "https://i.pinimg.com/1200x/32/7a/01/327a01adfc42cc2392e95a8308a6e6ba.jpg",
+  goldnosepin38:
+    "https://i.pinimg.com/1200x/3f/45/1e/3f451ee4ca9f53a9a78eeabd17d56eb4.jpg",
+  goldnosepin39:
+    "https://i.pinimg.com/736x/be/d6/ca/bed6ca1d94b7cc31388bd8fe462250ff.jpg",
+  goldnosepin40:
+    "https://i.pinimg.com/736x/31/24/8b/31248ba8c3b9f1c7bc4383ea3a17b222.jpg",
+  goldnosepin41:
+    "https://i.pinimg.com/736x/e4/0b/49/e40b49fedb94b1e2257578871db56526.jpg",
+  goldnosepin42:
+    "https://i.pinimg.com/736x/32/51/ea/3251eadf094b597ea5d2f8bb7c14d499.jpg",
+  goldnosepin43:
+    "https://i.pinimg.com/736x/07/75/70/077570ddfc63c79584c8086c44ee77d7.jpg",
+  goldnosepin44:
+    "https://i.pinimg.com/736x/20/10/61/2010619bb48610faae4bcb1cf941cd83.jpg",
+  goldnosepin45:
+    "https://i.pinimg.com/1200x/ff/c1/f5/ffc1f52c5a65d866addf494255714b6e.jpg",
+  goldnosepin46:
+    "https://i.pinimg.com/736x/ed/33/0c/ed330c1a1aa85b3a1539cb8083bcdf54.jpg",
+  goldnosepin47:
+    "https://i.pinimg.com/736x/53/b2/1a/53b21a7eef58a6bd588ba1aa24a51e1b.jpg",
+  goldnosepin48:
+    "https://i.pinimg.com/736x/d5/9b/53/d59b53b1bcbdda75607671a559b3aa79.jpg",
 
   nosering:
     "https://i.pinimg.com/1200x/f8/b9/4a/f8b94a88240f4255ea7604d87a1c0224.jpg",
@@ -1933,52 +2239,92 @@ const I = {
     "https://i.pinimg.com/736x/73/58/fc/7358fced0489f8b1b9bfc800dd211178.jpg",
   nosering6:
     "https://i.pinimg.com/1200x/0a/e6/c7/0ae6c7efd223329f3ec82b52362e3671.jpg",
-  nosering7:"https://i.pinimg.com/736x/88/43/c7/8843c7a83a7e5c6d948dc6e6772048b7.jpg",
-  nosering8:"https://i.pinimg.com/1200x/71/45/b5/7145b5765bfda03bdff3e17bf5006874.jpg",
-  nosering9:"https://i.pinimg.com/1200x/72/e2/9f/72e29f0bbfa2a5ffe32f7ef76757c672.jpg",
-  nosering10:"https://i.pinimg.com/1200x/7b/ab/ac/7babac888d3438e134ef3a893b34e2ef.jpg",
-  nosering11:"https://i.pinimg.com/736x/26/0e/cf/260ecf2b580560744f891681993027db.jpg",
-  nosering12:"https://i.pinimg.com/1200x/bc/61/a2/bc61a2ee34dc7a02fc4b42331fde2c46.jpg",
-  nosering13:"https://i.pinimg.com/1200x/2b/8c/16/2b8c1660762e8d66e6cc04fba7692b69.jpg",
-  nosering14:"https://i.pinimg.com/1200x/ee/1f/a4/ee1fa45a316d9a143a63a3a65e89c0c9.jpg",
-  nosering15:"https://i.pinimg.com/1200x/0a/e6/c7/0ae6c7efd223329f3ec82b52362e3671.jpg",
-  nosering16:"https://i.pinimg.com/1200x/8d/ab/04/8dab04dfbb5ad51ff7888a02765a6d60.jpg",
-  nosering17:"https://i.pinimg.com/1200x/3d/86/e1/3d86e18aeb7b6e4cb30248ee2c0c995f.jpg",
-  nosering18:"https://i.pinimg.com/1200x/34/f2/3e/34f23e78aed4aeb49732a0e43f014ed1.jpg",
-  nosering19:"https://i.pinimg.com/1200x/c6/b8/4c/c6b84cf4d0afe1a9b13cb04e1d49f4d0.jpg",
-  nosering20:"https://i.pinimg.com/1200x/a2/af/b6/a2afb60dd6cd7e5587109969335e5247.jpg",
-  nosering21:"https://i.pinimg.com/736x/ae/27/b8/ae27b8b208caa3f6666ce31a59a4500a.jpg",
-  nosering22:"https://i.pinimg.com/1200x/76/78/d8/7678d8ca5a4d5ad407592205c8bd1709.jpg",
-  nosering23:"https://i.pinimg.com/1200x/0c/34/1b/0c341b24e628a28aaed7753ffdc5037d.jpg",
-  nosering24:"https://i.pinimg.com/1200x/64/21/53/642153eea2f06e056c2c884ac89d9753.jpg",
-  nosering25:"https://i.pinimg.com/1200x/61/29/8e/61298ee4bdbb478d0d9a2aa91428d863.jpg",
-  nosering26:"https://i.pinimg.com/736x/27/3c/aa/273caac13730643bb7ed6c516a93ae84.jpg",
-  nosering27:"https://i.pinimg.com/736x/dc/fa/86/dcfa86d8db254febbdf393233a989d95.jpg",
-  nosering28:"https://i.pinimg.com/1200x/8b/3c/9a/8b3c9a56979c34aa2ce2fba5db4796a0.jpg",
-  nosering29:"https://i.pinimg.com/1200x/55/13/ff/5513fff545c3031de9072d0b85f7e5f6.jpg",
-  nosering30:"https://i.pinimg.com/1200x/d5/d1/86/d5d1869a1fb1e27544181a3d98baae87.jpg",
-  nosering31:"https://i.pinimg.com/1200x/1b/8d/5b/1b8d5b4c0ea671b0a92917291106a3a9.jpg",
-  nosering32:"https://i.pinimg.com/1200x/85/b3/81/85b3811ab3c974258c040ce3376a1035.jpg",
-  nosering33:"https://i.pinimg.com/736x/df/33/33/df33330daae3c07fab086665be8a6270.jpg",
-  nosering34:"https://i.pinimg.com/1200x/d4/de/80/d4de80fe43ed019d5f5788a5700be7c4.jpg",
-  nosering35:"https://i.pinimg.com/1200x/f3/a6/49/f3a649e97e5b3be2a152d018221aed32.jpg",
-  nosering36:"https://i.pinimg.com/control1/736x/be/71/a3/be71a3258ced4dd34e01f7e3ecb92991.jpg",
-  nosering37:"https://i.pinimg.com/control1/736x/51/9d/7e/519d7e2a7b559866401b5068f65259e4.jpg",
-  nosering38:"https://i.pinimg.com/1200x/85/d3/11/85d311f8a00f4092faa96171d887d803.jpg",
-  nosering39:"https://i.pinimg.com/control1/736x/86/8b/f7/868bf7ce07b2dc5cb8e66840e7ad1981.jpg",
-  nosering40:"https://i.pinimg.com/control1/1200x/43/c3/c1/43c3c11c066a76d0f285c16c1a9bfaaa.jpg",
-  nosering41:"https://i.pinimg.com/1200x/c2/14/ae/c214ae9d7592c1e47b315f57ec5fa11d.jpg",
-  nosering42:"https://i.pinimg.com/1200x/98/21/42/982142529b1f029987ed0c262123ac06.jpg",
-  nosering43:"https://i.pinimg.com/1200x/71/0d/40/710d40e6028bc8099762e584ad40786f.jpg",
-  nosering44:"https://i.pinimg.com/1200x/e3/fa/af/e3faafa0da07e54383e450e32bf6ec16.jpg",
-  nosering45:"https://i.pinimg.com/1200x/3b/94/36/3b9436e4fdba03fb0fe2689e9518acdd.jpg",
-  nosering46:"https://i.pinimg.com/736x/7a/9c/cd/7a9ccdd7d22f4993998ba7888ab6f839.jpg",
-  nosering47:"https://i.pinimg.com/1200x/ef/6a/ef/ef6aef8247eca6b7a82f83c3ab55cfbb.jpg",
-  nosering48:"https://i.pinimg.com/736x/16/19/95/161995f600ef03cbbe95c19750aa7a72.jpg",
+  nosering7:
+    "https://i.pinimg.com/736x/88/43/c7/8843c7a83a7e5c6d948dc6e6772048b7.jpg",
+  nosering8:
+    "https://i.pinimg.com/1200x/71/45/b5/7145b5765bfda03bdff3e17bf5006874.jpg",
+  nosering9:
+    "https://i.pinimg.com/1200x/72/e2/9f/72e29f0bbfa2a5ffe32f7ef76757c672.jpg",
+  nosering10:
+    "https://i.pinimg.com/1200x/7b/ab/ac/7babac888d3438e134ef3a893b34e2ef.jpg",
+  nosering11:
+    "https://i.pinimg.com/736x/26/0e/cf/260ecf2b580560744f891681993027db.jpg",
+  nosering12:
+    "https://i.pinimg.com/1200x/bc/61/a2/bc61a2ee34dc7a02fc4b42331fde2c46.jpg",
+  nosering13:
+    "https://i.pinimg.com/1200x/2b/8c/16/2b8c1660762e8d66e6cc04fba7692b69.jpg",
+  nosering14:
+    "https://i.pinimg.com/1200x/ee/1f/a4/ee1fa45a316d9a143a63a3a65e89c0c9.jpg",
+  nosering15:
+    "https://i.pinimg.com/1200x/0a/e6/c7/0ae6c7efd223329f3ec82b52362e3671.jpg",
+  nosering16:
+    "https://i.pinimg.com/1200x/8d/ab/04/8dab04dfbb5ad51ff7888a02765a6d60.jpg",
+  nosering17:
+    "https://i.pinimg.com/1200x/3d/86/e1/3d86e18aeb7b6e4cb30248ee2c0c995f.jpg",
+  nosering18:
+    "https://i.pinimg.com/1200x/34/f2/3e/34f23e78aed4aeb49732a0e43f014ed1.jpg",
+  nosering19:
+    "https://i.pinimg.com/1200x/c6/b8/4c/c6b84cf4d0afe1a9b13cb04e1d49f4d0.jpg",
+  nosering20:
+    "https://i.pinimg.com/1200x/a2/af/b6/a2afb60dd6cd7e5587109969335e5247.jpg",
+  nosering21:
+    "https://i.pinimg.com/736x/ae/27/b8/ae27b8b208caa3f6666ce31a59a4500a.jpg",
+  nosering22:
+    "https://i.pinimg.com/1200x/76/78/d8/7678d8ca5a4d5ad407592205c8bd1709.jpg",
+  nosering23:
+    "https://i.pinimg.com/1200x/0c/34/1b/0c341b24e628a28aaed7753ffdc5037d.jpg",
+  nosering24:
+    "https://i.pinimg.com/1200x/64/21/53/642153eea2f06e056c2c884ac89d9753.jpg",
+  nosering25:
+    "https://i.pinimg.com/1200x/61/29/8e/61298ee4bdbb478d0d9a2aa91428d863.jpg",
+  nosering26:
+    "https://i.pinimg.com/736x/27/3c/aa/273caac13730643bb7ed6c516a93ae84.jpg",
+  nosering27:
+    "https://i.pinimg.com/736x/dc/fa/86/dcfa86d8db254febbdf393233a989d95.jpg",
+  nosering28:
+    "https://i.pinimg.com/1200x/8b/3c/9a/8b3c9a56979c34aa2ce2fba5db4796a0.jpg",
+  nosering29:
+    "https://i.pinimg.com/1200x/55/13/ff/5513fff545c3031de9072d0b85f7e5f6.jpg",
+  nosering30:
+    "https://i.pinimg.com/1200x/d5/d1/86/d5d1869a1fb1e27544181a3d98baae87.jpg",
+  nosering31:
+    "https://i.pinimg.com/1200x/1b/8d/5b/1b8d5b4c0ea671b0a92917291106a3a9.jpg",
+  nosering32:
+    "https://i.pinimg.com/1200x/85/b3/81/85b3811ab3c974258c040ce3376a1035.jpg",
+  nosering33:
+    "https://i.pinimg.com/736x/df/33/33/df33330daae3c07fab086665be8a6270.jpg",
+  nosering34:
+    "https://i.pinimg.com/1200x/d4/de/80/d4de80fe43ed019d5f5788a5700be7c4.jpg",
+  nosering35:
+    "https://i.pinimg.com/1200x/f3/a6/49/f3a649e97e5b3be2a152d018221aed32.jpg",
+  nosering36:
+    "https://i.pinimg.com/control1/736x/be/71/a3/be71a3258ced4dd34e01f7e3ecb92991.jpg",
+  nosering37:
+    "https://i.pinimg.com/control1/736x/51/9d/7e/519d7e2a7b559866401b5068f65259e4.jpg",
+  nosering38:
+    "https://i.pinimg.com/1200x/85/d3/11/85d311f8a00f4092faa96171d887d803.jpg",
+  nosering39:
+    "https://i.pinimg.com/control1/736x/86/8b/f7/868bf7ce07b2dc5cb8e66840e7ad1981.jpg",
+  nosering40:
+    "https://i.pinimg.com/control1/1200x/43/c3/c1/43c3c11c066a76d0f285c16c1a9bfaaa.jpg",
+  nosering41:
+    "https://i.pinimg.com/1200x/c2/14/ae/c214ae9d7592c1e47b315f57ec5fa11d.jpg",
+  nosering42:
+    "https://i.pinimg.com/1200x/98/21/42/982142529b1f029987ed0c262123ac06.jpg",
+  nosering43:
+    "https://i.pinimg.com/1200x/71/0d/40/710d40e6028bc8099762e584ad40786f.jpg",
+  nosering44:
+    "https://i.pinimg.com/1200x/e3/fa/af/e3faafa0da07e54383e450e32bf6ec16.jpg",
+  nosering45:
+    "https://i.pinimg.com/1200x/3b/94/36/3b9436e4fdba03fb0fe2689e9518acdd.jpg",
+  nosering46:
+    "https://i.pinimg.com/736x/7a/9c/cd/7a9ccdd7d22f4993998ba7888ab6f839.jpg",
+  nosering47:
+    "https://i.pinimg.com/1200x/ef/6a/ef/ef6aef8247eca6b7a82f83c3ab55cfbb.jpg",
+  nosering48:
+    "https://i.pinimg.com/736x/16/19/95/161995f600ef03cbbe95c19750aa7a72.jpg",
 
-  
-  
-    nath: "https://i.pinimg.com/1200x/2a/42/5a/2a425a07db0e58c073560a78bef9c210.jpg",
+  nath: "https://i.pinimg.com/1200x/2a/42/5a/2a425a07db0e58c073560a78bef9c210.jpg",
   nath2:
     "https://i.pinimg.com/736x/b0/5c/6b/b05c6bfcbdb07a1268a2f82ef7da925c.jpg",
   nath3:
@@ -1989,49 +2335,90 @@ const I = {
     "https://i.pinimg.com/736x/4d/87/91/4d8791eb9c4046bb1361bebc4fb9a0c1.jpg",
   nath6:
     "https://i.pinimg.com/736x/d6/64/69/d664692a4d056e30f0e389b77d90191e.jpg",
-  nath7:"https://i.pinimg.com/control1/736x/ca/51/a6/ca51a66957e95ff0a04bd92d51acc2df.jpg",
-  nath8:"https://i.pinimg.com/1200x/4a/ff/27/4aff274c4dd33d79fde78b862b30c483.jpg",
-  nath9:"https://i.pinimg.com/736x/b1/1d/97/b11d97d4c2b65cc23c70b3bf3b3c4fa4.jpg",
-  nath10:"https://i.pinimg.com/1200x/61/6b/cf/616bcf07a4ef9721fda0e0971886bc3c.jpg",
-  nath11:"https://i.pinimg.com/1200x/db/6f/a5/db6fa50cb208621df23508c07739c6e9.jpg",
-  nath12:"https://i.pinimg.com/control1/1200x/ff/85/2f/ff852f9b8480ff204f95e9d217e37dbb.jpg",
-  nath13:"https://i.pinimg.com/control1/736x/e2/33/11/e233117143b1140d0c39c975d9e837b2.jpg",
-  nath14:"https://i.pinimg.com/1200x/2d/a0/c2/2da0c29af0de0d576655b909793d9abc.jpg",
-  nath15:"https://i.pinimg.com/736x/e9/ea/37/e9ea37799fa6a4b51bab667426d06a10.jpg",
-  nath16:"https://i.pinimg.com/control1/736x/4d/87/91/4d8791eb9c4046bb1361bebc4fb9a0c1.jpg",
-  nath17:"https://i.pinimg.com/736x/9a/65/12/9a65122a9517ed227f3c76a1bd34bd5f.jpg",
-  nath18:"https://i.pinimg.com/1200x/65/9e/89/659e890722fc852938ce135178e6f4cd.jpg",
-  nath19:"https://i.pinimg.com/736x/d3/67/a8/d367a87c184af4198f6ffb476fb6b892.jpg",
-  nath20:"https://i.pinimg.com/1200x/49/0d/69/490d6951708b6fdf01023613b931b216.jpg",
-  nath21:"https://i.pinimg.com/1200x/5d/23/f1/5d23f1f5bb8e6d364b3134c73c70dc1d.jpg",
-  nath22:"https://i.pinimg.com/1200x/eb/00/bc/eb00bc3c18daec401e5455cdb23ff0eb.jpg",
-  nath23:"https://i.pinimg.com/1200x/0b/5a/db/0b5adb8cbf8fc9d3a40022af40e7b415.jpg",
-  nath24:"https://i.pinimg.com/1200x/ce/8f/75/ce8f75b8d04b6c8fbb2c6f8f5b07d562.jpg",
-  nath25:"https://i.pinimg.com/736x/8a/ac/36/8aac361e6060f00ebe07392276cfc685.jpg",
-  nath26:"https://i.pinimg.com/736x/7f/f5/18/7ff518cd367e5004bf6fee3c98f3c421.jpg",
-  nath27:"https://i.pinimg.com/1200x/87/9a/6b/879a6b19ae43594075ab872469f82253.jpg",
-  nath28:"https://i.pinimg.com/736x/8f/2a/c8/8f2ac8fcaed5892e368ce9bff1f616e4.jpg",
-  nath29:"https://i.pinimg.com/736x/e8/a3/d2/e8a3d2a897218edd17e104fcfa440d8e.jpg",
-  nath30:"https://i.pinimg.com/1200x/f1/12/9c/f1129c1dae7294084d72a422e7d7816b.jpg",
-  nath31:"https://i.pinimg.com/736x/54/3c/55/543c55a763a2c11d991220fb849cbc42.jpg",
-  nath32:"https://i.pinimg.com/1200x/18/74/b0/1874b0bf79628b754542b8341e1a88cd.jpg",
-  nath33:"https://i.pinimg.com/736x/6f/8e/43/6f8e438f95313108764f8058caac3a19.jpg",
-  nath34:"https://i.pinimg.com/736x/7d/de/19/7dde19192e198715be799fcb0a090440.jpg",
-  nath35:"https://i.pinimg.com/736x/d6/6f/65/d66f65874bb2d55de28e99f4e362d983.jpg",
-  nath36:"https://i.pinimg.com/1200x/04/13/8a/04138afd36238e82a33a596bd59c9683.jpg",
-  nath37:"https://i.pinimg.com/1200x/75/d1/2f/75d12f9a77670b7c9211d6369219a986.jpg",
-  nath38:"https://i.pinimg.com/1200x/9b/02/23/9b0223cd8f4b5b9467d2d7cac5e9034d.jpg",
-  nath39:"https://i.pinimg.com/736x/ae/1e/4c/ae1e4c0f22e7d699301c75f0d8f8bbf9.jpg",
-  nath40:"https://i.pinimg.com/736x/e0/11/55/e0115508bf1a4f9f7fb64ae692b3b3d6.jpg",
-  nath41:"https://i.pinimg.com/736x/12/fa/3d/12fa3de6b5e98b75923df16527b8863a.jpg",
-  nath42:"https://i.pinimg.com/736x/1d/61/47/1d6147cb5e2b5d1d762167ae0db01f38.jpg",
-  nath43:"https://i.pinimg.com/736x/c0/e5/57/c0e557a23344a21c80fe370eee28464a.jpg",
-  nath44:"https://i.pinimg.com/736x/3c/04/01/3c04016fbba7d24c79a3a99e9a6aec8e.jpg",
-  nath45:"https://i.pinimg.com/736x/55/19/a6/5519a6cbedeab55692f8e300c19a16b2.jpg",
-  nath46:"https://i.pinimg.com/736x/d9/ae/e0/d9aee00dba87e732c1e64a9bd47eade1.jpg",
-  nath47:"https://i.pinimg.com/736x/11/49/21/114921d17cd765007d71aaccf7b1a2f7.jpg",
-  nath48:"https://i.pinimg.com/1200x/a0/fd/9b/a0fd9b54fdbbdb891ddbc7b4a82a340f.jpg",
-
+  nath7:
+    "https://i.pinimg.com/control1/736x/ca/51/a6/ca51a66957e95ff0a04bd92d51acc2df.jpg",
+  nath8:
+    "https://i.pinimg.com/1200x/4a/ff/27/4aff274c4dd33d79fde78b862b30c483.jpg",
+  nath9:
+    "https://i.pinimg.com/736x/b1/1d/97/b11d97d4c2b65cc23c70b3bf3b3c4fa4.jpg",
+  nath10:
+    "https://i.pinimg.com/1200x/61/6b/cf/616bcf07a4ef9721fda0e0971886bc3c.jpg",
+  nath11:
+    "https://i.pinimg.com/1200x/db/6f/a5/db6fa50cb208621df23508c07739c6e9.jpg",
+  nath12:
+    "https://i.pinimg.com/control1/1200x/ff/85/2f/ff852f9b8480ff204f95e9d217e37dbb.jpg",
+  nath13:
+    "https://i.pinimg.com/control1/736x/e2/33/11/e233117143b1140d0c39c975d9e837b2.jpg",
+  nath14:
+    "https://i.pinimg.com/1200x/2d/a0/c2/2da0c29af0de0d576655b909793d9abc.jpg",
+  nath15:
+    "https://i.pinimg.com/736x/e9/ea/37/e9ea37799fa6a4b51bab667426d06a10.jpg",
+  nath16:
+    "https://i.pinimg.com/control1/736x/4d/87/91/4d8791eb9c4046bb1361bebc4fb9a0c1.jpg",
+  nath17:
+    "https://i.pinimg.com/736x/9a/65/12/9a65122a9517ed227f3c76a1bd34bd5f.jpg",
+  nath18:
+    "https://i.pinimg.com/1200x/65/9e/89/659e890722fc852938ce135178e6f4cd.jpg",
+  nath19:
+    "https://i.pinimg.com/736x/d3/67/a8/d367a87c184af4198f6ffb476fb6b892.jpg",
+  nath20:
+    "https://i.pinimg.com/1200x/49/0d/69/490d6951708b6fdf01023613b931b216.jpg",
+  nath21:
+    "https://i.pinimg.com/1200x/5d/23/f1/5d23f1f5bb8e6d364b3134c73c70dc1d.jpg",
+  nath22:
+    "https://i.pinimg.com/1200x/eb/00/bc/eb00bc3c18daec401e5455cdb23ff0eb.jpg",
+  nath23:
+    "https://i.pinimg.com/1200x/0b/5a/db/0b5adb8cbf8fc9d3a40022af40e7b415.jpg",
+  nath24:
+    "https://i.pinimg.com/1200x/ce/8f/75/ce8f75b8d04b6c8fbb2c6f8f5b07d562.jpg",
+  nath25:
+    "https://i.pinimg.com/736x/8a/ac/36/8aac361e6060f00ebe07392276cfc685.jpg",
+  nath26:
+    "https://i.pinimg.com/736x/7f/f5/18/7ff518cd367e5004bf6fee3c98f3c421.jpg",
+  nath27:
+    "https://i.pinimg.com/1200x/87/9a/6b/879a6b19ae43594075ab872469f82253.jpg",
+  nath28:
+    "https://i.pinimg.com/736x/8f/2a/c8/8f2ac8fcaed5892e368ce9bff1f616e4.jpg",
+  nath29:
+    "https://i.pinimg.com/736x/e8/a3/d2/e8a3d2a897218edd17e104fcfa440d8e.jpg",
+  nath30:
+    "https://i.pinimg.com/1200x/f1/12/9c/f1129c1dae7294084d72a422e7d7816b.jpg",
+  nath31:
+    "https://i.pinimg.com/736x/54/3c/55/543c55a763a2c11d991220fb849cbc42.jpg",
+  nath32:
+    "https://i.pinimg.com/1200x/18/74/b0/1874b0bf79628b754542b8341e1a88cd.jpg",
+  nath33:
+    "https://i.pinimg.com/736x/6f/8e/43/6f8e438f95313108764f8058caac3a19.jpg",
+  nath34:
+    "https://i.pinimg.com/736x/7d/de/19/7dde19192e198715be799fcb0a090440.jpg",
+  nath35:
+    "https://i.pinimg.com/736x/d6/6f/65/d66f65874bb2d55de28e99f4e362d983.jpg",
+  nath36:
+    "https://i.pinimg.com/1200x/04/13/8a/04138afd36238e82a33a596bd59c9683.jpg",
+  nath37:
+    "https://i.pinimg.com/1200x/75/d1/2f/75d12f9a77670b7c9211d6369219a986.jpg",
+  nath38:
+    "https://i.pinimg.com/1200x/9b/02/23/9b0223cd8f4b5b9467d2d7cac5e9034d.jpg",
+  nath39:
+    "https://i.pinimg.com/736x/ae/1e/4c/ae1e4c0f22e7d699301c75f0d8f8bbf9.jpg",
+  nath40:
+    "https://i.pinimg.com/736x/e0/11/55/e0115508bf1a4f9f7fb64ae692b3b3d6.jpg",
+  nath41:
+    "https://i.pinimg.com/736x/12/fa/3d/12fa3de6b5e98b75923df16527b8863a.jpg",
+  nath42:
+    "https://i.pinimg.com/736x/1d/61/47/1d6147cb5e2b5d1d762167ae0db01f38.jpg",
+  nath43:
+    "https://i.pinimg.com/736x/c0/e5/57/c0e557a23344a21c80fe370eee28464a.jpg",
+  nath44:
+    "https://i.pinimg.com/736x/3c/04/01/3c04016fbba7d24c79a3a99e9a6aec8e.jpg",
+  nath45:
+    "https://i.pinimg.com/736x/55/19/a6/5519a6cbedeab55692f8e300c19a16b2.jpg",
+  nath46:
+    "https://i.pinimg.com/736x/d9/ae/e0/d9aee00dba87e732c1e64a9bd47eade1.jpg",
+  nath47:
+    "https://i.pinimg.com/736x/11/49/21/114921d17cd765007d71aaccf7b1a2f7.jpg",
+  nath48:
+    "https://i.pinimg.com/1200x/a0/fd/9b/a0fd9b54fdbbdb891ddbc7b4a82a340f.jpg",
 
   mangalsutra:
     "https://i.pinimg.com/736x/ba/ac/78/baac78f282ea55cc1aa7f3c2c7773c19.jpg",
@@ -2045,48 +2432,90 @@ const I = {
     "https://i.pinimg.com/736x/a1/c4/95/a1c49514ad7334ff5441a73ab7fad0dc.jpg",
   mangalsutra6:
     "https://i.pinimg.com/1200x/53/05/e7/5305e79d5a9b954e360a225cde4969a6.jpg",
-  mangalsutra7:"https://i.pinimg.com/736x/15/fd/ae/15fdaed568cec107ae046de9651edfd5.jpg",
-  mangalsutra8:"https://i.pinimg.com/736x/22/f9/f5/22f9f5dd1dc508c037f591adfd6d0d79.jpg",
-  mangalsutra9:"https://i.pinimg.com/736x/1e/23/40/1e23401d757957083174b829bcec7747.jpg",
-  mangalsutra10:"https://i.pinimg.com/control1/1200x/dd/29/0b/dd290b77a262147a8645a3c870c10cc2.jpg",
-  mangalsutra11:"https://i.pinimg.com/control1/1200x/ae/43/4d/ae434d22e816f0fbbd97a2a007f9a35e.jpg",
-  mangalsutra12:"https://i.pinimg.com/736x/64/97/53/649753cb4c5f1e7ea5f75d2024553bdd.jpg",
-  mangalsutra13:"https://i.pinimg.com/736x/26/d4/d5/26d4d5559d16aa49c0f4d880276adf6c.jpg",
-  mangalsutra14:"https://i.pinimg.com/736x/41/71/06/4171064acbffd6e92a039e5724804917.jpg",
-  mangalsutra15:"https://i.pinimg.com/control1/1200x/6e/20/a5/6e20a5a8b394492d536d1b6ecae39e77.jpg",
-  mangalsutra16:"https://i.pinimg.com/736x/19/20/6f/19206fc01dea2e5d25692386cc08f119.jpg",
-  mangalsutra17:"https://i.pinimg.com/control1/1200x/96/61/b4/9661b4596aafd6b6f8579afe71ed0ae2.jpg",
-  mangalsutra18:"https://i.pinimg.com/736x/e1/78/cc/e178cc6127f03eec75fe0a1d576b535d.jpg",
-  mangalsutra19:"https://i.pinimg.com/1200x/21/c6/1d/21c61d8806f8dca0347b84cb52c694dc.jpg",
-  mangalsutra20:"https://i.pinimg.com/736x/ae/c7/f4/aec7f43ca4c97f4131468a4d5504ecd8.jpg",
-  mangalsutra21:"https://i.pinimg.com/control1/736x/0c/c3/d2/0cc3d246f7dc7d82f0bbfcf645a2ec0c.jpg",
-  mangalsutra22:"https://i.pinimg.com/1200x/c6/59/cd/c659cd5d7375843d770a428812990d23.jpg",
-  mangalsutra23:"https://i.pinimg.com/736x/fe/d9/b4/fed9b41cb891d3b5563505227bfe4480.jpg",
-  mangalsutra24:"https://i.pinimg.com/736x/ca/a9/3f/caa93f361ab20d4c0b21c14fd394f7c2.jpg",
-  mangalsutra25:"https://i.pinimg.com/1200x/e7/db/0a/e7db0ac763f5bc06f0bb631d043dc015.jpg",
-  mangalsutra26:"https://i.pinimg.com/736x/74/fb/0e/74fb0eac78df1bab4e1ed4981adbce99.jpg",
-  mangalsutra27:"https://i.pinimg.com/control1/736x/a7/39/17/a73917f53817c58866c9f9cc11a8d53b.jpg",
-  mangalsutra28:"https://i.pinimg.com/736x/62/d4/d4/62d4d473d50011ad5e6c3a518cef8fa1.jpg",
-  mangalsutra29:"https://i.pinimg.com/736x/a7/93/c4/a793c420a3748b9dcd6ea2d14b7ae97c.jpg",
-  mangalsutra30:"https://i.pinimg.com/1200x/19/9d/7b/199d7b3b4df5b073485fc44e93bebd94.jpg",
-  mangalsutra31:"https://i.pinimg.com/1200x/4f/aa/08/4faa08525436e1377e90643a153cf464.jpg",
-  mangalsutra32:"https://i.pinimg.com/736x/f8/d2/9c/f8d29c5f5295fb748fb848d658e1a2f4.jpg",
-  mangalsutra33:"https://i.pinimg.com/control1/736x/84/8c/55/848c5577f6e420edc0a9e8b33088dede.jpg",
-  mangalsutra34:"https://i.pinimg.com/control1/736x/77/7b/55/777b55058c281567e2290a01aa1c4922.jpg",
-  mangalsutra35:"https://i.pinimg.com/1200x/6b/6b/b8/6b6bb8d7ef94f76ff3d793ecfc999620.jpg",
-  mangalsutra36:"https://i.pinimg.com/736x/31/d1/cc/31d1cca7593baa382800d90a89aaf2ae.jpg",
-  mangalsutra37:"https://i.pinimg.com/736x/b0/94/f1/b094f113047a6e52dd9f0176b79dae2c.jpg",
-  mangalsutra38:"https://i.pinimg.com/1200x/6e/a2/3c/6ea23ce696e35d13e4a839112cd2f764.jpg",
-  mangalsutra39:"https://i.pinimg.com/736x/83/e9/c4/83e9c48901cdb3c275edbbaf86a5a976.jpg",
-  mangalsutra40:"https://i.pinimg.com/736x/8c/84/8e/8c848ebbbf2f097e1bbc2b89382f21d4.jpg",
-  mangalsutra41:"https://i.pinimg.com/1200x/e9/02/e5/e902e51b45ccc06556e5c7b9f427d117.jpg",
-  mangalsutra42:"https://i.pinimg.com/1200x/35/f3/ad/35f3adab045c981044cc1cf0fc9c34ba.jpg",
-  mangalsutra43:"https://i.pinimg.com/736x/cd/44/81/cd448156e88c34bd32698ba0f2c55966.jpg",
-  mangalsutra44:"https://i.pinimg.com/736x/9c/23/cf/9c23cf82772c9f7e52c04b889a417017.jpg",
-  mangalsutra45:"https://i.pinimg.com/736x/82/85/b0/8285b06a436704fb8fbd803c0a8bc5aa.jpg",
-  mangalsutra46:"https://i.pinimg.com/736x/bb/d6/0c/bbd60ce20d0eeb64dbe5c211568076b5.jpg",
-  mangalsutra47:"https://i.pinimg.com/736x/43/32/34/43323470986bcd4fd325c51c691c8354.jpg",
-  mangalsutra48:"https://i.pinimg.com/736x/0e/f8/a2/0ef8a25c1da5688dffb561827f82224e.jpg",
+  mangalsutra7:
+    "https://i.pinimg.com/736x/15/fd/ae/15fdaed568cec107ae046de9651edfd5.jpg",
+  mangalsutra8:
+    "https://i.pinimg.com/736x/22/f9/f5/22f9f5dd1dc508c037f591adfd6d0d79.jpg",
+  mangalsutra9:
+    "https://i.pinimg.com/736x/1e/23/40/1e23401d757957083174b829bcec7747.jpg",
+  mangalsutra10:
+    "https://i.pinimg.com/control1/1200x/dd/29/0b/dd290b77a262147a8645a3c870c10cc2.jpg",
+  mangalsutra11:
+    "https://i.pinimg.com/control1/1200x/ae/43/4d/ae434d22e816f0fbbd97a2a007f9a35e.jpg",
+  mangalsutra12:
+    "https://i.pinimg.com/736x/64/97/53/649753cb4c5f1e7ea5f75d2024553bdd.jpg",
+  mangalsutra13:
+    "https://i.pinimg.com/736x/26/d4/d5/26d4d5559d16aa49c0f4d880276adf6c.jpg",
+  mangalsutra14:
+    "https://i.pinimg.com/736x/41/71/06/4171064acbffd6e92a039e5724804917.jpg",
+  mangalsutra15:
+    "https://i.pinimg.com/control1/1200x/6e/20/a5/6e20a5a8b394492d536d1b6ecae39e77.jpg",
+  mangalsutra16:
+    "https://i.pinimg.com/736x/19/20/6f/19206fc01dea2e5d25692386cc08f119.jpg",
+  mangalsutra17:
+    "https://i.pinimg.com/control1/1200x/96/61/b4/9661b4596aafd6b6f8579afe71ed0ae2.jpg",
+  mangalsutra18:
+    "https://i.pinimg.com/736x/e1/78/cc/e178cc6127f03eec75fe0a1d576b535d.jpg",
+  mangalsutra19:
+    "https://i.pinimg.com/1200x/21/c6/1d/21c61d8806f8dca0347b84cb52c694dc.jpg",
+  mangalsutra20:
+    "https://i.pinimg.com/736x/ae/c7/f4/aec7f43ca4c97f4131468a4d5504ecd8.jpg",
+  mangalsutra21:
+    "https://i.pinimg.com/control1/736x/0c/c3/d2/0cc3d246f7dc7d82f0bbfcf645a2ec0c.jpg",
+  mangalsutra22:
+    "https://i.pinimg.com/1200x/c6/59/cd/c659cd5d7375843d770a428812990d23.jpg",
+  mangalsutra23:
+    "https://i.pinimg.com/736x/fe/d9/b4/fed9b41cb891d3b5563505227bfe4480.jpg",
+  mangalsutra24:
+    "https://i.pinimg.com/736x/ca/a9/3f/caa93f361ab20d4c0b21c14fd394f7c2.jpg",
+  mangalsutra25:
+    "https://i.pinimg.com/1200x/e7/db/0a/e7db0ac763f5bc06f0bb631d043dc015.jpg",
+  mangalsutra26:
+    "https://i.pinimg.com/736x/74/fb/0e/74fb0eac78df1bab4e1ed4981adbce99.jpg",
+  mangalsutra27:
+    "https://i.pinimg.com/control1/736x/a7/39/17/a73917f53817c58866c9f9cc11a8d53b.jpg",
+  mangalsutra28:
+    "https://i.pinimg.com/736x/62/d4/d4/62d4d473d50011ad5e6c3a518cef8fa1.jpg",
+  mangalsutra29:
+    "https://i.pinimg.com/736x/a7/93/c4/a793c420a3748b9dcd6ea2d14b7ae97c.jpg",
+  mangalsutra30:
+    "https://i.pinimg.com/1200x/19/9d/7b/199d7b3b4df5b073485fc44e93bebd94.jpg",
+  mangalsutra31:
+    "https://i.pinimg.com/1200x/4f/aa/08/4faa08525436e1377e90643a153cf464.jpg",
+  mangalsutra32:
+    "https://i.pinimg.com/736x/f8/d2/9c/f8d29c5f5295fb748fb848d658e1a2f4.jpg",
+  mangalsutra33:
+    "https://i.pinimg.com/control1/736x/84/8c/55/848c5577f6e420edc0a9e8b33088dede.jpg",
+  mangalsutra34:
+    "https://i.pinimg.com/control1/736x/77/7b/55/777b55058c281567e2290a01aa1c4922.jpg",
+  mangalsutra35:
+    "https://i.pinimg.com/1200x/6b/6b/b8/6b6bb8d7ef94f76ff3d793ecfc999620.jpg",
+  mangalsutra36:
+    "https://i.pinimg.com/736x/31/d1/cc/31d1cca7593baa382800d90a89aaf2ae.jpg",
+  mangalsutra37:
+    "https://i.pinimg.com/736x/b0/94/f1/b094f113047a6e52dd9f0176b79dae2c.jpg",
+  mangalsutra38:
+    "https://i.pinimg.com/1200x/6e/a2/3c/6ea23ce696e35d13e4a839112cd2f764.jpg",
+  mangalsutra39:
+    "https://i.pinimg.com/736x/83/e9/c4/83e9c48901cdb3c275edbbaf86a5a976.jpg",
+  mangalsutra40:
+    "https://i.pinimg.com/736x/8c/84/8e/8c848ebbbf2f097e1bbc2b89382f21d4.jpg",
+  mangalsutra41:
+    "https://i.pinimg.com/1200x/e9/02/e5/e902e51b45ccc06556e5c7b9f427d117.jpg",
+  mangalsutra42:
+    "https://i.pinimg.com/1200x/35/f3/ad/35f3adab045c981044cc1cf0fc9c34ba.jpg",
+  mangalsutra43:
+    "https://i.pinimg.com/736x/cd/44/81/cd448156e88c34bd32698ba0f2c55966.jpg",
+  mangalsutra44:
+    "https://i.pinimg.com/736x/9c/23/cf/9c23cf82772c9f7e52c04b889a417017.jpg",
+  mangalsutra45:
+    "https://i.pinimg.com/736x/82/85/b0/8285b06a436704fb8fbd803c0a8bc5aa.jpg",
+  mangalsutra46:
+    "https://i.pinimg.com/736x/bb/d6/0c/bbd60ce20d0eeb64dbe5c211568076b5.jpg",
+  mangalsutra47:
+    "https://i.pinimg.com/736x/43/32/34/43323470986bcd4fd325c51c691c8354.jpg",
+  mangalsutra48:
+    "https://i.pinimg.com/736x/0e/f8/a2/0ef8a25c1da5688dffb561827f82224e.jpg",
 
   chudi:
     "https://i.pinimg.com/736x/6f/99/26/6f9926cb90c266955ff0f60110184685.jpg",
@@ -2102,48 +2531,88 @@ const I = {
     "https://i.pinimg.com/736x/6c/a4/bb/6ca4bbf2515fead83d8d142db4a3e3c2.jpg",
   chudi7:
     "https://i.pinimg.com/736x/6c/a4/bb/6ca4bbf2515fead83d8d142db4a3e3c2.jpg",
-  chudi8:"https://i.pinimg.com/1200x/17/f8/6f/17f86f3443cf3fab71dfc8577ef42814.jpg",
-  chudi9:"https://i.pinimg.com/control1/736x/89/54/56/89545658ba23e603663ba8efc9b703f6.jpg",
-  chudi10:"https://i.pinimg.com/736x/33/c0/08/33c0086a738e48cc5be2c68ca13e397e.jpg",
-  chudi11:"https://i.pinimg.com/1200x/b5/2f/e2/b52fe225d8fcd848570f465661122ce7.jpg",
-  chudi12:"https://i.pinimg.com/1200x/1c/c5/d7/1cc5d767cb9406e413506c41a31a24e7.jpg",
-  chudi13:"https://i.pinimg.com/1200x/b0/54/ee/b054ee8ccc90c7d047c260db0bbf3cb3.jpg",
-  chudi14:"https://i.pinimg.com/736x/6a/f8/31/6af8317a81f1b3f17950041ffba566fd.jpg",
-  chudi15:"https://i.pinimg.com/control1/1200x/53/3b/ef/533befcc274025cfdb974485ca85e1e4.jpg",
-  chudi16:"https://i.pinimg.com/736x/8c/53/19/8c5319e992f7b30225b8dfcf0b5c4258.jpg",
-  chudi17:"https://i.pinimg.com/control1/1200x/cc/5c/2a/cc5c2a2453ddf6553924552b91db4c3c.jpg",
-  chudi18:"https://i.pinimg.com/control1/1200x/9e/e2/07/9ee2079457405824e3f0f6c13be4b564.jpg",
-  chudi19:"https://i.pinimg.com/control1/736x/57/c2/0e/57c20e4a5d80ab8081890d808bacb18b.jpg",
-  chudi20:"https://i.pinimg.com/736x/18/95/c8/1895c88761cdab59a896372a59d4c2e7.jpg",
-  chudi21:"https://i.pinimg.com/736x/a2/0b/20/a20b20acc3bd20d5a708c73c75ed9094.jpg",
-  chudi22:"https://i.pinimg.com/1200x/72/5c/2e/725c2e2d1065a31b7459e4d80fb72ff8.jpg",
-  chudi23:"https://i.pinimg.com/control1/1200x/2a/11/e0/2a11e0a3878a9f6bfffdc1f9e86725b3.jpg",
-  chudi24:"https://i.pinimg.com/control1/736x/16/ca/a6/16caa6bdc85cae3e5921836524003011.jpg",
-  chudi25:"https://i.pinimg.com/736x/31/0f/9b/310f9bc3fca881815909c2152b100f87.jpg",
-  chudi26:"https://i.pinimg.com/1200x/50/0f/7e/500f7ed7a9426d58d83bb19d08f3ee2c.jpg",
-  chudi27:"https://i.pinimg.com/1200x/3d/78/34/3d78345d3dba4c359b0eb46a608203f2.jpg",
-  chudi28:"https://i.pinimg.com/1200x/3f/2e/62/3f2e62bf1a531ed2df57de4e26066288.jpg",
-  chudi29:"https://i.pinimg.com/1200x/0b/bc/99/0bbc996724aafab3763f4961cae7f55f.jpg",
-  chudi30:"https://i.pinimg.com/control1/736x/e8/9e/b4/e89eb468b7648834991de0302c653165.jpg",
-  chudi31:"https://i.pinimg.com/control1/736x/bd/05/79/bd0579393a2a4d750b13226655b41929.jpg",
-  chudi32:"https://i.pinimg.com/736x/eb/dc/b8/ebdcb8334f057bc51aff9309a3b124b7.jpg",
-  chudi33:"https://i.pinimg.com/736x/d2/15/f4/d215f433042bf8d36616c119408f1113.jpg",
-  chudi34:"https://i.pinimg.com/1200x/d2/2f/54/d22f542f0f541110e9e903e4d493d727.jpg",
-  chudi35:"https://i.pinimg.com/1200x/57/87/00/5787002f9cb0e8bba5359e639ce3fd7b.jpg",
-  chudi36:"https://i.pinimg.com/1200x/4e/c4/b0/4ec4b0c5fbb1d81dba67ae560653ce65.jpg",
-  chudi37:"https://i.pinimg.com/1200x/5f/52/f9/5f52f9db75a13131a948205cfa72e15a.jpg",
-  chudi38:"https://i.pinimg.com/1200x/de/d7/d0/ded7d05cbf57b1c9545f7afeb396ee95.jpg",
-  chudi39:"https://i.pinimg.com/736x/a5/15/5f/a5155f9e43ac3a6ccc0f52194b38abda.jpg",
-  chudi40:"https://i.pinimg.com/736x/59/3e/9d/593e9d9cdca7253f436c1830915ef546.jpg",
-  chudi41:"https://i.pinimg.com/736x/00/76/aa/0076aabed64a5ee73afecf4940c8f446.jpg",
-  chudi42:"https://i.pinimg.com/1200x/89/37/91/893791c2600b8900f16cf1ad57a71dad.jpg",
-  chudi43:"https://i.pinimg.com/1200x/01/ac/c8/01acc865822145544468734eb7c13d45.jpg",
-  chudi44:"https://i.pinimg.com/control1/736x/c6/1f/e0/c61fe066377d8780d92f9aef995e4b88.jpg",
-  chudi45:"https://i.pinimg.com/1200x/1e/49/ef/1e49efd64ac4365dbae20125e2ec39f7.jpg",
-  chudi46:"https://i.pinimg.com/1200x/8f/1b/0c/8f1b0ce541270571c0fbdcac4cf7a64c.jpg",
-  chudi47:"https://i.pinimg.com/736x/fe/84/3d/fe843d132af5db04e7b05f4a0a1b1525.jpg",
-  chudi48:"https://i.pinimg.com/736x/bc/a3/ab/bca3ab2879b77bfaac8ac39928783744.jpg",
-
+  chudi8:
+    "https://i.pinimg.com/1200x/17/f8/6f/17f86f3443cf3fab71dfc8577ef42814.jpg",
+  chudi9:
+    "https://i.pinimg.com/control1/736x/89/54/56/89545658ba23e603663ba8efc9b703f6.jpg",
+  chudi10:
+    "https://i.pinimg.com/736x/33/c0/08/33c0086a738e48cc5be2c68ca13e397e.jpg",
+  chudi11:
+    "https://i.pinimg.com/1200x/b5/2f/e2/b52fe225d8fcd848570f465661122ce7.jpg",
+  chudi12:
+    "https://i.pinimg.com/1200x/1c/c5/d7/1cc5d767cb9406e413506c41a31a24e7.jpg",
+  chudi13:
+    "https://i.pinimg.com/1200x/b0/54/ee/b054ee8ccc90c7d047c260db0bbf3cb3.jpg",
+  chudi14:
+    "https://i.pinimg.com/736x/6a/f8/31/6af8317a81f1b3f17950041ffba566fd.jpg",
+  chudi15:
+    "https://i.pinimg.com/control1/1200x/53/3b/ef/533befcc274025cfdb974485ca85e1e4.jpg",
+  chudi16:
+    "https://i.pinimg.com/736x/8c/53/19/8c5319e992f7b30225b8dfcf0b5c4258.jpg",
+  chudi17:
+    "https://i.pinimg.com/control1/1200x/cc/5c/2a/cc5c2a2453ddf6553924552b91db4c3c.jpg",
+  chudi18:
+    "https://i.pinimg.com/control1/1200x/9e/e2/07/9ee2079457405824e3f0f6c13be4b564.jpg",
+  chudi19:
+    "https://i.pinimg.com/control1/736x/57/c2/0e/57c20e4a5d80ab8081890d808bacb18b.jpg",
+  chudi20:
+    "https://i.pinimg.com/736x/18/95/c8/1895c88761cdab59a896372a59d4c2e7.jpg",
+  chudi21:
+    "https://i.pinimg.com/736x/a2/0b/20/a20b20acc3bd20d5a708c73c75ed9094.jpg",
+  chudi22:
+    "https://i.pinimg.com/1200x/72/5c/2e/725c2e2d1065a31b7459e4d80fb72ff8.jpg",
+  chudi23:
+    "https://i.pinimg.com/control1/1200x/2a/11/e0/2a11e0a3878a9f6bfffdc1f9e86725b3.jpg",
+  chudi24:
+    "https://i.pinimg.com/control1/736x/16/ca/a6/16caa6bdc85cae3e5921836524003011.jpg",
+  chudi25:
+    "https://i.pinimg.com/736x/31/0f/9b/310f9bc3fca881815909c2152b100f87.jpg",
+  chudi26:
+    "https://i.pinimg.com/1200x/50/0f/7e/500f7ed7a9426d58d83bb19d08f3ee2c.jpg",
+  chudi27:
+    "https://i.pinimg.com/1200x/3d/78/34/3d78345d3dba4c359b0eb46a608203f2.jpg",
+  chudi28:
+    "https://i.pinimg.com/1200x/3f/2e/62/3f2e62bf1a531ed2df57de4e26066288.jpg",
+  chudi29:
+    "https://i.pinimg.com/1200x/0b/bc/99/0bbc996724aafab3763f4961cae7f55f.jpg",
+  chudi30:
+    "https://i.pinimg.com/control1/736x/e8/9e/b4/e89eb468b7648834991de0302c653165.jpg",
+  chudi31:
+    "https://i.pinimg.com/control1/736x/bd/05/79/bd0579393a2a4d750b13226655b41929.jpg",
+  chudi32:
+    "https://i.pinimg.com/736x/eb/dc/b8/ebdcb8334f057bc51aff9309a3b124b7.jpg",
+  chudi33:
+    "https://i.pinimg.com/736x/d2/15/f4/d215f433042bf8d36616c119408f1113.jpg",
+  chudi34:
+    "https://i.pinimg.com/1200x/d2/2f/54/d22f542f0f541110e9e903e4d493d727.jpg",
+  chudi35:
+    "https://i.pinimg.com/1200x/57/87/00/5787002f9cb0e8bba5359e639ce3fd7b.jpg",
+  chudi36:
+    "https://i.pinimg.com/1200x/4e/c4/b0/4ec4b0c5fbb1d81dba67ae560653ce65.jpg",
+  chudi37:
+    "https://i.pinimg.com/1200x/5f/52/f9/5f52f9db75a13131a948205cfa72e15a.jpg",
+  chudi38:
+    "https://i.pinimg.com/1200x/de/d7/d0/ded7d05cbf57b1c9545f7afeb396ee95.jpg",
+  chudi39:
+    "https://i.pinimg.com/736x/a5/15/5f/a5155f9e43ac3a6ccc0f52194b38abda.jpg",
+  chudi40:
+    "https://i.pinimg.com/736x/59/3e/9d/593e9d9cdca7253f436c1830915ef546.jpg",
+  chudi41:
+    "https://i.pinimg.com/736x/00/76/aa/0076aabed64a5ee73afecf4940c8f446.jpg",
+  chudi42:
+    "https://i.pinimg.com/1200x/89/37/91/893791c2600b8900f16cf1ad57a71dad.jpg",
+  chudi43:
+    "https://i.pinimg.com/1200x/01/ac/c8/01acc865822145544468734eb7c13d45.jpg",
+  chudi44:
+    "https://i.pinimg.com/control1/736x/c6/1f/e0/c61fe066377d8780d92f9aef995e4b88.jpg",
+  chudi45:
+    "https://i.pinimg.com/1200x/1e/49/ef/1e49efd64ac4365dbae20125e2ec39f7.jpg",
+  chudi46:
+    "https://i.pinimg.com/1200x/8f/1b/0c/8f1b0ce541270571c0fbdcac4cf7a64c.jpg",
+  chudi47:
+    "https://i.pinimg.com/736x/fe/84/3d/fe843d132af5db04e7b05f4a0a1b1525.jpg",
+  chudi48:
+    "https://i.pinimg.com/736x/bc/a3/ab/bca3ab2879b77bfaac8ac39928783744.jpg",
 
   raanihar:
     "https://i.pinimg.com/1200x/5a/45/49/5a4549376e8aea423054b42e1ecdcbc4.jpg",
@@ -2157,48 +2626,90 @@ const I = {
     "https://i.pinimg.com/736x/78/73/58/7873589944730beeff4cd977b607288a.jpg",
   raanihar6:
     "https://i.pinimg.com/736x/ee/53/be/ee53beac48d316c27e429ac492df281c.jpg",
-  raanihar7:"https://i.pinimg.com/control1/1200x/89/9e/01/899e01109ec11c7f2582427d3e943c74.jpg",
-  raanihar8:"https://i.pinimg.com/control1/1200x/de/ad/cb/deadcb7625d0a836d2076fe17681eb04.jpg",
-  raanihar9:"https://i.pinimg.com/1200x/57/8b/06/578b06243cbb528e0ff0685f1c050cdf.jpg",
-  raanihar10:"https://i.pinimg.com/736x/db/5f/44/db5f443b6247fef4828a90f0aaaf83f7.jpg",
-  raanihar11:"https://i.pinimg.com/control1/1200x/63/1a/1a/631a1a0132a9b87eebdc70a4b37f0015.jpg",
-  raanihar12:"https://i.pinimg.com/736x/a9/2b/74/a92b74d79515c0765a53f1d977da878d.jpg",
-  raanihar13:"https://i.pinimg.com/1200x/a0/fb/73/a0fb73c47703b0ff0e6a31980a301f48.jpg",
-  raanihar14:"https://i.pinimg.com/736x/44/ea/c3/44eac31e2f240645414c103674b8015c.jpg",
-  raanihar15:"https://i.pinimg.com/736x/ae/e3/88/aee38815562bc2c65bfeaccc970420a7.jpg",
-  raanihar16:"https://i.pinimg.com/1200x/34/c9/5b/34c95b21b1d7f753741f4f82132f5bc1.jpg",
-  raanihar17:"https://i.pinimg.com/736x/96/43/3f/96433feea00183312196c60386c7461e.jpg",
-  raanihar18:"https://i.pinimg.com/736x/ec/88/e3/ec88e3e1d32dddf7925f8dd021b7dd45.jpg",
-  raanihar19:"https://i.pinimg.com/736x/0f/4a/09/0f4a094d35014e636ca9e8b20d4da8ec.jpg",
-  raanihar20:"https://i.pinimg.com/control1/1200x/e7/8c/6e/e78c6e5fd4f5ad9d0f6449d01c45330e.jpg",
-  raanihar21:"https://i.pinimg.com/736x/f7/15/0e/f7150e8a535644d3821a4a2abf786176.jpg",
-  raanihar22:"https://i.pinimg.com/736x/b3/14/af/b314af279f7b95fe6cc439fe688c52f9.jpg",
-  raanihar23:"https://i.pinimg.com/736x/fc/8a/b8/fc8ab8938f9d97f1fe43883987ab553e.jpg",
-  raanihar24:"https://i.pinimg.com/736x/db/d5/6e/dbd56ecd02e21386148fcad0e4e18365.jpg",
-  raanihar25:"https://i.pinimg.com/control1/1200x/85/3c/08/853c08cf659f021bf810e7ee07ec5474.jpg",
-  raanihar26:"https://i.pinimg.com/736x/f1/92/3a/f1923a6b27515a7c3faaf475114b7348.jpg",
-  raanihar27:"https://i.pinimg.com/736x/3d/a8/dd/3da8dd4dcf5f2ea5454c5e4926981f74.jpg",
-  raanihar28:"https://i.pinimg.com/736x/91/c9/18/91c918fbb15ac16c5a461b65158e4951.jpg",
-  raanihar29:"https://i.pinimg.com/control1/1200x/33/29/7e/33297e190c519bd3eb3b164f8c07291f.jpg",
-  raanihar30:"https://i.pinimg.com/736x/03/f5/61/03f56131b7c6f0b125c1656f6d49e9d0.jpg",
-  raanihar31:"https://i.pinimg.com/736x/b7/6a/1d/b76a1d889356231c8b4f88ee464a3c71.jpg",
-  raanihar32:"https://i.pinimg.com/1200x/5f/13/45/5f134562f0d8701140677b6c9b28d6bb.jpg",
-  raanihar33:"https://i.pinimg.com/736x/19/4a/9a/194a9ad3effb89a64c61c325515b5a60.jpg",
-  raanihar34:"https://i.pinimg.com/736x/eb/df/c0/ebdfc0d7a1b0f9031616c9e3435ea0cd.jpg",
-  raanihar35:"https://i.pinimg.com/1200x/d4/e2/1e/d4e21ef5fb9d4c156c3bf6feab48f5a2.jpg",
-  raanihar36:"https://i.pinimg.com/1200x/2c/a8/68/2ca86880a5eb15396f9ce821fdd53924.jpg",
-  raanihar37:"https://i.pinimg.com/736x/1f/e3/8d/1fe38d4dfe64a8eb4a5e0dcd207814f9.jpg",
-  raanihar38:"https://i.pinimg.com/736x/41/23/a9/4123a900f31c449a39d53f4ad492ff21.jpg",
-  raanihar39:"https://i.pinimg.com/736x/73/63/26/736326f25d00999716147b183ad02b1c.jpg",
-  raanihar40:"https://i.pinimg.com/736x/95/e4/6a/95e46a548bd3adbeb8a0e5b48af81c88.jpg",
-  raanihar41:"https://i.pinimg.com/736x/46/92/b1/4692b1dac9bad270917aae49d91a2eb7.jpg",
-  raanihar42:"https://i.pinimg.com/1200x/4b/fb/a8/4bfba813eaf4c05e0818351db23f819a.jpg",
-  raanihar43:"https://i.pinimg.com/736x/64/00/11/640011b51773cca0ad277fd53d0b3674.jpg",
-  raanihar44:"https://i.pinimg.com/736x/28/0b/5b/280b5b3d434aa211353376d777da08f0.jpg",
-  raanihar45:"https://i.pinimg.com/736x/8a/d4/53/8ad4537da1d766c504030b878369a30f.jpg",
-  raanihar46:"https://i.pinimg.com/736x/34/fc/64/34fc6425b292685875e452ebc9b67c40.jpg",
-  raanihar47:"https://i.pinimg.com/736x/42/0c/09/420c09ab93e3e8ded481c45ebcea6fd0.jpg",
-  raanihar48:"https://i.pinimg.com/1200x/a4/07/d2/a407d2f4222dce7bb00fe25f078231b8.jpg",
+  raanihar7:
+    "https://i.pinimg.com/control1/1200x/89/9e/01/899e01109ec11c7f2582427d3e943c74.jpg",
+  raanihar8:
+    "https://i.pinimg.com/control1/1200x/de/ad/cb/deadcb7625d0a836d2076fe17681eb04.jpg",
+  raanihar9:
+    "https://i.pinimg.com/1200x/57/8b/06/578b06243cbb528e0ff0685f1c050cdf.jpg",
+  raanihar10:
+    "https://i.pinimg.com/736x/db/5f/44/db5f443b6247fef4828a90f0aaaf83f7.jpg",
+  raanihar11:
+    "https://i.pinimg.com/control1/1200x/63/1a/1a/631a1a0132a9b87eebdc70a4b37f0015.jpg",
+  raanihar12:
+    "https://i.pinimg.com/736x/a9/2b/74/a92b74d79515c0765a53f1d977da878d.jpg",
+  raanihar13:
+    "https://i.pinimg.com/1200x/a0/fb/73/a0fb73c47703b0ff0e6a31980a301f48.jpg",
+  raanihar14:
+    "https://i.pinimg.com/736x/44/ea/c3/44eac31e2f240645414c103674b8015c.jpg",
+  raanihar15:
+    "https://i.pinimg.com/736x/ae/e3/88/aee38815562bc2c65bfeaccc970420a7.jpg",
+  raanihar16:
+    "https://i.pinimg.com/1200x/34/c9/5b/34c95b21b1d7f753741f4f82132f5bc1.jpg",
+  raanihar17:
+    "https://i.pinimg.com/736x/96/43/3f/96433feea00183312196c60386c7461e.jpg",
+  raanihar18:
+    "https://i.pinimg.com/736x/ec/88/e3/ec88e3e1d32dddf7925f8dd021b7dd45.jpg",
+  raanihar19:
+    "https://i.pinimg.com/736x/0f/4a/09/0f4a094d35014e636ca9e8b20d4da8ec.jpg",
+  raanihar20:
+    "https://i.pinimg.com/control1/1200x/e7/8c/6e/e78c6e5fd4f5ad9d0f6449d01c45330e.jpg",
+  raanihar21:
+    "https://i.pinimg.com/736x/f7/15/0e/f7150e8a535644d3821a4a2abf786176.jpg",
+  raanihar22:
+    "https://i.pinimg.com/736x/b3/14/af/b314af279f7b95fe6cc439fe688c52f9.jpg",
+  raanihar23:
+    "https://i.pinimg.com/736x/fc/8a/b8/fc8ab8938f9d97f1fe43883987ab553e.jpg",
+  raanihar24:
+    "https://i.pinimg.com/736x/db/d5/6e/dbd56ecd02e21386148fcad0e4e18365.jpg",
+  raanihar25:
+    "https://i.pinimg.com/control1/1200x/85/3c/08/853c08cf659f021bf810e7ee07ec5474.jpg",
+  raanihar26:
+    "https://i.pinimg.com/736x/f1/92/3a/f1923a6b27515a7c3faaf475114b7348.jpg",
+  raanihar27:
+    "https://i.pinimg.com/736x/3d/a8/dd/3da8dd4dcf5f2ea5454c5e4926981f74.jpg",
+  raanihar28:
+    "https://i.pinimg.com/736x/91/c9/18/91c918fbb15ac16c5a461b65158e4951.jpg",
+  raanihar29:
+    "https://i.pinimg.com/control1/1200x/33/29/7e/33297e190c519bd3eb3b164f8c07291f.jpg",
+  raanihar30:
+    "https://i.pinimg.com/736x/03/f5/61/03f56131b7c6f0b125c1656f6d49e9d0.jpg",
+  raanihar31:
+    "https://i.pinimg.com/736x/b7/6a/1d/b76a1d889356231c8b4f88ee464a3c71.jpg",
+  raanihar32:
+    "https://i.pinimg.com/1200x/5f/13/45/5f134562f0d8701140677b6c9b28d6bb.jpg",
+  raanihar33:
+    "https://i.pinimg.com/736x/19/4a/9a/194a9ad3effb89a64c61c325515b5a60.jpg",
+  raanihar34:
+    "https://i.pinimg.com/736x/eb/df/c0/ebdfc0d7a1b0f9031616c9e3435ea0cd.jpg",
+  raanihar35:
+    "https://i.pinimg.com/1200x/d4/e2/1e/d4e21ef5fb9d4c156c3bf6feab48f5a2.jpg",
+  raanihar36:
+    "https://i.pinimg.com/1200x/2c/a8/68/2ca86880a5eb15396f9ce821fdd53924.jpg",
+  raanihar37:
+    "https://i.pinimg.com/736x/1f/e3/8d/1fe38d4dfe64a8eb4a5e0dcd207814f9.jpg",
+  raanihar38:
+    "https://i.pinimg.com/736x/41/23/a9/4123a900f31c449a39d53f4ad492ff21.jpg",
+  raanihar39:
+    "https://i.pinimg.com/736x/73/63/26/736326f25d00999716147b183ad02b1c.jpg",
+  raanihar40:
+    "https://i.pinimg.com/736x/95/e4/6a/95e46a548bd3adbeb8a0e5b48af81c88.jpg",
+  raanihar41:
+    "https://i.pinimg.com/736x/46/92/b1/4692b1dac9bad270917aae49d91a2eb7.jpg",
+  raanihar42:
+    "https://i.pinimg.com/1200x/4b/fb/a8/4bfba813eaf4c05e0818351db23f819a.jpg",
+  raanihar43:
+    "https://i.pinimg.com/736x/64/00/11/640011b51773cca0ad277fd53d0b3674.jpg",
+  raanihar44:
+    "https://i.pinimg.com/736x/28/0b/5b/280b5b3d434aa211353376d777da08f0.jpg",
+  raanihar45:
+    "https://i.pinimg.com/736x/8a/d4/53/8ad4537da1d766c504030b878369a30f.jpg",
+  raanihar46:
+    "https://i.pinimg.com/736x/34/fc/64/34fc6425b292685875e452ebc9b67c40.jpg",
+  raanihar47:
+    "https://i.pinimg.com/736x/42/0c/09/420c09ab93e3e8ded481c45ebcea6fd0.jpg",
+  raanihar48:
+    "https://i.pinimg.com/1200x/a4/07/d2/a407d2f4222dce7bb00fe25f078231b8.jpg",
 
   choker:
     "https://i.pinimg.com/736x/3e/76/07/3e7607254f0c2c104bac149c70e9dd06.jpg",
@@ -2212,48 +2723,88 @@ const I = {
     "https://i.pinimg.com/1200x/87/86/5a/87865ae25705562b8703c0c06af691d6.jpg",
   choker6:
     "https://i.pinimg.com/1200x/6a/c0/2f/6ac02f8cb09fae5fb90bf05e2bff09fd.jpg",
-  choker7:"https://i.pinimg.com/736x/1c/a2/4d/1ca24da726d21edc1a093cd29bd2ea6b.jpg",
-  choker8:"https://i.pinimg.com/736x/9a/ca/5a/9aca5a4f0903c7cdc84065103b34c972.jpg",
-  choker9:"https://i.pinimg.com/736x/98/6d/e4/986de4ce76313dfa4b6e4e8c6088be78.jpg",
-  choker10:"https://i.pinimg.com/736x/67/f1/5c/67f15c1624f5ee99d884d986f8a67877.jpg",
-  choker11:"https://i.pinimg.com/1200x/29/a9/09/29a909c6df1e75b89cc38be030e2133e.jpg",
-  choker12:"https://i.pinimg.com/736x/1a/73/fa/1a73fa4ad6779c8a3468725601b9f74a.jpg",
-  choker13:"https://i.pinimg.com/1200x/08/54/a2/0854a233f51fd739f5dda73cd64ac13e.jpg",
-  choker14:"https://i.pinimg.com/1200x/aa/1f/12/aa1f12004932e9bc02735bcb1d4a1fd1.jpg",
-  choker15:"https://i.pinimg.com/1200x/65/07/65/650765ee6ed67c35a965d0d33c8c1719.jpg",
-  choker16:"https://i.pinimg.com/1200x/0d/c8/02/0dc802e701504e6ad4809402f3cd8843.jpg",
-  choker17:"https://i.pinimg.com/control1/1200x/9c/6c/7f/9c6c7f4beb0ae1710647d3c44134f6ea.jpg",
-  choker18:"https://i.pinimg.com/736x/0f/3f/4d/0f3f4d43899c1fc1d4cf7e07b6f1aa2d.jpg",
-  choker19:"https://i.pinimg.com/736x/e6/10/57/e61057e83476f9a68341e626ef802808.jpg",
-  choker20:"https://i.pinimg.com/control1/1200x/b4/ec/c2/b4ecc2208d7bb83361047ce20d42f11a.jpg",
-  choker21:"https://i.pinimg.com/736x/6f/7c/41/6f7c4124ac861407baafbe7aecebb6b1.jpg",
-  choker22:"https://i.pinimg.com/1200x/43/e6/3f/43e63fb3e686c8ac6f5759f70a750d3d.jpg",
-  choker23:"https://i.pinimg.com/1200x/ec/da/b3/ecdab3b905758f4c1d083eafe5a10a6a.jpg",
-  choker24:"https://i.pinimg.com/736x/4f/93/d9/4f93d943f790b44dbf0863b899d02c53.jpg",
-  choker25:"https://i.pinimg.com/736x/cf/d2/96/cfd296628e8ebccb061cd1629b06deab.jpg",
-  choker26:"https://i.pinimg.com/736x/56/d3/06/56d306222f92b60472652f1e57fb3a4d.jpg",
-  choker27:"https://i.pinimg.com/736x/4f/15/2e/4f152ee721011f5c99b692ba64bf7bc8.jpg",
-  choker28:"https://i.pinimg.com/736x/b7/89/21/b7892190bc1bc473ca77fcee498629af.jpg",
-  choker29:"https://i.pinimg.com/control1/736x/bc/67/9d/bc679dd47fe8eaff655a5b8e8df7fa08.jpg",
-  choker30:"https://i.pinimg.com/control1/736x/d8/fa/c6/d8fac6f43d81af1e295b7c979eabef1c.jpg",
-  choker31:"https://i.pinimg.com/1200x/07/35/3a/07353ae28e4756541c45154c2a510072.jpg",
-  choker32:"https://i.pinimg.com/control1/736x/3c/64/61/3c64619063cf8c4220025c0df812da35.jpg",
-  choker33:"https://i.pinimg.com/control1/1200x/46/4c/53/464c534b902f87c0bcd1066c8341e6db.jpg",
-  choker34:"https://i.pinimg.com/1200x/37/a0/d4/37a0d48fd230664fad1249b51060908d.jpg",
-  choker35:"https://i.pinimg.com/736x/19/22/ae/1922ae5e95595e1f52355977fcca3142.jpg",
-  choker36:"https://i.pinimg.com/control1/736x/5f/71/77/5f7177716efb680b83641b5629434e79.jpg",
-  choker37:"https://i.pinimg.com/736x/9b/f5/c4/9bf5c49be5c5f679e527fb813f0f0ae6.jpg",
-  choker38:"https://i.pinimg.com/736x/a5/50/b0/a550b0db6f914929a8beaac9f643dfa0.jpg",
-  choker39:"https://i.pinimg.com/1200x/b7/9c/c7/b79cc7dbca81088215936ce1edfcdaf1.jpg",
-  choker40:"https://i.pinimg.com/736x/11/99/36/119936495448e4de3c103e434e70e746.jpg",
-  choker41:"https://i.pinimg.com/1200x/f7/fa/96/f7fa96eebb39eb0ccb7e2167e78b6b0f.jpg",
-  choker42:"https://i.pinimg.com/control1/736x/76/d6/f1/76d6f13b8f56087450f09bd341f8d801.jpg",
-  choker43:"https://i.pinimg.com/736x/56/d3/b4/56d3b470eea34723be35b90c44b41ad1.jpg",
-  choker44:"https://i.pinimg.com/736x/ae/d1/92/aed192a3d10a7fba0574b124e8ce701d.jpg",
-  choker45:"https://i.pinimg.com/736x/18/2c/3b/182c3bf0fa51435d6201ea59c5deb9f6.jpg",
-  choker46:"https://i.pinimg.com/736x/6c/97/00/6c9700a42d3f5bcf5f07c5cb0106a4dd.jpg",
-  choker47:"https://i.pinimg.com/736x/6c/97/00/6c9700a42d3f5bcf5f07c5cb0106a4dd.jpg",
-
+  choker7:
+    "https://i.pinimg.com/736x/1c/a2/4d/1ca24da726d21edc1a093cd29bd2ea6b.jpg",
+  choker8:
+    "https://i.pinimg.com/736x/9a/ca/5a/9aca5a4f0903c7cdc84065103b34c972.jpg",
+  choker9:
+    "https://i.pinimg.com/736x/98/6d/e4/986de4ce76313dfa4b6e4e8c6088be78.jpg",
+  choker10:
+    "https://i.pinimg.com/736x/67/f1/5c/67f15c1624f5ee99d884d986f8a67877.jpg",
+  choker11:
+    "https://i.pinimg.com/1200x/29/a9/09/29a909c6df1e75b89cc38be030e2133e.jpg",
+  choker12:
+    "https://i.pinimg.com/736x/1a/73/fa/1a73fa4ad6779c8a3468725601b9f74a.jpg",
+  choker13:
+    "https://i.pinimg.com/1200x/08/54/a2/0854a233f51fd739f5dda73cd64ac13e.jpg",
+  choker14:
+    "https://i.pinimg.com/1200x/aa/1f/12/aa1f12004932e9bc02735bcb1d4a1fd1.jpg",
+  choker15:
+    "https://i.pinimg.com/1200x/65/07/65/650765ee6ed67c35a965d0d33c8c1719.jpg",
+  choker16:
+    "https://i.pinimg.com/1200x/0d/c8/02/0dc802e701504e6ad4809402f3cd8843.jpg",
+  choker17:
+    "https://i.pinimg.com/control1/1200x/9c/6c/7f/9c6c7f4beb0ae1710647d3c44134f6ea.jpg",
+  choker18:
+    "https://i.pinimg.com/736x/0f/3f/4d/0f3f4d43899c1fc1d4cf7e07b6f1aa2d.jpg",
+  choker19:
+    "https://i.pinimg.com/736x/e6/10/57/e61057e83476f9a68341e626ef802808.jpg",
+  choker20:
+    "https://i.pinimg.com/control1/1200x/b4/ec/c2/b4ecc2208d7bb83361047ce20d42f11a.jpg",
+  choker21:
+    "https://i.pinimg.com/736x/6f/7c/41/6f7c4124ac861407baafbe7aecebb6b1.jpg",
+  choker22:
+    "https://i.pinimg.com/1200x/43/e6/3f/43e63fb3e686c8ac6f5759f70a750d3d.jpg",
+  choker23:
+    "https://i.pinimg.com/1200x/ec/da/b3/ecdab3b905758f4c1d083eafe5a10a6a.jpg",
+  choker24:
+    "https://i.pinimg.com/736x/4f/93/d9/4f93d943f790b44dbf0863b899d02c53.jpg",
+  choker25:
+    "https://i.pinimg.com/736x/cf/d2/96/cfd296628e8ebccb061cd1629b06deab.jpg",
+  choker26:
+    "https://i.pinimg.com/736x/56/d3/06/56d306222f92b60472652f1e57fb3a4d.jpg",
+  choker27:
+    "https://i.pinimg.com/736x/4f/15/2e/4f152ee721011f5c99b692ba64bf7bc8.jpg",
+  choker28:
+    "https://i.pinimg.com/736x/b7/89/21/b7892190bc1bc473ca77fcee498629af.jpg",
+  choker29:
+    "https://i.pinimg.com/control1/736x/bc/67/9d/bc679dd47fe8eaff655a5b8e8df7fa08.jpg",
+  choker30:
+    "https://i.pinimg.com/control1/736x/d8/fa/c6/d8fac6f43d81af1e295b7c979eabef1c.jpg",
+  choker31:
+    "https://i.pinimg.com/1200x/07/35/3a/07353ae28e4756541c45154c2a510072.jpg",
+  choker32:
+    "https://i.pinimg.com/control1/736x/3c/64/61/3c64619063cf8c4220025c0df812da35.jpg",
+  choker33:
+    "https://i.pinimg.com/control1/1200x/46/4c/53/464c534b902f87c0bcd1066c8341e6db.jpg",
+  choker34:
+    "https://i.pinimg.com/1200x/37/a0/d4/37a0d48fd230664fad1249b51060908d.jpg",
+  choker35:
+    "https://i.pinimg.com/736x/19/22/ae/1922ae5e95595e1f52355977fcca3142.jpg",
+  choker36:
+    "https://i.pinimg.com/control1/736x/5f/71/77/5f7177716efb680b83641b5629434e79.jpg",
+  choker37:
+    "https://i.pinimg.com/736x/9b/f5/c4/9bf5c49be5c5f679e527fb813f0f0ae6.jpg",
+  choker38:
+    "https://i.pinimg.com/736x/a5/50/b0/a550b0db6f914929a8beaac9f643dfa0.jpg",
+  choker39:
+    "https://i.pinimg.com/1200x/b7/9c/c7/b79cc7dbca81088215936ce1edfcdaf1.jpg",
+  choker40:
+    "https://i.pinimg.com/736x/11/99/36/119936495448e4de3c103e434e70e746.jpg",
+  choker41:
+    "https://i.pinimg.com/1200x/f7/fa/96/f7fa96eebb39eb0ccb7e2167e78b6b0f.jpg",
+  choker42:
+    "https://i.pinimg.com/control1/736x/76/d6/f1/76d6f13b8f56087450f09bd341f8d801.jpg",
+  choker43:
+    "https://i.pinimg.com/736x/56/d3/b4/56d3b470eea34723be35b90c44b41ad1.jpg",
+  choker44:
+    "https://i.pinimg.com/736x/ae/d1/92/aed192a3d10a7fba0574b124e8ce701d.jpg",
+  choker45:
+    "https://i.pinimg.com/736x/18/2c/3b/182c3bf0fa51435d6201ea59c5deb9f6.jpg",
+  choker46:
+    "https://i.pinimg.com/736x/6c/97/00/6c9700a42d3f5bcf5f07c5cb0106a4dd.jpg",
+  choker47:
+    "https://i.pinimg.com/736x/6c/97/00/6c9700a42d3f5bcf5f07c5cb0106a4dd.jpg",
 
   necklaces:
     "https://i.pinimg.com/736x/b5/1d/54/b51d54377881806e0bb72019260fb5f4.jpg",
@@ -2267,51 +2818,90 @@ const I = {
     "https://i.pinimg.com/1200x/92/c6/34/92c634423561a232da095c9456df1df2.jpg",
   necklaces6:
     "https://i.pinimg.com/1200x/cb/d1/bc/cbd1bcc02f50903d26d443bf21adf818.jpg",
-  necklaces7:"https://i.pinimg.com/control1/1200x/a1/d0/0c/a1d00cf42372302f4e8419248cf4038a.jpg",
-  necklaces8:"https://i.pinimg.com/736x/d1/95/0d/d1950d68bc57ec71bf3ec56483156dba.jpg",
-  necklaces9:"https://i.pinimg.com/control1/1200x/bb/c4/32/bbc432fd0ab7dade2f4707517a0c2e72.jpg",
-  necklaces10:"https://i.pinimg.com/control1/736x/61/7b/8c/617b8ce1b53fdb3cefc492efd979c4db.jpg",
-  necklaces11:"https://i.pinimg.com/736x/39/08/27/3908275c6fb45f5a6442afb7c930d5a7.jpg",
-  necklaces12:"https://i.pinimg.com/1200x/63/00/6b/63006b337a5d30804a699711f2052288.jpg",
-  necklaces13:"https://i.pinimg.com/736x/a1/09/ec/a109ecfbbe6a7be63c4ee37e4f554882.jpg",
-  necklaces14:"https://i.pinimg.com/1200x/47/83/e6/4783e681aa860ad9bc7157fb4023d51e.jpg",
-  necklaces15:"https://i.pinimg.com/1200x/3f/84/02/3f84027aea5bc3422cd3de5409d834a6.jpg",
-  necklaces16:"https://i.pinimg.com/control1/1200x/e5/0b/a1/e50ba1b08ad0e85253b54172a39409a1.jpg",
-  necklaces17:"https://i.pinimg.com/1200x/9a/fd/97/9afd9766fc7b7d9baee9de7e9690706f.jpg",
-  necklaces18:"https://i.pinimg.com/1200x/aa/0c/70/aa0c70ff9bd30af646f8306f1230c7e3.jpg",
-  necklaces19:"https://i.pinimg.com/736x/5a/47/79/5a47796f274e5597c59f8c4bc57c1f8f.jpg",
-  necklaces20:"https://i.pinimg.com/736x/de/39/4b/de394b825c63242cf1c8ac6725e23085.jpg",
-  necklaces21:"https://i.pinimg.com/736x/07/bc/15/07bc156c42fc7974becfad4c8e5c29de.jpg",
-  necklaces22:"https://i.pinimg.com/736x/84/af/1e/84af1e3daa1a67376b3b1c069e2cb201.jpg",
-  necklaces23:"https://i.pinimg.com/736x/c2/7c/48/c27c4823aaf7a3b7e117b399b7e74bc5.jpg",
-  necklaces24:"https://i.pinimg.com/736x/2b/4f/b3/2b4fb30c67cec9bf94e46667d0841833.jpg",
-  necklaces25:"https://i.pinimg.com/736x/26/d6/7c/26d67c32daa567236f98043b1f5381dd.jpg",
-  necklaces26:"https://i.pinimg.com/736x/57/95/4d/57954d18507b7154ddf0e143732bab51.jpg",
-  necklaces27:"https://i.pinimg.com/control1/1200x/51/f6/c8/51f6c8aa3d74e64ae86e91c493e70bf7.jpg",
-  necklaces28:"https://i.pinimg.com/736x/d5/ba/7b/d5ba7b2acb10986f070aa7d4387cb87a.jpg",
-  necklaces29:"https://i.pinimg.com/736x/cf/58/02/cf5802ac8f5adccb0ed2eb73b2f8d08b.jpg",
-  necklaces30:"https://i.pinimg.com/736x/fb/ff/16/fbff16b15a0f2219ec4fb9a19a944265.jpg",
-  necklaces31:"https://i.pinimg.com/736x/4e/b9/7d/4eb97d0e05f0a0f750d7af510bfa9b3c.jpg",
-  necklaces32:"https://i.pinimg.com/1200x/d8/33/d8/d833d81773246b138e27807dd2a89836.jpg",
-  necklaces33:"https://i.pinimg.com/1200x/76/3c/ba/763cbae4a279b156f4e3f3a99831fd06.jpg",
-  necklaces34:"https://i.pinimg.com/736x/30/70/44/307044960a7542344dceeb50effc328f.jpg",
-  necklaces35:"https://i.pinimg.com/1200x/06/31/96/063196abf3f9f64fe86b1bc1e2611dd4.jpg",
-  necklaces36:"https://i.pinimg.com/1200x/be/20/4a/be204ad9e05105138ead4884f82fd04f.jpg",
-  necklaces37:"https://i.pinimg.com/1200x/52/3b/da/523bda5bb609777985b0d567620c7b78.jpg",
-  necklaces38:"https://i.pinimg.com/1200x/01/0d/71/010d7187b2ad6f491e4d3f6c460d6a7c.jpg",
-  necklaces39:"https://i.pinimg.com/736x/d2/75/16/d27516c38b0641944c8c85a925c9e24f.jpg",
-  necklaces40:"https://i.pinimg.com/1200x/a7/eb/0f/a7eb0f2dab4cbcad6c1b721e5207150e.jpg",
-  necklaces41:"https://i.pinimg.com/736x/94/37/9e/94379e52064a08aa2b792efde522fefc.jpg",
-  necklaces42:"https://i.pinimg.com/736x/40/5a/b9/405ab9bd37986cffc6d5902548ee3b09.jpg",
-  necklaces43:"https://i.pinimg.com/736x/eb/bb/c5/ebbbc5f8962918599b5dc3213be205d0.jpg",
-  necklaces44:"https://i.pinimg.com/736x/b7/55/5c/b7555cbebd69ed07b47f877d64110246.jpg",
-  necklaces45:"https://i.pinimg.com/1200x/fb/d1/e4/fbd1e4dac8b9b974ae81f01d1c9af130.jpg",
-  necklaces46:"https://i.pinimg.com/736x/11/95/52/119552963460e4c49e35b26a2cbf4c2f.jpg",
-  necklaces47:"https://i.pinimg.com/736x/86/21/43/862143737b81ae776cd27f8c98a2619b.jpg",
-  necklaces48:"https://i.pinimg.com/control1/736x/45/fc/fc/45fcfc1a8c83e7490f30237bc6cd8cb1.jpg",
-
-
-  
+  necklaces7:
+    "https://i.pinimg.com/control1/1200x/a1/d0/0c/a1d00cf42372302f4e8419248cf4038a.jpg",
+  necklaces8:
+    "https://i.pinimg.com/736x/d1/95/0d/d1950d68bc57ec71bf3ec56483156dba.jpg",
+  necklaces9:
+    "https://i.pinimg.com/control1/1200x/bb/c4/32/bbc432fd0ab7dade2f4707517a0c2e72.jpg",
+  necklaces10:
+    "https://i.pinimg.com/control1/736x/61/7b/8c/617b8ce1b53fdb3cefc492efd979c4db.jpg",
+  necklaces11:
+    "https://i.pinimg.com/736x/39/08/27/3908275c6fb45f5a6442afb7c930d5a7.jpg",
+  necklaces12:
+    "https://i.pinimg.com/1200x/63/00/6b/63006b337a5d30804a699711f2052288.jpg",
+  necklaces13:
+    "https://i.pinimg.com/736x/a1/09/ec/a109ecfbbe6a7be63c4ee37e4f554882.jpg",
+  necklaces14:
+    "https://i.pinimg.com/1200x/47/83/e6/4783e681aa860ad9bc7157fb4023d51e.jpg",
+  necklaces15:
+    "https://i.pinimg.com/1200x/3f/84/02/3f84027aea5bc3422cd3de5409d834a6.jpg",
+  necklaces16:
+    "https://i.pinimg.com/control1/1200x/e5/0b/a1/e50ba1b08ad0e85253b54172a39409a1.jpg",
+  necklaces17:
+    "https://i.pinimg.com/1200x/9a/fd/97/9afd9766fc7b7d9baee9de7e9690706f.jpg",
+  necklaces18:
+    "https://i.pinimg.com/1200x/aa/0c/70/aa0c70ff9bd30af646f8306f1230c7e3.jpg",
+  necklaces19:
+    "https://i.pinimg.com/736x/5a/47/79/5a47796f274e5597c59f8c4bc57c1f8f.jpg",
+  necklaces20:
+    "https://i.pinimg.com/736x/de/39/4b/de394b825c63242cf1c8ac6725e23085.jpg",
+  necklaces21:
+    "https://i.pinimg.com/736x/07/bc/15/07bc156c42fc7974becfad4c8e5c29de.jpg",
+  necklaces22:
+    "https://i.pinimg.com/736x/84/af/1e/84af1e3daa1a67376b3b1c069e2cb201.jpg",
+  necklaces23:
+    "https://i.pinimg.com/736x/c2/7c/48/c27c4823aaf7a3b7e117b399b7e74bc5.jpg",
+  necklaces24:
+    "https://i.pinimg.com/736x/2b/4f/b3/2b4fb30c67cec9bf94e46667d0841833.jpg",
+  necklaces25:
+    "https://i.pinimg.com/736x/26/d6/7c/26d67c32daa567236f98043b1f5381dd.jpg",
+  necklaces26:
+    "https://i.pinimg.com/736x/57/95/4d/57954d18507b7154ddf0e143732bab51.jpg",
+  necklaces27:
+    "https://i.pinimg.com/control1/1200x/51/f6/c8/51f6c8aa3d74e64ae86e91c493e70bf7.jpg",
+  necklaces28:
+    "https://i.pinimg.com/736x/d5/ba/7b/d5ba7b2acb10986f070aa7d4387cb87a.jpg",
+  necklaces29:
+    "https://i.pinimg.com/736x/cf/58/02/cf5802ac8f5adccb0ed2eb73b2f8d08b.jpg",
+  necklaces30:
+    "https://i.pinimg.com/736x/fb/ff/16/fbff16b15a0f2219ec4fb9a19a944265.jpg",
+  necklaces31:
+    "https://i.pinimg.com/736x/4e/b9/7d/4eb97d0e05f0a0f750d7af510bfa9b3c.jpg",
+  necklaces32:
+    "https://i.pinimg.com/1200x/d8/33/d8/d833d81773246b138e27807dd2a89836.jpg",
+  necklaces33:
+    "https://i.pinimg.com/1200x/76/3c/ba/763cbae4a279b156f4e3f3a99831fd06.jpg",
+  necklaces34:
+    "https://i.pinimg.com/736x/30/70/44/307044960a7542344dceeb50effc328f.jpg",
+  necklaces35:
+    "https://i.pinimg.com/1200x/06/31/96/063196abf3f9f64fe86b1bc1e2611dd4.jpg",
+  necklaces36:
+    "https://i.pinimg.com/1200x/be/20/4a/be204ad9e05105138ead4884f82fd04f.jpg",
+  necklaces37:
+    "https://i.pinimg.com/1200x/52/3b/da/523bda5bb609777985b0d567620c7b78.jpg",
+  necklaces38:
+    "https://i.pinimg.com/1200x/01/0d/71/010d7187b2ad6f491e4d3f6c460d6a7c.jpg",
+  necklaces39:
+    "https://i.pinimg.com/736x/d2/75/16/d27516c38b0641944c8c85a925c9e24f.jpg",
+  necklaces40:
+    "https://i.pinimg.com/1200x/a7/eb/0f/a7eb0f2dab4cbcad6c1b721e5207150e.jpg",
+  necklaces41:
+    "https://i.pinimg.com/736x/94/37/9e/94379e52064a08aa2b792efde522fefc.jpg",
+  necklaces42:
+    "https://i.pinimg.com/736x/40/5a/b9/405ab9bd37986cffc6d5902548ee3b09.jpg",
+  necklaces43:
+    "https://i.pinimg.com/736x/eb/bb/c5/ebbbc5f8962918599b5dc3213be205d0.jpg",
+  necklaces44:
+    "https://i.pinimg.com/736x/b7/55/5c/b7555cbebd69ed07b47f877d64110246.jpg",
+  necklaces45:
+    "https://i.pinimg.com/1200x/fb/d1/e4/fbd1e4dac8b9b974ae81f01d1c9af130.jpg",
+  necklaces46:
+    "https://i.pinimg.com/736x/11/95/52/119552963460e4c49e35b26a2cbf4c2f.jpg",
+  necklaces47:
+    "https://i.pinimg.com/736x/86/21/43/862143737b81ae776cd27f8c98a2619b.jpg",
+  necklaces48:
+    "https://i.pinimg.com/control1/736x/45/fc/fc/45fcfc1a8c83e7490f30237bc6cd8cb1.jpg",
 
   Om: "https://i.pinimg.com/1200x/1f/9e/2b/1f9e2b14f4caf757767f8e9f1bc75446.jpg",
   Om2: "https://i.pinimg.com/1200x/8f/de/99/8fde99bd56c5cad14357b23b6fb49570.jpg",
@@ -2343,12 +2933,12 @@ const I = {
   Om28: "https://i.pinimg.com/1200x/98/bc/15/98bc15eb370cfbb7f2b17322d266de74.jpg",
   Om29: "https://i.pinimg.com/1200x/2b/eb/06/2beb067e6487913f52d0fef9cc087bc6.jpg",
   Om30: "https://i.pinimg.com/1200x/63/b2/9e/63b29e3adf18a529126e4c4e0e33b864.jpg",
-  Om31:"https://i.pinimg.com/1200x/d4/e8/f5/d4e8f5ef4354de057188d1e603db7036.jpg",
-  Om32:"",
-  Om33:"",
-  Om34:"https://i.pinimg.com/1200x/fd/5b/42/fd5b422cfa4051d922e34a76c18f8f50.jpg",
-  Om35:"",
-  Om36:"",
+  Om31: "https://i.pinimg.com/1200x/d4/e8/f5/d4e8f5ef4354de057188d1e603db7036.jpg",
+  Om32: "",
+  Om33: "",
+  Om34: "https://i.pinimg.com/1200x/fd/5b/42/fd5b422cfa4051d922e34a76c18f8f50.jpg",
+  Om35: "",
+  Om36: "",
 
   kanthi:
     "https://i.pinimg.com/1200x/75/6e/a2/756ea2299ba84dff8669bcfcd4ab955a.jpg",
@@ -2446,49 +3036,90 @@ const I = {
     "https://i.pinimg.com/736x/50/d4/c9/50d4c99de6a267276b50dc39957e9174.jpg",
   kada6:
     "https://i.pinimg.com/736x/91/04/a1/9104a15e160422e183cdfd6d9eee9079.jpg",
-  kada7:"https://i.pinimg.com/control1/736x/7b/94/64/7b946426da92411e864bce6474c0c442.jpg",
-  kada8:"https://i.pinimg.com/1200x/e9/e6/a4/e9e6a44e1a8b8c2bf2b64104e8ba449c.jpg",
-  kada9:"https://i.pinimg.com/1200x/d9/cf/dd/d9cfdd82541e2834dc69ed10b6fd124f.jpg",
-  kada10:"https://i.pinimg.com/736x/73/53/29/73532982a86da50adb416d98c5d561d4.jpg",
-  kada11:"https://i.pinimg.com/736x/90/06/5f/90065ff681f71f3568fbf861d49de788.jpg",
-  kada12:"https://i.pinimg.com/1200x/5a/6a/64/5a6a643450619b14c748f6bcda45573c.jpg",
-  kada13:"https://i.pinimg.com/1200x/c7/f4/b8/c7f4b8e30b80ac3c38a68fb16a8d5784.jpg",
-  kada14:"https://i.pinimg.com/736x/6f/ef/f1/6feff13d45b6009dd57ec9cd76278c18.jpg",
-  kada15:"https://i.pinimg.com/1200x/2b/2e/6e/2b2e6e22cf8f890fe2752d44e82c290c.jpg",
-  kada16:"https://i.pinimg.com/736x/e8/d6/b6/e8d6b6aaff324a018a4b9cc82c03ead5.jpg",
-  kada17:"https://i.pinimg.com/1200x/ec/13/9c/ec139ca1616beca0d9ac1fd3d2a15b4f.jpg",
-  kada18:"https://i.pinimg.com/1200x/70/5a/dd/705add90166191479dcfe829dfc09f19.jpg",
-  kada19:"https://i.pinimg.com/1200x/76/1d/11/761d115c3eb9d463f7297a1fffc1f6f9.jpg",
-  kada20:"https://i.pinimg.com/736x/7a/d1/40/7ad1404cc058889db0e6c864f13f07ea.jpg",
-  kada21:"https://i.pinimg.com/736x/22/38/be/2238be626b859e767fdea4932d6cb198.jpg",
-  kada22:"https://i.pinimg.com/control1/736x/21/b2/44/21b2448937476112a5464481269c75a2.jpg",
-  kada23:"https://i.pinimg.com/1200x/3e/95/c0/3e95c0825b29c3ebee7e00ece52f8b0b.jpg",
-  kada24:"https://i.pinimg.com/736x/63/44/8d/63448db0569192a010b75242a713bb46.jpg",
-  kada25:"https://i.pinimg.com/736x/c7/7e/a4/c77ea42571f0b0305330086965d18acb.jpg",
-  kada26:"https://i.pinimg.com/1200x/6d/20/c6/6d20c696e3bdec66dc6020cc4cd34145.jpg",
-  kada27:"https://i.pinimg.com/736x/29/ac/12/29ac123e8d2961d90a9c6e91e0b7faa5.jpg",
-  kada28:"https://i.pinimg.com/736x/55/1c/00/551c0018e3c40c9391066c520219529b.jpg",
-  kada29:"https://i.pinimg.com/736x/7d/6b/41/7d6b4169a4c4f29516aa7e3e4ec9c1b8.jpg",
-  kada30:"https://i.pinimg.com/1200x/91/31/b8/9131b851df76e1ee1a25009037145cf1.jpg",
-  kada31:"https://i.pinimg.com/1200x/9b/a4/7e/9ba47e619ed4dd76e24cf9d32454e4d4.jpg",
-  kada32:"https://i.pinimg.com/736x/a2/30/3c/a2303c473f7d71765c133eba3e40eb74.jpg",
-  kada33:"https://i.pinimg.com/736x/d3/12/15/d31215cbe589bf8463cb94aa902e3045.jpg",
-  kada34:"https://i.pinimg.com/736x/1a/d0/1f/1ad01fe7c1c68d33759c5b18f1e8812d.jpg",
-  kada35:"https://i.pinimg.com/736x/ed/22/1a/ed221a9a8b5415897c4fb929bffa8755.jpg",
-  kada36:"https://i.pinimg.com/736x/0f/9c/01/0f9c01f3f62d02c8ba7bdac657c3ca0b.jpg",
-  kada37:"https://i.pinimg.com/1200x/bb/af/3b/bbaf3bc0b79d8533dd0d27fb617119a6.jpg",
-  kada38:"https://i.pinimg.com/736x/f7/14/9a/f7149ad0b8ae5b3f7e38b16175c87db4.jpg",
-  kada39:"https://i.pinimg.com/736x/76/a5/29/76a5292284d8c5578e61356140807cca.jpg",
-  kada40:"https://i.pinimg.com/736x/a8/4b/0a/a84b0aa9f9e6e6647af695ce42a343c8.jpg",
-  kada41:"https://i.pinimg.com/1200x/b5/9d/e4/b59de426aec14cd345c6a22570f74a5b.jpg",
-  kada42:"https://i.pinimg.com/736x/4f/c0/61/4fc06196cf410296e4086e42d9f44be4.jpg",
-  kada43:"https://i.pinimg.com/1200x/2a/0f/92/2a0f920ee7cb7ce9b351f89403636e1a.jpg",
-  kada44:"https://i.pinimg.com/1200x/68/c1/9c/68c19cc6a2a09641bc2420329c6c1cbd.jpg",
-  kada45:"https://i.pinimg.com/1200x/d4/de/4d/d4de4d9b545a04b7f95941211eaccbb9.jpg",
-  kada46:"https://i.pinimg.com/736x/79/d3/9a/79d39a510eea35de0dda638fca8b92f7.jpg",
-  kada47:"https://i.pinimg.com/736x/de/77/20/de7720e5dc50ce7d52813777ac92a3c1.jpg",
-  kada48:"https://i.pinimg.com/736x/72/ba/ee/72baeebca2f475f4d3c5ec9683cf1add.jpg",
-
+  kada7:
+    "https://i.pinimg.com/control1/736x/7b/94/64/7b946426da92411e864bce6474c0c442.jpg",
+  kada8:
+    "https://i.pinimg.com/1200x/e9/e6/a4/e9e6a44e1a8b8c2bf2b64104e8ba449c.jpg",
+  kada9:
+    "https://i.pinimg.com/1200x/d9/cf/dd/d9cfdd82541e2834dc69ed10b6fd124f.jpg",
+  kada10:
+    "https://i.pinimg.com/736x/73/53/29/73532982a86da50adb416d98c5d561d4.jpg",
+  kada11:
+    "https://i.pinimg.com/736x/90/06/5f/90065ff681f71f3568fbf861d49de788.jpg",
+  kada12:
+    "https://i.pinimg.com/1200x/5a/6a/64/5a6a643450619b14c748f6bcda45573c.jpg",
+  kada13:
+    "https://i.pinimg.com/1200x/c7/f4/b8/c7f4b8e30b80ac3c38a68fb16a8d5784.jpg",
+  kada14:
+    "https://i.pinimg.com/736x/6f/ef/f1/6feff13d45b6009dd57ec9cd76278c18.jpg",
+  kada15:
+    "https://i.pinimg.com/1200x/2b/2e/6e/2b2e6e22cf8f890fe2752d44e82c290c.jpg",
+  kada16:
+    "https://i.pinimg.com/736x/e8/d6/b6/e8d6b6aaff324a018a4b9cc82c03ead5.jpg",
+  kada17:
+    "https://i.pinimg.com/1200x/ec/13/9c/ec139ca1616beca0d9ac1fd3d2a15b4f.jpg",
+  kada18:
+    "https://i.pinimg.com/1200x/70/5a/dd/705add90166191479dcfe829dfc09f19.jpg",
+  kada19:
+    "https://i.pinimg.com/1200x/76/1d/11/761d115c3eb9d463f7297a1fffc1f6f9.jpg",
+  kada20:
+    "https://i.pinimg.com/736x/7a/d1/40/7ad1404cc058889db0e6c864f13f07ea.jpg",
+  kada21:
+    "https://i.pinimg.com/736x/22/38/be/2238be626b859e767fdea4932d6cb198.jpg",
+  kada22:
+    "https://i.pinimg.com/control1/736x/21/b2/44/21b2448937476112a5464481269c75a2.jpg",
+  kada23:
+    "https://i.pinimg.com/1200x/3e/95/c0/3e95c0825b29c3ebee7e00ece52f8b0b.jpg",
+  kada24:
+    "https://i.pinimg.com/736x/63/44/8d/63448db0569192a010b75242a713bb46.jpg",
+  kada25:
+    "https://i.pinimg.com/736x/c7/7e/a4/c77ea42571f0b0305330086965d18acb.jpg",
+  kada26:
+    "https://i.pinimg.com/1200x/6d/20/c6/6d20c696e3bdec66dc6020cc4cd34145.jpg",
+  kada27:
+    "https://i.pinimg.com/736x/29/ac/12/29ac123e8d2961d90a9c6e91e0b7faa5.jpg",
+  kada28:
+    "https://i.pinimg.com/736x/55/1c/00/551c0018e3c40c9391066c520219529b.jpg",
+  kada29:
+    "https://i.pinimg.com/736x/7d/6b/41/7d6b4169a4c4f29516aa7e3e4ec9c1b8.jpg",
+  kada30:
+    "https://i.pinimg.com/1200x/91/31/b8/9131b851df76e1ee1a25009037145cf1.jpg",
+  kada31:
+    "https://i.pinimg.com/1200x/9b/a4/7e/9ba47e619ed4dd76e24cf9d32454e4d4.jpg",
+  kada32:
+    "https://i.pinimg.com/736x/a2/30/3c/a2303c473f7d71765c133eba3e40eb74.jpg",
+  kada33:
+    "https://i.pinimg.com/736x/d3/12/15/d31215cbe589bf8463cb94aa902e3045.jpg",
+  kada34:
+    "https://i.pinimg.com/736x/1a/d0/1f/1ad01fe7c1c68d33759c5b18f1e8812d.jpg",
+  kada35:
+    "https://i.pinimg.com/736x/ed/22/1a/ed221a9a8b5415897c4fb929bffa8755.jpg",
+  kada36:
+    "https://i.pinimg.com/736x/0f/9c/01/0f9c01f3f62d02c8ba7bdac657c3ca0b.jpg",
+  kada37:
+    "https://i.pinimg.com/1200x/bb/af/3b/bbaf3bc0b79d8533dd0d27fb617119a6.jpg",
+  kada38:
+    "https://i.pinimg.com/736x/f7/14/9a/f7149ad0b8ae5b3f7e38b16175c87db4.jpg",
+  kada39:
+    "https://i.pinimg.com/736x/76/a5/29/76a5292284d8c5578e61356140807cca.jpg",
+  kada40:
+    "https://i.pinimg.com/736x/a8/4b/0a/a84b0aa9f9e6e6647af695ce42a343c8.jpg",
+  kada41:
+    "https://i.pinimg.com/1200x/b5/9d/e4/b59de426aec14cd345c6a22570f74a5b.jpg",
+  kada42:
+    "https://i.pinimg.com/736x/4f/c0/61/4fc06196cf410296e4086e42d9f44be4.jpg",
+  kada43:
+    "https://i.pinimg.com/1200x/2a/0f/92/2a0f920ee7cb7ce9b351f89403636e1a.jpg",
+  kada44:
+    "https://i.pinimg.com/1200x/68/c1/9c/68c19cc6a2a09641bc2420329c6c1cbd.jpg",
+  kada45:
+    "https://i.pinimg.com/1200x/d4/de/4d/d4de4d9b545a04b7f95941211eaccbb9.jpg",
+  kada46:
+    "https://i.pinimg.com/736x/79/d3/9a/79d39a510eea35de0dda638fca8b92f7.jpg",
+  kada47:
+    "https://i.pinimg.com/736x/de/77/20/de7720e5dc50ce7d52813777ac92a3c1.jpg",
+  kada48:
+    "https://i.pinimg.com/736x/72/ba/ee/72baeebca2f475f4d3c5ec9683cf1add.jpg",
 
   omlocket:
     "https://i.pinimg.com/736x/ba/43/62/ba4362fed9794ef43f85e8a9c9aff372.jpg",
@@ -2577,80 +3208,31 @@ const I = {
     "https://i.pinimg.com/1200x/83/e8/f7/83e8f70fd2919c4e596faeaae192b416.jpg",
   maalocket6:
     "https://i.pinimg.com/1200x/e0/c0/80/e0c0802eb90dfa651acafc4bc2fed093.jpg",
-  maalocket7: "",
-  maalocket8: "",
-  maalocket9: "",
-  maalocket10: "",
-  maalocket11: "",
-  maalocket12: "",
-  maalocket13: "",
-  maalocket14: "",
-  maalocket15: "",
-  maalocket16: "",
-  maalocket17: "",
-  maalocket18: "",
-  maalocket19: "",
-  maalocket20: "",
-  maalocket21: "",
-  maalocket22: "",
-  maalocket23: "",
-  maalocket24: "",
-  maalocket25: "",
-  maalocket26: "",
-  maalocket27: "",
-  maalocket28: "",
-  maalocket29: "",
-  maalocket30: "",
-  maalocket31: "",
-  maalocket32: "",
-  maalocket33: "",
-  maalocket34: "",
-  maalocket35: "",
-  maalocket36: "",
+  maalocket7: "https://i.pinimg.com/1200x/d8/04/06/d80406acb739f258abcce64014702fee.jpg",
+  maalocket10: "https://i.pinimg.com/1200x/80/62/e7/8062e7cee8fe80e7e0f7fc7dc0c04da0.jpg",
+  maalocket13: "https://i.pinimg.com/736x/69/47/17/69471789a62946a380085f68e3127000.jpg",
+  maalocket16: "https://i.pinimg.com/1200x/61/59/97/615997ecbfe5cbca132afd3a0beef81e.jpg",
+  maalocket19: "https://i.pinimg.com/736x/87/78/32/87783230fb9737d51af4e8a4d2eec07a.jpg",
+  maalocket22: "https://i.pinimg.com/1200x/17/12/c7/1712c7bcbd80fabb07570b98147e162b.jpg",
+  maalocket25: "https://i.pinimg.com/1200x/ca/48/87/ca4887bb4e86d9933fe2898d354e2f61.jpg",
+  maalocket28: "https://i.pinimg.com/1200x/11/0a/50/110a5008e614a9a1815790cf0b6f56f5.jpg",
+  maalocket31: "https://i.pinimg.com/1200x/cc/1f/1b/cc1f1b6b2070ebfb904935479b918316.jpg",
+  maalocket34: "https://i.pinimg.com/1200x/80/54/d4/8054d4c98c5f22080061d354dfe50c06.jpg",
 
   gurjarlocket:
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnU9nkyBr25baPSrVubFTfnrXM2b3IfBL-_w&s",
-  gurjarlocket2:
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQBstJDE_V_zqcYgcsv1p8IGsX7TwhVY24Cg&s",
-  gurjarlocket3:
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG3XdR8oKOeqVYL75rm_Z99qyWsO50P4BBHA&s",
   gurjarlocket4:
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI5vwBuiQ8K6PBAibYTuEjG-HjEKHhgiZA6g&s",
-  gurjarlocket5:
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Nq_C3qXIGQ2yDZ0CuFM8KXX-J_A9mIJ_TA&s",
-  gurjarlocket6:
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9MPTB0q75Mzxgls0yDD7C2ucmpYBiBzYq0A&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQBstJDE_V_zqcYgcsv1p8IGsX7TwhVY24Cg&s",
   gurjarlocket7:
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG3XdR8oKOeqVYL75rm_Z99qyWsO50P4BBHA&s",
+  gurjarlocket10:
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI5vwBuiQ8K6PBAibYTuEjG-HjEKHhgiZA6g&s",
+  gurjarlocket13:
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Nq_C3qXIGQ2yDZ0CuFM8KXX-J_A9mIJ_TA&s",
+  gurjarlocket16:
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9MPTB0q75Mzxgls0yDD7C2ucmpYBiBzYq0A&s",
+  gurjarlocket19:
     "https://i.pinimg.com/474x/12/1a/ae/121aaef2c86350025e0b25d86bdf0688.jpg?nii=t",
-  gurjarlocket8: "",
-  gurjarlocket9: "",
-  gurjarlocket10: "",
-  gurjarlocket11: "",
-  gurjarlocket12: "",
-  gurjarlocket13: "",
-  gurjarlocket14: "",
-  gurjarlocket15: "",
-  gurjarlocket16: "",
-  gurjarlocket17: "",
-  gurjarlocket18: "",
-  gurjarlocket19: "",
-  gurjarlocket20: "",
-  gurjarlocket21: "",
-  gurjarlocket22: "",
-  gurjarlocket23: "",
-  gurjarlocket24: "",
-  gurjarlocket25: "",
-  gurjarlocket26: "",
-  gurjarlocket27: "",
-  gurjarlocket28: "",
-  gurjarlocket29: "",
-  gurjarlocket30: "",
-  gurjarlocket31: "",
-  gurjarlocket32: "",
-  gurjarlocket33: "",
-  gurjarlocket34: "",
-  gurjarlocket35: "",
-  gurjarlocket36: "",
 
   mkada:
     "https://i.pinimg.com/1200x/54/f3/12/54f3124fff0941b91099c3bce829ef86.jpg",
@@ -2761,49 +3343,91 @@ const I = {
     "https://i.pinimg.com/736x/b2/ad/c1/b2adc19a23c423362cd5b772b907bc20.jpg",
   wbracelets6:
     "https://i.pinimg.com/736x/1c/a2/06/1ca206019f694e14d711577dd9693f68.jpg",
-    wbracelets7:"https://i.pinimg.com/1200x/7f/e4/fb/7fe4fbacc903f55e9025be9c78e9d465.jpg",
-  wbracelets8:"https://i.pinimg.com/1200x/fe/03/8e/fe038ef558b4d94243167c61a1db4ef3.jpg",
-  wbracelets9:"https://i.pinimg.com/736x/7c/56/d0/7c56d079b208e902902841dcb1fbe53e.jpg",
-  wbracelets10:"https://i.pinimg.com/control1/1200x/53/08/25/53082528bb9bae0a1cd93fae879f422c.jpg",
-  wbracelets11:"https://i.pinimg.com/1200x/d3/5e/5f/d35e5fe0721a3bb7497bf41e5980958c.jpg",
-  wbracelets12:"https://i.pinimg.com/1200x/2d/ff/62/2dff626c8f0fab61f5ec77180729fdb1.jpg",
-  wbracelets13:"https://i.pinimg.com/736x/ce/8f/76/ce8f763e35ec925e6b161ca9e48b2ede.jpg",
-  wbracelets14:"https://i.pinimg.com/736x/9e/32/71/9e3271525628fd2421b710bb9e1c4c7d.jpg",
-  wbracelets15:"https://i.pinimg.com/control1/736x/29/85/5d/29855d2c229338bf31163b5dcc2ceba3.jpg",
-  wbracelets16:"https://i.pinimg.com/control1/736x/1b/76/dc/1b76dc9805aa77678c0d239cc90e71ce.jpg",
-  wbracelets17:"https://i.pinimg.com/736x/25/22/35/2522359901f1a3f6ee2a401fe4dc166c.jpg",
-  wbracelets18:"https://i.pinimg.com/736x/fd/25/d3/fd25d3f24649fe291a0a7d77d97f8665.jpg",
-  wbracelets19:"https://i.pinimg.com/1200x/4a/20/72/4a2072f63b329fec1aec30ff4edd3b62.jpg",
-  wbracelets20:"https://i.pinimg.com/1200x/7a/c9/09/7ac9092126c25af5924cca6ec48d5a1c.jpg",
-  wbracelets21:"https://i.pinimg.com/736x/ea/b7/6e/eab76e5607a8331cc637a1af17382d77.jpg",
-  wbracelets22:"https://i.pinimg.com/736x/3b/ae/83/3bae83c73e2ecee62d14cbe47e9344aa.jpg",
-  wbracelets23:"https://i.pinimg.com/736x/b2/ad/c1/b2adc19a23c423362cd5b772b907bc20.jpg",
-  wbracelets24:"https://i.pinimg.com/control1/1200x/8e/02/3a/8e023aadc0e5e58a298d946c9511a67f.jpg",
-  wbracelets25:"https://i.pinimg.com/1200x/85/a4/38/85a4383acf41e187e75dad81003aa025.jpg",
-  wbracelets26:"https://i.pinimg.com/736x/fd/1a/53/fd1a53a3da79e82f0d5a014b5650b9d9.jpg",
-  wbracelets27:"https://i.pinimg.com/736x/b5/ca/ec/b5caec4c63c906f64d07d64c0e314e81.jpg",
-  wbracelets28:"https://i.pinimg.com/736x/d8/1e/44/d81e443143c6cc5a24f3cf3e286c6191.jpg",
-  wbracelets29:"https://i.pinimg.com/736x/ae/56/e4/ae56e42307f016043850abcac2494b72.jpg",
-  wbracelets30:"https://i.pinimg.com/736x/c6/04/e8/c604e8da38cee7a1f84004b0be16e417.jpg",
-  wbracelets31:"https://i.pinimg.com/736x/16/44/a0/1644a008e392b9035e5a4cbdec562fe1.jpg",
-  wbracelets32:"https://i.pinimg.com/1200x/5b/cf/d0/5bcfd06b88b0385fe8dfbaf207c2943b.jpg",
-  wbracelets33:"https://i.pinimg.com/736x/c9/2d/36/c92d36bb5de8864b898be3b8aee6cc89.jpg",
-  wbracelets34:"https://i.pinimg.com/736x/0e/6f/88/0e6f88cff8fff1350931416ea98cf891.jpg",
-  wbracelets35:"https://i.pinimg.com/736x/c0/55/6b/c0556b47993d960c832609be86ad469d.jpg",
-  wbracelets36:"https://i.pinimg.com/736x/d3/5c/dd/d35cdd95bd8d742a673148e00c273032.jpg",
-  wbracelets37:"https://i.pinimg.com/736x/14/42/23/144223df43327b002acd5cd21b816622.jpg",
-  wbracelets38:"https://i.pinimg.com/736x/c7/ec/bb/c7ecbb751c3e9d39bd452ee1171bf11f.jpg",
-  wbracelets39:"https://i.pinimg.com/736x/d8/2b/27/d82b277f6fc177d7120c2cd44345320d.jpg",
-  wbracelets40:"https://i.pinimg.com/1200x/ab/c0/c9/abc0c952b70df8b7f9a25731a0ce8487.jpg",
-  wbracelets41:"https://i.pinimg.com/736x/58/39/f2/5839f2c6619e2ae463e0d0c74784c4c3.jpg",
-  wbracelets42:"https://i.pinimg.com/1200x/d9/19/b7/d919b7aa04248ca9bfdb8cef611793f4.jpg",
-  wbracelets43:"https://i.pinimg.com/736x/ac/cc/46/accc467e4097b58750dc2039a3f9baff.jpg",
-  wbracelets44:"https://i.pinimg.com/1200x/57/0e/92/570e923d2f3c39932a3aa05b96ee922a.jpg",
-  wbracelets45:"https://i.pinimg.com/736x/41/7d/aa/417daa0c3b86a7375fa8c4d0998084ec.jpg",
-  wbracelets46:"https://i.pinimg.com/736x/9f/4b/c8/9f4bc82dacb94f4b3319300cd4a92306.jpg",
-  wbracelets47:"https://i.pinimg.com/1200x/3a/41/f8/3a41f8bb79bf253f76ca560430f96259.jpg",
-  wbracelets48:"https://i.pinimg.com/736x/09/99/2c/09992cfa49d11bb5b69c98d94d939396.jpg",
- 
+  wbracelets7:
+    "https://i.pinimg.com/1200x/7f/e4/fb/7fe4fbacc903f55e9025be9c78e9d465.jpg",
+  wbracelets8:
+    "https://i.pinimg.com/1200x/fe/03/8e/fe038ef558b4d94243167c61a1db4ef3.jpg",
+  wbracelets9:
+    "https://i.pinimg.com/736x/7c/56/d0/7c56d079b208e902902841dcb1fbe53e.jpg",
+  wbracelets10:
+    "https://i.pinimg.com/control1/1200x/53/08/25/53082528bb9bae0a1cd93fae879f422c.jpg",
+  wbracelets11:
+    "https://i.pinimg.com/1200x/d3/5e/5f/d35e5fe0721a3bb7497bf41e5980958c.jpg",
+  wbracelets12:
+    "https://i.pinimg.com/1200x/2d/ff/62/2dff626c8f0fab61f5ec77180729fdb1.jpg",
+  wbracelets13:
+    "https://i.pinimg.com/736x/ce/8f/76/ce8f763e35ec925e6b161ca9e48b2ede.jpg",
+  wbracelets14:
+    "https://i.pinimg.com/736x/9e/32/71/9e3271525628fd2421b710bb9e1c4c7d.jpg",
+  wbracelets15:
+    "https://i.pinimg.com/control1/736x/29/85/5d/29855d2c229338bf31163b5dcc2ceba3.jpg",
+  wbracelets16:
+    "https://i.pinimg.com/control1/736x/1b/76/dc/1b76dc9805aa77678c0d239cc90e71ce.jpg",
+  wbracelets17:
+    "https://i.pinimg.com/736x/25/22/35/2522359901f1a3f6ee2a401fe4dc166c.jpg",
+  wbracelets18:
+    "https://i.pinimg.com/736x/fd/25/d3/fd25d3f24649fe291a0a7d77d97f8665.jpg",
+  wbracelets19:
+    "https://i.pinimg.com/1200x/4a/20/72/4a2072f63b329fec1aec30ff4edd3b62.jpg",
+  wbracelets20:
+    "https://i.pinimg.com/1200x/7a/c9/09/7ac9092126c25af5924cca6ec48d5a1c.jpg",
+  wbracelets21:
+    "https://i.pinimg.com/736x/ea/b7/6e/eab76e5607a8331cc637a1af17382d77.jpg",
+  wbracelets22:
+    "https://i.pinimg.com/736x/3b/ae/83/3bae83c73e2ecee62d14cbe47e9344aa.jpg",
+  wbracelets23:
+    "https://i.pinimg.com/736x/b2/ad/c1/b2adc19a23c423362cd5b772b907bc20.jpg",
+  wbracelets24:
+    "https://i.pinimg.com/control1/1200x/8e/02/3a/8e023aadc0e5e58a298d946c9511a67f.jpg",
+  wbracelets25:
+    "https://i.pinimg.com/1200x/85/a4/38/85a4383acf41e187e75dad81003aa025.jpg",
+  wbracelets26:
+    "https://i.pinimg.com/736x/fd/1a/53/fd1a53a3da79e82f0d5a014b5650b9d9.jpg",
+  wbracelets27:
+    "https://i.pinimg.com/736x/b5/ca/ec/b5caec4c63c906f64d07d64c0e314e81.jpg",
+  wbracelets28:
+    "https://i.pinimg.com/736x/d8/1e/44/d81e443143c6cc5a24f3cf3e286c6191.jpg",
+  wbracelets29:
+    "https://i.pinimg.com/736x/ae/56/e4/ae56e42307f016043850abcac2494b72.jpg",
+  wbracelets30:
+    "https://i.pinimg.com/736x/c6/04/e8/c604e8da38cee7a1f84004b0be16e417.jpg",
+  wbracelets31:
+    "https://i.pinimg.com/736x/16/44/a0/1644a008e392b9035e5a4cbdec562fe1.jpg",
+  wbracelets32:
+    "https://i.pinimg.com/1200x/5b/cf/d0/5bcfd06b88b0385fe8dfbaf207c2943b.jpg",
+  wbracelets33:
+    "https://i.pinimg.com/736x/c9/2d/36/c92d36bb5de8864b898be3b8aee6cc89.jpg",
+  wbracelets34:
+    "https://i.pinimg.com/736x/0e/6f/88/0e6f88cff8fff1350931416ea98cf891.jpg",
+  wbracelets35:
+    "https://i.pinimg.com/736x/c0/55/6b/c0556b47993d960c832609be86ad469d.jpg",
+  wbracelets36:
+    "https://i.pinimg.com/736x/d3/5c/dd/d35cdd95bd8d742a673148e00c273032.jpg",
+  wbracelets37:
+    "https://i.pinimg.com/736x/14/42/23/144223df43327b002acd5cd21b816622.jpg",
+  wbracelets38:
+    "https://i.pinimg.com/736x/c7/ec/bb/c7ecbb751c3e9d39bd452ee1171bf11f.jpg",
+  wbracelets39:
+    "https://i.pinimg.com/736x/d8/2b/27/d82b277f6fc177d7120c2cd44345320d.jpg",
+  wbracelets40:
+    "https://i.pinimg.com/1200x/ab/c0/c9/abc0c952b70df8b7f9a25731a0ce8487.jpg",
+  wbracelets41:
+    "https://i.pinimg.com/736x/58/39/f2/5839f2c6619e2ae463e0d0c74784c4c3.jpg",
+  wbracelets42:
+    "https://i.pinimg.com/1200x/d9/19/b7/d919b7aa04248ca9bfdb8cef611793f4.jpg",
+  wbracelets43:
+    "https://i.pinimg.com/736x/ac/cc/46/accc467e4097b58750dc2039a3f9baff.jpg",
+  wbracelets44:
+    "https://i.pinimg.com/1200x/57/0e/92/570e923d2f3c39932a3aa05b96ee922a.jpg",
+  wbracelets45:
+    "https://i.pinimg.com/736x/41/7d/aa/417daa0c3b86a7375fa8c4d0998084ec.jpg",
+  wbracelets46:
+    "https://i.pinimg.com/736x/9f/4b/c8/9f4bc82dacb94f4b3319300cd4a92306.jpg",
+  wbracelets47:
+    "https://i.pinimg.com/1200x/3a/41/f8/3a41f8bb79bf253f76ca560430f96259.jpg",
+  wbracelets48:
+    "https://i.pinimg.com/736x/09/99/2c/09992cfa49d11bb5b69c98d94d939396.jpg",
+
   mbracelets:
     "https://i.pinimg.com/1200x/6c/63/ea/6c63eaaa4169da7d9a471e97f8da7b98.jpg",
   mbracelets2:
@@ -3015,51 +3639,90 @@ const I = {
     "https://i.pinimg.com/736x/cc/1f/9b/cc1f9b5dcfb94281237a93f50bc9f313.jpg",
   wmali6:
     "https://i.pinimg.com/736x/b2/d0/69/b2d0694015b4c194bc056ed109aa3500.jpg",
-    wmali7:
+  wmali7:
     "https://i.pinimg.com/736x/3a/33/85/3a33850171ff24ee8e9fc66178301e4d.jpg",
   wmali8:
     "https://i.pinimg.com/1200x/5a/38/86/5a3886579ff1ea6918168b6fb6fcf923.jpg",
   wmali9:
     "https://i.pinimg.com/1200x/2a/ea/19/2aea19ad0b28d501b8343e0dd23a97d2.jpg",
-  wmali10:"https://i.pinimg.com/736x/15/53/60/1553607d29144962c90a137a2a6d1096.jpg",
-  wmali11:"https://i.pinimg.com/736x/5f/cd/b1/5fcdb1198b644f9152fc7256232ff438.jpg",
-  wmali12:"https://i.pinimg.com/1200x/07/36/40/073640e5c7a871d1a11a7fbfd39cd453.jpg",
-  wmali13:"https://i.pinimg.com/control1/736x/cd/eb/37/cdeb37ad930eeeb47ea0ce5da59cb82a.jpg",
-  wmali14:"https://i.pinimg.com/736x/fd/df/3a/fddf3a20362fd5efdc7729045fc74118.jpg",
-  wmali15:"https://i.pinimg.com/1200x/9f/2b/e5/9f2be5d871df4e5ec2550e1e2aa9fc2f.jpg",
-  wmali16:"https://i.pinimg.com/736x/64/fe/96/64fe9686159642cd3ec7a2ea4ad83943.jpg",
-  wmali17:"https://i.pinimg.com/1200x/57/6c/11/576c11a00549a08d63f8e7eb18ae3113.jpg",
-  wmali18:"https://i.pinimg.com/1200x/64/73/65/6473650fe6c2dcf305da828ad9529c02.jpg",
-  wmali19:"https://i.pinimg.com/1200x/56/72/91/567291ff70edb8cf8be7fd54e6b30c31.jpg",
-  wmali20:"https://i.pinimg.com/1200x/aa/4d/d2/aa4dd2e51b1711048a0e008dcbabf226.jpg",
-  wmali21:"https://i.pinimg.com/736x/e4/d5/ac/e4d5ac90fb9fcd342ae32dca176208c4.jpg",
-  wmali22:"https://i.pinimg.com/736x/32/89/f1/3289f19fc627990f0fdca01385527e1a.jpg",
-  wmali23:"https://i.pinimg.com/736x/1a/e3/0f/1ae30f3768d69940a3ffe491e1120f46.jpg",
-  wmali24:"https://i.pinimg.com/736x/9a/55/3f/9a553fca032da4536c3370089fc81415.jpg",
-  wmali25:"https://i.pinimg.com/736x/4d/22/77/4d2277a6b54e6e204b5489cb52c561ad.jpg",
-  wmali26:"https://i.pinimg.com/736x/33/b2/59/33b2592916f3fdd71d4dfafe22860bb0.jpg",
-  wmali27:"https://i.pinimg.com/736x/35/5d/de/355dde58b8becf49ccd798fe71790932.jpg",
-  wmali28:"https://i.pinimg.com/736x/2b/9a/3c/2b9a3cdc369ca1622e5954715eb42548.jpg",
-  wmali29:"https://i.pinimg.com/736x/95/b7/3e/95b73e4b57c5a54d6bcdd54020ab2570.jpg",
-  wmali30:"https://i.pinimg.com/736x/b5/a7/29/b5a729f68ffb1cfb09c1afa96305c718.jpg",
-  wmali31:"https://i.pinimg.com/736x/96/00/fa/9600fa58c08a4187ed22787cc0856fdc.jpg",
-  wmali32:"https://i.pinimg.com/1200x/00/5e/b8/005eb8243c0cfe81e5426fbd058da42c.jpg",
-  wmali33:"https://i.pinimg.com/1200x/50/1b/8a/501b8a44ea712ed0ae309c37fb87e76e.jpg",
-  wmali34:"https://i.pinimg.com/736x/a8/23/c9/a823c90714b4c680679ef3ff49185bb9.jpg",
-  wmali35:"https://i.pinimg.com/1200x/a3/21/41/a32141d29812625308954798934af28d.jpg",
-  wmali36:"https://i.pinimg.com/1200x/ec/e4/2c/ece42c332ce709db606591a00870a13e.jpg",
-  wmali37:"https://i.pinimg.com/736x/3d/f5/5d/3df55d2d4832fa81b916cc8b260cb7d9.jpg",
-  wmali38:"https://i.pinimg.com/736x/19/c0/58/19c0586c1a3eeb40f816df96360f5eeb.jpg",
-  wmali39:"https://i.pinimg.com/1200x/3d/73/5f/3d735fcd2cf812a8a724210c5bf0dae7.jpg",
-  wmali40:"https://i.pinimg.com/1200x/b9/d6/1c/b9d61c392ba1421f1a85589757845137.jpg",
-  wmali41:"https://i.pinimg.com/1200x/37/07/58/37075809e0585476e3763e97e1e4ea4f.jpg",
-  wmali42:"https://i.pinimg.com/736x/32/45/a0/3245a04bf287231ccc67e8c39b2df658.jpg",
-  wmali43:"https://i.pinimg.com/1200x/e7/dd/7a/e7dd7a43b22c89bd34d7c9588a5d3f69.jpg",
-  wmali44:"https://i.pinimg.com/1200x/fb/15/54/fb1554e1bbbb9d1c9603675ca5c7a26c.jpg",
-  wmali45:"https://i.pinimg.com/736x/e5/1a/d7/e51ad7cc4a765df5a9b4726191b83d15.jpg",
-  wmali46:"https://i.pinimg.com/736x/fa/5b/a8/fa5ba8561bf332a00cb8f7bc40e26315.jpg",
-  wmali47:"https://i.pinimg.com/736x/1c/61/06/1c61064d58069deae50af44b1372bb06.jpg",
-  wmali48:"https://i.pinimg.com/1200x/a6/52/b3/a652b3818cfc5c826582ede7c45903b9.jpg",
+  wmali10:
+    "https://i.pinimg.com/736x/15/53/60/1553607d29144962c90a137a2a6d1096.jpg",
+  wmali11:
+    "https://i.pinimg.com/736x/5f/cd/b1/5fcdb1198b644f9152fc7256232ff438.jpg",
+  wmali12:
+    "https://i.pinimg.com/1200x/07/36/40/073640e5c7a871d1a11a7fbfd39cd453.jpg",
+  wmali13:
+    "https://i.pinimg.com/control1/736x/cd/eb/37/cdeb37ad930eeeb47ea0ce5da59cb82a.jpg",
+  wmali14:
+    "https://i.pinimg.com/736x/fd/df/3a/fddf3a20362fd5efdc7729045fc74118.jpg",
+  wmali15:
+    "https://i.pinimg.com/1200x/9f/2b/e5/9f2be5d871df4e5ec2550e1e2aa9fc2f.jpg",
+  wmali16:
+    "https://i.pinimg.com/736x/64/fe/96/64fe9686159642cd3ec7a2ea4ad83943.jpg",
+  wmali17:
+    "https://i.pinimg.com/1200x/57/6c/11/576c11a00549a08d63f8e7eb18ae3113.jpg",
+  wmali18:
+    "https://i.pinimg.com/1200x/64/73/65/6473650fe6c2dcf305da828ad9529c02.jpg",
+  wmali19:
+    "https://i.pinimg.com/1200x/56/72/91/567291ff70edb8cf8be7fd54e6b30c31.jpg",
+  wmali20:
+    "https://i.pinimg.com/1200x/aa/4d/d2/aa4dd2e51b1711048a0e008dcbabf226.jpg",
+  wmali21:
+    "https://i.pinimg.com/736x/e4/d5/ac/e4d5ac90fb9fcd342ae32dca176208c4.jpg",
+  wmali22:
+    "https://i.pinimg.com/736x/32/89/f1/3289f19fc627990f0fdca01385527e1a.jpg",
+  wmali23:
+    "https://i.pinimg.com/736x/1a/e3/0f/1ae30f3768d69940a3ffe491e1120f46.jpg",
+  wmali24:
+    "https://i.pinimg.com/736x/9a/55/3f/9a553fca032da4536c3370089fc81415.jpg",
+  wmali25:
+    "https://i.pinimg.com/736x/4d/22/77/4d2277a6b54e6e204b5489cb52c561ad.jpg",
+  wmali26:
+    "https://i.pinimg.com/736x/33/b2/59/33b2592916f3fdd71d4dfafe22860bb0.jpg",
+  wmali27:
+    "https://i.pinimg.com/736x/35/5d/de/355dde58b8becf49ccd798fe71790932.jpg",
+  wmali28:
+    "https://i.pinimg.com/736x/2b/9a/3c/2b9a3cdc369ca1622e5954715eb42548.jpg",
+  wmali29:
+    "https://i.pinimg.com/736x/95/b7/3e/95b73e4b57c5a54d6bcdd54020ab2570.jpg",
+  wmali30:
+    "https://i.pinimg.com/736x/b5/a7/29/b5a729f68ffb1cfb09c1afa96305c718.jpg",
+  wmali31:
+    "https://i.pinimg.com/736x/96/00/fa/9600fa58c08a4187ed22787cc0856fdc.jpg",
+  wmali32:
+    "https://i.pinimg.com/1200x/00/5e/b8/005eb8243c0cfe81e5426fbd058da42c.jpg",
+  wmali33:
+    "https://i.pinimg.com/1200x/50/1b/8a/501b8a44ea712ed0ae309c37fb87e76e.jpg",
+  wmali34:
+    "https://i.pinimg.com/736x/a8/23/c9/a823c90714b4c680679ef3ff49185bb9.jpg",
+  wmali35:
+    "https://i.pinimg.com/1200x/a3/21/41/a32141d29812625308954798934af28d.jpg",
+  wmali36:
+    "https://i.pinimg.com/1200x/ec/e4/2c/ece42c332ce709db606591a00870a13e.jpg",
+  wmali37:
+    "https://i.pinimg.com/736x/3d/f5/5d/3df55d2d4832fa81b916cc8b260cb7d9.jpg",
+  wmali38:
+    "https://i.pinimg.com/736x/19/c0/58/19c0586c1a3eeb40f816df96360f5eeb.jpg",
+  wmali39:
+    "https://i.pinimg.com/1200x/3d/73/5f/3d735fcd2cf812a8a724210c5bf0dae7.jpg",
+  wmali40:
+    "https://i.pinimg.com/1200x/b9/d6/1c/b9d61c392ba1421f1a85589757845137.jpg",
+  wmali41:
+    "https://i.pinimg.com/1200x/37/07/58/37075809e0585476e3763e97e1e4ea4f.jpg",
+  wmali42:
+    "https://i.pinimg.com/736x/32/45/a0/3245a04bf287231ccc67e8c39b2df658.jpg",
+  wmali43:
+    "https://i.pinimg.com/1200x/e7/dd/7a/e7dd7a43b22c89bd34d7c9588a5d3f69.jpg",
+  wmali44:
+    "https://i.pinimg.com/1200x/fb/15/54/fb1554e1bbbb9d1c9603675ca5c7a26c.jpg",
+  wmali45:
+    "https://i.pinimg.com/736x/e5/1a/d7/e51ad7cc4a765df5a9b4726191b83d15.jpg",
+  wmali46:
+    "https://i.pinimg.com/736x/fa/5b/a8/fa5ba8561bf332a00cb8f7bc40e26315.jpg",
+  wmali47:
+    "https://i.pinimg.com/736x/1c/61/06/1c61064d58069deae50af44b1372bb06.jpg",
+  wmali48:
+    "https://i.pinimg.com/1200x/a6/52/b3/a652b3818cfc5c826582ede7c45903b9.jpg",
 
   wearrings:
     "https://i.pinimg.com/736x/1f/ef/e2/1fefe2356eaceb08cf515728b239fbfa.jpg",
@@ -3073,49 +3736,90 @@ const I = {
     "https://i.pinimg.com/736x/58/37/9d/58379d888a246e9950dbaac1ba88361d.jpg",
   wearrings6:
     "https://i.pinimg.com/736x/a9/14/dc/a914dca94e3913f846832d17c59478df.jpg",
-    wearrings7:"https://i.pinimg.com/736x/cb/a3/30/cba33082aabc8517c9680fe91c06f524.jpg",
-  wearrings8:"https://i.pinimg.com/736x/58/37/9d/58379d888a246e9950dbaac1ba88361d.jpg",
-  wearrings9:"https://i.pinimg.com/736x/f5/db/6c/f5db6c5f37abae6be28f514a8363e548.jpg",
-  wearrings10:"https://i.pinimg.com/736x/c8/f9/98/c8f9982932822606c0857cf690cde1aa.jpg",
-  wearrings11:"https://i.pinimg.com/1200x/1b/16/2a/1b162a6964eb0dbc245e56f7f6da9574.jpg",
-  wearrings12:"https://i.pinimg.com/736x/0d/1b/4b/0d1b4b71494124d4c519258f373b93fc.jpg",
-  wearrings13:"https://i.pinimg.com/736x/2f/b7/04/2fb704166404b4b725ae7a262b238f77.jpg",
-  wearrings14:"https://i.pinimg.com/1200x/7e/20/fb/7e20fb9894490432ae15068f9bbf6d8f.jpg",
-  wearrings15:"https://i.pinimg.com/1200x/7a/8f/7f/7a8f7fdedb945ec51098d8d94afae1c8.jpg",
-  wearrings16:"https://i.pinimg.com/736x/6d/7f/b3/6d7fb3e6a1f3383a3ea2239379c2dc0a.jpg",
-  wearrings17:"https://i.pinimg.com/736x/55/27/69/552769fab21141ee9cbcd158adf0ada6.jpg",
-  wearrings18:"https://i.pinimg.com/control1/736x/9b/6b/33/9b6b332c93f0083f7132b329b413c7f9.jpg",
-  wearrings19:"https://i.pinimg.com/736x/d1/be/56/d1be56e80366f728fad01163805381cb.jpg",
-  wearrings20:"https://i.pinimg.com/736x/0d/c1/18/0dc118f6bcf92029aa2242751761c358.jpg",
-  wearrings21:"https://i.pinimg.com/736x/30/02/d3/3002d35984ef8b1253a56a56fcf38259.jpg",
-  wearrings22:"https://i.pinimg.com/1200x/ce/fd/c9/cefdc98ac6e9a1ae40b48a2e53d2fd09.jpg",
-  wearrings23:"https://i.pinimg.com/736x/2f/70/5f/2f705f747c5cf7d16afd7d51aa058678.jpg",
-  wearrings24:"https://i.pinimg.com/1200x/69/09/ad/6909ad19b388fc814e11ef2aa12d3a86.jpg",
-  wearrings25:"https://i.pinimg.com/736x/ad/4c/e8/ad4ce851eff95e6acea22171ecbce241.jpg",
-  wearrings26:"https://i.pinimg.com/control1/1200x/44/32/0b/44320bdad36c2eec2172a041cee4c871.jpg",
-  wearrings27:"https://i.pinimg.com/736x/0a/8b/cd/0a8bcd7180c8ac307fe09d8314809ed0.jpg",
-  wearrings28:"https://i.pinimg.com/736x/8e/97/ac/8e97acf09973a37b239755f612a9794e.jpg",
-  wearrings29:"https://i.pinimg.com/1200x/2e/11/e7/2e11e7c359daaa8d3c10048c04eebd4b.jpg",
-  wearrings30:"https://i.pinimg.com/1200x/96/a0/d3/96a0d30cce8140d07295ad05b9ee271a.jpg",
-  wearrings31:"https://i.pinimg.com/1200x/c8/0d/37/c80d37af915933eaa4a837b8031bf11e.jpg",
-  wearrings32:"https://i.pinimg.com/736x/e3/79/de/e379de63ffddbc05068f92d7a1d69940.jpg",
-  wearrings33:"https://i.pinimg.com/control1/1200x/fa/5b/15/fa5b15fa5b99a0c62adb989ec76c0f22.jpg",
-  wearrings34:"https://i.pinimg.com/736x/9c/b9/89/9cb989a317c8d73feb89d6102ab4642c.jpg",
-  wearrings35:"https://i.pinimg.com/control1/736x/28/ce/f0/28cef08d1e10457f63c2904db714fd9b.jpg",
-  wearrings36:"https://i.pinimg.com/1200x/66/07/da/6607daccfebade91902cfdfe08b9e628.jpg",
-  wearrings37:"https://i.pinimg.com/736x/72/55/a6/7255a682c2564a64de42ca7a54d50269.jpg",
-  wearrings38:"https://i.pinimg.com/1200x/ac/63/c0/ac63c02989c6132cc8ca8071a5587e6c.jpg",
-  wearrings39:"https://i.pinimg.com/1200x/e5/3e/5e/e53e5e5f795aaa6aae080dc6c13ff7c4.jpg",
-  wearrings40:"https://i.pinimg.com/1200x/8d/f9/7a/8df97a04de4e13c6baa7686dd5b904c9.jpg",
-  wearrings41:"https://i.pinimg.com/736x/95/13/69/951369482a94402c25b62cd5d72b7948.jpg",
-  wearrings42:"https://i.pinimg.com/1200x/95/25/52/9525520ae79571a8e736a6930aff5135.jpg",
-  wearrings43:"https://i.pinimg.com/1200x/90/f6/a7/90f6a71bdb365165f6d86ad832735a84.jpg",
-  wearrings44:"https://i.pinimg.com/736x/ad/40/54/ad40545ef826a8a1e8e02f31f117ebe1.jpg",
-  wearrings45:"https://i.pinimg.com/736x/c2/81/09/c281093e25ae9698f132d05110a3ab77.jpg",
-  wearrings46:"https://i.pinimg.com/736x/40/cb/ee/40cbee13638c0a0f47993b5da6187be1.jpg",
-  wearrings47:"https://i.pinimg.com/control1/1200x/07/aa/cf/07aacf82b8d40821869315399a687fe8.jpg",
-  wearrings48:"https://i.pinimg.com/736x/e7/52/d0/e752d0455a32fdd8dec11ac07db28d2e.jpg",
-
+  wearrings7:
+    "https://i.pinimg.com/736x/cb/a3/30/cba33082aabc8517c9680fe91c06f524.jpg",
+  wearrings8:
+    "https://i.pinimg.com/736x/58/37/9d/58379d888a246e9950dbaac1ba88361d.jpg",
+  wearrings9:
+    "https://i.pinimg.com/736x/f5/db/6c/f5db6c5f37abae6be28f514a8363e548.jpg",
+  wearrings10:
+    "https://i.pinimg.com/736x/c8/f9/98/c8f9982932822606c0857cf690cde1aa.jpg",
+  wearrings11:
+    "https://i.pinimg.com/1200x/1b/16/2a/1b162a6964eb0dbc245e56f7f6da9574.jpg",
+  wearrings12:
+    "https://i.pinimg.com/736x/0d/1b/4b/0d1b4b71494124d4c519258f373b93fc.jpg",
+  wearrings13:
+    "https://i.pinimg.com/736x/2f/b7/04/2fb704166404b4b725ae7a262b238f77.jpg",
+  wearrings14:
+    "https://i.pinimg.com/1200x/7e/20/fb/7e20fb9894490432ae15068f9bbf6d8f.jpg",
+  wearrings15:
+    "https://i.pinimg.com/1200x/7a/8f/7f/7a8f7fdedb945ec51098d8d94afae1c8.jpg",
+  wearrings16:
+    "https://i.pinimg.com/736x/6d/7f/b3/6d7fb3e6a1f3383a3ea2239379c2dc0a.jpg",
+  wearrings17:
+    "https://i.pinimg.com/736x/55/27/69/552769fab21141ee9cbcd158adf0ada6.jpg",
+  wearrings18:
+    "https://i.pinimg.com/control1/736x/9b/6b/33/9b6b332c93f0083f7132b329b413c7f9.jpg",
+  wearrings19:
+    "https://i.pinimg.com/736x/d1/be/56/d1be56e80366f728fad01163805381cb.jpg",
+  wearrings20:
+    "https://i.pinimg.com/736x/0d/c1/18/0dc118f6bcf92029aa2242751761c358.jpg",
+  wearrings21:
+    "https://i.pinimg.com/736x/30/02/d3/3002d35984ef8b1253a56a56fcf38259.jpg",
+  wearrings22:
+    "https://i.pinimg.com/1200x/ce/fd/c9/cefdc98ac6e9a1ae40b48a2e53d2fd09.jpg",
+  wearrings23:
+    "https://i.pinimg.com/736x/2f/70/5f/2f705f747c5cf7d16afd7d51aa058678.jpg",
+  wearrings24:
+    "https://i.pinimg.com/1200x/69/09/ad/6909ad19b388fc814e11ef2aa12d3a86.jpg",
+  wearrings25:
+    "https://i.pinimg.com/736x/ad/4c/e8/ad4ce851eff95e6acea22171ecbce241.jpg",
+  wearrings26:
+    "https://i.pinimg.com/control1/1200x/44/32/0b/44320bdad36c2eec2172a041cee4c871.jpg",
+  wearrings27:
+    "https://i.pinimg.com/736x/0a/8b/cd/0a8bcd7180c8ac307fe09d8314809ed0.jpg",
+  wearrings28:
+    "https://i.pinimg.com/736x/8e/97/ac/8e97acf09973a37b239755f612a9794e.jpg",
+  wearrings29:
+    "https://i.pinimg.com/1200x/2e/11/e7/2e11e7c359daaa8d3c10048c04eebd4b.jpg",
+  wearrings30:
+    "https://i.pinimg.com/1200x/96/a0/d3/96a0d30cce8140d07295ad05b9ee271a.jpg",
+  wearrings31:
+    "https://i.pinimg.com/1200x/c8/0d/37/c80d37af915933eaa4a837b8031bf11e.jpg",
+  wearrings32:
+    "https://i.pinimg.com/736x/e3/79/de/e379de63ffddbc05068f92d7a1d69940.jpg",
+  wearrings33:
+    "https://i.pinimg.com/control1/1200x/fa/5b/15/fa5b15fa5b99a0c62adb989ec76c0f22.jpg",
+  wearrings34:
+    "https://i.pinimg.com/736x/9c/b9/89/9cb989a317c8d73feb89d6102ab4642c.jpg",
+  wearrings35:
+    "https://i.pinimg.com/control1/736x/28/ce/f0/28cef08d1e10457f63c2904db714fd9b.jpg",
+  wearrings36:
+    "https://i.pinimg.com/1200x/66/07/da/6607daccfebade91902cfdfe08b9e628.jpg",
+  wearrings37:
+    "https://i.pinimg.com/736x/72/55/a6/7255a682c2564a64de42ca7a54d50269.jpg",
+  wearrings38:
+    "https://i.pinimg.com/1200x/ac/63/c0/ac63c02989c6132cc8ca8071a5587e6c.jpg",
+  wearrings39:
+    "https://i.pinimg.com/1200x/e5/3e/5e/e53e5e5f795aaa6aae080dc6c13ff7c4.jpg",
+  wearrings40:
+    "https://i.pinimg.com/1200x/8d/f9/7a/8df97a04de4e13c6baa7686dd5b904c9.jpg",
+  wearrings41:
+    "https://i.pinimg.com/736x/95/13/69/951369482a94402c25b62cd5d72b7948.jpg",
+  wearrings42:
+    "https://i.pinimg.com/1200x/95/25/52/9525520ae79571a8e736a6930aff5135.jpg",
+  wearrings43:
+    "https://i.pinimg.com/1200x/90/f6/a7/90f6a71bdb365165f6d86ad832735a84.jpg",
+  wearrings44:
+    "https://i.pinimg.com/736x/ad/40/54/ad40545ef826a8a1e8e02f31f117ebe1.jpg",
+  wearrings45:
+    "https://i.pinimg.com/736x/c2/81/09/c281093e25ae9698f132d05110a3ab77.jpg",
+  wearrings46:
+    "https://i.pinimg.com/736x/40/cb/ee/40cbee13638c0a0f47993b5da6187be1.jpg",
+  wearrings47:
+    "https://i.pinimg.com/control1/1200x/07/aa/cf/07aacf82b8d40821869315399a687fe8.jpg",
+  wearrings48:
+    "https://i.pinimg.com/736x/e7/52/d0/e752d0455a32fdd8dec11ac07db28d2e.jpg",
 
   mearring:
     "https://i.pinimg.com/1200x/e1/4f/f9/e14ff9816198d72e37f9914bc22548d5.jpg",
@@ -3227,114 +3931,184 @@ const I = {
     "https://i.pinimg.com/736x/1b/98/91/1b9891a7c9dfa99c19e64d70ee49e665.jpg",
   wchain6:
     "https://i.pinimg.com/736x/a1/01/1f/a1011f47b3098d91985fe085e0dea86c.jpg",
-  wchain7:"https://i.pinimg.com/736x/37/cb/c5/37cbc5abec734b28df5b8dac3b2a6469.jpg",
-  wchain8:"https://i.pinimg.com/control1/736x/b4/14/aa/b414aaa3bb6d16e652caabaeeaceaeea.jpg",
-  wchain9:"https://i.pinimg.com/1200x/79/75/31/79753166afb2ee842a22971a4d115581.jpg",
-  wchain10:"https://i.pinimg.com/736x/5b/45/fa/5b45fa20b3791ab601c4f8d07986c73d.jpg",
-  wchain11:"https://i.pinimg.com/736x/d4/e5/ee/d4e5ee70593ad6cca435ae30abcc0f7b.jpg",
-  wchain12:"https://i.pinimg.com/736x/b4/63/b0/b463b036efca5a4407628e2665fb84b0.jpg",
-  wchain13:"https://i.pinimg.com/736x/d8/b5/28/d8b528160a12a16d8b6d13074cad7f6a.jpg",
-  wchain14:"https://i.pinimg.com/control1/1200x/90/56/ae/9056ae9b826eccbe60addafd272abf7a.jpg",
-  wchain15:"https://i.pinimg.com/736x/54/90/ff/5490ffa96501b3fb874c697197db8639.jpg",
-  wchain16:"https://i.pinimg.com/control1/1200x/d9/1a/82/d91a825ec441cabfcde92e6641c52a89.jpg",
-  wchain17:"https://i.pinimg.com/1200x/94/37/ba/9437bacf725f5bf9adec1dc0275c6ed6.jpg",
-  wchain18:"https://i.pinimg.com/1200x/64/a7/6d/64a76d97c518cbce1b51d33be13a1af3.jpg",
-  wchain19:"https://i.pinimg.com/1200x/08/3d/bd/083dbd44cf3f87fdcf32c4b6803b1be3.jpg",
-  wchain20:"https://i.pinimg.com/736x/ba/f3/01/baf30106e3c54f61f71cb0d98258f9c3.jpg",
-  wchain21:"https://i.pinimg.com/736x/dc/3c/4e/dc3c4ee9a6e13bcd815e46c3685d9845.jpg",
-  wchain22:"https://i.pinimg.com/1200x/4e/60/97/4e6097a35d6097ad5bd6014be03d9424.jpg",
-  wchain23:"https://i.pinimg.com/736x/46/10/d4/4610d4a75ff2538b98603b06c0de778b.jpg",
-  wchain24:"https://i.pinimg.com/736x/f6/1f/cd/f61fcd99460c825d382227fda8a8118c.jpg",
-  wchain25:"https://i.pinimg.com/736x/c8/2a/5a/c82a5a6e6b5e6980972f6376f7aad681.jpg",
-  wchain26:"https://i.pinimg.com/736x/a4/7a/62/a47a62bb726c10cedd33ddaf52c703d9.jpg",
-  wchain27:"https://i.pinimg.com/736x/df/df/68/dfdf6826329345e5c758500c15c54f95.jpg",
-  wchain28:"https://i.pinimg.com/control1/736x/b3/f3/dd/b3f3dde0a36fa07ceee9409cebb71db1.jpg",
-  wchain29:"https://i.pinimg.com/736x/f6/04/09/f60409b0100775a899f512e90a3d8e55.jpg",
-  wchain30:"https://i.pinimg.com/1200x/62/ea/7a/62ea7afc2e4bd556ba875a0d9806c3eb.jpg",
-  wchain31:"https://i.pinimg.com/1200x/79/08/30/790830ea0a25fb6919cad217f76c27ba.jpg",
-  wchain32:"https://i.pinimg.com/736x/72/4f/e9/724fe99dc84f5096c6c8fad2bd0d2225.jpg",
-  wchain33:"https://i.pinimg.com/736x/42/44/82/424482a04b0584f07c2ac48a64955899.jpg",
-  wchain34:"https://i.pinimg.com/control1/1200x/ab/9f/03/ab9f032cf916e6302f19549648f809ec.jpg",
-  wchain35:"https://i.pinimg.com/1200x/36/ba/73/36ba7391a89771412d1a451ae8d9e108.jpg",
-  wchain36:"https://i.pinimg.com/736x/c2/48/61/c24861a74753fb67b106c28aa1054413.jpg",
-  wchain37:"https://i.pinimg.com/1200x/2d/10/13/2d101337efcf07365390760da1e762c7.jpg",
-  wchain38:"https://i.pinimg.com/1200x/f7/33/c5/f733c5a4e84fd2429fdd39418afdf60e.jpg",
-  wchain39:"https://i.pinimg.com/1200x/e3/35/a3/e335a3df0fa03842fe7149782ab4fcfe.jpg",
-  wchain40:"https://i.pinimg.com/1200x/6c/77/c7/6c77c78498a790343cf7b2359272c484.jpg",
-  wchain41:"https://i.pinimg.com/736x/bb/6b/9c/bb6b9c87befc325cf6b67fa5a92c3aeb.jpg",
-  wchain42:"https://i.pinimg.com/736x/9e/02/38/9e0238d389aa6539d5ae187ccb8f4f94.jpg",
-  wchain43:"https://i.pinimg.com/736x/df/35/3d/df353ddcdf444c95f22e79de3269b91f.jpg",
-  wchain44:"https://i.pinimg.com/736x/b5/d2/a7/b5d2a725b8d111b0ff5e4cb0fc377d4d.jpg",
-  wchain45:"https://i.pinimg.com/736x/fd/7c/42/fd7c429b0b8acf2cd5290c9e7f6d0f0e.jpg",
-  wchain46:"https://i.pinimg.com/1200x/0f/6e/00/0f6e004650cc6ab31dc358c6c5798d96.jpg",
-  wchain47:"https://i.pinimg.com/736x/b8/4f/15/b84f15e8905b66d6738adf9951437792.jpg",
-  wchain48:"https://i.pinimg.com/736x/9a/3d/b3/9a3db37ec1f9b4da63315c5fad9fdb9a.jpg",
-
+  wchain7:
+    "https://i.pinimg.com/736x/37/cb/c5/37cbc5abec734b28df5b8dac3b2a6469.jpg",
+  wchain8:
+    "https://i.pinimg.com/control1/736x/b4/14/aa/b414aaa3bb6d16e652caabaeeaceaeea.jpg",
+  wchain9:
+    "https://i.pinimg.com/1200x/79/75/31/79753166afb2ee842a22971a4d115581.jpg",
+  wchain10:
+    "https://i.pinimg.com/736x/5b/45/fa/5b45fa20b3791ab601c4f8d07986c73d.jpg",
+  wchain11:
+    "https://i.pinimg.com/736x/d4/e5/ee/d4e5ee70593ad6cca435ae30abcc0f7b.jpg",
+  wchain12:
+    "https://i.pinimg.com/736x/b4/63/b0/b463b036efca5a4407628e2665fb84b0.jpg",
+  wchain13:
+    "https://i.pinimg.com/736x/d8/b5/28/d8b528160a12a16d8b6d13074cad7f6a.jpg",
+  wchain14:
+    "https://i.pinimg.com/control1/1200x/90/56/ae/9056ae9b826eccbe60addafd272abf7a.jpg",
+  wchain15:
+    "https://i.pinimg.com/736x/54/90/ff/5490ffa96501b3fb874c697197db8639.jpg",
+  wchain16:
+    "https://i.pinimg.com/control1/1200x/d9/1a/82/d91a825ec441cabfcde92e6641c52a89.jpg",
+  wchain17:
+    "https://i.pinimg.com/1200x/94/37/ba/9437bacf725f5bf9adec1dc0275c6ed6.jpg",
+  wchain18:
+    "https://i.pinimg.com/1200x/64/a7/6d/64a76d97c518cbce1b51d33be13a1af3.jpg",
+  wchain19:
+    "https://i.pinimg.com/1200x/08/3d/bd/083dbd44cf3f87fdcf32c4b6803b1be3.jpg",
+  wchain20:
+    "https://i.pinimg.com/736x/ba/f3/01/baf30106e3c54f61f71cb0d98258f9c3.jpg",
+  wchain21:
+    "https://i.pinimg.com/736x/dc/3c/4e/dc3c4ee9a6e13bcd815e46c3685d9845.jpg",
+  wchain22:
+    "https://i.pinimg.com/1200x/4e/60/97/4e6097a35d6097ad5bd6014be03d9424.jpg",
+  wchain23:
+    "https://i.pinimg.com/736x/46/10/d4/4610d4a75ff2538b98603b06c0de778b.jpg",
+  wchain24:
+    "https://i.pinimg.com/736x/f6/1f/cd/f61fcd99460c825d382227fda8a8118c.jpg",
+  wchain25:
+    "https://i.pinimg.com/736x/c8/2a/5a/c82a5a6e6b5e6980972f6376f7aad681.jpg",
+  wchain26:
+    "https://i.pinimg.com/736x/a4/7a/62/a47a62bb726c10cedd33ddaf52c703d9.jpg",
+  wchain27:
+    "https://i.pinimg.com/736x/df/df/68/dfdf6826329345e5c758500c15c54f95.jpg",
+  wchain28:
+    "https://i.pinimg.com/control1/736x/b3/f3/dd/b3f3dde0a36fa07ceee9409cebb71db1.jpg",
+  wchain29:
+    "https://i.pinimg.com/736x/f6/04/09/f60409b0100775a899f512e90a3d8e55.jpg",
+  wchain30:
+    "https://i.pinimg.com/1200x/62/ea/7a/62ea7afc2e4bd556ba875a0d9806c3eb.jpg",
+  wchain31:
+    "https://i.pinimg.com/1200x/79/08/30/790830ea0a25fb6919cad217f76c27ba.jpg",
+  wchain32:
+    "https://i.pinimg.com/736x/72/4f/e9/724fe99dc84f5096c6c8fad2bd0d2225.jpg",
+  wchain33:
+    "https://i.pinimg.com/736x/42/44/82/424482a04b0584f07c2ac48a64955899.jpg",
+  wchain34:
+    "https://i.pinimg.com/control1/1200x/ab/9f/03/ab9f032cf916e6302f19549648f809ec.jpg",
+  wchain35:
+    "https://i.pinimg.com/1200x/36/ba/73/36ba7391a89771412d1a451ae8d9e108.jpg",
+  wchain36:
+    "https://i.pinimg.com/736x/c2/48/61/c24861a74753fb67b106c28aa1054413.jpg",
+  wchain37:
+    "https://i.pinimg.com/1200x/2d/10/13/2d101337efcf07365390760da1e762c7.jpg",
+  wchain38:
+    "https://i.pinimg.com/1200x/f7/33/c5/f733c5a4e84fd2429fdd39418afdf60e.jpg",
+  wchain39:
+    "https://i.pinimg.com/1200x/e3/35/a3/e335a3df0fa03842fe7149782ab4fcfe.jpg",
+  wchain40:
+    "https://i.pinimg.com/1200x/6c/77/c7/6c77c78498a790343cf7b2359272c484.jpg",
+  wchain41:
+    "https://i.pinimg.com/736x/bb/6b/9c/bb6b9c87befc325cf6b67fa5a92c3aeb.jpg",
+  wchain42:
+    "https://i.pinimg.com/736x/9e/02/38/9e0238d389aa6539d5ae187ccb8f4f94.jpg",
+  wchain43:
+    "https://i.pinimg.com/736x/df/35/3d/df353ddcdf444c95f22e79de3269b91f.jpg",
+  wchain44:
+    "https://i.pinimg.com/736x/b5/d2/a7/b5d2a725b8d111b0ff5e4cb0fc377d4d.jpg",
+  wchain45:
+    "https://i.pinimg.com/736x/fd/7c/42/fd7c429b0b8acf2cd5290c9e7f6d0f0e.jpg",
+  wchain46:
+    "https://i.pinimg.com/1200x/0f/6e/00/0f6e004650cc6ab31dc358c6c5798d96.jpg",
+  wchain47:
+    "https://i.pinimg.com/736x/b8/4f/15/b84f15e8905b66d6738adf9951437792.jpg",
+  wchain48:
+    "https://i.pinimg.com/736x/9a/3d/b3/9a3db37ec1f9b4da63315c5fad9fdb9a.jpg",
 
   wring:
     "https://i.pinimg.com/736x/32/c7/45/32c745d5a8e1d8ac440b81bedee9c73f.jpg",
-  wring2: "https://i.pinimg.com/736x/6b/ed/00/6bed00ef15062df0280f2af57c3fdbd3.jpg",
-  wring3: "https://i.pinimg.com/control1/1200x/3c/73/60/3c73600fd7c72d1cfb38e45bc052f2be.jpg",
+  wring2:
+    "https://i.pinimg.com/736x/6b/ed/00/6bed00ef15062df0280f2af57c3fdbd3.jpg",
+  wring3:
+    "https://i.pinimg.com/control1/1200x/3c/73/60/3c73600fd7c72d1cfb38e45bc052f2be.jpg",
 
   wring4:
     "https://i.pinimg.com/736x/5a/df/fc/5adffcbd6f1568c4021f70c8cc829cb4.jpg",
-  wring5: "https://i.pinimg.com/control1/1200x/ac/4a/32/ac4a32015280d5e130a365e0c75d8cbf.jpg",
-  wring6: "https://i.pinimg.com/736x/6f/f1/6e/6ff16e49d727aa1258a4db9c53517195.jpg",
+  wring5:
+    "https://i.pinimg.com/control1/1200x/ac/4a/32/ac4a32015280d5e130a365e0c75d8cbf.jpg",
+  wring6:
+    "https://i.pinimg.com/736x/6f/f1/6e/6ff16e49d727aa1258a4db9c53517195.jpg",
   wring7:
     "https://i.pinimg.com/1200x/60/24/86/60248641866ca378f1078ff18bfcbd99.jpg",
-  wring8: "https://i.pinimg.com/control1/1200x/9e/7b/2b/9e7b2b11a0d79b40e909f9fe6b276318.jpg",
-  wring9: "https://i.pinimg.com/736x/39/d7/c8/39d7c851de6a6a88c3fd5c8800292fb0.jpg",
+  wring8:
+    "https://i.pinimg.com/control1/1200x/9e/7b/2b/9e7b2b11a0d79b40e909f9fe6b276318.jpg",
+  wring9:
+    "https://i.pinimg.com/736x/39/d7/c8/39d7c851de6a6a88c3fd5c8800292fb0.jpg",
   wring10:
     "https://i.pinimg.com/1200x/95/27/86/952786e913cd0fd8ab74498788c045a6.jpg",
   // wring11:"",
-  wring12: "https://i.pinimg.com/control1/1200x/40/5b/7f/405b7ff8ec3499e93e8ea2d68ec9855f.jpg",
+  wring12:
+    "https://i.pinimg.com/control1/1200x/40/5b/7f/405b7ff8ec3499e93e8ea2d68ec9855f.jpg",
   wring13:
     "https://i.pinimg.com/736x/9e/e4/82/9ee4829ef31a542fb7a75e676e67e408.jpg",
-  wring14: "https://i.pinimg.com/736x/37/18/45/371845ea44640e7dd559a6c3530a04c7.jpg",
-  wring15: "https://i.pinimg.com/control1/736x/2d/15/32/2d1532c15acfcfe7a37535b00e02d326.jpg",
+  wring14:
+    "https://i.pinimg.com/736x/37/18/45/371845ea44640e7dd559a6c3530a04c7.jpg",
+  wring15:
+    "https://i.pinimg.com/control1/736x/2d/15/32/2d1532c15acfcfe7a37535b00e02d326.jpg",
   wring16:
     "https://i.pinimg.com/736x/a9/d4/73/a9d473cf4360c66e7da92791afe7195c.jpg",
-  wring17: "https://i.pinimg.com/736x/4a/86/df/4a86df97256a4212e58a55aa54381911.jpg",
-  wring18: "https://i.pinimg.com/control1/736x/7c/ba/fb/7cbafbaaa628958ee50178d85e561b39.jpg",
+  wring17:
+    "https://i.pinimg.com/736x/4a/86/df/4a86df97256a4212e58a55aa54381911.jpg",
+  wring18:
+    "https://i.pinimg.com/control1/736x/7c/ba/fb/7cbafbaaa628958ee50178d85e561b39.jpg",
   wring19:
     "https://i.pinimg.com/736x/3b/5d/f1/3b5df10a3d0b61f6db27ffabc71d25fb.jpg",
-  wring20: "https://i.pinimg.com/736x/48/e4/ae/48e4aef958e97962dcbbc8b8f8212f2c.jpg",
-  wring21: "https://i.pinimg.com/736x/14/10/7d/14107df09ef7527bfe027c8c6efbd03c.jpg",
+  wring20:
+    "https://i.pinimg.com/736x/48/e4/ae/48e4aef958e97962dcbbc8b8f8212f2c.jpg",
+  wring21:
+    "https://i.pinimg.com/736x/14/10/7d/14107df09ef7527bfe027c8c6efbd03c.jpg",
 
   wring22:
     "https://i.pinimg.com/1200x/60/24/86/60248641866ca378f1078ff18bfcbd99.jpg",
-  wring23: "https://i.pinimg.com/736x/33/5e/53/335e5315428c47ed85a2ea15929b362b.jpg",
-  wring24: "https://i.pinimg.com/1200x/ad/ac/63/adac6380750696d351a1082492229af4.jpg",
+  wring23:
+    "https://i.pinimg.com/736x/33/5e/53/335e5315428c47ed85a2ea15929b362b.jpg",
+  wring24:
+    "https://i.pinimg.com/1200x/ad/ac/63/adac6380750696d351a1082492229af4.jpg",
   wring25:
     "https://i.pinimg.com/736x/0e/6d/ea/0e6dea8f55fe19b83dc94d0b747f18c0.jpg",
-  wring26: "https://i.pinimg.com/control1/1200x/52/a9/87/52a9879756076c6f13fce9cca3a3c84c.jpg",
-  wring27: "https://i.pinimg.com/736x/4d/36/75/4d3675cc9ef86f4c1ee672f5e013f37a.jpg",
+  wring26:
+    "https://i.pinimg.com/control1/1200x/52/a9/87/52a9879756076c6f13fce9cca3a3c84c.jpg",
+  wring27:
+    "https://i.pinimg.com/736x/4d/36/75/4d3675cc9ef86f4c1ee672f5e013f37a.jpg",
   wring28:
     "https://i.pinimg.com/1200x/90/02/ad/9002ad0ac34c41050762813c10728e1b.jpg",
-  wring29: "https://i.pinimg.com/736x/2c/98/e6/2c98e6db396c144e044ad7b5e0d76c59.jpg",
-  wring30: "https://i.pinimg.com/736x/c4/5e/6d/c45e6d88e41d107aef657079e4935ebd.jpg",
+  wring29:
+    "https://i.pinimg.com/736x/2c/98/e6/2c98e6db396c144e044ad7b5e0d76c59.jpg",
+  wring30:
+    "https://i.pinimg.com/736x/c4/5e/6d/c45e6d88e41d107aef657079e4935ebd.jpg",
   wring31:
     "https://i.pinimg.com/1200x/95/27/86/952786e913cd0fd8ab74498788c045a6.jpg",
-  wring32: "https://i.pinimg.com/736x/18/c3/0b/18c30bb1eb1bb66236541dd1680d5ba2.jpg",
-  wring33: "https://i.pinimg.com/736x/ef/9d/12/ef9d12a0653f055f79c756e56b672aaa.jpg",
+  wring32:
+    "https://i.pinimg.com/736x/18/c3/0b/18c30bb1eb1bb66236541dd1680d5ba2.jpg",
+  wring33:
+    "https://i.pinimg.com/736x/ef/9d/12/ef9d12a0653f055f79c756e56b672aaa.jpg",
   wring11:
     "https://i.pinimg.com/1200x/40/2a/48/402a485d3bfd936288ca29485655f1e2.jpg",
   wring34:
     "https://i.pinimg.com/736x/c1/14/66/c1146652acdec9193473d86fa2376aaa.jpg",
-  wring35: "https://i.pinimg.com/control1/736x/e1/da/b8/e1dab872106d42daeee7ae6ad9421a50.jpg",
-  wring36: "https://i.pinimg.com/1200x/07/96/23/079623683daf1c0ddeb79ee5868c52c2.jpg",
+  wring35:
+    "https://i.pinimg.com/control1/736x/e1/da/b8/e1dab872106d42daeee7ae6ad9421a50.jpg",
+  wring36:
+    "https://i.pinimg.com/1200x/07/96/23/079623683daf1c0ddeb79ee5868c52c2.jpg",
   wring37:
     "https://i.pinimg.com/736x/9e/e4/82/9ee4829ef31a542fb7a75e676e67e408.jpg",
-  wring38: "https://i.pinimg.com/736x/cf/73/39/cf7339dab9217b7119c7e02c443c37f1.jpg",
-  wring39: "https://i.pinimg.com/1200x/2c/b0/d5/2cb0d55befb22c5c871f8457701ee228.jpg",
+  wring38:
+    "https://i.pinimg.com/736x/cf/73/39/cf7339dab9217b7119c7e02c443c37f1.jpg",
+  wring39:
+    "https://i.pinimg.com/1200x/2c/b0/d5/2cb0d55befb22c5c871f8457701ee228.jpg",
   wring40:
     "https://i.pinimg.com/736x/4b/f6/1e/4bf61e39ba6a0539fd8b4fc01b84d4af.jpg",
-  wring41: "https://i.pinimg.com/1200x/ea/ae/2a/eaae2aa54725b956be00577d1970d43a.jpg",
-  wring42: "https://i.pinimg.com/736x/0e/45/33/0e45338227fc4feea85ca142feaf3094.jpg",
+  wring41:
+    "https://i.pinimg.com/1200x/ea/ae/2a/eaae2aa54725b956be00577d1970d43a.jpg",
+  wring42:
+    "https://i.pinimg.com/736x/0e/45/33/0e45338227fc4feea85ca142feaf3094.jpg",
   wring43:
     "https://i.pinimg.com/736x/49/39/d4/4939d4aa44609c75a64f49be6dd98646.jpg",
-  wring44: "https://i.pinimg.com/control1/1200x/90/02/ad/9002ad0ac34c41050762813c10728e1b.jpg",
-  wring45: "https://i.pinimg.com/1200x/99/dd/c5/99ddc51d66ff098d6374611aa8f9211e.jpg",
+  wring44:
+    "https://i.pinimg.com/control1/1200x/90/02/ad/9002ad0ac34c41050762813c10728e1b.jpg",
+  wring45:
+    "https://i.pinimg.com/1200x/99/dd/c5/99ddc51d66ff098d6374611aa8f9211e.jpg",
   wring46:
     "https://i.pinimg.com/1200x/59/a0/65/59a0652308ebce6e6a24aa62bffbf639.jpg",
 };
@@ -5972,7 +6746,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Gurjar Pride Locket",
       desc: "A locket in 22K gold featuring traditional Gurjar community motifs.",
-      imgs: [I.gurjarlocket, I.gurjarlocket2, I.gurjarlocket3],
+      imgs: [I.gurjarlocket],
       features: [
         "22K Gold",
         "Gurjar Motif",
@@ -5983,13 +6757,13 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Gurjar Heritage Locket",
       desc: "Bold Gurjar warrior emblem cast in 22K gold — a locket of cultural pride.",
-      imgs: [I.gurjarlocket4, I.gurjarlocket5, I.gurjarlocket6],
+      imgs: [I.gurjarlocket4],
       features: ["22K Gold", "Heritage Design", "Deep Engraving", "Hallmarked"],
     },
     {
       name: "Gurjar Royal Crest Locket",
       desc: "A majestic Gurjar-inspired locket showcasing a royal crest design crafted in pure 22K gold.",
-      imgs: [I.gurjarlocket7, I.gurjarlocket8, I.gurjarlocket9],
+      imgs: [I.gurjarlocket7],
       features: [
         "22K Gold",
         "Royal Crest Design",
@@ -6000,7 +6774,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Gurjar Warrior Shield Locket",
       desc: "A bold gold locket inspired by the courage and strength of legendary Gurjar warriors.",
-      imgs: [I.gurjarlocket10, I.gurjarlocket11, I.gurjarlocket12],
+      imgs: [I.gurjarlocket10],
       features: [
         "22K Gold",
         "Warrior Shield Motif",
@@ -6011,7 +6785,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Gurjar Legacy Locket",
       desc: "A timeless tribute to Gurjar heritage, crafted with intricate detailing and cultural symbolism.",
-      imgs: [I.gurjarlocket13, I.gurjarlocket14, I.gurjarlocket15],
+      imgs: [I.gurjarlocket13],
       features: [
         "22K Gold",
         "Heritage Artwork",
@@ -6022,7 +6796,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Gurjar Rajputana Locket",
       desc: "An elegant locket inspired by Rajputana-era Gurjar traditions and royal identity.",
-      imgs: [I.gurjarlocket16, I.gurjarlocket17, I.gurjarlocket18],
+      imgs: [I.gurjarlocket16],
       features: [
         "22K Gold",
         "Rajputana Style",
@@ -6033,57 +6807,12 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Gurjar Unity Locket",
       desc: "A meaningful design symbolizing unity, pride, and the enduring spirit of the Gurjar community.",
-      imgs: [I.gurjarlocket19, I.gurjarlocket20, I.gurjarlocket21],
+      imgs: [I.gurjarlocket19],
       features: [
         "22K Gold",
         "Community Symbol",
         "Glossy Finish",
         "BIS Certified",
-      ],
-    },
-    {
-      name: "Gurjar Dynasty Locket",
-      desc: "A premium gold pendant reflecting the rich legacy and historical influence of Gurjar dynasties.",
-      imgs: [I.gurjarlocket22, I.gurjarlocket23, I.gurjarlocket24],
-      features: [
-        "22K Gold",
-        "Dynasty Emblem",
-        "Mirror Polish",
-        "Hallmarked Gold",
-      ],
-    },
-    {
-      name: "Gurjar Lion Crest Locket",
-      desc: "A striking lion-inspired crest locket representing bravery, leadership, and Gurjar pride.",
-      imgs: [I.gurjarlocket25, I.gurjarlocket26, I.gurjarlocket27],
-      features: [
-        "22K Gold",
-        "Lion Crest Design",
-        "Bold Appearance",
-        "Certified Purity",
-      ],
-    },
-    {
-      name: "Gurjar Heritage Seal Locket",
-      desc: "An artistic gold locket featuring a heritage seal motif inspired by traditional Gurjar culture.",
-      imgs: [I.gurjarlocket28, I.gurjarlocket29, I.gurjarlocket30],
-      features: ["22K Gold", "Seal Pattern", "Premium Detailing", "Gift Ready"],
-    },
-    {
-      name: "Gurjar Valor Locket",
-      desc: "A powerful pendant honoring the valor, resilience, and achievements of the Gurjar community.",
-      imgs: [I.gurjarlocket31, I.gurjarlocket32, I.gurjarlocket33],
-      features: ["22K Gold", "Valor Symbol", "Luxury Finish", "BIS Hallmarked"],
-    },
-    {
-      name: "Gurjar Crown Locket",
-      desc: "A regal Gurjar-themed locket featuring crown-inspired detailing for a distinguished look.",
-      imgs: [I.gurjarlocket34, I.gurjarlocket35, I.gurjarlocket36],
-      features: [
-        "22K Gold",
-        "Crown Motif",
-        "Handcrafted Design",
-        "Premium Quality",
       ],
     },
   ],
@@ -7632,31 +8361,31 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Light Jhumki",
       desc: "A smaller, everyday jhumki in 22K gold — easy to wear from morning to evening.",
-      imgs: [I.goldJhumki4,  ],
+      imgs: [I.goldJhumki4],
       features: ["22K Gold", "Lightweight", "Hook Back", "Daily Wear"],
     },
     {
       name: "Diamond Jhumki",
       desc: "A pair of 18K gold jhumkis with channel-set diamonds — understated sparkle.",
-      imgs: [I.goldJhumki7,  ],
+      imgs: [I.goldJhumki7],
       features: ["18K Gold", "Diamond Channel", "Push-back", "GIA Certified"],
     },
     {
       name: "Custom Engraved Jhumki",
       desc: "22K gold jhumkis that can be personalized with your own engraving — a truly unique piece.",
-      imgs: [I.goldJhumki10, ],
+      imgs: [I.goldJhumki10],
       features: ["22K Gold", "Custom Engraving", "Hook Back", "BIS Certified"],
     },
     {
       name: "Hammered Gold Jhumki",
       desc: "A hammered texture on a solid 22K gold jhumki — rugged yet refined.",
-      imgs: [I.goldJhumki13,  ],
+      imgs: [I.goldJhumki13],
       features: ["22K Gold", "Hammered Texture", "Hook Back", "BIS Certified"],
     },
     {
       name: "Black Rhodium Jhumki",
       desc: "22K gold jhumkis plated with black rhodium for a bold, contemporary look.",
-      imgs: [I.goldJhumki16, ],
+      imgs: [I.goldJhumki16],
       features: [
         "22K Gold",
         "Black Rhodium Plating",
@@ -7667,13 +8396,13 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Two-tone Gold Jhumki",
       desc: "22K gold jhumkis with a contrasting 18K gold inlay — a striking two-tone effect.",
-      imgs: [I.goldJhumki19, ],
+      imgs: [I.goldJhumki19],
       features: ["22K Gold", "18K Gold Inlay", "Hook Back", "BIS Certified"],
     },
     {
       name: "Geometric Pattern Jhumki",
       desc: "22K gold jhumkis engraved with geometric patterns for a modern aesthetic.",
-      imgs: [I.goldJhumki22, ],
+      imgs: [I.goldJhumki22],
       features: ["22K Gold", "Geometric Engraving", "Hook Back", "Hallmarked"],
     },
     {
@@ -7874,7 +8603,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Temple Pendant",
       desc: "A 22K gold pendant featuring a goddess motif, perfect for auspicious gifting.",
-      imgs: [I.goldwtn3,],
+      imgs: [I.goldwtn3],
       features: [
         "22K Gold",
         "Goddess Motif",
@@ -7885,7 +8614,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Temple Bracelet",
       desc: "A 22K gold bracelet with engraved temple motifs and intricate detailing.",
-      imgs: [I.goldwtn4,],
+      imgs: [I.goldwtn4],
       features: [
         "22K Gold",
         "Temple Engraving",
@@ -8035,7 +8764,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Bridal Payal",
       desc: "A pair of 22K gold anklets with intricate temple motifs and tiny bells.",
-      imgs: [I.goldpayal, I.goldpayal2, I.goldpayal3],
+      imgs: [I.goldpayal],
       features: [
         "22K Gold",
         "Temple Motifs",
@@ -8046,19 +8775,19 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Bridal Mangalsutra",
       desc: "A traditional 22K gold mangalsutra with black beads and diamond pendant.",
-      imgs: [I.goldmangalsutra, I.goldmangalsutra2, I.goldmangalsutra3],
+      imgs: [I.goldmangalsutra],
       features: ["22K Gold", "Black Beads", "Diamond Pendant", "BIS Certified"],
     },
     {
       name: "Bridal Maang Tikka",
       desc: "A 22K gold maang tikka with polki diamonds and pearl drops for the bride.",
-      imgs: [I.goldmaangtikka, I.goldmaangtikka2, I.goldmaangtikka3],
+      imgs: [I.goldmaangtikka],
       features: ["22K Gold", "Polki Diamonds", "Pearl Drops", "BIS Certified"],
     },
     {
       name: "Bridal Earrings",
       desc: "A pair of 22K gold earrings with intricate filigree and gemstone accents.",
-      imgs: [I.goldbridale, I.goldbridale2, I.goldbridale3],
+      imgs: [I.goldbridale],
       features: [
         "22K Gold",
         "Filigree Work",
@@ -8069,7 +8798,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Bridal Ring",
       desc: "A 22K gold ring with a large central gemstone and intricate detailing for the bride.",
-      imgs: [I.goldbridalr, I.goldbridalr2, I.goldbridalr3],
+      imgs: [I.goldbridalr],
       features: [
         "22K Gold",
         "Gemstone Centerpiece",
@@ -8080,60 +8809,16 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Bridal Hair Accessories",
       desc: "A set of 22K gold hairpins and clips with floral motifs for bridal hairstyles.",
-      imgs: [I.goldbridalh, I.goldbridalh2, I.goldbridalh3],
+      imgs: [I.goldbridalh],
       features: ["22K Gold", "Floral Motifs", "Set of 5", "BIS Certified"],
     },
     {
       name: "Bridal Waist Belt",
       desc: "A 22K gold kamarbandh with intricate temple motifs and adjustable fit for bridal wear.",
-      imgs: [I.goldbridalw, I.goldbridalw2, I.goldbridalw3],
+      imgs: [I.goldbridalw],
       features: [
         "22K Gold",
         "Temple Motifs",
-        "Adjustable Fit",
-        "BIS Certified",
-      ],
-    },
-    {
-      name: "Bridal Nose Ring",
-      desc: "A large 22K gold nath with pearl and gemstone drops for the bride.",
-      imgs: [I.goldbridaln, I.goldbridaln2, I.goldbridaln3],
-      features: [
-        "22K Gold",
-        "Pearl & Gemstone",
-        "Chain Support",
-        "BIS Certified",
-      ],
-    },
-    {
-      name: "Bridal Anklet Set",
-      desc: "A pair of 22K gold anklets with intricate designs and tiny bells for bridal wear.",
-      imgs: [I.goldbridala, I.goldbridala2, I.goldbridala3],
-      features: [
-        "22K Gold",
-        "Intricate Design",
-        "Adjustable Length",
-        "BIS Certified",
-      ],
-    },
-    {
-      name: "Bridal Hair Chain",
-      desc: "A 22K gold hair chain with deity motifs and delicate links for bridal hairstyles.",
-      imgs: [I.goldbridalhc, I.goldbridalhc2, I.goldbridalhc3],
-      features: [
-        "22K Gold",
-        "Deity Motifs",
-        "Delicate Links",
-        "Bridal Accessory",
-      ],
-    },
-    {
-      name: "Bridal Toe Ring",
-      desc: "A 22K gold toe ring with engraved temple motifs — a traditional accessory for married women.",
-      imgs: [I.goldbridalt, I.goldbridalt2, I.goldbridalt3],
-      features: [
-        "22K Gold",
-        "Temple Engraving",
         "Adjustable Fit",
         "BIS Certified",
       ],
@@ -8167,7 +8852,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Kids Anklet",
       desc: "A small 18K gold anklet with bell charms — jingling joy for little feet.",
-      imgs: [I.goldkan, I.goldkan2, I.goldkan3],
+      imgs: [I.goldkan],
       features: [
         "18K Gold",
         "Bell Charms",
@@ -8178,13 +8863,13 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Kids Nose Pin",
       desc: "A petite 18K gold nose pin with a floral motif — delicate and safe for children.",
-      imgs: [I.goldknp, I.goldknp2, I.goldknp3],
+      imgs: [I.goldknp],
       features: ["18K Gold", "Floral Motif", "Push-pin Back", "BIS Certified"],
     },
     {
       name: "Kids Pendant",
       desc: "A charming 18K gold pendant in the shape of a teddy bear — a gift to treasure.",
-      imgs: [I.goldkpe, I.goldkpe2, I.goldkpe3],
+      imgs: [I.goldkpe],
       features: [
         "18K Gold",
         "Teddy Bear Shape",
@@ -8195,19 +8880,19 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Kids Hairpin",
       desc: "A small 18K gold hairpin with a star design — perfect for little girls' hairstyles.",
-      imgs: [I.goldkhp, I.goldkhp2, I.goldkhp3],
+      imgs: [I.goldkhp],
       features: ["18K Gold", "Star Design", "Secure Grip", "BIS Certified"],
     },
     {
       name: "Kids Toe Ring",
       desc: "A tiny 18K gold toe ring with a heart motif — a keepsake for little feet.",
-      imgs: [I.goldkto, I.goldkto2, I.goldkto3],
+      imgs: [I.goldkto],
       features: ["18K Gold", "Heart Motif", "Adjustable Fit", "BIS Certified"],
     },
     {
       name: "Kids Hair Clip",
       desc: "A small 18K gold hair clip with a butterfly design — delicate and secure.",
-      imgs: [I.goldkhc, I.goldkhc2, I.goldkhc3],
+      imgs: [I.goldkhc],
       features: [
         "18K Gold",
         "Butterfly Design",
@@ -8218,56 +8903,17 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Kids Cuff Bracelet",
       desc: "A tiny 18K gold cuff bracelet with a star motif — adjustable and safe for children.",
-      imgs: [I.goldkcu, I.goldkcu2, I.goldkcu3],
+      imgs: [I.goldkcu],
       features: ["18K Gold", "Star Motif", "Adjustable Fit", "BIS Certified"],
     },
     {
       name: "Kids Charm Necklace",
       desc: "A delicate 18K gold necklace with a heart-shaped charm — a keepsake for little ones.",
-      imgs: [I.goldkchm, I.goldkchm2, I.goldkchm3],
+      imgs: [I.goldkchm],
       features: [
         "18K Gold",
         "Heart-shaped Charm",
         "Adjustable Length",
-        "BIS Certified",
-      ],
-    },
-    {
-      name: "Kids ID Bracelet",
-      desc: "A small 18K gold ID bracelet with an engravable plate — a personal touch for children.",
-      imgs: [I.goldkid, I.goldkid2, I.goldkid3],
-      features: [
-        "18K Gold",
-        "Engravable Plate",
-        "Adjustable Fit",
-        "BIS Certified",
-      ],
-    },
-    {
-      name: "Kids Anklet with Bells",
-      desc: "A tiny 18K gold anklet with bell charms — jingling joy for little feet.",
-      imgs: [I.goldkanb, I.goldkanb2, I.goldkanb3],
-      features: [
-        "18K Gold",
-        "Bell Charms",
-        "Adjustable Length",
-        "BIS Certified",
-      ],
-    },
-    {
-      name: "Kids Hair Band",
-      desc: "A small 18K gold hair band with a floral motif — delicate and secure for little girls.",
-      imgs: [I.goldkha, I.goldkha2, I.goldkha3],
-      features: ["18K Gold", "Floral Motif", "Secure Fit", "BIS Certified"],
-    },
-    {
-      name: "Kids Toe Ring with Gemstone",
-      desc: "A tiny 18K gold toe ring with a small gemstone — a keepsake for little feet.",
-      imgs: [I.goldkto2, I.goldkto3, I.goldkto4],
-      features: [
-        "18K Gold",
-        "Gemstone Accent",
-        "Adjustable Fit",
         "BIS Certified",
       ],
     },
@@ -9057,7 +9703,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Filigree Silver Ring",
       desc: "Gossamer-thin silver wire woven into a delicate filigree ring.",
-      imgs: [I.silverwri, I.silverwri3, I.silverwri2],
+      imgs: [I.silverwri],
       features: [
         "92.5 Silver",
         "Cuttack Filigree",
@@ -9068,7 +9714,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Stone-set Silver Ring",
       desc: "A 92.5 silver ring set with a cushion-cut amethyst — colour and craft.",
-      imgs: [I.silverwri6, I.silverwri5, I.silverwri4],
+      imgs: [I.silverwri6],
       features: [
         "92.5 Silver",
         "Amethyst Stone",
@@ -9079,7 +9725,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Oxidised Silver Ring",
       desc: "A bold oxidised silver ring with tribal etching — statement piece for the modern woman.",
-      imgs: [I.silverwri7, I.silverwri8, I.silverwri9],
+      imgs: [I.silverwri7],
       features: [
         "92.5 Silver",
         "Oxidised Finish",
@@ -9090,7 +9736,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Engraved Silver Ring",
       desc: "A sterling silver ring engraved with a geometric pattern — contemporary and stylish.",
-      imgs: [I.silverwri10, I.silverwri11, I.silverwri12],
+      imgs: [I.silverwri10],
       features: [
         "92.5 Silver",
         "Geometric Engraving",
@@ -9101,13 +9747,13 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Silver Cuff Ring",
       desc: "A wide sterling silver cuff ring with a brushed finish — bold and feminine.",
-      imgs: [I.silverwri13, I.silverwri14, I.silverwri15],
+      imgs: [I.silverwri13],
       features: ["92.5 Silver", "Brushed Finish", "Wide Cuff", "BIS Certified"],
     },
     {
       name: "Silver Tribal Ring",
       desc: "A sterling silver ring with tribal-inspired motifs — edgy and distinctive.",
-      imgs: [I.silverwri16, I.silverwri17, I.silverwri18],
+      imgs: [I.silverwri16],
       features: [
         "92.5 Silver",
         "Tribal Motifs",
@@ -9118,7 +9764,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Silver Hammered Ring",
       desc: "A sterling silver ring with a hammered texture — rugged yet refined.",
-      imgs: [I.silverwri19, I.silverwri20, I.silverwri21],
+      imgs: [I.silverwri19],
       features: [
         "92.5 Silver",
         "Hammered Texture",
@@ -9129,7 +9775,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Silver Rope Edge Ring",
       desc: "A sterling silver ring with a rope-edge design — classic and timeless.",
-      imgs: [I.silverwri22, I.silverwri23, I.silverwri24],
+      imgs: [I.silverwri22],
       features: [
         "92.5 Silver",
         "Rope Edge",
@@ -9140,7 +9786,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Silver Oxidised Ring",
       desc: "A sterling silver ring with an oxidised finish and engraved detailing — bold and contemporary.",
-      imgs: [I.silverwri25, I.silverwri26, I.silverwri27],
+      imgs: [I.silverwri25],
       features: [
         "92.5 Silver",
         "Oxidised Finish",
@@ -9151,13 +9797,13 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Silver Cuff Ring",
       desc: "A wide sterling silver cuff ring with a brushed finish — bold and feminine.",
-      imgs: [I.silverwri28, I.silverwri29, I.silverwri30],
+      imgs: [I.silverwri28],
       features: ["92.5 Silver", "Brushed Finish", "Wide Cuff", "BIS Certified"],
     },
     {
       name: "Silver Tribal Ring",
       desc: "A sterling silver ring with tribal-inspired motifs — edgy and distinctive.",
-      imgs: [I.silverwri31, I.silverwri32, I.silverwri33],
+      imgs: [I.silverwri31],
       features: [
         "92.5 Silver",
         "Tribal Motifs",
@@ -9168,50 +9814,11 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Silver Hammered Ring",
       desc: "A sterling silver ring with a hammered texture — rugged yet refined.",
-      imgs: [I.silverwri34, I.silverwri35, I.silverwri36],
+      imgs: [I.silverwri34],
       features: [
         "92.5 Silver",
         "Hammered Texture",
         "Polished Finish",
-        "BIS Certified",
-      ],
-    },
-    {
-      name: "Silver Rope Edge Ring",
-      desc: "A sterling silver ring with a rope-edge design — classic and timeless.",
-      imgs: [I.silverwri37, I.silverwri38, I.silverwri39],
-      features: [
-        "92.5 Silver",
-        "Rope Edge",
-        "Polished Finish",
-        "BIS Certified",
-      ],
-    },
-    {
-      name: "Silver Oxidised Ring",
-      desc: "A sterling silver ring with an oxidised finish and engraved detailing — bold and contemporary.",
-      imgs: [I.silverwri40, I.silverwri41, I.silverwri42],
-      features: [
-        "92.5 Silver",
-        "Oxidised Finish",
-        "Engraved Detailing",
-        "BIS Certified",
-      ],
-    },
-    {
-      name: "Silver Cuff Ring",
-      desc: "A wide sterling silver cuff ring with a brushed finish — bold and feminine.",
-      imgs: [I.silverwri43, I.silverwri44, I.silverwri45],
-      features: ["92.5 Silver", "Brushed Finish", "Wide Cuff", "BIS Certified"],
-    },
-    {
-      name: "Silver Tribal Ring",
-      desc: "A sterling silver ring with tribal-inspired motifs — edgy and distinctive.",
-      imgs: [I.silverwri46, I.silverwri47, I.silverwri48],
-      features: [
-        "92.5 Silver",
-        "Tribal Motifs",
-        "Oxidised Finish",
         "BIS Certified",
       ],
     },
@@ -9417,10 +10024,6 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silverwerr34, I.silverwerr35, I.silverwerr36],
       features: ["92.5 Silver", "Geometric Design", "Hook Back", "Hallmarked"],
     },
-
-
-
- 
   ],
   "silver/womens/jhumke": [
     {
@@ -9826,7 +10429,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Oxidised Silver Bracelet",
       desc: "A bold oxidised silver bracelet with tribal motifs — statement piece for the modern woman.",
-      imgs: [I.silverwb7, I.silverwb8, I.silverwb9],
+      imgs: [I.silverwb7],
       features: [
         "92.5 Silver",
         "Oxidised Finish",
@@ -9837,7 +10440,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Silver Bangle Set",
       desc: "A set of three polished silver bangles — classic, versatile, and timeless.",
-      imgs: [I.silverwb10, I.silverwb11, I.silverwb12],
+      imgs: [I.silverwb10],
       features: [
         "92.5 Silver",
         "3-piece Set",
@@ -9848,13 +10451,13 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Silver Cuff Bracelet",
       desc: "A wide sterling silver cuff bracelet with a brushed finish — bold and feminine.",
-      imgs: [I.silverwb13, I.silverwb14, I.silverwb15],
+      imgs: [I.silverwb13],
       features: ["92.5 Silver", "Brushed Finish", "Wide Cuff", "BIS Certified"],
     },
     {
       name: "Silver Beaded Bracelet",
       desc: "A delicate silver bracelet adorned with tiny beads — playful and traditional.",
-      imgs: [I.silverwb16, I.silverwb17, I.silverwb18],
+      imgs: [I.silverwb16],
       features: [
         "92.5 Silver",
         "Beaded Design",
@@ -9865,7 +10468,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Silver Pearl Bracelet",
       desc: "An elegant silver bracelet with freshwater pearls — classic and feminine.",
-      imgs: [I.silverwb19, I.silverwb20, I.silverwb21],
+      imgs: [I.silverwb19],
       features: [
         "92.5 Silver",
         "Freshwater Pearls",
@@ -9876,7 +10479,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Silver Filigree Bracelet",
       desc: "Intricate Cuttack filigree silver bracelet — lightweight and elegant.",
-      imgs: [I.silverwb22, I.silverwb23, I.silverwb24],
+      imgs: [I.silverwb22],
       features: [
         "92.5 Silver",
         "Cuttack Filigree",
@@ -9887,13 +10490,13 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Silver Charm Bracelet",
       desc: "A fine silver chain bracelet with five traditional charm drops.",
-      imgs: [I.silverwb25, I.silverwb26, I.silverwb27],
+      imgs: [I.silverwb25],
       features: ["92.5 Silver", "5 Charms", "Lobster Clasp", "Customisable"],
     },
     {
       name: "Oxidised Silver Bracelet",
       desc: "A bold oxidised silver bracelet with tribal motifs — statement piece for the modern  woman.",
-      imgs: [I.silverwb28, I.silverwb29, I.silverwb30],
+      imgs: [I.silverwb28],
       features: [
         "92.5 Silver",
         "Oxidised Finish",
@@ -9904,7 +10507,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Silver Bangle Set",
       desc: "A set of three polished silver bangles — classic, versatile, and timeless.",
-      imgs: [I.silverwb31, I.silverwb32, I.silverwb33],
+      imgs: [I.silverwb31],
       features: [
         "92.5 Silver",
         "3-piece Set",
@@ -9915,7 +10518,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Silver Cuff Bracelet",
       desc: "A wide sterling silver cuff bracelet with a brushed finish — bold and feminine.",
-      imgs: [I.silverwb34, I.silverwb35, I.silverwb36],
+      imgs: [I.silverwb34],
       features: ["92.5 Silver", "Brushed Finish", "Wide Cuff", "BIS Certified"],
     },
   ],
@@ -9941,7 +10544,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Oxidised Silver Kada",
       desc: "A bold oxidised silver kada with tribal etching — statement piece for the modern woman.",
-      imgs: [I.silverwka7, I.silverwka8, I.silverwka9],
+      imgs: [I.silverwka7],
       features: [
         "92.5 Silver",
         "Oxidised Finish",
@@ -9952,7 +10555,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Engraved Silver Kada",
       desc: "A sterling silver kada engraved with geometric patterns — contemporary and stylish.",
-      imgs: [I.silverwka10, I.silverwka11, I.silverwka12],
+      imgs: [I.silverwka10],
       features: [
         "92.5 Silver",
         "Geometric Engraving",
@@ -9963,49 +10566,49 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Silver Kada with Gemstone",
       desc: "A sterling silver kada set with a small gemstone — subtle sparkle for everyday wear.",
-      imgs: [I.silverwka13, I.silverwka14, I.silverwka15],
+      imgs: [I.silverwka13],
       features: ["92.5 Silver", "Gemstone Accent", "Open Cuff", "Adjustable"],
     },
     {
       name: "Silver Kada with Beads",
       desc: "A delicate silver kada adorned with tiny beads — playful and traditional.",
-      imgs: [I.silverwka16, I.silverwka17, I.silverwka18],
+      imgs: [I.silverwka16],
       features: ["92.5 Silver", "Beaded Design", "Open Cuff", "Adjustable"],
     },
     {
       name: "Silver Kada with Filigree",
       desc: "A delicate Cuttack filigree silver kada — intricate, lightweight, and timeless.",
-      imgs: [I.silverwka19, I.silverwka20, I.silverwka21],
+      imgs: [I.silverwka19],
       features: ["92.5 Silver", "Cuttack Filigree", "Open Cuff", "Lightweight"],
     },
     {
       name: "Silver Kada with Pearl",
       desc: "A sterling silver kada with a small freshwater pearl — classic and feminine.",
-      imgs: [I.silverwka22, I.silverwka23, I.silverwka24],
+      imgs: [I.silverwka22],
       features: ["92.5 Silver", "Freshwater Pearl", "Open Cuff", "Adjustable"],
     },
     {
       name: "Silver Kada with Tassel",
       desc: "A sterling silver kada with a tiny tassel — playful and unique.",
-      imgs: [I.silverwka25, I.silverwka26, I.silverwka27],
+      imgs: [I.silverwka25],
       features: ["92.5 Silver", "Tassel Accent", "Open Cuff", "Adjustable"],
     },
     {
       name: "Silver Kada with Leaf Motif",
       desc: "A sterling silver kada with a leaf motif — nature-inspired elegance.",
-      imgs: [I.silverwka28, I.silverwka29, I.silverwka30],
+      imgs: [I.silverwka28],
       features: ["92.5 Silver", "Leaf Motif", "Open Cuff", "Adjustable"],
     },
     {
       name: "Silver Kada with Geometric Design",
       desc: "A sterling silver kada with a geometric pattern — contemporary and stylish.",
-      imgs: [I.silverwka31, I.silverwka32, I.silverwka33],
+      imgs: [I.silverwka31],
       features: ["92.5 Silver", "Geometric Design", "Open Cuff", "Adjustable"],
     },
     {
       name: "Silver Kada with Tribal Etching",
       desc: "A sterling silver kada with tribal etching — bold and distinctive.",
-      imgs: [I.silverwka34, I.silverwka35, I.silverwka36],
+      imgs: [I.silverwka34],
       features: ["92.5 Silver", "Tribal Etching", "Open Cuff", "Adjustable"],
     },
   ],
@@ -10089,47 +10692,13 @@ const PRODUCT_TEMPLATES = {
       imgs: [I.silverwpe22, I.silverwpe23, I.silverwpe24],
       features: ["92.5 Silver", "Heart Shape", "High-polish", "Hypoallergenic"],
     },
-    {
-      name: "Silver Star Pendant",
-      desc: "A star-shaped pendant in sterling silver — guidance, hope, and brilliance.",
-      imgs: [I.silverwpe25, I.silverwpe26, I.silverwpe27],
-      features: ["92.5 Silver", "Star Shape", "High-polish", "Hypoallergenic"],
-    },
-    {
-      name: "Silver Moon Pendant",
-      desc: "A crescent moon pendant in 92.5 silver — mystery, intuition, and serenity.",
-      imgs: [I.silverwpe28, I.silverwpe29, I.silverwpe30],
-      features: [
-        "92.5 Silver",
-        "Crescent Moon",
-        "High-polish",
-        "Hypoallergenic",
-      ],
-    },
-    {
-      name: "Silver Sun Pendant",
-      desc: "A sunburst pendant in sterling silver — energy, vitality, and radiance.",
-      imgs: [I.silverwpe31, I.silverwpe32, I.silverwpe33],
-      features: [
-        "92.5 Silver",
-        "Sunburst Design",
-        "High-polish",
-        "Hypoallergenic",
-      ],
-    },
-    {
-      name: "Silver Key Pendant",
-      desc: "A key-shaped pendant in polished silver — unlocking possibilities and dreams.",
-      imgs: [I.silverwpe34, I.silverwpe35, I.silverwpe36],
-      features: ["92.5 Silver", "Key Shape", "High-polish", "Hypoallergenic"],
-    },
   ],
 
   "silver/kids": [
     {
       name: "Baby Chanda Suraj Set",
       desc: "Chanda and Suraj motif set in 92.5 silver — a sacred gift for newborns.",
-      imgs: [I.silverk1, I.silverk2, I.silverk3],
+      imgs: [I.silverk1],
       features: [
         "92.5 Silver",
         "Chanda Suraj Motif",
@@ -10140,7 +10709,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Kids Silver Kada",
       desc: "A small 92.5 silver kada for children — safe, light and beautifully crafted.",
-      imgs: [I.silverk4, I.silverk5, I.silverk6],
+      imgs: [I.silverk4],
       features: [
         "92.5 Silver",
         "Child-safe Design",
@@ -10151,7 +10720,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Kids Silver Bracelet",
       desc: "A delicate 92.5 silver bracelet for children — adjustable and charming.",
-      imgs: [I.silverk7, I.silverk8, I.silverk9],
+      imgs: [I.silverk7],
       features: [
         "92.5 Silver",
         "Adjustable Design",
@@ -10162,7 +10731,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Kids Silver Necklace",
       desc: "A small 92.5 silver necklace for children — safe, light and beautifully crafted.",
-      imgs: [I.silverk10, I.silverk11, I.silverk12],
+      imgs: [I.silverk10],
       features: [
         "92.5 Silver",
         "Child-safe Design",
@@ -10173,7 +10742,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Kids Silver Earrings",
       desc: "A pair of 92.5 silver earrings for children — safe, light and beautifully crafted.",
-      imgs: [I.silverk13, I.silverk14, I.silverk15],
+      imgs: [I.silverk13],
       features: [
         "92.5 Silver",
         "Child-safe Design",
@@ -10184,7 +10753,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Kids Silver Anklet",
       desc: "A small 92.5 silver anklet for children — safe, light and beautifully crafted.",
-      imgs: [I.silverk16, I.silverk17, I.silverk18],
+      imgs: [I.silverk16],
       features: [
         "92.5 Silver",
         "Child-safe Design",
@@ -10195,7 +10764,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Kids Silver Ring",
       desc: "A small 92.5 silver ring for children — safe, light and beautifully crafted.",
-      imgs: [I.silverk19, I.silverk20, I.silverk21],
+      imgs: [I.silverk19],
       features: [
         "92.5 Silver",
         "Child-safe Design",
@@ -10206,7 +10775,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Kids Silver Toe Ring",
       desc: "A small 92.5 silver toe ring for children — safe, light and beautifully crafted.",
-      imgs: [I.silverk22, I.silverk23, I.silverk24],
+      imgs: [I.silverk22],
       features: [
         "92.5 Silver",
         "Child-safe Design",
@@ -10217,7 +10786,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Kids Silver Pendant",
       desc: "A small 92.5 silver pendant for children — safe, light and beautifully crafted.",
-      imgs: [I.silverk25, I.silverk26, I.silverk27],
+      imgs: [I.silverk25],
       features: [
         "92.5 Silver",
         "Child-safe Design",
@@ -10228,7 +10797,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Kids Silver Nose Pin",
       desc: "A small 92.5 silver nose pin for children — safe, light and beautifully crafted.",
-      imgs: [I.silverk28, I.silverk29, I.silverk30],
+      imgs: [I.silverk28],
       features: [
         "92.5 Silver",
         "Child-safe Design",
@@ -10239,7 +10808,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Kids Silver Hair Accessory",
       desc: "A small 92.5 silver hair accessory for children — safe, light and beautifully crafted.",
-      imgs: [I.silverk31, I.silverk32, I.silverk33],
+      imgs: [I.silverk31],
       features: [
         "92.5 Silver",
         "Child-safe Design",
@@ -10250,7 +10819,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Kids Silver Anklet with Charms",
       desc: "A small 92.5 silver anklet with charms for children — safe, light and beautifully crafted.",
-      imgs: [I.silverk34, I.silverk35, I.silverk36],
+      imgs: [I.silverk34],
       features: [
         "92.5 Silver",
         "Child-safe Design",
@@ -10264,25 +10833,25 @@ const PRODUCT_TEMPLATES = {
     {
       name: "5 Gram Silver Coin",
       desc: "999 pure silver coin with Lakshmi motif — an auspicious gifting tradition.",
-      imgs: [I.silverc1, I.silverc2, I.silverc3],
+      imgs: [I.silverc1],
       features: ["999 Pure Silver", "Lakshmi Motif", "5 Gram", "Gift Box"],
     },
     {
       name: "10 Gram Silver Coin",
       desc: "A 999 pure silver coin in a tamper-proof capsule with BIS certification.",
-      imgs: [I.silverc4, I.silverc6, I.silverc5],
+      imgs: [I.silverc4],
       features: ["999 Pure Silver", "10 Gram", "Tamper-proof", "BIS Certified"],
     },
     {
       name: "25 Gram Silver Coin",
       desc: "A 999 pure silver coin with a traditional Indian motif — perfect for gifting.",
-      imgs: [I.silverc7, I.silverc8, I.silverc9],
+      imgs: [I.silverc7],
       features: ["999 Pure Silver", "25 Gram", "Traditional Motif", "Gift Box"],
     },
     {
       name: "50 Gram Silver Coin",
       desc: "A 999 pure silver coin with a contemporary design — a modern take on a classic tradition.",
-      imgs: [I.silverc10, I.silverc11, I.silverc12],
+      imgs: [I.silverc10],
       features: [
         "999 Pure Silver",
         "50 Gram",
@@ -10293,7 +10862,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "100 Gram Silver Coin",
       desc: "A 999 pure silver coin with a commemorative design — a collector's delight.",
-      imgs: [I.silverc13, I.silverc14, I.silverc15],
+      imgs: [I.silverc13],
       features: [
         "999 Pure Silver",
         "100 Gram",
@@ -10304,7 +10873,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Silver Coin Set",
       desc: "A set of three 999 pure silver coins with auspicious motifs — a perfect gift for any occasion.",
-      imgs: [I.silverc16, I.silverc17, I.silverc18],
+      imgs: [I.silverc16],
       features: [
         "999 Pure Silver",
         "3-piece Set",
@@ -10315,21 +10884,21 @@ const PRODUCT_TEMPLATES = {
     {
       name: "20 Gram Silver Coin",
       desc: "A 999 pure silver coin crafted with an elegant floral design, perfect for festive gifting and investment.",
-      imgs: [I.silverc19, I.silverc20, I.silverc21],
+      imgs: [I.silverc19],
       features: ["999 Pure Silver", "20 Gram", "Floral Design", "Gift Box"],
     },
 
     {
       name: "30 Gram Silver Coin",
       desc: "Premium 999 pure silver coin featuring a beautifully engraved Om symbol for auspicious occasions.",
-      imgs: [I.silverc22, I.silverc23, I.silverc24],
+      imgs: [I.silverc22],
       features: ["999 Pure Silver", "30 Gram", "Om Design", "Premium Finish"],
     },
 
     {
       name: "Lakshmi Ganesh Silver Coin",
       desc: "Traditional 999 pure silver coin with Lakshmi and Ganesh engraving, ideal for Diwali gifting.",
-      imgs: [I.silverc25, I.silverc26, I.silverc27],
+      imgs: [I.silverc25],
       features: [
         "999 Pure Silver",
         "Lakshmi Ganesh",
@@ -10341,7 +10910,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Ganesh Silver Coin",
       desc: "Beautifully engraved Lord Ganesh silver coin made from 999 pure silver with a premium finish.",
-      imgs: [I.silverc28, I.silverc29, I.silverc30],
+      imgs: [I.silverc28],
       features: [
         "999 Pure Silver",
         "Ganesh Motif",
@@ -10353,14 +10922,14 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Om Silver Coin",
       desc: "A sacred Om engraved silver coin crafted in 999 pure silver for gifting and worship.",
-      imgs: [I.silverc31, I.silverc32, I.silverc33],
+      imgs: [I.silverc31],
       features: ["999 Pure Silver", "Om Symbol", "Elegant Design", "Gift Box"],
     },
 
     {
       name: "Shree Silver Coin",
       desc: "999 pure silver coin featuring the auspicious Shree symbol with a mirror-polished finish.",
-      imgs: [I.silverc34, I.silverc35, I.silverc36],
+      imgs: [I.silverc34],
       features: [
         "999 Pure Silver",
         "Shree Symbol",
@@ -10374,31 +10943,31 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Silver Gift Set — Pooja",
       desc: "A curated pooja gift set in 92.5 silver — diya, spoon, and bowl with box.",
-      imgs: [I.silverg, I.silverg2, I.silverg3],
+      imgs: [I.silverg],
       features: ["92.5 Silver", "3-piece Set", "Pooja Items", "Gift Wrapped"],
     },
     {
       name: "Silver Showpiece",
       desc: "A handcrafted silver showpiece depicting a traditional Indian motif.",
-      imgs: [I.silverg4, I.silverg5, I.silverg6],
+      imgs: [I.silverg4],
       features: ["92.5 Silver", "Handcrafted", "Display Stand", "Gift Box"],
     },
     {
       name: "Silver Baby Gift Set",
       desc: "A premium 92.5 silver baby gift set including a bowl, spoon, and glass, beautifully packed for special occasions.",
-      imgs: [I.silverg7, I.silverg8, I.silverg9],
+      imgs: [I.silverg7],
       features: ["92.5 Silver", "Baby Gift", "3-piece Set", "Gift Box"],
     },
     {
       name: "Silver Bowl Set",
       desc: "Elegant handcrafted silver bowls ideal for serving sweets or gifting during festivals.",
-      imgs: [I.silverg10, I.silverg11, I.silverg12],
+      imgs: [I.silverg10],
       features: ["92.5 Silver", "Handcrafted", "Premium Finish", "Gift Box"],
     },
     {
       name: "Silver Diya Set",
       desc: "Traditional silver diya set designed for pooja ceremonies and festive celebrations.",
-      imgs: [I.silverg13, I.silverg14, I.silverg15],
+      imgs: [I.silverg13],
       features: [
         "92.5 Silver",
         "Pair of Diyas",
@@ -10409,7 +10978,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Silver Glass",
       desc: "Pure silver drinking glass crafted with a polished finish for everyday elegance.",
-      imgs: [I.silverg16, I.silverg17, I.silverg18],
+      imgs: [I.silverg16],
       features: [
         "92.5 Silver",
         "Polished Finish",
@@ -10420,13 +10989,13 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Silver Spoon Set",
       desc: "A beautifully crafted silver spoon set perfect for gifting and everyday use.",
-      imgs: [I.silverg19, I.silverg20, I.silverg21],
+      imgs: [I.silverg19],
       features: ["92.5 Silver", "Set of 6", "Elegant Design", "Gift Box"],
     },
     {
       name: "Silver Plate",
       desc: "Premium silver plate with intricate craftsmanship, suitable for pooja and gifting.",
-      imgs: [I.silverg22, I.silverg23, I.silverg24],
+      imgs: [I.silverg22],
       features: [
         "92.5 Silver",
         "Traditional Design",
@@ -10437,7 +11006,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Silver Kalash",
       desc: "Traditional silver kalash handcrafted for pooja rituals and auspicious occasions.",
-      imgs: [I.silverg25, I.silverg26, I.silverg27],
+      imgs: [I.silverg25],
       features: [
         "92.5 Silver",
         "Traditional Design",
@@ -10448,13 +11017,13 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Silver Dry Fruit Box",
       desc: "Luxury silver dry fruit box featuring elegant craftsmanship for festive gifting.",
-      imgs: [I.silverg28, I.silverg29, I.silverg30],
+      imgs: [I.silverg28],
       features: ["92.5 Silver", "Luxury Box", "Festival Gift", "Handcrafted"],
     },
     {
       name: "Silver Photo Frame",
       desc: "Beautiful silver-plated photo frame designed to preserve your cherished memories.",
-      imgs: [I.silverg31, I.silverg32, I.silverg33],
+      imgs: [I.silverg31],
       features: [
         "Silver Finish",
         "Premium Frame",
@@ -10465,7 +11034,7 @@ const PRODUCT_TEMPLATES = {
     {
       name: "Silver Idol — Lakshmi",
       desc: "Handcrafted silver Lakshmi idol for worship and festive gifting.",
-      imgs: [I.silverg34, I.silverg35, I.silverg36],
+      imgs: [I.silverg34],
       features: ["92.5 Silver", "Lakshmi Idol", "Handcrafted", "Gift Box"],
     },
   ],
